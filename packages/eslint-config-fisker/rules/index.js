@@ -66,7 +66,7 @@ module.exports = {
         message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       }
     ],
-    //
+    // allow return assign in parents
     'no-return-assign': [
       'error',
       'except-parens'
