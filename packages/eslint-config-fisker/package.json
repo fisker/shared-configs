@@ -1,0 +1,37 @@
+{
+  "name": "@xwtec/eslint-config",
+  "version": "1.0.2",
+  "description": "xwtec eslint lint config.",
+  "main": "index.js",
+  "keywords": [
+    "xwtec",
+    "eslint",
+    "config"
+  ],
+  "files": [
+    "index.js",
+    "no-semi.js",
+    "legacy/index.js",
+    "legacy/no-semi.js",
+    "rules/index.js",
+    "rules/semi.js",
+    "rules/no-semi.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "release": "np --no-yarn --no-cleanup"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-base": "^13.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": "xwtec/eslint-config",
+  "devDependencies": {
+    "np": "^3.1.0"
+  }
+}
