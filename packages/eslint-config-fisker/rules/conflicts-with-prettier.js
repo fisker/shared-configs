@@ -22,6 +22,11 @@ module.exports = {
         }
       }
     ],
+    // no space in object
+    'object-curly-spacing': [
+      'error',
+      'never'
+    ],
     // warn indent
     indent: 'warn'
   }
