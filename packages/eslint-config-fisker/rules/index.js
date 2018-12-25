@@ -24,6 +24,10 @@ module.exports = {
     ],
     // warn indent
     indent: 'warn',
+    // allow variable declarations from shadowing variables declared in the outer scope
+    'no-shadow': 'off',
+    // allow multi assign
+    'no-multi-assign': 'off',
     // allow unnamed function
     'func-names': 'off',
     // allow unused vars
