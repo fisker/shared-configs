@@ -14,6 +14,7 @@
     "legacy/index.js",
     "legacy/no-semi.js",
     "rules/index.js",
+    "rules/conflicts-with-prettier.js",
     "rules/semi.js",
     "rules/no-semi.js",
     "README.md",
