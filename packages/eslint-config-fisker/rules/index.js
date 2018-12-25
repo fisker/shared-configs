@@ -39,7 +39,12 @@ module.exports = {
     // allow param reassign
     'no-param-reassign': 'off',
     // allow function returns no value
-    'consistent-return': 'off',
+    'consistent-return': [
+      'error',
+      {
+        treatUndefinedAsUnspecified: true
+      }
+    ],
     // allow empty catch
     'no-empty': [
       'error',
