@@ -9,7 +9,7 @@ module.exports = {
   extends: [
     '@xwtec'
   ]
-}
+};
 ```
 
 no-semi
@@ -29,7 +29,7 @@ module.exports = {
   extends: [
     '@xwtec/eslint-config/legacy'
   ]
-}
+};
 ```
 
 no-semi
