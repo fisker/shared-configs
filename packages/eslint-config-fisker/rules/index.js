@@ -1,5 +1,14 @@
 module.exports = {
   rules: {
+    // allow url, comments, regexp length over 80
+    'max-len': [
+      'error',
+      {
+        ignoreComments: true,
+        ignoreUrls: true,
+        ignoreRegExpLiterals: true
+      }
+    ],
     // iife style inside
     'wrap-iife': ['error', 'inside'],
     // no space before function parenthesis
