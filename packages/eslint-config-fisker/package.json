@@ -1,6 +1,6 @@
 {
   "name": "@xwtec/eslint-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "xwtec eslint lint config.",
   "main": "index.js",
   "keywords": [
