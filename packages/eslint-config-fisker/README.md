@@ -41,3 +41,23 @@ module.exports = {
   ]
 }
 ```
+
+### vue
+
+```js
+module.exports = {
+  extends: [
+    '@xwtec/eslint-config/vue'
+  ]
+};
+```
+
+no-semi
+
+```js
+module.exports = {
+  extends: [
+    '@xwtec/eslint-config/vue/no-semi'
+  ]
+}
+```

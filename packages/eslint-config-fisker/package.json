@@ -13,10 +13,13 @@
     "no-semi.js",
     "legacy/index.js",
     "legacy/no-semi.js",
+    "vue/index.js",
+    "vue/no-semi.js",
     "rules/index.js",
     "rules/conflicts-with-prettier.js",
     "rules/semi.js",
     "rules/no-semi.js",
+    "settings/import.js",
     "README.md",
     "LICENSE"
   ],
@@ -25,6 +28,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
