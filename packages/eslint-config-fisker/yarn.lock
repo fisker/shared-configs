@@ -109,15 +109,6 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@vue/eslint-config-airbnb@^4.0.0":
-  version "4.0.0"
-  resolved "http://registry.npm.taobao.org/@vue/eslint-config-airbnb/download/@vue/eslint-config-airbnb-4.0.0.tgz#5a3ca663ae9dddb1c386a75fa8f5ae44c8cc801d"
-  integrity sha1-WjymY66d3bHDhqdfqPWuRMjMgB0=
-  dependencies:
-    eslint-config-airbnb-base "^13.1.0"
-    eslint-import-resolver-webpack "^0.10.1"
-    eslint-plugin-import "^2.14.0"
-
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "http://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
