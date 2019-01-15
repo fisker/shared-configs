@@ -7,9 +7,10 @@ module.exports = {
     browser: true
   },
   extends: [
-    '@vue/eslint-config-airbnb',
+    'eslint-config-airbnb-base',
     '../settings/import.js',
     '../rules/index.js',
     '../rules/conflicts-with-prettier.js',
     '../rules/no-semi.js'
   ].map(require.resolve),
+}
