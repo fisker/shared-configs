@@ -14,5 +14,7 @@ module.exports = {
     ],
     // new line
     'import/newline-after-import': 'off',
+    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-named-as-default-member.md
+    'import/no-named-as-default-member': 'warn',
   },
 }

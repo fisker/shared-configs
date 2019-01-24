@@ -2,7 +2,7 @@ module.exports = {
   rules: {
     // allow url, comments, regexp length over 80
     'max-len': [
-      'error',
+      'warn',
       {
         code: 80,
         ignoreComments: true,
@@ -40,7 +40,7 @@ module.exports = {
     'no-param-reassign': 'off',
     // allow function returns no value
     'consistent-return': [
-      'error',
+      'warn',
       {
         treatUndefinedAsUnspecified: true,
       },
@@ -54,7 +54,7 @@ module.exports = {
     ],
     // allow plusplus in loop
     'no-plusplus': [
-      'error',
+      'warn',
       {
         allowForLoopAfterthoughts: true,
       },
