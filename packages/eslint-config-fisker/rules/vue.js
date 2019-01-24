@@ -1,9 +1,6 @@
 module.exports = {
   plugins: ['vue'],
-  extends: [
-    'plugin:vue/strongly-recommended',
-    require.resolve('@vue/eslint-config-prettier'),
-  ],
+  extends: ['plugin:vue/strongly-recommended'],
   rules: {
     // allow unused vars
     'vue/no-unused-vars': 'warn',
