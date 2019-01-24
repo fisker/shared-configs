@@ -75,5 +75,8 @@ module.exports = {
     ],
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
+
+    // don't allow comparisons to null
+    'no-eq-null': 'error',
   },
 }

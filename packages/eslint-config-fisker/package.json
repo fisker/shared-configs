@@ -8,6 +8,7 @@
     "index.js",
     "legacy.js",
     "vue.js",
+    "rules/legacy.js",
     "rules/imports.js",
     "rules/index.js",
     "rules/prettier.js",
@@ -29,19 +30,12 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.1.0"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,json,md}": ["prettier --write", "git add"]
-  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": "xwtec/eslint-config",
   "devDependencies": {
+    "eslint": "^5.12.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
     "np": "^4.0.1",
