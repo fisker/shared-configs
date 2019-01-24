@@ -6,15 +6,9 @@
   "keywords": ["xwtec", "eslint", "config"],
   "files": [
     "index.js",
-    "no-semi.js",
-    "legacy/index.js",
-    "legacy/no-semi.js",
-    "vue/index.js",
-    "vue/no-semi.js",
+    "legacy.js",
+    "vue.js",
     "rules/index.js",
-    "rules/conflicts-with-prettier.js",
-    "rules/semi.js",
-    "rules/no-semi.js",
     "rules/imports.js",
     "rules/vue.js",
     "README.md",
@@ -28,6 +22,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-vue": "^5.1.0"
   },
