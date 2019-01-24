@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     semi: ['error', 'always'],
-    'no-extra-semi': 'error',
-    'semi-style': ['error', 'last']
-  }
+    'no-extra-semi': 'warn',
+    'semi-style': ['error', 'last'],
+  },
 }

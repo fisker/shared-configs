@@ -6,10 +6,10 @@ module.exports = {
     'space-before-function-paren': [
       'error',
       {
-        anonymous: "never",
-        named: "never",
-        asyncArrow: "always"
-      }
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
     ],
     // operator linebreak
     'operator-linebreak': [
@@ -18,16 +18,13 @@ module.exports = {
       {
         overrides: {
           '?': 'ignore',
-          ':': 'ignore'
-        }
-      }
+          ':': 'ignore',
+        },
+      },
     ],
     // no space in object
-    'object-curly-spacing': [
-      'error',
-      'never'
-    ],
+    'object-curly-spacing': ['error', 'never'],
     // warn indent
-    indent: 'warn'
-  }
+    indent: 'warn',
+  },
 }

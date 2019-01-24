@@ -3,11 +3,7 @@
   "version": "1.0.18",
   "description": "xwtec eslint lint config.",
   "main": "index.js",
-  "keywords": [
-    "xwtec",
-    "eslint",
-    "config"
-  ],
+  "keywords": ["xwtec", "eslint", "config"],
   "files": [
     "index.js",
     "no-semi.js",
@@ -19,26 +15,38 @@
     "rules/conflicts-with-prettier.js",
     "rules/semi.js",
     "rules/no-semi.js",
-    "settings/import.js",
+    "rules/imports.js",
+    "rules/vue.js",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "release": "np --no-yarn --no-cleanup"
+    "release": "np --no-yarn --no-cleanup",
+    "prettier": "prettier **/*.{js,json,md} --write"
   },
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-import-resolver-webpack": "^0.10.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-vue": "^5.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": "xwtec/eslint-config",
   "devDependencies": {
-    "np": "^3.1.0"
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "np": "^3.1.0",
+    "prettier": "^1.16.1"
   }
 }

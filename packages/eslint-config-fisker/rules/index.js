@@ -7,8 +7,8 @@ module.exports = {
         code: 80,
         ignoreComments: true,
         ignoreUrls: true,
-        ignoreRegExpLiterals: true
-      }
+        ignoreRegExpLiterals: true,
+      },
     ],
     // allow variable declarations from shadowing variables declared in the outer scope
     'no-shadow': 'off',
@@ -22,8 +22,8 @@ module.exports = {
       {
         vars: 'all',
         args: 'after-used',
-        ignoreRestSiblings: true
-      }
+        ignoreRestSiblings: true,
+      },
     ],
     // allow vars not on top
     'vars-on-top': 'off',
@@ -33,8 +33,8 @@ module.exports = {
       {
         functions: false,
         classes: false,
-        variables: true
-      }
+        variables: true,
+      },
     ],
     // allow param reassign
     'no-param-reassign': 'off',
@@ -42,39 +42,38 @@ module.exports = {
     'consistent-return': [
       'error',
       {
-        treatUndefinedAsUnspecified: true
-      }
+        treatUndefinedAsUnspecified: true,
+      },
     ],
     // allow empty catch
     'no-empty': [
       'error',
       {
-        allowEmptyCatch: true
-      }
+        allowEmptyCatch: true,
+      },
     ],
     // allow plusplus in loop
     'no-plusplus': [
       'error',
       {
-        allowForLoopAfterthoughts: true
-      }
+        allowForLoopAfterthoughts: true,
+      },
     ],
     // allow for...in and for...of
     'no-restricted-syntax': [
       'error',
       {
         selector: 'LabeledStatement',
-        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
       },
       {
         selector: 'WithStatement',
-        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
-      }
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
     ],
     // allow return assign in parents
-    'no-return-assign': [
-      'error',
-      'except-parens'
-    ]
-  }
+    'no-return-assign': ['error', 'except-parens'],
+  },
 }

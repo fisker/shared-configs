@@ -6,19 +6,15 @@
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec'
-  ]
-};
+  extends: ['@xwtec'],
+}
 ```
 
 no-semi
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec/eslint-config/no-semi'
-  ]
+  extends: ['@xwtec/eslint-config/no-semi'],
 }
 ```
 
@@ -26,19 +22,15 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec/eslint-config/legacy'
-  ]
-};
+  extends: ['@xwtec/eslint-config/legacy'],
+}
 ```
 
 no-semi
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec/eslint-config/legacy/no-semi'
-  ]
+  extends: ['@xwtec/eslint-config/legacy/no-semi'],
 }
 ```
 
@@ -46,18 +38,14 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec/eslint-config/vue'
-  ]
-};
+  extends: ['@xwtec/eslint-config/vue'],
+}
 ```
 
 no-semi
 
 ```js
 module.exports = {
-  extends: [
-    '@xwtec/eslint-config/vue/no-semi'
-  ]
+  extends: ['@xwtec/eslint-config/vue/no-semi'],
 }
 ```
