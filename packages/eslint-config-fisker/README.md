@@ -2,19 +2,11 @@
 
 ## ustage
 
-### es6
+###
 
 ```js
 module.exports = {
   extends: ['@xwtec'],
-}
-```
-
-no-semi
-
-```js
-module.exports = {
-  extends: ['@xwtec/eslint-config/no-semi'],
 }
 ```
 
@@ -26,26 +18,10 @@ module.exports = {
 }
 ```
 
-no-semi
-
-```js
-module.exports = {
-  extends: ['@xwtec/eslint-config/legacy/no-semi'],
-}
-```
-
 ### vue
 
 ```js
 module.exports = {
   extends: ['@xwtec/eslint-config/vue'],
-}
-```
-
-no-semi
-
-```js
-module.exports = {
-  extends: ['@xwtec/eslint-config/vue/no-semi'],
 }
 ```
