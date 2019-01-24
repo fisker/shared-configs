@@ -17,3 +17,11 @@ module.exports = {
   extends: ['@xwtec/eslint-config/legacy'],
 }
 ```
+
+### vue
+
+    ```js
+    module.exports = {
+      extends: ['@xwtec/eslint-config/vue'],
+    }
+    ```
