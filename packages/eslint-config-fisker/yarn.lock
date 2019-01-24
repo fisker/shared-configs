@@ -2462,11 +2462,6 @@ natural-compare@^1.4.0:
   resolved "http://registry.npm.taobao.org/natural-compare/download/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-new-github-release-url@^0.1.0:
-  version "0.1.0"
-  resolved "http://registry.npm.taobao.org/new-github-release-url/download/new-github-release-url-0.1.0.tgz#942bba0ce45ac69ff6879a0b4261f1979dfc6e95"
-  integrity sha1-lCu6DORaxp/2h5oLQmHxl538bpU=
-
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/nice-try/download/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -2516,10 +2511,10 @@ normalize-url@^3.1.0:
   resolved "http://registry.npm.taobao.org/normalize-url/download/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
 
-np@^4.0.1:
-  version "4.0.1"
-  resolved "http://registry.npm.taobao.org/np/download/np-4.0.1.tgz#f49289fde6cad831cc1def94e4f2d550424ff07a"
-  integrity sha1-9JKJ/ebK2DHMHe+U5PLVUEJP8Ho=
+np@^4.0.2:
+  version "4.0.2"
+  resolved "http://registry.npm.taobao.org/np/download/np-4.0.2.tgz#be164eab2159d6a45ce5fdaee276af71aaa27873"
+  integrity sha1-vhZOqyFZ1qRc5f2u4navcaqieHM=
   dependencies:
     "@samverschueren/stream-to-observable" "^0.3.0"
     any-observable "^0.3.0"
@@ -2536,7 +2531,6 @@ np@^4.0.1:
     listr-input "^0.1.3"
     log-symbols "^2.1.0"
     meow "^5.0.0"
-    new-github-release-url "^0.1.0"
     npm-name "^5.0.1"
     opn "^5.4.0"
     ow "^0.10.0"

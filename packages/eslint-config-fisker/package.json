@@ -38,10 +38,11 @@
     "eslint": "^5.12.1",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
-    "np": "^4.0.1",
+    "np": "^4.0.2",
     "prettier": "^1.16.1"
   },
   "peerDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": ">=5.12.0",
+    "prettier": ">=1.16.0"
   }
 }
