@@ -20,8 +20,8 @@ module.exports = {
 
 ### vue
 
-    ```js
-    module.exports = {
-      extends: ['@xwtec/eslint-config/vue'],
-    }
-    ```
+```js
+module.exports = {
+  extends: ['@xwtec/eslint-config/vue'],
+}
+```
