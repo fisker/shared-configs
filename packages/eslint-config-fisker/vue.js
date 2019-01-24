@@ -1,9 +1,8 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    'eslint-config-prettier',
     '../rules/vue.js',
-    '../rules/index.js',
     '../rules/imports.js',
+    '../rules/index.js',
   ].map(require.resolve),
 }

@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base/legacy',
-    'eslint-config-prettier',
-    '../rules/index.js',
+    './rules/prettier.js',
+    './rules/index.js',
   ].map(require.resolve),
 }
