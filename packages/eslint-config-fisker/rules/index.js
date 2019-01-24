@@ -90,5 +90,57 @@ module.exports = {
 
     // don't allow comparisons to null
     'no-eq-null': 'error',
+
+    // allow unnessary braces in arrow function body
+    // https://eslint.org/docs/rules/arrow-body-style
+    'arrow-body-style': ['warn', 'as-needed'],
+
+    // suggest using of const declaration for variables that are never modified after declared
+    'prefer-const': [
+      'warn',
+      {
+        destructuring: 'any',
+        ignoreReadBeforeAssign: true,
+      },
+    ],
+
+    // Prefer destructuring from arrays and objects
+    // https://eslint.org/docs/rules/prefer-destructuring
+    'prefer-destructuring': [
+      'warn',
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: true,
+          object: true,
+        },
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
+
+    // require or disallow an empty line between class members
+    // https://eslint.org/docs/rules/lines-between-class-members
+    'lines-between-class-members': [
+      'warn',
+      'always',
+      {exceptAfterSingleLine: false},
+    ],
+
+    // suggest using template literals instead of string concatenation
+    // https://eslint.org/docs/rules/prefer-template
+    'prefer-template': 'warn',
+
+    // disallow else after a return in an if
+    // https://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['warn', {allowElseIf: false}],
+
+    // enforces return statements in callbacks of array's methods
+    // https://eslint.org/docs/rules/array-callback-return
+    'array-callback-return': ['warn', {allowImplicit: true}],
   },
 }
