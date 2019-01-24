@@ -8,8 +8,8 @@
     "index.js",
     "legacy.js",
     "vue.js",
-    "rules/index.js",
     "rules/imports.js",
+    "rules/index.js",
     "rules/vue.js",
     "README.md",
     "LICENSE"
@@ -20,10 +20,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.6.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-vue": "^5.1.0"
   },
   "husky": {
@@ -41,7 +40,10 @@
   "devDependencies": {
     "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
-    "np": "^3.1.0",
+    "np": "^4.0.1",
     "prettier": "^1.16.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.12.1"
   }
 }
