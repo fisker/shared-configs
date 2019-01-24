@@ -10,12 +10,16 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
+
     // allow variable declarations from shadowing variables declared in the outer scope
     'no-shadow': 'off',
+
     // allow multi assign
     'no-multi-assign': 'off',
+
     // allow unnamed function
     'func-names': 'off',
+
     // allow unused vars
     'no-unused-vars': [
       'warn',
@@ -25,8 +29,10 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+
     // allow vars not on top
     'vars-on-top': 'off',
+
     // allow functions & classes use before define
     'no-use-before-define': [
       'error',
@@ -36,8 +42,10 @@ module.exports = {
         variables: true,
       },
     ],
+
     // allow param reassign
     'no-param-reassign': 'off',
+
     // allow function returns no value
     'consistent-return': [
       'warn',
@@ -45,6 +53,7 @@ module.exports = {
         treatUndefinedAsUnspecified: true,
       },
     ],
+
     // allow empty catch
     'no-empty': [
       'error',
@@ -52,6 +61,7 @@ module.exports = {
         allowEmptyCatch: true,
       },
     ],
+
     // allow plusplus in loop
     'no-plusplus': [
       'warn',
@@ -59,6 +69,7 @@ module.exports = {
         allowForLoopAfterthoughts: true,
       },
     ],
+
     // allow for...in and for...of
     'no-restricted-syntax': [
       'error',
@@ -73,6 +84,7 @@ module.exports = {
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
+
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
 
