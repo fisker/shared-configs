@@ -142,5 +142,8 @@ module.exports = {
     // enforces return statements in callbacks of array's methods
     // https://eslint.org/docs/rules/array-callback-return
     'array-callback-return': ['warn', {allowImplicit: true}],
+
+    // specify curly brace conventions for all control statements
+    curly: ['error', 'all'],
   },
 }
