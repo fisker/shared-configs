@@ -56,9 +56,6 @@ module.exports = {
     // 禁止 无用的 return
     'no-useless-return': 'error',
 
-    // 禁止双引号
-    quotes: ['error', 'single'],
-
     // 建议省略分号
     semi: ['warn', 'never'],
 

@@ -148,12 +148,5 @@ module.exports = {
 
     // disallow assignment in conditional expressions
     'no-cond-assign': ['error', 'except-parens'],
-
-    // single quote confilct with prettier
-    quotes: [
-      'error',
-      'single',
-      {allowTemplateLiterals: true, avoidEscape: true},
-    ],
   },
 }
