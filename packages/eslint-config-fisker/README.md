@@ -2,7 +2,7 @@
 
 ## ustage
 
-###
+### default
 
 ```js
 module.exports = {

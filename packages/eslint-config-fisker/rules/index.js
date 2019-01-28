@@ -145,5 +145,11 @@ module.exports = {
 
     // specify curly brace conventions for all control statements
     curly: ['error', 'all'],
+
+    // disallow assignment in conditional expressions
+    'no-cond-assign': ['error', 'except-parens'],
+
+    // single quote confilct with prettier
+    quotes: ['error', 'single', {avoidEscape: true}],
   },
 }
