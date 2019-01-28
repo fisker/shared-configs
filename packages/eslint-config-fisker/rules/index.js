@@ -150,6 +150,10 @@ module.exports = {
     'no-cond-assign': ['error', 'except-parens'],
 
     // single quote confilct with prettier
-    quotes: ['error', 'single', {avoidEscape: true}],
+    quotes: [
+      'error',
+      'single',
+      {allowTemplateLiterals: true, avoidEscape: true},
+    ],
   },
 }
