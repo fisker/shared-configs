@@ -60,5 +60,8 @@ module.exports = {
     // example code
     // context.fillStyle = context.strokeStyle = color
     'no-multi-assign': 'warn',
+
+    // editor-config takes care of this
+    'linebreak-style': 'off',
   },
 }
