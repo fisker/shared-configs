@@ -4,11 +4,20 @@
 
 module.exports = {
   extends: [
+    // airbnb
     'eslint-config-airbnb-base',
-    './rules/prettier.js',
-    './rules/vue.js',
-    './rules/prettier-vue.js',
-    './rules/imports.js',
-    './rules/index.js',
+    './rules/airbnb-override/best-practices.js',
+    './rules/airbnb-override/errors.js',
+    './rules/airbnb-override/node.js',
+    './rules/airbnb-override/style.js',
+    './rules/airbnb-override/variables.js',
+    './rules/airbnb-override/es6.js',
+    './rules/airbnb-override/imports.js',
+
+    // prettier
+    './rules/prettier/vue.js',
+
+    // vue
+    './rules/vue/vue.js',
   ].map(require.resolve),
 }
