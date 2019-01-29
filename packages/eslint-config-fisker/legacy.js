@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     // airbnb
-    'eslint-config-airbnb-base',
+    'eslint-config-airbnb-base/legacy',
     './rules/airbnb-override/best-practices.js',
     './rules/airbnb-override/errors.js',
     './rules/airbnb-override/node.js',
