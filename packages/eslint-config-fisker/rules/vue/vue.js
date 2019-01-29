@@ -1,3 +1,6 @@
+// https://github.com/vuejs/eslint-plugin-vue
+// https://github.com/vuejs/eslint-plugin-vue/blob/master/lib/configs/strongly-recommended.js
+
 module.exports = {
   plugins: ['vue'],
   extends: ['plugin:vue/strongly-recommended'],
