@@ -7,13 +7,7 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 module.exports = {
   rules: {
     // https://eslint.org/docs/rules/no-shadow
-    'no-shadow': [
-      'error',
-      {
-        builtinGlobals: true,
-        hoist: 'never',
-      },
-    ],
+    'no-shadow': 'off',
 
     // allow unused vars
     'no-unused-vars': [
