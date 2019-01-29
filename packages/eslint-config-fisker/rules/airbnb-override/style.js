@@ -54,5 +54,11 @@ module.exports = {
       'always',
       {exceptAfterSingleLine: false},
     ],
+
+    // allow use of chained assignment expressions
+    // https://eslint.org/docs/rules/no-multi-assign
+    // example code
+    // context.fillStyle = context.strokeStyle = color
+    'no-multi-assign': 'warn',
   },
 }
