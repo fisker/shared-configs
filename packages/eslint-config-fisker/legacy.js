@@ -8,5 +8,8 @@ module.exports = {
 
     // legacy
     './configs/legacy/legacy.js',
+
+    // own rules
+    './configs/own/own.js',
   ].map(require.resolve),
 }

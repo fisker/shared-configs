@@ -12,5 +12,8 @@ module.exports = {
 
     // vue
     './configs/vue/vue.js',
+
+    // own rules
+    './configs/own/own.js',
   ].map(require.resolve),
 }

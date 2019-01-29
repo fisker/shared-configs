@@ -17,6 +17,7 @@
     "configs/airbnb/rules/variables.js",
     "configs/airbnb/rules/es6.js",
     "configs/airbnb/rules/imports.js",
+    "configs/own/own.js",
     "configs/prettier/prettier.js",
     "configs/prettier/vue.js",
     "configs/legacy/legacy.js",

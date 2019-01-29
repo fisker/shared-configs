@@ -5,5 +5,8 @@ module.exports = {
 
     // prettier
     './configs/prettier/prettier.js',
+
+    // own rules
+    './configs/own/own.js',
   ].map(require.resolve),
 }
