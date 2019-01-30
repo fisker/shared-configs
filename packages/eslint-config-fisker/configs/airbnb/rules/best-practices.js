@@ -42,5 +42,8 @@ module.exports = {
 
     // disallow use of `javascript:` urls.
     'no-script-url': 'warn',
+
+    // disallow use of new operator when not part of the assignment or comparison
+    'no-new': 'error',
   },
 }
