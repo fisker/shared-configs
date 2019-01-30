@@ -36,5 +36,11 @@ module.exports = {
 
     // specify curly brace conventions for all control statements
     curly: ['error', 'all'],
+
+    // disallow creation of functions within loops
+    'no-loop-func': 'warn',
+
+    // disallow use of `javascript:` urls.
+    'no-script-url': 'warn',
   },
 }

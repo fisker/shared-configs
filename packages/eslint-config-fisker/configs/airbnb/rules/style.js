@@ -63,5 +63,9 @@ module.exports = {
 
     // editor-config takes care of this
     'linebreak-style': 'off',
+
+    // disallow use of the continue statement
+    // https://eslint.org/docs/rules/no-continue
+    'no-continue': 'off',
   },
 }
