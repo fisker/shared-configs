@@ -27,6 +27,7 @@
   ],
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
+    "test": "echo passed.",
     "prettier": "prettier **/*.{js,json,md} --write"
   },
   "license": "MIT",
