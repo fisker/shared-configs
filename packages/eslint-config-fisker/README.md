@@ -1,5 +1,7 @@
 # eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xwtec/eslint-config.svg)](https://greenkeeper.io/)
+
 ## install
 
 ```sh
