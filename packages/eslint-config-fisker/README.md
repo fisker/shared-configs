@@ -1,11 +1,15 @@
 # eslint-config
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/xwtec/eslint-config.svg)](https://greenkeeper.io/)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![npm](https://img.shields.io/npm/v/@xwtec/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@xwtec/eslint-config)
+[![npm](https://img.shields.io/npm/dt/@xwtec/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@xwtec/eslint-config)
+[![npm](https://img.shields.io/npm/dm/@xwtec/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@xwtec/eslint-config)
 
 ## install
 
 ```sh
-yarn add eslint prettier @xwtec/eslint-config
+yarn add --dev eslint prettier @xwtec/eslint-config
 ```
 
 globally install
