@@ -1,23 +1,20 @@
-// https://prettier.io/docs/en/options.html
+// options https://prettier.io/docs/en/options.html
+// Configuration File https://prettier.io/docs/en/configuration.html
 
 module.exports = {
+  // options for all files
   trailingComma: 'es5',
   semi: false,
   singleQuote: true,
   bracketSpacing: false,
   htmlWhitespaceSensitivity: 'ignore',
+
+  // overrides
   overrides: [
     {
       files: '*.js',
       options: {
         parser: 'babel',
-      },
-    },
-    {
-      files: '*.{css,less,scss}',
-      options: {
-        parser: 'css',
-        singleQuote: false,
       },
     },
     {
@@ -27,33 +24,9 @@ module.exports = {
       },
     },
     {
-      files: '*.json5',
-      options: {
-        parser: 'json5',
-      },
-    },
-    {
-      files: '*.md',
+      files: '*.{md,markdown}',
       options: {
         parser: 'markdown',
-      },
-    },
-    {
-      files: '*.yaml',
-      options: {
-        parser: 'yaml',
-      },
-    },
-    {
-      files: '*.vue',
-      options: {
-        parser: 'vue',
-      },
-    },
-    {
-      files: '*.{html,htm}',
-      options: {
-        parser: 'html',
       },
     },
   ],
