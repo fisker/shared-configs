@@ -54,3 +54,19 @@ npx eslint **/*.js --quiet
 - [prettier](https://prettier.io/)
 
 - [recommended config](https://github.com/xwtec/dotfiles)
+
+## todo
+
+- [x] airbnb config
+- [x] prettier plugin
+- [x] vue plugin
+- [ ] react plugin
+- [ ] node plugin (need evaluate)
+- [ ] webpack plugin (need evaluate)
+- [ ] unicorn plugin (need evaluate)
+- [ ] write documents explain rules
+- [ ] test
+
+## changelog
+
+[changelog](CHANGELOG.md)
