@@ -11,8 +11,17 @@ module.exports = {
     // allow single export
     'import/prefer-default-export': 'off',
 
-    // enforces use extensions
-    'import/extensions': ['warn', 'ignorePackages'],
+    // Ensure consistent use of file extension within the import path
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+    'import/extensions': [
+      'warn',
+      'ignorePackages',
+      {
+        js: 'never',
+        mjs: 'never',
+        jsx: 'never',
+      },
+    ],
 
     // import order
     'import/order': [

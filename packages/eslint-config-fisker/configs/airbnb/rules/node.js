@@ -5,5 +5,9 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 */
 
 module.exports = {
-  rules: {},
+  rules: {
+    // allow `require` called anywhere
+    // https://eslint.org/docs/rules/global-require
+    'global-require': 'off',
+  },
 }

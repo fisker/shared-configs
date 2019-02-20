@@ -18,7 +18,7 @@ globally install
 npm install --global eslint prettier @xwtec/eslint-config
 ```
 
-## eslint config
+## .eslintrc.js
 
 ### default
 
@@ -66,6 +66,7 @@ npx eslint **/*.js --quiet
 - [x] airbnb config
 - [x] prettier plugin
 - [x] vue plugin
+- [x] promise plugin
 - [ ] react plugin
 - [ ] node plugin (need evaluate)
 - [ ] webpack plugin (need evaluate)

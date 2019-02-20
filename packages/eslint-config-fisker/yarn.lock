@@ -58,6 +58,17 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@xwtec/eslint-config@^3.3.1":
+  version "3.3.1"
+  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.3.1.tgz#e3af5a37c4ad0734c1a27a8ce1ba5171c26e3aad"
+  integrity sha1-469aN8StBzTBonqM4bpRccJuOq0=
+  dependencies:
+    eslint-config-airbnb-base "^13.1.0"
+    eslint-config-prettier "^4.0.0"
+    eslint-plugin-import "^2.16.0"
+    eslint-plugin-prettier "^3.0.1"
+    eslint-plugin-vue "^5.1.0"
+
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "http://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
@@ -766,6 +777,11 @@ eslint-plugin-prettier@^3.0.1:
   integrity sha1-GdUh45gfad1tFPZK7IxqasbrCw0=
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-promise@^4.0.1:
+  version "4.0.1"
+  resolved "http://registry.npm.taobao.org/eslint-plugin-promise/download/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
+  integrity sha1-LQdLZT81oj0bqJ2Ol2qYURfRxqI=
 
 eslint-plugin-vue@^5.1.0:
   version "5.1.0"

@@ -45,5 +45,19 @@ module.exports = {
 
     // disallow use of new operator when not part of the assignment or comparison
     'no-new': 'warn',
+
+    // disallow implicit type conversions
+    // https://eslint.org/docs/rules/no-implicit-coercion
+    'no-implicit-coercion': [
+      'warn',
+      {
+        boolean: false,
+        number: true,
+        string: true,
+        allow: [],
+      },
+    ],
+
+    'require-await': 'warn',
   },
 }

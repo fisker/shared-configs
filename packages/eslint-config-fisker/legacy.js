@@ -6,6 +6,9 @@ module.exports = {
     // prettier
     './configs/prettier/prettier.js',
 
+    // promise
+    './configs/promise/promise.js',
+
     // legacy
     './configs/legacy/legacy.js',
 

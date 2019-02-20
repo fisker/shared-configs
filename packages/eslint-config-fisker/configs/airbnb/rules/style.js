@@ -21,11 +21,27 @@ module.exports = {
       },
     ],
 
+    // limits the number of parameters that can be used in the function declaration.
+    'max-params': ['warn', 5],
+
     // allow plusplus in loop
     'no-plusplus': [
       'warn',
       {
         allowForLoopAfterthoughts: true,
+      },
+    ],
+
+    // disallow dangling underscores in identifiers
+    // warn
+    // https://eslint.org/docs/rules/no-underscore-dangle
+    'no-underscore-dangle': [
+      'warn',
+      {
+        allow: [],
+        allowAfterThis: false,
+        allowAfterSuper: false,
+        enforceInMethodNames: true,
       },
     ],
 
