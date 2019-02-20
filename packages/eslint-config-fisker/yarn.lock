@@ -198,16 +198,17 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@xwtec/eslint-config@3.3":
-  version "3.3.1"
-  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.3.1.tgz#e3af5a37c4ad0734c1a27a8ce1ba5171c26e3aad"
-  integrity sha1-469aN8StBzTBonqM4bpRccJuOq0=
+"@xwtec/eslint-config@3.4.3":
+  version "3.4.3"
+  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.4.3.tgz#9bffae20eca2f9a9ee550f5e7caa5b0447b4c7f2"
+  integrity sha1-m/+uIOyi+anuVQ9efKpbBEe0x/I=
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^4.0.0"
     eslint-plugin-import "^2.16.0"
     eslint-plugin-prettier "^3.0.1"
-    eslint-plugin-vue "^5.1.0"
+    eslint-plugin-promise "^4.0.1"
+    eslint-plugin-vue "^5.2.2"
 
 JSONStream@^1.0.4:
   version "1.3.5"
@@ -1034,13 +1035,6 @@ eslint-plugin-promise@^4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/eslint-plugin-promise/download/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
   integrity sha1-LQdLZT81oj0bqJ2Ol2qYURfRxqI=
-
-eslint-plugin-vue@^5.1.0:
-  version "5.1.0"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.1.0.tgz#d0d373334be8140d698ec4e1fb83f09faa48081b"
-  integrity sha1-0NNzM0voFA1pjsTh+4Pwn6pICBs=
-  dependencies:
-    vue-eslint-parser "^4.0.2"
 
 eslint-plugin-vue@^5.2.2:
   version "5.2.2"
@@ -3734,18 +3728,6 @@ validate-npm-package-name@^3.0.0:
   integrity sha1-X6kS2B630MdK/BQN5zF/DKffQ34=
   dependencies:
     builtins "^1.0.3"
-
-vue-eslint-parser@^4.0.2:
-  version "4.0.3"
-  resolved "http://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-4.0.3.tgz#80cf162e484387b2640371ad21ba1f86e0c10a61"
-  integrity sha1-gM8WLkhDh7JkA3GtIbofhuDBCmE=
-  dependencies:
-    debug "^4.1.0"
-    eslint-scope "^4.0.0"
-    eslint-visitor-keys "^1.0.0"
-    espree "^4.1.0"
-    esquery "^1.0.1"
-    lodash "^4.17.11"
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
