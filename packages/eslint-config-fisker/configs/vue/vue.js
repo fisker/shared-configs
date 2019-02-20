@@ -2,7 +2,7 @@
 // https://github.com/vuejs/eslint-plugin-vue/blob/master/lib/configs/strongly-recommended.js
 
 module.exports = {
-  plugins: ['eslint-plugin-vue'].map(require.reslove),
+  plugins: ['vue'],
   extends: ['plugin:vue/strongly-recommended'],
   rules: {
     // allow unused vars
