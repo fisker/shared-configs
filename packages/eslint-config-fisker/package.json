@@ -20,6 +20,7 @@
     "configs/own/own.js",
     "configs/prettier/prettier.js",
     "configs/prettier/vue.js",
+    "configs/promise/promise.js",
     "configs/legacy/legacy.js",
     "configs/vue/vue.js",
     "README.md",
@@ -37,7 +38,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-vue": "^5.1.0"
+    "eslint-plugin-vue": "^5.2.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -46,12 +47,12 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@xwtec/eslint-config": "^3.3.1",
-    "eslint": "^5.12.1",
+    "@xwtec/eslint-config": "^3.4.1",
+    "eslint": "^5.14.1",
     "husky": "^1.3.1",
-    "lint-staged": "^8.1.1",
+    "lint-staged": "^8.1.4",
     "np": "^4.0.2",
-    "prettier": "^1.16.2"
+    "prettier": "^1.16.4"
   },
   "peerDependencies": {
     "eslint": ">=5.12.0",
