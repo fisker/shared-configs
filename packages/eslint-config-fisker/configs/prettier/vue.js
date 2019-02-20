@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['prettier'],
+  plugins: ['eslint-plugin-prettier'].map(require.reslove),
   extends: ['eslint-config-prettier', 'eslint-config-prettier/vue'].map(
     require.resolve
   ),
