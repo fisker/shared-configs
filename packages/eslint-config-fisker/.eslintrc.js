@@ -1,5 +1,5 @@
 module.exports = {
   root: true,
-  extends: ['@xwtec'],
+  extends: ['@xwtec/eslint-config'].map(require.resolve),
   rules: {},
 }
