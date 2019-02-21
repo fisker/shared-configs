@@ -15,7 +15,8 @@
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
     "test": "echo passed.",
-    "prettier": "prettier **/*.{js,json,md} --write"
+    "prettier": "prettier **/*.{js,json,md} --write",
+    "lint": "eslint **/*.js --fix && prettier **/*.js --write"
   },
   "license": "MIT",
   "dependencies": {
@@ -34,7 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@xwtec/eslint-config": "3.5.2",
+    "@xwtec/eslint-config": "3.5.3",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.14.1",
     "husky": "^1.3.1",
