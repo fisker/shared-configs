@@ -9,6 +9,9 @@ module.exports = {
     // promise
     './configs/promise/promise.js',
 
+    // unicorn
+    './configs/unicorn/unicorn-legacy.js',
+
     // legacy
     './configs/legacy/legacy.js',
 

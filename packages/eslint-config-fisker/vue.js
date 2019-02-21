@@ -8,7 +8,13 @@ module.exports = {
     './configs/airbnb/airbnb.js',
 
     // prettier
-    './configs/prettier/vue.js',
+    './configs/prettier/prettier-vue.js',
+
+    // promise
+    './configs/promise/promise.js',
+
+    // unicorn
+    './configs/unicorn/unicorn-legacy.js',
 
     // vue
     './configs/vue/vue.js',

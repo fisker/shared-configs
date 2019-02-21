@@ -1,5 +1,9 @@
 # changelog
 
+## v3.5
+
+- adopt `eslint-plugin-unicorn`
+
 ## v3.4.0
 
 - add `promise`

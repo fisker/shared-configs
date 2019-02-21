@@ -70,7 +70,7 @@ npx eslint **/*.js --quiet
 - [ ] react plugin
 - [ ] node plugin (need evaluate)
 - [ ] webpack plugin (need evaluate)
-- [ ] unicorn plugin (need evaluate)
+- [x] unicorn plugin
 - [ ] write documents explain rules
 - [ ] test
 

@@ -10,6 +10,9 @@ module.exports = {
     // promise
     './configs/promise/promise.js',
 
+    // unicorn
+    './configs/unicorn/unicorn.js',
+
     // own rules
     './configs/own/own.js',
   ].map(require.resolve),
