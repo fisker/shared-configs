@@ -5,10 +5,10 @@
   "main": "index.js",
   "keywords": ["xwtec", "eslint", "config"],
   "files": [
-    "./index.js",
-    "./legacy.js",
-    "./vue.js",
-    "./configs/",
+    "index.js",
+    "legacy.js",
+    "vue.js",
+    "configs/",
     "README.md",
     "LICENSE"
   ],
