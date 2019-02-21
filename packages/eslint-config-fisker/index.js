@@ -4,14 +4,14 @@ module.exports = {
     // airbnb
     './configs/airbnb/airbnb.js',
 
-    // prettier
-    './configs/prettier/prettier.js',
-
     // promise
     './configs/promise/promise.js',
 
     // unicorn
     './configs/unicorn/unicorn.js',
+
+    // prettier
+    './configs/prettier/prettier.js',
 
     // own rules
     './configs/own/own.js',

@@ -7,14 +7,14 @@ module.exports = {
     // airbnb
     './configs/airbnb/airbnb.js',
 
-    // prettier
-    './configs/prettier/prettier-vue.js',
-
     // promise
     './configs/promise/promise.js',
 
     // unicorn
-    './configs/unicorn/unicorn-legacy.js',
+    './configs/unicorn/unicorn.js',
+
+    // prettier
+    './configs/prettier/prettier-vue.js',
 
     // vue
     './configs/vue/vue.js',
