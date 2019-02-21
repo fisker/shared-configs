@@ -40,6 +40,8 @@ module.exports = {
     'unicorn/prefer-text-content': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
-    'unicorn/no-for-loop': 'warn',
+    // not released yet
+    // TODO: enable rule after `eslint-plugin-unicorn` release
+    // 'unicorn/no-for-loop': 'warn',
   },
 }

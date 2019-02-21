@@ -198,16 +198,17 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@xwtec/eslint-config@3.4.3":
-  version "3.4.3"
-  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.4.3.tgz#9bffae20eca2f9a9ee550f5e7caa5b0447b4c7f2"
-  integrity sha1-m/+uIOyi+anuVQ9efKpbBEe0x/I=
+"@xwtec/eslint-config@3.5.2":
+  version "3.5.2"
+  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.5.2.tgz#69975deacff61d189f62b51fa6438f3b401c6d3e"
+  integrity sha1-aZdd6s/2HRifYrUfpkOPO0AcbT4=
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^4.0.0"
     eslint-plugin-import "^2.16.0"
     eslint-plugin-prettier "^3.0.1"
     eslint-plugin-promise "^4.0.1"
+    eslint-plugin-unicorn "^7.1.0"
     eslint-plugin-vue "^5.2.2"
 
 JSONStream@^1.0.4:
