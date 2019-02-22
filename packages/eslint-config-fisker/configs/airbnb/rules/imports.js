@@ -32,6 +32,21 @@ module.exports = {
       },
     ],
 
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          'test/**/*.js',
+          '__test__/**/*.js',
+          'scripts/**/*.js',
+          '**/*.test.js',
+          '**/*.spec.js',
+        ],
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
+
     // new line
     'import/newline-after-import': 'off',
 
