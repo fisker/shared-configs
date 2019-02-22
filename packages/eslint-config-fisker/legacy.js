@@ -12,10 +12,7 @@ module.exports = {
     // prettier
     './configs/prettier/prettier.js',
 
-    // legacy
-    './configs/legacy/legacy.js',
-
     // own rules
-    './configs/own/own.js',
+    './configs/own/own-legacy.js',
   ].map(require.resolve),
 }
