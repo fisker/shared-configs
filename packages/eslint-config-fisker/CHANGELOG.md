@@ -1,5 +1,9 @@
 # changelog
 
+## v3.5.4
+
+- allow `devDependencies` on `test` and `scripts`
+
 ## v3.5
 
 - adopt `eslint-plugin-unicorn`
