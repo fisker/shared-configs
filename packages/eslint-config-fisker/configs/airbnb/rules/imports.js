@@ -32,6 +32,7 @@ module.exports = {
       },
     ],
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -52,5 +53,9 @@ module.exports = {
 
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-named-as-default-member.md
     'import/no-named-as-default-member': 'warn',
+
+    // allow dynamic require
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
+    'import/no-dynamic-require': 'off',
   },
 }

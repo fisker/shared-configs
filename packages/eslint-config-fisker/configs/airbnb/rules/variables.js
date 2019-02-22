@@ -28,8 +28,5 @@ module.exports = {
         variables: true,
       },
     ],
-
-    // catch 变量
-    'no-catch-shadow': 'error',
   },
 }

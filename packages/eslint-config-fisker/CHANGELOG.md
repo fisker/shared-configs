@@ -1,5 +1,10 @@
 # changelog
 
+## v3.5.5
+
+- allow `import/no-dynamic-require`
+- move `no-catch-shadow` to legacy build
+
 ## v3.5.4
 
 - allow `devDependencies` on `test` and `scripts`
