@@ -2,10 +2,15 @@ module.exports = {
   extends: ['./own.js'].map(require.resolve),
   env: {
     es6: false,
+    node: false,
   },
   parserOptions: {
-    ecmaVersion: 3,
+    ecmaVersion: 5,
     sourceType: 'script',
+    ecmaFeatures: {
+      globalReturn: false,
+      jsx: false,
+    },
   },
   rules: {
     // 必须严格模式

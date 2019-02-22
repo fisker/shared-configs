@@ -5,6 +5,10 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
+    ecmaFeatures: {
+      globalReturn: false,
+      jsx: true,
+    },
   },
   rules: {},
 }
