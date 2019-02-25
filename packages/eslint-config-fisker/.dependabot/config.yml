@@ -9,3 +9,8 @@ update_configs:
       - "fisker"
     default_assignees:
       - "fisker"
+
+  # don't update self
+  - ignored_updates:
+    - match:
+      dependency_name: "@xwtec/eslint-config"
