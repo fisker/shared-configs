@@ -18,19 +18,19 @@ module.exports = {
   // overrides
   overrides: [
     {
-      files: '*.{js,mjs}',
+      files: '*.{js,jsx,mjs}',
       options: {
         parser: 'babel',
       },
     },
     {
-      files: '.ts',
+      files: '*.{ts,tsx}',
       options: {
         parser: 'typescript',
       },
     },
     {
-      files: '*.{css,less,scss}',
+      files: '*.css',
       options: {
         parser: 'css',
         singleQuote: false,
@@ -48,12 +48,6 @@ module.exports = {
       options: {
         parser: 'less',
         singleQuote: false,
-      },
-    },
-    {
-      files: '*.css',
-      options: {
-        parser: 'css',
       },
     },
     {
@@ -88,6 +82,12 @@ module.exports = {
       },
     },
     {
+      files: '*.mdx',
+      options: {
+        parser: 'mdx',
+      },
+    },
+    {
       files: '*.{yaml,yml}',
       options: {
         parser: 'yaml',
@@ -98,6 +98,12 @@ module.exports = {
       files: '*.{graphql,gql}',
       options: {
         parser: 'graphql',
+      },
+    },
+    {
+      files: 'README.md',
+      options: {
+        singleQuote: true,
       },
     },
   ],
