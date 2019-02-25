@@ -10,7 +10,17 @@ update_configs:
     default_assignees:
       - "fisker"
 
-  # don't update self
-  - ignored_updates:
-    - match:
-      dependency_name: "@xwtec/eslint-config"
+    # Automerge all development updates and production
+    # security (semver patch) updates (waiting for CI to pass)
+    automerged_updates:
+      - match:
+          dependency_type: "development"
+          update_type: "all"
+      - match:
+          dependency_type: "production"
+          update_type: "security:patch"
+
+    # don't update self
+    ignored_updates:
+      - match:
+          dependency_name: "@xwtec/eslint-config"
