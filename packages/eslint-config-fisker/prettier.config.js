@@ -75,6 +75,7 @@ module.exports = {
       },
     },
     {
+      // more ext: mdown,mdwn,mkd,mkdn,mkdown
       files: '*.{md,markdown}',
       options: {
         parser: 'markdown',
@@ -95,15 +96,9 @@ module.exports = {
       },
     },
     {
-      files: '*.{graphql,gql}',
+      files: '*.{gql,graphql}',
       options: {
         parser: 'graphql',
-      },
-    },
-    {
-      files: 'README.md',
-      options: {
-        singleQuote: true,
       },
     },
   ],

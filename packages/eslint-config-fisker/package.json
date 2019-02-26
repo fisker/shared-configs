@@ -3,7 +3,11 @@
   "version": "3.5.8",
   "description": "xwtec eslint lint config.",
   "main": "index.js",
-  "keywords": ["xwtec", "eslint", "config"],
+  "keywords": [
+    "xwtec",
+    "eslint",
+    "config"
+  ],
   "files": [
     "index.js",
     "legacy.js",
@@ -15,11 +19,10 @@
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
     "test": "echo passed.",
-    "prettier": "prettier **/*.{js,json,md} --write",
+    "prettier": "prettier **/*.{js,md,json} --write",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint **/*.js",
-    "lint:markdown": "markdownlint *.md",
-    "prettier": "prettier **/*.{js,md,json} --write"
+    "lint:markdown": "markdownlint *.md"
   },
   "license": "MIT",
   "dependencies": {
@@ -34,7 +37,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "xwtec/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwtec/eslint-config.git"
+  },
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
@@ -56,5 +62,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog-emoji"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/xwtec/eslint-config/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/xwtec/eslint-config#readme"
 }
