@@ -4,7 +4,7 @@
   "description": "fisker's Renovate shareable configuration",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fisker/anything-config-fisker.git"
+    "url": "git+ssh://git@github.com/fisker/renovate-config-fisker.git"
   },
   "author": {
     "name": "fisker",
