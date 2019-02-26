@@ -37,11 +37,12 @@ module.exports = {
       'error',
       {
         devDependencies: [
-          'test/**/*.js',
-          '__test__/**/*.js',
-          'scripts/**/*.js',
-          '**/*.test.js',
-          '**/*.spec.js',
+          '*.js',
+          'test/**/*',
+          '__tests__/**',
+          'scripts/**',
+          '**/*.test.*',
+          '**/*.spec.*',
         ],
         optionalDependencies: false,
         peerDependencies: false,
