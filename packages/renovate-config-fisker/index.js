@@ -13,6 +13,7 @@ module.exports = {
     lockFileMaintenance: {
       enabled: true,
       automerge: true,
+      schedule: 'before 8am on Monday',
     },
   },
 }
