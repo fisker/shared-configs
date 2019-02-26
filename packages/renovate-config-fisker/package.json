@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-fisker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fisker's Renovate shareable configuration",
   "repository": {
     "type": "git",
