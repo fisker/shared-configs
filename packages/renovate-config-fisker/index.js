@@ -15,5 +15,6 @@ module.exports = {
       automerge: true,
       schedule: 'before 8am on Monday',
     },
+    schedule: ['before 8am'],
   },
 }
