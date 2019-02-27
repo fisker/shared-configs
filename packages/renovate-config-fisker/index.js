@@ -1,4 +1,5 @@
 // presets: https://github.com/renovatebot/presets
+// options: https://renovatebot.com/docs/configuration-options/
 
 module.exports = {
   default: {
@@ -9,6 +10,7 @@ module.exports = {
       ':automergePatch',
       ':disablePeerDependencies',
       ':timezone(Asia/Shanghai)',
+      ':npm',
     ],
     lockFileMaintenance: {
       enabled: true,
@@ -16,5 +18,8 @@ module.exports = {
       schedule: 'before 8am on Monday',
     },
     schedule: ['before 8am'],
+    devDependencies: {
+      automerge: true,
+    },
   },
 }

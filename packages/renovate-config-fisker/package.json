@@ -52,14 +52,18 @@
         ":automergeRequireAllStatusChecks",
         ":automergePatch",
         ":disablePeerDependencies",
-        ":timezone(Asia/Shanghai)"
+        ":timezone(Asia/Shanghai)",
+        ":npm"
       ],
       "lockFileMaintenance": {
         "enabled": true,
         "automerge": true,
         "schedule": "before 8am on Monday"
       },
-      "schedule": ["before 8am"]
+      "schedule": ["before 8am"],
+      "devDependencies": {
+        "automerge": true
+      }
     }
   }
 }
