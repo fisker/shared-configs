@@ -43,7 +43,6 @@
       "path": "./node_modules/cz-conventional-changelog-emoji"
     }
   },
-  "readme": "ERROR: No README data found!",
   "renovate-config": {
     "default": {
       "extends": [
