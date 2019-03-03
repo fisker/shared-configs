@@ -1,6 +1,5 @@
 // presets: https://github.com/renovatebot/presets
 // options: https://renovatebot.com/docs/configuration-options/
-import test from 'ava'
 
 module.exports = {
   default: {
