@@ -1,6 +1,6 @@
 import test from 'ava'
-import m from '.'
-import pkg from './package.json'
+import m from '..'
+import pkg from '../package.json'
 
 test('automerge is set', t => {
   t.true(m.default.devDependencies.automerge)
