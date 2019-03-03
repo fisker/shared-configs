@@ -38,7 +38,7 @@ module.exports = {
       {
         devDependencies: [
           '*.js',
-          'test/**/*',
+          'test/**',
           '__tests__/**',
           'scripts/**',
           '**/*.test.*',
