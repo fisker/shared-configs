@@ -6,6 +6,11 @@ test('automerge is set', t => {
   t.true(m.default.devDependencies.automerge)
 })
 
+test('lockFileMaintenance is set', t => {
+  t.true(m.default.lockFileMaintenance.enabled)
+  t.true(m.default.lockFileMaintenance.automerge)
+})
+
 test('package.json', t => {
   t.deepEqual(
     pkg['renovate-config'],
