@@ -13,7 +13,7 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![MIT license](https://img.shields.io/github/license/xwtec/eslint-config.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-> ESLint config for xwtec projects
+> ESLint Configuration for xwtec projects
 
 ## Install
 
