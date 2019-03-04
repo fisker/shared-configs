@@ -1,4 +1,4 @@
-# changelog
+# CHANGELOG
 
 ## v3.5.5
 
