@@ -1,7 +1,5 @@
 # renovate-config-fisker
 
-> fisker's Renovate shareable configuration
-
 [![Build Status](https://img.shields.io/travis/fisker/renovate-config-fisker/master.svg?style=flat-square)](https://travis-ci.org/fisker/renovate-config-fisker)
 [![devDependencies](https://img.shields.io/david/dev/fisker/renovate-config-fisker.svg?style=flat-square)](<[https://github.com/semantic-release/semantic-release](https://david-dm.org/fisker/renovate-config-fisker)>)
 [![Issues](http://img.shields.io/github/issues/fisker/renovate-config-fisker.svg?style=flat-square)](https://github.com/fisker/renovate-config-fisker/issues)
@@ -17,7 +15,9 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![MIT license](https://img.shields.io/github/license/fisker/renovate-config-fisker.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-## usage
+> fisker's Renovate Shareable Configuration
+
+## Usage
 
 ```sh
 echo {"extends":["fisker"]}> renovate.json
@@ -27,6 +27,6 @@ echo {"extends":["fisker"]}> renovate.json
 
 - [renovatebot](https://renovatebot.com/)
 
-## license
+## License
 
 MIT © [fisker](https://www.fiskercheung.com)
