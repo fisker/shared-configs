@@ -39,7 +39,6 @@ module.exports = {
         devDependencies: [
           '.*.js',
           '.*rc',
-          '.*rc.js',
           '*.config.js',
           'scripts/**',
           'build/**',
