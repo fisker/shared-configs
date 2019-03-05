@@ -3,7 +3,9 @@ module.exports = {
   extends: ['plugin:unicorn/recommended'],
   rules: {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md
-    'unicorn/catch-error-name': 'warn',
+    // TODO: set this rule to `warn` after bug fixed
+    // bug desc https://github.com/sindresorhus/eslint-plugin-unicorn/issues/255
+    'unicorn/catch-error-name': 'off',
 
     // allow if (array.length) {}
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/explicit-length-check.md
@@ -43,5 +45,9 @@ module.exports = {
     // not released yet
     // TODO: enable rule after `eslint-plugin-unicorn` release
     // 'unicorn/no-for-loop': 'warn',
+
+    // TODO: enable this rule after bug fixed
+    // bug desc https://github.com/sindresorhus/eslint-plugin-unicorn/issues/254
+    'unicorn/prefer-spread': 'off',
   },
 }
