@@ -16,11 +16,11 @@ module.exports = {
     // unicorn
     './configs/unicorn/unicorn.js',
 
-    // prettier
-    './configs/prettier/prettier-vue.js',
-
     // vue
     './configs/vue/vue.js',
+
+    // prettier
+    './configs/prettier/prettier-vue.js',
 
     // own rules
     './configs/own/own.js',
