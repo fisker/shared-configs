@@ -13,14 +13,14 @@
   "files": [],
   "license": "MIT",
   "scripts": {
-    "build": "npm-run-all lint build:* prettier lint test",
+    "build": "npm-run-all lint build:*",
     "build:js": "node ./scripts/build.js",
     "prettier": "prettier **/*.{md,js,json} --write",
     "test": "ava",
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint **/*.js --fix",
     "lint:markdown": "markdownlint **/*.md --ignore node_modules/**",
-    "release": "npm-run-all build semantic-release",
+    "release": "npm-run-all build test prettier semantic-release",
     "semantic-release": "npm-run-all release"
   },
   "devDependencies": {

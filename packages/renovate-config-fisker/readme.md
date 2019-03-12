@@ -1,7 +1,7 @@
 # renovate-config-fisker
 
 [![Build Status](https://img.shields.io/travis/fisker/renovate-config-fisker/master.svg?style=flat-square)](https://travis-ci.org/fisker/renovate-config-fisker)
-[![devDependencies](https://img.shields.io/david/dev/fisker/renovate-config-fisker.svg?style=flat-square)](<[https://github.com/semantic-release/semantic-release](https://david-dm.org/fisker/renovate-config-fisker)>)
+[![devDependencies](https://img.shields.io/david/dev/fisker/renovate-config-fisker.svg?style=flat-square)](https://david-dm.org/fisker/renovate-config-fisker)
 [![Issues](http://img.shields.io/github/issues/fisker/renovate-config-fisker.svg?style=flat-square)](https://github.com/fisker/renovate-config-fisker/issues)
 [![Issues](https://img.shields.io/github/issues-pr/fisker/renovate-config-fisker.svg?style=flat-square)](https://github.com/fisker/renovate-config-fisker/pulls)
 [![GitHub last commit](https://img.shields.io/github/last-commit/fisker/renovate-config-fisker.svg?style=flat-square)](https://github.com/fisker/renovate-config-fisker/commits)
