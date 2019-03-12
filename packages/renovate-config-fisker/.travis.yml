@@ -9,6 +9,10 @@ sudo: false
 
 cache: yarn
 
+script:
+  - yarn build
+  - yarn test
+
 jobs:
   include:
     # Define the release stage that runs semantic-release
@@ -20,4 +24,4 @@ jobs:
         provider: script
         skip_cleanup: true
         script:
-          - npx semantic-release
+          - yarn release
