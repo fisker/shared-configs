@@ -19,7 +19,7 @@
     "test": "ava",
     "lint": "npm-run-all lint:*",
     "lint:js": "eslint **/*.js --fix",
-    "lint:markdown": "markdownlint **/*.md --ignore node_modules/**",
+    "lint:markdown": "markdownlint **/*.md --ignore node_modules",
     "release": "npm-run-all build prettier test semantic-release",
     "semantic-release": "npm-run-all release"
   },
