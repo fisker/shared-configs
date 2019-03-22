@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.6.0
+
+- adopt `eslint-plugin-eslint-comments` plugin
+
 ## v3.5.5
 
 - allow `import/no-dynamic-require`

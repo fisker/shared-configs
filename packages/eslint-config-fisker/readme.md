@@ -70,6 +70,7 @@ npx eslint **/*.js
 - [ ] node plugin (need evaluate)
 - [ ] webpack plugin (need evaluate)
 - [x] unicorn plugin
+- [x] eslint-comments plugin
 - [ ] write documents explain rules
 - [ ] test
 
@@ -81,6 +82,7 @@ npx eslint **/*.js
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+- [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 
 ## Changelog
 

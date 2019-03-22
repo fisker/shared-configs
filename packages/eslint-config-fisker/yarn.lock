@@ -184,10 +184,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@xwtec/eslint-config@^3.5.9":
-  version "3.5.12"
-  resolved "https://registry.yarnpkg.com/@xwtec/eslint-config/-/eslint-config-3.5.12.tgz#f03323c81ebd64c175e2947e24622f41d5375607"
-  integrity sha512-7d8TTOlGon3hCjUDnyRiHK0EjRwCNDWrzGM82hRd0A+oBKIo7LPY0lxeCJrGs8mIIxAdhPymqLd4xdHD7SCrhg==
+"@xwtec/eslint-config@^3.7.0":
+  version "3.7.0"
+  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.7.0.tgz#3c7e1fdcdb2bc86156f7fcb0028b29b9c9a84532"
+  integrity sha1-PH4f3NsryGFW9/ywAospucmoRTI=
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^4.1.0"
@@ -1037,6 +1037,14 @@ eslint-module-utils@^2.3.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
+eslint-plugin-eslint-comments@^3.1.1:
+  version "3.1.1"
+  resolved "http://registry.npm.taobao.org/eslint-plugin-eslint-comments/download/eslint-plugin-eslint-comments-3.1.1.tgz#32ff0afba8a48e17073817e6d03fbc5622f735b7"
+  integrity sha1-Mv8K+6ikjhcHOBfm0D+8ViL3Nbc=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    ignore "^5.0.5"
+
 eslint-plugin-import@^2.16.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.16.0.tgz#97ac3e75d0791c4fac0e15ef388510217be7f66f"
@@ -1640,6 +1648,11 @@ ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
+ignore@^5.0.5:
+  version "5.0.6"
+  resolved "http://registry.npm.taobao.org/ignore/download/ignore-5.0.6.tgz#562dacc7ec27d672dde433aa683c543b24c17694"
+  integrity sha1-Vi2sx+wn1nLd5DOqaDxUOyTBdpQ=
+
 import-fresh@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
@@ -2111,10 +2124,10 @@ linkify-it@^2.0.0:
   dependencies:
     uc.micro "^1.0.1"
 
-lint-staged@^8.1.4:
+lint-staged@^8.1.5:
   version "8.1.5"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-8.1.5.tgz#372476fe1a58b8834eb562ed4c99126bd60bdd79"
-  integrity sha512-e5ZavfnSLcBJE1BTzRTqw6ly8OkqVyO3GL2M6teSmTBYQ/2BuueD5GIt2RPsP31u/vjKdexUyDCxSyK75q4BDA==
+  resolved "http://registry.npm.taobao.org/lint-staged/download/lint-staged-8.1.5.tgz#372476fe1a58b8834eb562ed4c99126bd60bdd79"
+  integrity sha1-NyR2/hpYuINOtWLtTJkSa9YL3Xk=
   dependencies:
     chalk "^2.3.1"
     commander "^2.14.1"

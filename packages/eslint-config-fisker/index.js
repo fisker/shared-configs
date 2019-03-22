@@ -10,6 +10,9 @@ module.exports = {
     // unicorn
     './configs/unicorn/unicorn.js',
 
+    // eslint-comments
+    './configs/eslint-comments/eslint-comments.js',
+
     // prettier
     './configs/prettier/prettier.js',
 
