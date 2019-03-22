@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v3.6.0
+## v3.8.0
 
 - adopt `eslint-plugin-eslint-comments` plugin
 

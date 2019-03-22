@@ -1,4 +1,3 @@
 {
-  "extends": ["fisker"],
-  "ignoreDeps": ["@xwtec/eslint-config"]
+  "extends": ["fisker"]
 }

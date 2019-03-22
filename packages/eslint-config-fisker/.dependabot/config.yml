@@ -10,7 +10,7 @@ update_configs:
   # new versions are published to the npm registry
   - package_manager: "javascript"
     directory: "/"
-    update_schedule: "daily"
+    update_schedule: "live"
 
     # Automerge all development updates and production
     # security (semver patch) updates (waiting for CI to pass)
@@ -24,8 +24,3 @@ update_configs:
 
     # auto update package.json
     version_requirement_updates: "auto"
-
-    # don't update self
-    ignored_updates:
-      - match:
-          dependency_name: "@xwtec/eslint-config"
