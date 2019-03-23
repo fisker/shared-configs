@@ -184,13 +184,14 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@xwtec/eslint-config@^3.7.0":
-  version "3.7.0"
-  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.7.0.tgz#3c7e1fdcdb2bc86156f7fcb0028b29b9c9a84532"
-  integrity sha1-PH4f3NsryGFW9/ywAospucmoRTI=
+"@xwtec/eslint-config@^3.8.0":
+  version "3.8.0"
+  resolved "http://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-3.8.0.tgz#15646c4e069aea1ae13ea4caedc31b607d5ba706"
+  integrity sha1-FWRsTgaa6hrhPqTK7cMbYH1bpwY=
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^4.1.0"
+    eslint-plugin-eslint-comments "^3.1.1"
     eslint-plugin-import "^2.16.0"
     eslint-plugin-prettier "^3.0.1"
     eslint-plugin-promise "^4.0.1"
@@ -2402,10 +2403,10 @@ markdown-it@8.4.2:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-markdownlint-cli@^0.14.0:
+markdownlint-cli@^0.14.1:
   version "0.14.1"
-  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.14.1.tgz#8207f869f2d861858ea280861a94365cdcf6eb27"
-  integrity sha512-bHueUEp1NmSFPWvOk3SNWhRRAInrdvmuzlkMrZJptUF6jNXJ32OhPXicRw2xg43+NLiUI01V5sc1VIrRWLKgig==
+  resolved "http://registry.npm.taobao.org/markdownlint-cli/download/markdownlint-cli-0.14.1.tgz#8207f869f2d861858ea280861a94365cdcf6eb27"
+  integrity sha1-ggf4afLYYYWOooCGGpQ2XNz26yc=
   dependencies:
     commander "~2.9.0"
     deep-extend "~0.5.1"

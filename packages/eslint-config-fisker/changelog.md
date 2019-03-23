@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v3.8.1
+
+- disable `eslint-plugin-eslint-comments` plugin, for this project
+
 ## v3.8.0
 
 - adopt `eslint-plugin-eslint-comments` plugin
