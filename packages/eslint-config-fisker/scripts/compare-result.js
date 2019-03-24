@@ -137,7 +137,7 @@ function toMarkdown(result) {
       .map(parts => ['', ...parts, ''].join('|'))
       .join('\n')
 
-    return `## ${localName} ${foreignName}\n\n${table}`
+    return `## ${localName} VS ${foreignName}\n\n${table}`
   })
 
   return ['# compare', ...body].join('\n\n')

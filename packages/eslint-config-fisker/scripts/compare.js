@@ -35,12 +35,9 @@ const compares = [
       },
     },
     foreign: {
-      name: 'airbnb (+ whitespace)',
+      name: 'airbnb-base',
       config: {
-        extends: [
-          'eslint-config-airbnb-base',
-          'eslint-config-airbnb-base/whitespace',
-        ].map(require.resolve),
+        extends: ['eslint-config-airbnb-base'].map(require.resolve),
       },
     },
   },

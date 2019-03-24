@@ -6,6 +6,5 @@ module.exports = {
     './rules/node.js',
     './rules/style.js',
     './rules/variables.js',
-    'eslint-config-airbnb-base/whitespace',
   ].map(require.resolve),
 }
