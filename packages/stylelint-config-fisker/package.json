@@ -16,7 +16,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "fisker/eslint-config-fisker",
+  "repository": "fisker/stylelint-config-fisker",
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
