@@ -5,7 +5,6 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 */
 
 const MAX_PARAMS = 5
-const MAX_STATEMENTS = 10
 
 module.exports = {
   rules: {
@@ -26,9 +25,6 @@ module.exports = {
 
     // limits the number of parameters that can be used in the function declaration.
     'max-params': ['warn', MAX_PARAMS],
-
-    // specify the maximum number of statement allowed in a function
-    'max-statements': ['warn', MAX_STATEMENTS],
 
     // restrict the number of statements per line
     // https://eslint.org/docs/rules/max-statements-per-line
@@ -72,7 +68,9 @@ module.exports = {
     'lines-between-class-members': [
       'error',
       'always',
-      {exceptAfterSingleLine: false},
+      {
+        exceptAfterSingleLine: false,
+      },
     ],
 
     // allow use of chained assignment expressions
@@ -85,5 +83,15 @@ module.exports = {
     // disallow use of the continue statement
     // https://eslint.org/docs/rules/no-continue
     'no-continue': 'off',
+
+    // disallow declaration of variables that are not used in the code
+    'no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        args: 'after-used',
+        ignoreRestSiblings: true,
+      },
+    ],
   },
 }

@@ -53,19 +53,6 @@ module.exports = {
     // airbnb allow this
     'no-implicit-globals': 'error',
 
-    // disallow magic numbers
-    // https://eslint.org/docs/rules/no-magic-numbers
-    // airbnb allow this
-    'no-magic-numbers': [
-      'warn',
-      {
-        ignore: [],
-        ignoreArrayIndexes: true,
-        enforceConst: true,
-        detectObjects: false,
-      },
-    ],
-
     // disallow unmodified conditions of loops
     // https://eslint.org/docs/rules/no-unmodified-loop-condition
     // airbnb allow this
