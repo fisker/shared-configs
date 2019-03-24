@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fisker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fisker's Shareable ESLint Configuration",
   "main": "index.js",
   "keywords": ["fisker", "eslint", "config"],
