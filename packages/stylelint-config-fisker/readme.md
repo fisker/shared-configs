@@ -29,7 +29,7 @@ npm install --save-dev stylelint prettier stylelint-config-fisker
 
 ```js
 module.exports = {
-  extends: ["fisker"],
+  extends: ["stylelint-config-fisker"],
 }
 ```
 
