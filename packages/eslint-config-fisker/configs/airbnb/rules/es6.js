@@ -17,7 +17,7 @@ module.exports = {
         },
         AssignmentExpression: {
           array: false,
-          object: true,
+          object: false,
         },
       },
       {
