@@ -30,9 +30,7 @@ const parseRuleValue = mem(function parseRuleValue(value) {
 
 const getRules = mem(function getRules(config) {
   const engine = new CLIEngine({
-    baseConfig: {
-      extends: config,
-    },
+    baseConfig: config,
     useEslintrc: false,
   })
 

@@ -285,117 +285,88 @@
 
 ## fisker prettier (+ unicorn)
 
-| rule                                                                                                                                                           | fisker | prettier (+ unicorn) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------------------: |
-| [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline)                                                                                   |  off   |         off          |
-| [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)                                                                                   |  off   |         off          |
-| [array-element-newline](https://eslint.org/docs/rules/array-element-newline)                                                                                   |  off   |         off          |
-| [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style)                                                                                             |  off   |         off          |
-| [arrow-parens](https://eslint.org/docs/rules/arrow-parens)                                                                                                     |  off   |         off          |
-| [arrow-spacing](https://eslint.org/docs/rules/arrow-spacing)                                                                                                   |  off   |         off          |
-| [block-spacing](https://eslint.org/docs/rules/block-spacing)                                                                                                   |  off   |         off          |
-| [brace-style](https://eslint.org/docs/rules/brace-style)                                                                                                       |  off   |         off          |
-| [comma-dangle](https://eslint.org/docs/rules/comma-dangle)                                                                                                     |  off   |         off          |
-| [comma-spacing](https://eslint.org/docs/rules/comma-spacing)                                                                                                   |  off   |         off          |
-| [comma-style](https://eslint.org/docs/rules/comma-style)                                                                                                       |  off   |         off          |
-| [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                                                           |  off   |         off          |
-| [curly](https://eslint.org/docs/rules/curly)                                                                                                                   | error  |         off          |
-| [dot-location](https://eslint.org/docs/rules/dot-location)                                                                                                     |  off   |         off          |
-| [eol-last](https://eslint.org/docs/rules/eol-last)                                                                                                             |  off   |         off          |
-| [func-call-spacing](https://eslint.org/docs/rules/func-call-spacing)                                                                                           |  off   |         off          |
-| [function-paren-newline](https://eslint.org/docs/rules/function-paren-newline)                                                                                 |  off   |         off          |
-| generator-star                                                                                                                                                 |  off   |         off          |
-| [generator-star-spacing](https://eslint.org/docs/rules/generator-star-spacing)                                                                                 |  off   |         off          |
-| [implicit-arrow-linebreak](https://eslint.org/docs/rules/implicit-arrow-linebreak)                                                                             |  off   |         off          |
-| [indent](https://eslint.org/docs/rules/indent)                                                                                                                 |  off   |         off          |
-| [indent-legacy](https://eslint.org/docs/rules/indent-legacy)                                                                                                   |  off   |         off          |
-| [jsx-quotes](https://eslint.org/docs/rules/jsx-quotes)                                                                                                         |  off   |         off          |
-| [key-spacing](https://eslint.org/docs/rules/key-spacing)                                                                                                       |  off   |         off          |
-| [keyword-spacing](https://eslint.org/docs/rules/keyword-spacing)                                                                                               |  off   |         off          |
-| [linebreak-style](https://eslint.org/docs/rules/linebreak-style)                                                                                               |  off   |         off          |
-| [lines-around-comment](https://eslint.org/docs/rules/lines-around-comment)                                                                                     |  off   |         off          |
-| [max-len](https://eslint.org/docs/rules/max-len)                                                                                                               |  off   |         off          |
-| [multiline-ternary](https://eslint.org/docs/rules/multiline-ternary)                                                                                           |  off   |         off          |
-| [new-parens](https://eslint.org/docs/rules/new-parens)                                                                                                         |  off   |         off          |
-| [newline-per-chained-call](https://eslint.org/docs/rules/newline-per-chained-call)                                                                             |  off   |         off          |
-| no-arrow-condition                                                                                                                                             |  off   |         off          |
-| no-comma-dangle                                                                                                                                                |  off   |         off          |
-| [no-confusing-arrow](https://eslint.org/docs/rules/no-confusing-arrow)                                                                                         |  off   |         off          |
-| [no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)                                                                                               |  off   |         off          |
-| [no-extra-semi](https://eslint.org/docs/rules/no-extra-semi)                                                                                                   |  off   |         off          |
-| [no-floating-decimal](https://eslint.org/docs/rules/no-floating-decimal)                                                                                       |  off   |         off          |
-| [no-mixed-operators](https://eslint.org/docs/rules/no-mixed-operators)                                                                                         |  off   |         off          |
-| [no-mixed-spaces-and-tabs](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)                                                                             |  off   |         off          |
-| [no-multi-spaces](https://eslint.org/docs/rules/no-multi-spaces)                                                                                               |  off   |         off          |
-| [no-multiple-empty-lines](https://eslint.org/docs/rules/no-multiple-empty-lines)                                                                               |  off   |         off          |
-| no-reserved-keys                                                                                                                                               |  off   |         off          |
-| no-space-before-semi                                                                                                                                           |  off   |         off          |
-| [no-spaced-func](https://eslint.org/docs/rules/no-spaced-func)                                                                                                 |  off   |         off          |
-| [no-tabs](https://eslint.org/docs/rules/no-tabs)                                                                                                               |  off   |         off          |
-| [no-trailing-spaces](https://eslint.org/docs/rules/no-trailing-spaces)                                                                                         |  off   |         off          |
-| [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)                                                                               |  off   |         off          |
-| [no-whitespace-before-property](https://eslint.org/docs/rules/no-whitespace-before-property)                                                                   |  off   |         off          |
-| no-wrap-func                                                                                                                                                   |  off   |         off          |
-| [nonblock-statement-body-position](https://eslint.org/docs/rules/nonblock-statement-body-position)                                                             |  off   |         off          |
-| [object-curly-newline](https://eslint.org/docs/rules/object-curly-newline)                                                                                     |  off   |         off          |
-| [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing)                                                                                     |  off   |         off          |
-| [object-property-newline](https://eslint.org/docs/rules/object-property-newline)                                                                               |  off   |         off          |
-| [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)                                                                     |  off   |         off          |
-| [operator-linebreak](https://eslint.org/docs/rules/operator-linebreak)                                                                                         |  off   |         off          |
-| [padded-blocks](https://eslint.org/docs/rules/padded-blocks)                                                                                                   |  off   |         off          |
-| [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback)                                                                                   |  off   |         off          |
-| [quote-props](https://eslint.org/docs/rules/quote-props)                                                                                                       |  off   |         off          |
-| [quotes](https://eslint.org/docs/rules/quotes)                                                                                                                 |  off   |         off          |
-| [rest-spread-spacing](https://eslint.org/docs/rules/rest-spread-spacing)                                                                                       |  off   |         off          |
-| [semi](https://eslint.org/docs/rules/semi)                                                                                                                     |  off   |         off          |
-| [semi-spacing](https://eslint.org/docs/rules/semi-spacing)                                                                                                     |  off   |         off          |
-| [semi-style](https://eslint.org/docs/rules/semi-style)                                                                                                         |  off   |         off          |
-| space-after-function-name                                                                                                                                      |  off   |         off          |
-| space-after-keywords                                                                                                                                           |  off   |         off          |
-| [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)                                                                                       |  off   |         off          |
-| [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)                                                                       |  off   |         off          |
-| space-before-function-parentheses                                                                                                                              |  off   |         off          |
-| space-before-keywords                                                                                                                                          |  off   |         off          |
-| space-in-brackets                                                                                                                                              |  off   |         off          |
-| [space-in-parens](https://eslint.org/docs/rules/space-in-parens)                                                                                               |  off   |         off          |
-| [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)                                                                                               |  off   |         off          |
-| space-return-throw-case                                                                                                                                        |  off   |         off          |
-| [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)                                                                                               |  off   |         off          |
-| space-unary-word-ops                                                                                                                                           |  off   |         off          |
-| [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing)                                                                                     |  off   |         off          |
-| [template-curly-spacing](https://eslint.org/docs/rules/template-curly-spacing)                                                                                 |  off   |         off          |
-| [template-tag-spacing](https://eslint.org/docs/rules/template-tag-spacing)                                                                                     |  off   |         off          |
-| [unicode-bom](https://eslint.org/docs/rules/unicode-bom)                                                                                                       |  off   |         off          |
-| [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                                                                                           |  off   |         off          |
-| [wrap-regex](https://eslint.org/docs/rules/wrap-regex)                                                                                                         |  off   |         off          |
-| [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing)                                                                                         |  off   |         off          |
-| [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  |                      |
-| [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/catch-error-name.md)                                   |  off   |                      |
-| [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/custom-error-definition.md)                     |  off   |                      |
-| [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/error-message.md)                                         | error  |                      |
-| [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/escape-case.md)                                             | error  |                      |
-| [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/explicit-length-check.md)                         | error  |                      |
-| [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/filename-case.md)                                         | error  |                      |
-| [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/import-index.md)                                           | error  |                      |
-| [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/new-for-builtins.md)                                   | error  |                      |
-| [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-abusive-eslint-disable.md)                 | error  |                      |
-| [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-array-instanceof.md)                             | error  |                      |
-| [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-console-spaces.md)                                 | error  |                      |
-| [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-fn-reference-in-iterator.md)             |  off   |                      |
-| [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-hex-escape.md)                                         | error  |                      |
-| [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-new-buffer.md)                                         | error  |                      |
-| [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-process-exit.md)                                     |  off   |                      |
-| [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unreadable-array-destructuring.md) | error  |                      |
-| [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unsafe-regex.md)                                     |  off   |                      |
-| [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unused-properties.md)                           |  off   |                      |
-| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/number-literal-case.md)                             |  off   |         off          |
-| [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-add-event-listener.md)                 |  off   |                      |
-| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-exponentiation-operator.md)       | error  |                      |
-| [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-node-append.md)                               |  off   |                      |
-| unicorn/prefer-node-remove                                                                                                                                     |  off   |                      |
-| [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-query-selector.md)                         |  off   |                      |
-| [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-spread.md)                                         |  off   |                      |
-| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-starts-ends-with.md)                     | error  |                      |
-| [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-type-error.md)                                 | error  |                      |
-| [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/regex-shorthand.md)                                     |  warn  |                      |
-| [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/throw-new-error.md)                                     | error  |                      |
+| rule                                                                                                                               | fisker | prettier (+ unicorn) |
+| :--------------------------------------------------------------------------------------------------------------------------------- | :----: | :------------------: |
+| [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline)                                                       |  off   |         off          |
+| [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)                                                       |  off   |         off          |
+| [array-element-newline](https://eslint.org/docs/rules/array-element-newline)                                                       |  off   |         off          |
+| [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style)                                                                 |  off   |         off          |
+| [arrow-parens](https://eslint.org/docs/rules/arrow-parens)                                                                         |  off   |         off          |
+| [arrow-spacing](https://eslint.org/docs/rules/arrow-spacing)                                                                       |  off   |         off          |
+| [block-spacing](https://eslint.org/docs/rules/block-spacing)                                                                       |  off   |         off          |
+| [brace-style](https://eslint.org/docs/rules/brace-style)                                                                           |  off   |         off          |
+| [comma-dangle](https://eslint.org/docs/rules/comma-dangle)                                                                         |  off   |         off          |
+| [comma-spacing](https://eslint.org/docs/rules/comma-spacing)                                                                       |  off   |         off          |
+| [comma-style](https://eslint.org/docs/rules/comma-style)                                                                           |  off   |         off          |
+| [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                               |  off   |         off          |
+| [curly](https://eslint.org/docs/rules/curly)                                                                                       | error  |         off          |
+| [dot-location](https://eslint.org/docs/rules/dot-location)                                                                         |  off   |         off          |
+| [eol-last](https://eslint.org/docs/rules/eol-last)                                                                                 |  off   |         off          |
+| [func-call-spacing](https://eslint.org/docs/rules/func-call-spacing)                                                               |  off   |         off          |
+| [function-paren-newline](https://eslint.org/docs/rules/function-paren-newline)                                                     |  off   |         off          |
+| generator-star                                                                                                                     |  off   |         off          |
+| [generator-star-spacing](https://eslint.org/docs/rules/generator-star-spacing)                                                     |  off   |         off          |
+| [implicit-arrow-linebreak](https://eslint.org/docs/rules/implicit-arrow-linebreak)                                                 |  off   |         off          |
+| [indent](https://eslint.org/docs/rules/indent)                                                                                     |  off   |         off          |
+| [indent-legacy](https://eslint.org/docs/rules/indent-legacy)                                                                       |  off   |         off          |
+| [jsx-quotes](https://eslint.org/docs/rules/jsx-quotes)                                                                             |  off   |         off          |
+| [key-spacing](https://eslint.org/docs/rules/key-spacing)                                                                           |  off   |         off          |
+| [keyword-spacing](https://eslint.org/docs/rules/keyword-spacing)                                                                   |  off   |         off          |
+| [linebreak-style](https://eslint.org/docs/rules/linebreak-style)                                                                   |  off   |         off          |
+| [lines-around-comment](https://eslint.org/docs/rules/lines-around-comment)                                                         |  off   |         off          |
+| [max-len](https://eslint.org/docs/rules/max-len)                                                                                   |  off   |         off          |
+| [multiline-ternary](https://eslint.org/docs/rules/multiline-ternary)                                                               |  off   |         off          |
+| [new-parens](https://eslint.org/docs/rules/new-parens)                                                                             |  off   |         off          |
+| [newline-per-chained-call](https://eslint.org/docs/rules/newline-per-chained-call)                                                 |  off   |         off          |
+| no-arrow-condition                                                                                                                 |  off   |         off          |
+| no-comma-dangle                                                                                                                    |  off   |         off          |
+| [no-confusing-arrow](https://eslint.org/docs/rules/no-confusing-arrow)                                                             |  off   |         off          |
+| [no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)                                                                   |  off   |         off          |
+| [no-extra-semi](https://eslint.org/docs/rules/no-extra-semi)                                                                       |  off   |         off          |
+| [no-floating-decimal](https://eslint.org/docs/rules/no-floating-decimal)                                                           |  off   |         off          |
+| [no-mixed-operators](https://eslint.org/docs/rules/no-mixed-operators)                                                             |  off   |         off          |
+| [no-mixed-spaces-and-tabs](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)                                                 |  off   |         off          |
+| [no-multi-spaces](https://eslint.org/docs/rules/no-multi-spaces)                                                                   |  off   |         off          |
+| [no-multiple-empty-lines](https://eslint.org/docs/rules/no-multiple-empty-lines)                                                   |  off   |         off          |
+| no-reserved-keys                                                                                                                   |  off   |         off          |
+| no-space-before-semi                                                                                                               |  off   |         off          |
+| [no-spaced-func](https://eslint.org/docs/rules/no-spaced-func)                                                                     |  off   |         off          |
+| [no-tabs](https://eslint.org/docs/rules/no-tabs)                                                                                   |  off   |         off          |
+| [no-trailing-spaces](https://eslint.org/docs/rules/no-trailing-spaces)                                                             |  off   |         off          |
+| [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)                                                   |  off   |         off          |
+| [no-whitespace-before-property](https://eslint.org/docs/rules/no-whitespace-before-property)                                       |  off   |         off          |
+| no-wrap-func                                                                                                                       |  off   |         off          |
+| [nonblock-statement-body-position](https://eslint.org/docs/rules/nonblock-statement-body-position)                                 |  off   |         off          |
+| [object-curly-newline](https://eslint.org/docs/rules/object-curly-newline)                                                         |  off   |         off          |
+| [object-curly-spacing](https://eslint.org/docs/rules/object-curly-spacing)                                                         |  off   |         off          |
+| [object-property-newline](https://eslint.org/docs/rules/object-property-newline)                                                   |  off   |         off          |
+| [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line)                                         |  off   |         off          |
+| [operator-linebreak](https://eslint.org/docs/rules/operator-linebreak)                                                             |  off   |         off          |
+| [padded-blocks](https://eslint.org/docs/rules/padded-blocks)                                                                       |  off   |         off          |
+| [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback)                                                       |  off   |         off          |
+| [quote-props](https://eslint.org/docs/rules/quote-props)                                                                           |  off   |         off          |
+| [quotes](https://eslint.org/docs/rules/quotes)                                                                                     |  off   |         off          |
+| [rest-spread-spacing](https://eslint.org/docs/rules/rest-spread-spacing)                                                           |  off   |         off          |
+| [semi](https://eslint.org/docs/rules/semi)                                                                                         |  off   |         off          |
+| [semi-spacing](https://eslint.org/docs/rules/semi-spacing)                                                                         |  off   |         off          |
+| [semi-style](https://eslint.org/docs/rules/semi-style)                                                                             |  off   |         off          |
+| space-after-function-name                                                                                                          |  off   |         off          |
+| space-after-keywords                                                                                                               |  off   |         off          |
+| [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)                                                           |  off   |         off          |
+| [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)                                           |  off   |         off          |
+| space-before-function-parentheses                                                                                                  |  off   |         off          |
+| space-before-keywords                                                                                                              |  off   |         off          |
+| space-in-brackets                                                                                                                  |  off   |         off          |
+| [space-in-parens](https://eslint.org/docs/rules/space-in-parens)                                                                   |  off   |         off          |
+| [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)                                                                   |  off   |         off          |
+| space-return-throw-case                                                                                                            |  off   |         off          |
+| [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)                                                                   |  off   |         off          |
+| space-unary-word-ops                                                                                                               |  off   |         off          |
+| [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing)                                                         |  off   |         off          |
+| [template-curly-spacing](https://eslint.org/docs/rules/template-curly-spacing)                                                     |  off   |         off          |
+| [template-tag-spacing](https://eslint.org/docs/rules/template-tag-spacing)                                                         |  off   |         off          |
+| [unicode-bom](https://eslint.org/docs/rules/unicode-bom)                                                                           |  off   |         off          |
+| [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                                                               |  off   |         off          |
+| [wrap-regex](https://eslint.org/docs/rules/wrap-regex)                                                                             |  off   |         off          |
+| [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing)                                                             |  off   |         off          |
+| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/number-literal-case.md) |  off   |         off          |

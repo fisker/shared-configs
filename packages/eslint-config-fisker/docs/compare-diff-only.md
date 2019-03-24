@@ -87,35 +87,6 @@
 
 ## fisker prettier (+ unicorn)
 
-| rule                                                                                                                                                           | fisker | prettier (+ unicorn) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------------------: |
-| [curly](https://eslint.org/docs/rules/curly)                                                                                                                   | error  |         off          |
-| [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  |                      |
-| [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/catch-error-name.md)                                   |  off   |                      |
-| [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/custom-error-definition.md)                     |  off   |                      |
-| [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/error-message.md)                                         | error  |                      |
-| [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/escape-case.md)                                             | error  |                      |
-| [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/explicit-length-check.md)                         | error  |                      |
-| [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/filename-case.md)                                         | error  |                      |
-| [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/import-index.md)                                           | error  |                      |
-| [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/new-for-builtins.md)                                   | error  |                      |
-| [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-abusive-eslint-disable.md)                 | error  |                      |
-| [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-array-instanceof.md)                             | error  |                      |
-| [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-console-spaces.md)                                 | error  |                      |
-| [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-fn-reference-in-iterator.md)             |  off   |                      |
-| [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-hex-escape.md)                                         | error  |                      |
-| [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-new-buffer.md)                                         | error  |                      |
-| [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-process-exit.md)                                     |  off   |                      |
-| [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unreadable-array-destructuring.md) | error  |                      |
-| [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unsafe-regex.md)                                     |  off   |                      |
-| [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/no-unused-properties.md)                           |  off   |                      |
-| [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-add-event-listener.md)                 |  off   |                      |
-| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-exponentiation-operator.md)       | error  |                      |
-| [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-node-append.md)                               |  off   |                      |
-| unicorn/prefer-node-remove                                                                                                                                     |  off   |                      |
-| [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-query-selector.md)                         |  off   |                      |
-| [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-spread.md)                                         |  off   |                      |
-| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-starts-ends-with.md)                     | error  |                      |
-| [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/prefer-type-error.md)                                 | error  |                      |
-| [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/regex-shorthand.md)                                     |  warn  |                      |
-| [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/throw-new-error.md)                                     | error  |                      |
+| rule                                         | fisker | prettier (+ unicorn) |
+| :------------------------------------------- | :----: | :------------------: |
+| [curly](https://eslint.org/docs/rules/curly) | error  |         off          |

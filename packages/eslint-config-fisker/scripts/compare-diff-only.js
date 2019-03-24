@@ -37,14 +37,18 @@ const compares = [
     },
     local: {
       name: 'fisker',
-      config: ['../index.js'].map(require.resolve),
+      config: {
+        extends: ['../index.js'].map(require.resolve),
+      },
     },
     foreign: {
       name: 'airbnb (+ whitespace)',
-      config: [
-        'eslint-config-airbnb-base',
-        'eslint-config-airbnb-base/whitespace',
-      ].map(require.resolve),
+      config: {
+        extends: [
+          'eslint-config-airbnb-base',
+          'eslint-config-airbnb-base/whitespace',
+        ].map(require.resolve),
+      },
     },
   },
   {
@@ -58,20 +62,24 @@ const compares = [
       }
       const {prefix} = splitRuleId(ruleId)
       return (
-        prefix === 'prettier' ||
-        prefix === 'unicorn' ||
-        (!prefix && has(foreignRules, ruleId))
+        (prefix === 'prettier' || prefix === 'unicorn' || !prefix) &&
+        has(foreignRules, ruleId)
       )
     },
     local: {
       name: 'fisker',
-      config: ['../index.js'].map(require.resolve),
+      config: {
+        extends: ['../index.js'].map(require.resolve),
+      },
     },
     foreign: {
       name: 'prettier (+ unicorn)',
-      config: ['eslint-config-prettier', 'eslint-config-prettier/unicorn'].map(
-        require.resolve
-      ),
+      config: {
+        extends: [
+          'eslint-config-prettier',
+          'eslint-config-prettier/unicorn',
+        ].map(require.resolve),
+      },
     },
   },
 ]
