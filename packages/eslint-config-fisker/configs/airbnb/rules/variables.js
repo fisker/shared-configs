@@ -7,17 +7,7 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 module.exports = {
   rules: {
     // https://eslint.org/docs/rules/no-shadow
-    'no-shadow': 'off',
-
-    // allow unused vars
-    'no-unused-vars': [
-      'warn',
-      {
-        vars: 'all',
-        args: 'after-used',
-        ignoreRestSiblings: true,
-      },
-    ],
+    'no-shadow': 'warn',
 
     // allow functions & classes use before define
     'no-use-before-define': [

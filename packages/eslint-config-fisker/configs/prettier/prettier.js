@@ -7,6 +7,6 @@ module.exports = {
     // specify curly brace conventions for all control statements
     curly: ['error', 'all'],
 
-    'prettier/prettier': 'warn',
+    'prettier/prettier': 'error',
   },
 }

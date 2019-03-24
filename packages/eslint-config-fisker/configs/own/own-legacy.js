@@ -17,6 +17,6 @@ module.exports = {
     strict: ['error', 'function'],
 
     // catch 变量
-    'no-catch-shadow': 'warn',
+    'no-catch-shadow': 'error',
   },
 }

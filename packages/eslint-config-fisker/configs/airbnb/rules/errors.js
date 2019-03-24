@@ -6,7 +6,15 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 
 module.exports = {
   rules: {
+    // disallow using an async function as a Promise executor
+    // https://eslint.org/docs/rules/no-async-promise-executor
+    // airbnb disabled this
+    'no-async-promise-executor': 'error',
+
+    // airbnb do't allow emptyCatch
     'no-empty': ['error', {allowEmptyCatch: true}],
+
+    // allow cond-assign with parens
     'no-cond-assign': ['error', 'except-parens'],
 
     // no loop check

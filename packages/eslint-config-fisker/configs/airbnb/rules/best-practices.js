@@ -26,30 +26,20 @@ module.exports = {
     // don't allow comparisons to null
     'no-eq-null': 'error',
 
-    // disallow else after a return in an if
-    // https://eslint.org/docs/rules/no-else-return
-    'no-else-return': ['warn', {allowElseIf: false}],
-
-    // enforces return statements in callbacks of array's methods
-    // https://eslint.org/docs/rules/array-callback-return
-    'array-callback-return': ['warn', {allowImplicit: true}],
-
     // specify curly brace conventions for all control statements
     curly: ['error', 'all'],
 
     // disallow creation of functions within loops
     'no-loop-func': 'warn',
 
-    // disallow use of `javascript:` urls.
-    'no-script-url': 'warn',
-
     // disallow use of new operator when not part of the assignment or comparison
     'no-new': 'warn',
 
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
+    // airbnb allow this
     'no-implicit-coercion': [
-      'warn',
+      'error',
       {
         boolean: false,
         number: true,
@@ -58,6 +48,36 @@ module.exports = {
       },
     ],
 
-    'require-await': 'warn',
+    // disallow var and named functions in global scope
+    // https://eslint.org/docs/rules/no-implicit-globals
+    // airbnb allow this
+    'no-implicit-globals': 'error',
+
+    // disallow magic numbers
+    // https://eslint.org/docs/rules/no-magic-numbers
+    // airbnb allow this
+    'no-magic-numbers': [
+      'warn',
+      {
+        ignore: [],
+        ignoreArrayIndexes: true,
+        enforceConst: true,
+        detectObjects: false,
+      },
+    ],
+
+    // disallow unmodified conditions of loops
+    // https://eslint.org/docs/rules/no-unmodified-loop-condition
+    // airbnb allow this
+    'no-unmodified-loop-condition': 'error',
+
+    // disallow unnecessary .call() and .apply()
+    // airbnb allow this
+    'no-useless-call': 'error',
+
+    // Disallow unnecessary catch clauses
+    // https://eslint.org/docs/rules/no-useless-catch
+    // airbnb allow this
+    'no-useless-catch': 'error',
   },
 }
