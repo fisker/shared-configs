@@ -7,6 +7,9 @@
   "files": ["index.js", "legacy.js", "vue.js", "configs/"],
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
+    "build": "npm-run-all build:*",
+    "build:compare": "node scripts/compare.js",
+    "build:compare-diff-only": "node scripts/compare-diff-only.js",
     "prettier": "prettier **/*.{js,md,json} --write",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint **/*.js",
@@ -15,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-fisker": "^4.0.1",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.16.0",

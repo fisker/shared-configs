@@ -11,6 +11,10 @@ module.exports = {
     // sometimes readable
     'unicorn/regex-shorthand': 'warn',
 
+    'unicorn/no-process-exit': 'off',
+
+    'unicorn/prefer-add-event-listener': 'off',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md    'unicorn/prefer-add-event-listener': 'warn',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-append.md
