@@ -17,7 +17,7 @@ module.exports = {
     './configs/unicorn/unicorn.js',
 
     // eslint-comments
-    // './configs/eslint-comments/eslint-comments.js',
+    './configs/eslint-comments/eslint-comments.js',
 
     // vue
     './configs/vue/vue.js',

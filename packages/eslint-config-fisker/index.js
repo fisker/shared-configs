@@ -11,7 +11,7 @@ module.exports = {
     './configs/unicorn/unicorn.js',
 
     // eslint-comments
-    // './configs/eslint-comments/eslint-comments.js',
+    './configs/eslint-comments/eslint-comments.js',
 
     // prettier
     './configs/prettier/prettier.js',

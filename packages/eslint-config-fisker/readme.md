@@ -1,17 +1,17 @@
-# @xwtec/eslint-config
+# eslint-config-fisker
 
-[![devDependencies](https://img.shields.io/david/dev/xwtec/eslint-config.svg?style=flat-square)](https://david-dm.org/xwtec/eslint-config)
-[![Issues](http://img.shields.io/github/issues/xwtec/eslint-config.svg?style=flat-square)](https://github.com/xwtec/eslint-config/issues)
-[![Issues](https://img.shields.io/github/issues-pr/xwtec/eslint-config.svg?style=flat-square)](https://github.com/xwtec/eslint-config/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/xwtec/eslint-config.svg?style=flat-square)](https://github.com/xwtec/eslint-config/commits)
-[![GitHub Release Date](https://img.shields.io/github/release-date/xwtec/eslint-config.svg?style=flat-square)](https://github.com/xwtec/eslint-config/releases)
+[![devDependencies](https://img.shields.io/david/dev/eslint-config-fisker.svg?style=flat-square)](https://david-dm.org/eslint-config-fisker)
+[![Issues](http://img.shields.io/github/issues/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/issues)
+[![Issues](https://img.shields.io/github/issues-pr/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/commits)
+[![GitHub Release Date](https://img.shields.io/github/release-date/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/releases)
 
-[![npm](https://img.shields.io/npm/v/@xwtec/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@xwtec/eslint-config)
-[![npm](https://img.shields.io/npm/dt/@xwtec/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@xwtec/eslint-config)
-[![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/@xwtec/eslint-config.svg?style=flat-square)](https://snyk.io/vuln/npm:@xwtec%2Feslint-config)
+[![npm](https://img.shields.io/npm/v/eslint-config-fisker.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-fisker)
+[![npm](https://img.shields.io/npm/dt/eslint-config-fisker.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-fisker)
+[![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/eslint-config-fisker.svg?style=flat-square)](https://snyk.io/vuln/npm:eslint-config-fisker)
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![MIT license](https://img.shields.io/github/license/xwtec/eslint-config.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![MIT license](https://img.shields.io/github/license/eslint-config-fisker.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 > ESLint Configuration for xwtec projects
 
@@ -19,10 +19,10 @@
 
 ```sh
 # with yarn
-yarn add --dev eslint prettier @xwtec/eslint-config
+yarn add --dev eslint prettier eslint-config-fisker
 
 # with npm
-npm install --save-dev eslint prettier @xwtec/eslint-config
+npm install --save-dev eslint prettier eslint-config-fisker
 ```
 
 ## .eslintrc.js
@@ -32,7 +32,7 @@ npm install --save-dev eslint prettier @xwtec/eslint-config
 ```js
 module.exports = {
   root: true,
-  extends: ["@xwtec"],
+  extends: ["fisker"],
 }
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
 ```js
 module.exports = {
   root: true,
-  extends: ["@xwtec/eslint-config/legacy"],
+  extends: ["fisker/legacy"],
 }
 ```
 
@@ -50,14 +50,8 @@ module.exports = {
 ```js
 module.exports = {
   root: true,
-  extends: ["@xwtec/eslint-config/vue"],
+  extends: ["fisker/vue"],
 }
-```
-
-## Usage
-
-```sh
-npx eslint **/*.js
 ```
 
 ## Todos
@@ -84,10 +78,6 @@ npx eslint **/*.js
 - [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 
-## Changelog
-
-[changelog.md](https://github.com/xwtec/eslint-config/blob/master/changelog.md)
-
 ## License
 
-MIT © [xwtec](https://github.com/xwtec)
+MIT © [fisker Cheung](https://www.fiskercheung.com/)
