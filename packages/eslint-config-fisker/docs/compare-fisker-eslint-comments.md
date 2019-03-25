@@ -1,3 +1,5 @@
+<!-- AUTO GENERATED FILE, DO NOT EDIT -->
+
 # compare
 
 > compare fisker with eslint-comments/recommended

@@ -1,3 +1,5 @@
+<!-- AUTO GENERATED FILE, DO NOT EDIT -->
+
 # compare
 
 > compare fisker with prettier + prettier/unicorn

@@ -142,6 +142,7 @@ for (const {filter, file, local, foreign} of compares) {
   })
 
   const content = [
+    '<!-- AUTO GENERATED FILE, DO NOT EDIT -->',
     `# compare`,
     `> compare ${local.name} with ${foreign.name}`,
     `## difference only`,
