@@ -45,6 +45,8 @@ module.exports = {
 }
 ```
 
+- [difference with `default`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-legacy.md)
+
 ### vue
 
 ```js
@@ -53,6 +55,36 @@ module.exports = {
   extends: ["fisker/vue"],
 }
 ```
+
+## foreign config & plugins
+
+### eslint-config-airbnb-base
+
+- [compare `fisker` to `airbnb-base`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-airbnb.md)
+- [compare `fisker` to `airbnb-base` + `prettier`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-airbnb-prettier.md)
+- [compare `fisker/legacy` to `airbnb-base/legacy`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-legacy-airbnb-legacy.md)
+- [compare `fisker/legacy` to `airbnb-base/legacy` + `prettier`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-legacy-airbnb-legacy-prettier.md)
+
+### eslint-config-prettier
+
+- [compare `fisker` to `prettier` + `prettier/unicorn`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-prettier.md)
+
+### eslint-plugin-eslint-comments
+
+- [compare `fisker` to `eslint-comments/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-eslint-comments.md)
+
+### eslint-plugin-promise
+
+- [compare `fisker` to `promise/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-promise.md)
+
+### eslint-plugin-unicorn
+
+- [compare `fisker` to `unicorn/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-unicorn.md)
+
+### eslint-plugin-vue
+
+- [compare `fisker/vue` to `vue/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-vue-vue.md)
+- [compare `fisker/vue` to `vue/recommended` + `vue/no-layout-rules` + `prettier` + `prettier/vue`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-vue-vue-prettier.md)
 
 ## Todos
 

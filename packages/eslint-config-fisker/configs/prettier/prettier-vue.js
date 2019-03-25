@@ -1,7 +1,8 @@
 module.exports = {
+  plugins: ['vue'],
   extends: [
     'plugin:vue/no-layout-rules',
-    './prettier.js',
-    'eslint-config-prettier/vue',
-  ].map(require.resolve),
+    require.resolve('./prettier.js'),
+    require.resolve('eslint-config-prettier/vue'),
+  ],
 }

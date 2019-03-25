@@ -1,14 +1,16 @@
-# compare fisker with prettier(+prettier/unicorn)
+# compare
+
+> compare fisker with prettier + prettier/unicorn
 
 ## difference only
 
-| Rule                                         | fisker | prettier(+prettier/unicorn) |
+| Rule                                         | fisker | prettier + prettier/unicorn |
 | :------------------------------------------- | :----: | :-------------------------: |
 | [curly](https://eslint.org/docs/rules/curly) | error  |             off             |
 
 ## all rules
 
-| Rule                                                                                                                               | fisker | prettier(+prettier/unicorn) |
+| Rule                                                                                                                               | fisker | prettier + prettier/unicorn |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :----: | :-------------------------: |
 | [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline)                                                       |  off   |             off             |
 | [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)                                                       |  off   |             off             |
