@@ -1,19 +1,19 @@
 # eslint-config-fisker
 
-[![devDependencies](https://img.shields.io/david/dev/eslint-config-fisker.svg?style=flat-square)](https://david-dm.org/eslint-config-fisker)
-[![Issues](http://img.shields.io/github/issues/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/issues)
-[![Issues](https://img.shields.io/github/issues-pr/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/commits)
-[![GitHub Release Date](https://img.shields.io/github/release-date/eslint-config-fisker.svg?style=flat-square)](https://github.com/eslint-config-fisker/releases)
+[![devDependencies](https://img.shields.io/david/dev/fisker/eslint-config-fisker.svg?style=flat-square)](https://david-dm.org/fisker/eslint-config-fisker)
+[![Issues](http://img.shields.io/github/issues/fisker/eslint-config-fisker.svg?style=flat-square)](https://github.com/fisker/eslint-config-fisker/issues)
+[![Issues](https://img.shields.io/github/issues-pr/fisker/eslint-config-fisker.svg?style=flat-square)](https://github.com/fisker/eslint-config-fisker/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/fisker/eslint-config-fisker.svg?style=flat-square)](https://github.com/fisker/eslint-config-fisker/commits)
+[![GitHub Release Date](https://img.shields.io/github/release-date/fisker/eslint-config-fisker.svg?style=flat-square)](https://github.com/fisker/eslint-config-fisker/releases)
 
 [![npm](https://img.shields.io/npm/v/eslint-config-fisker.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-fisker)
-[![npm](https://img.shields.io/npm/dt/eslint-config-fisker.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-fisker)
+[![npm](https://img.shields.io/npm/dt/eslint-config-fisker.svg?style=flat-square)](https://www.npmtrends.com/eslint-config-fiske)
 [![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/eslint-config-fisker.svg?style=flat-square)](https://snyk.io/vuln/npm:eslint-config-fisker)
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![MIT license](https://img.shields.io/github/license/eslint-config-fisker.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-> ESLint Configuration for xwtec projects
+> fisker's Shareable ESLint Configuration
 
 ## Install
 
