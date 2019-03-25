@@ -8,8 +8,7 @@
   "scripts": {
     "release": "np --no-yarn --no-cleanup",
     "build": "npm-run-all build:*",
-    "build:compare": "node scripts/compare.js",
-    "build:compare-diff-only": "node scripts/compare-diff-only.js",
+    "build:compare": "node -r esm scripts/compare.js",
     "prettier": "prettier **/*.{js,md,json} --write",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint **/*.js",
@@ -36,6 +35,7 @@
     "@commitlint/config-conventional": "^7.5.0",
     "cz-conventional-changelog-emoji": "^0.1.0",
     "eslint": "^5.15.3",
+    "esm": "^3.2.20",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
     "markdownlint-cli": "^0.14.1",
