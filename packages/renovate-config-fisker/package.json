@@ -2,10 +2,7 @@
   "name": "renovate-config-fisker",
   "version": "1.0.6",
   "description": "fisker's Renovate shareable configuration",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fisker/renovate-config-fisker.git"
-  },
+  "repository": "fisker/renovate-config-fisker",
   "author": {
     "name": "fisker Cheung",
     "email": "lionkay@gmail.com",
