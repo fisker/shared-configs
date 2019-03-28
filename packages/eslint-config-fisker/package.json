@@ -7,7 +7,7 @@
   "files": ["index.js", "legacy.js", "vue.js", "configs/"],
   "scripts": {
     "release": "run-s lint build prettier test release:*",
-    "release:npm": "np --no-yarn -yolo",
+    "release:npm": "np --no-yarn --yolo",
     "build": "npm-run-all build:*",
     "build:compare": "node -r esm scripts/compare.js",
     "prettier": "prettier **/*.{js,md,json} --write",
