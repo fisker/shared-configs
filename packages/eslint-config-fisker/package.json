@@ -6,7 +6,7 @@
   "keywords": ["fisker", "eslint", "config"],
   "files": ["index.js", "legacy.js", "vue.js", "configs/"],
   "scripts": {
-    "release": "run-s lint build test release:*",
+    "release": "run-s lint build prettier test release:*",
     "release:npm": "np --no-yarn -yolo",
     "build": "npm-run-all build:*",
     "build:compare": "node -r esm scripts/compare.js",
