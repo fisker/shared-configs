@@ -2,10 +2,10 @@ import {dirname} from 'path'
 import {mkdirSync, writeFileSync, existsSync} from 'fs'
 
 function writeFile(file, content) {
-  const dir = dirname(file)
+  const directory = dirname(file)
 
-  if (!existsSync(dir)) {
-    mkdirSync(dir)
+  if (!existsSync(directory)) {
+    mkdirSync(directory)
   }
 
   writeFileSync(file, content)

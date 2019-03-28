@@ -11,8 +11,6 @@ module.exports = {
     'unicorn/prefer-exponentiation-operator': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
-    // not released yet
-    // TODO: enable rule after `eslint-plugin-unicorn` release
-    // 'unicorn/no-for-loop': 'off',
+    'unicorn/no-for-loop': 'off',
   },
 }

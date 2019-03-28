@@ -126,8 +126,8 @@ const compares = [
 ]
 
 function getDiffOnlyFilter(filter) {
-  return (...args) => {
-    return !isEqualRuleValue(...args) && filter(...args)
+  return (...arguments_) => {
+    return !isEqualRuleValue(...arguments_) && filter(...arguments_)
   }
 }
 
@@ -151,8 +151,8 @@ for (const {filter, file, local, foreign} of compares) {
     printer(resultAll),
   ].join('\n\n')
 
-  const dest = join(__dirname, `../docs/${file}.md`)
+  const destination = join(__dirname, `../docs/${file}.md`)
 
-  writeFile(dest, content)
-  console.log(`saved: ${dest}`)
+  writeFile(destination, content)
+  console.log(`saved: ${destination}`)
 }

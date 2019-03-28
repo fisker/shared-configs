@@ -96,4 +96,4 @@
 | [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                                                               |  off   |             off             |
 | [wrap-regex](https://eslint.org/docs/rules/wrap-regex)                                                                             |  off   |             off             |
 | [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing)                                                             |  off   |             off             |
-| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v7.1.0/docs/rules/number-literal-case.md) |  off   |             off             |
+| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/number-literal-case.md) |  off   |             off             |

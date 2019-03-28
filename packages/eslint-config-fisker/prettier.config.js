@@ -40,30 +40,30 @@ const DEFAULT_CONFIG = {
 // config for lang
 const LANG_CONFIG = {
   javascript: {
-    ext: 'js,jsx,mjs',
+    extension: 'js,jsx,mjs',
     parser: 'babel',
     singleQuote: true,
   },
   typescript: {
-    ext: 'ts,tsx',
+    extension: 'ts,tsx',
     singleQuote: true,
   },
   html: {
-    ext: 'html,htm',
+    extension: 'html,htm',
     // effect js in html
     singleQuote: true,
   },
   markdown: {
-    // more ext: mdown,mdwn,mkd,mkdn,mkdown
-    ext: 'md,markdown',
+    // more extension: mdown,mdwn,mkd,mkdn,mkdown
+    extension: 'md,markdown',
     singleQuote: false,
   },
   yaml: {
-    ext: 'yaml,yml',
+    extension: 'yaml,yml',
     singleQuote: false,
   },
   graphql: {
-    ext: 'gql,graphql',
+    extension: 'gql,graphql',
   },
   css: {
     singleQuote: false,
@@ -118,10 +118,11 @@ function isNotDefault(config, option) {
 function toOverrides(config) {
   const {lang} = config
 
-  const ext = toArray(config.ext || lang)
+  const extension = toArray(config.extension || lang)
   const parser = config.parser || lang
 
-  const files = ext.length > 1 ? `*.{${ext}}` : `*.${ext}`
+  const files =
+    extension.length > 1 ? `*.{${extension.join(',')}}` : `*.${extension}`
 
   const options = {
     parser,
@@ -142,7 +143,7 @@ function toOverrides(config) {
 function configParser({lang, config}) {
   if (Array.isArray(config)) {
     config = {
-      ext: config,
+      extension: config,
     }
   }
 
@@ -153,7 +154,7 @@ function configParser({lang, config}) {
       }
     } else {
       config = {
-        ext: 'config',
+        extension: 'config',
       }
     }
   }

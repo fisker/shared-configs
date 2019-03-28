@@ -64,11 +64,11 @@ function toArray(x) {
   return x.map(s => s.trim())
 }
 
-function reduceByCommand(grouped, {exts, cmds}) {
+function reduceByCommand(grouped, {extensions, cmds}) {
   if (!grouped[cmds]) {
     grouped[cmds] = [cmds]
   }
-  grouped[cmds] = grouped[cmds].concat(exts)
+  grouped[cmds] = grouped[cmds].concat(extensions)
 
   return grouped
 }
@@ -76,14 +76,14 @@ function reduceByCommand(grouped, {exts, cmds}) {
 function groupByCommand(config) {
   return Object.keys(config)
     .map(key => ({
-      exts: toArray(key),
+      extensions: toArray(key),
       cmds: toArray(config[key]),
     }))
     .reduce(reduceByCommand, {})
 }
 
-function reduceByGlob(config, {exts, cmds}) {
-  const glob = exts.length > 1 ? `*.{${exts}}` : `*.${exts}`
+function reduceByGlob(config, {extensions, cmds}) {
+  const glob = extensions.length > 1 ? `*.{${extensions}}` : `*.${extensions}`
 
   config[glob] = (Array.isArray(cmds) ? cmds : [cmds]).concat([CMD_GIT_ADD])
 
@@ -93,11 +93,11 @@ function reduceByGlob(config, {exts, cmds}) {
 function groupByGlob(grouped) {
   return Object.keys(grouped)
     .map(key => {
-      const [cmds, ...exts] = grouped[key]
+      const [cmds, ...extensions] = grouped[key]
 
       return {
         cmds,
-        exts,
+        extensions,
       }
     })
     .reduce(reduceByGlob, {})
