@@ -13,6 +13,9 @@ module.exports = {
     // promise
     './configs/promise/promise.js',
 
+    // node
+    './configs/node/node.js',
+
     // unicorn
     './configs/unicorn/unicorn.js',
 

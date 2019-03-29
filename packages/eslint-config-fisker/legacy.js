@@ -12,6 +12,12 @@ module.exports = {
     // eslint-comments
     './configs/eslint-comments/eslint-comments.js',
 
+    // es
+    './configs/es/es-legacy.js',
+
+    // html
+    './configs/html/html.js',
+
     // prettier
     './configs/prettier/prettier.js',
 

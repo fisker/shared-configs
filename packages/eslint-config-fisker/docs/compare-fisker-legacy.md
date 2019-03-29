@@ -6,74 +6,100 @@
 
 ## difference only
 
-| Rule                                                                                                                                                     | fisker | fisker/legacy |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :-----------: |
-| [constructor-super](https://eslint.org/docs/rules/constructor-super)                                                                                     | error  |
-| [no-catch-shadow](https://eslint.org/docs/rules/no-catch-shadow)                                                                                         |  off   |     error     |
-| [no-class-assign](https://eslint.org/docs/rules/no-class-assign)                                                                                         | error  |
-| [no-const-assign](https://eslint.org/docs/rules/no-const-assign)                                                                                         | error  |
-| [no-dupe-class-members](https://eslint.org/docs/rules/no-dupe-class-members)                                                                             | error  |
-| [no-duplicate-imports](https://eslint.org/docs/rules/no-duplicate-imports)                                                                               |  off   |
-| [no-new-symbol](https://eslint.org/docs/rules/no-new-symbol)                                                                                             | error  |
-| [no-restricted-imports](https://eslint.org/docs/rules/no-restricted-imports)                                                                             |  off   |
-| [no-this-before-super](https://eslint.org/docs/rules/no-this-before-super)                                                                               | error  |
-| [no-useless-computed-key](https://eslint.org/docs/rules/no-useless-computed-key)                                                                         | error  |
-| [no-useless-constructor](https://eslint.org/docs/rules/no-useless-constructor)                                                                           | error  |
-| [no-useless-rename](https://eslint.org/docs/rules/no-useless-rename)                                                                                     | error  |
-| [no-var](https://eslint.org/docs/rules/no-var)                                                                                                           | error  |
-| [object-shorthand](https://eslint.org/docs/rules/object-shorthand)                                                                                       | error  |
-| [prefer-const](https://eslint.org/docs/rules/prefer-const)                                                                                               | error  |
-| [prefer-destructuring](https://eslint.org/docs/rules/prefer-destructuring)                                                                               | error  |
-| [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                         | error  |      off      |
-| [prefer-reflect](https://eslint.org/docs/rules/prefer-reflect)                                                                                           |  off   |
-| [prefer-rest-params](https://eslint.org/docs/rules/prefer-rest-params)                                                                                   | error  |
-| [prefer-spread](https://eslint.org/docs/rules/prefer-spread)                                                                                             | error  |
-| [prefer-template](https://eslint.org/docs/rules/prefer-template)                                                                                         | error  |
-| [require-yield](https://eslint.org/docs/rules/require-yield)                                                                                             | error  |
-| [sort-imports](https://eslint.org/docs/rules/sort-imports)                                                                                               |  off   |
-| [symbol-description](https://eslint.org/docs/rules/symbol-description)                                                                                   | error  |
-| [import/default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/default.md)                                                   |  off   |
-| [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/dynamic-import-chunkname.md)                 |  off   |
-| [import/export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/export.md)                                                     | error  |
-| [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/exports-last.md)                                         | error  |
-| [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/extensions.md)                                             | error  |
-| [import/first](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/first.md)                                                       | error  |
-| [import/group-exports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/group-exports.md)                                       |  off   |
-| [import/imports-first](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md)      |  off   |
-| [import/max-dependencies](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/max-dependencies.md)                                 |  off   |
-| [import/named](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/named.md)                                                       | error  |
-| [import/namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/namespace.md)                                               |  off   |
-| [import/newline-after-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/newline-after-import.md)                         | error  |
-| [import/no-absolute-path](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-absolute-path.md)                                 | error  |
-| [import/no-amd](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-amd.md)                                                     | error  |
-| [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-anonymous-default-export.md)           |  off   |
-| [import/no-commonjs](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-commonjs.md)                                           |  off   |
-| [import/no-cycle](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-cycle.md)                                                 | error  |
-| import/no-default-export                                                                                                                                 |  off   |
-| [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-deprecated.md)                                       | error  |
-| [import/no-duplicates](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-duplicates.md)                                       | error  |
-| [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-dynamic-require.md)                             |  off   |
-| [import/no-extraneous-dependencies](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-extraneous-dependencies.md)             | error  |
-| [import/no-internal-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-internal-modules.md)                           |  off   |
-| [import/no-mutable-exports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-mutable-exports.md)                             | error  |
-| [import/no-named-as-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-as-default.md)                           | error  |
-| [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-as-default-member.md)             |  warn  |
-| [import/no-named-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-default.md)                                 | error  |
-| [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-namespace.md)                                         |  off   |
-| [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-nodejs-modules.md)                               |  off   |
-| [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-relative-parent-imports.md)             |  off   |
-| [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-restricted-paths.md)                           |  off   |
-| [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-self-import.md)                                     | error  |
-| [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-unassigned-import.md)                         |  off   |
-| [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-unresolved.md)                                       | error  |
-| [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-useless-path-segments.md)                 | error  |
-| [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-webpack-loader-syntax.md)                 | error  |
-| [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/order.md)                                                       | error  |
-| [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/prefer-default-export.md)                       |  off   |
-| [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/unambiguous.md)                                           |  off   |
-| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-for-loop.md)                                       |  warn  |      off      |
-| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-exponentiation-operator.md) | error  |      off      |
-| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-starts-ends-with.md)               | error  |      off      |
+| Rule                                                                                                                                                           | fisker | fisker/legacy |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :-----------: |
+| [constructor-super](https://eslint.org/docs/rules/constructor-super)                                                                                           | error  |
+| [no-catch-shadow](https://eslint.org/docs/rules/no-catch-shadow)                                                                                               |  off   |     error     |
+| [no-class-assign](https://eslint.org/docs/rules/no-class-assign)                                                                                               | error  |
+| [no-const-assign](https://eslint.org/docs/rules/no-const-assign)                                                                                               | error  |
+| [no-dupe-class-members](https://eslint.org/docs/rules/no-dupe-class-members)                                                                                   | error  |
+| [no-duplicate-imports](https://eslint.org/docs/rules/no-duplicate-imports)                                                                                     |  off   |
+| [no-new-symbol](https://eslint.org/docs/rules/no-new-symbol)                                                                                                   | error  |
+| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               | error  |      off      |
+| [no-restricted-imports](https://eslint.org/docs/rules/no-restricted-imports)                                                                                   |  off   |
+| [no-this-before-super](https://eslint.org/docs/rules/no-this-before-super)                                                                                     | error  |
+| [no-useless-computed-key](https://eslint.org/docs/rules/no-useless-computed-key)                                                                               | error  |
+| [no-useless-constructor](https://eslint.org/docs/rules/no-useless-constructor)                                                                                 | error  |
+| [no-useless-rename](https://eslint.org/docs/rules/no-useless-rename)                                                                                           | error  |
+| [no-var](https://eslint.org/docs/rules/no-var)                                                                                                                 | error  |
+| [object-shorthand](https://eslint.org/docs/rules/object-shorthand)                                                                                             | error  |
+| [prefer-const](https://eslint.org/docs/rules/prefer-const)                                                                                                     | error  |
+| [prefer-destructuring](https://eslint.org/docs/rules/prefer-destructuring)                                                                                     | error  |
+| [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                               | error  |      off      |
+| [prefer-reflect](https://eslint.org/docs/rules/prefer-reflect)                                                                                                 |  off   |
+| [prefer-rest-params](https://eslint.org/docs/rules/prefer-rest-params)                                                                                         | error  |
+| [prefer-spread](https://eslint.org/docs/rules/prefer-spread)                                                                                                   | error  |
+| [prefer-template](https://eslint.org/docs/rules/prefer-template)                                                                                               | error  |
+| [require-yield](https://eslint.org/docs/rules/require-yield)                                                                                                   | error  |
+| [sort-imports](https://eslint.org/docs/rules/sort-imports)                                                                                                     |  off   |
+| [symbol-description](https://eslint.org/docs/rules/symbol-description)                                                                                         | error  |
+| [import/default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/default.md)                                                         |  off   |
+| [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/dynamic-import-chunkname.md)                       |  off   |
+| [import/export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/export.md)                                                           | error  |
+| [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/exports-last.md)                                               | error  |
+| [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/extensions.md)                                                   | error  |
+| [import/first](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/first.md)                                                             | error  |
+| [import/group-exports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/group-exports.md)                                             |  off   |
+| [import/imports-first](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md)            |  off   |
+| [import/max-dependencies](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/max-dependencies.md)                                       |  off   |
+| [import/named](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/named.md)                                                             | error  |
+| [import/namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/namespace.md)                                                     |  off   |
+| [import/newline-after-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/newline-after-import.md)                               | error  |
+| [import/no-absolute-path](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-absolute-path.md)                                       | error  |
+| [import/no-amd](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-amd.md)                                                           | error  |
+| [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-anonymous-default-export.md)                 |  off   |
+| [import/no-commonjs](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-commonjs.md)                                                 |  off   |
+| [import/no-cycle](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-cycle.md)                                                       | error  |
+| import/no-default-export                                                                                                                                       |  off   |
+| [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-deprecated.md)                                             | error  |
+| [import/no-duplicates](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-duplicates.md)                                             | error  |
+| [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-dynamic-require.md)                                   |  off   |
+| [import/no-extraneous-dependencies](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-extraneous-dependencies.md)                   | error  |
+| [import/no-internal-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-internal-modules.md)                                 |  off   |
+| [import/no-mutable-exports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-mutable-exports.md)                                   | error  |
+| [import/no-named-as-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-as-default.md)                                 | error  |
+| [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-as-default-member.md)                   |  warn  |
+| [import/no-named-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-named-default.md)                                       | error  |
+| [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-namespace.md)                                               |  off   |
+| [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-nodejs-modules.md)                                     |  off   |
+| [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-relative-parent-imports.md)                   |  off   |
+| [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-restricted-paths.md)                                 |  off   |
+| [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-self-import.md)                                           | error  |
+| [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-unassigned-import.md)                               |  off   |
+| [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-unresolved.md)                                             | error  |
+| [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-useless-path-segments.md)                       | error  |
+| [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/no-webpack-loader-syntax.md)                       | error  |
+| [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/order.md)                                                             | error  |
+| [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/prefer-default-export.md)                             |  off   |
+| [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/unambiguous.md)                                                 |  off   |
+| [node/exports-style](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/exports-style.md)                                                 |  off   |
+| [node/no-deprecated-api](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-deprecated-api.md)                                         | error  |
+| [node/no-extraneous-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-import.md)                                   |  off   |
+| [node/no-extraneous-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-require.md)                                 | error  |
+| [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-import.md)                                         |  off   |
+| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       | error  |
+| [node/no-unpublished-bin](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-bin.md)                                       | error  |
+| [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
+| [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               | error  |
+| [node/no-unsupported-features/es-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-builtins.md)     | error  |
+| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         | error  |
+| [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/node-builtins.md) | error  |
+| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
+| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
+| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/prefer-global/buffer](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/buffer.md)                                   |  off   |
+| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
+| [node/prefer-global/process](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/process.md)                                 |  off   |
+| [node/prefer-global/url](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url.md)                                         |  off   |
+| [node/process-exit-as-throw](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/process-exit-as-throw.md)                                 | error  |
+| [node/shebang](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/shebang.md)                                                             | error  |
+| plugin:es/no-2015                                                                                                                                              |        |     error     |
+| plugin:es/no-2016                                                                                                                                              |        |     error     |
+| plugin:es/no-2017                                                                                                                                              |        |     error     |
+| plugin:es/no-2018                                                                                                                                              |        |     error     |
+| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
+| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
+| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
 
 ## all rules
 
@@ -237,7 +263,7 @@
 | [no-path-concat](https://eslint.org/docs/rules/no-path-concat)                                                                                                 | error  |     error     |
 | [no-plusplus](https://eslint.org/docs/rules/no-plusplus)                                                                                                       | error  |     error     |
 | [no-process-env](https://eslint.org/docs/rules/no-process-env)                                                                                                 |  off   |      off      |
-| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               |  off   |      off      |
+| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               | error  |      off      |
 | [no-proto](https://eslint.org/docs/rules/no-proto)                                                                                                             | error  |     error     |
 | [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)                                                                                   | error  |     error     |
 | [no-redeclare](https://eslint.org/docs/rules/no-redeclare)                                                                                                     | error  |     error     |
@@ -402,6 +428,31 @@
 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/order.md)                                                             | error  |
 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/prefer-default-export.md)                             |  off   |
 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/unambiguous.md)                                                 |  off   |
+| [node/exports-style](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/exports-style.md)                                                 |  off   |
+| [node/no-deprecated-api](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-deprecated-api.md)                                         | error  |
+| [node/no-extraneous-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-import.md)                                   |  off   |
+| [node/no-extraneous-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-require.md)                                 | error  |
+| [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-import.md)                                         |  off   |
+| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       | error  |
+| [node/no-unpublished-bin](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-bin.md)                                       | error  |
+| [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
+| [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               | error  |
+| [node/no-unsupported-features/es-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-builtins.md)     | error  |
+| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         | error  |
+| [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/node-builtins.md) | error  |
+| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
+| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
+| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/prefer-global/buffer](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/buffer.md)                                   |  off   |
+| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
+| [node/prefer-global/process](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/process.md)                                 |  off   |
+| [node/prefer-global/url](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url.md)                                         |  off   |
+| [node/process-exit-as-throw](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/process-exit-as-throw.md)                                 | error  |
+| [node/shebang](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/shebang.md)                                                             | error  |
+| plugin:es/no-2015                                                                                                                                              |        |     error     |
+| plugin:es/no-2016                                                                                                                                              |        |     error     |
+| plugin:es/no-2017                                                                                                                                              |        |     error     |
+| plugin:es/no-2018                                                                                                                                              |        |     error     |
 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  |     error     |
 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/always-return.md)                                             |  off   |      off      |
 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/avoid-new.md)                                                     |  off   |      off      |

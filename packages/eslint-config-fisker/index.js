@@ -1,11 +1,13 @@
 module.exports = {
-  plugins: ['promise'],
   extends: [
     // airbnb
     './configs/airbnb/airbnb.js',
 
     // promise
     './configs/promise/promise.js',
+
+    // node
+    './configs/node/node.js',
 
     // unicorn
     './configs/unicorn/unicorn.js',
