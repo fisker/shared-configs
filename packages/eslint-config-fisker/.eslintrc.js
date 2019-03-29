@@ -12,8 +12,6 @@ module.exports = {
   parserOptions: {},
   extends: ['fisker'],
   settings: {},
-  rules: {
-    'unicorn/prevent-abbreviations': 'off',
-  },
+  rules: {},
   plugins: [],
 }

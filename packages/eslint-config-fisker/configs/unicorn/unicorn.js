@@ -2,6 +2,9 @@ module.exports = {
   plugins: ['unicorn'],
   extends: ['plugin:unicorn/recommended'],
   rules: {
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
+    'unicorn/no-process-exit': 'warn',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
     'unicorn/no-for-loop': 'warn',
 
@@ -21,9 +24,14 @@ module.exports = {
     // bug desc https://github.com/sindresorhus/eslint-plugin-unicorn/issues/254
     'unicorn/prefer-spread': 'off',
 
-    // TODO: enable this rule after bug fixed
-    // bug desc https://github.com/sindresorhus/eslint-plugin-unicorn/issues/266
-    'unicorn/prevent-abbreviations': 'off',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        checkDefaultAndNamespaceImports: true,
+        checkProperties: false,
+      },
+    ],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
     // sometimes readable

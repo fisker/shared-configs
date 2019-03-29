@@ -8,7 +8,6 @@
 
 | Rule                                                                                       | fisker | airbnb-base + prettier |
 | :----------------------------------------------------------------------------------------- | :----: | :--------------------: |
-| [callback-return](https://eslint.org/docs/rules/callback-return)                           | error  |          off           |
 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                       |  warn  |         error          |
 | [curly](https://eslint.org/docs/rules/curly)                                               | error  |          off           |
 | [func-names](https://eslint.org/docs/rules/func-names)                                     |  off   |          warn          |
@@ -17,6 +16,7 @@
 | [max-params](https://eslint.org/docs/rules/max-params)                                     |  warn  |          off           |
 | [max-statements-per-line](https://eslint.org/docs/rules/max-statements-per-line)           | error  |          off           |
 | [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)       | error  |          off           |
+| [no-console](https://eslint.org/docs/rules/no-console)                                     |  off   |          warn          |
 | [no-continue](https://eslint.org/docs/rules/no-continue)                                   |  off   |         error          |
 | [no-eq-null](https://eslint.org/docs/rules/no-eq-null)                                     | error  |          off           |
 | [no-implicit-coercion](https://eslint.org/docs/rules/no-implicit-coercion)                 | error  |          off           |
@@ -28,6 +28,7 @@
 | [no-param-reassign](https://eslint.org/docs/rules/no-param-reassign)                       |  off   |         error          |
 | [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                           | error  |          off           |
 | [no-shadow](https://eslint.org/docs/rules/no-shadow)                                       |  off   |         error          |
+| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                 |  off   |         error          |
 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition) | error  |          off           |
 | [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)                             |  warn  |         error          |
 | [no-useless-call](https://eslint.org/docs/rules/no-useless-call)                           | error  |          off           |
@@ -49,7 +50,7 @@
 | [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)                                 | error  |         error          |
 | [block-spacing](https://eslint.org/docs/rules/block-spacing)                                       |  off   |          off           |
 | [brace-style](https://eslint.org/docs/rules/brace-style)                                           |  off   |          off           |
-| [callback-return](https://eslint.org/docs/rules/callback-return)                                   | error  |          off           |
+| [callback-return](https://eslint.org/docs/rules/callback-return)                                   |  off   |          off           |
 | [camelcase](https://eslint.org/docs/rules/camelcase)                                               | error  |         error          |
 | [capitalized-comments](https://eslint.org/docs/rules/capitalized-comments)                         |  off   |          off           |
 | [class-methods-use-this](https://eslint.org/docs/rules/class-methods-use-this)                     | error  |         error          |
@@ -125,7 +126,7 @@
 | [no-compare-neg-zero](https://eslint.org/docs/rules/no-compare-neg-zero)                           | error  |         error          |
 | [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign)                                     | error  |         error          |
 | [no-confusing-arrow](https://eslint.org/docs/rules/no-confusing-arrow)                             |  off   |          off           |
-| [no-console](https://eslint.org/docs/rules/no-console)                                             |  warn  |          warn          |
+| [no-console](https://eslint.org/docs/rules/no-console)                                             |  off   |          warn          |
 | [no-const-assign](https://eslint.org/docs/rules/no-const-assign)                                   | error  |         error          |
 | [no-constant-condition](https://eslint.org/docs/rules/no-constant-condition)                       |  warn  |          warn          |
 | [no-continue](https://eslint.org/docs/rules/no-continue)                                           |  off   |         error          |
@@ -228,7 +229,7 @@
 | [no-undef](https://eslint.org/docs/rules/no-undef)                                                 | error  |         error          |
 | [no-undef-init](https://eslint.org/docs/rules/no-undef-init)                                       | error  |         error          |
 | [no-undefined](https://eslint.org/docs/rules/no-undefined)                                         |  off   |          off           |
-| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                         | error  |         error          |
+| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                         |  off   |         error          |
 | [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)                   |  off   |          off           |
 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition)         | error  |          off           |
 | [no-unneeded-ternary](https://eslint.org/docs/rules/no-unneeded-ternary)                           | error  |         error          |

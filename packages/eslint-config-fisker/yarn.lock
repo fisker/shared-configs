@@ -894,10 +894,10 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-fisker@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-fisker/-/eslint-config-fisker-4.0.1.tgz#3cbb2176a8a261311595d069e135ce77ab9d0d6e"
-  integrity sha512-ukD/meMdIl6mJOza3eTdV7UZ9o/SB0RAZ/MzMyi6xg8KWaOkueUdrDgiVNr+CTiaV4cPHps6mYL8L8N1LGWsog==
+eslint-config-fisker@^4.2.2:
+  version "4.2.2"
+  resolved "http://registry.npm.taobao.org/eslint-config-fisker/download/eslint-config-fisker-4.2.2.tgz#70f90463e5ceaa051ae4ca77206eb89e80d69693"
+  integrity sha1-cPkEY+XOqgUa5Mp3IG64noDWlpM=
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^4.1.0"
@@ -905,22 +905,7 @@ eslint-config-fisker@^4.0.1:
     eslint-plugin-import "^2.16.0"
     eslint-plugin-prettier "^3.0.1"
     eslint-plugin-promise "^4.0.1"
-    eslint-plugin-unicorn "^7.1.0"
-    eslint-plugin-vue "^5.2.2"
-
-eslint-config-fisker@^4.0.4:
-  version "4.0.4"
-  resolved "http://registry.npm.taobao.org/eslint-config-fisker/download/eslint-config-fisker-4.0.4.tgz#3d82528059b3fc878a7ac4ae390729ac35ef41b5"
-  integrity sha1-PYJSgFmz/IeKesSuOQcprDXvQbU=
-  dependencies:
-    eslint-config-airbnb-base "^13.1.0"
-    eslint-config-fisker "^4.0.1"
-    eslint-config-prettier "^4.1.0"
-    eslint-plugin-eslint-comments "^3.1.1"
-    eslint-plugin-import "^2.16.0"
-    eslint-plugin-prettier "^3.0.1"
-    eslint-plugin-promise "^4.0.1"
-    eslint-plugin-unicorn "^7.1.0"
+    eslint-plugin-unicorn "^8.0.1"
     eslint-plugin-vue "^5.2.2"
 
 eslint-config-prettier@^4.1.0:
@@ -1009,24 +994,10 @@ eslint-plugin-promise@^4.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
   integrity sha512-Si16O0+Hqz1gDHsys6RtFRrW7cCTB6P7p3OJmKp3Y3dxpQE2qwOA7d3xnV+0mBmrPoi0RBnxlCKvqu70te6wjg==
 
-eslint-plugin-unicorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-7.1.0.tgz#9efef5c68fde0ebefb0241fbcfa274f1b959c04e"
-  integrity sha512-lW/ZwGR638V0XuZgR160qVQvPtw8tw3laKT5LjJPt+W+tN7kVf2S2V7x+ZrEEwSjEb3OiEzb3cppzaKuYtgYeg==
-  dependencies:
-    clean-regexp "^1.0.0"
-    eslint-ast-utils "^1.0.0"
-    import-modules "^1.1.0"
-    lodash.camelcase "^4.1.1"
-    lodash.kebabcase "^4.0.1"
-    lodash.snakecase "^4.0.1"
-    lodash.upperfirst "^4.2.0"
-    safe-regex "^2.0.1"
-
-eslint-plugin-unicorn@^8.0.0:
-  version "8.0.0"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-unicorn/download/eslint-plugin-unicorn-8.0.0.tgz#62d5a1f7ab492e470f32eeccec861b3c0ddcd56a"
-  integrity sha1-YtWh96tJLkcPMu7M7IYbPA3c1Wo=
+eslint-plugin-unicorn@^8.0.1:
+  version "8.0.1"
+  resolved "http://registry.npm.taobao.org/eslint-plugin-unicorn/download/eslint-plugin-unicorn-8.0.1.tgz#9212c4d8dd729785db846db920148ca97d545696"
+  integrity sha1-khLE2N1yl4XbhG25IBSMqX1UVpY=
   dependencies:
     clean-regexp "^1.0.0"
     eslint-ast-utils "^1.0.0"
@@ -1112,10 +1083,10 @@ eslint@^5.15.3:
     table "^5.2.3"
     text-table "^0.2.0"
 
-esm@^3.2.20:
-  version "3.2.20"
-  resolved "http://registry.npm.taobao.org/esm/download/esm-3.2.20.tgz#44f125117863427cdece7223baa411fc739c1939"
-  integrity sha1-RPElEXhjQnzeznIjuqQR/HOcGTk=
+esm@^3.2.22:
+  version "3.2.22"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.22.tgz#5062c2e22fee3ccfee4e8f20da768330da90d6e3"
+  integrity sha512-z8YG7U44L82j1XrdEJcqZOLUnjxco8pO453gKOlaMD1/md1n/5QrscAmYG+oKUspsmDLuBFZrpbxI6aQ67yRxA==
 
 espree@^4.1.0:
   version "4.1.0"

@@ -97,9 +97,9 @@
 | plugin:es/no-2016                                                                                                                                              |        |     error     |
 | plugin:es/no-2017                                                                                                                                              |        |     error     |
 | plugin:es/no-2018                                                                                                                                              |        |     error     |
-| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
-| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
-| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
+| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
+| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
+| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
 
 ## all rules
 
@@ -116,7 +116,7 @@
 | [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)                                                                                             | error  |     error     |
 | [block-spacing](https://eslint.org/docs/rules/block-spacing)                                                                                                   |  off   |      off      |
 | [brace-style](https://eslint.org/docs/rules/brace-style)                                                                                                       |  off   |      off      |
-| [callback-return](https://eslint.org/docs/rules/callback-return)                                                                                               | error  |     error     |
+| [callback-return](https://eslint.org/docs/rules/callback-return)                                                                                               |  off   |      off      |
 | [camelcase](https://eslint.org/docs/rules/camelcase)                                                                                                           | error  |     error     |
 | [capitalized-comments](https://eslint.org/docs/rules/capitalized-comments)                                                                                     |  off   |      off      |
 | [class-methods-use-this](https://eslint.org/docs/rules/class-methods-use-this)                                                                                 | error  |     error     |
@@ -192,7 +192,7 @@
 | [no-compare-neg-zero](https://eslint.org/docs/rules/no-compare-neg-zero)                                                                                       | error  |     error     |
 | [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign)                                                                                                 | error  |     error     |
 | [no-confusing-arrow](https://eslint.org/docs/rules/no-confusing-arrow)                                                                                         |  off   |      off      |
-| [no-console](https://eslint.org/docs/rules/no-console)                                                                                                         |  warn  |     warn      |
+| [no-console](https://eslint.org/docs/rules/no-console)                                                                                                         |  off   |      off      |
 | [no-const-assign](https://eslint.org/docs/rules/no-const-assign)                                                                                               | error  |
 | [no-constant-condition](https://eslint.org/docs/rules/no-constant-condition)                                                                                   |  warn  |     warn      |
 | [no-continue](https://eslint.org/docs/rules/no-continue)                                                                                                       |  off   |      off      |
@@ -295,7 +295,7 @@
 | [no-undef](https://eslint.org/docs/rules/no-undef)                                                                                                             | error  |     error     |
 | [no-undef-init](https://eslint.org/docs/rules/no-undef-init)                                                                                                   | error  |     error     |
 | [no-undefined](https://eslint.org/docs/rules/no-undefined)                                                                                                     |  off   |      off      |
-| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                                                                                     | error  |     error     |
+| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                                                                                     |  off   |      off      |
 | [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)                                                                               |  off   |      off      |
 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition)                                                                     | error  |     error     |
 | [no-unneeded-ternary](https://eslint.org/docs/rules/no-unneeded-ternary)                                                                                       | error  |     error     |
@@ -387,7 +387,7 @@
 | [eslint-comments/no-aggregating-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html)                           | error  |     error     |
 | [eslint-comments/no-duplicate-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html)                             | error  |     error     |
 | [eslint-comments/no-unlimited-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html)                             | error  |     error     |
-| [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                   | error  |     error     |
+| [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                   |  warn  |     warn      |
 | [eslint-comments/no-unused-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html)                                     | error  |     error     |
 | [import/default](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/default.md)                                                         |  off   |
 | [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/v2.16.0/docs/rules/dynamic-import-chunkname.md)                       |  off   |
@@ -466,37 +466,37 @@
 | [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-wrap.md)                                           | error  |     error     |
 | [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/param-names.md)                                                 | error  |     error     |
 | [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/valid-params.md)                                               |  warn  |     warn      |
-| [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/catch-error-name.md)                                   | error  |     error     |
-| [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/custom-error-definition.md)                     |  off   |      off      |
-| [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/error-message.md)                                         | error  |     error     |
-| [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/escape-case.md)                                             | error  |     error     |
-| [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/explicit-length-check.md)                         | error  |     error     |
-| [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/filename-case.md)                                         | error  |     error     |
-| [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/import-index.md)                                           | error  |     error     |
-| [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/new-for-builtins.md)                                   | error  |     error     |
-| [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-abusive-eslint-disable.md)                 | error  |     error     |
-| [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-array-instanceof.md)                             | error  |     error     |
-| [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-console-spaces.md)                                 | error  |     error     |
-| [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-fn-reference-in-iterator.md)             |  off   |      off      |
-| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
-| [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-hex-escape.md)                                         | error  |     error     |
-| [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-new-buffer.md)                                         | error  |     error     |
-| [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-process-exit.md)                                     | error  |     error     |
-| [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-unreadable-array-destructuring.md) | error  |     error     |
-| [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-unsafe-regex.md)                                     |  off   |      off      |
-| [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-unused-properties.md)                           |  off   |      off      |
-| [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/no-zero-fractions.md)                                 | error  |     error     |
-| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/number-literal-case.md)                             |  off   |      off      |
-| [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-add-event-listener.md)                 |  off   |      off      |
-| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
-| [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-includes.md)                                     | error  |     error     |
-| [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-node-append.md)                               |  off   |      off      |
-| [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-node-remove.md)                               |  off   |      off      |
-| [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-query-selector.md)                         |  off   |      off      |
-| [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-spread.md)                                         |  off   |      off      |
-| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
-| [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-text-content.md)                             | error  |     error     |
-| [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prefer-type-error.md)                                 | error  |     error     |
-| [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/prevent-abbreviations.md)                         |  off   |      off      |
-| [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/regex-shorthand.md)                                     |  warn  |     warn      |
-| [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.0/docs/rules/throw-new-error.md)                                     | error  |     error     |
+| [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/catch-error-name.md)                                   | error  |     error     |
+| [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/custom-error-definition.md)                     |  off   |      off      |
+| [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/error-message.md)                                         | error  |     error     |
+| [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/escape-case.md)                                             | error  |     error     |
+| [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/explicit-length-check.md)                         | error  |     error     |
+| [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/filename-case.md)                                         | error  |     error     |
+| [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/import-index.md)                                           | error  |     error     |
+| [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/new-for-builtins.md)                                   | error  |     error     |
+| [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-abusive-eslint-disable.md)                 | error  |     error     |
+| [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-array-instanceof.md)                             | error  |     error     |
+| [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-console-spaces.md)                                 | error  |     error     |
+| [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-fn-reference-in-iterator.md)             |  off   |      off      |
+| [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
+| [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-hex-escape.md)                                         | error  |     error     |
+| [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-new-buffer.md)                                         | error  |     error     |
+| [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-process-exit.md)                                     |  warn  |     warn      |
+| [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-unreadable-array-destructuring.md) | error  |     error     |
+| [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-unsafe-regex.md)                                     |  off   |      off      |
+| [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-unused-properties.md)                           |  off   |      off      |
+| [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/no-zero-fractions.md)                                 | error  |     error     |
+| [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/number-literal-case.md)                             |  off   |      off      |
+| [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-add-event-listener.md)                 |  off   |      off      |
+| [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
+| [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-includes.md)                                     | error  |     error     |
+| [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-node-append.md)                               |  off   |      off      |
+| [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-node-remove.md)                               |  off   |      off      |
+| [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-query-selector.md)                         |  off   |      off      |
+| [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-spread.md)                                         |  off   |      off      |
+| [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
+| [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-text-content.md)                             | error  |     error     |
+| [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prefer-type-error.md)                                 | error  |     error     |
+| [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/prevent-abbreviations.md)                         | error  |     error     |
+| [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/regex-shorthand.md)                                     |  warn  |     warn      |
+| [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/throw-new-error.md)                                     | error  |     error     |

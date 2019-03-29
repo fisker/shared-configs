@@ -21,7 +21,7 @@ function getRules(config) {
     rules[ruleId] = {
       value,
       link,
-      documents,
+      docs: documents,
     }
   }
   return rules

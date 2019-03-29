@@ -10,5 +10,8 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: {},
+  rules: {
+    // conflicts with `unicorn/prevent-abbreviations` auto fixing
+    'no-underscore-dangle': 'off',
+  },
 }

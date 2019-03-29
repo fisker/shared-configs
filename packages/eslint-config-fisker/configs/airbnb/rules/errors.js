@@ -17,6 +17,9 @@ module.exports = {
     // allow cond-assign with parens
     'no-cond-assign': ['error', 'except-parens'],
 
+    // disallow use of console
+    'no-console': 'off',
+
     // no loop check
     // https://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': ['warn', {checkLoops: false}],
