@@ -1,5 +1,7 @@
 module.exports = {
   plugins: ['node'],
   extends: ['plugin:node/recommended'],
-  rules: {},
+  rules: {
+    'node/no-unsupported-features/es-syntax': 'off',
+  },
 }
