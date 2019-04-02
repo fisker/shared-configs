@@ -454,18 +454,18 @@
 | plugin:es/no-2017                                                                                                                                              |        |     error     |
 | plugin:es/no-2018                                                                                                                                              |        |     error     |
 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  |     error     |
-| [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/always-return.md)                                             |  off   |      off      |
-| [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/avoid-new.md)                                                     |  off   |      off      |
-| [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/catch-or-return.md)                                         |  off   |      off      |
-| [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-callback-in-promise.md)                           |  warn  |     warn      |
-| [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-native.md)                                                     |  off   |      off      |
-| [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-nesting.md)                                                   |  warn  |     warn      |
-| [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-new-statics.md)                                           | error  |     error     |
-| [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-promise-in-callback.md)                           |  warn  |     warn      |
-| [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-in-finally.md)                               |  warn  |     warn      |
-| [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/no-return-wrap.md)                                           | error  |     error     |
-| [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/param-names.md)                                                 | error  |     error     |
-| [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.0.1/docs/rules/valid-params.md)                                               |  warn  |     warn      |
+| [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/always-return.md)                                             |  off   |      off      |
+| [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/avoid-new.md)                                                     |  off   |      off      |
+| [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/catch-or-return.md)                                         |  off   |      off      |
+| [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-callback-in-promise.md)                           |  warn  |     warn      |
+| [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-native.md)                                                     |  off   |      off      |
+| [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-nesting.md)                                                   |  warn  |     warn      |
+| [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-new-statics.md)                                           | error  |     error     |
+| [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-promise-in-callback.md)                           |  warn  |     warn      |
+| [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-in-finally.md)                               |  warn  |     warn      |
+| [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-wrap.md)                                           | error  |     error     |
+| [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/param-names.md)                                                 | error  |     error     |
+| [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/valid-params.md)                                               |  warn  |     warn      |
 | [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/catch-error-name.md)                                   | error  |     error     |
 | [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/custom-error-definition.md)                     |  off   |      off      |
 | [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.1/docs/rules/error-message.md)                                         | error  |     error     |
