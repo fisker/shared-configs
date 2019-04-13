@@ -32,7 +32,7 @@ npm install --save-dev eslint prettier eslint-config-fisker
 ```js
 module.exports = {
   root: true,
-  extends: ["fisker"],
+  extends: ['fisker'],
 }
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
 ```js
 module.exports = {
   root: true,
-  extends: ["fisker/legacy"],
+  extends: ['fisker/legacy'],
 }
 ```
 
@@ -52,7 +52,7 @@ module.exports = {
 ```js
 module.exports = {
   root: true,
-  extends: ["fisker/vue"],
+  extends: ['fisker/vue'],
 }
 ```
 
