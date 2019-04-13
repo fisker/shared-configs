@@ -1,10 +1,11 @@
 const {writeFileSync} = require('fs')
 const {join} = require('path')
 const config = require('..')
-const pkgLocation = join(__dirname, '../package.json')
+
+const packageLocation = join(__dirname, '../package.json')
 const {stringify} = JSON
-const pkg = require(pkgLocation)
+const package_ = require(packageLocation)
 
-pkg['renovate-config'] = config
+package_['renovate-config'] = config
 
-writeFileSync(pkgLocation, stringify(pkg, null, 2))
+writeFileSync(packageLocation, stringify(package_, null, 2))
