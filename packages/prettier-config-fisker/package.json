@@ -1,0 +1,56 @@
+{
+  "name": "prettier-config-fisker",
+  "description": "fisker's Shareable prettier Configuration",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "repository": "fisker/prettier-config-fisker",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  },
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-emoji"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "ava": "^1.4.1",
+    "cz-conventional-changelog-emoji": "^0.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-fisker": "^4.3.3",
+    "esm": "^3.2.22",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "markdownlint-cli": "^0.15.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.17.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.10.0"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "ava": {
+    "require": "esm"
+  },
+  "scripts": {
+    "dev": "rollup --config --watch",
+    "build": "run-p build:*",
+    "build:js": "rollup --config",
+    "build:rules": "node -r esm ./scripts/generate-options.js",
+    "test": "run-p test:*",
+    "test:js": "ava",
+    "clean": "rimraf lib",
+    "lint": "eslint src/**/*.js --fix",
+    "dist": "np --yolo  --no-yarn",
+    "release": "run-s clean lint build test dist"
+  },
+  "files": ["lib"]
+}
