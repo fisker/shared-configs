@@ -3929,6 +3929,11 @@ prepend-http@^1.0.1:
   resolved "http://registry.npm.taobao.org/prepend-http/download/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
+prettier-config-fisker@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/prettier-config-fisker/download/prettier-config-fisker-1.0.0.tgz#caa98a1d02171b63163b1d2d953a137915413df4"
+  integrity sha1-yqmKHQIXG2MWOx0tlToTeRVBPfQ=
+
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
