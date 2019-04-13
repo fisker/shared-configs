@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-fisker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "fisker's Shareable stylelint Configuration",
   "main": "index.js",
   "keywords": ["fisker", "stylelint", "config"],
