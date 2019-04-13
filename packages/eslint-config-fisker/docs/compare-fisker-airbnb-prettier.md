@@ -26,7 +26,6 @@
 | [no-multi-assign](https://eslint.org/docs/rules/no-multi-assign)                           |  off   |         error          |
 | [no-new](https://eslint.org/docs/rules/no-new)                                             |  warn  |         error          |
 | [no-param-reassign](https://eslint.org/docs/rules/no-param-reassign)                       |  off   |         error          |
-| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                           | error  |          off           |
 | [no-shadow](https://eslint.org/docs/rules/no-shadow)                                       |  off   |         error          |
 | [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                 |  off   |         error          |
 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition) | error  |          off           |
@@ -197,7 +196,7 @@
 | [no-path-concat](https://eslint.org/docs/rules/no-path-concat)                                     | error  |         error          |
 | [no-plusplus](https://eslint.org/docs/rules/no-plusplus)                                           | error  |         error          |
 | [no-process-env](https://eslint.org/docs/rules/no-process-env)                                     |  off   |          off           |
-| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                   | error  |          off           |
+| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                   |  off   |          off           |
 | [no-proto](https://eslint.org/docs/rules/no-proto)                                                 | error  |         error          |
 | [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)                       | error  |         error          |
 | [no-redeclare](https://eslint.org/docs/rules/no-redeclare)                                         | error  |         error          |

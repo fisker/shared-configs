@@ -15,7 +15,6 @@
 | [no-dupe-class-members](https://eslint.org/docs/rules/no-dupe-class-members)                                                                                   | error  |
 | [no-duplicate-imports](https://eslint.org/docs/rules/no-duplicate-imports)                                                                                     |  off   |
 | [no-new-symbol](https://eslint.org/docs/rules/no-new-symbol)                                                                                                   | error  |
-| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               | error  |      off      |
 | [no-restricted-imports](https://eslint.org/docs/rules/no-restricted-imports)                                                                                   |  off   |
 | [no-this-before-super](https://eslint.org/docs/rules/no-this-before-super)                                                                                     | error  |
 | [no-useless-computed-key](https://eslint.org/docs/rules/no-useless-computed-key)                                                                               | error  |
@@ -263,7 +262,7 @@
 | [no-path-concat](https://eslint.org/docs/rules/no-path-concat)                                                                                                 | error  |     error     |
 | [no-plusplus](https://eslint.org/docs/rules/no-plusplus)                                                                                                       | error  |     error     |
 | [no-process-env](https://eslint.org/docs/rules/no-process-env)                                                                                                 |  off   |      off      |
-| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               | error  |      off      |
+| [no-process-exit](https://eslint.org/docs/rules/no-process-exit)                                                                                               |  off   |      off      |
 | [no-proto](https://eslint.org/docs/rules/no-proto)                                                                                                             | error  |     error     |
 | [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)                                                                                   | error  |     error     |
 | [no-redeclare](https://eslint.org/docs/rules/no-redeclare)                                                                                                     | error  |     error     |

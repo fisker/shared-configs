@@ -11,6 +11,10 @@ module.exports = {
     },
   },
   rules: {
+    // should not set by `eslint-plugin-node`,
+    // and also there is a option by `eslint-config-unicorn`
+    'no-process-exit': 'off',
+
     // conflicts with `unicorn/prevent-abbreviations` auto fixing
     'no-underscore-dangle': 'off',
   },
