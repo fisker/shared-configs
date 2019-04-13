@@ -76,7 +76,7 @@
 | [node/no-extraneous-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-import.md)                                   |  off   |
 | [node/no-extraneous-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-require.md)                                 | error  |
 | [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-import.md)                                         |  off   |
-| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       | error  |
+| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       |  off   |
 | [node/no-unpublished-bin](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-bin.md)                                       | error  |
 | [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
 | [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               |  off   |
@@ -432,7 +432,7 @@
 | [node/no-extraneous-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-import.md)                                   |  off   |
 | [node/no-extraneous-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-extraneous-require.md)                                 | error  |
 | [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-import.md)                                         |  off   |
-| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       | error  |
+| [node/no-missing-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-missing-require.md)                                       |  off   |
 | [node/no-unpublished-bin](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-bin.md)                                       | error  |
 | [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
 | [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               |  off   |
