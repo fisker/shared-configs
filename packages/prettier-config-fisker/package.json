@@ -50,7 +50,7 @@
     "clean": "rimraf lib",
     "lint": "eslint src/**/*.js --fix",
     "dist": "np --yolo  --no-yarn",
-    "release": "run-s clean lint build test dist"
+    "release": "run-s clean build lint test dist"
   },
   "files": ["lib"]
 }
