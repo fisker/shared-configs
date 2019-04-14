@@ -14,4 +14,5 @@ module.exports = {
   settings: {},
   rules: {},
   plugins: [],
+  overrides: [],
 }

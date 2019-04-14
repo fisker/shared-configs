@@ -10,6 +10,7 @@ const CMD_PRETTIER = 'prettier --write'
 // eslint-disable-next-line no-unused-vars
 const CMD_ESLINT = 'eslint'
 const CMD_ESLINT_FIX = 'eslint --fix'
+const CMD_STYLELINT_FIX = 'stylelint --fix'
 const CMD_MARKDOWNLINT = 'markdownlint'
 const CMD_GIT_ADD = 'git add'
 
@@ -20,7 +21,7 @@ const config = {
 
   // js files
   // eslint then prettier
-  'js,jsx,mjs': [CMD_ESLINT_FIX, CMD_PRETTIER],
+  'js,jsx,mjs': [CMD_ESLINT_FIX],
 
   // vue files
   // eslint then prettier
@@ -31,9 +32,8 @@ const config = {
   // 'ts,tsx': [CMD_ESLINT_FIX, CMD_PRETTIER],
 
   // css files
-  // TODO: stylelint
   // prettier
-  'scss,css,less': CMD_PRETTIER,
+  'scss,css,less': [CMD_STYLELINT_FIX],
 
   // html files
   // TODO: htmlhint
@@ -64,11 +64,11 @@ function toArray(x) {
   return x.map(s => s.trim())
 }
 
-function reduceByCommand(grouped, {extensions, cmds}) {
+function reduceByCommand(grouped, {exts, cmds}) {
   if (!grouped[cmds]) {
     grouped[cmds] = [cmds]
   }
-  grouped[cmds] = grouped[cmds].concat(extensions)
+  grouped[cmds] = grouped[cmds].concat(exts)
 
   return grouped
 }
@@ -76,14 +76,14 @@ function reduceByCommand(grouped, {extensions, cmds}) {
 function groupByCommand(config) {
   return Object.keys(config)
     .map(key => ({
-      extensions: toArray(key),
+      exts: toArray(key),
       cmds: toArray(config[key]),
     }))
     .reduce(reduceByCommand, {})
 }
 
-function reduceByGlob(config, {extensions, cmds}) {
-  const glob = extensions.length > 1 ? `*.{${extensions}}` : `*.${extensions}`
+function reduceByGlob(config, {exts, cmds}) {
+  const glob = exts.length > 1 ? `*.{${exts}}` : `*.${exts}`
 
   config[glob] = (Array.isArray(cmds) ? cmds : [cmds]).concat([CMD_GIT_ADD])
 
@@ -97,7 +97,7 @@ function groupByGlob(grouped) {
 
       return {
         cmds,
-        extensions,
+        exts: extensions,
       }
     })
     .reduce(reduceByGlob, {})

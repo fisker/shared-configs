@@ -6,16 +6,17 @@
   "keywords": ["fisker", "eslint", "config"],
   "files": ["index.js", "legacy.js", "vue.js", "configs/"],
   "scripts": {
-    "release": "run-s lint build prettier test release:*",
-    "release:npm": "np --no-yarn --yolo",
+    "release": "run-s lint build prettier test dist",
     "build": "npm-run-all build:*",
     "build:compare": "node -r esm scripts/compare.js",
-    "prettier": "prettier **/*.{js,md,json} --write",
-    "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint **/*.js --fix",
-    "lint:markdown": "markdownlint *.md",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "lint": "npm-p lint:*",
+    "lint:eslint": "eslint **/*.{js,mjs,vue} --fix",
+    "lint:markdown": "markdownlint **/*.md --ignore \"node_modules/**\"",
     "test": "npm-run-all test:*",
-    "test:js": "eslint **/*.js --config ./index.js"
+    "test:js": "eslint **/*.js --config ./index.js",
+    "dist": "run-p dist:*",
+    "dist:npm": "np --yolo --no-yarn"
   },
   "license": "MIT",
   "dependencies": {
