@@ -48,8 +48,10 @@ const rules = [
 ]
 
 const content = [
+  OPTIONS_START_MARK,
   "<!-- AUTO GENERATED CONTENT, DON'T EDIT -->",
   ...rules.map(({type, rules}) => `### ${type}\n\n${rulesToTable(rules)}`),
+  OPTIONS_END_MARK,
 ].join('\n\n')
 
 const readmeFile = join(__dirname, `../readme.md`)

@@ -32,17 +32,19 @@ module.exports = require('prettier-config-fisker').customize({
 
 ## Options
 
+<!-- options start -->
+
 <!-- AUTO GENERATED CONTENT, DON'T EDIT -->
 
 ### Global
 
-| Option | value | Description |
-| :-- | :-- | :-- |
-| bracketSpacing | false | Print spaces between brackets. |
-| htmlWhitespaceSensitivity | ignore | How to handle whitespaces in HTML. |
-| semi | false | Print semicolons. |
-| singleQuote | true | Use single quotes instead of double quotes. |
-| trailingComma | es5 | Print trailing commas wherever possible when multi-line. |
+| Option                    | value  | Description                                              |
+| :------------------------ | :----- | :------------------------------------------------------- |
+| bracketSpacing            | false  | Print spaces between brackets.                           |
+| htmlWhitespaceSensitivity | ignore | How to handle whitespaces in HTML.                       |
+| semi                      | false  | Print semicolons.                                        |
+| singleQuote               | true   | Use single quotes instead of double quotes.              |
+| trailingComma             | es5    | Print trailing commas wherever possible when multi-line. |
 
 ### \*.css
 
@@ -92,10 +94,9 @@ module.exports = require('prettier-config-fisker').customize({
 
 ### \*.{md,markdown}
 
-| Option    | value    | Description          |
-| :-------- | :------- | :------------------- |
-| parser    | markdown | Which parser to use. |
-| proseWrap | never    | How to wrap prose.   |
+| Option | value    | Description          |
+| :----- | :------- | :------------------- |
+| parser | markdown | Which parser to use. |
 
 ### \*.mdx
 
@@ -128,6 +129,8 @@ module.exports = require('prettier-config-fisker').customize({
 | :---------- | :---- | :------------------------------------------ |
 | parser      | yaml  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
+
+<!-- options end -->
 
 ## License
 

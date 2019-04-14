@@ -49,9 +49,13 @@
     "test": "run-p test:*",
     "test:js": "ava",
     "clean": "rimraf lib",
-    "lint": "eslint src/**/*.js --fix",
-    "dist": "np --yolo --no-yarn",
-    "release": "run-s clean lint test build dist"
+    "release": "run-s clean lint build test prettier dist",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint **/*.{js,mjs,vue} --fix",
+    "lint:markdown": "markdownlint **/*.md --ignore \"node_modules/**\"",
+    "dist": "run-p dist:*",
+    "dist:npm": "np --yolo --no-yarn",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
   },
   "files": ["lib"]
 }
