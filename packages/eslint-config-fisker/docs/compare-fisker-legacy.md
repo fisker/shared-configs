@@ -81,21 +81,22 @@
 | [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
 | [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               |  off   |
 | [node/no-unsupported-features/es-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-builtins.md)     | error  |
-| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         |  off   |
 | [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/node-builtins.md) | error  |
-| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
-| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
-| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         |  off   |
 | [node/prefer-global/buffer](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/buffer.md)                                   |  off   |
-| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
+| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
 | [node/prefer-global/process](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/process.md)                                 |  off   |
+| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
 | [node/prefer-global/url](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url.md)                                         |  off   |
+| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
 | [node/process-exit-as-throw](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/process-exit-as-throw.md)                                 | error  |
 | [node/shebang](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/shebang.md)                                                             | error  |
 | plugin:es/no-2015                                                                                                                                              |        |     error     |
 | plugin:es/no-2016                                                                                                                                              |        |     error     |
 | plugin:es/no-2017                                                                                                                                              |        |     error     |
 | plugin:es/no-2018                                                                                                                                              |        |     error     |
+| plugin:es/no-5                                                                                                                                                 |        |     error     |
 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)                                             |  warn  |      off      |
 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md)       | error  |      off      |
 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-starts-ends-with.md)                     | error  |      off      |
@@ -437,21 +438,22 @@
 | [node/no-unpublished-import](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-import.md)                                 |  off   |
 | [node/no-unpublished-require](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unpublished-require.md)                               |  off   |
 | [node/no-unsupported-features/es-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-builtins.md)     | error  |
-| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         |  off   |
 | [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/node-builtins.md) | error  |
-| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
-| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
-| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/no-unsupported-features/es-syntax](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/no-unsupported-features/es-syntax.md)         |  off   |
 | [node/prefer-global/buffer](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/buffer.md)                                   |  off   |
-| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
+| [node/prefer-global/text-decoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-decoder.md)                       |  off   |
 | [node/prefer-global/process](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/process.md)                                 |  off   |
+| [node/prefer-global/console](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/console.md)                                 |  off   |
 | [node/prefer-global/url](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url.md)                                         |  off   |
+| [node/prefer-global/url-search-params](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/url-search-params.md)             |  off   |
+| [node/prefer-global/text-encoder](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/prefer-global/text-encoder.md)                       |  off   |
 | [node/process-exit-as-throw](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/process-exit-as-throw.md)                                 | error  |
 | [node/shebang](https://github.com/mysticatea/eslint-plugin-node/blob/v8.0.1/docs/rules/shebang.md)                                                             | error  |
 | plugin:es/no-2015                                                                                                                                              |        |     error     |
 | plugin:es/no-2016                                                                                                                                              |        |     error     |
 | plugin:es/no-2017                                                                                                                                              |        |     error     |
 | plugin:es/no-2018                                                                                                                                              |        |     error     |
+| plugin:es/no-5                                                                                                                                                 |        |     error     |
 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  |     error     |
 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/always-return.md)                                             |  off   |      off      |
 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/avoid-new.md)                                                     |  off   |      off      |

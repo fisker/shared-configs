@@ -4,7 +4,7 @@
   "description": "fisker's Shareable ESLint Configuration",
   "main": "index.js",
   "keywords": ["fisker", "eslint", "config"],
-  "files": ["index.js", "legacy.js", "vue.js", "configs/"],
+  "files": ["index.js", "legacy.js", "vue.js", "configs"],
   "scripts": {
     "release": "run-s lint build prettier test dist",
     "build": "npm-run-all build:*",

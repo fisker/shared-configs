@@ -5,5 +5,6 @@ module.exports = {
     'plugin:es/no-2017': 'error',
     'plugin:es/no-2016': 'error',
     'plugin:es/no-2015': 'error',
+    'plugin:es/no-5': 'error',
   },
 }
