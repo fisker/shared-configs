@@ -18,10 +18,10 @@ module.exports = require('prettier-config-fisker')
 
 ```js
 module.exports = require('prettier-config-fisker').customize({
-  semi: false,
+  trailingComma: 'none',
   overrides: [
     {
-      file: '*.flow.js',
+      files: '*.flow.js',
       options: {
         parser: 'flow',
       },
