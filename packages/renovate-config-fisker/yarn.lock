@@ -5771,10 +5771,10 @@ prepend-http@^1.0.1:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier-config-fisker@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/prettier-config-fisker/-/prettier-config-fisker-1.0.1.tgz#ba98b936627bce634e3dc4dbfde9a86a70a919ad"
-  integrity sha512-92iyyMAxtxYBp0S9FzkdAIdvGy6YZJRHopslAMCX2FnmA4Rw9P3ih19866qmJBNzUsdgHbtUx0E89O8vyYtyNw==
+prettier-config-fisker@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/prettier-config-fisker/-/prettier-config-fisker-1.0.3.tgz#8115210d9d95b44d0dcf371dd70b64f5bf1e34fa"
+  integrity sha512-r366OKbMc4kn37wrpl3IP0MTvTGJedse4+AQIVrG9SZ0CC61M+p8OdO78Epjx3GCWyzzItbuZNqiAk/UMUNMXg==
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
