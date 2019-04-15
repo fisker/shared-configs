@@ -73,10 +73,10 @@ module.exports = require('prettier-config-fisker').customize({
 
 ### \*.json
 
-| Option      | value | Description                                 |
-| :---------- | :---- | :------------------------------------------ |
-| parser      | json  | Which parser to use.                        |
-| singleQuote | false | Use single quotes instead of double quotes. |
+| Option      | value          | Description                                 |
+| :---------- | :------------- | :------------------------------------------ |
+| parser      | json-stringify | Which parser to use.                        |
+| singleQuote | false          | Use single quotes instead of double quotes. |
 
 ### \*.json5
 

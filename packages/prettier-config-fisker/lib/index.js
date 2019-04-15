@@ -29,6 +29,7 @@ var javascript = {
 };
 
 var json = {
+  parser: 'json-stringify',
   singleQuote: false,
 };
 
