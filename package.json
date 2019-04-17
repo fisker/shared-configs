@@ -1,0 +1,40 @@
+{
+  "name": "@fisker/shared-configs",
+  "private": true,
+  "repository": "fisker/shared-configs",
+  "scripts": {
+    "release": "lerna publish",
+    "lint:eslint": "eslint **/*.{js,mjs,vue} --fix",
+    "lint:markdown": "markdownlint **/*.md --ignore \"node_modules/**\"",
+    "dist:npm": "np --yolo --no-yarn",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "lint:style": "stylelint **/*.{css,scss,less} --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "cz-conventional-changelog-emoji": "^0.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-fisker": "^4.5.0",
+    "husky": "^1.3.1",
+    "lerna": "3.13.3",
+    "lint-staged": "^8.1.5",
+    "markdownlint-cli": "^0.15.0",
+    "prettier": "^1.17.0",
+    "prettier-config-fisker": "^1.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-emoji"
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
