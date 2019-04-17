@@ -21,6 +21,7 @@ module.exports = {
 
     // airbnb
     'eslint-config-airbnb-base',
+
     './rules/best-practices.js',
     './rules/errors.js',
     './rules/node.js',
