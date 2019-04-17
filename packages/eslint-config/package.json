@@ -34,7 +34,8 @@
     "eslint-plugin-unicorn": "^8.0.2"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": "fisker/shared-configs",
   "devDependencies": {
