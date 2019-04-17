@@ -1,7 +1,7 @@
 {
   "name": "@fisker/prettier-config",
   "description": "fisker's Shareable prettier Configuration",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "repository": "fisker/shared-configs",
   "author": {

@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-legacy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fisker's Shareable ESLint Configuration for legacy project",
   "main": "index.js",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.3",
+    "@fisker/eslint-config": "^1.0.4",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-es": "^1.4.0"
   },
