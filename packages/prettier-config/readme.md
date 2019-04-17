@@ -1,23 +1,23 @@
-# prettier-config-fisker
+# @fisker/prettier-config
 
 > fisker's Shareable prettier Configuration
 
 ## Install
 
 ```sh
-yarn add prettier-config-fisker --dev
+yarn add prettier @fisker/prettier-config --dev
 ```
 
 ## Usage
 
 ```js
-module.exports = require('prettier-config-fisker')
+module.exports = require('@fisker/prettier-config')
 ```
 
 ## Customize
 
 ```js
-module.exports = require('prettier-config-fisker').customize({
+module.exports = require('@fisker/prettier-config').customize({
   trailingComma: 'none',
   overrides: [
     {
