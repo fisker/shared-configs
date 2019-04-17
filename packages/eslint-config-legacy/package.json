@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.4",
+    "@fisker/eslint-config": "^1.0.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-es": "^1.4.0"
   },
