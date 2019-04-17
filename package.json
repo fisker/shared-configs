@@ -3,7 +3,8 @@
   "private": true,
   "repository": "fisker/shared-configs",
   "scripts": {
-    "release": "run-s prettier build lint test dist",
+    "release": "run-s lint build prettier test dist",
+    "clean": "lerna run clean",
     "build": "lerna run build",
     "test": "lerna run test",
     "dist": "lerna publish",
