@@ -1,6 +1,6 @@
 {
   "name": "@fisker/renovate-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "fisker's Renovate shareable configuration",
   "repository": "fisker/shared-configs",
   "author": {
@@ -15,7 +15,6 @@
     "build:js": "node ./scripts/build.js",
     "test": "ava"
   },
-  "devDependencies": {},
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
