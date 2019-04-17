@@ -13,6 +13,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
+    "ava": "^1.4.1",
     "cz-conventional-changelog-emoji": "^0.1.0",
     "eslint": "^5.16.0",
     "eslint-config-fisker": "^4.5.0",
