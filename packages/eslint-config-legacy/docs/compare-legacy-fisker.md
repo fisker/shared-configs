@@ -12,14 +12,92 @@
 |   2 | [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err)                                                                                 |  off   | error  |
 |   3 | [no-catch-shadow](https://eslint.org/docs/rules/no-catch-shadow)                                                                                         | error  |  off   |
 |   4 | [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                         |  off   | error  |
-|   5 | es/no-2015                                                                                                                                               | error  |
-|   6 | es/no-2016                                                                                                                                               | error  |
-|   7 | es/no-2017                                                                                                                                               | error  |
-|   8 | es/no-2018                                                                                                                                               | error  |
-|   9 | es/no-5                                                                                                                                                  | error  |
-|  10 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)                                       |  off   |  warn  |
-|  11 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md) |  off   | error  |
-|  12 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-starts-ends-with.md)               |  off   | error  |
+|   5 | [es/no-accessor-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html)                                              | error  |
+|   6 | [es/no-array-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html)                                                                | error  |
+|   7 | [es/no-array-of](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html)                                                                    | error  |
+|   8 | [es/no-arrow-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html)                                                      | error  |
+|   9 | [es/no-async-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html)                                                      | error  |
+|  10 | [es/no-async-iteration](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html)                                                      | error  |
+|  11 | [es/no-atomics](http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html)                                                                      | error  |
+|  12 | [es/no-binary-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html)                                      | error  |
+|  13 | [es/no-block-scoped-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html)                                        | error  |
+|  14 | [es/no-block-scoped-variables](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html)                                        | error  |
+|  15 | [es/no-classes](http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html)                                                                      | error  |
+|  16 | [es/no-computed-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html)                                              | error  |
+|  17 | [es/no-default-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html)                                                | error  |
+|  18 | [es/no-destructuring](http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html)                                                          | error  |
+|  19 | [es/no-exponential-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html)                                          | error  |
+|  20 | [es/no-for-of-loops](http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html)                                                            | error  |
+|  21 | [es/no-generators](http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html)                                                                | error  |
+|  22 | [es/no-keyword-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html)                                                | error  |
+|  23 | [es/no-malformed-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html)                              | error  |
+|  24 | [es/no-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html)                                                                              | error  |
+|  25 | [es/no-math-acosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html)                                                                | error  |
+|  26 | [es/no-math-asinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html)                                                                | error  |
+|  27 | [es/no-math-atanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html)                                                                | error  |
+|  28 | [es/no-math-cbrt](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html)                                                                  | error  |
+|  29 | [es/no-math-clz32](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html)                                                                | error  |
+|  30 | [es/no-math-cosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html)                                                                  | error  |
+|  31 | [es/no-math-expm1](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html)                                                                | error  |
+|  32 | [es/no-math-fround](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html)                                                              | error  |
+|  33 | [es/no-math-hypot](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html)                                                                | error  |
+|  34 | [es/no-math-imul](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html)                                                                  | error  |
+|  35 | [es/no-math-log10](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html)                                                                | error  |
+|  36 | [es/no-math-log1p](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html)                                                                | error  |
+|  37 | [es/no-math-log2](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html)                                                                  | error  |
+|  38 | [es/no-math-sign](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html)                                                                  | error  |
+|  39 | [es/no-math-sinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html)                                                                  | error  |
+|  40 | [es/no-math-tanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html)                                                                  | error  |
+|  41 | [es/no-math-trunc](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html)                                                                | error  |
+|  42 | [es/no-modules](http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html)                                                                      | error  |
+|  43 | [es/no-new-target](http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html)                                                                | error  |
+|  44 | [es/no-number-epsilon](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html)                                                        | error  |
+|  45 | [es/no-number-isfinite](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html)                                                      | error  |
+|  46 | [es/no-number-isinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html)                                                    | error  |
+|  47 | [es/no-number-isnan](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html)                                                            | error  |
+|  48 | [es/no-number-issafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html)                                            | error  |
+|  49 | [es/no-number-maxsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html)                                          | error  |
+|  50 | [es/no-number-minsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html)                                          | error  |
+|  51 | [es/no-number-parsefloat](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html)                                                  | error  |
+|  52 | [es/no-number-parseint](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html)                                                      | error  |
+|  53 | [es/no-object-assign](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html)                                                          | error  |
+|  54 | [es/no-object-entries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html)                                                        | error  |
+|  55 | [es/no-object-getownpropertydescriptors](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html)                    | error  |
+|  56 | [es/no-object-getownpropertysymbols](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html)                            | error  |
+|  57 | [es/no-object-is](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html)                                                                  | error  |
+|  58 | [es/no-object-setprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html)                                          | error  |
+|  59 | [es/no-object-super-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html)                                      | error  |
+|  60 | [es/no-object-values](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html)                                                          | error  |
+|  61 | [es/no-octal-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html)                                        | error  |
+|  62 | [es/no-promise](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html)                                                                      | error  |
+|  63 | [es/no-property-shorthands](http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html)                                              | error  |
+|  64 | [es/no-proxy](http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html)                                                                          | error  |
+|  65 | [es/no-reflect](http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html)                                                                      | error  |
+|  66 | [es/no-regexp-lookbehind-assertions](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html)                            | error  |
+|  67 | [es/no-regexp-named-capture-groups](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html)                              | error  |
+|  68 | [es/no-regexp-s-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html)                                                          | error  |
+|  69 | [es/no-regexp-u-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html)                                                          | error  |
+|  70 | [es/no-regexp-unicode-property-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html)                      | error  |
+|  71 | [es/no-regexp-y-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html)                                                          | error  |
+|  72 | [es/no-rest-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html)                                                      | error  |
+|  73 | [es/no-rest-spread-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html)                                        | error  |
+|  74 | [es/no-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html)                                                                              | error  |
+|  75 | [es/no-shared-array-buffer](http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html)                                              | error  |
+|  76 | [es/no-spread-elements](http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html)                                                      | error  |
+|  77 | [es/no-string-fromcodepoint](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html)                                            | error  |
+|  78 | [es/no-string-raw](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html)                                                                | error  |
+|  79 | [es/no-subclassing-builtins](http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html)                                            | error  |
+|  80 | [es/no-symbol](http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html)                                                                        | error  |
+|  81 | [es/no-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html)                                                  | error  |
+|  82 | [es/no-trailing-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html)                                                      | error  |
+|  83 | [es/no-trailing-function-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html)                                    | error  |
+|  84 | [es/no-typed-arrays](http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html)                                                            | error  |
+|  85 | [es/no-unicode-codepoint-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html)                                  | error  |
+|  86 | [es/no-weak-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html)                                                                    | error  |
+|  87 | [es/no-weak-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html)                                                                    | error  |
+|  88 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)                                       |  off   |  warn  |
+|  89 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md) |  off   | error  |
+|  90 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-starts-ends-with.md)               |  off   | error  |
 
 ## all rules
 
@@ -281,61 +359,139 @@
 | 254 | [wrap-regex](https://eslint.org/docs/rules/wrap-regex)                                                                                                         |  off   |  off   |
 | 255 | [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing)                                                                                         |  off   |  off   |
 | 256 | [yoda](https://eslint.org/docs/rules/yoda)                                                                                                                     | error  | error  |
-| 257 | es/no-2015                                                                                                                                                     | error  |
-| 258 | es/no-2016                                                                                                                                                     | error  |
-| 259 | es/no-2017                                                                                                                                                     | error  |
-| 260 | es/no-2018                                                                                                                                                     | error  |
-| 261 | es/no-5                                                                                                                                                        | error  |
-| 262 | [eslint-comments/disable-enable-pair](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html)                               | error  | error  |
-| 263 | [eslint-comments/no-aggregating-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html)                           | error  | error  |
-| 264 | [eslint-comments/no-duplicate-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html)                             | error  | error  |
-| 265 | [eslint-comments/no-unlimited-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html)                             | error  | error  |
-| 266 | [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                   |  warn  |  warn  |
-| 267 | [eslint-comments/no-unused-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html)                                     | error  | error  |
-| 268 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  | error  |
-| 269 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/always-return.md)                                             |  off   |  off   |
-| 270 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/avoid-new.md)                                                     |  off   |  off   |
-| 271 | [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/catch-or-return.md)                                         |  off   |  off   |
-| 272 | [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-callback-in-promise.md)                           |  warn  |  warn  |
-| 273 | [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-native.md)                                                     |  off   |  off   |
-| 274 | [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-nesting.md)                                                   |  warn  |  warn  |
-| 275 | [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-new-statics.md)                                           | error  | error  |
-| 276 | [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-promise-in-callback.md)                           |  warn  |  warn  |
-| 277 | [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-in-finally.md)                               |  warn  |  warn  |
-| 278 | [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-wrap.md)                                           | error  | error  |
-| 279 | [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/param-names.md)                                                 | error  | error  |
-| 280 | [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/valid-params.md)                                               |  warn  |  warn  |
-| 281 | [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/catch-error-name.md)                                   | error  | error  |
-| 282 | [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/custom-error-definition.md)                     |  off   |  off   |
-| 283 | [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/error-message.md)                                         | error  | error  |
-| 284 | [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/escape-case.md)                                             | error  | error  |
-| 285 | [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/explicit-length-check.md)                         | error  | error  |
-| 286 | [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/filename-case.md)                                         | error  | error  |
-| 287 | [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/import-index.md)                                           | error  | error  |
-| 288 | [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/new-for-builtins.md)                                   | error  | error  |
-| 289 | [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-abusive-eslint-disable.md)                 | error  | error  |
-| 290 | [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-array-instanceof.md)                             | error  | error  |
-| 291 | [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-console-spaces.md)                                 | error  | error  |
-| 292 | [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-fn-reference-in-iterator.md)             |  off   |  off   |
-| 293 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)                                             |  off   |  warn  |
-| 294 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-hex-escape.md)                                         | error  | error  |
-| 295 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-new-buffer.md)                                         | error  | error  |
-| 296 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-process-exit.md)                                     |  warn  |  warn  |
-| 297 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unreadable-array-destructuring.md) | error  | error  |
-| 298 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unsafe-regex.md)                                     |  off   |  off   |
-| 299 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unused-properties.md)                           |  off   |  off   |
-| 300 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-zero-fractions.md)                                 | error  | error  |
-| 301 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/number-literal-case.md)                             |  off   |  off   |
-| 302 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-add-event-listener.md)                 |  off   |  off   |
-| 303 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md)       |  off   | error  |
-| 304 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-includes.md)                                     | error  | error  |
-| 305 | [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-append.md)                               |  off   |  off   |
-| 306 | [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-remove.md)                               |  off   |  off   |
-| 307 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-query-selector.md)                         |  off   |  off   |
-| 308 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-spread.md)                                         |  off   |  off   |
-| 309 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-starts-ends-with.md)                     |  off   | error  |
-| 310 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-text-content.md)                             | error  | error  |
-| 311 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-type-error.md)                                 | error  | error  |
-| 312 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prevent-abbreviations.md)                         | error  | error  |
-| 313 | [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/regex-shorthand.md)                                     |  warn  |  warn  |
-| 314 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/throw-new-error.md)                                     | error  | error  |
+| 257 | [es/no-accessor-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html)                                                    | error  |
+| 258 | [es/no-array-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html)                                                                      | error  |
+| 259 | [es/no-array-of](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html)                                                                          | error  |
+| 260 | [es/no-arrow-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html)                                                            | error  |
+| 261 | [es/no-async-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html)                                                            | error  |
+| 262 | [es/no-async-iteration](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html)                                                            | error  |
+| 263 | [es/no-atomics](http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html)                                                                            | error  |
+| 264 | [es/no-binary-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html)                                            | error  |
+| 265 | [es/no-block-scoped-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html)                                              | error  |
+| 266 | [es/no-block-scoped-variables](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html)                                              | error  |
+| 267 | [es/no-classes](http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html)                                                                            | error  |
+| 268 | [es/no-computed-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html)                                                    | error  |
+| 269 | [es/no-default-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html)                                                      | error  |
+| 270 | [es/no-destructuring](http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html)                                                                | error  |
+| 271 | [es/no-exponential-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html)                                                | error  |
+| 272 | [es/no-for-of-loops](http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html)                                                                  | error  |
+| 273 | [es/no-generators](http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html)                                                                      | error  |
+| 274 | [es/no-keyword-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html)                                                      | error  |
+| 275 | [es/no-malformed-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html)                                    | error  |
+| 276 | [es/no-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html)                                                                                    | error  |
+| 277 | [es/no-math-acosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html)                                                                      | error  |
+| 278 | [es/no-math-asinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html)                                                                      | error  |
+| 279 | [es/no-math-atanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html)                                                                      | error  |
+| 280 | [es/no-math-cbrt](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html)                                                                        | error  |
+| 281 | [es/no-math-clz32](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html)                                                                      | error  |
+| 282 | [es/no-math-cosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html)                                                                        | error  |
+| 283 | [es/no-math-expm1](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html)                                                                      | error  |
+| 284 | [es/no-math-fround](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html)                                                                    | error  |
+| 285 | [es/no-math-hypot](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html)                                                                      | error  |
+| 286 | [es/no-math-imul](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html)                                                                        | error  |
+| 287 | [es/no-math-log10](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html)                                                                      | error  |
+| 288 | [es/no-math-log1p](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html)                                                                      | error  |
+| 289 | [es/no-math-log2](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html)                                                                        | error  |
+| 290 | [es/no-math-sign](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html)                                                                        | error  |
+| 291 | [es/no-math-sinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html)                                                                        | error  |
+| 292 | [es/no-math-tanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html)                                                                        | error  |
+| 293 | [es/no-math-trunc](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html)                                                                      | error  |
+| 294 | [es/no-modules](http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html)                                                                            | error  |
+| 295 | [es/no-new-target](http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html)                                                                      | error  |
+| 296 | [es/no-number-epsilon](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html)                                                              | error  |
+| 297 | [es/no-number-isfinite](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html)                                                            | error  |
+| 298 | [es/no-number-isinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html)                                                          | error  |
+| 299 | [es/no-number-isnan](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html)                                                                  | error  |
+| 300 | [es/no-number-issafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html)                                                  | error  |
+| 301 | [es/no-number-maxsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html)                                                | error  |
+| 302 | [es/no-number-minsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html)                                                | error  |
+| 303 | [es/no-number-parsefloat](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html)                                                        | error  |
+| 304 | [es/no-number-parseint](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html)                                                            | error  |
+| 305 | [es/no-object-assign](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html)                                                                | error  |
+| 306 | [es/no-object-entries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html)                                                              | error  |
+| 307 | [es/no-object-getownpropertydescriptors](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html)                          | error  |
+| 308 | [es/no-object-getownpropertysymbols](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html)                                  | error  |
+| 309 | [es/no-object-is](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html)                                                                        | error  |
+| 310 | [es/no-object-setprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html)                                                | error  |
+| 311 | [es/no-object-super-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html)                                            | error  |
+| 312 | [es/no-object-values](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html)                                                                | error  |
+| 313 | [es/no-octal-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html)                                              | error  |
+| 314 | [es/no-promise](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html)                                                                            | error  |
+| 315 | [es/no-property-shorthands](http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html)                                                    | error  |
+| 316 | [es/no-proxy](http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html)                                                                                | error  |
+| 317 | [es/no-reflect](http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html)                                                                            | error  |
+| 318 | [es/no-regexp-lookbehind-assertions](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html)                                  | error  |
+| 319 | [es/no-regexp-named-capture-groups](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html)                                    | error  |
+| 320 | [es/no-regexp-s-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html)                                                                | error  |
+| 321 | [es/no-regexp-u-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html)                                                                | error  |
+| 322 | [es/no-regexp-unicode-property-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html)                            | error  |
+| 323 | [es/no-regexp-y-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html)                                                                | error  |
+| 324 | [es/no-rest-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html)                                                            | error  |
+| 325 | [es/no-rest-spread-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html)                                              | error  |
+| 326 | [es/no-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html)                                                                                    | error  |
+| 327 | [es/no-shared-array-buffer](http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html)                                                    | error  |
+| 328 | [es/no-spread-elements](http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html)                                                            | error  |
+| 329 | [es/no-string-fromcodepoint](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html)                                                  | error  |
+| 330 | [es/no-string-raw](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html)                                                                      | error  |
+| 331 | [es/no-subclassing-builtins](http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html)                                                  | error  |
+| 332 | [es/no-symbol](http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html)                                                                              | error  |
+| 333 | [es/no-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html)                                                        | error  |
+| 334 | [es/no-trailing-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html)                                                            | error  |
+| 335 | [es/no-trailing-function-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html)                                          | error  |
+| 336 | [es/no-typed-arrays](http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html)                                                                  | error  |
+| 337 | [es/no-unicode-codepoint-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html)                                        | error  |
+| 338 | [es/no-weak-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html)                                                                          | error  |
+| 339 | [es/no-weak-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html)                                                                          | error  |
+| 340 | [eslint-comments/disable-enable-pair](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html)                               | error  | error  |
+| 341 | [eslint-comments/no-aggregating-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html)                           | error  | error  |
+| 342 | [eslint-comments/no-duplicate-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html)                             | error  | error  |
+| 343 | [eslint-comments/no-unlimited-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html)                             | error  | error  |
+| 344 | [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                   |  warn  |  warn  |
+| 345 | [eslint-comments/no-unused-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html)                                     | error  | error  |
+| 346 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                | error  | error  |
+| 347 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/always-return.md)                                             |  off   |  off   |
+| 348 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/avoid-new.md)                                                     |  off   |  off   |
+| 349 | [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/catch-or-return.md)                                         |  off   |  off   |
+| 350 | [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-callback-in-promise.md)                           |  warn  |  warn  |
+| 351 | [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-native.md)                                                     |  off   |  off   |
+| 352 | [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-nesting.md)                                                   |  warn  |  warn  |
+| 353 | [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-new-statics.md)                                           | error  | error  |
+| 354 | [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-promise-in-callback.md)                           |  warn  |  warn  |
+| 355 | [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-in-finally.md)                               |  warn  |  warn  |
+| 356 | [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/no-return-wrap.md)                                           | error  | error  |
+| 357 | [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/param-names.md)                                                 | error  | error  |
+| 358 | [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.1.1/docs/rules/valid-params.md)                                               |  warn  |  warn  |
+| 359 | [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/catch-error-name.md)                                   | error  | error  |
+| 360 | [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/custom-error-definition.md)                     |  off   |  off   |
+| 361 | [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/error-message.md)                                         | error  | error  |
+| 362 | [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/escape-case.md)                                             | error  | error  |
+| 363 | [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/explicit-length-check.md)                         | error  | error  |
+| 364 | [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/filename-case.md)                                         | error  | error  |
+| 365 | [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/import-index.md)                                           | error  | error  |
+| 366 | [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/new-for-builtins.md)                                   | error  | error  |
+| 367 | [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-abusive-eslint-disable.md)                 | error  | error  |
+| 368 | [unicorn/no-array-instanceof](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-array-instanceof.md)                             | error  | error  |
+| 369 | [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-console-spaces.md)                                 | error  | error  |
+| 370 | [unicorn/no-fn-reference-in-iterator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-fn-reference-in-iterator.md)             |  off   |  off   |
+| 371 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)                                             |  off   |  warn  |
+| 372 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-hex-escape.md)                                         | error  | error  |
+| 373 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-new-buffer.md)                                         | error  | error  |
+| 374 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-process-exit.md)                                     |  warn  |  warn  |
+| 375 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unreadable-array-destructuring.md) | error  | error  |
+| 376 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unsafe-regex.md)                                     |  off   |  off   |
+| 377 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unused-properties.md)                           |  off   |  off   |
+| 378 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-zero-fractions.md)                                 | error  | error  |
+| 379 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/number-literal-case.md)                             |  off   |  off   |
+| 380 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-add-event-listener.md)                 |  off   |  off   |
+| 381 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md)       |  off   | error  |
+| 382 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-includes.md)                                     | error  | error  |
+| 383 | [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-append.md)                               |  off   |  off   |
+| 384 | [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-remove.md)                               |  off   |  off   |
+| 385 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-query-selector.md)                         |  off   |  off   |
+| 386 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-spread.md)                                         |  off   |  off   |
+| 387 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-starts-ends-with.md)                     |  off   | error  |
+| 388 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-text-content.md)                             | error  | error  |
+| 389 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-type-error.md)                                 | error  | error  |
+| 390 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prevent-abbreviations.md)                         | error  | error  |
+| 391 | [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/regex-shorthand.md)                                     |  warn  |  warn  |
+| 392 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/throw-new-error.md)                                     | error  | error  |
