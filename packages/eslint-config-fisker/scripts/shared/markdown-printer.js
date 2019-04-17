@@ -1,6 +1,8 @@
 const MARKDOWN_TH_ALIGN_LEFT = ':-'
 const MARKDOWN_TH_ALIGN_CENTER = ':-:'
+const MARKDOWN_TH_ALIGN_RIGHT = '-:'
 const MARKDOWN_TH_ALIGN = [
+  MARKDOWN_TH_ALIGN_RIGHT,
   MARKDOWN_TH_ALIGN_LEFT,
   MARKDOWN_TH_ALIGN_CENTER,
   MARKDOWN_TH_ALIGN_CENTER,
@@ -10,9 +12,10 @@ function markdown({names, data}) {
   const [localName, foreignName] = names
 
   return [
-    ['Rule', localName, foreignName],
+    ['#', 'Rule', localName, foreignName],
     MARKDOWN_TH_ALIGN,
-    ...data.map(({name, link, local, foreign}) => [
+    ...data.map(({name, link, local, foreign}, index) => [
+      index + 1,
       link ? `[${name}](${link})` : name,
       local,
       foreign,
