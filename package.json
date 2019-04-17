@@ -42,5 +42,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^5.2.2"
   }
 }

@@ -1,0 +1,51 @@
+{
+  "name": "@fisker/eslint-config-vue",
+  "version": "1.0.1",
+  "description": "fisker's Shareable ESLint Configuration for vue project",
+  "main": "index.js",
+  "keywords": [
+    "fisker",
+    "eslint",
+    "config",
+    "vue"
+  ],
+  "files": [
+    "plugins",
+    "index.js"
+  ],
+  "scripts": {
+    "clean": "rimraf docs",
+    "build": "run-p build:*",
+    "build:compare": "node -r esm scripts/compare.js && prettier docs/** --write",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "test": "run-p test:*",
+    "test:js": "echo \"no test yet\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@fisker/eslint-config": "^1.0.1",
+    "eslint-config-prettier": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "fisker/shared-configs",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "esm": "^3.2.22"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  }
+}
