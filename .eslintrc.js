@@ -14,5 +14,12 @@ module.exports = {
   settings: {},
   rules: {},
   plugins: [],
-  overrides: [],
+  overrides: [
+    {
+      files: 'packages/*/scripts/**',
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
+  ],
 }

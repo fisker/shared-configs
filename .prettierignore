@@ -22,4 +22,5 @@ dist/**
 **/fixtures/**
 
 # project glob
+**/node_modules/**
 

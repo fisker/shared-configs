@@ -22,4 +22,4 @@ dist/**
 **/fixtures/**
 
 # project glob
-**/.cache/**
+**/node_modules/**
