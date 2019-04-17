@@ -24,7 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "@fisker/eslint-config": "^1.0.3",
-    "eslint-config-prettier": "^4.1.0"
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-vue": "^5.2.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
