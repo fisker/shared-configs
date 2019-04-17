@@ -1,0 +1,63 @@
+{
+  "name": "@fisker/eslint-config",
+  "version": "4.5.0",
+  "description": "fisker's Shareable ESLint Configuration",
+  "main": "index.js",
+  "keywords": [
+    "fisker",
+    "eslint",
+    "config"
+  ],
+  "files": [
+    "index.js",
+    "legacy.js",
+    "vue.js",
+    "test.js",
+    "configs"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:compare": "node -r esm scripts/compare.js",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "test": "run-p test:*",
+    "test:js": "eslint **/*.js --config ./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-es": "^1.4.0",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jasmine": "^2.10.1",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-unicorn": "^8.0.2",
+    "eslint-plugin-vue": "^5.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": "fisker/shared-configs",
+  "devDependencies": {
+    "esm": "^3.2.22",
+    "mem": "^4.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  }
+}
