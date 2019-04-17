@@ -20,7 +20,7 @@
     "build:compare": "node -r esm scripts/compare.js && prettier docs/** --write",
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
     "test": "run-p test:*",
-    "test:js": "eslint **/*.js --config ./index.js"
+    "test:js": "eslint index.js --print-config --config ./index.js"
   },
   "license": "MIT",
   "dependencies": {
