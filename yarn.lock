@@ -156,6 +156,21 @@
   dependencies:
     find-up "^2.1.0"
 
+"@fisker/eslint-config@^1.0.1":
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/@fisker/eslint-config/download/@fisker/eslint-config-1.0.1.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2F%40fisker%2Feslint-config%2Fdownload%2F%40fisker%2Feslint-config-1.0.1.tgz#c136bafb1d9aeab600839375ebb7a8d5a1da0f5e"
+  integrity sha1-wTa6+x2a6rYAg5N167eo1aHaD14=
+  dependencies:
+    eslint-config-airbnb-base "^13.1.0"
+    eslint-config-prettier "^4.1.0"
+    eslint-plugin-eslint-comments "^3.1.1"
+    eslint-plugin-html "^5.0.3"
+    eslint-plugin-import "^2.17.2"
+    eslint-plugin-node "^8.0.1"
+    eslint-plugin-prettier "^3.0.1"
+    eslint-plugin-promise "^4.1.1"
+    eslint-plugin-unicorn "^8.0.2"
+
 "@lerna/add@3.13.3":
   version "3.13.3"
   resolved "http://registry.npm.taobao.org/@lerna/add/download/@lerna/add-3.13.3.tgz#f4c1674839780e458f0426d4f7b6d0a77b9a2ae9"
@@ -869,7 +884,7 @@ acorn-jsx@^5.0.0:
   resolved "http://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
   integrity sha1-MqBk/ZJUKSFqCbFBECv90YX65A4=
 
-acorn@^6.0.2, acorn@^6.0.7:
+acorn@^6.0.7:
   version "6.1.1"
   resolved "http://registry.npm.taobao.org/acorn/download/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
   integrity sha1-fSWuBbuK0fm2mRCOEJTs14hK3B8=
@@ -1769,7 +1784,7 @@ debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.0:
+debug@^4.0.1:
   version "4.1.1"
   resolved "http://registry.npm.taobao.org/debug/download/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
@@ -2084,26 +2099,6 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-fisker@^4.5.0:
-  version "4.5.0"
-  resolved "http://registry.npm.taobao.org/eslint-config-fisker/download/eslint-config-fisker-4.5.0.tgz#0a7f64f20d783106f9b07aacf998030b17164ea7"
-  integrity sha1-Cn9k8g14MQb5sHqs+ZgDCxcWTqc=
-  dependencies:
-    eslint-config-airbnb-base "^13.1.0"
-    eslint-config-prettier "^4.1.0"
-    eslint-plugin-es "^1.4.0"
-    eslint-plugin-eslint-comments "^3.1.1"
-    eslint-plugin-html "^5.0.3"
-    eslint-plugin-import "^2.17.2"
-    eslint-plugin-jasmine "^2.10.1"
-    eslint-plugin-jest "^22.4.1"
-    eslint-plugin-mocha "^5.3.0"
-    eslint-plugin-node "^8.0.1"
-    eslint-plugin-prettier "^3.0.1"
-    eslint-plugin-promise "^4.1.1"
-    eslint-plugin-unicorn "^8.0.2"
-    eslint-plugin-vue "^5.2.2"
-
 eslint-config-prettier@^4.1.0:
   version "4.1.0"
   resolved "http://registry.npm.taobao.org/eslint-config-prettier/download/eslint-config-prettier-4.1.0.tgz#181364895899fff9fd3605fecb5c4f20e7d5f395"
@@ -2127,7 +2122,7 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-es@^1.3.1, eslint-plugin-es@^1.4.0:
+eslint-plugin-es@^1.3.1:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/eslint-plugin-es/download/eslint-plugin-es-1.4.0.tgz#475f65bb20c993fc10e8c8fe77d1d60068072da6"
   integrity sha1-R19luyDJk/wQ6Mj+d9HWAGgHLaY=
@@ -2166,23 +2161,6 @@ eslint-plugin-import@^2.17.2:
     minimatch "^3.0.4"
     read-pkg-up "^2.0.0"
     resolve "^1.10.0"
-
-eslint-plugin-jasmine@^2.10.1:
-  version "2.10.1"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-jasmine/download/eslint-plugin-jasmine-2.10.1.tgz#5733b709e751f4bc40e31e1c16989bd2cdfbec97"
-  integrity sha1-VzO3CedR9LxA4x4cFpib0s377Jc=
-
-eslint-plugin-jest@^22.4.1:
-  version "22.4.1"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-jest/download/eslint-plugin-jest-22.4.1.tgz#a5fd6f7a2a41388d16f527073b778013c5189a9c"
-  integrity sha1-pf1veipBOI0W9ScHO3eAE8UYmpw=
-
-eslint-plugin-mocha@^5.3.0:
-  version "5.3.0"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-mocha/download/eslint-plugin-mocha-5.3.0.tgz#cf3eb18ae0e44e433aef7159637095a7cb19b15b"
-  integrity sha1-zz6xiuDkTkM673FZY3CVp8sZsVs=
-  dependencies:
-    ramda "^0.26.1"
 
 eslint-plugin-node@^8.0.1:
   version "8.0.1"
@@ -2225,19 +2203,12 @@ eslint-plugin-unicorn@^8.0.2:
     reserved-words "^0.1.2"
     safe-regex "^2.0.1"
 
-eslint-plugin-vue@^5.2.2:
-  version "5.2.2"
-  resolved "http://registry.npm.taobao.org/eslint-plugin-vue/download/eslint-plugin-vue-5.2.2.tgz#86601823b7721b70bc92d54f1728cfc03b36283c"
-  integrity sha1-hmAYI7dyG3C8ktVPFyjPwDs2KDw=
-  dependencies:
-    vue-eslint-parser "^5.0.0"
-
 eslint-restricted-globals@^0.1.1:
   version "0.1.1"
   resolved "http://registry.npm.taobao.org/eslint-restricted-globals/download/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
   integrity sha1-NfDVy8ZMLj7WLpO0saevBbp+1Nc=
 
-eslint-scope@^4.0.0, eslint-scope@^4.0.3:
+eslint-scope@^4.0.3:
   version "4.0.3"
   resolved "http://registry.npm.taobao.org/eslint-scope/download/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
   integrity sha1-ygODMxD2iJoyZHgaqC5j65z+eEg=
@@ -2296,15 +2267,6 @@ eslint@^5.16.0:
     strip-json-comments "^2.0.1"
     table "^5.2.3"
     text-table "^0.2.0"
-
-espree@^4.1.0:
-  version "4.1.0"
-  resolved "http://registry.npm.taobao.org/espree/download/espree-4.1.0.tgz#728d5451e0fd156c04384a7ad89ed51ff54eb25f"
-  integrity sha1-co1UUeD9FWwEOEp62J7VH/VOsl8=
-  dependencies:
-    acorn "^6.0.2"
-    acorn-jsx "^5.0.0"
-    eslint-visitor-keys "^1.0.0"
 
 espree@^5.0.1:
   version "5.0.1"
@@ -4962,11 +4924,6 @@ quick-lru@^1.0.0:
   resolved "http://registry.npm.taobao.org/quick-lru/download/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
   integrity sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
 
-ramda@^0.26.1:
-  version "0.26.1"
-  resolved "http://registry.npm.taobao.org/ramda/download/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
-  integrity sha1-jUE1HrgRHFU1Nhf8O7/62OTTXQY=
-
 rc@~1.2.7:
   version "1.2.8"
   resolved "http://registry.npm.taobao.org/rc/download/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
@@ -6072,18 +6029,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-vue-eslint-parser@^5.0.0:
-  version "5.0.0"
-  resolved "http://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-5.0.0.tgz#00f4e4da94ec974b821a26ff0ed0f7a78402b8a1"
-  integrity sha1-APTk2pTsl0uCGib/DtD3p4QCuKE=
-  dependencies:
-    debug "^4.1.0"
-    eslint-scope "^4.0.0"
-    eslint-visitor-keys "^1.0.0"
-    espree "^4.1.0"
-    esquery "^1.0.1"
-    lodash "^4.17.11"
 
 wcwidth@^1.0.0:
   version "1.0.1"
