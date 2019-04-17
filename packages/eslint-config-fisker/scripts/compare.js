@@ -24,13 +24,15 @@ const configs = {
   // vue
   vue: require('./configs/vue').default,
   'vue+prettier': require('./configs/vue-prettier').default,
+  // import
+  import: require('./configs/import').default,
 }
 
 const compares = [
   // default
   {
     filter({prefix}) {
-      return !prefix
+      return !prefix || prefix === 'import'
     },
     file: 'compare-fisker-airbnb',
     local: configs.fisker,
@@ -38,7 +40,7 @@ const compares = [
   },
   {
     filter({prefix}) {
-      return !prefix
+      return !prefix || prefix === 'import'
     },
     file: 'compare-fisker-airbnb-prettier',
     local: configs.fisker,
@@ -113,6 +115,14 @@ const compares = [
     file: 'compare-fisker-unicorn',
     local: configs.fisker,
     foreign: configs.unicorn,
+  },
+  {
+    filter({prefix}) {
+      return prefix === 'import'
+    },
+    file: 'compare-fisker-import',
+    local: configs.fisker,
+    foreign: configs.import,
   },
   // default
   {

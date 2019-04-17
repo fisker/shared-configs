@@ -3,17 +3,26 @@
   "version": "4.3.6",
   "description": "fisker's Shareable ESLint Configuration",
   "main": "index.js",
-  "keywords": ["fisker", "eslint", "config"],
-  "files": ["index.js", "legacy.js", "vue.js", "configs"],
+  "keywords": [
+    "fisker",
+    "eslint",
+    "config"
+  ],
+  "files": [
+    "index.js",
+    "legacy.js",
+    "vue.js",
+    "configs"
+  ],
   "scripts": {
     "release": "run-s lint build prettier test dist",
-    "build": "npm-run-all build:*",
+    "build": "run-p build:*",
     "build:compare": "node -r esm scripts/compare.js",
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
-    "lint": "npm-p lint:*",
+    "lint": "run-p lint:*",
     "lint:eslint": "eslint **/*.{js,mjs,vue} --fix",
     "lint:markdown": "markdownlint **/*.md --ignore \"node_modules/**\"",
-    "test": "npm-run-all test:*",
+    "test": "run-p test:*",
     "test:js": "eslint **/*.js --config ./index.js",
     "dist": "run-p dist:*",
     "dist:npm": "np --yolo --no-yarn"

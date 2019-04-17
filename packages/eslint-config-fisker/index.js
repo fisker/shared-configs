@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    // airbnb
-    './configs/airbnb/airbnb.js',
+    // import, must before airbnb
+    './configs/import/import.js',
 
     // promise
     './configs/promise/promise.js',
@@ -14,6 +14,9 @@ module.exports = {
 
     // eslint-comments
     './configs/eslint-comments/eslint-comments.js',
+
+    // airbnb
+    './configs/airbnb/airbnb.js',
 
     // prettier
     './configs/prettier/prettier.js',

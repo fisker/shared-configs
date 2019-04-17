@@ -1,8 +1,5 @@
 module.exports = {
   extends: [
-    // airbnb
-    './configs/airbnb/airbnb-legacy.js',
-
     // promise
     './configs/promise/promise.js',
 
@@ -17,6 +14,9 @@ module.exports = {
 
     // html
     './configs/html/html.js',
+
+    // airbnb
+    './configs/airbnb/airbnb-legacy.js',
 
     // prettier
     './configs/prettier/prettier.js',

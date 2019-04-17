@@ -81,6 +81,10 @@ module.exports = {
 
 - [compare `fisker` to `unicorn/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-unicorn.md)
 
+### eslint-plugin-import
+
+- [compare `fisker` to `import/error` + `import/warning`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-fisker-import.md)
+
 ### eslint-plugin-vue
 
 - [compare `fisker/vue` to `vue/recommended`](https://github.com/fisker/eslint-config-fisker/tree/master/docs/compare-vue-vue.md)

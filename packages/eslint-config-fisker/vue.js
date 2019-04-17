@@ -7,28 +7,13 @@
 
 module.exports = {
   extends: [
-    // airbnb
-    './configs/airbnb/airbnb.js',
-
-    // promise
-    './configs/promise/promise.js',
-
-    // node
-    './configs/node/node.js',
-
-    // unicorn
-    './configs/unicorn/unicorn.js',
-
-    // eslint-comments
-    './configs/eslint-comments/eslint-comments.js',
-
     // vue
     './configs/vue/vue.js',
 
+    // basic
+    './index.js',
+
     // prettier
     './configs/prettier/prettier-vue.js',
-
-    // own rules
-    './configs/own/own.js',
   ].map(require.resolve),
 }
