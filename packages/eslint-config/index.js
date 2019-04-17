@@ -1,27 +1,43 @@
 module.exports = {
+  root: true,
+  env: {
+    es6: true,
+  },
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: 'module',
+    ecmaFeatures: {
+      globalReturn: false,
+      jsx: true,
+    },
+  },
   extends: [
-    // import
-    './configs/import/import.js',
-
-    // promise
-    './configs/promise/promise.js',
-
-    // node
-    './configs/node/node.js',
-
-    // unicorn
-    './configs/unicorn/unicorn.js',
-
-    // eslint-comments
-    './configs/eslint-comments/eslint-comments.js',
+    // plugins
+    './plugins/import.js',
+    './plugins/promise.js',
+    './plugins/node.js',
+    './plugins/unicorn.js',
+    './plugins/eslint-comments.js',
 
     // airbnb
-    './configs/airbnb/airbnb.js',
+    'eslint-config-airbnb-base',
+    './rules/best-practices.js',
+    './rules/errors.js',
+    './rules/node.js',
+    './rules/style.js',
+    './rules/variables.js',
+    './rules/es6.js',
+    './rules/imports.js',
 
     // prettier
-    './configs/prettier/prettier.js',
-
-    // own rules
-    './configs/own/own.js',
+    './plugins/prettier.js',
   ].map(require.resolve),
+  rules: {
+    // should not set by `eslint-plugin-node`,
+    // and also there is a option by `eslint-config-unicorn`
+    'no-process-exit': 'off',
+
+    // conflicts with `unicorn/prevent-abbreviations` auto fixing
+    'no-underscore-dangle': 'off',
+  },
 }

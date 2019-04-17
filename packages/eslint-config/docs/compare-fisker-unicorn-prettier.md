@@ -2,25 +2,24 @@
 
 # compare
 
-> compare fisker with unicorn/recommended
+> compare fisker with unicorn/recommended + prettier/unicorn
 
 ## difference only
 
-#|Rule|fisker|unicorn/recommended
+#|Rule|fisker|unicorn/recommended + prettier/unicorn
 -:|:-|:-:|:-:
 1|[unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-for-loop.md)|warn|error
 2|[unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-process-exit.md)|warn|error
-3|[unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/number-literal-case.md)|off|error
-4|[unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-add-event-listener.md)|off|error
-5|[unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-append.md)|off|error
-6|[unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-remove.md)|off|error
-7|[unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-query-selector.md)|off|error
-8|[unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-spread.md)|off|error
-9|[unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/regex-shorthand.md)|warn|error
+3|[unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-add-event-listener.md)|off|error
+4|[unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-append.md)|off|error
+5|[unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-node-remove.md)|off|error
+6|[unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-query-selector.md)|off|error
+7|[unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-spread.md)|off|error
+8|[unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/regex-shorthand.md)|warn|error
 
 ## all rules
 
-#|Rule|fisker|unicorn/recommended
+#|Rule|fisker|unicorn/recommended + prettier/unicorn
 -:|:-|:-:|:-:
 1|[unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/catch-error-name.md)|error|error
 2|[unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/custom-error-definition.md)|off|off
@@ -42,7 +41,7 @@
 18|[unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unsafe-regex.md)|off|off
 19|[unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-unused-properties.md)|off|off
 20|[unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/no-zero-fractions.md)|error|error
-21|[unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/number-literal-case.md)|off|error
+21|[unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/number-literal-case.md)|off|off
 22|[unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-add-event-listener.md)|off|error
 23|[unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-exponentiation-operator.md)|error|error
 24|[unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v8.0.2/docs/rules/prefer-includes.md)|error|error

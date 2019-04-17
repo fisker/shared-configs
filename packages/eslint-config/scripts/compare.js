@@ -7,25 +7,47 @@ import isEqualRuleValue from './shared/is-equal-rule-value'
 
 const configs = {
   // fisker
-  fisker: require('./configs/fisker-default').default,
-  'fisker/legacy': require('./configs/fisker-legacy').default,
-  'fisker/vue': require('./configs/fisker-vue').default,
+  // eslint-disable-next-line unicorn/import-index
+  fisker: require('../index'),
+
   // airbnb
-  airbnb: require('./configs/airbnb').default,
-  'airbnb+prettier': require('./configs/airbnb-prettier').default,
-  // legacy
-  'airbnb/legacy': require('./configs/airbnb-legacy').default,
-  'airbnb/legacy+prettier': require('./configs/airbnb-legacy-prettier').default,
+  airbnb: {
+    extends: ['eslint-config-airbnb-base'].map(require.resolve),
+  },
+  'airbnb + prettier': {
+    extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(
+      require.resolve
+    ),
+  },
+
   // plugins
-  prettier: require('./configs/prettier-unicorn').default,
-  'eslint-comments': require('./configs/eslint-comments').default,
-  promise: require('./configs/promise').default,
-  unicorn: require('./configs/unicorn').default,
-  // vue
-  vue: require('./configs/vue').default,
-  'vue+prettier': require('./configs/vue-prettier').default,
-  // import
-  import: require('./configs/import').default,
+  'eslint-comments/recommended': {
+    plugins: ['eslint-comments'],
+    extends: ['plugin:eslint-comments/recommended'],
+  },
+
+  'promise/recommended': {
+    plugins: ['promise'],
+    extends: ['plugin:promise/recommended'],
+  },
+
+  'unicorn/recommended': {
+    plugins: ['unicorn'],
+    extends: ['plugin:unicorn/recommended'],
+  },
+
+  'unicorn/recommended + prettier/unicorn': {
+    plugins: ['unicorn'],
+    extends: [
+      'plugin:unicorn/recommended',
+      require.resolve('eslint-config-prettier/unicorn'),
+    ],
+  },
+
+  'import/error + import/warning': {
+    plugins: ['import'],
+    extends: ['plugin:import/errors', 'plugin:import/warnings'],
+  },
 }
 
 const compares = [
@@ -35,103 +57,57 @@ const compares = [
       return !prefix || prefix === 'import'
     },
     file: 'compare-fisker-airbnb',
-    local: configs.fisker,
-    foreign: configs.airbnb,
+    local: 'fisker',
+    foreign: 'airbnb',
   },
   {
     filter({prefix}) {
       return !prefix || prefix === 'import'
     },
     file: 'compare-fisker-airbnb-prettier',
-    local: configs.fisker,
-    foreign: configs['airbnb+prettier'],
-  },
-  // legacy
-  {
-    filter({prefix}) {
-      return !prefix
-    },
-    file: 'compare-legacy-airbnb-legacy',
-    local: configs['fisker/legacy'],
-    foreign: configs['airbnb/legacy'],
-  },
-  {
-    filter({prefix}) {
-      return !prefix
-    },
-    file: 'compare-legacy-airbnb-legacy-prettier',
-    local: configs['fisker/legacy'],
-    foreign: configs['airbnb/legacy+prettier'],
-  },
-  // vue
-  {
-    filter({prefix}) {
-      return prefix === 'vue'
-    },
-    file: 'compare-vue-vue',
-    local: configs['fisker/vue'],
-    foreign: configs.vue,
-  },
-  {
-    filter({prefix}) {
-      return prefix === 'vue'
-    },
-    file: 'compare-vue-vue-prettier',
-    local: configs['fisker/vue'],
-    foreign: configs['vue+prettier'],
+    local: 'fisker',
+    foreign: 'airbnb + prettier',
   },
   // plugins
-  {
-    filter({prefix, id}, localRules, foreignRules) {
-      return (
-        (prefix === 'prettier' || prefix === 'unicorn' || !prefix) &&
-        has(foreignRules, id)
-      )
-    },
-    file: 'compare-fisker-prettier',
-    local: configs.fisker,
-    foreign: configs.prettier,
-  },
   {
     filter({prefix}) {
       return prefix === 'eslint-comments'
     },
     file: 'compare-fisker-eslint-comments',
-    local: configs.fisker,
-    foreign: configs['eslint-comments'],
+    local: 'fisker',
+    foreign: 'eslint-comments/recommended',
   },
   {
     filter({prefix}) {
       return prefix === 'promise'
     },
     file: 'compare-fisker-promise',
-    local: configs.fisker,
-    foreign: configs.promise,
+    local: 'fisker',
+    foreign: 'promise/recommended',
   },
   {
     filter({prefix}) {
       return prefix === 'unicorn'
     },
     file: 'compare-fisker-unicorn',
-    local: configs.fisker,
-    foreign: configs.unicorn,
+    local: 'fisker',
+    foreign: 'unicorn/recommended',
+  },
+  {
+    filter({prefix}) {
+      return prefix === 'unicorn'
+    },
+    file: 'compare-fisker-unicorn-prettier',
+    local: 'fisker',
+    foreign: 'unicorn/recommended + prettier/unicorn',
   },
   {
     filter({prefix}) {
       return prefix === 'import'
     },
     file: 'compare-fisker-import',
-    local: configs.fisker,
-    foreign: configs.import,
-  },
-  // default
-  {
-    filter() {
-      return true
-    },
-    file: 'compare-fisker-legacy',
-    local: configs.fisker,
-    foreign: configs['fisker/legacy'],
+    local: 'fisker',
+    foreign: 'import/error + import/warning',
   },
 ]
 
@@ -141,8 +117,17 @@ function getDiffOnlyFilter(filter) {
   }
 }
 
-for (const {filter, file, local, foreign} of compares) {
-  console.log(`building: ${local.name} with ${foreign.name}`)
+for (const {filter, file, local: localName, foreign: foreignName} of compares) {
+  console.log(`building: ${localName} with ${foreignName}`)
+
+  const local = {
+    name: localName,
+    config: configs[localName],
+  }
+  const foreign = {
+    name: foreignName,
+    config: configs[foreignName],
+  }
 
   const resultAll = getResult({filter, local, foreign})
   const resultDiff = getResult({
