@@ -7,7 +7,7 @@
     "clean": "lerna run clean",
     "build": "lerna run build",
     "test": "lerna run test",
-    "dist": "lerna publish",
+    "dist": "lerna publish from-package",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint **/*.{js,mjs,vue} --fix",
     "lint:markdown": "markdownlint **/*.md --ignore \"**/node_modules/**\"",
