@@ -20,9 +20,6 @@
 ```sh
 # with yarn
 yarn add --dev eslint prettier eslint-config-fisker
-
-# with npm
-npm install --save-dev eslint prettier eslint-config-fisker
 ```
 
 ## .eslintrc.js
@@ -55,6 +52,19 @@ module.exports = {
   extends: ['fisker/vue'],
 }
 ```
+
+### test
+
+```js
+module.exports = {
+  root: true,
+  extends: ['fisker/test'],
+}
+```
+
+- jest
+- jasmine
+- mocha
 
 ## foreign config & plugins
 
@@ -94,25 +104,35 @@ module.exports = {
 
 - [x] airbnb config
 - [x] prettier plugin
+- [x] unicorn plugin
+- [x] es plugin
 - [x] vue plugin
 - [x] promise plugin
 - [ ] react plugin
-- [ ] node plugin (need evaluate)
+- [x] node plugin
+- [x] html plugin
 - [ ] webpack plugin (need evaluate)
-- [x] unicorn plugin
 - [x] eslint-comments plugin
-- [ ] write documents explain rules
-- [ ] test
+- [x] jest plugin
+- [x] mocha plugin
+- [x] jasmine plugin
 
 ## Links
 
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
-- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
+- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
+- [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html)
+- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+- [eslint-plugin-es](https://github.com/mysticatea/eslint-plugin-es)
+- [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
+- [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha)
+- [eslint-plugin-jasmine](https://github.com/tlvince/eslint-plugin-jasmine)
 
 ## License
 

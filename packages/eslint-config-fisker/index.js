@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    // import, must before airbnb
+    // import
     './configs/import/import.js',
 
     // promise
