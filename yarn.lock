@@ -171,6 +171,11 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-unicorn "^8.0.2"
 
+"@fisker/prettier-config@^1.0.4":
+  version "1.0.4"
+  resolved "http://registry.npm.taobao.org/@fisker/prettier-config/download/@fisker/prettier-config-1.0.4.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2F%40fisker%2Fprettier-config%2Fdownload%2F%40fisker%2Fprettier-config-1.0.4.tgz#e1548f35702ed4f4df5a7635a15fcadb5e3ac257"
+  integrity sha1-4VSPNXAu1PTfWnY1oV/K2146wlc=
+
 "@lerna/add@3.13.3":
   version "3.13.3"
   resolved "http://registry.npm.taobao.org/@lerna/add/download/@lerna/add-3.13.3.tgz#f4c1674839780e458f0426d4f7b6d0a77b9a2ae9"
@@ -4810,11 +4815,6 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/prelude-ls/download/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
-
-prettier-config-fisker@^1.0.3:
-  version "1.0.3"
-  resolved "http://registry.npm.taobao.org/prettier-config-fisker/download/prettier-config-fisker-1.0.3.tgz#8115210d9d95b44d0dcf371dd70b64f5bf1e34fa"
-  integrity sha1-gRUhDZ2VtE0Nzzcd1wtk9b8eNPo=
 
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
