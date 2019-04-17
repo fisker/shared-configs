@@ -1,9 +1,9 @@
 import {join} from 'path'
-import getResult from './shared/compare-result'
-import printer from './shared/markdown-printer'
-import writeFile from './shared/write-file'
-import has from './shared/has'
-import isEqualRuleValue from './shared/is-equal-rule-value'
+import getResult from '../../../shared/compare-result'
+import printer from '../../../shared/markdown-printer'
+import writeFile from '../../../shared/write-file'
+import has from '../../../shared/has'
+import isEqualRuleValue from '../../../shared/is-equal-rule-value'
 
 const configs = {
   // fisker

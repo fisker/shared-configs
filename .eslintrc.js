@@ -16,7 +16,7 @@ module.exports = {
   plugins: [],
   overrides: [
     {
-      files: 'packages/*/scripts/**',
+      files: ['packages/*/scripts/**', 'shared/**'],
       rules: {
         'import/no-extraneous-dependencies': 'off',
       },
