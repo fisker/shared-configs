@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "main": "index.js",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.1",
+    "@fisker/eslint-config": "^1.0.3",
     "eslint-config-prettier": "^4.1.0"
   },
   "publishConfig": {
