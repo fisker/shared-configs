@@ -16,7 +16,7 @@
     "configs"
   ],
   "scripts": {
-    "release": "run-s lint build prettier test dist",
+    "release": "run-s build prettier lint test dist",
     "build": "run-p build:*",
     "build:compare": "node -r esm scripts/compare.js",
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
