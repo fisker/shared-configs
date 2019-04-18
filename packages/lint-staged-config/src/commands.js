@@ -1,0 +1,5 @@
+export const PRETTIER = 'prettier --write'
+export const ESLINT = 'eslint --fix'
+export const STYLELINT = 'stylelint --fix'
+export const MARKDOWNLINT = 'markdownlint'
+export const GIT_ADD = 'git add'

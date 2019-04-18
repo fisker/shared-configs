@@ -59,7 +59,7 @@ module.exports = require('@fisker/prettier-config').customize({
 | :----- | :------ | :------------------- |
 | parser | graphql | Which parser to use. |
 
-### \*.{html,htm}
+### \*.{htm,html}
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |
@@ -92,7 +92,7 @@ module.exports = require('@fisker/prettier-config').customize({
 | parser      | less  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.{md,markdown}
+### \*.{markdown,md}
 
 | Option | value    | Description          |
 | :----- | :------- | :------------------- |

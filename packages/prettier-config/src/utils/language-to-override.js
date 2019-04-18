@@ -4,8 +4,7 @@ import isGlobal from './is-global'
 import isUndefined from './is-undefined'
 
 function toOverride(config) {
-  const {language} = config
-  const files = extensionsToGlob(config.extensions || language)
+  const files = extensionsToGlob(config.extensions)
 
   const options = SUPPORTED_OPTIONS.reduce((options, key) => {
     const value = config[key]
