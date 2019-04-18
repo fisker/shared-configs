@@ -171,6 +171,11 @@
     eslint-plugin-promise "^4.1.1"
     eslint-plugin-unicorn "^8.0.2"
 
+"@fisker/lint-staged-config@^1.0.0":
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/@fisker/lint-staged-config/download/@fisker/lint-staged-config-1.0.0.tgz#e114f199aed16270d28b26eb15ac7435f6784448"
+  integrity sha1-4RTxma7RYnDSiybrFax0NfZ4REg=
+
 "@fisker/prettier-config@^1.0.4":
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/@fisker/prettier-config/download/@fisker/prettier-config-1.0.4.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2F%40fisker%2Fprettier-config%2Fdownload%2F%40fisker%2Fprettier-config-1.0.4.tgz#e1548f35702ed4f4df5a7635a15fcadb5e3ac257"
