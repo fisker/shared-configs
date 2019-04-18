@@ -43,7 +43,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@fisker/prettier-config": "^1.0.4",
+    "@fisker/prettier-config": "^1.0.5",
     "eslint-plugin-vue": "^5.2.2"
   }
 }
