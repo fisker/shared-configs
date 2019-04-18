@@ -156,6 +156,13 @@
   dependencies:
     find-up "^2.1.0"
 
+"@fisker/commitlint-config@^1.0.0":
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/@fisker/commitlint-config/download/@fisker/commitlint-config-1.0.0.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2F%40fisker%2Fcommitlint-config%2Fdownload%2F%40fisker%2Fcommitlint-config-1.0.0.tgz#33ad98cabb80f045ccec01b4537e6a7ebe49351c"
+  integrity sha1-M62YyruA8EXM7AG0U35qfr5JNRw=
+  dependencies:
+    "@commitlint/config-conventional" "^7.5.0"
+
 "@fisker/eslint-config@^1.0.4":
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/@fisker/eslint-config/download/@fisker/eslint-config-1.0.4.tgz#aad11dc759babf53afeeb1bf06ddb904c544d50d"

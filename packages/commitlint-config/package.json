@@ -2,7 +2,7 @@
   "name": "@fisker/commitlint-config",
   "description": "fisker's Shareable commitlint Configuration",
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "index.js",
   "repository": "fisker/shared-configs",
   "author": {
     "name": "fisker Cheung",
