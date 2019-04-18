@@ -1,7 +1,7 @@
 {
   "name": "@fisker/lint-staged-config",
   "description": "fisker's Shareable lint-staged Configuration",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "repository": "fisker/shared-configs",
   "author": {
