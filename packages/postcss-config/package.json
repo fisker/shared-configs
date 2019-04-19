@@ -1,6 +1,6 @@
 {
   "name": "@fisker/postcss-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fisker's Shareable postcss Configuration",
   "repository": "fisker/shared-configs",
   "author": {
