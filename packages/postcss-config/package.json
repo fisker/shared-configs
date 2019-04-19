@@ -1,0 +1,30 @@
+{
+  "name": "@fisker/postcss-config",
+  "version": "0.0.0",
+  "description": "fisker's Shareable postcss Configuration",
+  "repository": "fisker/shared-configs",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"no test yet\""
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "dependencies": {
+    "postcss-preset-env": "^6.6.0"
+  }
+}

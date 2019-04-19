@@ -20,6 +20,7 @@
     "packages/eslint-config-legacy",
     "packages/eslint-config-vue",
     "packages/lint-staged-config",
+    "packages/postcss-config",
     "packages/prettier-config",
     "packages/renovate-config",
     "packages/stylelint-config"
