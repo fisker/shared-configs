@@ -11,8 +11,12 @@
   "files": [],
   "license": "MIT",
   "scripts": {
-    "build": "run-p build:*",
-    "build:package": "node -r esm ./scripts/build.js",
+    "build-package": "node -r esm ./scripts/build.js",
+    "clean-package": "node -r esm ./scripts/clean.js",
+    "version": "yarn build-package && git add package.json",
+    "postversion": "yarn clean-package && git add package.json",
+    "pretest": "yarn build-package && git add package.json",
+    "posttest": "yarn clean-package && git add package.json",
     "test": "ava"
   },
   "publishConfig": {
@@ -24,64 +28,11 @@
   },
   "homepage": "https://github.com/fisker/shared-configs#readme",
   "devDependencies": {
-    "@fisker/eslint-config": "^1.0.4",
-    "@fisker/prettier-config": "^1.0.5",
-    "ava": "^1.4.1",
-    "esm": "^3.2.22",
-    "prettier": "^1.17.0",
     "read-pkg": "^5.0.0",
     "write-pkg": "^3.2.0"
   },
   "ava": {
     "require": "esm"
-  },
-  "renovate-config": {
-    "default": {
-      "description": "Default Configuration",
-      "extends": [
-        ":enableRenovate",
-        ":ignoreModulesAndTests",
-        ":preserveSemverRanges",
-        ":separateMajorReleases",
-        ":combinePatchMinorReleases",
-        ":renovatePrefix",
-        ":semanticPrefixChore",
-        ":disablePeerDependencies",
-        ":disableDigestUpdates",
-        ":semanticPrefixFixDepsChoreOthers",
-        ":rebaseStalePrs",
-        ":unpublishSafe",
-        ":prImmediately",
-        ":prHourlyLimitNone",
-        ":disableRateLimiting",
-        ":automergeRequireAllStatusChecks",
-        ":maintainLockFilesDisabled",
-        ":ignoreUnstable",
-        ":respectLatest",
-        ":updateNotScheduled",
-        ":npm",
-        ":automergeLinters",
-        ":doNotPinPackage",
-        ":semanticCommits",
-        ":timezone(Asia/Shanghai)",
-        ":automergePatch"
-      ],
-      "ignorePresets": [],
-      "devDependencies": {
-        "automerge": true
-      },
-      "vulnerabilityAlerts": {
-        "labels": [
-          "security"
-        ],
-        "assignees": [
-          "@fisker"
-        ]
-      },
-      "schedule": [
-        "after 5:30pm and before 5:30am"
-      ]
-    }
   },
   "dependencies": {
     "@fisker/eslint-config": "^1.0.4"
