@@ -1,13 +1,14 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import test from 'ava'
-// eslint-disable-next-line unicorn/import-index
-import config from './index'
 import package_ from './package.json'
+import * as presets from '.'
+import {PACKAGE_STORE_FIELD} from './constants'
 
 test('package.json', t => {
+  t.truthy(presets.default, 'should has default preset')
+
   t.deepEqual(
-    package_['renovate-config'],
-    config,
-    '`renovate-config` in `package.json` is invalid'
+    package_[PACKAGE_STORE_FIELD],
+    presets,
+    `\`${PACKAGE_STORE_FIELD}\` in \`package.json\` is invalid'`
   )
 })

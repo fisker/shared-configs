@@ -1,7 +1,7 @@
 {
   "name": "@fisker/renovate-config",
   "version": "1.0.1",
-  "description": "fisker's Renovate shareable configuration",
+  "description": "fisker's Shareable Renovate Configuration",
   "repository": "fisker/shared-configs",
   "author": {
     "name": "fisker Cheung",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "build": "run-p build:*",
-    "build:js": "node ./scripts/build.js",
+    "build:package": "node -r esm ./scripts/build.js",
     "test": "ava"
   },
   "publishConfig": {
@@ -23,9 +23,18 @@
     "url": "https://github.com/fisker/shared-configs/issues"
   },
   "homepage": "https://github.com/fisker/shared-configs#readme",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "esm": "^3.2.22",
+    "read-pkg": "^5.0.0",
+    "write-pkg": "^3.2.0"
+  },
+  "ava": {
+    "require": "esm"
+  },
   "renovate-config": {
     "default": {
-      "description": "Default base configuration",
+      "description": "Default Configuration",
       "extends": [
         ":enableRenovate",
         ":ignoreModulesAndTests",
@@ -43,7 +52,7 @@
         ":prHourlyLimitNone",
         ":disableRateLimiting",
         ":automergeRequireAllStatusChecks",
-        ":maintainLockFilesWeekly",
+        ":maintainLockFilesDisabled",
         ":ignoreUnstable",
         ":respectLatest",
         ":updateNotScheduled",
@@ -70,8 +79,5 @@
         "after 5:30pm and before 5:30am"
       ]
     }
-  },
-  "devDependencies": {
-    "ava": "^1.4.1"
   }
 }

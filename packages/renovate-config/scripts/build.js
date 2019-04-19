@@ -1,11 +1,20 @@
-const {writeFileSync} = require('fs')
-const {join} = require('path')
-const config = require('..')
+import {writeFileSync} from 'fs'
+import readPackage from 'read-pkg'
+import writePackage from 'write-pkg'
+import * as presets from '..'
+import {PACKAGE_STORE_FIELD, PACKAGE_JSON_DIR} from '../constants'
 
-const packageLocation = join(__dirname, '../package.json')
-const {stringify} = JSON
-const package_ = require(packageLocation)
+async function updatePackage(cwd, data) {
+  const package_ = await readPackage({
+    cwd,
+    normalize: false,
+  })
+  await writePackage(PACKAGE_JSON_DIR, {
+    ...package_,
+    ...data,
+  })
+}
 
-package_['renovate-config'] = config
-
-writeFileSync(packageLocation, stringify(package_, null, 2))
+updatePackage(PACKAGE_JSON_DIR, {
+  [PACKAGE_STORE_FIELD]: presets,
+})
