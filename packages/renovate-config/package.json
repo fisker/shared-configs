@@ -13,8 +13,8 @@
   "scripts": {
     "build-package": "node -r esm ./scripts/build.js",
     "clean-package": "node -r esm ./scripts/clean.js",
-    "version": "yarn build-package",
-    "postpublish": "yarn clean-package",
+    "prepack": "yarn build-package",
+    "postpack": "yarn clean-package",
     "pretest": "yarn build-package",
     "posttest": "yarn clean-package",
     "test": "ava"
