@@ -1,7 +1,7 @@
 {
   "name": "@fisker/lint-staged-config",
   "description": "fisker's Shareable lint-staged Configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": "fisker/shared-configs",
   "author": {
@@ -14,7 +14,6 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "prettier": "*"
   },
@@ -33,6 +32,6 @@
     "lib"
   ],
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.4"
+    "@fisker/eslint-config": "^1.0.5"
   }
 }

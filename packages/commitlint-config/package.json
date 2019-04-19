@@ -1,7 +1,7 @@
 {
   "name": "@fisker/commitlint-config",
   "description": "fisker's Shareable commitlint Configuration",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "fisker/shared-configs",
   "author": {
@@ -14,7 +14,6 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "prettier": "*"
   },
@@ -32,6 +31,6 @@
   ],
   "dependencies": {
     "@commitlint/config-conventional": "^7.5.0",
-    "@fisker/eslint-config": "^1.0.4"
+    "@fisker/eslint-config": "^1.0.5"
   }
 }

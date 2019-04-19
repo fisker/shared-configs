@@ -1,7 +1,7 @@
 {
   "name": "@fisker/prettier-config",
   "description": "fisker's Shareable prettier Configuration",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "repository": "fisker/shared-configs",
   "author": {
@@ -14,7 +14,6 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "prettier": "*"
   },
@@ -34,6 +33,6 @@
     "lib"
   ],
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.4"
+    "@fisker/eslint-config": "^1.0.5"
   }
 }

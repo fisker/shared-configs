@@ -1,6 +1,6 @@
 {
   "name": "@fisker/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fisker's Shareable stylelint Configuration",
   "main": "index.js",
   "keywords": [
@@ -18,7 +18,6 @@
     "access": "public"
   },
   "repository": "fisker/shared-configs",
-  "devDependencies": {},
   "peerDependencies": {
     "prettier": "*",
     "stylelint": "*"
@@ -33,7 +32,7 @@
     "url": "https://www.fiskercheung.com/"
   },
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.4",
+    "@fisker/eslint-config": "^1.0.5",
     "stylelint-config-prettier": "^5.0.0",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.3.0",

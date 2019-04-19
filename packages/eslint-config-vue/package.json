@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "main": "index.js",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.4",
+    "@fisker/eslint-config": "^1.0.5",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-vue": "^5.2.2"
   },
@@ -32,7 +32,6 @@
     "access": "public"
   },
   "repository": "fisker/shared-configs",
-  "devDependencies": {},
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"

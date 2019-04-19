@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "fisker's Shareable ESLint Configuration",
   "main": "index.js",
   "keywords": [
@@ -38,7 +38,6 @@
     "access": "public"
   },
   "repository": "fisker/shared-configs",
-  "devDependencies": {},
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
