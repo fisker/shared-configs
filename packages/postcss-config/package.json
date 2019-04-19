@@ -11,6 +11,7 @@
   "files": [
     "lib"
   ],
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
     "build": "rollup --config",
