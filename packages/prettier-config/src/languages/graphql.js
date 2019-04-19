@@ -1,3 +1,1 @@
-export default {
-  extensions: 'gql,graphql',
-}
+export default {}

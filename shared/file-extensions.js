@@ -1,0 +1,17 @@
+import toArray from './to-array'
+
+const languageExtensions = {
+  graphql: 'gql,graphql',
+  html: 'html,htm',
+  javascript: 'js,jsx,mjs',
+  // more markdown extensions: mdown, mdwn, mkd, mkdn, mkdown
+  markdown: 'md,markdown',
+  typescript: 'ts,tsx',
+  yaml: 'yaml,yml',
+}
+
+function getExtensions(language) {
+  return toArray(languageExtensions[language] || language)
+}
+
+export default getExtensions

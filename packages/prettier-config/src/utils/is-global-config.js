@@ -1,9 +1,9 @@
 import global from '../global'
 
-function isGlobal(key, value) {
+function isGlobalConfig(key, value) {
   const globalValue = global[key]
 
   return globalValue === value
 }
 
-export default isGlobal
+export default isGlobalConfig

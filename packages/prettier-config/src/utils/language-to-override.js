@@ -1,14 +1,14 @@
+import isUndefined from '../../../../shared/is-undefined'
 import SUPPORTED_OPTIONS from './supported-options'
 import extensionsToGlob from './extensions-to-glob'
-import isGlobal from './is-global'
-import isUndefined from './is-undefined'
+import isGlobalConfig from './is-global-config'
 
-function toOverride(config) {
-  const files = extensionsToGlob(config.extensions)
+function toOverride({extensions, config}) {
+  const files = extensionsToGlob(extensions)
 
   const options = SUPPORTED_OPTIONS.reduce((options, key) => {
     const value = config[key]
-    if (!isUndefined(value) && !isGlobal(key, value)) {
+    if (!isUndefined(value) && !isGlobalConfig(key, value)) {
       options[key] = value
     }
 

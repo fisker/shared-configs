@@ -1,7 +1,7 @@
 import {writeFileSync, readFileSync} from 'fs'
 import {join} from 'path'
 import prettier from 'prettier'
-import isUndefined from '../src/utils/is-undefined'
+import isUndefined from '../../../shared/is-undefined'
 import options from '../src/default-config'
 
 const prettierOptions = prettier.getSupportInfo().options
