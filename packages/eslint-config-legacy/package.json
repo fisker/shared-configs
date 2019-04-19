@@ -33,8 +33,11 @@
   },
   "repository": "fisker/shared-configs",
   "devDependencies": {
+    "@fisker/eslint-config": "^1.0.4",
+    "@fisker/prettier-config": "^1.0.5",
     "eslint": "^5.16.0",
-    "esm": "^3.2.22"
+    "esm": "^3.2.22",
+    "prettier": "^1.17.0"
   },
   "peerDependencies": {
     "eslint": "*",

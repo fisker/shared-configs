@@ -20,26 +20,26 @@ module.exports = {
 
 ### eslint-config-airbnb-base
 
-- [compare `@fisker` with `airbnb-base`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-airbnb.md)
-- [compare `@fisker` with `airbnb-base` + `prettier`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-airbnb-prettier.md)
+- [compare `@fisker` with `airbnb-base`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-airbnb.md)
+- [compare `@fisker` with `airbnb-base` + `prettier`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-airbnb-prettier.md)
 
 ### eslint-plugin-eslint-comments
 
-- [compare `@fisker` with `eslint-comments/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-eslint-comments.md)
+- [compare `@fisker` with `eslint-comments/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-eslint-comments.md)
 
 ### eslint-plugin-import
 
-- [compare `@fisker` with `import/error` + `import/warning`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-import.md)
+- [compare `@fisker` with `import/error` + `import/warning`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-import.md)
 
 ### eslint-plugin-promise
 
-- [compare `@fisker` with `promise/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-promise.md)
+- [compare `@fisker` with `promise/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-promise.md)
 
 ### eslint-plugin-unicorn
 
-- [compare `@fisker` with `unicorn/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-unicorn.md)
+- [compare `@fisker` with `unicorn/recommended`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-unicorn.md)
 
-- [compare `@fisker` with `unicorn/recommended` + `prettier/unicorn`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-fisker-unicorn-prettier.md)
+- [compare `@fisker` with `unicorn/recommended` + `prettier/unicorn`](.https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-unicorn-prettier.md)
 
 ## Todos
 

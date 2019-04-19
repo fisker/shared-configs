@@ -1,18 +1,18 @@
-# @fisker/eslint-config-legacy
+# @fisker/eslint-config-vue
 
-> fisker's Shareable ESLint Configuration for legacy project
+> fisker's Shareable ESLint Configuration for vue project
 
 ## Install
 
 ```sh
-yarn add --dev eslint prettier @fisker/eslint-config-legacy
+yarn add --dev eslint prettier @fisker/eslint-config-vue
 ```
 
 ## .eslintrc.js
 
 ```js
 module.exports = {
-  extends: ['@fisker/legacy'],
+  extends: ['@fisker/vue'],
 }
 ```
 
@@ -20,11 +20,11 @@ module.exports = {
 
 ### @fisker/eslint-config
 
-- [compare `@fisker/legacy` with `@fisker`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config-legacy/docs/compare-legacy-fisker.md)
+- [compare `@fisker/vue` with `vue/recommended`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config-legacy/docs/compare-with-vue.md)
 
-### eslint-config-airbnb-base
+### eslint-config-prettier
 
-- [compare `@fisker/legacy` with `airbnb-base/legacy`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config-legacy/docs/compare-legacy-airbnb.md)
+- [compare `@fisker/vue` with `vue/recommended` + `prettier/vue`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config-legacy/docs/compare-with-vue-prettier.md)
 
 ## Links
 
@@ -32,7 +32,7 @@ module.exports = {
 - [Prettier](https://prettier.io/)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [@fisker/eslint-config](https://github.com/fisker/shared-configs)
-- [eslint-plugin-es](https://github.com/mysticatea/eslint-plugin-es)
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 
 ## License
 

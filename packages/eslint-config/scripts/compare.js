@@ -1,9 +1,5 @@
 import {join} from 'path'
-import getResult from '../../../shared/compare-result'
-import printer from '../../../shared/markdown-printer'
-import writeFile from '../../../shared/write-file'
-import has from '../../../shared/has'
-import isEqualRuleValue from '../../../shared/is-equal-rule-value'
+import printCompareResult from '../../../shared/eslint/print-compare'
 
 const configs = {
   // fisker
@@ -56,7 +52,7 @@ const compares = [
     filter({prefix}) {
       return !prefix || prefix === 'import'
     },
-    file: 'compare-fisker-airbnb',
+    file: 'compare-with-airbnb',
     local: 'fisker',
     foreign: 'airbnb',
   },
@@ -64,7 +60,7 @@ const compares = [
     filter({prefix}) {
       return !prefix || prefix === 'import'
     },
-    file: 'compare-fisker-airbnb-prettier',
+    file: 'compare-with-airbnb-prettier',
     local: 'fisker',
     foreign: 'airbnb + prettier',
   },
@@ -73,7 +69,7 @@ const compares = [
     filter({prefix}) {
       return prefix === 'eslint-comments'
     },
-    file: 'compare-fisker-eslint-comments',
+    file: 'compare-with-eslint-comments',
     local: 'fisker',
     foreign: 'eslint-comments/recommended',
   },
@@ -81,7 +77,7 @@ const compares = [
     filter({prefix}) {
       return prefix === 'promise'
     },
-    file: 'compare-fisker-promise',
+    file: 'compare-with-promise',
     local: 'fisker',
     foreign: 'promise/recommended',
   },
@@ -89,7 +85,7 @@ const compares = [
     filter({prefix}) {
       return prefix === 'unicorn'
     },
-    file: 'compare-fisker-unicorn',
+    file: 'compare-with-unicorn',
     local: 'fisker',
     foreign: 'unicorn/recommended',
   },
@@ -97,7 +93,7 @@ const compares = [
     filter({prefix}) {
       return prefix === 'unicorn'
     },
-    file: 'compare-fisker-unicorn-prettier',
+    file: 'compare-with-unicorn-prettier',
     local: 'fisker',
     foreign: 'unicorn/recommended + prettier/unicorn',
   },
@@ -105,49 +101,10 @@ const compares = [
     filter({prefix}) {
       return prefix === 'import'
     },
-    file: 'compare-fisker-import',
+    file: 'compare-with-import',
     local: 'fisker',
     foreign: 'import/error + import/warning',
   },
 ]
 
-function getDiffOnlyFilter(filter) {
-  return (...arguments_) => {
-    return !isEqualRuleValue(...arguments_) && filter(...arguments_)
-  }
-}
-
-for (const {filter, file, local: localName, foreign: foreignName} of compares) {
-  console.log(`building: ${localName} with ${foreignName}`)
-
-  const local = {
-    name: localName,
-    config: configs[localName],
-  }
-  const foreign = {
-    name: foreignName,
-    config: configs[foreignName],
-  }
-
-  const resultAll = getResult({filter, local, foreign})
-  const resultDiff = getResult({
-    filter: getDiffOnlyFilter(filter),
-    local,
-    foreign,
-  })
-
-  const content = [
-    '<!-- AUTO GENERATED FILE, DO NOT EDIT -->',
-    `# compare`,
-    `> compare ${local.name} with ${foreign.name}`,
-    `## difference only`,
-    printer(resultDiff),
-    `## all rules`,
-    printer(resultAll),
-  ].join('\n\n')
-
-  const destination = join(__dirname, `../docs/${file}.md`)
-
-  writeFile(destination, content)
-  console.log(`saved: ${destination}`)
-}
+printCompareResult(join(__dirname, `../docs`), compares, configs)

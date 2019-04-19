@@ -24,8 +24,11 @@
   },
   "homepage": "https://github.com/fisker/shared-configs#readme",
   "devDependencies": {
+    "@fisker/eslint-config": "^1.0.4",
+    "@fisker/prettier-config": "^1.0.5",
     "ava": "^1.4.1",
     "esm": "^3.2.22",
+    "prettier": "^1.17.0",
     "read-pkg": "^5.0.0",
     "write-pkg": "^3.2.0"
   },
@@ -79,5 +82,8 @@
         "after 5:30pm and before 5:30am"
       ]
     }
+  },
+  "dependencies": {
+    "@fisker/eslint-config": "^1.0.4"
   }
 }

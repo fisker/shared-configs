@@ -1,3 +1,4 @@
+// eslint-disable-next-line node/no-extraneous-require
 const mem = require('mem')
 
 const numericType = ['off', 'warn', 'error']
