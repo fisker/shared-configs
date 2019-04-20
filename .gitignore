@@ -88,4 +88,5 @@ typings/
 
 .vscode/
 packages/*/lib/
+packages/*/.nyc_output/
 /yarn.lock
