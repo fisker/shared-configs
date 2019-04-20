@@ -2,21 +2,24 @@
   "name": "@fisker/prettier-config",
   "description": "fisker's Shareable prettier Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.6",
-  "keywords": [
-    "fisker",
-    "prettier"
-  ],
+  "version": "1.0.7",
   "main": "lib/index.js",
   "author": {
     "email": "lionkay@gmail.com",
     "name": "fisker Cheung",
     "url": "https://www.fiskercheung.com/"
   },
-  "repository": "fisker/shared-configs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
+  "keywords": [
+    "fisker",
+    "prettier"
+  ],
   "dependencies": {
     "@fisker/eslint-config": "^1.0.5"
   },
