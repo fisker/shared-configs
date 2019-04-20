@@ -1,38 +1,45 @@
 {
   "name": "@fisker/renovate-config",
-  "version": "1.0.5",
   "description": "fisker's Shareable Renovate Configuration",
-  "repository": "fisker/shared-configs",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "version": "1.0.5",
   "author": {
-    "name": "fisker Cheung",
     "email": "lionkay@gmail.com",
+    "name": "fisker Cheung",
     "url": "https://www.fiskercheung.com/"
   },
-  "files": [],
-  "license": "MIT",
-  "scripts": {
-    "build": "yarn clean-package",
-    "build-package": "node -r esm ./scripts/build.js",
-    "clean-package": "node -r esm ./scripts/clean.js",
-    "prepack": "yarn build-package",
-    "postpack": "yarn clean-package",
-    "pretest": "yarn build-package",
-    "posttest": "yarn clean-package",
-    "test": "ava"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
   },
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "keywords": [
+    "fisker",
+    "renovate"
+  ],
   "devDependencies": {
     "read-pkg": "^5.0.0",
     "write-pkg": "^3.2.0"
   },
+  "files": [],
+  "scripts": {
+    "build": "yarn clean-package",
+    "build-package": "node -r esm ./scripts/build.js",
+    "clean-package": "node -r esm ./scripts/clean.js",
+    "postpack": "yarn clean-package",
+    "posttest": "yarn clean-package",
+    "prepack": "yarn build-package",
+    "pretest": "yarn build-package",
+    "test": "ava"
+  },
+  "license": "MIT",
   "ava": {
     "require": "esm"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

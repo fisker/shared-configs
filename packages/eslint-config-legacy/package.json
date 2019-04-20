@@ -1,48 +1,51 @@
 {
   "name": "@fisker/eslint-config-legacy",
-  "version": "1.0.4",
   "description": "fisker's Shareable ESLint Configuration for legacy project",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "version": "1.0.4",
   "main": "index.js",
+  "author": {
+    "email": "lionkay@gmail.com",
+    "name": "fisker Cheung",
+    "url": "https://www.fiskercheung.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
   "keywords": [
-    "fisker",
-    "eslint",
     "config",
+    "eslint",
+    "fisker",
     "legacy"
   ],
-  "files": [
-    "plugins",
-    "index.js"
-  ],
-  "scripts": {
-    "clean": "rimraf docs",
-    "build": "run-p build:*",
-    "build:compare": "node -r esm scripts/compare.js",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
-    "test": "run-p test:*",
-    "test:js": "echo \"no test yet\""
-  },
-  "license": "MIT",
   "dependencies": {
     "@fisker/eslint-config": "^1.0.5",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-es": "^1.4.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+  "files": [
+    "index.js",
+    "plugins"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:compare": "node -r esm scripts/compare.js",
+    "clean": "rimraf docs",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "test": "run-p test:*",
+    "test:js": "echo \"no test yet\""
   },
-  "repository": "fisker/shared-configs",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
   },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "homepage": "https://github.com/fisker/shared-configs#readme",
-  "author": {
-    "name": "fisker Cheung",
-    "email": "lionkay@gmail.com",
-    "url": "https://www.fiskercheung.com/"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

@@ -1,27 +1,26 @@
 {
   "name": "@fisker/eslint-config",
-  "version": "1.0.5",
   "description": "fisker's Shareable ESLint Configuration",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "version": "1.0.5",
   "main": "index.js",
-  "keywords": [
-    "fisker",
-    "eslint",
-    "config"
-  ],
-  "files": [
-    "plugins",
-    "rules",
-    "index.js"
-  ],
-  "scripts": {
-    "clean": "rimraf docs",
-    "build": "run-p build:*",
-    "build:compare": "node -r esm scripts/compare.js",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
-    "test": "run-p test:*",
-    "test:js": "eslint **/*.js --config ./index.js"
+  "author": {
+    "email": "lionkay@gmail.com",
+    "name": "fisker Cheung",
+    "url": "https://www.fiskercheung.com/"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "fisker"
+  ],
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -33,22 +32,26 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-unicorn": "^8.0.2"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+  "files": [
+    "index.js",
+    "plugins",
+    "rules"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:compare": "node -r esm scripts/compare.js",
+    "clean": "rimraf docs",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "test": "run-p test:*",
+    "test:js": "eslint **/*.js --config ./index.js"
   },
-  "repository": "fisker/shared-configs",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
   },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "homepage": "https://github.com/fisker/shared-configs#readme",
-  "author": {
-    "name": "fisker Cheung",
-    "email": "lionkay@gmail.com",
-    "url": "https://www.fiskercheung.com/"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

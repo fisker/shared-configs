@@ -1,37 +1,44 @@
 {
   "name": "@fisker/lint-staged-config",
   "description": "fisker's Shareable lint-staged Configuration",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
   "version": "1.0.1",
   "main": "lib/index.js",
-  "repository": "fisker/shared-configs",
   "author": {
-    "name": "fisker Cheung",
     "email": "lionkay@gmail.com",
+    "name": "fisker Cheung",
     "url": "https://www.fiskercheung.com/"
   },
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
   },
-  "peerDependencies": {
-    "prettier": "*"
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "ava": {
-    "require": "esm"
-  },
-  "scripts": {
-    "dev": "rollup --config --watch",
-    "build": "run-p build:*",
-    "build:js": "rollup --config",
-    "test": "run-p test:*",
-    "test:js": "echo \"no test yet\"",
-    "clean": "rimraf lib"
+  "dependencies": {
+    "@fisker/eslint-config": "^1.0.5"
   },
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "@fisker/eslint-config": "^1.0.5"
+  "scripts": {
+    "build": "run-p build:*",
+    "build:js": "rollup --config",
+    "clean": "rimraf lib",
+    "dev": "rollup --config --watch",
+    "test": "run-p test:*",
+    "test:js": "echo \"no test yet\""
+  },
+  "license": "MIT",
+  "ava": {
+    "require": "esm"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
