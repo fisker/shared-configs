@@ -13,10 +13,7 @@
     "name": "fisker Cheung",
     "url": "https://www.fiskercheung.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fisker/shared-configs.git"
-  },
+  "repository": "fisker/shared-configs",
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
