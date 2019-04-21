@@ -28,11 +28,11 @@
     "build": "yarn clean-package",
     "build-package": "node -r esm ./scripts/build.js",
     "clean-package": "node -r esm ./scripts/clean.js",
-    "postpack": "yarn clean-package",
+    "postpublish": "yarn clean-package",
     "posttest": "yarn clean-package",
-    "prepack": "yarn build-package",
     "pretest": "yarn build-package",
-    "test": "ava"
+    "test": "ava",
+    "version": "yarn build-package"
   },
   "license": "MIT",
   "ava": {
