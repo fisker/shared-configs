@@ -27,7 +27,7 @@
   "scripts": {
     "build": "run-p build:*",
     "build:js": "rollup --config",
-    "build:rules": "node -r esm ./scripts/generate-options.js && prettier readme.md --write",
+    "build:rules": "node -r esm ./scripts/generate-options.js",
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
     "test": "run-p test:*",
