@@ -2,7 +2,7 @@
   "name": "@fisker/commitlint-config",
   "description": "fisker's Shareable commitlint Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": {
     "email": "lionkay@gmail.com",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@commitlint/config-conventional": "^7.5.0",
-    "@fisker/eslint-config": "^1.0.5"
+    "@fisker/eslint-config": "^1.0.6"
   },
   "files": [
     "lib"

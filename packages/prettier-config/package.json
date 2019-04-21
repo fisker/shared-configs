@@ -2,7 +2,7 @@
   "name": "@fisker/prettier-config",
   "description": "fisker's Shareable prettier Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "lib/index.js",
   "author": {
     "email": "lionkay@gmail.com",
@@ -21,7 +21,7 @@
     "prettier"
   ],
   "dependencies": {
-    "@fisker/eslint-config": "^1.0.5"
+    "@fisker/eslint-config": "^1.0.6"
   },
   "files": [
     "lib"
