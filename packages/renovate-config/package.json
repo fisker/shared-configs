@@ -2,7 +2,7 @@
   "name": "@fisker/renovate-config",
   "description": "fisker's Shareable Renovate Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": {
     "email": "lionkay@gmail.com",
     "name": "fisker Cheung",
