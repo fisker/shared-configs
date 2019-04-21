@@ -2,7 +2,7 @@
   "name": "@fisker/lint-staged-config",
   "description": "fisker's Shareable lint-staged Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "author": {
     "email": "lionkay@gmail.com",
@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "dependencies": {},
   "files": [
     "lib"
   ],
