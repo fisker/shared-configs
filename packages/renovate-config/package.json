@@ -30,9 +30,9 @@
     "clean-package": "node -r esm ./scripts/clean.js",
     "postpublish": "yarn clean-package",
     "posttest": "yarn clean-package",
+    "prepublish": "yarn build-package",
     "pretest": "yarn build-package",
-    "test": "ava",
-    "version": "yarn build-package"
+    "test": "ava"
   },
   "license": "MIT",
   "ava": {
