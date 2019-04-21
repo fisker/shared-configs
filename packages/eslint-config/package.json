@@ -1,14 +1,9 @@
 {
   "name": "@fisker/eslint-config",
   "description": "fisker's Shareable ESLint Configuration",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.6",
-  "main": "index.js",
-  "author": {
-    "email": "lionkay@gmail.com",
-    "name": "fisker Cheung",
-    "url": "https://www.fiskercheung.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
@@ -16,11 +11,20 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "keywords": [
-    "config",
-    "eslint",
-    "fisker"
+  "version": "1.0.6",
+  "main": "index.js",
+  "files": [
+    "plugins",
+    "rules"
   ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:compare": "node -r esm scripts/compare.js",
+    "clean": "rimraf docs",
+    "test": "run-p test:*",
+    "test:js": "eslint **/*.js --config ./index.js",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
+  },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -32,24 +36,15 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-unicorn": "^8.0.2"
   },
-  "files": [
-    "index.js",
-    "plugins",
-    "rules"
-  ],
-  "scripts": {
-    "build": "run-p build:*",
-    "build:compare": "node -r esm scripts/compare.js",
-    "clean": "rimraf docs",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
-    "test": "run-p test:*",
-    "test:js": "eslint **/*.js --config ./index.js"
-  },
-  "license": "MIT",
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
   },
+  "keywords": [
+    "config",
+    "eslint",
+    "fisker"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

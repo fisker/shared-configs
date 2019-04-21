@@ -8,5 +8,5 @@
 
 module.exports = {
   ...require('@fisker/lint-staged-config'),
-  '**/package.json': ['finepack', 'prettier --write', 'git add'],
+  '**/package.json': ['prettier-package-json --write', 'git add'],
 }

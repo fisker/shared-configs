@@ -1,14 +1,9 @@
 {
   "name": "@fisker/commitlint-config",
   "description": "fisker's Shareable commitlint Configuration",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.4",
-  "main": "index.js",
-  "author": {
-    "email": "lionkay@gmail.com",
-    "name": "fisker Cheung",
-    "url": "https://www.fiskercheung.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
@@ -16,9 +11,8 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "dependencies": {
-    "@commitlint/config-conventional": "^7.5.0"
-  },
+  "version": "1.0.4",
+  "main": "index.js",
   "files": [
     "lib"
   ],
@@ -28,9 +22,8 @@
     "test": "run-p test:*",
     "test:js": "echo \"no test yet\""
   },
-  "license": "MIT",
-  "ava": {
-    "require": "esm"
+  "dependencies": {
+    "@commitlint/config-conventional": "^7.5.0"
   },
   "peerDependencies": {
     "prettier": "*"
@@ -38,5 +31,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "ava": {
+    "require": "esm"
   }
 }

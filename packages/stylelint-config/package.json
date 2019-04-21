@@ -1,14 +1,9 @@
 {
   "name": "@fisker/stylelint-config",
   "description": "fisker's Shareable stylelint Configuration",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.3",
-  "main": "index.js",
-  "author": {
-    "email": "lionkay@gmail.com",
-    "name": "fisker Cheung",
-    "url": "https://www.fiskercheung.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
@@ -16,26 +11,27 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "keywords": [
-    "config",
-    "fisker",
-    "stylelint"
+  "version": "1.0.3",
+  "main": "index.js",
+  "files": [
+    "index.js"
   ],
+  "scripts": {},
   "dependencies": {
     "stylelint-config-prettier": "^5.0.0",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-scss": "^3.6.0"
   },
-  "files": [
-    "index.js"
-  ],
-  "scripts": {},
-  "license": "MIT",
   "peerDependencies": {
     "prettier": "*",
     "stylelint": "*"
   },
+  "keywords": [
+    "config",
+    "fisker",
+    "stylelint"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

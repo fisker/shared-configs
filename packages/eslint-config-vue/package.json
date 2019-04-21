@@ -1,14 +1,9 @@
 {
   "name": "@fisker/eslint-config-vue",
   "description": "fisker's Shareable ESLint Configuration for vue project",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "homepage": "https://github.com/fisker/shared-configs#readme",
-  "version": "1.0.6",
-  "main": "index.js",
-  "author": {
-    "email": "lionkay@gmail.com",
-    "name": "fisker Cheung",
-    "url": "https://www.fiskercheung.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
@@ -16,34 +11,34 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "keywords": [
-    "config",
-    "eslint",
-    "fisker",
-    "vue"
-  ],
-  "dependencies": {
-    "@fisker/eslint-config": "^1.0.6",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-vue": "^5.2.2"
-  },
+  "version": "1.0.6",
+  "main": "index.js",
   "files": [
-    "index.js",
     "plugins"
   ],
   "scripts": {
     "build": "run-p build:*",
     "build:compare": "node -r esm scripts/compare.js",
     "clean": "rimraf docs",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
     "test": "run-p test:*",
-    "test:js": "echo \"no test yet\""
+    "test:js": "echo \"no test yet\"",
+    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
   },
-  "license": "MIT",
+  "dependencies": {
+    "@fisker/eslint-config": "^1.0.6",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-vue": "^5.2.2"
+  },
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
   },
+  "keywords": [
+    "config",
+    "eslint",
+    "fisker",
+    "vue"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
