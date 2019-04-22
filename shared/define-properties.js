@@ -1,4 +1,4 @@
-import defineProperty from 'define-property'
+import defineProperty from './define-property'
 
 function defineProperties(object, properties, options = {}) {
   const keys = Object.keys(properties)
