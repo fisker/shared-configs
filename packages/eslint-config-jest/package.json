@@ -1,0 +1,36 @@
+{
+  "name": "@fisker/eslint-config-jest",
+  "description": "fisker's Shareable ESLint Configuration for jest test",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint-plugin-jest": "^22.4.1"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "fisker",
+    "jest",
+    "test"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
