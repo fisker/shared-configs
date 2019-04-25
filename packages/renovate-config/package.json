@@ -24,7 +24,7 @@
     "posttest": "yarn clean-package"
   },
   "devDependencies": {
-    "read-pkg": "^5.0.0",
+    "read-pkg": "^5.1.0",
     "write-pkg": "^3.2.0"
   },
   "keywords": [
