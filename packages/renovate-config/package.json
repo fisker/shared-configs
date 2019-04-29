@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "read-pkg": "^5.1.0",
-    "write-pkg": "^3.2.0"
+    "write-pkg": "^4.0.0"
   },
   "keywords": [
     "fisker",
