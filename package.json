@@ -54,7 +54,7 @@
     "prettier": "^1.17.0",
     "prettier-package-json": "^2.1.0",
     "rimraf": "^2.6.3",
-    "rollup": "^1.10.1"
+    "rollup": "^1.11.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
