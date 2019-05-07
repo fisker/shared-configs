@@ -23,7 +23,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^7.5.0"
+    "@commitlint/config-conventional": "^7.6.0"
   },
   "peerDependencies": {
     "@commitlint/cli": "*"
