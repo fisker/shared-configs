@@ -37,10 +37,10 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
-    "@fisker/commitlint-config": "^1.0.2",
-    "@fisker/eslint-config": "^1.0.8",
-    "@fisker/lint-staged-config": "^1.0.1",
+    "@commitlint/cli": "^7.6.0",
+    "@fisker/commitlint-config": "^1.0.5",
+    "@fisker/eslint-config": "^1.0.9",
+    "@fisker/lint-staged-config": "^1.0.4",
     "@fisker/prettier-config": "^1.0.12",
     "ava": "^1.4.1",
     "cz-conventional-changelog-emoji": "^0.1.0",

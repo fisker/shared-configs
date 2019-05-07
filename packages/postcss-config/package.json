@@ -23,6 +23,9 @@
   "dependencies": {
     "postcss-preset-env": "^6.6.0"
   },
+  "peerDependencies": {
+    "postcss": "*"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
