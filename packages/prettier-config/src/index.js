@@ -1,4 +1,3 @@
-import defaultConfig from './default-config'
-import customize from './utils/customize'
+import extend from './utils/extend'
 
-export default customize(defaultConfig)
+export default extend()

@@ -17,7 +17,7 @@ module.exports = require('@fisker/prettier-config')
 ## Customize
 
 ```js
-module.exports = require('@fisker/prettier-config').customize({
+module.exports = require('@fisker/prettier-config').extend({
   trailingComma: 'none',
   overrides: [
     {

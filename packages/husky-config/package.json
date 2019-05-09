@@ -1,0 +1,41 @@
+{
+  "name": "@fisker/husky-config",
+  "description": "fisker's Shareable husky Configuration",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:js": "rollup --config",
+    "clean": "rimraf lib",
+    "dev": "rollup --config --watch",
+    "test": "run-p test:*",
+    "test:js": "ava"
+  },
+  "peerDependencies": {
+    "husky": "*"
+  },
+  "keywords": [
+    "fisker",
+    "husky"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "ava": {
+    "require": "esm"
+  }
+}

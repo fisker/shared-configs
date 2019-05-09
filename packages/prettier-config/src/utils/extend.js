@@ -1,7 +1,7 @@
 import defaultConfig from '../default-config'
 import defineProperties from '../../../../shared/define-properties'
 
-function customize(options = {}) {
+function extend(options = {}) {
   const {overrides = []} = options
 
   const config = {
@@ -12,11 +12,11 @@ function customize(options = {}) {
 
   return defineProperties(
     config,
-    {customize},
+    {extend},
     {
       enumerable: false,
     }
   )
 }
 
-export default customize
+export default extend
