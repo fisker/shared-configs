@@ -1,8 +1,8 @@
 import {join} from 'path'
-import writeFile from '../write-file'
 import getResult from './compare-result'
 import printer from './markdown-printer'
 import isEqualRuleValue from './is-equal-rule-value'
+import prettierFile from '../prettier-file'
 
 function getDiffOnlyFilter(filter) {
   return (...arguments_) => {
@@ -47,7 +47,11 @@ function printCompareResult(destination_, compares, configs) {
 
     const destination = join(destination_, `${file}.md`)
 
-    writeFile(destination, content)
+    prettierFile({
+      file: destination,
+      content,
+    })
+
     console.log(`saved: ${destination}`)
   }
 }

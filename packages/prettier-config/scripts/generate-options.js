@@ -1,7 +1,7 @@
-import {writeFileSync, readFileSync} from 'fs'
 import {join} from 'path'
 import prettier from 'prettier'
 import isUndefined from '../../../shared/is-undefined'
+import prettierFile from '../../../shared/prettier-file'
 import options from '../src/default-config'
 
 const prettierOptions = prettier.getSupportInfo().options
@@ -55,9 +55,13 @@ const content = [
 ].join('\n\n')
 
 const readmeFile = join(__dirname, `../readme.md`)
-const readme = readFileSync(readmeFile, 'utf8').replace(
-  new RegExp(`${OPTIONS_START_MARK}[\\s\\S]*?${OPTIONS_END_MARK}`, 'm'),
-  content
-)
 
-writeFileSync(readmeFile, readme)
+prettierFile({
+  file: readmeFile,
+  process(readme) {
+    return readme.replace(
+      new RegExp(`${OPTIONS_START_MARK}[\\s\\S]*?${OPTIONS_END_MARK}`, 'm'),
+      content
+    )
+  },
+})
