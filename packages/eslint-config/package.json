@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "build": "run-p build:*",
-    "build:compare": "node -r esm scripts/compare.js",
+    "build:docs": "node -r esm scripts/compare.js",
     "clean": "rimraf docs",
     "test": "run-p test:*",
     "test:js": "eslint **/*.js --config ./index.js",
