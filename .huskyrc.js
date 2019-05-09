@@ -6,5 +6,5 @@
  */
 
 module.exports = require('@fisker/husky-config').prepend({
-  'pre-commit': ['yarn build', 'git add *.md'],
+  'pre-commit': ['yarn build:js', 'yarn build:docs', 'git add *.md'],
 })

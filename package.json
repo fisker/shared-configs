@@ -22,6 +22,8 @@
   },
   "scripts": {
     "build": "lerna run build",
+    "build:docs": "lerna run build:docs",
+    "build:js": "lerna run build:js",
     "clean": "lerna run clean",
     "dist": "lerna publish",
     "lint": "run-p lint:*",
