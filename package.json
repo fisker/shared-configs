@@ -12,14 +12,6 @@
     "url": "https://github.com/fisker/shared-configs/issues"
   },
   "version": "0.0.0",
-  "workspaces": {
-    "nohoist": [
-      "**/@fisker/*"
-    ],
-    "packages": [
-      "packages/*"
-    ]
-  },
   "scripts": {
     "build": "lerna run build",
     "build:docs": "lerna run build:docs",
