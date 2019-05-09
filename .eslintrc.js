@@ -10,7 +10,7 @@
 module.exports = {
   root: true,
   parserOptions: {},
-  extends: ['@fisker'],
+  extends: ['@self'],
   settings: {},
   rules: {},
   plugins: [],

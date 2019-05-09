@@ -5,6 +5,6 @@
  * document: https://git.io/fhNph
  */
 
-module.exports = require('@fisker/husky-config').prepend({
-  'pre-commit': ['yarn build:js', 'yarn build:docs', 'git add *.md'],
+module.exports = require('@self/husky-config').prepend({
+  'pre-commit': ['yarn build', 'git add *.md'],
 })
