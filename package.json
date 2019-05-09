@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "lerna run build",
+    "build:docs": "lerna run build:docs",
     "clean": "lerna run clean",
     "dist": "lerna publish",
     "lint": "run-p lint:*",
