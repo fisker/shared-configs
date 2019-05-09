@@ -16,7 +16,13 @@ module.exports = {
   plugins: [],
   overrides: [
     {
-      files: ['packages/*/scripts/**', 'shared/**', 'packages/*/test.js'],
+      files: [
+        'packages/*/scripts/**',
+        'shared/**',
+        'packages/*/test.js',
+        'lint-staged.config.js',
+        '.huskyrc.js',
+      ],
       rules: {
         'import/no-extraneous-dependencies': 'off',
       },

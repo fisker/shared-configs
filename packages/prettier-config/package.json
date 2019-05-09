@@ -38,5 +38,6 @@
   },
   "ava": {
     "require": "esm"
-  }
+  },
+  "gitHead": "c2a65c40ff7a2f6bdddacab7152b0740abed7fc3"
 }
