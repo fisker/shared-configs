@@ -16,9 +16,7 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": [
-      "**"
-    ]
+    "nohoist": []
   },
   "scripts": {
     "build": "lerna run build",
