@@ -48,6 +48,7 @@
     "eslint": "^5.16.0",
     "esm": "^3.2.22",
     "husky": "^2.2.0",
+    "import-fresh": "^3.0.0",
     "lint-staged": "^8.1.6",
     "markdownlint-cli": "^0.15.0",
     "mem": "^4.3.0",

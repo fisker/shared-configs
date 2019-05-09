@@ -22,7 +22,7 @@
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
     "test": "run-p test:*",
-    "test:js": "ava"
+    "test:js": "ava --verbose"
   },
   "peerDependencies": {
     "husky": "*"

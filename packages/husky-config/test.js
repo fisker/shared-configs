@@ -4,61 +4,59 @@ import defaultHooks from './src/default-hooks'
 import toHooks from './src/to-hooks'
 
 const hooks = toHooks(defaultHooks)
+const testHook = Object.keys(hooks)[0]
+const testCommand = `echo "${new Date()}"`
 
 test('default', t => {
   t.deepEqual(config.hooks, hooks)
 })
 
-test('extends default position', t => {
-  const extended = config.extend({
-    'pre-commit': 'foo',
+test('prepend', t => {
+  const modified = config.prepend({
+    [testHook]: testCommand,
   })
 
-  t.is(extended.hooks['pre-commit'], `${hooks['pre-commit']} && foo`)
+  t.is(modified.hooks[testHook], `${testCommand} && ${hooks[testHook]}`)
 })
 
-test('extends before', t => {
-  const extended = config.extend(
-    {
-      'pre-commit': 'foo',
-    },
-    'before'
-  )
-
-  t.is(extended.hooks['pre-commit'], `foo && ${hooks['pre-commit']}`)
-})
-
-test('extends after', t => {
-  const extended = config.extend(
-    {
-      'pre-commit': 'foo',
-    },
-    'after'
-  )
-
-  t.is(extended.hooks['pre-commit'], `${hooks['pre-commit']} && foo`)
-})
-
-test('before', t => {
-  const extended = config.before({
-    'pre-commit': 'foo',
+test('append', t => {
+  const modified = config.append({
+    [testHook]: testCommand,
   })
 
-  t.is(extended.hooks['pre-commit'], `foo && ${hooks['pre-commit']}`)
-})
-
-test('after', t => {
-  const extended = config.after({
-    'pre-commit': 'foo',
-  })
-
-  t.is(extended.hooks['pre-commit'], `${hooks['pre-commit']} && foo`)
+  t.is(modified.hooks[testHook], `${hooks[testHook]} && ${testCommand}`)
 })
 
 test('overrides', t => {
-  const extended = config.overrides({
-    'pre-commit': 'foo',
+  const modified = config.overrides({
+    [testHook]: [testCommand],
   })
 
-  t.is(extended.hooks['pre-commit'], 'foo')
+  t.is(modified.hooks[testHook], testCommand)
+})
+
+test('overrides with falsely value', t => {
+  const modified = config.overrides({
+    [testHook]: null,
+  })
+
+  t.is(modified.hooks[testHook], undefined)
+})
+
+test('chained', t => {
+  const modified = config
+    .overrides({
+      [testHook]: null,
+    })
+    .prepend({
+      [testHook]: ['prepend', testCommand],
+    })
+    .append({
+      [testHook]: ['append', testCommand],
+    })
+
+  t.is(
+    modified.hooks[testHook],
+    ['prepend', testCommand, 'append', testCommand].join(' && ')
+  )
 })

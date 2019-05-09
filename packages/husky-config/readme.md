@@ -17,22 +17,13 @@ module.exports = require('@fisker/husky-config')
 ## Customize
 
 ```js
-// extend
-
-module.exports = require('@fisker/husky-config').extend(
-  {
-    'pre-commit': 'yarn test',
-  },
-  'after'
-)
-
-// after
-module.exports = require('@fisker/husky-config').after({
+// prepend
+module.exports = require('@fisker/husky-config').prepend({
   'pre-commit': 'yarn test',
 })
 
-// before
-module.exports = require('@fisker/husky-config').before({
+// append
+module.exports = require('@fisker/husky-config').append({
   'pre-commit': 'yarn test',
 })
 ```
@@ -42,19 +33,9 @@ module.exports = require('@fisker/husky-config').before({
 ```js
 // use overrides method
 module.exports = require('@fisker/husky-config').overrides({
-  'pre-commit': 'yarn test'
-})
-
-// OR use spread
-module.exports = {
-  hooks: {
-    ...require('@fisker/husky-config').hooks,
-    'pre-commit': 'yarn test'
-  },
+  'pre-commit': 'yarn test',
 })
 ```
-
-** `overrides` method commands can be array **
 
 ## License
 

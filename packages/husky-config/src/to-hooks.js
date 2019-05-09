@@ -1,14 +1,17 @@
+import toCommands from './to-commands'
+
 function tasks(array) {
   return array.join(' && ')
 }
 
-function toHooks(hooks) {
-  const keys = Object.keys(hooks)
+function toHooks(options = {}) {
+  options = toCommands(options)
+
+  const keys = Object.keys(options).sort()
   const parsed = {}
 
   for (const hook of keys) {
-    const commands = hooks[hook]
-    parsed[hook] = Array.isArray(commands) ? tasks(commands) : commands
+    parsed[hook] = tasks(options[hook])
   }
 
   return parsed

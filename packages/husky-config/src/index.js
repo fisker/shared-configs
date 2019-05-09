@@ -1,3 +1,4 @@
-import extend from './extend'
+import defaultHooks from './default-hooks'
+import getConfig from './configuration'
 
-export default extend()
+export default getConfig(defaultHooks)

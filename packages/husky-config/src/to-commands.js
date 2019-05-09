@@ -1,14 +1,20 @@
 function spit(commands) {
-  return commands.split('&&').map(command => command.trim())
+  return commands.split('&&')
 }
 
-function toCommands(hooks) {
-  const keys = Object.keys(hooks)
+function toCommands(options = {}) {
+  const keys = Object.keys(options)
   const parsed = {}
 
   for (const hook of keys) {
-    const commands = hooks[hook]
-    parsed[hook] = Array.isArray(commands) ? commands : spit(commands)
+    const hooks = options[hook] || []
+    const commands = (Array.isArray(hooks) ? hooks : spit(hooks))
+      .map(command => command.trim())
+      .filter(Boolean)
+
+    if (commands.length !== 0) {
+      parsed[hook] = commands
+    }
   }
 
   return parsed

@@ -1,14 +1,10 @@
-function defineProperty(
-  object,
-  key,
-  value,
-  {enumerable = true, writable = true, configurable = true} = {}
-) {
+const defaults = {enumerable: true, writable: true, configurable: true}
+
+function defineProperty(object, key, value, options = {}) {
   return Object.defineProperty(object, key, {
-    enumerable,
-    writable,
-    configurable,
+    ...defaults,
     value,
+    ...options,
   })
 }
 
