@@ -1,3 +1,4 @@
-import extend from './utils/extend'
+import defaults from './default-config'
+import getConfig from './configuration'
 
-export default extend()
+export default getConfig(defaults)

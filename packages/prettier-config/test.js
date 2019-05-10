@@ -44,3 +44,28 @@ test('options', t => {
 
   t.is(allOptions.every(validateOptions), true)
 })
+
+test('extend', t => {
+  const testValue = String(new Date())
+  const testProperty = 'trailingComma'
+  const originalValue = options.trailingComma
+  const testOverrides = {
+    files: '**',
+    options: {
+      [testProperty]: testValue,
+    },
+  }
+
+  const extended = options
+    .extend({
+      [testProperty]: testValue,
+    })
+    .extend({
+      overrides: [testOverrides],
+    })
+
+  t.is(options.trailingComma, originalValue)
+  t.is(extended.trailingComma, testValue)
+  t.is(extended.overrides.length, options.overrides.length + 1)
+  t.deepEqual(extended.overrides[extended.overrides.length - 1], testOverrides)
+})
