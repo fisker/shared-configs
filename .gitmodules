@@ -1,3 +1,3 @@
 [submodule ".dependabot"]
 	path = .dependabot
-	url = https://github.com/fisker/anything-config-fisker.git
+	url = https://github.com/fisker/.dependabot.git
