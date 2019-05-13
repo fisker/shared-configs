@@ -51,7 +51,7 @@
     "markdownlint-cli": "^0.16.0",
     "mem": "^4.3.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.17.0",
+    "prettier": "^1.17.1",
     "prettier-package-json": "^2.1.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.11.3"
