@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^7.6.1",
-    "@self/commitlint-config": "npm:@fisker/commitlint-config@^1.0.5",
+    "@self/commitlint-config": "npm:@fisker/commitlint-config@^1.0.8",
     "@self/eslint-config": "npm:@fisker/eslint-config@^1.0.13",
     "@self/husky-config": "npm:@fisker/husky-config@^1.0.1",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@^1.0.4",
