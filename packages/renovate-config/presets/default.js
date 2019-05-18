@@ -42,5 +42,5 @@ export default {
     labels: ['security'],
     assignees: ['@fisker'],
   },
-  schedule: ['after 5:30pm and before 5:30am'],
+  // schedule: ['after 5:30pm and before 5:30am'],
 }
