@@ -31,6 +31,7 @@ export default {
     ':semanticCommits',
     ':timezone(Asia/Shanghai)',
     ':automergeAll',
+    ':automergePr',
   ],
   ignorePresets: [],
   packageRules: [
