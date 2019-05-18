@@ -6,7 +6,7 @@ export default {
   extends: [
     ':enableRenovate',
     ':ignoreModulesAndTests',
-    ':preserveSemverRanges',
+    // ':preserveSemverRanges',
     ':separateMajorReleases',
     ':combinePatchMinorReleases',
     ':renovatePrefix',
