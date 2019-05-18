@@ -30,7 +30,7 @@ export default {
     ':doNotPinPackage',
     ':semanticCommits',
     ':timezone(Asia/Shanghai)',
-    ':automergePatch',
+    ':automergeAll',
   ],
   ignorePresets: [],
   packageRules: [
