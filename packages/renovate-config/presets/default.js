@@ -1,4 +1,5 @@
-// presets: https://github.com/renovatebot/presets
+// presets repo: https://github.com/renovatebot/presets
+// presets: https://renovatebot.com/docs/presets-config/
 // options: https://renovatebot.com/docs/configuration-options/
 
 export default {
@@ -38,6 +39,7 @@ export default {
       automerge: true,
     },
   ],
+  rangeStrategy: 'bump',
   vulnerabilityAlerts: {
     labels: ['security'],
     assignees: ['@fisker'],
