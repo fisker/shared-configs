@@ -32,9 +32,12 @@ export default {
     ':automergePatch',
   ],
   ignorePresets: [],
-  devDependencies: {
-    automerge: true,
-  },
+  packageRules: [
+    {
+      depTypeList: ['devDependencies'],
+      automerge: true,
+    },
+  ],
   vulnerabilityAlerts: {
     labels: ['security'],
     assignees: ['@fisker'],
