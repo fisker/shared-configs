@@ -15,7 +15,7 @@ export default {
     ':disablePeerDependencies',
     ':disableDigestUpdates',
     ':semanticPrefixFixDepsChoreOthers',
-    ':rebaseStalePrs',
+    // ':rebaseStalePrs',
     ':unpublishSafe',
     ':prImmediately',
     ':prHourlyLimitNone',
