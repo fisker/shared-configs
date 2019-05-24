@@ -2,7 +2,11 @@
   "name": "@fisker/commitlint-config",
   "description": "fisker's Shareable commitlint Configuration",
   "license": "MIT",
-  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  },
   "homepage": "https://github.com/fisker/shared-configs#readme",
   "repository": {
     "type": "git",

@@ -8,5 +8,4 @@
 
 module.exports = {
   ...require('@self/lint-staged-config'),
-  '**/package.json': ['prettier-package-json --write', 'git add'],
 }
