@@ -30,6 +30,8 @@ module.exports = {
       {
         checkDefaultAndNamespaceImports: true,
         checkProperties: false,
+        checkShorthandProperties: true,
+        checkShorthandImports: true,
       },
     ],
 
