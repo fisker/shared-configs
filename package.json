@@ -39,19 +39,19 @@
     "@self/husky-config": "npm:@fisker/husky-config@^1.1.0",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@^1.0.4",
     "@self/prettier-config": "npm:@fisker/prettier-config@^1.0.17",
-    "ava": "^2.0.0",
+    "ava": "^2.1.0",
     "cz-conventional-changelog-emoji": "^0.1.0",
     "eslint": "^5.16.0",
     "esm": "^3.2.25",
-    "husky": "^2.3.0",
-    "lint-staged": "^8.1.7",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0",
     "markdownlint-cli": "^0.16.0",
     "mem": "^5.0.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.17.1",
+    "prettier": "^1.18.2",
     "prettier-package-json": "^2.1.0",
     "rimraf": "^2.6.3",
-    "rollup": "^1.13.1"
+    "rollup": "^1.14.6"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
