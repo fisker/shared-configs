@@ -43,7 +43,7 @@
     "cz-conventional-changelog-emoji": "^0.1.0",
     "eslint": "^5.16.0",
     "esm": "^3.2.25",
-    "husky": "^2.4.0",
+    "husky": "^2.4.1",
     "lint-staged": "^8.2.0",
     "markdownlint-cli": "^0.16.0",
     "mem": "^5.0.0",
