@@ -24,5 +24,15 @@ module.exports = {
         enforceForRenamedProperties: false,
       },
     ],
+
+    // suggest using of const declaration for variables that are never modified after declared
+    // https://eslint.org/docs/rules/prefer-const
+    'prefer-const': [
+      'error',
+      {
+        destructuring: 'all',
+        ignoreReadBeforeAssign: true,
+      },
+    ],
   },
 }
