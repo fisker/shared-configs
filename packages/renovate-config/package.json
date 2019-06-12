@@ -37,5 +37,55 @@
   },
   "ava": {
     "require": "esm"
+  },
+  "renovate-config": {
+    "default": {
+      "description": "Default Configuration",
+      "extends": [
+        ":enableRenovate",
+        ":ignoreModulesAndTests",
+        ":separateMajorReleases",
+        ":combinePatchMinorReleases",
+        ":renovatePrefix",
+        ":semanticPrefixChore",
+        ":disablePeerDependencies",
+        ":disableDigestUpdates",
+        ":semanticPrefixFixDepsChoreOthers",
+        ":unpublishSafe",
+        ":prImmediately",
+        ":prHourlyLimitNone",
+        ":disableRateLimiting",
+        ":automergeRequireAllStatusChecks",
+        ":maintainLockFilesDisabled",
+        ":ignoreUnstable",
+        ":respectLatest",
+        ":updateNotScheduled",
+        ":npm",
+        ":automergeLinters",
+        ":doNotPinPackage",
+        ":semanticCommits",
+        ":timezone(Asia/Shanghai)",
+        ":automergePatch",
+        ":automergePr"
+      ],
+      "ignorePresets": [],
+      "packageRules": [
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "automerge": true
+        }
+      ],
+      "rangeStrategy": "bump",
+      "vulnerabilityAlerts": {
+        "labels": [
+          "security"
+        ],
+        "assignees": [
+          "@fisker"
+        ]
+      }
+    }
   }
 }

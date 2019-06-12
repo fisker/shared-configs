@@ -10,14 +10,14 @@ const noExtraneousDependencies = (() => {
   const {rules} = require('eslint-config-airbnb-base/rules/imports')
   const rule = rules['import/no-extraneous-dependencies']
   const [errorLevel, options] = rule
-  const {devDependencies} = options
+  const {devDependencies: developmentDependencies} = options
 
   return [
     errorLevel,
     {
       ...options,
       devDependencies: [
-        ...devDependencies,
+        ...developmentDependencies,
         '.*',
         '*.config.*',
         'scripts/**',
