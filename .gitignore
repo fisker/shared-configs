@@ -1,6 +1,4 @@
-
-# Created by https://www.gitignore.io/api/node
-# Edit at https://www.gitignore.io/?templates=node
+# Base on https://www.gitignore.io/api/node
 
 ### Node ###
 # Logs
@@ -9,6 +7,10 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -84,8 +86,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# End of https://www.gitignore.io/api/node
-
+# project ignore files
 .vscode/
 packages/*/lib/
-/yarn.lock

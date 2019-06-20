@@ -6,6 +6,4 @@
  *
  */
 
-module.exports = {
-  ...require('@self/lint-staged-config'),
-}
+module.exports = require('@self/lint-staged-config')

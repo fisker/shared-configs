@@ -21,6 +21,10 @@ dist/**
 # fixtures
 **/fixtures/**
 
+# test
+.nyc_outputs/**
+coverage/**
+
 # project glob
 **/node_modules/**
 **/lib/**
