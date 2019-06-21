@@ -27,6 +27,7 @@
     "lint": "run-p lint:*",
     "lint:eslint": "eslint **/*.{js,mjs,vue}",
     "lint:markdown": "markdownlint **/*.md --ignore \"**/node_modules/**\"",
+    "lint:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --check",
     "release": "run-s clean lint build test format dist",
     "test": "lerna run test",
     "dist:npm": "np --yolo --no-yarn",
