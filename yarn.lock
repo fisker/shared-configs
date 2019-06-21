@@ -5430,9 +5430,9 @@ symbol-observable@^1.0.4, symbol-observable@^1.1.0:
   integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
 
 synchronous-promise@^2.0.6:
-  version "2.0.7"
-  resolved "https://registry.npm.taobao.org/synchronous-promise/download/synchronous-promise-2.0.7.tgz#3574b3d2fae86b145356a4b89103e1577f646fe3"
-  integrity sha1-NXSz0vroaxRTVqS4kQPhV39kb+M=
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/synchronous-promise/-/synchronous-promise-2.0.9.tgz#b83db98e9e7ae826bf9c8261fd8ac859126c780a"
+  integrity sha512-LO95GIW16x69LuND1nuuwM4pjgFGupg7pZ/4lU86AmchPKrhk0o2tpMU2unXRrqo81iAFe1YJ0nAGEVwsrZAgg==
 
 table@^5.2.3:
   version "5.4.1"
