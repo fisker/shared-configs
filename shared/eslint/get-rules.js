@@ -1,3 +1,4 @@
+import {join} from 'path'
 import {CLIEngine} from 'eslint'
 import mem from 'mem'
 
@@ -9,16 +10,17 @@ function getRules(config) {
     baseConfig: config,
     useEslintrc: false,
   })
+  engine.executeOnText('')
 
-  const {rules} = engine.config.baseConfig
+  const {rules} = engine.getConfigForFile('')
   const defs = engine.getRules()
 
-  for (const ruleId of Object.keys(rules)) {
-    const value = ruleValue(rules[ruleId])
-    const documents = ruleDocuments(ruleId, defs)
+  for (const id of Object.keys(rules)) {
+    const value = ruleValue(rules[id])
+    const documents = ruleDocuments(id, defs)
     const {url: link} = documents
 
-    rules[ruleId] = {
+    rules[id] = {
       value,
       link,
       docs: documents,
