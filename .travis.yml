@@ -6,7 +6,7 @@ node_js:
 sudo: false
 cache: yarn
 before_install:
-  - npm install --global yarn
+  - npm install --global lerna yarn
 script:
   - yarn lint
   - yarn build
