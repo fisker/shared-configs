@@ -5,6 +5,8 @@ node_js:
   - "12"
 sudo: false
 cache: yarn
+before_install:
+  - npm install --global yarn
 script:
   - yarn lint
   - yarn build
