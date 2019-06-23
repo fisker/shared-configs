@@ -25,9 +25,9 @@
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
   },
   "dependencies": {
-    "@fisker/eslint-config": "^1.1.3",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-es": "^1.4.0"
+    "@fisker/eslint-config": "1.1.3",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-es": "1.4.0"
   },
   "peerDependencies": {
     "eslint": "*",
