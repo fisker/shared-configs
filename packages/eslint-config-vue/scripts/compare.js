@@ -7,12 +7,12 @@ const configs = {
   vue: require('../index'),
 
   'vue/recommended': {
-    plugin: ['vue'],
+    plugins: ['vue'],
     extends: ['plugin:vue/recommended'],
   },
 
   'vue/recommended + prettier/vue': {
-    plugin: ['vue'],
+    plugins: ['vue'],
     extends: [
       'plugin:vue/recommended',
       require.resolve('eslint-config-prettier/vue'),
