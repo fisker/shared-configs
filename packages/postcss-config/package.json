@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -21,7 +21,7 @@
     "test": "echo \"no test yet\""
   },
   "dependencies": {
-    "postcss-preset-env": "^6.6.0"
+    "postcss-preset-env": "6.6.0"
   },
   "peerDependencies": {
     "postcss": "*"
