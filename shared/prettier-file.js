@@ -1,7 +1,6 @@
-import prettier from 'prettier'
+import writePrettierFile from 'write-prettier-file'
 import isUndefined from './is-undefined'
 import readFile from './read-file'
-import writeFile from './write-file'
 import identity from './identity'
 
 function prettierFile({
@@ -15,19 +14,12 @@ function prettierFile({
     content = readFile(file)
   }
 
-  options = {
-    ...prettier.resolveConfig.sync(file),
-    ...options,
-  }
-
   content = process(content)
-  content = prettier.format(content, options)
 
-  if (write) {
-    writeFile(file, content)
-  }
-
-  return content
+  return writePrettierFile.sync(file, content, {
+    ...options,
+    write,
+  })
 }
 
 export default prettierFile

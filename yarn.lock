@@ -2649,6 +2649,13 @@ import-fresh@^3.0.0:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
 
+import-from@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/import-from/download/import-from-3.0.0.tgz#055cfec38cd5a27d8057ca51376d7d3bf0891966"
+  integrity sha1-BVz+w4zVon2AV8pRN219O/CJGWY=
+  dependencies:
+    resolve-from "^5.0.0"
+
 import-lazy@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/import-lazy/download/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
@@ -5808,6 +5815,13 @@ write-pkg@^4.0.0:
     sort-keys "^2.0.0"
     type-fest "^0.4.1"
     write-json-file "^3.2.0"
+
+write-prettier-file@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/write-prettier-file/download/write-prettier-file-1.0.2.tgz#9af2082665400ea7d53356a1058a572b410d7136"
+  integrity sha1-mvIIJmVADqfVM1ahBYpXK0ENcTY=
+  dependencies:
+    import-from "^3.0.0"
 
 write@1.0.3:
   version "1.0.3"
