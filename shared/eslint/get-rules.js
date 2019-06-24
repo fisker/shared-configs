@@ -10,7 +10,7 @@ function getRules(config) {
     baseConfig: config,
     useEslintrc: false,
   })
-  engine.executeOnText('')
+  engine.executeOnText('', 'example.js')
 
   const {rules} = engine.getConfigForFile('')
   const defs = engine.getRules()
