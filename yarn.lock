@@ -443,10 +443,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@self/commitlint-config@npm:@fisker/commitlint-config@1.0.9":
-  version "1.0.9"
-  resolved "https://registry.npm.taobao.org/@fisker/commitlint-config/download/@fisker/commitlint-config-1.0.9.tgz#83f0f829a592e1b287e0de1c80d60f8772ac2baf"
-  integrity sha1-g/D4KaWS4bKH4N4cgNYPh3KsK68=
+"@self/commitlint-config@npm:@fisker/commitlint-config@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/@fisker/commitlint-config/download/@fisker/commitlint-config-1.1.0.tgz#e58fd2a66282f9bef3ba258a8f11442a89b11cd5"
+  integrity sha1-5Y/SpmKC+b7zuiWKjxFEKomxHNU=
   dependencies:
     "@commitlint/config-conventional" "8.0.0"
 
