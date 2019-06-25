@@ -22,5 +22,7 @@ module.exports = {
       },
     ],
     'prettier/prettier': true,
+    // SCSS function name, and express function name are case-sensitive
+    'function-name-case': null,
   },
 }
