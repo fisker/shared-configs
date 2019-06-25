@@ -10,9 +10,8 @@ function getRules(config) {
     baseConfig: config,
     useEslintrc: false,
   })
-  engine.executeOnText('', 'example.js')
 
-  const {rules} = engine.getConfigForFile('')
+  const {rules} = engine.getConfigForFile('example.js')
   const defs = engine.getRules()
 
   for (const id of Object.keys(rules)) {
