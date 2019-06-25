@@ -6,7 +6,21 @@ module.exports = {
     'stylelint-config-prettier',
   ].map(require.resolve),
   rules: {
+    'block-no-empty': null,
+    'font-family-no-missing-generic-family-keyword': null,
+    'no-empty-source': null,
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: ['v-deep'],
+      },
+    ],
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['export'],
+      },
+    ],
     'prettier/prettier': true,
-    'selector-pseudo-element-no-unknown': [true, ['v-deep']],
   },
 }
