@@ -450,10 +450,10 @@
   dependencies:
     "@commitlint/config-conventional" "8.0.0"
 
-"@self/eslint-config@npm:@fisker/eslint-config@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@fisker/eslint-config/-/eslint-config-1.2.1.tgz#679c8ad459fe65fb6da5a5f180adc329e7082739"
-  integrity sha512-Yds19OG9YOB8oISuFvcAFdVxN1cdHzrJckSCyLyB/j8TVnGbzmoGZah6vb7egoVNnmnrXsLunmklmFieVqGORg==
+"@self/eslint-config@npm:@fisker/eslint-config@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@fisker/eslint-config/-/eslint-config-1.2.2.tgz#3d7cb1f37700897cd334af8aba5090b22cd556e2"
+  integrity sha512-h/WkrJthw+L37KUx7Kt58A1DcDIwlsUGeUdlOoFKFRmlUrTUm2KgMpAd5c3HWuBYGkwj3uR6KeTSF4B60pX8VA==
   dependencies:
     eslint-config-airbnb-base "13.1.0"
     eslint-config-prettier "5.0.0"
@@ -464,6 +464,7 @@
     eslint-plugin-prettier "3.1.0"
     eslint-plugin-promise "4.1.1"
     eslint-plugin-unicorn "9.1.1"
+    stylelint-prettier "1.1.1"
 
 "@self/husky-config@npm:@fisker/husky-config@1.1.0":
   version "1.1.0"
