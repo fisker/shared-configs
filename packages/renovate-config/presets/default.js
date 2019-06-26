@@ -27,7 +27,7 @@ export default {
     ':updateNotScheduled',
     ':npm',
     ':automergeLinters',
-    ':doNotPinPackage',
+    // ':doNotPinPackage',
     ':semanticCommits',
     ':timezone(Asia/Shanghai)',
     ':automergePatch',
