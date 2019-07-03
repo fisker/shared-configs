@@ -443,15 +443,15 @@
   dependencies:
     "@commitlint/config-conventional" "8.0.0"
 
-"@self/eslint-config@npm:@fisker/eslint-config@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@fisker/eslint-config/-/eslint-config-1.2.4.tgz#4646b7de097d12b3aeb6765c8556486bb442e43c"
-  integrity sha512-9KXCqIFF5SIraPdUh228g2yy6EIihILGTIO2qC+q0/dU65pOkqnh5SCEzyZO3aArcIg7J91cz3N5r4fbACdFaA==
+"@self/eslint-config@npm:@fisker/eslint-config@1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@fisker/eslint-config/-/eslint-config-1.2.5.tgz#54a6c7f5be37e2ab147a4d1bcf9c52a98daa1614"
+  integrity sha512-mi2Ix+tmO0LWPUbiJO9gOJvo0AjitAQOrKlbnIuQjKW4PoW/7msiuki3P8yCZcJ62Ks+Kxx+N04NsTB5tTfBAA==
   dependencies:
-    eslint-config-airbnb-base "13.1.0"
+    eslint-config-airbnb-base "13.2.0"
     eslint-config-prettier "6.0.0"
     eslint-plugin-eslint-comments "3.1.2"
-    eslint-plugin-html "5.0.5"
+    eslint-plugin-html "6.0.0"
     eslint-plugin-import "2.18.0"
     eslint-plugin-node "9.1.0"
     eslint-plugin-prettier "3.1.0"
@@ -1790,15 +1790,6 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-airbnb-base@13.1.0:
-  version "13.1.0"
-  resolved "https://registry.npm.taobao.org/eslint-config-airbnb-base/download/eslint-config-airbnb-base-13.1.0.tgz#b5a1b480b80dfad16433d6c4ad84e6605052c05c"
-  integrity sha1-taG0gLgN+tFkM9bErYTmYFBSwFw=
-  dependencies:
-    eslint-restricted-globals "^0.1.1"
-    object.assign "^4.1.0"
-    object.entries "^1.0.4"
-
 eslint-config-airbnb-base@13.2.0:
   version "13.2.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-13.2.0.tgz#f6ea81459ff4dec2dda200c35f1d8f7419d57943"
@@ -1859,13 +1850,6 @@ eslint-plugin-eslint-comments@3.1.2:
   dependencies:
     escape-string-regexp "^1.0.5"
     ignore "^5.0.5"
-
-eslint-plugin-html@5.0.5:
-  version "5.0.5"
-  resolved "https://registry.npm.taobao.org/eslint-plugin-html/download/eslint-plugin-html-5.0.5.tgz#e2388f813f75b2287cde884811eab287de8e0f56"
-  integrity sha1-4jiPgT91sih83ohIEeqyh96OD1Y=
-  dependencies:
-    htmlparser2 "^3.10.0"
 
 eslint-plugin-html@6.0.0:
   version "6.0.0"
@@ -1951,11 +1935,6 @@ eslint-plugin-vue@5.2.3:
   integrity sha512-mGwMqbbJf0+VvpGR5Lllq0PMxvTdrZ/ZPjmhkacrCHbubJeJOt+T6E3HUzAifa2Mxi7RSdJfC9HFpOeSYVMMIw==
   dependencies:
     vue-eslint-parser "^5.0.0"
-
-eslint-restricted-globals@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npm.taobao.org/eslint-restricted-globals/download/eslint-restricted-globals-0.1.1.tgz#35f0d5cbc64c2e3ed62e93b4b1a7af05ba7ed4d7"
-  integrity sha1-NfDVy8ZMLj7WLpO0saevBbp+1Nc=
 
 eslint-scope@^4.0.0, eslint-scope@^4.0.3:
   version "4.0.3"
@@ -2583,7 +2562,7 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha1-l/I2l3vW4SVAiTD/bePuxigewEc=
 
-htmlparser2@^3.10.0, htmlparser2@^3.10.1:
+htmlparser2@^3.10.1:
   version "3.10.1"
   resolved "https://registry.npm.taobao.org/htmlparser2/download/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
   integrity sha1-vWedw/WYl7ajS7EHSchVu1OpOS8=
@@ -3871,7 +3850,7 @@ object.assign@^4.1.0:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
-object.entries@^1.0.4, object.entries@^1.1.0:
+object.entries@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/object.entries/download/object.entries-1.1.0.tgz#2024fc6d6ba246aee38bdb0ffd5cfbcf371b7519"
   integrity sha1-ICT8bWuiRq7ji9sP/Vz7zzcbdRk=
