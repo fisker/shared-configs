@@ -32,17 +32,19 @@
 |  22 | [import/no-mutable-exports](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-mutable-exports.md)                        | error  |
 |  23 | [import/no-named-as-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-as-default.md)                      | error  |             warn              |
 |  24 | [import/no-named-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-default.md)                            | error  |
-|  25 | [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-namespace.md)                                    |  off   |
-|  26 | [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-nodejs-modules.md)                          |  off   |
-|  27 | [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-relative-parent-imports.md)        |  off   |
-|  28 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-restricted-paths.md)                      |  off   |
-|  29 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-self-import.md)                                | error  |
-|  30 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unassigned-import.md)                    |  off   |
-|  31 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-useless-path-segments.md)            | error  |
-|  32 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-webpack-loader-syntax.md)            | error  |
-|  33 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/order.md)                                                  | error  |
-|  34 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/prefer-default-export.md)                  |  off   |
-|  35 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/unambiguous.md)                                      |  off   |
+|  25 | [import/no-named-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-export.md)                              |  off   |
+|  26 | [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-namespace.md)                                    |  off   |
+|  27 | [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-nodejs-modules.md)                          |  off   |
+|  28 | [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-relative-parent-imports.md)        |  off   |
+|  29 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-restricted-paths.md)                      |  off   |
+|  30 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-self-import.md)                                | error  |
+|  31 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unassigned-import.md)                    |  off   |
+|  32 | [import/no-unused-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unused-modules.md)                          |  off   |
+|  33 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-useless-path-segments.md)            | error  |
+|  34 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-webpack-loader-syntax.md)            | error  |
+|  35 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/order.md)                                                  | error  |
+|  36 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/prefer-default-export.md)                  |  off   |
+|  37 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/unambiguous.md)                                      |  off   |
 
 ## all rules
 
@@ -75,15 +77,17 @@
 |  25 | [import/no-named-as-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-as-default.md)                      | error  |             warn              |
 |  26 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-as-default-member.md)        |  warn  |             warn              |
 |  27 | [import/no-named-default](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-default.md)                            | error  |
-|  28 | [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-namespace.md)                                    |  off   |
-|  29 | [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-nodejs-modules.md)                          |  off   |
-|  30 | [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-relative-parent-imports.md)        |  off   |
-|  31 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-restricted-paths.md)                      |  off   |
-|  32 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-self-import.md)                                | error  |
-|  33 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unassigned-import.md)                    |  off   |
-|  34 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unresolved.md)                                  | error  |             error             |
-|  35 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-useless-path-segments.md)            | error  |
-|  36 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-webpack-loader-syntax.md)            | error  |
-|  37 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/order.md)                                                  | error  |
-|  38 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/prefer-default-export.md)                  |  off   |
-|  39 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/unambiguous.md)                                      |  off   |
+|  28 | [import/no-named-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-named-export.md)                              |  off   |
+|  29 | [import/no-namespace](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-namespace.md)                                    |  off   |
+|  30 | [import/no-nodejs-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-nodejs-modules.md)                          |  off   |
+|  31 | [import/no-relative-parent-imports](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-relative-parent-imports.md)        |  off   |
+|  32 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-restricted-paths.md)                      |  off   |
+|  33 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-self-import.md)                                | error  |
+|  34 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unassigned-import.md)                    |  off   |
+|  35 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unresolved.md)                                  | error  |             error             |
+|  36 | [import/no-unused-modules](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-unused-modules.md)                          |  off   |
+|  37 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-useless-path-segments.md)            | error  |
+|  38 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/no-webpack-loader-syntax.md)            | error  |
+|  39 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/order.md)                                                  | error  |
+|  40 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/prefer-default-export.md)                  |  off   |
+|  41 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.0/docs/rules/unambiguous.md)                                      |  off   |
