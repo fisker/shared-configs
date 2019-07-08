@@ -47,7 +47,7 @@
     "@self/husky-config": "npm:@fisker/husky-config@1.1.0",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.4",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.17",
-    "ava": "2.1.0",
+    "ava": "2.2.0",
     "cz-conventional-changelog-emoji": "0.1.0",
     "eslint": "6.0.1",
     "esm": "3.2.25",
