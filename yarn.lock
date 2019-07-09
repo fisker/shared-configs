@@ -4157,6 +4157,14 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
+prettier-format@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-format/-/prettier-format-1.0.0.tgz#2afcfb6c3321a577404a7329275b9699876081ad"
+  integrity sha512-tFeLzeaWHaJmuXPm/EcphX5nUqrHjoirn8EV8D+cQU8543+OKS0xu/B81gN5oos6qdy2Gj7U2xaxJUfaG19+vA==
+  dependencies:
+    import-from "^3.0.0"
+    prettier "1.18.2"
+
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
@@ -5230,13 +5238,13 @@ write-pkg@^4.0.0:
     type-fest "^0.4.1"
     write-json-file "^3.2.0"
 
-write-prettier-file@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/write-prettier-file/-/write-prettier-file-1.1.0.tgz#8383ee2a40cce6dabdc269fa8223ca95ff2b4209"
-  integrity sha512-PxJYMI+DTBK4la3FKsPv0XkBxtlJhOe6hhGnW9PacZgmdGGVBC0zFhW05Ekd1zjWMvT//7SZi+ekoK316jy3CQ==
+write-prettier-file@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/write-prettier-file/-/write-prettier-file-1.2.0.tgz#bfadd71d74cf4ba2af4527793f45c4cf023471b9"
+  integrity sha512-nM7TsOjbRTXeIyIoULK28U8hAq99SPqpIKG4J3vxAwIi6IeV1NKCGLYI7pk20WBmlQJQD1nghNXGaNFI7x0RDQ==
   dependencies:
     fs-extra "8.1.0"
-    import-from "^3.0.0"
+    prettier-format "1.0.0"
 
 write@1.0.3:
   version "1.0.3"
