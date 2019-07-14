@@ -22,6 +22,7 @@ module.exports = {
         'packages/*/scripts/**',
         'shared/**',
         'packages/*/test.js',
+        'packages/**/test/**',
         'lint-staged.config.js',
         '.huskyrc.js',
       ],

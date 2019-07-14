@@ -1,4 +1,3 @@
-// eslint-disable-next-line node/no-extraneous-require
 const mem = require('mem')
 
 function getRuleDocuments(ruleId, defs) {
