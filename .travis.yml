@@ -8,6 +8,8 @@ cache:
   yarn: true
 before_install:
   - npm install --global lerna yarn
+install:
+  - yarn
 script:
   - yarn lint
   - yarn build
