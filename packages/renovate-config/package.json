@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "version": "1.0.18",
+  "version": "1.0.19",
   "files": [],
   "scripts": {
     "build": "yarn clean-package",
