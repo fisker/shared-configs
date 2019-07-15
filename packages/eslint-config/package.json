@@ -21,8 +21,7 @@
     "build": "run-p build:*",
     "build:docs": "node -r esm scripts/compare.js",
     "clean": "rimraf docs",
-    "test": "ava",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
+    "test": "ava"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "13.2.0",

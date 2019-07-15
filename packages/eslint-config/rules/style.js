@@ -8,6 +8,19 @@ const MAX_PARAMS = 5
 
 module.exports = {
   rules: {
+    // allow unnamed function
+    'func-names': 'off',
+
+    // require or disallow an empty line between class members
+    // https://eslint.org/docs/rules/lines-between-class-members
+    'lines-between-class-members': [
+      'error',
+      'always',
+      {
+        exceptAfterSingleLine: false,
+      },
+    ],
+
     // enforce a maximum line length
     'max-len': [
       'error',
@@ -40,9 +53,6 @@ module.exports = {
     // airbnb allow this
     'multiline-ternary': ['error', 'never'],
 
-    // allow unnamed function
-    'func-names': 'off',
-
     // allow for...in and for...of
     'no-restricted-syntax': [
       'error',
@@ -63,15 +73,9 @@ module.exports = {
     // readable
     'no-lonely-if': 'off',
 
-    // require or disallow an empty line between class members
-    // https://eslint.org/docs/rules/lines-between-class-members
-    'lines-between-class-members': [
-      'error',
-      'always',
-      {
-        exceptAfterSingleLine: false,
-      },
-    ],
+    // disallow use of unary operators, ++ and --
+    // https://eslint.org/docs/rules/no-plusplus
+    'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
 
     // allow use of chained assignment expressions
     // https://eslint.org/docs/rules/no-multi-assign
