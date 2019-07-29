@@ -4,4 +4,7 @@ module.exports = {
   },
   plugins: ['jest'],
   extends: ['plugin:jest/recommended'],
+  rules: {
+    'jest/no-disabled-tests': 'warn',
+  },
 }
