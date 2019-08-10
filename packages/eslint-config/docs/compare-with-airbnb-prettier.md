@@ -15,29 +15,27 @@
 |   5 | [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err)                                                                     | error  |        off        |
 |   6 | [max-params](https://eslint.org/docs/rules/max-params)                                                                                       |  warn  |        off        |
 |   7 | [max-statements-per-line](https://eslint.org/docs/rules/max-statements-per-line)                                                             | error  |        off        |
-|   8 | [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)                                                         | error  |        off        |
-|   9 | [no-console](https://eslint.org/docs/rules/no-console)                                                                                       |  off   |       warn        |
-|  10 | [no-continue](https://eslint.org/docs/rules/no-continue)                                                                                     |  off   |       error       |
-|  11 | [no-eq-null](https://eslint.org/docs/rules/no-eq-null)                                                                                       | error  |        off        |
-|  12 | [no-implicit-coercion](https://eslint.org/docs/rules/no-implicit-coercion)                                                                   | error  |        off        |
-|  13 | [no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)                                                                     | error  |        off        |
-|  14 | [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if)                                                                                   |  off   |       error       |
-|  15 | [no-loop-func](https://eslint.org/docs/rules/no-loop-func)                                                                                   |  warn  |       error       |
-|  16 | [no-multi-assign](https://eslint.org/docs/rules/no-multi-assign)                                                                             |  off   |       error       |
-|  17 | [no-new](https://eslint.org/docs/rules/no-new)                                                                                               |  warn  |       error       |
-|  18 | [no-param-reassign](https://eslint.org/docs/rules/no-param-reassign)                                                                         |  off   |       error       |
-|  19 | [no-shadow](https://eslint.org/docs/rules/no-shadow)                                                                                         |  off   |       error       |
-|  20 | [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                                                                   |  off   |       error       |
-|  21 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition)                                                   | error  |        off        |
-|  22 | [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)                                                                               |  warn  |       error       |
-|  23 | [no-useless-call](https://eslint.org/docs/rules/no-useless-call)                                                                             | error  |        off        |
-|  24 | [no-useless-catch](https://eslint.org/docs/rules/no-useless-catch)                                                                           | error  |        off        |
-|  25 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                                                                     |  off   |       error       |
-|  26 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/exports-last.md)                             | error  |        off        |
-|  27 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-deprecated.md)                           | error  |        off        |
-|  28 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-dynamic-require.md)                 |  off   |       error       |
-|  29 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-named-as-default-member.md) |  warn  |       error       |
-|  30 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/prefer-default-export.md)           |  off   |       error       |
+|   8 | [no-console](https://eslint.org/docs/rules/no-console)                                                                                       |  off   |       warn        |
+|   9 | [no-continue](https://eslint.org/docs/rules/no-continue)                                                                                     |  off   |       error       |
+|  10 | [no-eq-null](https://eslint.org/docs/rules/no-eq-null)                                                                                       | error  |        off        |
+|  11 | [no-implicit-coercion](https://eslint.org/docs/rules/no-implicit-coercion)                                                                   | error  |        off        |
+|  12 | [no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals)                                                                     | error  |        off        |
+|  13 | [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if)                                                                                   |  off   |       error       |
+|  14 | [no-loop-func](https://eslint.org/docs/rules/no-loop-func)                                                                                   |  warn  |       error       |
+|  15 | [no-multi-assign](https://eslint.org/docs/rules/no-multi-assign)                                                                             |  off   |       error       |
+|  16 | [no-new](https://eslint.org/docs/rules/no-new)                                                                                               |  warn  |       error       |
+|  17 | [no-param-reassign](https://eslint.org/docs/rules/no-param-reassign)                                                                         |  off   |       error       |
+|  18 | [no-shadow](https://eslint.org/docs/rules/no-shadow)                                                                                         |  off   |       error       |
+|  19 | [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle)                                                                   |  off   |       error       |
+|  20 | [no-unmodified-loop-condition](https://eslint.org/docs/rules/no-unmodified-loop-condition)                                                   | error  |        off        |
+|  21 | [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)                                                                               |  warn  |       error       |
+|  22 | [no-useless-call](https://eslint.org/docs/rules/no-useless-call)                                                                             | error  |        off        |
+|  23 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                                                                     |  off   |       error       |
+|  24 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/exports-last.md)                             | error  |        off        |
+|  25 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-deprecated.md)                           | error  |        off        |
+|  26 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-dynamic-require.md)                 |  off   |       error       |
+|  27 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/no-named-as-default-member.md) |  warn  |       error       |
+|  28 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.18.2/docs/rules/prefer-default-export.md)           |  off   |       error       |
 
 ## all rules
 
@@ -99,7 +97,7 @@
 |  54 | [lines-around-comment](https://eslint.org/docs/rules/lines-around-comment)                                                                          |  off   |        off        |
 |  55 | [lines-around-directive](https://eslint.org/docs/rules/lines-around-directive)                                                                      | error  |       error       |
 |  56 | [lines-between-class-members](https://eslint.org/docs/rules/lines-between-class-members)                                                            | error  |       error       |
-|  57 | [max-classes-per-file](https://eslint.org/docs/rules/max-classes-per-file)                                                                          |  off   |        off        |
+|  57 | [max-classes-per-file](https://eslint.org/docs/rules/max-classes-per-file)                                                                          | error  |       error       |
 |  58 | [max-depth](https://eslint.org/docs/rules/max-depth)                                                                                                |  off   |        off        |
 |  59 | [max-len](https://eslint.org/docs/rules/max-len)                                                                                                    |  off   |        off        |
 |  60 | [max-lines](https://eslint.org/docs/rules/max-lines)                                                                                                |  off   |        off        |
@@ -118,7 +116,7 @@
 |  73 | [no-alert](https://eslint.org/docs/rules/no-alert)                                                                                                  |  warn  |       warn        |
 |  74 | [no-array-constructor](https://eslint.org/docs/rules/no-array-constructor)                                                                          | error  |       error       |
 |  75 | no-arrow-condition                                                                                                                                  |  off   |        off        |
-|  76 | [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)                                                                | error  |        off        |
+|  76 | [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)                                                                | error  |       error       |
 |  77 | [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop)                                                                                  | error  |       error       |
 |  78 | [no-bitwise](https://eslint.org/docs/rules/no-bitwise)                                                                                              | error  |       error       |
 |  79 | [no-buffer-constructor](https://eslint.org/docs/rules/no-buffer-constructor)                                                                        | error  |       error       |
@@ -176,7 +174,7 @@
 | 131 | [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if)                                                                                          |  off   |       error       |
 | 132 | [no-loop-func](https://eslint.org/docs/rules/no-loop-func)                                                                                          |  warn  |       error       |
 | 133 | [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers)                                                                                  |  off   |        off        |
-| 134 | [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)                                                        |  off   |        off        |
+| 134 | [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)                                                        | error  |       error       |
 | 135 | [no-mixed-operators](https://eslint.org/docs/rules/no-mixed-operators)                                                                              |  off   |        off        |
 | 136 | [no-mixed-requires](https://eslint.org/docs/rules/no-mixed-requires)                                                                                |  off   |        off        |
 | 137 | [no-mixed-spaces-and-tabs](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)                                                                  |  off   |        off        |
@@ -245,7 +243,7 @@
 | 200 | [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)                                                                                      |  warn  |       error       |
 | 201 | [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)                                                                          | error  |       error       |
 | 202 | [no-useless-call](https://eslint.org/docs/rules/no-useless-call)                                                                                    | error  |        off        |
-| 203 | [no-useless-catch](https://eslint.org/docs/rules/no-useless-catch)                                                                                  | error  |        off        |
+| 203 | [no-useless-catch](https://eslint.org/docs/rules/no-useless-catch)                                                                                  | error  |       error       |
 | 204 | [no-useless-computed-key](https://eslint.org/docs/rules/no-useless-computed-key)                                                                    | error  |       error       |
 | 205 | [no-useless-concat](https://eslint.org/docs/rules/no-useless-concat)                                                                                | error  |       error       |
 | 206 | [no-useless-constructor](https://eslint.org/docs/rules/no-useless-constructor)                                                                      | error  |       error       |
@@ -274,7 +272,7 @@
 | 229 | [prefer-destructuring](https://eslint.org/docs/rules/prefer-destructuring)                                                                          | error  |       error       |
 | 230 | [prefer-named-capture-group](https://eslint.org/docs/rules/prefer-named-capture-group)                                                              |  off   |        off        |
 | 231 | [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                    | error  |       error       |
-| 232 | [prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)                                                                          |  off   |        off        |
+| 232 | [prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)                                                                          | error  |       error       |
 | 233 | [prefer-promise-reject-errors](https://eslint.org/docs/rules/prefer-promise-reject-errors)                                                          | error  |       error       |
 | 234 | [prefer-reflect](https://eslint.org/docs/rules/prefer-reflect)                                                                                      |  off   |        off        |
 | 235 | [prefer-rest-params](https://eslint.org/docs/rules/prefer-rest-params)                                                                              | error  |       error       |

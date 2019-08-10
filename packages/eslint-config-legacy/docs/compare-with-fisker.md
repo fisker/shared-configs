@@ -159,7 +159,7 @@
 |  53 | [lines-around-comment](https://eslint.org/docs/rules/lines-around-comment)                                                                                      |  off   |  off   |
 |  54 | [lines-around-directive](https://eslint.org/docs/rules/lines-around-directive)                                                                                  | error  | error  |
 |  55 | [lines-between-class-members](https://eslint.org/docs/rules/lines-between-class-members)                                                                        | error  | error  |
-|  56 | [max-classes-per-file](https://eslint.org/docs/rules/max-classes-per-file)                                                                                      |  off   |  off   |
+|  56 | [max-classes-per-file](https://eslint.org/docs/rules/max-classes-per-file)                                                                                      | error  | error  |
 |  57 | [max-depth](https://eslint.org/docs/rules/max-depth)                                                                                                            |  off   |  off   |
 |  58 | [max-len](https://eslint.org/docs/rules/max-len)                                                                                                                |  off   |  off   |
 |  59 | [max-lines](https://eslint.org/docs/rules/max-lines)                                                                                                            |  off   |  off   |
@@ -232,7 +232,7 @@
 | 126 | [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if)                                                                                                      |  off   |  off   |
 | 127 | [no-loop-func](https://eslint.org/docs/rules/no-loop-func)                                                                                                      |  warn  |  warn  |
 | 128 | [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers)                                                                                              |  off   |  off   |
-| 129 | [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)                                                                    |  off   |  off   |
+| 129 | [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)                                                                    | error  | error  |
 | 130 | [no-mixed-operators](https://eslint.org/docs/rules/no-mixed-operators)                                                                                          |  off   |  off   |
 | 131 | [no-mixed-requires](https://eslint.org/docs/rules/no-mixed-requires)                                                                                            |  off   |  off   |
 | 132 | [no-mixed-spaces-and-tabs](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)                                                                              |  off   |  off   |
@@ -321,7 +321,7 @@
 | 215 | [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback)                                                                                    |  off   |  off   |
 | 216 | [prefer-named-capture-group](https://eslint.org/docs/rules/prefer-named-capture-group)                                                                          |  off   |  off   |
 | 217 | [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                                |  off   | error  |
-| 218 | [prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)                                                                                      |  off   |  off   |
+| 218 | [prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)                                                                                      | error  | error  |
 | 219 | [prefer-promise-reject-errors](https://eslint.org/docs/rules/prefer-promise-reject-errors)                                                                      | error  | error  |
 | 220 | [quote-props](https://eslint.org/docs/rules/quote-props)                                                                                                        |  off   |  off   |
 | 221 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                                                  |  off   |  off   |

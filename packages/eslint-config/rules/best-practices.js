@@ -61,10 +61,5 @@ module.exports = {
     // disallow unnecessary .call() and .apply()
     // airbnb allow this
     'no-useless-call': 'error',
-
-    // Disallow unnecessary catch clauses
-    // https://eslint.org/docs/rules/no-useless-catch
-    // airbnb allow this
-    'no-useless-catch': 'error',
   },
 }
