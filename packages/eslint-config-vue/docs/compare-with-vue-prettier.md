@@ -6,6 +6,12 @@
 
 ## difference only
 
+<!-- vue vs vue/recommended + prettier/vue
+vue/no-unused-components, warn, error, https://eslint.vuejs.org/rules/no-unused-components.html
+vue/no-unused-vars, warn, error, https://eslint.vuejs.org/rules/no-unused-vars.html
+vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-template.html
+-->
+
 |   # | Rule                                                                                 |  vue  | vue/recommended + prettier/vue |
 | --: | :----------------------------------------------------------------------------------- | :---: | :----------------------------: |
 |   1 | [vue/no-unused-components](https://eslint.vuejs.org/rules/no-unused-components.html) | warn  |             error              |
@@ -13,6 +19,78 @@
 |   3 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)         | error |              warn              |
 
 ## all rules
+
+<!-- vue vs vue/recommended + prettier/vue
+vue/array-bracket-spacing, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/array-bracket-spacing.html
+vue/arrow-spacing, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/arrow-spacing.html
+vue/attribute-hyphenation, warn, warn, https://eslint.vuejs.org/rules/attribute-hyphenation.html
+vue/attributes-order, warn, warn, https://eslint.vuejs.org/rules/attributes-order.html
+vue/block-spacing, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/block-spacing.html
+vue/brace-style, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/brace-style.html
+vue/comma-dangle, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/comma-dangle.html
+vue/comment-directive, error, error, https://eslint.vuejs.org/rules/comment-directive.html
+vue/html-closing-bracket-newline, off, off, https://eslint.vuejs.org/rules/html-closing-bracket-newline.html
+vue/html-closing-bracket-spacing, off, off, https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html
+vue/html-end-tags, off, off, https://eslint.vuejs.org/rules/html-end-tags.html
+vue/html-indent, off, off, https://eslint.vuejs.org/rules/html-indent.html
+vue/html-quotes, off, off, https://eslint.vuejs.org/rules/html-quotes.html
+vue/html-self-closing, off, off, https://eslint.vuejs.org/rules/html-self-closing.html
+vue/jsx-uses-vars, error, error, https://eslint.vuejs.org/rules/jsx-uses-vars.html
+vue/key-spacing, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/key-spacing.html
+vue/max-attributes-per-line, off, off, https://eslint.vuejs.org/rules/max-attributes-per-line.html
+vue/multiline-html-element-content-newline, off, off, https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html
+vue/mustache-interpolation-spacing, off, off, https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html
+vue/name-property-casing, warn, warn, https://eslint.vuejs.org/rules/name-property-casing.html
+vue/no-async-in-computed-properties, error, error, https://eslint.vuejs.org/rules/no-async-in-computed-properties.html
+vue/no-dupe-keys, error, error, https://eslint.vuejs.org/rules/no-dupe-keys.html
+vue/no-duplicate-attributes, error, error, https://eslint.vuejs.org/rules/no-duplicate-attributes.html
+vue/no-multi-spaces, off, off, https://eslint.vuejs.org/rules/no-multi-spaces.html
+vue/no-parsing-error, error, error, https://eslint.vuejs.org/rules/no-parsing-error.html
+vue/no-reserved-keys, error, error, https://eslint.vuejs.org/rules/no-reserved-keys.html
+vue/no-shared-component-data, error, error, https://eslint.vuejs.org/rules/no-shared-component-data.html
+vue/no-side-effects-in-computed-properties, error, error, https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html
+vue/no-spaces-around-equal-signs-in-attribute, off, off, https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html
+vue/no-template-key, error, error, https://eslint.vuejs.org/rules/no-template-key.html
+vue/no-template-shadow, warn, warn, https://eslint.vuejs.org/rules/no-template-shadow.html
+vue/no-textarea-mustache, error, error, https://eslint.vuejs.org/rules/no-textarea-mustache.html
+vue/no-unused-components, warn, error, https://eslint.vuejs.org/rules/no-unused-components.html
+vue/no-unused-vars, warn, error, https://eslint.vuejs.org/rules/no-unused-vars.html
+vue/no-use-v-if-with-v-for, error, error, https://eslint.vuejs.org/rules/no-use-v-if-with-v-for.html
+vue/no-v-html, warn, warn, https://eslint.vuejs.org/rules/no-v-html.html
+vue/object-curly-spacing, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/object-curly-spacing.html
+vue/order-in-components, warn, warn, https://eslint.vuejs.org/rules/order-in-components.html
+vue/prop-name-casing, warn, warn, https://eslint.vuejs.org/rules/prop-name-casing.html
+vue/require-component-is, error, error, https://eslint.vuejs.org/rules/require-component-is.html
+vue/require-default-prop, warn, warn, https://eslint.vuejs.org/rules/require-default-prop.html
+vue/require-prop-type-constructor, error, error, https://eslint.vuejs.org/rules/require-prop-type-constructor.html
+vue/require-prop-types, warn, warn, https://eslint.vuejs.org/rules/require-prop-types.html
+vue/require-render-return, error, error, https://eslint.vuejs.org/rules/require-render-return.html
+vue/require-v-for-key, error, error, https://eslint.vuejs.org/rules/require-v-for-key.html
+vue/require-valid-default-prop, error, error, https://eslint.vuejs.org/rules/require-valid-default-prop.html
+vue/return-in-computed-property, error, error, https://eslint.vuejs.org/rules/return-in-computed-property.html
+vue/script-indent, off, off, https://eslint.vuejs.org/rules/script-indent.html
+vue/singleline-html-element-content-newline, off, off, https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html
+vue/space-infix-ops, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/space-infix-ops.html
+vue/space-unary-ops, off, off, https://vuejs.github.io/eslint-plugin-vue/rules/space-unary-ops.html
+vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-template.html
+vue/use-v-on-exact, error, error, https://eslint.vuejs.org/rules/use-v-on-exact.html
+vue/v-bind-style, warn, warn, https://eslint.vuejs.org/rules/v-bind-style.html
+vue/v-on-style, warn, warn, https://eslint.vuejs.org/rules/v-on-style.html
+vue/valid-template-root, error, error, https://eslint.vuejs.org/rules/valid-template-root.html
+vue/valid-v-bind, error, error, https://eslint.vuejs.org/rules/valid-v-bind.html
+vue/valid-v-cloak, error, error, https://eslint.vuejs.org/rules/valid-v-cloak.html
+vue/valid-v-else, error, error, https://eslint.vuejs.org/rules/valid-v-else.html
+vue/valid-v-else-if, error, error, https://eslint.vuejs.org/rules/valid-v-else-if.html
+vue/valid-v-for, error, error, https://eslint.vuejs.org/rules/valid-v-for.html
+vue/valid-v-html, error, error, https://eslint.vuejs.org/rules/valid-v-html.html
+vue/valid-v-if, error, error, https://eslint.vuejs.org/rules/valid-v-if.html
+vue/valid-v-model, error, error, https://eslint.vuejs.org/rules/valid-v-model.html
+vue/valid-v-on, error, error, https://eslint.vuejs.org/rules/valid-v-on.html
+vue/valid-v-once, error, error, https://eslint.vuejs.org/rules/valid-v-once.html
+vue/valid-v-pre, error, error, https://eslint.vuejs.org/rules/valid-v-pre.html
+vue/valid-v-show, error, error, https://eslint.vuejs.org/rules/valid-v-show.html
+vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
+-->
 
 |   # | Rule                                                                                                                           |  vue  | vue/recommended + prettier/vue |
 | --: | :----------------------------------------------------------------------------------------------------------------------------- | :---: | :----------------------------: |

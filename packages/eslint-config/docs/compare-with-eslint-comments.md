@@ -6,11 +6,24 @@
 
 ## difference only
 
+<!-- fisker vs eslint-comments/recommended
+eslint-comments/no-unused-disable, warn, , https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html
+-->
+
 |   # | Rule                                                                                                                         | fisker | eslint-comments/recommended |
 | --: | :--------------------------------------------------------------------------------------------------------------------------- | :----: | :-------------------------: |
 |   1 | [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html) |  warn  |
 
 ## all rules
+
+<!-- fisker vs eslint-comments/recommended
+eslint-comments/disable-enable-pair, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html
+eslint-comments/no-aggregating-enable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html
+eslint-comments/no-duplicate-disable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html
+eslint-comments/no-unlimited-disable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html
+eslint-comments/no-unused-disable, warn, , https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html
+eslint-comments/no-unused-enable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html
+-->
 
 |   # | Rule                                                                                                                                 | fisker | eslint-comments/recommended |
 | --: | :----------------------------------------------------------------------------------------------------------------------------------- | :----: | :-------------------------: |

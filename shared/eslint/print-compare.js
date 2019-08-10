@@ -1,7 +1,8 @@
 import {join} from 'path'
 import writePrettierFile from 'write-prettier-file'
 import getResult from './compare-result'
-import printer from './markdown-printer'
+import tablePrinter from './markdown-table-printer'
+import listPrinter from './markdown-list-printer'
 import isEqualRuleValue from './is-equal-rule-value'
 
 function getDiffOnlyFilter(filter) {
@@ -40,9 +41,11 @@ function printCompareResult(destination_, compares, configs) {
       `# compare`,
       `> compare ${local.name} with ${foreign.name}`,
       `## difference only`,
-      printer(resultDiff),
+      listPrinter(resultDiff),
+      tablePrinter(resultDiff),
       `## all rules`,
-      printer(resultAll),
+      listPrinter(resultAll),
+      tablePrinter(resultAll),
     ].join('\n\n')
 
     const destination = join(destination_, `${file}.md`)
