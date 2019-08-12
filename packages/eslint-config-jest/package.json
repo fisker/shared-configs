@@ -17,7 +17,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-plugin-jest": "22.15.0"
+    "eslint-plugin-jest": "22.15.1"
   },
   "peerDependencies": {
     "eslint": "*"
