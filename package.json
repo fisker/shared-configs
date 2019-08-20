@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.1.2",
-    "@self/eslint-config": "npm:@fisker/eslint-config@1.2.10",
+    "@self/eslint-config": "npm:@fisker/eslint-config@1.2.11",
     "@self/husky-config": "npm:@fisker/husky-config@1.1.1",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.5",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.18",
