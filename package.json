@@ -60,7 +60,7 @@
     "prettier-format": "1.0.0",
     "prettier-package-json": "2.1.0",
     "rimraf": "3.0.0",
-    "rollup": "1.19.4",
+    "rollup": "1.20.0",
     "write-prettier-file": "1.2.0"
   },
   "publishConfig": {
