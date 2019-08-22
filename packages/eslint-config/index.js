@@ -9,6 +9,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
+    allowImportExportEverywhere: true,
     ecmaFeatures: {
       globalReturn: false,
       jsx: true,
