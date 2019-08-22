@@ -43,13 +43,13 @@
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.1.2",
-    "@self/eslint-config": "npm:@fisker/eslint-config@1.2.11",
+    "@self/eslint-config": "npm:@fisker/eslint-config@1.2.12",
     "@self/husky-config": "npm:@fisker/husky-config@1.1.1",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.5",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.18",
     "ava": "2.3.0",
     "cz-conventional-changelog-emoji": "0.1.0",
-    "eslint": "6.2.0",
+    "eslint": "6.2.1",
     "esm": "3.2.25",
     "husky": "3.0.4",
     "lint-staged": "9.2.3",
@@ -60,7 +60,7 @@
     "prettier-format": "1.0.0",
     "prettier-package-json": "2.1.0",
     "rimraf": "3.0.0",
-    "rollup": "1.19.4",
+    "rollup": "1.20.0",
     "write-prettier-file": "1.2.0"
   },
   "publishConfig": {
