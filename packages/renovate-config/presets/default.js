@@ -32,6 +32,7 @@ export default {
     ':timezone(Asia/Shanghai)',
     ':automergePatch',
     ':automergePr',
+    ':assignee(fisker)',
   ],
   ignorePresets: [],
   packageRules: [
@@ -43,7 +44,7 @@ export default {
   rangeStrategy: 'bump',
   vulnerabilityAlerts: {
     labels: ['security'],
-    assignees: ['@fisker'],
+    // assignees: ['@fisker'],
   },
   ignoreDeps: ['caniuse-lite', 'caniuse-db', 'electron-to-chromium'],
   // schedule: ['after 5:30pm and before 5:30am'],
