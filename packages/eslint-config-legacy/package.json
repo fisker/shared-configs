@@ -28,7 +28,7 @@
     "@fisker/eslint-config": "^1.2.14",
     "babel-eslint": "10.0.3",
     "eslint-config-airbnb-base": "14.0.0",
-    "eslint-plugin-es": "1.4.0"
+    "eslint-plugin-es": "1.4.1"
   },
   "peerDependencies": {
     "eslint": "*",
