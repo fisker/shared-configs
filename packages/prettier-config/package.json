@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "ava": "^2.3.0",
-    "eslint": "6.3.0"
+    "prettier": "1.18.2"
   },
   "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
 }
