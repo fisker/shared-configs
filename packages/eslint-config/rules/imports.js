@@ -15,9 +15,7 @@ const noExtraneousDependencies = (() => {
     errorLevel,
     {
       ...options,
-      devDependencies: [
-        '!src/**',
-      ],
+      devDependencies: ['!src/**'],
       optionalDependencies: false,
       peerDependencies: false,
     },

@@ -33,6 +33,7 @@ export default {
     ':automergePatch',
     ':automergePr',
     ':assignee(fisker)',
+    ':reviewer(fisker)',
   ],
   ignorePresets: [],
   packageRules: [
