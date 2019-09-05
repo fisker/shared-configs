@@ -38,5 +38,8 @@
   "ava": {
     "require": "esm"
   },
-  "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
+  "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912",
+  "devDependencies": {
+    "ava": "^2.3.0"
+  }
 }
