@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/fisker/shared-configs/issues"
   },
-  "version": "1.0.19",
+  "version": "1.0.20",
   "main": "lib/index.js",
   "files": [
     "lib"
