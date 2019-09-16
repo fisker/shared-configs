@@ -24,7 +24,7 @@
     "posttest": "yarn clean-package"
   },
   "devDependencies": {
-    "ava": "^2.3.0",
+    "ava": "^2.4.0",
     "read-pkg": "^5.2.0",
     "write-pkg": "^4.0.0"
   },
