@@ -38,5 +38,14 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
     // sometimes readable
     'unicorn/regex-shorthand': 'warn',
+
+    // warn
+    'unicorn/expiring-todo-comments': 'warn',
+
+    // disable this
+    'unicorn/prefer-text-content': 'off',
+
+    // disable this
+    'unicorn/prefer-dataset': 'off',
   },
 }
