@@ -56,6 +56,6 @@
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "eslint": "6.4.0"
+    "eslint": "6.5.0"
   }
 }
