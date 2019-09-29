@@ -48,7 +48,7 @@
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.21",
     "ava": "2.4.0",
     "cz-conventional-changelog-emoji": "0.1.0",
-    "eslint": "6.4.0",
+    "eslint": "6.5.0",
     "esm": "3.2.25",
     "husky": "3.0.7",
     "lint-staged": "9.4.0",
