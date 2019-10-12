@@ -29,7 +29,6 @@ module.exports = {
       'error',
       {
         checkDefaultAndNamespaceImports: true,
-        checkProperties: false,
         checkShorthandProperties: true,
         checkShorthandImports: true,
       },
@@ -47,5 +46,9 @@ module.exports = {
 
     // disable this
     'unicorn/prefer-dataset': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
+    // buggy https://github.com/sindresorhus/eslint-plugin-unicorn/issues/391
+    'unicorn/consistent-function-scoping': 'warn',
   },
 }
