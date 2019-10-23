@@ -44,7 +44,7 @@
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.1.3",
     "@self/eslint-config": "npm:@fisker/eslint-config@1.3.4",
     "@self/husky-config": "npm:@fisker/husky-config@1.1.3",
-    "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.5",
+    "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.6",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.21",
     "ava": "2.4.0",
     "cz-conventional-changelog-emoji": "0.1.0",
