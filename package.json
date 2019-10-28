@@ -60,7 +60,7 @@
     "prettier-package-json": "2.1.0",
     "rimraf": "3.0.0",
     "rollup": "1.26.0",
-    "write-prettier-file": "1.2.0"
+    "write-prettier-file": "1.2.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
