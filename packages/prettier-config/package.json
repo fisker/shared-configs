@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "ava": "^2.4.0",
-    "prettier": "1.19.0"
+    "prettier": "1.19.1"
   },
   "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
 }
