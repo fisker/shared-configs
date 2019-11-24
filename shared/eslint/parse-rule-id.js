@@ -3,9 +3,9 @@ import mem from 'mem'
 function parseRuleId(id) {
   const array = id.split('/')
 
-  const prefix = array.length > 1 ? array.shift() : ''
-  const rule = array.join('')
+  const [prefix, ...ruleParts] = array.length < 2 ? ['', ...array] : array
 
+  const rule = ruleParts.join('')
   return {
     prefix,
     rule,
