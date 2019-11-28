@@ -1,18 +1,19 @@
 {
-  "private": true,
   "name": "@fisker/shared-configs",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "repository": "fisker/shared-configs",
   "license": "MIT",
   "author": {
     "name": "fisker Cheung",
     "email": "lionkay@gmail.com",
     "url": "https://www.fiskercheung.com/"
   },
-  "homepage": "https://github.com/fisker/shared-configs#readme",
-  "repository": "fisker/shared-configs",
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "version": "0.0.0",
+  "sideEffects": false,
   "workspaces": {
     "packages": [
       "packages/*"
@@ -24,15 +25,16 @@
     "build:docs": "lerna run build:docs",
     "clean": "lerna run clean",
     "dist": "lerna publish",
+    "format": "run-p format:*",
+    "format:eslint": "yarn lint:eslint --fix",
+    "format:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "format:sort-package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
     "lint": "run-p lint:*",
     "lint:eslint": "eslint **/*.{js,mjs,vue}",
     "lint:markdown": "markdownlint **/*.md --ignore \"**/node_modules/**\"",
     "lint:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --check",
     "release": "run-s clean build format lint test dist",
-    "test": "lerna run test",
-    "format": "run-p format:*",
-    "format:eslint": "yarn lint:eslint --fix",
-    "format:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write"
+    "test": "lerna run test"
   },
   "config": {
     "commitizen": {
@@ -60,11 +62,11 @@
     "prettier-format": "1.0.1",
     "prettier-package-json": "2.1.0",
     "rollup": "1.27.5",
+    "sort-package-json": "1.24.0",
     "write-prettier-file": "1.2.2"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "sideEffects": false
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

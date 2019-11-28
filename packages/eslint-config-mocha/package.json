@@ -1,27 +1,7 @@
 {
   "name": "@fisker/eslint-config-mocha",
-  "description": "fisker's Shareable ESLint Configuration for mocha test",
-  "license": "MIT",
-  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
-  "homepage": "https://github.com/fisker/shared-configs#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fisker/shared-configs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
   "version": "1.1.7",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "eslint-plugin-mocha": "6.2.2"
-  },
-  "peerDependencies": {
-    "eslint": "*"
-  },
+  "description": "fisker's Shareable ESLint Configuration for mocha test",
   "keywords": [
     "config",
     "eslint",
@@ -29,6 +9,26 @@
     "mocha",
     "test"
   ],
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-mocha": "6.2.2"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

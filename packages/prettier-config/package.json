@@ -1,21 +1,25 @@
 {
   "name": "@fisker/prettier-config",
+  "version": "1.0.23",
   "description": "fisker's Shareable prettier Configuration",
-  "license": "MIT",
-  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "keywords": [
+    "fisker",
+    "prettier"
+  ],
   "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
   },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "version": "1.0.23",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "files": [
     "dist"
   ],
+  "main": "dist/index.js",
   "scripts": {
     "build": "run-s build:js build:docs",
     "build:docs": "node -r esm ./scripts/generate-options.js",
@@ -25,23 +29,19 @@
     "test": "run-p test:*",
     "test:js": "ava"
   },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "prettier": "1.19.1"
+  },
   "peerDependencies": {
     "prettier": "*"
   },
-  "keywords": [
-    "fisker",
-    "prettier"
-  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "ava": {
     "require": "esm"
-  },
-  "devDependencies": {
-    "ava": "^2.4.0",
-    "prettier": "1.19.1"
   },
   "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
 }

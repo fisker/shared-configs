@@ -1,17 +1,21 @@
 {
   "name": "@fisker/renovate-config",
+  "version": "1.0.23",
   "description": "fisker's Shareable Renovate Configuration",
-  "license": "MIT",
-  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "keywords": [
+    "fisker",
+    "renovate"
+  ],
   "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
   },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "version": "1.0.23",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "files": [],
   "scripts": {
     "build": "yarn clean-package",
@@ -28,10 +32,6 @@
     "read-pkg": "^5.2.0",
     "write-pkg": "^4.0.0"
   },
-  "keywords": [
-    "fisker",
-    "renovate"
-  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

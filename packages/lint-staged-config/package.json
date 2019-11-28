@@ -1,21 +1,21 @@
 {
   "name": "@fisker/lint-staged-config",
+  "version": "1.0.7",
   "description": "fisker's Shareable lint-staged Configuration",
-  "license": "MIT",
-  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fisker/shared-configs.git"
   },
-  "bugs": {
-    "url": "https://github.com/fisker/shared-configs/issues"
-  },
-  "version": "1.0.7",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "files": [
     "dist"
   ],
+  "main": "dist/index.js",
   "scripts": {
     "build": "run-p build:*",
     "build:js": "rollup --config",
