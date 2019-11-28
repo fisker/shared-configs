@@ -25,3 +25,5 @@ dist/**
 coverage/**
 
 # project glob
+**/node_modules/**
+**/dist/**
