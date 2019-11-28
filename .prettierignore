@@ -1,6 +1,6 @@
 # ignore file for `prettier`
 #
-# update: wget -O .prettierignore https://git.io/fhNj3
+# update: wget -O .prettierignore https://git.io/fjVj5
 # document: https://prettier.io/docs/en/ignore.html#ignoring-files
 #
 
@@ -14,7 +14,6 @@ node_modules/**
 **/third-party/**
 
 # build file
-lib/**
 dist/**
 **/*.min.*
 
@@ -22,10 +21,7 @@ dist/**
 **/fixtures/**
 
 # test
-.nyc_outputs/**
+.nyc_output/**
 coverage/**
 
 # project glob
-**/node_modules/**
-**/dist/**
-

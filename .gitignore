@@ -1,3 +1,8 @@
+# ignore file for git project
+#
+# update: wget -O .gitignore https://git.io/fjXI5
+#
+
 # Base on https://www.gitignore.io/api/node
 
 ### Node ###
@@ -88,5 +93,4 @@ typings/
 .dynamodb/
 
 # project ignore files
-.vscode/
-packages/*/dist/
+dist/

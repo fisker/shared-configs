@@ -27,18 +27,19 @@
     "dist": "lerna publish",
     "format": "run-p format:*",
     "format:eslint": "yarn lint:eslint --fix",
-    "format:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "format:markdown": "yarn lint:markdown --fix",
+    "format:prettier": "yarn lint:prettier --write",
     "format:sort-package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint **/*.{js,mjs,vue}",
-    "lint:markdown": "markdownlint **/*.md --ignore \"**/node_modules/**\"",
-    "lint:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --check",
+    "lint:eslint": "eslint \"**/*.{js,mjs,vue}\"",
+    "lint:markdown": "markdownlint \"**/*.md\" --ignore \"**/node_modules/**\"",
+    "lint:prettier": "prettier \"**/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml}\" --check",
     "release": "run-s clean build format lint test dist",
     "test": "lerna run test"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog-emoji"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "devDependencies": {
@@ -49,7 +50,7 @@
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.7",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.22",
     "ava": "2.4.0",
-    "cz-conventional-changelog-emoji": "0.1.0",
+    "cz-conventional-changelog": "3.0.2",
     "del-cli": "3.0.0",
     "eslint": "6.7.1",
     "esm": "3.2.25",
