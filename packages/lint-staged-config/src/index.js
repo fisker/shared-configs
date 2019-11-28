@@ -1,4 +1,4 @@
-import {GIT_ADD} from './commands'
+import {GIT_ADD, SORT_PACKAGE_JSON} from './commands'
 // eslint-disable-next-line unicorn/import-index
 import * as languages from './languages/index'
 import mergeCommands from './utils/merge-commands'
@@ -10,5 +10,7 @@ module.exports = mergeCommands(parseCommands(languages)).reduce(
     ...config,
     [extensionsToGlob(extensions)]: [...commands, GIT_ADD],
   }),
-  {}
+  {
+    'package.json': [SORT_PACKAGE_JSON, GIT_ADD],
+  }
 )

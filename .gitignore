@@ -89,4 +89,4 @@ typings/
 
 # project ignore files
 .vscode/
-packages/*/lib/
+packages/*/dist/

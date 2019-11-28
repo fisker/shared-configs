@@ -27,5 +27,5 @@ coverage/**
 
 # project glob
 **/node_modules/**
-**/lib/**
+**/dist/**
 

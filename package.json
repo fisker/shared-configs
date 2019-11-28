@@ -48,6 +48,7 @@
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.22",
     "ava": "2.4.0",
     "cz-conventional-changelog-emoji": "0.1.0",
+    "del-cli": "3.0.0",
     "eslint": "6.7.1",
     "esm": "3.2.25",
     "husky": "3.1.0",
@@ -58,7 +59,6 @@
     "prettier": "1.19.1",
     "prettier-format": "1.0.1",
     "prettier-package-json": "2.1.0",
-    "rimraf": "3.0.0",
     "rollup": "1.27.5",
     "write-prettier-file": "1.2.2"
   },

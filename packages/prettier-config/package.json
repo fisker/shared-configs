@@ -12,15 +12,15 @@
     "url": "https://github.com/fisker/shared-configs/issues"
   },
   "version": "1.0.22",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "build": "run-s build:js build:docs",
     "build:docs": "node -r esm ./scripts/generate-options.js",
     "build:js": "rollup --config",
-    "clean": "rimraf lib",
+    "clean": "del-cli dist",
     "dev": "rollup --config --watch",
     "test": "run-p test:*",
     "test:js": "ava"
