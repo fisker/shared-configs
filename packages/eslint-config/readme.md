@@ -47,11 +47,12 @@ module.exports = {
 - [x] prettier plugin
 - [x] unicorn plugin
 - [x] promise plugin
-- [ ] react plugin
 - [x] node plugin
 - [x] html plugin
-- [ ] webpack plugin (need evaluate)
 - [x] eslint-comments plugin
+- [x] optimize-regex plugin
+- [ ] react plugin
+- [ ] webpack plugin (need evaluate)
 
 ## Links
 
@@ -64,6 +65,7 @@ module.exports = {
 - [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
 - [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)
 
 ## License
 
