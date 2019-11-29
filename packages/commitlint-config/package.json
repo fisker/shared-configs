@@ -26,6 +26,9 @@
     "test": "run-p test:*",
     "test:js": "echo \"no test yet\""
   },
+  "ava": {
+    "require": "esm"
+  },
   "dependencies": {
     "@commitlint/config-conventional": "8.2.0"
   },
@@ -35,9 +38,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "ava": {
-    "require": "esm"
   },
   "gitHead": "c2a65c40ff7a2f6bdddacab7152b0740abed7fc3"
 }

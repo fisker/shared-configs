@@ -24,14 +24,14 @@
     "test": "run-p test:*",
     "test:js": "echo \"no test yet\""
   },
+  "ava": {
+    "require": "esm"
+  },
   "peerDependencies": {
     "prettier": "*"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "ava": {
-    "require": "esm"
   }
 }

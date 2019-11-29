@@ -27,6 +27,9 @@
     "test": "ava",
     "posttest": "yarn clean-package"
   },
+  "ava": {
+    "require": "esm"
+  },
   "devDependencies": {
     "ava": "^2.4.0",
     "read-pkg": "^5.2.0",
@@ -35,8 +38,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "ava": {
-    "require": "esm"
   }
 }

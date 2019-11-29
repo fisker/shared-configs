@@ -28,6 +28,12 @@
     "clean": "rimraf docs",
     "test": "ava"
   },
+  "ava": {
+    "helpers": [
+      "**/fixtures/**"
+    ],
+    "verbose": true
+  },
   "dependencies": {
     "babel-eslint": "10.0.3",
     "eslint-config-airbnb-base": "14.0.0",
@@ -52,11 +58,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "ava": {
-    "verbose": true,
-    "helpers": [
-      "**/fixtures/**"
-    ]
   }
 }
