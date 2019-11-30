@@ -20,7 +20,6 @@ module.exports = {
     '@fisker/eslint-config/plugins/promise.js',
     '@fisker/eslint-config/plugins/unicorn.js',
     '@fisker/eslint-config/plugins/eslint-comments.js',
-    '@fisker/eslint-config/plugins/optimize-regex.js',
 
     // plugins
     './plugins/es.js',
