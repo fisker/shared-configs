@@ -22,7 +22,6 @@ module.exports = {
     './plugins/node.js',
     './plugins/unicorn.js',
     './plugins/eslint-comments.js',
-    './plugins/optimize-regex.js',
 
     // airbnb
     'eslint-config-airbnb-base',
