@@ -66,7 +66,7 @@
     "read-pkg": "5.2.0",
     "rollup": "1.27.8",
     "safe-regex": "2.1.1",
-    "sort-package-json": "1.27.0",
+    "sort-package-json": "1.28.0",
     "write-prettier-file": "1.2.3"
   },
   "publishConfig": {
