@@ -23,10 +23,8 @@
   "scripts": {
     "build": "lerna run build",
     "build:docs": "lerna run build:docs",
-    "clean": "run-p clean:*",
-    "clean:dist": "del-cli dist",
-    "dist": "run-p dist:*",
-    "dist:npm": "np --yolo --no-yarn",
+    "clean": "lerna run clean",
+    "dist": "lerna publish",
     "format": "run-p format:*",
     "format:eslint": "yarn lint:eslint --fix",
     "format:markdown": "yarn lint:markdown --fix",
