@@ -11,6 +11,7 @@ function getESLintReport(file) {
     baseConfig: {
       extends: [require.resolve('..')],
     },
+    useEslintrc: false,
   })
   const report = cli.executeOnFiles([fixture(file)])
   report.results = report.results.map(result => {
