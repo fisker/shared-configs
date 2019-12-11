@@ -42,6 +42,9 @@ module.exports = {
      */
     'import/no-dynamic-require': 'off',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-named-as-default-member.md
+    'import/no-named-as-default-member': 'warn',
+
     /*
      * This rule enforces that all exports are declared at the bottom of the file.
      * https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
