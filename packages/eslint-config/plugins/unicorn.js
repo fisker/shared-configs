@@ -49,5 +49,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
     // buggy https://github.com/sindresorhus/eslint-plugin-unicorn/issues/391
     'unicorn/consistent-function-scoping': 'warn',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+    // I'll decide myself
+    'unicorn/prefer-modern-dom-apis': 'off',
   },
 }
