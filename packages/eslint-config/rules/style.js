@@ -97,5 +97,9 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
+
+    // Disallow the use of Math.pow in favor of the ** operator
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
   },
 }

@@ -32,7 +32,7 @@ module.exports = {
     '@fisker/eslint-config/rules/style.js',
     '@fisker/eslint-config/rules/variables.js',
 
-    // prittier
+    // prettier
     '@fisker/eslint-config/plugins/prettier.js',
   ].map(require.resolve),
   rules: {
@@ -43,5 +43,8 @@ module.exports = {
 
     // catch shadow
     'no-catch-shadow': 'error',
+
+    // not supported
+    'prefer-exponentiation-operator': 'off',
   },
 }

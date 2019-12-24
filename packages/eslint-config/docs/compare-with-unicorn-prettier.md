@@ -13,6 +13,7 @@ unicorn/no-for-loop, warn, error, https://github.com/sindresorhus/eslint-plugin-
 unicorn/no-process-exit, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/no-process-exit.md
 unicorn/prefer-add-event-listener, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-add-event-listener.md
 unicorn/prefer-dataset, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-dataset.md
+unicorn/prefer-exponentiation-operator, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md
 unicorn/prefer-modern-dom-apis, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-modern-dom-apis.md
 unicorn/prefer-node-append, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-append.md
 unicorn/prefer-node-remove, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-remove.md
@@ -22,21 +23,22 @@ unicorn/prefer-text-content, off, error, https://github.com/sindresorhus/eslint-
 unicorn/regex-shorthand, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/regex-shorthand.md
 -->
 
-|   # | Rule                                                                                                                                                | fisker | unicorn/recommended + prettier/unicorn |
-| --: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------------------------------------: |
-|   1 | [unicorn/consistent-function-scoping](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/consistent-function-scoping.md) |  warn  |                 error                  |
-|   2 | [unicorn/expiring-todo-comments](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/expiring-todo-comments.md)           |  warn  |                 error                  |
-|   3 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/no-for-loop.md)                                 |  warn  |                 error                  |
-|   4 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/no-process-exit.md)                         |  warn  |                 error                  |
-|   5 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-add-event-listener.md)     |  off   |                 error                  |
-|   6 | [unicorn/prefer-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-dataset.md)                           |  off   |                 error                  |
-|   7 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-modern-dom-apis.md)           |  off   |                 error                  |
-|   8 | [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-append.md)                   |  off   |                 error                  |
-|   9 | [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-remove.md)                   |  off   |                 error                  |
-|  10 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-query-selector.md)             |  off   |                 error                  |
-|  11 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-spread.md)                             |  off   |                 error                  |
-|  12 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-text-content.md)                 |  off   |                 error                  |
-|  13 | [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/regex-shorthand.md)                         |  warn  |                 error                  |
+|   # | Rule                                                                                                                                                      | fisker | unicorn/recommended + prettier/unicorn |
+| --: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :------------------------------------: |
+|   1 | [unicorn/consistent-function-scoping](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/consistent-function-scoping.md)       |  warn  |                 error                  |
+|   2 | [unicorn/expiring-todo-comments](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/expiring-todo-comments.md)                 |  warn  |                 error                  |
+|   3 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/no-for-loop.md)                                       |  warn  |                 error                  |
+|   4 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/no-process-exit.md)                               |  warn  |                 error                  |
+|   5 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-add-event-listener.md)           |  off   |                 error                  |
+|   6 | [unicorn/prefer-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-dataset.md)                                 |  off   |                 error                  |
+|   7 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md) |  off   |                 error                  |
+|   8 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-modern-dom-apis.md)                 |  off   |                 error                  |
+|   9 | [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-append.md)                         |  off   |                 error                  |
+|  10 | [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-node-remove.md)                         |  off   |                 error                  |
+|  11 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-query-selector.md)                   |  off   |                 error                  |
+|  12 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-spread.md)                                   |  off   |                 error                  |
+|  13 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-text-content.md)                       |  off   |                 error                  |
+|  14 | [unicorn/regex-shorthand](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/regex-shorthand.md)                               |  warn  |                 error                  |
 
 ## all rules
 
@@ -69,7 +71,7 @@ unicorn/number-literal-case, off, off, https://github.com/sindresorhus/eslint-pl
 unicorn/prefer-add-event-listener, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-add-event-listener.md
 unicorn/prefer-dataset, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-dataset.md
 unicorn/prefer-event-key, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-event-key.md
-unicorn/prefer-exponentiation-operator, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md
+unicorn/prefer-exponentiation-operator, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md
 unicorn/prefer-flat-map, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-flat-map.md
 unicorn/prefer-includes, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-includes.md
 unicorn/prefer-modern-dom-apis, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-modern-dom-apis.md
@@ -119,7 +121,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  26 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-add-event-listener.md)                 |  off   |                 error                  |
 |  27 | [unicorn/prefer-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-dataset.md)                                       |  off   |                 error                  |
 |  28 | [unicorn/prefer-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-event-key.md)                                   | error  |                 error                  |
-|  29 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md)       | error  |                 error                  |
+|  29 | [unicorn/prefer-exponentiation-operator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-exponentiation-operator.md)       |  off   |                 error                  |
 |  30 | [unicorn/prefer-flat-map](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-flat-map.md)                                     | error  |                 error                  |
 |  31 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-includes.md)                                     | error  |                 error                  |
 |  32 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v15.0.0/docs/rules/prefer-modern-dom-apis.md)                       |  off   |                 error                  |

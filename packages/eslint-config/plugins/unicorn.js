@@ -53,5 +53,8 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
     // I'll decide myself
     'unicorn/prefer-modern-dom-apis': 'off',
+
+    // covered by `prefer-exponentiation-operator`
+    'unicorn/prefer-exponentiation-operator': 'off',
   },
 }
