@@ -72,7 +72,7 @@
     "read-pkg-up": "7.0.1",
     "rollup": "1.27.14",
     "safe-regex": "2.1.1",
-    "sort-package-json": "1.31.0",
+    "sort-package-json": "1.32.2",
     "write-prettier-file": "1.2.3"
   },
   "publishConfig": {
