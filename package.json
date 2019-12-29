@@ -61,7 +61,7 @@
     "eslint-plugin-unicorn": "15.0.1",
     "esm": "3.2.25",
     "husky": "3.1.0",
-    "lerna": "3.20.0",
+    "lerna": "3.20.1",
     "lint-staged": "9.5.0",
     "markdownlint-cli": "0.20.0",
     "mem": "6.0.1",
