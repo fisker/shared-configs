@@ -29,10 +29,18 @@
     "test:js": "ava --verbose"
   },
   "ava": {
-    "require": "esm"
+    "babel": true,
+    "files": [
+      "test.js"
+    ],
+    "require": [
+      "esm"
+    ],
+    "verbose": true
   },
   "devDependencies": {
-    "ava": "^3.0.0"
+    "@ava/babel": "1.0.0",
+    "ava": "3.0.0"
   },
   "peerDependencies": {
     "husky": "*"
