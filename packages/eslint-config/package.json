@@ -29,12 +29,17 @@
     "test": "ava"
   },
   "ava": {
-    "helpers": [
-      "**/fixtures/**"
+    "babel": true,
+    "files": [
+      "test/test.js"
+    ],
+    "require": [
+      "esm"
     ],
     "verbose": true
   },
   "dependencies": {
+    "@ava/babel": "1.0.0",
     "babel-eslint": "10.0.3",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.9.0",
@@ -47,7 +52,7 @@
     "eslint-plugin-unicorn": "15.0.1"
   },
   "devDependencies": {
-    "ava": "^2.4.0",
+    "ava": "3.0.0",
     "eslint": "6.8.0"
   },
   "peerDependencies": {
