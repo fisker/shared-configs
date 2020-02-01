@@ -17,11 +17,11 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "main": "index.js",
   "files": [
     "plugins",
     "rules"
   ],
-  "main": "index.js",
   "scripts": {
     "build": "run-p build:*",
     "build:docs": "node -r esm scripts/compare.js",

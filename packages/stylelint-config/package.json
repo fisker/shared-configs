@@ -17,10 +17,10 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "main": "index.js",
   "scripts": {},
   "dependencies": {
     "stylelint-config-prettier": "8.0.1",

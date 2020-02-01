@@ -12,10 +12,10 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"no test yet\""
