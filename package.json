@@ -51,7 +51,7 @@
     "@fisker/prettier-config": "1.0.26",
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.1.6",
     "@self/husky-config": "npm:@fisker/husky-config@1.1.7",
-    "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.10",
+    "@self/lint-staged-config": "npm:@fisker/lint-staged-config@1.0.11",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.26",
     "ava": "3.1.0",
     "cz-conventional-changelog": "3.1.0",
