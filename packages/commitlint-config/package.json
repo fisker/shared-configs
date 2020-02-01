@@ -16,10 +16,10 @@
     "email": "lionkay@gmail.com",
     "url": "https://www.fiskercheung.com/"
   },
+  "main": "index.js",
   "files": [
     "lib"
   ],
-  "main": "index.js",
   "scripts": {
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
