@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-legacy",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "fisker's Shareable ESLint Configuration for legacy project",
   "keywords": [
     "config",
@@ -31,7 +31,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@fisker/eslint-config": "^1.6.2",
+    "@fisker/eslint-config": "^1.6.3",
     "babel-eslint": "10.0.3",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-es": "3.0.0"
