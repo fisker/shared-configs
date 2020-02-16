@@ -60,7 +60,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-unicorn": "16.1.1",
     "esm": "3.2.25",
-    "husky": "4.2.1",
+    "husky": "4.2.3",
     "lerna": "3.20.2",
     "lint-staged": "10.0.7",
     "markdownlint-cli": "0.22.0",
