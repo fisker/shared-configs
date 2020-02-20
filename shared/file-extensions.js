@@ -3,7 +3,7 @@ import toArray from './to-array'
 const languageExtensions = {
   graphql: 'gql,graphql',
   html: 'html,htm',
-  javascript: 'js,jsx,mjs',
+  javascript: 'js,jsx,mjs,cjs',
   // more markdown extensions: mdown, mdwn, mkd, mkdn, mkdown
   markdown: 'md,markdown',
   typescript: 'ts,tsx',

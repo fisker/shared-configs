@@ -65,7 +65,7 @@ module.exports = require('@fisker/prettier-config').extend({
 | :----- | :---- | :------------------- |
 | parser | html  | Which parser to use. |
 
-### \*.{js,jsx,mjs}
+### \*.{cjs,js,jsx,mjs}
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |

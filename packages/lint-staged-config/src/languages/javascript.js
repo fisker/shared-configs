@@ -1,6 +1,7 @@
 import {ESLINT} from '../commands'
+import getExtensions from '../../../../shared/file-extensions'
 
 export default {
-  extensions: 'js,jsx,mjs',
+  extensions: getExtensions('javascript'),
   commands: ESLINT,
 }
