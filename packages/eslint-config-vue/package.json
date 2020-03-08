@@ -33,7 +33,7 @@
   "dependencies": {
     "@fisker/eslint-config": "^1.6.6",
     "eslint-config-prettier": "6.10.0",
-    "eslint-plugin-vue": "6.2.1"
+    "eslint-plugin-vue": "6.2.2"
   },
   "peerDependencies": {
     "eslint": "*",
