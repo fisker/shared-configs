@@ -18,7 +18,6 @@ unicorn/prefer-modern-dom-apis, off, error, https://github.com/sindresorhus/esli
 unicorn/prefer-node-append, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-node-append.md
 unicorn/prefer-node-remove, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-node-remove.md
 unicorn/prefer-query-selector, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md
-unicorn/prefer-spread, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
 unicorn/prefer-text-content, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md
 -->
 
@@ -35,8 +34,7 @@ unicorn/prefer-text-content, off, error, https://github.com/sindresorhus/eslint-
 |   9 | [unicorn/prefer-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-node-append.md)                         |  off   |                 error                  |
 |  10 | [unicorn/prefer-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-node-remove.md)                         |  off   |                 error                  |
 |  11 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md)                   |  off   |                 error                  |
-|  12 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                                   |  off   |                 error                  |
-|  13 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md)                       |  off   |                 error                  |
+|  12 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md)                       |  off   |                 error                  |
 
 ## all rules
 
@@ -80,7 +78,7 @@ unicorn/prefer-node-remove, off, error, https://github.com/sindresorhus/eslint-p
 unicorn/prefer-query-selector, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md
 unicorn/prefer-reflect-apply, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-reflect-apply.md
 unicorn/prefer-replace-all, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-replace-all.md
-unicorn/prefer-spread, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
+unicorn/prefer-spread, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
 unicorn/prefer-starts-ends-with, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md
 unicorn/prefer-string-slice, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-string-slice.md
 unicorn/prefer-text-content, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md
@@ -132,7 +130,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  37 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md)                         |  off   |                 error                  |
 |  38 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-reflect-apply.md)                           | error  |                 error                  |
 |  39 | [unicorn/prefer-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-replace-all.md)                               |  off   |                  off                   |
-|  40 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                                         |  off   |                 error                  |
+|  40 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                                         | error  |                 error                  |
 |  41 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md)                     | error  |                 error                  |
 |  42 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-string-slice.md)                             | error  |                 error                  |
 |  43 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md)                             |  off   |                 error                  |

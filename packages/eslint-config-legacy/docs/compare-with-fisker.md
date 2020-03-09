@@ -112,6 +112,7 @@ es/no-unicode-codepoint-escapes, error, , http://mysticatea.github.io/eslint-plu
 es/no-weak-map, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html
 es/no-weak-set, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html
 unicorn/no-for-loop, off, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/no-for-loop.md
+unicorn/prefer-spread, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
 unicorn/prefer-starts-ends-with, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md
 -->
 
@@ -222,7 +223,8 @@ unicorn/prefer-starts-ends-with, off, error, https://github.com/sindresorhus/esl
 | 103 | [es/no-weak-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html)                                                       | error  |
 | 104 | [es/no-weak-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html)                                                       | error  |
 | 105 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/no-for-loop.md)                         |  off   |  warn  |
-| 106 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md) |  off   | error  |
+| 106 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                     |  off   | error  |
+| 107 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md) |  off   | error  |
 
 ## all rules
 
@@ -643,7 +645,7 @@ unicorn/prefer-node-remove, off, off, https://github.com/sindresorhus/eslint-plu
 unicorn/prefer-query-selector, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md
 unicorn/prefer-reflect-apply, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-reflect-apply.md
 unicorn/prefer-replace-all, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-replace-all.md
-unicorn/prefer-spread, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
+unicorn/prefer-spread, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md
 unicorn/prefer-starts-ends-with, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md
 unicorn/prefer-string-slice, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-string-slice.md
 unicorn/prefer-text-content, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md
@@ -1072,7 +1074,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 | 414 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-query-selector.md)                         |  off   |  off   |
 | 415 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-reflect-apply.md)                           | error  | error  |
 | 416 | [unicorn/prefer-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-replace-all.md)                               |  off   |  off   |
-| 417 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                                         |  off   |  off   |
+| 417 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-spread.md)                                         |  off   | error  |
 | 418 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-starts-ends-with.md)                     |  off   | error  |
 | 419 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-string-slice.md)                             | error  | error  |
 | 420 | [unicorn/prefer-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.0.1/docs/rules/prefer-text-content.md)                             |  off   |  off   |
