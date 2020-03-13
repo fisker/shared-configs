@@ -23,8 +23,10 @@ module.exports = {
     // enforce default parameters to be last
     'default-param-last': 'error',
 
+    // disable due to a unknown reason, can't load this rule
+    // TODO: enable this
     // require grouped accessor pairs in object literals and classes
-    'grouped-accessor-pair': 'error',
+    // 'grouped-accessor-pair': 'error',
 
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
