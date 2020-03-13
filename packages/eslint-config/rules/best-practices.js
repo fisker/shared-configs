@@ -20,8 +20,17 @@ module.exports = {
       },
     ],
 
+    // enforce default parameters to be last
+    'default-param-last': 'error',
+
+    // require grouped accessor pairs in object literals and classes
+    'grouped-accessor-pair': 'error',
+
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
+
+    // disallow returning value from constructor
+    'no-constructor-return': 'error',
 
     // don't allow comparisons to null
     'no-eq-null': 'error',
@@ -61,5 +70,8 @@ module.exports = {
     // disallow unnecessary .call() and .apply()
     // airbnb allow this
     'no-useless-call': 'error',
+
+    // disallow use of the `RegExp` constructor in favor of regular expression literals
+    'prefer-regex-literals': 'error',
   },
 }
