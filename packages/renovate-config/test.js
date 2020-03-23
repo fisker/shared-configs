@@ -3,7 +3,7 @@ import package_ from './package.json'
 import * as presets from './presets'
 import {PACKAGE_FIELD} from './constants'
 
-test('package.json', t => {
+test('package.json', (t) => {
   t.truthy(presets.default, 'should has default preset')
 
   t.deepEqual(

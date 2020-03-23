@@ -8,4 +8,4 @@ function getRuleDocuments(ruleId, defs) {
   return documents
 }
 
-export default mem(getRuleDocuments, {cacheKey: ruleId => ruleId})
+export default mem(getRuleDocuments, {cacheKey: (ruleId) => ruleId})

@@ -7,11 +7,11 @@ const hooks = toHooks(defaultHooks)
 const testHook = Object.keys(hooks)[0]
 const testCommand = `echo "${new Date()}"`
 
-test('default', t => {
+test('default', (t) => {
   t.deepEqual(config.hooks, hooks)
 })
 
-test('prepend', t => {
+test('prepend', (t) => {
   const modified = config.prepend({
     [testHook]: testCommand,
   })
@@ -19,7 +19,7 @@ test('prepend', t => {
   t.is(modified.hooks[testHook], `${testCommand} && ${hooks[testHook]}`)
 })
 
-test('append', t => {
+test('append', (t) => {
   const modified = config.append({
     [testHook]: testCommand,
   })
@@ -27,7 +27,7 @@ test('append', t => {
   t.is(modified.hooks[testHook], `${hooks[testHook]} && ${testCommand}`)
 })
 
-test('overrides', t => {
+test('overrides', (t) => {
   const modified = config.overrides({
     [testHook]: [testCommand],
   })
@@ -35,7 +35,7 @@ test('overrides', t => {
   t.is(modified.hooks[testHook], testCommand)
 })
 
-test('overrides with falsely value', t => {
+test('overrides with falsely value', (t) => {
   const modified = config.overrides({
     [testHook]: null,
   })
@@ -43,7 +43,7 @@ test('overrides with falsely value', t => {
   t.is(modified.hooks[testHook], undefined)
 })
 
-test('chained', t => {
+test('chained', (t) => {
   const modified = config
     .overrides({
       [testHook]: null,
