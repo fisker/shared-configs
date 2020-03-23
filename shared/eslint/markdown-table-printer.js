@@ -21,7 +21,7 @@ function markdown({names, data}) {
       foreign,
     ]),
   ]
-    .map(parts => parts.join('|'))
+    .map((parts) => parts.join('|'))
     .join('\n')
 }
 
