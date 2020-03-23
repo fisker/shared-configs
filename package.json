@@ -50,7 +50,7 @@
     "@fisker/lint-staged-config": "1.0.10",
     "@fisker/prettier-config": "1.0.26",
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.1.7",
-    "@self/husky-config": "npm:@fisker/husky-config@1.1.10",
+    "@self/husky-config": "npm:@fisker/husky-config@2.0.0",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@2.0.0",
     "@self/prettier-config": "npm:@fisker/prettier-config@1.0.30",
     "ava": "3.5.1",
