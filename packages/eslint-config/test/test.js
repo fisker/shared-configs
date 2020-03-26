@@ -14,7 +14,7 @@ function getESLintReport(file) {
     useEslintrc: false,
   })
   const report = cli.executeOnFiles([fixture(file)])
-  report.results = report.results.map(result => {
+  report.results = report.results.map((result) => {
     delete result.filePath
     return result
   })
@@ -24,7 +24,7 @@ function getESLintReport(file) {
 // eslint-disable-next-line handle-callback-err
 fs.readdir(path.join(__dirname, 'fixtures'), (error, files) => {
   for (const file of files) {
-    test(file, t => {
+    test(file, (t) => {
       const report = getESLintReport(file)
       t.snapshot(report)
     })

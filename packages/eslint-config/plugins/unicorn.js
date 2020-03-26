@@ -20,10 +20,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'off',
 
-    // TODO: enable this rule after bug fixed
-    // bug desc https://github.com/sindresorhus/eslint-plugin-unicorn/issues/254
-    'unicorn/prefer-spread': 'off',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
       'error',

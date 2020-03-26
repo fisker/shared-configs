@@ -2,7 +2,7 @@ import toArray from './to-array'
 
 function parseCommands(languages) {
   return Object.keys(languages)
-    .map(language => {
+    .map((language) => {
       const {extensions = language, commands = []} = languages[language]
       return {
         extensions: toArray(extensions),

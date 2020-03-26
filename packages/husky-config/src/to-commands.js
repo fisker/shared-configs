@@ -9,7 +9,7 @@ function toCommands(options = {}) {
   for (const hook of keys) {
     const hooks = options[hook] || []
     const commands = (Array.isArray(hooks) ? hooks : spit(hooks))
-      .map(command => command.trim())
+      .map((command) => command.trim())
       .filter(Boolean)
 
     if (commands.length !== 0) {

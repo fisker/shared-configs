@@ -1,6 +1,6 @@
 {
   "name": "@fisker/prettier-config",
-  "version": "1.0.30",
+  "version": "2.0.0",
   "description": "fisker's Shareable prettier Configuration",
   "keywords": [
     "fisker",
@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
-    "ava": "3.5.0",
-    "prettier": "1.19.1"
+    "ava": "3.5.1",
+    "prettier": "2.0.2"
   },
   "peerDependencies": {
     "prettier": "*"

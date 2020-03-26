@@ -18,5 +18,14 @@ module.exports = {
     // no loop check
     // https://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': ['warn', {checkLoops: false}],
+
+    // disallow duplicate conditions in if-else-if chains
+    'no-dupe-else-if': 'error',
+
+    // disallow assigning to imported bindings
+    'no-import-assign': 'error',
+
+    // disallow returning values from setters
+    'no-setter-return': 'error',
   },
 }
