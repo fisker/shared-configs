@@ -1,6 +1,6 @@
 {
   "name": "@fisker/lint-staged-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "fisker's Shareable lint-staged Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
   "bugs": {
