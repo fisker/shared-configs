@@ -6,6 +6,7 @@ module.exports = {
     'stylelint-config-prettier',
   ].map(require.resolve),
   rules: {
+    /* eslint-disable unicorn/no-null */
     'block-no-empty': null,
     'font-family-no-missing-generic-family-keyword': null,
     'no-empty-source': null,
@@ -24,5 +25,6 @@ module.exports = {
     'prettier/prettier': true,
     // SCSS function name, and express function name are case-sensitive
     'function-name-case': null,
+    /* eslint-enable unicorn/no-null */
   },
 }

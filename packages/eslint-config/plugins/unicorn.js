@@ -49,5 +49,9 @@ module.exports = {
 
     // covered by `prefer-exponentiation-operator`
     'unicorn/prefer-exponentiation-operator': 'off',
+
+    'unicorn/no-fn-reference-in-iterator': 'warn',
+
+    'unicorn/no-null': 'warn',
   },
 }

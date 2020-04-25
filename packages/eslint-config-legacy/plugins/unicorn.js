@@ -17,5 +17,7 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
     'unicorn/prefer-set-has': 'off',
+
+    'unicorn/no-fn-reference-in-iterator': 'off',
   },
 }
