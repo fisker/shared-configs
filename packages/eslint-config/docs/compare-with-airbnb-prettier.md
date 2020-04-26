@@ -7,7 +7,7 @@
 ## difference only
 
 <!-- fisker vs airbnb + prettier
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 curly, error, off, https://eslint.org/docs/rules/curly
 default-param-last, error, off, https://eslint.org/docs/rules/default-param-last
 func-names, off, warn, https://eslint.org/docs/rules/func-names
@@ -47,7 +47,7 @@ import/prefer-default-export, off, error, https://github.com/benmosher/eslint-pl
 
 |   # | Rule                                                                                                                                         | fisker | airbnb + prettier |
 | --: | :------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :---------------: |
-|   1 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                         |  warn  |       error       |
+|   1 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                         |  off   |       error       |
 |   2 | [curly](https://eslint.org/docs/rules/curly)                                                                                                 | error  |        off        |
 |   3 | [default-param-last](https://eslint.org/docs/rules/default-param-last)                                                                       | error  |        off        |
 |   4 | [func-names](https://eslint.org/docs/rules/func-names)                                                                                       |  off   |       warn        |
@@ -107,7 +107,7 @@ comma-spacing, off, off, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, off, https://eslint.org/docs/rules/comma-style
 complexity, off, off, https://eslint.org/docs/rules/complexity
 computed-property-spacing, off, off, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 consistent-this, off, off, https://eslint.org/docs/rules/consistent-this
 constructor-super, error, error, https://eslint.org/docs/rules/constructor-super
 curly, error, off, https://eslint.org/docs/rules/curly
@@ -440,7 +440,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 |  18 | [comma-style](https://eslint.org/docs/rules/comma-style)                                                                                            |  off   |        off        |
 |  19 | [complexity](https://eslint.org/docs/rules/complexity)                                                                                              |  off   |        off        |
 |  20 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                                                |  off   |        off        |
-|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                |  warn  |       error       |
+|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                |  off   |       error       |
 |  22 | [consistent-this](https://eslint.org/docs/rules/consistent-this)                                                                                    |  off   |        off        |
 |  23 | [constructor-super](https://eslint.org/docs/rules/constructor-super)                                                                                | error  |       error       |
 |  24 | [curly](https://eslint.org/docs/rules/curly)                                                                                                        | error  |        off        |

@@ -255,7 +255,7 @@ comma-spacing, off, off, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, off, https://eslint.org/docs/rules/comma-style
 complexity, off, off, https://eslint.org/docs/rules/complexity
 computed-property-spacing, off, off, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, warn, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, off, https://eslint.org/docs/rules/consistent-return
 consistent-this, off, off, https://eslint.org/docs/rules/consistent-this
 curly, error, error, https://eslint.org/docs/rules/curly
 default-case, error, error, https://eslint.org/docs/rules/default-case
@@ -694,7 +694,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  18 | [comma-style](https://eslint.org/docs/rules/comma-style)                                                                                                        |  off   |  off   |
 |  19 | [complexity](https://eslint.org/docs/rules/complexity)                                                                                                          |  off   |  off   |
 |  20 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                                                            |  off   |  off   |
-|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                            |  warn  |  warn  |
+|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                            |  off   |  off   |
 |  22 | [consistent-this](https://eslint.org/docs/rules/consistent-this)                                                                                                |  off   |  off   |
 |  23 | [curly](https://eslint.org/docs/rules/curly)                                                                                                                    | error  | error  |
 |  24 | [default-case](https://eslint.org/docs/rules/default-case)                                                                                                      | error  | error  |

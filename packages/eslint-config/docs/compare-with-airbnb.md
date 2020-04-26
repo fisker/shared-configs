@@ -17,7 +17,7 @@ comma-dangle, off, error, https://eslint.org/docs/rules/comma-dangle
 comma-spacing, off, error, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, error, https://eslint.org/docs/rules/comma-style
 computed-property-spacing, off, error, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 default-param-last, error, off, https://eslint.org/docs/rules/default-param-last
 dot-location, off, error, https://eslint.org/docs/rules/dot-location
 eol-last, off, error, https://eslint.org/docs/rules/eol-last
@@ -130,7 +130,7 @@ import/prefer-default-export, off, error, https://github.com/benmosher/eslint-pl
 |   8 | [comma-spacing](https://eslint.org/docs/rules/comma-spacing)                                                                                 |  off   | error  |
 |   9 | [comma-style](https://eslint.org/docs/rules/comma-style)                                                                                     |  off   | error  |
 |  10 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                                         |  off   | error  |
-|  11 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                         |  warn  | error  |
+|  11 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                         |  off   | error  |
 |  12 | [default-param-last](https://eslint.org/docs/rules/default-param-last)                                                                       | error  |  off   |
 |  13 | [dot-location](https://eslint.org/docs/rules/dot-location)                                                                                   |  off   | error  |
 |  14 | [eol-last](https://eslint.org/docs/rules/eol-last)                                                                                           |  off   | error  |
@@ -253,7 +253,7 @@ comma-spacing, off, error, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, error, https://eslint.org/docs/rules/comma-style
 complexity, off, off, https://eslint.org/docs/rules/complexity
 computed-property-spacing, off, error, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 consistent-this, off, off, https://eslint.org/docs/rules/consistent-this
 constructor-super, error, error, https://eslint.org/docs/rules/constructor-super
 curly, error, error, https://eslint.org/docs/rules/curly
@@ -586,7 +586,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 |  18 | [comma-style](https://eslint.org/docs/rules/comma-style)                                                                                            |  off   | error  |
 |  19 | [complexity](https://eslint.org/docs/rules/complexity)                                                                                              |  off   |  off   |
 |  20 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)                                                                |  off   | error  |
-|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                |  warn  | error  |
+|  21 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                                                                                |  off   | error  |
 |  22 | [consistent-this](https://eslint.org/docs/rules/consistent-this)                                                                                    |  off   |  off   |
 |  23 | [constructor-super](https://eslint.org/docs/rules/constructor-super)                                                                                | error  | error  |
 |  24 | [curly](https://eslint.org/docs/rules/curly)                                                                                                        | error  | error  |

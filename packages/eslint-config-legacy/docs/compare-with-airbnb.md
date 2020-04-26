@@ -14,7 +14,7 @@ comma-dangle, off, error, https://eslint.org/docs/rules/comma-dangle
 comma-spacing, off, error, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, error, https://eslint.org/docs/rules/comma-style
 computed-property-spacing, off, error, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 default-param-last, error, off, https://eslint.org/docs/rules/default-param-last
 dot-location, off, error, https://eslint.org/docs/rules/dot-location
 eol-last, off, error, https://eslint.org/docs/rules/eol-last
@@ -96,7 +96,7 @@ wrap-iife, off, error, https://eslint.org/docs/rules/wrap-iife
 |   5 | [comma-spacing](https://eslint.org/docs/rules/comma-spacing)                                       |  off   |     error     |
 |   6 | [comma-style](https://eslint.org/docs/rules/comma-style)                                           |  off   |     error     |
 |   7 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)               |  off   |     error     |
-|   8 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                               |  warn  |     error     |
+|   8 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                               |  off   |     error     |
 |   9 | [default-param-last](https://eslint.org/docs/rules/default-param-last)                             | error  |      off      |
 |  10 | [dot-location](https://eslint.org/docs/rules/dot-location)                                         |  off   |     error     |
 |  11 | [eol-last](https://eslint.org/docs/rules/eol-last)                                                 |  off   |     error     |
@@ -188,7 +188,7 @@ comma-spacing, off, error, https://eslint.org/docs/rules/comma-spacing
 comma-style, off, error, https://eslint.org/docs/rules/comma-style
 complexity, off, off, https://eslint.org/docs/rules/complexity
 computed-property-spacing, off, error, https://eslint.org/docs/rules/computed-property-spacing
-consistent-return, warn, error, https://eslint.org/docs/rules/consistent-return
+consistent-return, off, error, https://eslint.org/docs/rules/consistent-return
 consistent-this, off, off, https://eslint.org/docs/rules/consistent-this
 curly, error, error, https://eslint.org/docs/rules/curly
 default-case, error, error, https://eslint.org/docs/rules/default-case
@@ -436,7 +436,7 @@ yoda, error, error, https://eslint.org/docs/rules/yoda
 |  15 | [comma-style](https://eslint.org/docs/rules/comma-style)                                           |  off   |     error     |
 |  16 | [complexity](https://eslint.org/docs/rules/complexity)                                             |  off   |      off      |
 |  17 | [computed-property-spacing](https://eslint.org/docs/rules/computed-property-spacing)               |  off   |     error     |
-|  18 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                               |  warn  |     error     |
+|  18 | [consistent-return](https://eslint.org/docs/rules/consistent-return)                               |  off   |     error     |
 |  19 | [consistent-this](https://eslint.org/docs/rules/consistent-this)                                   |  off   |      off      |
 |  20 | [curly](https://eslint.org/docs/rules/curly)                                                       | error  |     error     |
 |  21 | [default-case](https://eslint.org/docs/rules/default-case)                                         | error  |     error     |

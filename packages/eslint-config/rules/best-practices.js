@@ -14,7 +14,7 @@ module.exports = {
 
     // allow function returns no value
     'consistent-return': [
-      'warn',
+      'off',
       {
         treatUndefinedAsUnspecified: true,
       },
