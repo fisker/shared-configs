@@ -70,7 +70,7 @@
     "prettier-format": "1.1.5",
     "read-pkg": "5.2.0",
     "read-pkg-up": "7.0.1",
-    "rollup": "2.7.4",
+    "rollup": "2.7.5",
     "safe-regex": "2.1.1",
     "sort-package-json": "1.42.1",
     "write-prettier-file": "1.2.6"
