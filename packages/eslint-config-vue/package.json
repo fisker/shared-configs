@@ -28,12 +28,15 @@
     "clean": "rimraf docs",
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
     "test": "run-p test:*",
-    "test:js": "echo \"no test yet\""
+    "test:js": "echo \"no test yet\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@fisker/eslint-config": "^2.2.2",
     "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-vue": "6.2.2"
+    "eslint-plugin-vue": "6.2.2",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "eslint": "*",
@@ -43,5 +46,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
+  "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912",
+  "snyk": true
 }
