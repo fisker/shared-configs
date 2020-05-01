@@ -54,7 +54,7 @@ const content = [
   OPTIONS_END_MARK,
 ].join('\n\n')
 
-const readmeFile = join(__dirname, `../readme.md`)
+const readmeFile = join(__dirname, '../readme.md')
 
 prettierFile({
   file: readmeFile,

@@ -71,7 +71,6 @@ operator-linebreak, off, error, https://eslint.org/docs/rules/operator-linebreak
 padded-blocks, off, error, https://eslint.org/docs/rules/padded-blocks
 prefer-regex-literals, error, off, https://eslint.org/docs/rules/prefer-regex-literals
 quote-props, off, error, https://eslint.org/docs/rules/quote-props
-quotes, off, error, https://eslint.org/docs/rules/quotes
 semi, off, error, https://eslint.org/docs/rules/semi
 semi-spacing, off, error, https://eslint.org/docs/rules/semi-spacing
 semi-style, off, error, https://eslint.org/docs/rules/semi-style
@@ -153,20 +152,19 @@ wrap-iife, off, error, https://eslint.org/docs/rules/wrap-iife
 |  62 | [padded-blocks](https://eslint.org/docs/rules/padded-blocks)                                       |  off   |     error     |
 |  63 | [prefer-regex-literals](https://eslint.org/docs/rules/prefer-regex-literals)                       | error  |      off      |
 |  64 | [quote-props](https://eslint.org/docs/rules/quote-props)                                           |  off   |     error     |
-|  65 | [quotes](https://eslint.org/docs/rules/quotes)                                                     |  off   |     error     |
-|  66 | [semi](https://eslint.org/docs/rules/semi)                                                         |  off   |     error     |
-|  67 | [semi-spacing](https://eslint.org/docs/rules/semi-spacing)                                         |  off   |     error     |
-|  68 | [semi-style](https://eslint.org/docs/rules/semi-style)                                             |  off   |     error     |
-|  69 | [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)                           |  off   |     error     |
-|  70 | [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)           |  off   |     error     |
-|  71 | [space-in-parens](https://eslint.org/docs/rules/space-in-parens)                                   |  off   |     error     |
-|  72 | [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)                                   |  off   |     error     |
-|  73 | [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)                                   |  off   |     error     |
-|  74 | [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing)                         |  off   |     error     |
-|  75 | [template-tag-spacing](https://eslint.org/docs/rules/template-tag-spacing)                         |  off   |     error     |
-|  76 | [unicode-bom](https://eslint.org/docs/rules/unicode-bom)                                           |  off   |     error     |
-|  77 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                           |  off   |     error     |
-|  78 | [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                               |  off   |     error     |
+|  65 | [semi](https://eslint.org/docs/rules/semi)                                                         |  off   |     error     |
+|  66 | [semi-spacing](https://eslint.org/docs/rules/semi-spacing)                                         |  off   |     error     |
+|  67 | [semi-style](https://eslint.org/docs/rules/semi-style)                                             |  off   |     error     |
+|  68 | [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)                           |  off   |     error     |
+|  69 | [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)           |  off   |     error     |
+|  70 | [space-in-parens](https://eslint.org/docs/rules/space-in-parens)                                   |  off   |     error     |
+|  71 | [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops)                                   |  off   |     error     |
+|  72 | [space-unary-ops](https://eslint.org/docs/rules/space-unary-ops)                                   |  off   |     error     |
+|  73 | [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing)                         |  off   |     error     |
+|  74 | [template-tag-spacing](https://eslint.org/docs/rules/template-tag-spacing)                         |  off   |     error     |
+|  75 | [unicode-bom](https://eslint.org/docs/rules/unicode-bom)                                           |  off   |     error     |
+|  76 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                           |  off   |     error     |
+|  77 | [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                               |  off   |     error     |
 
 ## all rules
 
@@ -387,7 +385,7 @@ prefer-object-spread, error, error, https://eslint.org/docs/rules/prefer-object-
 prefer-promise-reject-errors, error, error, https://eslint.org/docs/rules/prefer-promise-reject-errors
 prefer-regex-literals, error, off, https://eslint.org/docs/rules/prefer-regex-literals
 quote-props, off, error, https://eslint.org/docs/rules/quote-props
-quotes, off, error, https://eslint.org/docs/rules/quotes
+quotes, error, error, https://eslint.org/docs/rules/quotes
 radix, error, error, https://eslint.org/docs/rules/radix
 require-atomic-updates, off, off, https://eslint.org/docs/rules/require-atomic-updates
 require-await, off, off, https://eslint.org/docs/rules/require-await
@@ -635,7 +633,7 @@ yoda, error, error, https://eslint.org/docs/rules/yoda
 | 214 | [prefer-promise-reject-errors](https://eslint.org/docs/rules/prefer-promise-reject-errors)         | error  |     error     |
 | 215 | [prefer-regex-literals](https://eslint.org/docs/rules/prefer-regex-literals)                       | error  |      off      |
 | 216 | [quote-props](https://eslint.org/docs/rules/quote-props)                                           |  off   |     error     |
-| 217 | [quotes](https://eslint.org/docs/rules/quotes)                                                     |  off   |     error     |
+| 217 | [quotes](https://eslint.org/docs/rules/quotes)                                                     | error  |     error     |
 | 218 | [radix](https://eslint.org/docs/rules/radix)                                                       | error  |     error     |
 | 219 | [require-atomic-updates](https://eslint.org/docs/rules/require-atomic-updates)                     |  off   |      off      |
 | 220 | [require-await](https://eslint.org/docs/rules/require-await)                                       |  off   |      off      |

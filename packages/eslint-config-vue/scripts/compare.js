@@ -39,4 +39,4 @@ const compares = [
   },
 ]
 
-printCompareResult(join(__dirname, `../docs`), compares, configs)
+printCompareResult(join(__dirname, '../docs'), compares, configs)

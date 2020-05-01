@@ -38,12 +38,12 @@ function printCompareResult(destination_, compares, configs) {
 
     const content = [
       '<!-- AUTO GENERATED FILE, DO NOT EDIT -->',
-      `# compare`,
+      '# compare',
       `> compare ${local.name} with ${foreign.name}`,
-      `## difference only`,
+      '## difference only',
       listPrinter(resultDiff),
       tablePrinter(resultDiff),
-      `## all rules`,
+      '## all rules',
       listPrinter(resultAll),
       tablePrinter(resultAll),
     ].join('\n\n')

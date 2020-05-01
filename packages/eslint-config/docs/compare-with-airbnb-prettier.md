@@ -36,6 +36,7 @@ no-unused-vars, warn, error, https://eslint.org/docs/rules/no-unused-vars
 no-useless-call, error, off, https://eslint.org/docs/rules/no-useless-call
 prefer-exponentiation-operator, error, off, https://eslint.org/docs/rules/prefer-exponentiation-operator
 prefer-regex-literals, error, off, https://eslint.org/docs/rules/prefer-regex-literals
+quotes, error, off, https://eslint.org/docs/rules/quotes
 vars-on-top, off, error, https://eslint.org/docs/rules/vars-on-top
 import/exports-last, error, off, https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/exports-last.md
 import/extensions, warn, error, https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/extensions.md
@@ -76,13 +77,14 @@ import/prefer-default-export, off, error, https://github.com/benmosher/eslint-pl
 |  27 | [no-useless-call](https://eslint.org/docs/rules/no-useless-call)                                                                             | error  |        off        |
 |  28 | [prefer-exponentiation-operator](https://eslint.org/docs/rules/prefer-exponentiation-operator)                                               | error  |        off        |
 |  29 | [prefer-regex-literals](https://eslint.org/docs/rules/prefer-regex-literals)                                                                 | error  |        off        |
-|  30 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                                                                     |  off   |       error       |
-|  31 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/exports-last.md)                             | error  |        off        |
-|  32 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/extensions.md)                                 |  warn  |       error       |
-|  33 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-deprecated.md)                           | error  |        off        |
-|  34 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-dynamic-require.md)                 |  off   |       error       |
-|  35 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-as-default-member.md) |  warn  |       error       |
-|  36 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/prefer-default-export.md)           |  off   |       error       |
+|  30 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                               | error  |        off        |
+|  31 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top)                                                                                     |  off   |       error       |
+|  32 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/exports-last.md)                             | error  |        off        |
+|  33 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/extensions.md)                                 |  warn  |       error       |
+|  34 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-deprecated.md)                           | error  |        off        |
+|  35 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-dynamic-require.md)                 |  off   |       error       |
+|  36 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-as-default-member.md) |  warn  |       error       |
+|  37 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/prefer-default-export.md)           |  off   |       error       |
 
 ## all rules
 
@@ -334,7 +336,7 @@ prefer-rest-params, error, error, https://eslint.org/docs/rules/prefer-rest-para
 prefer-spread, error, error, https://eslint.org/docs/rules/prefer-spread
 prefer-template, error, error, https://eslint.org/docs/rules/prefer-template
 quote-props, off, off, https://eslint.org/docs/rules/quote-props
-quotes, off, off, https://eslint.org/docs/rules/quotes
+quotes, error, off, https://eslint.org/docs/rules/quotes
 radix, error, error, https://eslint.org/docs/rules/radix
 require-atomic-updates, off, off, https://eslint.org/docs/rules/require-atomic-updates
 require-await, off, off, https://eslint.org/docs/rules/require-await
@@ -667,7 +669,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 | 245 | [prefer-spread](https://eslint.org/docs/rules/prefer-spread)                                                                                        | error  |       error       |
 | 246 | [prefer-template](https://eslint.org/docs/rules/prefer-template)                                                                                    | error  |       error       |
 | 247 | [quote-props](https://eslint.org/docs/rules/quote-props)                                                                                            |  off   |        off        |
-| 248 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                                      |  off   |        off        |
+| 248 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                                      | error  |        off        |
 | 249 | [radix](https://eslint.org/docs/rules/radix)                                                                                                        | error  |       error       |
 | 250 | [require-atomic-updates](https://eslint.org/docs/rules/require-atomic-updates)                                                                      |  off   |        off        |
 | 251 | [require-await](https://eslint.org/docs/rules/require-await)                                                                                        |  off   |        off        |

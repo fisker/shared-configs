@@ -6,7 +6,7 @@ function list({names, data}) {
     ...data.map(({name, link, local, foreign}) =>
       [name, local, foreign, link].join(', ')
     ),
-    `-->`,
+    '-->',
   ].join('\n')
 }
 

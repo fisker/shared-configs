@@ -464,7 +464,7 @@ prefer-object-spread, error, error, https://eslint.org/docs/rules/prefer-object-
 prefer-promise-reject-errors, error, error, https://eslint.org/docs/rules/prefer-promise-reject-errors
 prefer-regex-literals, error, error, https://eslint.org/docs/rules/prefer-regex-literals
 quote-props, off, off, https://eslint.org/docs/rules/quote-props
-quotes, off, off, https://eslint.org/docs/rules/quotes
+quotes, error, error, https://eslint.org/docs/rules/quotes
 radix, error, error, https://eslint.org/docs/rules/radix
 require-atomic-updates, off, off, https://eslint.org/docs/rules/require-atomic-updates
 require-await, off, off, https://eslint.org/docs/rules/require-await
@@ -903,7 +903,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 | 227 | [prefer-promise-reject-errors](https://eslint.org/docs/rules/prefer-promise-reject-errors)                                                                      | error  | error  |
 | 228 | [prefer-regex-literals](https://eslint.org/docs/rules/prefer-regex-literals)                                                                                    | error  | error  |
 | 229 | [quote-props](https://eslint.org/docs/rules/quote-props)                                                                                                        |  off   |  off   |
-| 230 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                                                  |  off   |  off   |
+| 230 | [quotes](https://eslint.org/docs/rules/quotes)                                                                                                                  | error  | error  |
 | 231 | [radix](https://eslint.org/docs/rules/radix)                                                                                                                    | error  | error  |
 | 232 | [require-atomic-updates](https://eslint.org/docs/rules/require-atomic-updates)                                                                                  |  off   |  off   |
 | 233 | [require-await](https://eslint.org/docs/rules/require-await)                                                                                                    |  off   |  off   |
