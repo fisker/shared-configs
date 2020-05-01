@@ -36,7 +36,7 @@ module.exports = {
 
     // prettier
     './plugins/prettier.js',
-  ].map(require.resolve),
+  ].map((id) => require.resolve(id)),
   rules: {
     // should not set by `eslint-plugin-node`,
     // and also there is a option by `eslint-config-unicorn`
@@ -44,5 +44,14 @@ module.exports = {
 
     // conflicts with `unicorn/prevent-abbreviations` auto fixing
     'no-underscore-dangle': 'off',
+
+    quotes: [
+      'error',
+      'single',
+      {
+        avoidEscape: true,
+        allowTemplateLiterals: false,
+      },
+    ],
   },
 }
