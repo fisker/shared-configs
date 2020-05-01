@@ -1,6 +1,6 @@
 {
   "name": "@fisker/renovate-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "fisker's Shareable Renovate Configuration",
   "keywords": [
     "fisker",
