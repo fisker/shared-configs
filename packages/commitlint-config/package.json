@@ -24,13 +24,16 @@
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
     "test": "run-p test:*",
-    "test:js": "echo \"no test yet\""
+    "test:js": "echo \"no test yet\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "ava": {
     "require": "esm"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "8.3.4"
+    "@commitlint/config-conventional": "8.3.4",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "@commitlint/cli": "*"
@@ -39,5 +42,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "c2a65c40ff7a2f6bdddacab7152b0740abed7fc3"
+  "gitHead": "c2a65c40ff7a2f6bdddacab7152b0740abed7fc3",
+  "snyk": true
 }
