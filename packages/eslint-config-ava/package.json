@@ -24,7 +24,8 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-plugin-ava": "10.3.0"
+    "eslint-plugin-ava": "10.3.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "eslint": "*"
@@ -32,5 +33,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
