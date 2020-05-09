@@ -1,32 +1,30 @@
 import test from 'ava'
 import fs from 'fs'
 import path from 'path'
-import ESLint from 'eslint'
+import {ESLint} from 'eslint'
 
-const {CLIEngine} = ESLint
 const fixture = path.join.bind(path, __dirname, 'fixtures')
 
-function getESLintReport(file) {
-  const cli = new CLIEngine({
+async function lintResult(file) {
+  const eslint = new ESLint({
     baseConfig: {
       extends: [require.resolve('..')],
     },
     useEslintrc: false,
   })
-  const report = cli.executeOnFiles([fixture(file)])
-  report.results = report.results.map((result) => {
-    delete result.filePath
-    return result
-  })
-  return report
+
+  const results = await eslint.lintFiles([fixture(file)])
+
+  return results.map(
+    ({filePath, usedDeprecatedRules, source, ...result}) => result
+  )
 }
 
 // eslint-disable-next-line handle-callback-err
 fs.readdir(path.join(__dirname, 'fixtures'), (error, files) => {
   for (const file of files) {
-    test(file, (t) => {
-      const report = getESLintReport(file)
-      t.snapshot(report)
+    test(file, async (t) => {
+      t.snapshot(await lintResult(file))
     })
   }
 })
