@@ -5,14 +5,13 @@ import {ESLint} from 'eslint'
 
 const fixture = path.join.bind(path, __dirname, 'fixtures')
 
-async function lintResult(file) {
-  const eslint = new ESLint({
-    baseConfig: {
-      extends: [require.resolve('..')],
-    },
-    useEslintrc: false,
-  })
+const eslint = new ESLint({
+  ignore: false,
+  useEslintrc: false,
+  overrideConfigFile: require.resolve('..'),
+})
 
+async function lintResult(file) {
   const results = await eslint.lintFiles([fixture(file)])
 
   return results.map(
