@@ -53,5 +53,8 @@ module.exports = {
     'unicorn/no-fn-reference-in-iterator': 'warn',
 
     'unicorn/no-null': 'warn',
+
+    // I love `reduce`
+    'unicorn/no-reduce': 'off',
   },
 }
