@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-legacy",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "fisker's Shareable ESLint Configuration for legacy project",
   "keywords": [
     "config",
