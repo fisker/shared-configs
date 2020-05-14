@@ -19,5 +19,7 @@ module.exports = {
     'unicorn/prefer-set-has': 'off',
 
     'unicorn/no-fn-reference-in-iterator': 'off',
+
+    'unicorn/prefer-optional-catch-binding': 'off',
   },
 }
