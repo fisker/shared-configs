@@ -55,7 +55,7 @@
     "@self/prettier-config": "npm:@fisker/prettier-config@2.2.2",
     "ava": "3.8.2",
     "cz-conventional-changelog": "3.2.0",
-    "del-cli": "3.0.0",
+    "del-cli": "3.0.1",
     "eslint": "7.0.0",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-unicorn": "20.0.0",
