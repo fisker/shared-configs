@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-es": "3.0.1",
     "eslint-plugin-eslint-comments": "3.2.0",
