@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-legacy",
-  "version": "2.2.7",
+  "version": "2.3.0",
   "description": "fisker's Shareable ESLint Configuration for legacy project",
   "keywords": [
     "config",
@@ -31,7 +31,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@fisker/eslint-config": "^2.3.0",
+    "@fisker/eslint-config": "^2.4.0",
     "babel-eslint": "10.1.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-es": "3.0.1"
@@ -44,5 +44,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "c7966c786085ee1f0101e027ea54dcbaa62e7912"
+  "gitHead": "d474c4d3684f94e22444bc4532bff456115ed9d1"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@fisker/husky-config",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "fisker's Shareable husky Configuration",
   "keywords": [
     "fisker",

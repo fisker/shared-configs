@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "fisker's Shareable ESLint Configuration",
   "keywords": [
     "config",
@@ -63,5 +63,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "d474c4d3684f94e22444bc4532bff456115ed9d1"
 }
