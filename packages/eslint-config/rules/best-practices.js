@@ -23,16 +23,8 @@ module.exports = {
     // enforce default parameters to be last
     'default-param-last': 'error',
 
-    // disable due to a unknown reason, can't load this rule
-    // TODO: enable this
-    // require grouped accessor pairs in object literals and classes
-    // 'grouped-accessor-pair': 'error',
-
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
-
-    // disallow returning value from constructor
-    'no-constructor-return': 'error',
 
     // don't allow comparisons to null
     'no-eq-null': 'error',
@@ -75,5 +67,17 @@ module.exports = {
 
     // disallow use of the `RegExp` constructor in favor of regular expression literals
     'prefer-regex-literals': 'error',
+
+    // Enforce default clauses in switch statements to be last
+    // https://eslint.org/docs/rules/default-case-last
+    'default-case-last': 'error',
+
+    // Require grouped accessor pairs in object literals and classes
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': 'error',
+
+    // Disallow returning value in constructor
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'off',
   },
 }

@@ -6,6 +6,14 @@ code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-ai
 
 module.exports = {
   rules: {
+    'arrow-body-style': [
+      'error',
+      'as-needed',
+      {
+        requireReturnForObjectLiteral: false,
+      },
+    ],
+
     // Prefer destructuring from arrays and objects
     // https://eslint.org/docs/rules/prefer-destructuring
     'prefer-destructuring': [
@@ -32,6 +40,18 @@ module.exports = {
       {
         destructuring: 'all',
         ignoreReadBeforeAssign: true,
+      },
+    ],
+
+    // Disallow specified names in exports
+    // https://eslint.org/docs/rules/no-restricted-exports
+    'no-restricted-exports': [
+      'error',
+      {
+        restrictedNamedExports: [
+          'default', // use `export default` to provide a default export
+          'then', // this will cause tons of confusion when your module is dynamically `import()`ed
+        ],
       },
     ],
   },

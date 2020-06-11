@@ -27,5 +27,13 @@ module.exports = {
 
     // disallow returning values from setters
     'no-setter-return': 'error',
+
+    // Disallow Number Literals That Lose Precision
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    'no-loss-of-precision': 'error',
+
+    // Disallow useless backreferences in regular expressions
+    // https://eslint.org/docs/rules/no-useless-backreference
+    'no-useless-backreference': 'error',
   },
 }
