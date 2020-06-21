@@ -30,7 +30,7 @@
     "require": "esm"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "8.3.4"
+    "@commitlint/config-conventional": "9.0.1"
   },
   "peerDependencies": {
     "@commitlint/cli": "*"
