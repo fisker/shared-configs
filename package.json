@@ -52,7 +52,7 @@
     "@self/commitlint-config": "npm:@fisker/commitlint-config@1.2.0",
     "@self/husky-config": "npm:@fisker/husky-config@2.2.0",
     "@self/lint-staged-config": "npm:@fisker/lint-staged-config@2.2.0",
-    "@self/prettier-config": "npm:@fisker/prettier-config@2.3.0",
+    "@self/prettier-config": "npm:@fisker/prettier-config@2.3.1",
     "ava": "3.9.0",
     "cz-conventional-changelog": "3.2.0",
     "del-cli": "3.0.1",
