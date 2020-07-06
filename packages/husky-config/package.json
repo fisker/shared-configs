@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
-    "ava": "3.9.0"
+    "ava": "3.10.0"
   },
   "peerDependencies": {
     "husky": "*"
