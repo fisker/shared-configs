@@ -284,7 +284,7 @@ global-require, off, error, https://eslint.org/docs/rules/global-require
 grouped-accessor-pairs, error, off, https://eslint.org/docs/rules/grouped-accessor-pairs
 guard-for-in, error, error, https://eslint.org/docs/rules/guard-for-in
 handle-callback-err, error, off, https://eslint.org/docs/rules/handle-callback-err
-id-blacklist, off, off, https://eslint.org/docs/rules/id-blacklist
+id-blacklist, off, off, https://eslint.org/docs/rules/id-denylist
 id-length, off, off, https://eslint.org/docs/rules/id-length
 id-match, off, off, https://eslint.org/docs/rules/id-match
 implicit-arrow-linebreak, off, error, https://eslint.org/docs/rules/implicit-arrow-linebreak
@@ -621,7 +621,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 |  43 | [grouped-accessor-pairs](https://eslint.org/docs/rules/grouped-accessor-pairs)                                                                      | error  |  off   |
 |  44 | [guard-for-in](https://eslint.org/docs/rules/guard-for-in)                                                                                          | error  | error  |
 |  45 | [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err)                                                                            | error  |  off   |
-|  46 | [id-blacklist](https://eslint.org/docs/rules/id-blacklist)                                                                                          |  off   |  off   |
+|  46 | [id-blacklist](https://eslint.org/docs/rules/id-denylist)                                                                                           |  off   |  off   |
 |  47 | [id-length](https://eslint.org/docs/rules/id-length)                                                                                                |  off   |  off   |
 |  48 | [id-match](https://eslint.org/docs/rules/id-match)                                                                                                  |  off   |  off   |
 |  49 | [implicit-arrow-linebreak](https://eslint.org/docs/rules/implicit-arrow-linebreak)                                                                  |  off   | error  |
