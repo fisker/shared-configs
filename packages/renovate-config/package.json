@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
-    "ava": "3.10.0",
+    "ava": "3.10.1",
     "read-pkg": "5.2.0",
     "write-pkg": "4.0.0"
   },
