@@ -57,7 +57,7 @@
     "cz-conventional-changelog": "3.2.0",
     "del-cli": "3.0.1",
     "eslint": "7.5.0",
-    "eslint-plugin-unicorn": "20.1.0",
+    "eslint-plugin-unicorn": "21.0.0",
     "esm": "3.2.25",
     "husky": "4.2.5",
     "lerna": "3.22.1",
