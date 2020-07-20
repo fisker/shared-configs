@@ -17,7 +17,11 @@ function getRules(config) {
   for (const id of Object.keys(rules)) {
     const value = ruleValue(rules[id])
     const documents = ruleDocuments(id, defs)
-    const {url: link} = documents
+    let {url: link} = documents
+    link = (link || '').replace(
+      /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v(.*?)\//,
+      '/sindresorhus/eslint-plugin-unicorn/blob/master/'
+    )
 
     rules[id] = {
       value,

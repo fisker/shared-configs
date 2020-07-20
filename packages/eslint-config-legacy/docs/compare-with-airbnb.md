@@ -214,7 +214,7 @@ global-require, error, error, https://eslint.org/docs/rules/global-require
 grouped-accessor-pairs, error, off, https://eslint.org/docs/rules/grouped-accessor-pairs
 guard-for-in, error, error, https://eslint.org/docs/rules/guard-for-in
 handle-callback-err, off, off, https://eslint.org/docs/rules/handle-callback-err
-id-blacklist, off, off, https://eslint.org/docs/rules/id-denylist
+id-blacklist, off, off, https://eslint.org/docs/rules/id-blacklist
 id-length, off, off, https://eslint.org/docs/rules/id-length
 id-match, off, off, https://eslint.org/docs/rules/id-match
 implicit-arrow-linebreak, off, error, https://eslint.org/docs/rules/implicit-arrow-linebreak
@@ -465,7 +465,7 @@ yoda, error, error, https://eslint.org/docs/rules/yoda
 |  37 | [grouped-accessor-pairs](https://eslint.org/docs/rules/grouped-accessor-pairs)                     | error  |      off      |
 |  38 | [guard-for-in](https://eslint.org/docs/rules/guard-for-in)                                         | error  |     error     |
 |  39 | [handle-callback-err](https://eslint.org/docs/rules/handle-callback-err)                           |  off   |      off      |
-|  40 | [id-blacklist](https://eslint.org/docs/rules/id-denylist)                                          |  off   |      off      |
+|  40 | [id-blacklist](https://eslint.org/docs/rules/id-blacklist)                                         |  off   |      off      |
 |  41 | [id-length](https://eslint.org/docs/rules/id-length)                                               |  off   |      off      |
 |  42 | [id-match](https://eslint.org/docs/rules/id-match)                                                 |  off   |      off      |
 |  43 | [implicit-arrow-linebreak](https://eslint.org/docs/rules/implicit-arrow-linebreak)                 |  off   |     error     |
