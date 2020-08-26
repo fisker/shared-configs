@@ -42,7 +42,7 @@
   "devDependencies": {
     "@ava/babel": "1.0.1",
     "ava": "3.12.1",
-    "prettier": "2.1.0"
+    "prettier": "2.1.1"
   },
   "peerDependencies": {
     "prettier": "*"
