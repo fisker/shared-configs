@@ -1,8 +1,8 @@
-// TODO: need refactor
+const base = require('@fisker/eslint-config')
 
 module.exports = {
   root: true,
-  parser: '@babel/eslint-parser',
+  parser: base.parser,
   env: {
     es6: false,
     node: false,
@@ -36,7 +36,7 @@ module.exports = {
     '@fisker/eslint-config/plugins/prettier.js',
   ].map(require.resolve),
   rules: {
-    ...require('@fisker/eslint-config').rules,
+    ...base.rules,
 
     // must strict
     strict: ['error', 'function'],
