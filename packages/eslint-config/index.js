@@ -10,6 +10,7 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
     allowImportExportEverywhere: true,
+    requireConfigFile: false,
     ecmaFeatures: {
       globalReturn: false,
       jsx: true,
