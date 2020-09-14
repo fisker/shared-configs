@@ -1,14 +1,17 @@
 import test from 'ava'
 import fs from 'fs'
 import path from 'path'
-import {ESLint} from 'eslint'
+import url from 'url'
+import ESLint from 'eslint'
 
-const fixture = path.join.bind(path, __dirname, 'fixtures')
+const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
-const eslint = new ESLint({
+const fixture = path.join.bind(path, dirname, 'fixtures')
+
+const eslint = new ESLint.ESLint({
   ignore: false,
   useEslintrc: false,
-  overrideConfigFile: require.resolve('..'),
+  overrideConfigFile: path.join(dirname, '../index.js'),
 })
 
 async function lintResult(file) {
@@ -20,7 +23,7 @@ async function lintResult(file) {
 }
 
 // eslint-disable-next-line handle-callback-err
-fs.readdir(path.join(__dirname, 'fixtures'), (error, files) => {
+fs.readdir(path.join(dirname, 'fixtures'), (error, files) => {
   for (const file of files) {
     test(file, async (t) => {
       t.snapshot(await lintResult(file))

@@ -29,12 +29,8 @@
     "test": "ava"
   },
   "ava": {
-    "babel": true,
     "files": [
-      "test/test.js"
-    ],
-    "require": [
-      "esm"
+      "test/test.mjs"
     ],
     "verbose": true
   },
