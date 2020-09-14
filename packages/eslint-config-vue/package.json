@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "keywords": [
     "config",
@@ -31,7 +31,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@fisker/eslint-config": "3.1.0",
+    "@fisker/eslint-config": "^3.1.1",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-vue": "6.2.2"
   },
