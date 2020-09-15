@@ -25,6 +25,11 @@ module.exports = {
     'prettier/prettier': true,
     // SCSS function name, and express function name are case-sensitive
     'function-name-case': null,
+    'property-no-unknown': null,
+    'no-duplicate-selectors': null,
+    'no-descending-specificity': null,
+    'value-keyword-case': null,
+    'declaration-empty-line-before': null,
     /* eslint-enable unicorn/no-null */
   },
 }
