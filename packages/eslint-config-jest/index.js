@@ -6,5 +6,6 @@ module.exports = {
   extends: ['plugin:jest/recommended'],
   rules: {
     'jest/no-disabled-tests': 'warn',
+    'jest/valid-title': ['error', {ignoreTypeOfDescribeName: true}],
   },
 }
