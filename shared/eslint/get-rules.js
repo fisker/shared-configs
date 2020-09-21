@@ -1,4 +1,3 @@
-import {join} from 'path'
 import {CLIEngine} from 'eslint'
 import mem from 'mem'
 

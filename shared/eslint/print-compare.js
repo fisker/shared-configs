@@ -1,4 +1,4 @@
-import {join} from 'path'
+import path from 'path'
 import writePrettierFile from 'write-prettier-file'
 import getResult from './compare-result'
 import tablePrinter from './markdown-table-printer'
@@ -48,7 +48,7 @@ function printCompareResult(destination_, compares, configs) {
       tablePrinter(resultAll),
     ].join('\n\n')
 
-    const destination = join(destination_, `${file}.md`)
+    const destination = path.join(destination_, `${file}.md`)
 
     writePrettierFile(destination, content)
 

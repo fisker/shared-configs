@@ -1,8 +1,8 @@
-import {dirname} from 'path'
+import path from 'path'
 import {mkdirSync, writeFileSync, existsSync} from 'fs'
 
 function writeFile(file, content) {
-  const directory = dirname(file)
+  const directory = path.dirname(file)
 
   if (!existsSync(directory)) {
     mkdirSync(directory)
