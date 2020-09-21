@@ -29,9 +29,6 @@
     "test": "ava"
   },
   "ava": {
-    "files": [
-      "test/test.mjs"
-    ],
     "verbose": true
   },
   "dependencies": {
