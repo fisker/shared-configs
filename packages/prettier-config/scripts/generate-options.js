@@ -1,4 +1,4 @@
-import {join} from 'path'
+import path from 'path'
 import prettier from 'prettier'
 import isUndefined from '../../../shared/is-undefined'
 import prettierFile from '../../../shared/prettier-file'
@@ -54,7 +54,7 @@ const content = [
   OPTIONS_END_MARK,
 ].join('\n\n')
 
-const readmeFile = join(__dirname, '../readme.md')
+const readmeFile = path.join(__dirname, '../readme.md')
 
 prettierFile({
   file: readmeFile,

@@ -1,4 +1,4 @@
-import {join} from 'path'
+import path from 'path'
 import printCompareResult from '../../../shared/eslint/print-compare'
 
 const configs = {
@@ -107,4 +107,4 @@ const compares = [
   },
 ]
 
-printCompareResult(join(__dirname, '../docs'), compares, configs)
+printCompareResult(path.join(__dirname, '../docs'), compares, configs)
