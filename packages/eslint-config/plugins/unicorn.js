@@ -56,5 +56,11 @@ module.exports = {
 
     // I love `reduce`
     'unicorn/no-reduce': 'off',
+
+    // Allow `.length !== 0`
+    'unicorn/explicit-length-check': ['error', {'non-zero': 'not-equal'}],
+
+    // Sometimes `if-else` is more readable
+    'unicorn/prefer-ternary': 'off',
   },
 }

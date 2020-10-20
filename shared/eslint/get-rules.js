@@ -17,10 +17,15 @@ function getRules(config) {
     const value = ruleValue(rules[id])
     const documents = ruleDocuments(id, defs)
     let {url: link} = documents
-    link = (link || '').replace(
-      /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v(.*?)\//,
-      '/sindresorhus/eslint-plugin-unicorn/blob/master/'
-    )
+    link = (link || '')
+      .replace(
+        /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v(.*?)\//,
+        '/sindresorhus/eslint-plugin-unicorn/blob/master/'
+      )
+      .replace(
+        /\/benmosher\/eslint-plugin-import\/blob\/v(.*?)\//,
+        '/benmosher/eslint-plugin-import/blob/master/'
+      )
 
     rules[id] = {
       value,
