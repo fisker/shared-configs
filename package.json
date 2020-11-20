@@ -68,7 +68,7 @@
     "prettier": "2.1.2",
     "prettier-format": "1.1.5",
     "rollup": "2.33.3",
-    "sort-package-json": "1.46.1",
+    "sort-package-json": "1.48.0",
     "write-prettier-file": "1.2.6"
   },
   "publishConfig": {
