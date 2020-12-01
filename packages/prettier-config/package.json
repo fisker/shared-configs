@@ -22,7 +22,7 @@
   ],
   "scripts": {
     "build": "run-s build:js build:docs",
-    "build:docs": "node -r esm ./scripts/generate-options.js",
+    "build:docs": "node ./scripts/generate-options.mjs",
     "build:js": "rollup --config",
     "clean": "del-cli dist",
     "dev": "rollup --config --watch",
