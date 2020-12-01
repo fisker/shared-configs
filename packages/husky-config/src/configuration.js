@@ -1,7 +1,7 @@
 import toCommands from './to-commands'
 import toHooks from './to-hooks'
 import unique from './unique'
-import defineProperties from '../../../shared/define-properties'
+import defineProperties from '../../../shared/define-properties.mjs'
 import defaultHooks from './default-hooks'
 
 const EXTEND_POSITION_APPEND = Symbol('append')

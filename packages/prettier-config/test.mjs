@@ -1,6 +1,6 @@
 import test from 'ava'
 import prettier from 'prettier'
-import options from './src'
+import options from './src/index.mjs'
 
 const prettierOptions = prettier.getSupportInfo().options
 const {overrides = []} = options

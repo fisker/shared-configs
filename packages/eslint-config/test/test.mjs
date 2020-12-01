@@ -5,7 +5,6 @@ import url from 'url'
 import ESLint from 'eslint'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
-
 const fixture = path.join.bind(path, dirname, 'fixtures')
 
 const eslint = new ESLint.ESLint({
