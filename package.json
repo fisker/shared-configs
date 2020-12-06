@@ -59,7 +59,7 @@
     "eslint": "7.15.0",
     "eslint-plugin-unicorn": "23.0.0",
     "esm": "3.2.25",
-    "husky": "4.3.0",
+    "husky": "4.3.4",
     "import-commonjs": "0.0.3",
     "lerna": "3.22.1",
     "lint-staged": "10.5.3",
