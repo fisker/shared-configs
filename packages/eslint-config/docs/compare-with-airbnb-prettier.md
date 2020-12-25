@@ -102,7 +102,7 @@ array-bracket-newline, off, off, https://eslint.org/docs/rules/array-bracket-new
 array-bracket-spacing, off, off, https://eslint.org/docs/rules/array-bracket-spacing
 array-callback-return, error, error, https://eslint.org/docs/rules/array-callback-return
 array-element-newline, off, off, https://eslint.org/docs/rules/array-element-newline
-arrow-body-style, error, error, https://eslint.org/docs/rules/arrow-body-style
+arrow-body-style, off, off, https://eslint.org/docs/rules/arrow-body-style
 arrow-parens, off, off, https://eslint.org/docs/rules/arrow-parens
 arrow-spacing, off, off, https://eslint.org/docs/rules/arrow-spacing
 block-scoped-var, error, error, https://eslint.org/docs/rules/block-scoped-var
@@ -337,7 +337,7 @@ operator-assignment, error, error, https://eslint.org/docs/rules/operator-assign
 operator-linebreak, off, off, https://eslint.org/docs/rules/operator-linebreak
 padded-blocks, off, off, https://eslint.org/docs/rules/padded-blocks
 padding-line-between-statements, off, off, https://eslint.org/docs/rules/padding-line-between-statements
-prefer-arrow-callback, error, error, https://eslint.org/docs/rules/prefer-arrow-callback
+prefer-arrow-callback, off, off, https://eslint.org/docs/rules/prefer-arrow-callback
 prefer-const, error, error, https://eslint.org/docs/rules/prefer-const
 prefer-destructuring, error, error, https://eslint.org/docs/rules/prefer-destructuring
 prefer-exponentiation-operator, error, off, https://eslint.org/docs/rules/prefer-exponentiation-operator
@@ -442,7 +442,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 |   3 | [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)                                                                        |  off   |        off        |
 |   4 | [array-callback-return](https://eslint.org/docs/rules/array-callback-return)                                                                        | error  |       error       |
 |   5 | [array-element-newline](https://eslint.org/docs/rules/array-element-newline)                                                                        |  off   |        off        |
-|   6 | [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style)                                                                                  | error  |       error       |
+|   6 | [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style)                                                                                  |  off   |        off        |
 |   7 | [arrow-parens](https://eslint.org/docs/rules/arrow-parens)                                                                                          |  off   |        off        |
 |   8 | [arrow-spacing](https://eslint.org/docs/rules/arrow-spacing)                                                                                        |  off   |        off        |
 |   9 | [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var)                                                                                  | error  |       error       |
@@ -677,7 +677,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 | 238 | [operator-linebreak](https://eslint.org/docs/rules/operator-linebreak)                                                                              |  off   |        off        |
 | 239 | [padded-blocks](https://eslint.org/docs/rules/padded-blocks)                                                                                        |  off   |        off        |
 | 240 | [padding-line-between-statements](https://eslint.org/docs/rules/padding-line-between-statements)                                                    |  off   |        off        |
-| 241 | [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback)                                                                        | error  |       error       |
+| 241 | [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback)                                                                        |  off   |        off        |
 | 242 | [prefer-const](https://eslint.org/docs/rules/prefer-const)                                                                                          | error  |       error       |
 | 243 | [prefer-destructuring](https://eslint.org/docs/rules/prefer-destructuring)                                                                          | error  |       error       |
 | 244 | [prefer-exponentiation-operator](https://eslint.org/docs/rules/prefer-exponentiation-operator)                                                      | error  |        off        |
