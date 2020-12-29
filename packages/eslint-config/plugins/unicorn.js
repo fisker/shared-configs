@@ -12,10 +12,10 @@ module.exports = {
     'unicorn/prefer-add-event-listener': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-append.md
-    'unicorn/prefer-node-append': 'off',
+    'unicorn/prefer-dom-node-append': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-remove.md
-    'unicorn/prefer-node-remove': 'off',
+    'unicorn/prefer-dom-node-remove': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'off',
@@ -34,10 +34,10 @@ module.exports = {
     'unicorn/expiring-todo-comments': 'warn',
 
     // disable this
-    'unicorn/prefer-text-content': 'off',
+    'unicorn/prefer-dom-node-text-content': 'off',
 
     // disable this
-    'unicorn/prefer-dataset': 'off',
+    'unicorn/prefer-dom-node-dataset': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
     // buggy https://github.com/sindresorhus/eslint-plugin-unicorn/issues/391
@@ -50,17 +50,20 @@ module.exports = {
     // covered by `prefer-exponentiation-operator`
     'unicorn/prefer-exponentiation-operator': 'off',
 
-    'unicorn/no-fn-reference-in-iterator': 'warn',
+    'unicorn/no-array-callback-reference': 'warn',
 
     'unicorn/no-null': 'warn',
 
     // I love `reduce`
-    'unicorn/no-reduce': 'off',
+    'unicorn/no-array-reduce': 'off',
 
     // Allow `.length !== 0`
     'unicorn/explicit-length-check': ['error', {'non-zero': 'not-equal'}],
 
     // Sometimes `if-else` is more readable
     'unicorn/prefer-ternary': 'off',
+
+    // Unsafe
+    'unicorn/prefer-default-parameters': 'off',
   },
 }
