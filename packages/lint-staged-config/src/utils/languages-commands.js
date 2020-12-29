@@ -9,7 +9,10 @@ function parseCommands(languages) {
         commands: toArray(commands),
       }
     })
-    .filter(({commands, extensions}) => commands.length && extensions.length)
+    .filter(
+      ({commands, extensions}) =>
+        commands.length !== 0 && extensions.length !== 0
+    )
 }
 
 export default parseCommands
