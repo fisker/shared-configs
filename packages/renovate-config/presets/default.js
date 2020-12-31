@@ -1,4 +1,4 @@
-// presets repo: https://github.com/renovatebot/presets
+// presets repo: https://github.com/renovatebot/renovate/tree/master/lib/config/presets/internal
 // presets: https://renovatebot.com/docs/presets-config/
 // options: https://renovatebot.com/docs/configuration-options/
 
@@ -16,7 +16,6 @@ export default {
     ':disableDigestUpdates',
     ':semanticPrefixFixDepsChoreOthers',
     // ':rebaseStalePrs',
-    ':unpublishSafe',
     ':prImmediately',
     ':prHourlyLimitNone',
     ':disableRateLimiting',
@@ -34,6 +33,7 @@ export default {
     ':automergePr',
     ':assignee(fisker)',
     ':reviewer(fisker)',
+    // 'npm:unpublishSafe',
   ],
   ignorePresets: [],
   packageRules: [
@@ -48,5 +48,6 @@ export default {
     // assignees: ['@fisker'],
   },
   ignoreDeps: ['caniuse-lite', 'caniuse-db', 'electron-to-chromium'],
+  stabilityDays: 1,
   // schedule: ['after 5:30pm and before 5:30am'],
 }

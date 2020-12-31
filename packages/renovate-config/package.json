@@ -24,23 +24,12 @@
     "prepublish": "yarn build-package",
     "postpublish": "yarn clean-package",
     "pretest": "yarn build-package",
-    "test": "ava",
+    "test": "renovate-config-validator",
     "posttest": "yarn clean-package"
   },
-  "ava": {
-    "babel": true,
-    "files": [
-      "test.js"
-    ],
-    "require": [
-      "esm"
-    ],
-    "verbose": true
-  },
   "devDependencies": {
-    "@ava/babel": "1.0.1",
-    "ava": "3.14.0",
     "read-pkg": "5.2.0",
+    "renovate": "24.11.2",
     "write-pkg": "4.0.0"
   },
   "publishConfig": {
