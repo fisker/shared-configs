@@ -24,12 +24,11 @@
     "prepublish": "yarn build-package",
     "postpublish": "yarn clean-package",
     "pretest": "yarn build-package",
-    "test": "renovate-config-validator",
+    "test": "npx renovate-config-validator --package=renovate",
     "posttest": "yarn clean-package"
   },
   "devDependencies": {
     "read-pkg": "5.2.0",
-    "renovate": "24.12.3",
     "write-pkg": "4.0.0"
   },
   "publishConfig": {

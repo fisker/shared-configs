@@ -6,9 +6,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'off',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-exponentiation-operator.md
-    'unicorn/prefer-exponentiation-operator': 'off',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
     'unicorn/no-for-loop': 'off',
 
@@ -18,7 +15,7 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md
     'unicorn/prefer-set-has': 'off',
 
-    'unicorn/no-fn-reference-in-iterator': 'off',
+    'unicorn/no-array-callback-reference': 'off',
 
     'unicorn/prefer-optional-catch-binding': 'off',
   },

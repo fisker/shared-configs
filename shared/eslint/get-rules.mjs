@@ -7,6 +7,7 @@ import ruleValue from './rule-value.mjs'
 function getRules(config) {
   const engine = new CLIEngine({
     baseConfig: config,
+    cache: false,
     useEslintrc: false,
   })
 
