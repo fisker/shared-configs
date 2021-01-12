@@ -24,7 +24,7 @@
     "prepublish": "yarn build-package",
     "postpublish": "yarn clean-package",
     "pretest": "yarn build-package",
-    "test": "npx renovate-config-validator --package=renovate",
+    "test": "npx --package=renovate renovate-config-validator",
     "posttest": "yarn clean-package"
   },
   "devDependencies": {
