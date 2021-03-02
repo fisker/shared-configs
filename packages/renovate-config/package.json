@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "read-pkg": "5.2.0",
-    "renovate": "24.59.1",
+    "renovate": "24.71.2",
     "write-pkg": "4.0.0"
   },
   "publishConfig": {
