@@ -60,7 +60,7 @@
     "esm": "3.2.25",
     "husky": "5.1.1",
     "import-commonjs": "0.0.3",
-    "lerna": "3.22.1",
+    "lerna": "4.0.0",
     "lint-staged": "10.5.4",
     "markdownlint-cli": "0.26.0",
     "mem": "8.0.0",
