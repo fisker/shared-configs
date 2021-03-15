@@ -38,11 +38,11 @@ const configs = {
     extends: ['plugin:unicorn/recommended'],
   },
 
-  'unicorn/recommended + prettier/unicorn': {
+  'unicorn/recommended + prettier': {
     plugins: ['unicorn'],
     extends: [
       'plugin:unicorn/recommended',
-      require.resolve('eslint-config-prettier/unicorn'),
+      require.resolve('eslint-config-prettier'),
     ],
   },
 
@@ -101,7 +101,7 @@ const compares = [
     },
     file: 'compare-with-unicorn-prettier',
     local: 'fisker',
-    foreign: 'unicorn/recommended + prettier/unicorn',
+    foreign: 'unicorn/recommended + prettier',
   },
   {
     filter({prefix}) {
