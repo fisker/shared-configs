@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-jest",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "fisker's Shareable ESLint Configuration for jest test",
   "keywords": [
     "config",
