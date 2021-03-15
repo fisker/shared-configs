@@ -9,9 +9,6 @@ module.exports = {
     ...base.parserOptions,
     parser: base.parser,
   },
-  extends: [
-    '@fisker/eslint-config',
-    './plugins/vue.js',
-  ].map(require.resolve),
+  extends: ['@fisker/eslint-config', './plugins/vue.js'].map(require.resolve),
   rules: {},
 }
