@@ -2,9 +2,7 @@ module.exports = {
   plugins: ['prettier'],
   extends: [
     'plugin:prettier/recommended',
-    ...['eslint-config-prettier', 'eslint-config-prettier/unicorn'].map(
-      require.resolve
-    ),
+    require.resolve('eslint-config-prettier'),
   ],
   rules: {
     // specify curly brace conventions for all control statements
