@@ -17,11 +17,11 @@ const configs = {
     extends: ['plugin:vue/recommended'],
   },
 
-  'vue/recommended + prettier/vue': {
+  'vue/recommended + prettier': {
     plugins: ['vue'],
     extends: [
       'plugin:vue/recommended',
-      require.resolve('eslint-config-prettier/vue'),
+      require.resolve('eslint-config-prettier'),
     ],
   },
 }
@@ -41,7 +41,7 @@ const compares = [
     },
     file: 'compare-with-vue-prettier',
     local: 'vue',
-    foreign: 'vue/recommended + prettier/vue',
+    foreign: 'vue/recommended + prettier',
   },
 ]
 
