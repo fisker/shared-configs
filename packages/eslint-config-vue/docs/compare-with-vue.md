@@ -18,21 +18,10 @@ vue/comma-spacing, off, , https://eslint.vuejs.org/rules/comma-spacing.html
 vue/comma-style, off, , https://eslint.vuejs.org/rules/comma-style.html
 vue/dot-location, off, , https://eslint.vuejs.org/rules/dot-location.html
 vue/func-call-spacing, off, , https://eslint.vuejs.org/rules/func-call-spacing.html
-vue/html-closing-bracket-newline, off, warn, https://eslint.vuejs.org/rules/html-closing-bracket-newline.html
-vue/html-closing-bracket-spacing, off, warn, https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html
-vue/html-end-tags, off, warn, https://eslint.vuejs.org/rules/html-end-tags.html
-vue/html-indent, off, warn, https://eslint.vuejs.org/rules/html-indent.html
-vue/html-quotes, off, warn, https://eslint.vuejs.org/rules/html-quotes.html
-vue/html-self-closing, off, warn, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/key-spacing, off, , https://eslint.vuejs.org/rules/key-spacing.html
 vue/keyword-spacing, off, , https://eslint.vuejs.org/rules/keyword-spacing.html
-vue/max-attributes-per-line, off, warn, https://eslint.vuejs.org/rules/max-attributes-per-line.html
 vue/max-len, off, , https://eslint.vuejs.org/rules/max-len.html
-vue/multiline-html-element-content-newline, off, warn, https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html
-vue/mustache-interpolation-spacing, off, warn, https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html
 vue/no-extra-parens, off, , https://eslint.vuejs.org/rules/no-extra-parens.html
-vue/no-multi-spaces, off, warn, https://eslint.vuejs.org/rules/no-multi-spaces.html
-vue/no-spaces-around-equal-signs-in-attribute, off, warn, https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html
 vue/no-unused-components, warn, error, https://eslint.vuejs.org/rules/no-unused-components.html
 vue/no-unused-vars, warn, error, https://eslint.vuejs.org/rules/no-unused-vars.html
 vue/object-curly-newline, off, , https://eslint.vuejs.org/rules/object-curly-newline.html
@@ -40,7 +29,6 @@ vue/object-curly-spacing, off, , https://eslint.vuejs.org/rules/object-curly-spa
 vue/object-property-newline, off, , https://eslint.vuejs.org/rules/object-property-newline.html
 vue/operator-linebreak, off, , https://eslint.vuejs.org/rules/operator-linebreak.html
 vue/script-indent, off, , https://eslint.vuejs.org/rules/script-indent.html
-vue/singleline-html-element-content-newline, off, warn, https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html
 vue/space-in-parens, off, , https://eslint.vuejs.org/rules/space-in-parens.html
 vue/space-infix-ops, off, , https://eslint.vuejs.org/rules/space-infix-ops.html
 vue/space-unary-ops, off, , https://eslint.vuejs.org/rules/space-unary-ops.html
@@ -48,47 +36,35 @@ vue/template-curly-spacing, off, , https://eslint.vuejs.org/rules/template-curly
 vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-template.html
 -->
 
-|   # | Rule                                                                                                                           |  vue  | vue/recommended |
-| --: | :----------------------------------------------------------------------------------------------------------------------------- | :---: | :-------------: |
-|   1 | [vue/array-bracket-newline](https://eslint.vuejs.org/rules/array-bracket-newline.html)                                         |  off  |
-|   2 | [vue/array-bracket-spacing](https://eslint.vuejs.org/rules/array-bracket-spacing.html)                                         |  off  |
-|   3 | [vue/arrow-spacing](https://eslint.vuejs.org/rules/arrow-spacing.html)                                                         |  off  |
-|   4 | [vue/block-spacing](https://eslint.vuejs.org/rules/block-spacing.html)                                                         |  off  |
-|   5 | [vue/block-tag-newline](https://eslint.vuejs.org/rules/block-tag-newline.html)                                                 |  off  |
-|   6 | [vue/brace-style](https://eslint.vuejs.org/rules/brace-style.html)                                                             |  off  |
-|   7 | [vue/comma-dangle](https://eslint.vuejs.org/rules/comma-dangle.html)                                                           |  off  |
-|   8 | [vue/comma-spacing](https://eslint.vuejs.org/rules/comma-spacing.html)                                                         |  off  |
-|   9 | [vue/comma-style](https://eslint.vuejs.org/rules/comma-style.html)                                                             |  off  |
-|  10 | [vue/dot-location](https://eslint.vuejs.org/rules/dot-location.html)                                                           |  off  |
-|  11 | [vue/func-call-spacing](https://eslint.vuejs.org/rules/func-call-spacing.html)                                                 |  off  |
-|  12 | [vue/html-closing-bracket-newline](https://eslint.vuejs.org/rules/html-closing-bracket-newline.html)                           |  off  |      warn       |
-|  13 | [vue/html-closing-bracket-spacing](https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html)                           |  off  |      warn       |
-|  14 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         |  off  |      warn       |
-|  15 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             |  off  |      warn       |
-|  16 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             |  off  |      warn       |
-|  17 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 |  off  |      warn       |
-|  18 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                             |  off  |
-|  19 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                     |  off  |
-|  20 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                     |  off  |      warn       |
-|  21 | [vue/max-len](https://eslint.vuejs.org/rules/max-len.html)                                                                     |  off  |
-|  22 | [vue/multiline-html-element-content-newline](https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html)       |  off  |      warn       |
-|  23 | [vue/mustache-interpolation-spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html)                       |  off  |      warn       |
-|  24 | [vue/no-extra-parens](https://eslint.vuejs.org/rules/no-extra-parens.html)                                                     |  off  |
-|  25 | [vue/no-multi-spaces](https://eslint.vuejs.org/rules/no-multi-spaces.html)                                                     |  off  |      warn       |
-|  26 | [vue/no-spaces-around-equal-signs-in-attribute](https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html) |  off  |      warn       |
-|  27 | [vue/no-unused-components](https://eslint.vuejs.org/rules/no-unused-components.html)                                           | warn  |      error      |
-|  28 | [vue/no-unused-vars](https://eslint.vuejs.org/rules/no-unused-vars.html)                                                       | warn  |      error      |
-|  29 | [vue/object-curly-newline](https://eslint.vuejs.org/rules/object-curly-newline.html)                                           |  off  |
-|  30 | [vue/object-curly-spacing](https://eslint.vuejs.org/rules/object-curly-spacing.html)                                           |  off  |
-|  31 | [vue/object-property-newline](https://eslint.vuejs.org/rules/object-property-newline.html)                                     |  off  |
-|  32 | [vue/operator-linebreak](https://eslint.vuejs.org/rules/operator-linebreak.html)                                               |  off  |
-|  33 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                         |  off  |
-|  34 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)     |  off  |      warn       |
-|  35 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                     |  off  |
-|  36 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                     |  off  |
-|  37 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                     |  off  |
-|  38 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)                                       |  off  |
-|  39 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)                                                   | error |      warn       |
+|   # | Rule                                                                                       |  vue  | vue/recommended |
+| --: | :----------------------------------------------------------------------------------------- | :---: | :-------------: |
+|   1 | [vue/array-bracket-newline](https://eslint.vuejs.org/rules/array-bracket-newline.html)     |  off  |
+|   2 | [vue/array-bracket-spacing](https://eslint.vuejs.org/rules/array-bracket-spacing.html)     |  off  |
+|   3 | [vue/arrow-spacing](https://eslint.vuejs.org/rules/arrow-spacing.html)                     |  off  |
+|   4 | [vue/block-spacing](https://eslint.vuejs.org/rules/block-spacing.html)                     |  off  |
+|   5 | [vue/block-tag-newline](https://eslint.vuejs.org/rules/block-tag-newline.html)             |  off  |
+|   6 | [vue/brace-style](https://eslint.vuejs.org/rules/brace-style.html)                         |  off  |
+|   7 | [vue/comma-dangle](https://eslint.vuejs.org/rules/comma-dangle.html)                       |  off  |
+|   8 | [vue/comma-spacing](https://eslint.vuejs.org/rules/comma-spacing.html)                     |  off  |
+|   9 | [vue/comma-style](https://eslint.vuejs.org/rules/comma-style.html)                         |  off  |
+|  10 | [vue/dot-location](https://eslint.vuejs.org/rules/dot-location.html)                       |  off  |
+|  11 | [vue/func-call-spacing](https://eslint.vuejs.org/rules/func-call-spacing.html)             |  off  |
+|  12 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                         |  off  |
+|  13 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                 |  off  |
+|  14 | [vue/max-len](https://eslint.vuejs.org/rules/max-len.html)                                 |  off  |
+|  15 | [vue/no-extra-parens](https://eslint.vuejs.org/rules/no-extra-parens.html)                 |  off  |
+|  16 | [vue/no-unused-components](https://eslint.vuejs.org/rules/no-unused-components.html)       | warn  |      error      |
+|  17 | [vue/no-unused-vars](https://eslint.vuejs.org/rules/no-unused-vars.html)                   | warn  |      error      |
+|  18 | [vue/object-curly-newline](https://eslint.vuejs.org/rules/object-curly-newline.html)       |  off  |
+|  19 | [vue/object-curly-spacing](https://eslint.vuejs.org/rules/object-curly-spacing.html)       |  off  |
+|  20 | [vue/object-property-newline](https://eslint.vuejs.org/rules/object-property-newline.html) |  off  |
+|  21 | [vue/operator-linebreak](https://eslint.vuejs.org/rules/operator-linebreak.html)           |  off  |
+|  22 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                     |  off  |
+|  23 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                 |  off  |
+|  24 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                 |  off  |
+|  25 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                 |  off  |
+|  26 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)   |  off  |
+|  27 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)               | error |      warn       |
 
 ## all rules
 
@@ -110,19 +86,19 @@ vue/component-tags-order, warn, warn, https://eslint.vuejs.org/rules/component-t
 vue/dot-location, off, , https://eslint.vuejs.org/rules/dot-location.html
 vue/experimental-script-setup-vars, error, error, https://eslint.vuejs.org/rules/experimental-script-setup-vars.html
 vue/func-call-spacing, off, , https://eslint.vuejs.org/rules/func-call-spacing.html
-vue/html-closing-bracket-newline, off, warn, https://eslint.vuejs.org/rules/html-closing-bracket-newline.html
-vue/html-closing-bracket-spacing, off, warn, https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html
-vue/html-end-tags, off, warn, https://eslint.vuejs.org/rules/html-end-tags.html
-vue/html-indent, off, warn, https://eslint.vuejs.org/rules/html-indent.html
-vue/html-quotes, off, warn, https://eslint.vuejs.org/rules/html-quotes.html
-vue/html-self-closing, off, warn, https://eslint.vuejs.org/rules/html-self-closing.html
+vue/html-closing-bracket-newline, warn, warn, https://eslint.vuejs.org/rules/html-closing-bracket-newline.html
+vue/html-closing-bracket-spacing, warn, warn, https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html
+vue/html-end-tags, warn, warn, https://eslint.vuejs.org/rules/html-end-tags.html
+vue/html-indent, warn, warn, https://eslint.vuejs.org/rules/html-indent.html
+vue/html-quotes, warn, warn, https://eslint.vuejs.org/rules/html-quotes.html
+vue/html-self-closing, warn, warn, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/jsx-uses-vars, error, error, https://eslint.vuejs.org/rules/jsx-uses-vars.html
 vue/key-spacing, off, , https://eslint.vuejs.org/rules/key-spacing.html
 vue/keyword-spacing, off, , https://eslint.vuejs.org/rules/keyword-spacing.html
-vue/max-attributes-per-line, off, warn, https://eslint.vuejs.org/rules/max-attributes-per-line.html
+vue/max-attributes-per-line, warn, warn, https://eslint.vuejs.org/rules/max-attributes-per-line.html
 vue/max-len, off, , https://eslint.vuejs.org/rules/max-len.html
-vue/multiline-html-element-content-newline, off, warn, https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html
-vue/mustache-interpolation-spacing, off, warn, https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html
+vue/multiline-html-element-content-newline, warn, warn, https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html
+vue/mustache-interpolation-spacing, warn, warn, https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html
 vue/no-arrow-functions-in-watch, error, error, https://eslint.vuejs.org/rules/no-arrow-functions-in-watch.html
 vue/no-async-in-computed-properties, error, error, https://eslint.vuejs.org/rules/no-async-in-computed-properties.html
 vue/no-custom-modifiers-on-v-model, error, error, https://eslint.vuejs.org/rules/no-custom-modifiers-on-v-model.html
@@ -131,7 +107,7 @@ vue/no-dupe-v-else-if, error, error, https://eslint.vuejs.org/rules/no-dupe-v-el
 vue/no-duplicate-attributes, error, error, https://eslint.vuejs.org/rules/no-duplicate-attributes.html
 vue/no-extra-parens, off, , https://eslint.vuejs.org/rules/no-extra-parens.html
 vue/no-lone-template, warn, warn, https://eslint.vuejs.org/rules/no-lone-template.html
-vue/no-multi-spaces, off, warn, https://eslint.vuejs.org/rules/no-multi-spaces.html
+vue/no-multi-spaces, warn, warn, https://eslint.vuejs.org/rules/no-multi-spaces.html
 vue/no-multiple-slot-args, warn, warn, https://eslint.vuejs.org/rules/no-multiple-slot-args.html
 vue/no-multiple-template-root, error, error, https://eslint.vuejs.org/rules/no-multiple-template-root.html
 vue/no-mutating-props, error, error, https://eslint.vuejs.org/rules/no-mutating-props.html
@@ -139,7 +115,7 @@ vue/no-parsing-error, error, error, https://eslint.vuejs.org/rules/no-parsing-er
 vue/no-reserved-keys, error, error, https://eslint.vuejs.org/rules/no-reserved-keys.html
 vue/no-shared-component-data, error, error, https://eslint.vuejs.org/rules/no-shared-component-data.html
 vue/no-side-effects-in-computed-properties, error, error, https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html
-vue/no-spaces-around-equal-signs-in-attribute, off, warn, https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html
+vue/no-spaces-around-equal-signs-in-attribute, warn, warn, https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html
 vue/no-template-key, error, error, https://eslint.vuejs.org/rules/no-template-key.html
 vue/no-template-shadow, warn, warn, https://eslint.vuejs.org/rules/no-template-shadow.html
 vue/no-textarea-mustache, error, error, https://eslint.vuejs.org/rules/no-textarea-mustache.html
@@ -165,7 +141,7 @@ vue/require-v-for-key, error, error, https://eslint.vuejs.org/rules/require-v-fo
 vue/require-valid-default-prop, error, error, https://eslint.vuejs.org/rules/require-valid-default-prop.html
 vue/return-in-computed-property, error, error, https://eslint.vuejs.org/rules/return-in-computed-property.html
 vue/script-indent, off, , https://eslint.vuejs.org/rules/script-indent.html
-vue/singleline-html-element-content-newline, off, warn, https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html
+vue/singleline-html-element-content-newline, warn, warn, https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html
 vue/space-in-parens, off, , https://eslint.vuejs.org/rules/space-in-parens.html
 vue/space-infix-ops, off, , https://eslint.vuejs.org/rules/space-infix-ops.html
 vue/space-unary-ops, off, , https://eslint.vuejs.org/rules/space-unary-ops.html
@@ -212,19 +188,19 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  15 | [vue/dot-location](https://eslint.vuejs.org/rules/dot-location.html)                                                           |  off  |
 |  16 | [vue/experimental-script-setup-vars](https://eslint.vuejs.org/rules/experimental-script-setup-vars.html)                       | error |      error      |
 |  17 | [vue/func-call-spacing](https://eslint.vuejs.org/rules/func-call-spacing.html)                                                 |  off  |
-|  18 | [vue/html-closing-bracket-newline](https://eslint.vuejs.org/rules/html-closing-bracket-newline.html)                           |  off  |      warn       |
-|  19 | [vue/html-closing-bracket-spacing](https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html)                           |  off  |      warn       |
-|  20 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         |  off  |      warn       |
-|  21 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             |  off  |      warn       |
-|  22 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             |  off  |      warn       |
-|  23 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 |  off  |      warn       |
+|  18 | [vue/html-closing-bracket-newline](https://eslint.vuejs.org/rules/html-closing-bracket-newline.html)                           | warn  |      warn       |
+|  19 | [vue/html-closing-bracket-spacing](https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html)                           | warn  |      warn       |
+|  20 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         | warn  |      warn       |
+|  21 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             | warn  |      warn       |
+|  22 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             | warn  |      warn       |
+|  23 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 | warn  |      warn       |
 |  24 | [vue/jsx-uses-vars](https://eslint.vuejs.org/rules/jsx-uses-vars.html)                                                         | error |      error      |
 |  25 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                             |  off  |
 |  26 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                     |  off  |
-|  27 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                     |  off  |      warn       |
+|  27 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                     | warn  |      warn       |
 |  28 | [vue/max-len](https://eslint.vuejs.org/rules/max-len.html)                                                                     |  off  |
-|  29 | [vue/multiline-html-element-content-newline](https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html)       |  off  |      warn       |
-|  30 | [vue/mustache-interpolation-spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html)                       |  off  |      warn       |
+|  29 | [vue/multiline-html-element-content-newline](https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html)       | warn  |      warn       |
+|  30 | [vue/mustache-interpolation-spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html)                       | warn  |      warn       |
 |  31 | [vue/no-arrow-functions-in-watch](https://eslint.vuejs.org/rules/no-arrow-functions-in-watch.html)                             | error |      error      |
 |  32 | [vue/no-async-in-computed-properties](https://eslint.vuejs.org/rules/no-async-in-computed-properties.html)                     | error |      error      |
 |  33 | [vue/no-custom-modifiers-on-v-model](https://eslint.vuejs.org/rules/no-custom-modifiers-on-v-model.html)                       | error |      error      |
@@ -233,7 +209,7 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  36 | [vue/no-duplicate-attributes](https://eslint.vuejs.org/rules/no-duplicate-attributes.html)                                     | error |      error      |
 |  37 | [vue/no-extra-parens](https://eslint.vuejs.org/rules/no-extra-parens.html)                                                     |  off  |
 |  38 | [vue/no-lone-template](https://eslint.vuejs.org/rules/no-lone-template.html)                                                   | warn  |      warn       |
-|  39 | [vue/no-multi-spaces](https://eslint.vuejs.org/rules/no-multi-spaces.html)                                                     |  off  |      warn       |
+|  39 | [vue/no-multi-spaces](https://eslint.vuejs.org/rules/no-multi-spaces.html)                                                     | warn  |      warn       |
 |  40 | [vue/no-multiple-slot-args](https://eslint.vuejs.org/rules/no-multiple-slot-args.html)                                         | warn  |      warn       |
 |  41 | [vue/no-multiple-template-root](https://eslint.vuejs.org/rules/no-multiple-template-root.html)                                 | error |      error      |
 |  42 | [vue/no-mutating-props](https://eslint.vuejs.org/rules/no-mutating-props.html)                                                 | error |      error      |
@@ -241,7 +217,7 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  44 | [vue/no-reserved-keys](https://eslint.vuejs.org/rules/no-reserved-keys.html)                                                   | error |      error      |
 |  45 | [vue/no-shared-component-data](https://eslint.vuejs.org/rules/no-shared-component-data.html)                                   | error |      error      |
 |  46 | [vue/no-side-effects-in-computed-properties](https://eslint.vuejs.org/rules/no-side-effects-in-computed-properties.html)       | error |      error      |
-|  47 | [vue/no-spaces-around-equal-signs-in-attribute](https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html) |  off  |      warn       |
+|  47 | [vue/no-spaces-around-equal-signs-in-attribute](https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html) | warn  |      warn       |
 |  48 | [vue/no-template-key](https://eslint.vuejs.org/rules/no-template-key.html)                                                     | error |      error      |
 |  49 | [vue/no-template-shadow](https://eslint.vuejs.org/rules/no-template-shadow.html)                                               | warn  |      warn       |
 |  50 | [vue/no-textarea-mustache](https://eslint.vuejs.org/rules/no-textarea-mustache.html)                                           | error |      error      |
@@ -267,7 +243,7 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  70 | [vue/require-valid-default-prop](https://eslint.vuejs.org/rules/require-valid-default-prop.html)                               | error |      error      |
 |  71 | [vue/return-in-computed-property](https://eslint.vuejs.org/rules/return-in-computed-property.html)                             | error |      error      |
 |  72 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                         |  off  |
-|  73 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)     |  off  |      warn       |
+|  73 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)     | warn  |      warn       |
 |  74 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                     |  off  |
 |  75 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                     |  off  |
 |  76 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                     |  off  |

@@ -59,5 +59,8 @@ module.exports = {
     'unicorn/prefer-default-parameters': 'off',
     'unicorn/consistent-destructuring': 'off',
     'unicorn/no-object-as-default-parameter': 'off',
+
+    // Not playing well with ES Module
+    'unicorn/import-index': 'off',
   },
 }

@@ -38,7 +38,7 @@ export default {
   ignorePresets: [],
   packageRules: [
     {
-      depTypeList: ['devDependencies'],
+      matchDepTypes: ['devDependencies'],
       automerge: true,
     },
   ],
@@ -47,7 +47,12 @@ export default {
     labels: ['security'],
     // assignees: ['@fisker'],
   },
-  ignoreDeps: ['caniuse-lite', 'caniuse-db', 'electron-to-chromium'],
+  ignoreDeps: [
+    'caniuse-lite',
+    'caniuse-db',
+    'electron-to-chromium',
+    'renovate',
+  ],
   stabilityDays: 1,
   // schedule: ['after 5:30pm and before 5:30am'],
 }

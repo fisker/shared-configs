@@ -9,7 +9,6 @@ const require = importCommonJs(import.meta.url)
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 const configs = {
-  // eslint-disable-next-line unicorn/import-index
   vue: require('../index'),
 
   'vue/recommended': {

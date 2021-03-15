@@ -1,5 +1,4 @@
 import {SORT_PACKAGE_JSON} from './commands'
-// eslint-disable-next-line unicorn/import-index
 import * as languages from './languages/index'
 import mergeCommands from './utils/merge-commands'
 import parseCommands from './utils/languages-commands'

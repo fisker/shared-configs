@@ -9,7 +9,6 @@ const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 const configs = {
   // fisker
-  // eslint-disable-next-line unicorn/import-index
   fisker: require('../index'),
 
   // airbnb
