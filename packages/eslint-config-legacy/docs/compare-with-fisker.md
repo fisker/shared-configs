@@ -740,7 +740,7 @@ unicorn/no-lonely-if, error, error, https://github.com/sindresorhus/eslint-plugi
 unicorn/no-nested-ternary, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
 unicorn/no-new-array, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md
 unicorn/no-new-buffer, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md
-unicorn/no-null, warn, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
+unicorn/no-null, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
 unicorn/no-object-as-default-parameter, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md
 unicorn/no-process-exit, warn, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
 unicorn/no-this-assignment, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md
@@ -1301,7 +1301,7 @@ vue/template-curly-spacing, off, off,
 | 475 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md)                                 |  off   |  off   |
 | 476 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md)                                           | error  | error  |
 | 477 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md)                                         | error  | error  |
-| 478 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                     |  warn  |  warn  |
+| 478 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                     |  off   |  off   |
 | 479 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md)       |  off   |  off   |
 | 480 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md)                                     |  warn  |  warn  |
 | 481 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md)                               | error  | error  |

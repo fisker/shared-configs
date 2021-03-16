@@ -15,7 +15,7 @@ unicorn/no-array-callback-reference, warn, error, https://github.com/sindresorhu
 unicorn/no-array-reduce, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-reduce.md
 unicorn/no-for-loop, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
 unicorn/no-nested-ternary, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
-unicorn/no-null, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
+unicorn/no-null, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
 unicorn/no-object-as-default-parameter, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md
 unicorn/no-process-exit, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
 unicorn/number-literal-case, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md
@@ -40,7 +40,7 @@ unicorn/prefer-ternary, off, error, https://github.com/sindresorhus/eslint-plugi
 |   6 | [unicorn/no-array-reduce](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-reduce.md)                               |  off   |        error        |
 |   7 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md)                                       |  warn  |        error        |
 |   8 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md)                           |  off   |        error        |
-|   9 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                               |  warn  |        error        |
+|   9 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                               |  off   |        error        |
 |  10 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md) |  off   |        error        |
 |  11 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md)                               |  warn  |        error        |
 |  12 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md)                       |  off   |        error        |
@@ -85,7 +85,7 @@ unicorn/no-lonely-if, error, error, https://github.com/sindresorhus/eslint-plugi
 unicorn/no-nested-ternary, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md
 unicorn/no-new-array, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md
 unicorn/no-new-buffer, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md
-unicorn/no-null, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
+unicorn/no-null, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md
 unicorn/no-object-as-default-parameter, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md
 unicorn/no-process-exit, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
 unicorn/no-this-assignment, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md
@@ -160,7 +160,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  26 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md)                                 |  off   |        error        |
 |  27 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md)                                           | error  |        error        |
 |  28 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md)                                         | error  |        error        |
-|  29 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                     |  warn  |        error        |
+|  29 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                     |  off   |        error        |
 |  30 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md)       |  off   |        error        |
 |  31 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md)                                     |  warn  |        error        |
 |  32 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md)                               | error  |        error        |

@@ -45,7 +45,7 @@ module.exports = {
 
     'unicorn/no-array-callback-reference': 'warn',
 
-    'unicorn/no-null': 'warn',
+    'unicorn/no-null': 'off',
 
     // It's useful when sum things
     'unicorn/no-array-reduce': 'off',
