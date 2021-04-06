@@ -1,5 +1,3 @@
-import {writeFileSync} from 'fs'
-import {readPackageAsync} from 'read-pkg'
 import writePackage from 'write-pkg'
 import * as presets from '../presets/index.mjs'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
