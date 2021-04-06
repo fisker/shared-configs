@@ -1,8 +1,8 @@
-import toCommands from './to-commands'
-import toHooks from './to-hooks'
-import unique from './unique'
+import toCommands from './to-commands.mjs'
+import toHooks from './to-hooks.mjs'
+import unique from './unique.mjs'
 import defineProperties from '../../../shared/define-properties.mjs'
-import defaultHooks from './default-hooks'
+import defaultHooks from './default-hooks.mjs'
 
 const EXTEND_POSITION_APPEND = Symbol('append')
 const EXTEND_POSITION_PREPEND = Symbol('prepend')

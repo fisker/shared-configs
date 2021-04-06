@@ -27,7 +27,7 @@
     "test:js": "echo \"no test yet\""
   },
   "ava": {
-    "require": "esm"
+    "verbose": true
   },
   "dependencies": {
     "@commitlint/config-conventional": "12.1.1"

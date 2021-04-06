@@ -29,17 +29,12 @@
     "test:js": "ava --verbose"
   },
   "ava": {
-    "babel": true,
     "files": [
-      "test.js"
-    ],
-    "require": [
-      "esm"
+      "test.mjs"
     ],
     "verbose": true
   },
   "devDependencies": {
-    "@ava/babel": "1.0.1",
     "ava": "3.15.0"
   },
   "peerDependencies": {

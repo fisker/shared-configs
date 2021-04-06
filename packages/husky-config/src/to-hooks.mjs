@@ -1,4 +1,4 @@
-import toCommands from './to-commands'
+import toCommands from './to-commands.mjs'
 
 function tasks(array) {
   return array.join(' && ')
