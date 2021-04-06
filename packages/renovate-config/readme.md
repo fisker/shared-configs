@@ -11,7 +11,3 @@ echo {"extends":["@fisker"]}> renovate.json
 ## Links
 
 - [renovatebot](https://renovatebot.com/)
-
-## License
-
-MIT © [fisker](https://www.fiskercheung.com)
