@@ -30,7 +30,7 @@
   },
   "ava": {
     "files": [
-      "test.js"
+      "test.mjs"
     ],
     "verbose": true
   },
