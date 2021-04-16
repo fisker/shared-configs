@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: require.resolve('@babel/eslint-parser'),
   env: {
     es6: true,
     browser: true,
@@ -14,6 +14,11 @@ module.exports = {
     ecmaFeatures: {
       globalReturn: false,
       jsx: true,
+    },
+    babelOptions: {
+      parserOpts: {
+        allowAwaitOutsideFunction: true,
+      },
     },
   },
   extends: [
