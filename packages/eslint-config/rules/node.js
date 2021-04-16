@@ -1,9 +1,3 @@
-/*
-override airbnb
-repo: https://github.com/airbnb/javascript
-code: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base
-*/
-
 module.exports = {
   rules: {
     // allow `require` called anywhere
@@ -12,5 +6,12 @@ module.exports = {
 
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': ['error', 'error'],
+
+    'node/no-unsupported-features/node-builtins': [
+      'error',
+      {
+        version: '>=12.0.0',
+      },
+    ],
   },
 }
