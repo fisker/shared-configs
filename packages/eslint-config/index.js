@@ -18,6 +18,12 @@ module.exports = {
     babelOptions: {
       parserOpts: {
         allowAwaitOutsideFunction: true,
+        plugins: [
+          'classProperties',
+          'exportDefaultFrom',
+          'classPrivateProperties',
+          'classPrivateMethods',
+        ],
       },
     },
   },
