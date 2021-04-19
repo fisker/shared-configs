@@ -18,12 +18,5 @@ module.exports = {
 
     // duplicate of `import/no-unresolved`
     'node/no-missing-require': 'off',
-
-    'node/no-unsupported-features/node-builtins': [
-      'error',
-      {
-        version: '>=12.22.1',
-      },
-    ],
   },
 }

@@ -67,5 +67,15 @@ module.exports = {
         allowTemplateLiterals: false,
       },
     ],
+
+    // Override airbnb config
+    'node/no-unsupported-features/node-builtins': [
+      'error',
+      {
+        version: '>=12.22.1',
+      },
+    ],
+
+    'import/extensions': 'off',
   },
 }
