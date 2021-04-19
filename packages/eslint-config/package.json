@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "fisker's Shareable ESLint Configuration",
   "keywords": [
     "config",
