@@ -6,12 +6,5 @@ module.exports = {
 
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': ['error', 'error'],
-
-    'node/no-unsupported-features/node-builtins': [
-      'error',
-      {
-        version: '>=12.0.0',
-      },
-    ],
   },
 }
