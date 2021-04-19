@@ -10,7 +10,7 @@
 import/default, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md
 import/dynamic-import-chunkname, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
 import/exports-last, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
-import/extensions, warn, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+import/extensions, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
 import/first, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
 import/group-exports, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
 import/imports-first, off, , https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md
@@ -51,7 +51,7 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |   1 | [import/default](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md)                                               |  off   |             error             |
 |   2 | [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md)             |  off   |
 |   3 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md)                                     | error  |
-|   4 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         |  warn  |
+|   4 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         |  off   |
 |   5 | [import/first](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)                                                   | error  |
 |   6 | [import/group-exports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md)                                   |  off   |
 |   7 | [import/imports-first](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md) |  off   |
@@ -93,7 +93,7 @@ import/default, off, error, https://github.com/benmosher/eslint-plugin-import/bl
 import/dynamic-import-chunkname, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
 import/export, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
 import/exports-last, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
-import/extensions, warn, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+import/extensions, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
 import/first, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
 import/group-exports, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
 import/imports-first, off, , https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md
@@ -138,7 +138,7 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |   2 | [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md)             |  off   |
 |   3 | [import/export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md)                                                 | error  |             error             |
 |   4 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md)                                     | error  |
-|   5 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         |  warn  |
+|   5 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         |  off   |
 |   6 | [import/first](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)                                                   | error  |
 |   7 | [import/group-exports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md)                                   |  off   |
 |   8 | [import/imports-first](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md) |  off   |
