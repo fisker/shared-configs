@@ -6,5 +6,5 @@
  */
 
 module.exports = {
-  extends: ['@self'],
+  extends: ['@fisker'],
 }
