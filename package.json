@@ -24,7 +24,7 @@
     "build:docs": "lerna run build:docs",
     "clean": "lerna run clean",
     "dist": "lerna publish",
-    "format": "run-p format:*",
+    "format": "run-p \"format:*\"",
     "format:eslint": "yarn lint:eslint --fix",
     "format:markdown": "yarn lint:markdown --fix",
     "format:package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
