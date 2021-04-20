@@ -21,7 +21,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "run-s \"build:js build:docs\"",
+    "build": "run-s \"build:js\" \"build:docs\"",
     "build:docs": "node ./scripts/generate-options.mjs",
     "build:js": "rollup --config",
     "clean": "del-cli dist",
