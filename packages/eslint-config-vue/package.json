@@ -35,6 +35,9 @@
     "eslint-config-prettier": "8.2.0",
     "eslint-plugin-vue": "7.9.0"
   },
+  "devDependencies": {
+    "@fisker/eslint-config": "workspace:*"
+  },
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
