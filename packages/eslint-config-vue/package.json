@@ -25,7 +25,7 @@
   "scripts": {
     "build": "run-p \"build:*\"",
     "build:docs": "node scripts/compare.mjs",
-    "clean": "rimraf docs",
+    "clean": "del-cli docs",
     "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
     "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""

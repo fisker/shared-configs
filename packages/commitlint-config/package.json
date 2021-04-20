@@ -21,7 +21,7 @@
     "lib"
   ],
   "scripts": {
-    "clean": "rimraf lib",
+    "clean": "del-cli lib",
     "dev": "rollup --config --watch",
     "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""
