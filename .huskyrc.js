@@ -7,4 +7,4 @@
 
 /* @fisker/husky-config https://git.io/fjCe9 */
 
-module.exports = require('@self/husky-config')
+module.exports = require('@fisker/husky-config')

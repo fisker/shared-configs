@@ -784,6 +784,7 @@ unicorn/prefer-string-replace-all, off, off, https://github.com/sindresorhus/esl
 unicorn/prefer-string-slice, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md
 unicorn/prefer-string-starts-ends-with, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md
 unicorn/prefer-string-trim-start-end, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md
+unicorn/prefer-switch, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md
 unicorn/prefer-ternary, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
 unicorn/prefer-type-error, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md
 unicorn/prevent-abbreviations, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
@@ -1350,44 +1351,45 @@ vue/template-curly-spacing, off, off,
 | 519 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)                              | error  | error  |
 | 520 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)        | error  | error  |
 | 521 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)            | error  | error  |
-| 522 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                        |  off   |  off   |
-| 523 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                  | error  | error  |
-| 524 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                          | error  | error  |
-| 525 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                        |  off   |  off   |
-| 526 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                      | error  | error  |
-| 527 | vue/array-bracket-newline                                                                                                                                       |  off   |  off   |
-| 528 | vue/array-bracket-spacing                                                                                                                                       |  off   |  off   |
-| 529 | vue/arrow-spacing                                                                                                                                               |  off   |  off   |
-| 530 | vue/block-spacing                                                                                                                                               |  off   |  off   |
-| 531 | vue/block-tag-newline                                                                                                                                           |  off   |  off   |
-| 532 | vue/brace-style                                                                                                                                                 |  off   |  off   |
-| 533 | vue/comma-dangle                                                                                                                                                |  off   |  off   |
-| 534 | vue/comma-spacing                                                                                                                                               |  off   |  off   |
-| 535 | vue/comma-style                                                                                                                                                 |  off   |  off   |
-| 536 | vue/dot-location                                                                                                                                                |  off   |  off   |
-| 537 | vue/func-call-spacing                                                                                                                                           |  off   |  off   |
-| 538 | vue/html-closing-bracket-newline                                                                                                                                |  off   |  off   |
-| 539 | vue/html-closing-bracket-spacing                                                                                                                                |  off   |  off   |
-| 540 | vue/html-end-tags                                                                                                                                               |  off   |  off   |
-| 541 | vue/html-indent                                                                                                                                                 |  off   |  off   |
-| 542 | vue/html-quotes                                                                                                                                                 |  off   |  off   |
-| 543 | vue/html-self-closing                                                                                                                                           |  off   |  off   |
-| 544 | vue/key-spacing                                                                                                                                                 |  off   |  off   |
-| 545 | vue/keyword-spacing                                                                                                                                             |  off   |  off   |
-| 546 | vue/max-attributes-per-line                                                                                                                                     |  off   |  off   |
-| 547 | vue/max-len                                                                                                                                                     |  off   |  off   |
-| 548 | vue/multiline-html-element-content-newline                                                                                                                      |  off   |  off   |
-| 549 | vue/mustache-interpolation-spacing                                                                                                                              |  off   |  off   |
-| 550 | vue/no-extra-parens                                                                                                                                             |  off   |  off   |
-| 551 | vue/no-multi-spaces                                                                                                                                             |  off   |  off   |
-| 552 | vue/no-spaces-around-equal-signs-in-attribute                                                                                                                   |  off   |  off   |
-| 553 | vue/object-curly-newline                                                                                                                                        |  off   |  off   |
-| 554 | vue/object-curly-spacing                                                                                                                                        |  off   |  off   |
-| 555 | vue/object-property-newline                                                                                                                                     |  off   |  off   |
-| 556 | vue/operator-linebreak                                                                                                                                          |  off   |  off   |
-| 557 | vue/script-indent                                                                                                                                               |  off   |  off   |
-| 558 | vue/singleline-html-element-content-newline                                                                                                                     |  off   |  off   |
-| 559 | vue/space-in-parens                                                                                                                                             |  off   |  off   |
-| 560 | vue/space-infix-ops                                                                                                                                             |  off   |  off   |
-| 561 | vue/space-unary-ops                                                                                                                                             |  off   |  off   |
-| 562 | vue/template-curly-spacing                                                                                                                                      |  off   |  off   |
+| 522 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md)                                          | error  | error  |
+| 523 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                        |  off   |  off   |
+| 524 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                  | error  | error  |
+| 525 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                          | error  | error  |
+| 526 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                        |  off   |  off   |
+| 527 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                      | error  | error  |
+| 528 | vue/array-bracket-newline                                                                                                                                       |  off   |  off   |
+| 529 | vue/array-bracket-spacing                                                                                                                                       |  off   |  off   |
+| 530 | vue/arrow-spacing                                                                                                                                               |  off   |  off   |
+| 531 | vue/block-spacing                                                                                                                                               |  off   |  off   |
+| 532 | vue/block-tag-newline                                                                                                                                           |  off   |  off   |
+| 533 | vue/brace-style                                                                                                                                                 |  off   |  off   |
+| 534 | vue/comma-dangle                                                                                                                                                |  off   |  off   |
+| 535 | vue/comma-spacing                                                                                                                                               |  off   |  off   |
+| 536 | vue/comma-style                                                                                                                                                 |  off   |  off   |
+| 537 | vue/dot-location                                                                                                                                                |  off   |  off   |
+| 538 | vue/func-call-spacing                                                                                                                                           |  off   |  off   |
+| 539 | vue/html-closing-bracket-newline                                                                                                                                |  off   |  off   |
+| 540 | vue/html-closing-bracket-spacing                                                                                                                                |  off   |  off   |
+| 541 | vue/html-end-tags                                                                                                                                               |  off   |  off   |
+| 542 | vue/html-indent                                                                                                                                                 |  off   |  off   |
+| 543 | vue/html-quotes                                                                                                                                                 |  off   |  off   |
+| 544 | vue/html-self-closing                                                                                                                                           |  off   |  off   |
+| 545 | vue/key-spacing                                                                                                                                                 |  off   |  off   |
+| 546 | vue/keyword-spacing                                                                                                                                             |  off   |  off   |
+| 547 | vue/max-attributes-per-line                                                                                                                                     |  off   |  off   |
+| 548 | vue/max-len                                                                                                                                                     |  off   |  off   |
+| 549 | vue/multiline-html-element-content-newline                                                                                                                      |  off   |  off   |
+| 550 | vue/mustache-interpolation-spacing                                                                                                                              |  off   |  off   |
+| 551 | vue/no-extra-parens                                                                                                                                             |  off   |  off   |
+| 552 | vue/no-multi-spaces                                                                                                                                             |  off   |  off   |
+| 553 | vue/no-spaces-around-equal-signs-in-attribute                                                                                                                   |  off   |  off   |
+| 554 | vue/object-curly-newline                                                                                                                                        |  off   |  off   |
+| 555 | vue/object-curly-spacing                                                                                                                                        |  off   |  off   |
+| 556 | vue/object-property-newline                                                                                                                                     |  off   |  off   |
+| 557 | vue/operator-linebreak                                                                                                                                          |  off   |  off   |
+| 558 | vue/script-indent                                                                                                                                               |  off   |  off   |
+| 559 | vue/singleline-html-element-content-newline                                                                                                                     |  off   |  off   |
+| 560 | vue/space-in-parens                                                                                                                                             |  off   |  off   |
+| 561 | vue/space-infix-ops                                                                                                                                             |  off   |  off   |
+| 562 | vue/space-unary-ops                                                                                                                                             |  off   |  off   |
+| 563 | vue/template-curly-spacing                                                                                                                                      |  off   |  off   |
