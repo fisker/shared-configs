@@ -44,7 +44,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-regexp": "0.8.0",
-    "eslint-plugin-unicorn": "29.0.0"
+    "eslint-plugin-unicorn": "30.0.0"
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
