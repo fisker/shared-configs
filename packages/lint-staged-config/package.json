@@ -17,11 +17,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "run-p build:*",
+    "build": "run-p \"build:*\"",
     "build:js": "rollup --config",
     "clean": "del-cli dist",
     "dev": "rollup --config --watch",
-    "test": "run-p test:*",
+    "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""
   },
   "ava": {

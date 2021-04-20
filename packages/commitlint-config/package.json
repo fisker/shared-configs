@@ -23,7 +23,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
-    "test": "run-p test:*",
+    "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""
   },
   "ava": {
