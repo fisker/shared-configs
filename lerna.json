@@ -9,5 +9,6 @@
     "publish": {
       "message": "chore(release): publish"
     }
-  }
+  },
+  "tagVersionPrefix": ""
 }
