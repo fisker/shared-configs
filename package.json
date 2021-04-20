@@ -35,6 +35,7 @@
     "lint:package-json": "yarn run format:package-json --check",
     "lint:prettier": "prettier \"**/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml}\" --check",
     "release": "run-s clean build format lint test dist",
+    "pretest": "yarn build",
     "test": "lerna run test"
   },
   "config": {
