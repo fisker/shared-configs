@@ -38,6 +38,7 @@ import/no-relative-parent-imports, off, , https://github.com/benmosher/eslint-pl
 import/no-restricted-paths, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
 import/no-self-import, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
 import/no-unassigned-import, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
+import/no-unresolved, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
 import/no-unused-modules, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
 import/no-useless-path-segments, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
 import/no-webpack-loader-syntax, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
@@ -79,12 +80,13 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |  29 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md)                       |  off   |
 |  30 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md)                                 | error  |
 |  31 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md)                     |  off   |
-|  32 | [import/no-unused-modules](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md)                           |  off   |
-|  33 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md)             | error  |
-|  34 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)             | error  |
-|  35 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)                                                   | error  |
-|  36 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)                   |  off   |
-|  37 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)                                       |  off   |
+|  32 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                                   |  off   |             error             |
+|  33 | [import/no-unused-modules](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md)                           |  off   |
+|  34 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md)             | error  |
+|  35 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)             | error  |
+|  36 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)                                                   | error  |
+|  37 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)                   |  off   |
+|  38 | [import/unambiguous](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)                                       |  off   |
 
 ## all rules
 
@@ -123,7 +125,7 @@ import/no-relative-parent-imports, off, , https://github.com/benmosher/eslint-pl
 import/no-restricted-paths, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
 import/no-self-import, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
 import/no-unassigned-import, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
-import/no-unresolved, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+import/no-unresolved, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
 import/no-unused-modules, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
 import/no-useless-path-segments, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
 import/no-webpack-loader-syntax, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
@@ -168,7 +170,7 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |  32 | [import/no-restricted-paths](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md)                       |  off   |
 |  33 | [import/no-self-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md)                                 | error  |
 |  34 | [import/no-unassigned-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md)                     |  off   |
-|  35 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                                   | error  |             error             |
+|  35 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                                   |  off   |             error             |
 |  36 | [import/no-unused-modules](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md)                           |  off   |
 |  37 | [import/no-useless-path-segments](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md)             | error  |
 |  38 | [import/no-webpack-loader-syntax](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)             | error  |

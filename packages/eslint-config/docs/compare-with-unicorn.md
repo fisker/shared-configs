@@ -26,6 +26,7 @@ unicorn/prefer-dom-node-dataset, off, error, https://github.com/sindresorhus/esl
 unicorn/prefer-dom-node-remove, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md
 unicorn/prefer-dom-node-text-content, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-text-content.md
 unicorn/prefer-modern-dom-apis, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+unicorn/prefer-module, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md
 unicorn/prefer-query-selector, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
 unicorn/prefer-ternary, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md
 -->
@@ -51,8 +52,9 @@ unicorn/prefer-ternary, off, error, https://github.com/sindresorhus/eslint-plugi
 |  17 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md)                 |  off   |        error        |
 |  18 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-text-content.md)     |  off   |        error        |
 |  19 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md)                 |  off   |        error        |
-|  20 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                   |  off   |        error        |
-|  21 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                 |  off   |        error        |
+|  20 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md)                                   |  off   |        error        |
+|  21 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                   |  off   |        error        |
+|  22 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                 |  off   |        error        |
 
 ## all rules
 
@@ -113,7 +115,9 @@ unicorn/prefer-includes, error, error, https://github.com/sindresorhus/eslint-pl
 unicorn/prefer-keyboard-event-key, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md
 unicorn/prefer-math-trunc, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
 unicorn/prefer-modern-dom-apis, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+unicorn/prefer-module, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md
 unicorn/prefer-negative-index, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
+unicorn/prefer-node-protocol, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md
 unicorn/prefer-number-properties, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
 unicorn/prefer-optional-catch-binding, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
 unicorn/prefer-query-selector, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
@@ -191,21 +195,23 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  54 | [unicorn/prefer-keyboard-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md)                 | error  |        error        |
 |  55 | [unicorn/prefer-math-trunc](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md)                                 | error  |        error        |
 |  56 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md)                       |  off   |        error        |
-|  57 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md)                         | error  |        error        |
-|  58 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)                   | error  |        error        |
-|  59 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md)         | error  |        error        |
-|  60 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                         |  off   |        error        |
-|  61 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)                           | error  |        error        |
-|  62 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md)                               | error  |        error        |
-|  63 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md)                                       | error  |        error        |
-|  64 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)                                         | error  |        error        |
-|  65 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)                 |  off   |         off         |
-|  66 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)                             | error  |        error        |
-|  67 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)       | error  |        error        |
-|  68 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)           | error  |        error        |
-|  69 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md)                                         | error  |        error        |
-|  70 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                       |  off   |        error        |
-|  71 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                 | error  |        error        |
-|  72 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                         | error  |        error        |
-|  73 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                       |  off   |         off         |
-|  74 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                     | error  |        error        |
+|  57 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md)                                         |  off   |        error        |
+|  58 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md)                         | error  |        error        |
+|  59 | [unicorn/prefer-node-protocol](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md)                           | error  |        error        |
+|  60 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)                   | error  |        error        |
+|  61 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md)         | error  |        error        |
+|  62 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                         |  off   |        error        |
+|  63 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)                           | error  |        error        |
+|  64 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md)                               | error  |        error        |
+|  65 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md)                                       | error  |        error        |
+|  66 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)                                         | error  |        error        |
+|  67 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)                 |  off   |         off         |
+|  68 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)                             | error  |        error        |
+|  69 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)       | error  |        error        |
+|  70 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)           | error  |        error        |
+|  71 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md)                                         | error  |        error        |
+|  72 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                       |  off   |        error        |
+|  73 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                 | error  |        error        |
+|  74 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                         | error  |        error        |
+|  75 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                       |  off   |         off         |
+|  76 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                     | error  |        error        |
