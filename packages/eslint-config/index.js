@@ -77,5 +77,9 @@ module.exports = {
     ],
 
     'import/extensions': 'off',
+
+    // Disable these temporarily, as they conflict with `unicorn/prefer-node-protocol`
+    'import/no-unresolved': 'off',
+    'node/no-missing-import': 'off',
   },
 }
