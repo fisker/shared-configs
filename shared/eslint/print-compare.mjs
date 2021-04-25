@@ -1,4 +1,4 @@
-import path from 'path'
+import path from 'node:path'
 import writePrettierFile from 'write-prettier-file'
 import getResult from './compare-result.mjs'
 import tablePrinter from './markdown-table-printer.mjs'

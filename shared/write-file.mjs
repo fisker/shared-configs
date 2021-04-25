@@ -1,5 +1,5 @@
-import path from 'path'
-import {mkdirSync, writeFileSync, existsSync} from 'fs'
+import path from 'node:path'
+import {mkdirSync, writeFileSync, existsSync} from 'node:fs'
 
 function writeFile(file, content) {
   const directory = path.dirname(file)
