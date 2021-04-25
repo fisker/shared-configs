@@ -1,6 +1,6 @@
 {
   "name": "@fisker/stylelint-config",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "fisker's Shareable stylelint Configuration",
   "keywords": [
     "config",
