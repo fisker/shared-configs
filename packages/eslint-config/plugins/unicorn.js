@@ -62,5 +62,8 @@ module.exports = {
 
     // Not playing well with ES Module
     'unicorn/import-index': 'off',
+
+    // We'll enable later
+    'unicorn/prefer-module': 'off',
   },
 }
