@@ -18,9 +18,7 @@ module.exports = {
     babelOptions: {
       parserOpts: {
         allowAwaitOutsideFunction: true,
-        plugins: [
-          'exportDefaultFrom',
-        ],
+        plugins: ['exportDefaultFrom'],
       },
     },
   },
