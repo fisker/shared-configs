@@ -19,11 +19,7 @@ module.exports = {
       parserOpts: {
         allowAwaitOutsideFunction: true,
         plugins: [
-          'classProperties',
           'exportDefaultFrom',
-          'classPrivateProperties',
-          'classPrivateMethods',
-          'importMeta',
         ],
       },
     },
