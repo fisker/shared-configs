@@ -30,6 +30,7 @@ module.exports = {
     'no-descending-specificity': null,
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
+    'no-invalid-position-at-import-rule': null,
     /* eslint-enable unicorn/no-null */
   },
 }
