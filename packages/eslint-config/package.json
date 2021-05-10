@@ -44,7 +44,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-regexp": "0.10.0",
-    "eslint-plugin-unicorn": "32.0.0"
+    "eslint-plugin-unicorn": "32.0.1"
   },
   "devDependencies": {
     "ava": "3.15.0",
