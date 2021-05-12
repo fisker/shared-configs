@@ -1,5 +1,7 @@
 module.exports = {
   plugins: ['regexp'],
   extends: ['plugin:regexp/recommended'],
-  rules: {},
+  rules: {
+    'regexp/no-useless-flag': 'error',
+  },
 }
