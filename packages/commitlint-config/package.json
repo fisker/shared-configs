@@ -30,7 +30,7 @@
     "verbose": true
   },
   "dependencies": {
-    "@commitlint/config-conventional": "12.1.1"
+    "@commitlint/config-conventional": "12.1.3"
   },
   "peerDependencies": {
     "@commitlint/cli": "*"
