@@ -739,6 +739,7 @@ unicorn/no-array-for-each, error, error, https://github.com/sindresorhus/eslint-
 unicorn/no-array-push-push, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-push-push.md
 unicorn/no-array-reduce, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-reduce.md
 unicorn/no-console-spaces, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md
+unicorn/no-document-cookie, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-document-cookie.md
 unicorn/no-for-loop, off, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
 unicorn/no-hex-escape, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md
 unicorn/no-instanceof-array, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
@@ -758,11 +759,11 @@ unicorn/no-unused-properties, off, off, https://github.com/sindresorhus/eslint-p
 unicorn/no-useless-undefined, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md
 unicorn/no-zero-fractions, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
 unicorn/number-literal-case, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md
-unicorn/numeric-separators-style, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
+unicorn/numeric-separators-style, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
 unicorn/prefer-add-event-listener, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
 unicorn/prefer-array-find, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
-unicorn/prefer-array-flat, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md
-unicorn/prefer-array-flat-map, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
+unicorn/prefer-array-flat, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md
+unicorn/prefer-array-flat-map, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
 unicorn/prefer-array-index-of, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
 unicorn/prefer-array-some, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
 unicorn/prefer-date-now, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
@@ -1312,96 +1313,97 @@ vue/template-curly-spacing, off, off,
 | 474 | [unicorn/no-array-push-push](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-push-push.md)                                | error  | error  |
 | 475 | [unicorn/no-array-reduce](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-reduce.md)                                      |  off   |  off   |
 | 476 | [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md)                                  | error  | error  |
-| 477 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md)                                              |  off   |  warn  |
-| 478 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md)                                          | error  | error  |
-| 479 | [unicorn/no-instanceof-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md)                              | error  | error  |
-| 480 | [unicorn/no-keyword-prefix](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md)                                  |  off   |  off   |
-| 481 | [unicorn/no-lonely-if](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-lonely-if.md)                                            | error  | error  |
-| 482 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md)                                  |  off   |  off   |
-| 483 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md)                                            | error  | error  |
-| 484 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md)                                          | error  | error  |
-| 485 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                      |  off   |  off   |
-| 486 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md)        |  off   |  off   |
-| 487 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md)                                      |  warn  |  warn  |
-| 488 | [unicorn/no-static-only-class](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-static-only-class.md)                            | error  | error  |
-| 489 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md)                                | error  | error  |
-| 490 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md)  | error  | error  |
-| 491 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md)                                      |  off   |  off   |
-| 492 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md)                            |  off   |  off   |
-| 493 | [unicorn/no-useless-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md)                            | error  | error  |
-| 494 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md)                                  | error  | error  |
-| 495 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md)                              |  off   |  off   |
-| 496 | [unicorn/numeric-separators-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md)                    |  off   |  off   |
-| 497 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md)                  |  off   |  off   |
-| 498 | [unicorn/prefer-array-find](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md)                                  | error  | error  |
-| 499 | [unicorn/prefer-array-flat](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md)                                  |  off   |  off   |
-| 500 | [unicorn/prefer-array-flat-map](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md)                          |  off   |  off   |
-| 501 | [unicorn/prefer-array-index-of](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md)                          | error  | error  |
-| 502 | [unicorn/prefer-array-some](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md)                                  | error  | error  |
-| 503 | [unicorn/prefer-date-now](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md)                                      | error  | error  |
-| 504 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md)                  |  off   |  off   |
-| 505 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-append.md)                        |  off   |  off   |
-| 506 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-dataset.md)                      |  off   |  off   |
-| 507 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md)                        |  off   |  off   |
-| 508 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-text-content.md)            |  off   |  off   |
-| 509 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md)                                      | error  | error  |
-| 510 | [unicorn/prefer-keyboard-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md)                  | error  | error  |
-| 511 | [unicorn/prefer-math-trunc](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md)                                  | error  | error  |
-| 512 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md)                        |  off   |  off   |
-| 513 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md)                                          |  off   |  off   |
-| 514 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md)                          | error  | error  |
-| 515 | [unicorn/prefer-node-protocol](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md)                            | error  | error  |
-| 516 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)                    |  off   | error  |
-| 517 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md)          |  off   | error  |
-| 518 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                          |  off   |  off   |
-| 519 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)                            | error  | error  |
-| 520 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md)                                | error  | error  |
-| 521 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md)                                        |  off   | error  |
-| 522 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)                                          |  off   | error  |
-| 523 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/deprecated-rules.md#prefer-starts-ends-with)           |  off   |
-| 524 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)                  |  off   |  off   |
-| 525 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)                              | error  | error  |
-| 526 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)        | error  | error  |
-| 527 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)            | error  | error  |
-| 528 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md)                                          | error  | error  |
-| 529 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                        |  off   |  off   |
-| 530 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                  | error  | error  |
-| 531 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                          | error  | error  |
-| 532 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                        |  off   |  off   |
-| 533 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                      | error  | error  |
-| 534 | vue/array-bracket-newline                                                                                                                                       |  off   |  off   |
-| 535 | vue/array-bracket-spacing                                                                                                                                       |  off   |  off   |
-| 536 | vue/arrow-spacing                                                                                                                                               |  off   |  off   |
-| 537 | vue/block-spacing                                                                                                                                               |  off   |  off   |
-| 538 | vue/block-tag-newline                                                                                                                                           |  off   |  off   |
-| 539 | vue/brace-style                                                                                                                                                 |  off   |  off   |
-| 540 | vue/comma-dangle                                                                                                                                                |  off   |  off   |
-| 541 | vue/comma-spacing                                                                                                                                               |  off   |  off   |
-| 542 | vue/comma-style                                                                                                                                                 |  off   |  off   |
-| 543 | vue/dot-location                                                                                                                                                |  off   |  off   |
-| 544 | vue/func-call-spacing                                                                                                                                           |  off   |  off   |
-| 545 | vue/html-closing-bracket-newline                                                                                                                                |  off   |  off   |
-| 546 | vue/html-closing-bracket-spacing                                                                                                                                |  off   |  off   |
-| 547 | vue/html-end-tags                                                                                                                                               |  off   |  off   |
-| 548 | vue/html-indent                                                                                                                                                 |  off   |  off   |
-| 549 | vue/html-quotes                                                                                                                                                 |  off   |  off   |
-| 550 | vue/html-self-closing                                                                                                                                           |  off   |  off   |
-| 551 | vue/key-spacing                                                                                                                                                 |  off   |  off   |
-| 552 | vue/keyword-spacing                                                                                                                                             |  off   |  off   |
-| 553 | vue/max-attributes-per-line                                                                                                                                     |  off   |  off   |
-| 554 | vue/max-len                                                                                                                                                     |  off   |  off   |
-| 555 | vue/multiline-html-element-content-newline                                                                                                                      |  off   |  off   |
-| 556 | vue/mustache-interpolation-spacing                                                                                                                              |  off   |  off   |
-| 557 | vue/no-extra-parens                                                                                                                                             |  off   |  off   |
-| 558 | vue/no-multi-spaces                                                                                                                                             |  off   |  off   |
-| 559 | vue/no-spaces-around-equal-signs-in-attribute                                                                                                                   |  off   |  off   |
-| 560 | vue/object-curly-newline                                                                                                                                        |  off   |  off   |
-| 561 | vue/object-curly-spacing                                                                                                                                        |  off   |  off   |
-| 562 | vue/object-property-newline                                                                                                                                     |  off   |  off   |
-| 563 | vue/operator-linebreak                                                                                                                                          |  off   |  off   |
-| 564 | vue/script-indent                                                                                                                                               |  off   |  off   |
-| 565 | vue/singleline-html-element-content-newline                                                                                                                     |  off   |  off   |
-| 566 | vue/space-in-parens                                                                                                                                             |  off   |  off   |
-| 567 | vue/space-infix-ops                                                                                                                                             |  off   |  off   |
-| 568 | vue/space-unary-ops                                                                                                                                             |  off   |  off   |
-| 569 | vue/template-curly-spacing                                                                                                                                      |  off   |  off   |
+| 477 | [unicorn/no-document-cookie](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-document-cookie.md)                                | error  | error  |
+| 478 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md)                                              |  off   |  warn  |
+| 479 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md)                                          | error  | error  |
+| 480 | [unicorn/no-instanceof-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md)                              | error  | error  |
+| 481 | [unicorn/no-keyword-prefix](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md)                                  |  off   |  off   |
+| 482 | [unicorn/no-lonely-if](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-lonely-if.md)                                            | error  | error  |
+| 483 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-nested-ternary.md)                                  |  off   |  off   |
+| 484 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md)                                            | error  | error  |
+| 485 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md)                                          | error  | error  |
+| 486 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-null.md)                                                      |  off   |  off   |
+| 487 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md)        |  off   |  off   |
+| 488 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md)                                      |  warn  |  warn  |
+| 489 | [unicorn/no-static-only-class](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-static-only-class.md)                            | error  | error  |
+| 490 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md)                                | error  | error  |
+| 491 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md)  | error  | error  |
+| 492 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md)                                      |  off   |  off   |
+| 493 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md)                            |  off   |  off   |
+| 494 | [unicorn/no-useless-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md)                            | error  | error  |
+| 495 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md)                                  | error  | error  |
+| 496 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md)                              |  off   |  off   |
+| 497 | [unicorn/numeric-separators-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md)                    | error  | error  |
+| 498 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md)                  |  off   |  off   |
+| 499 | [unicorn/prefer-array-find](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md)                                  | error  | error  |
+| 500 | [unicorn/prefer-array-flat](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md)                                  | error  | error  |
+| 501 | [unicorn/prefer-array-flat-map](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md)                          | error  | error  |
+| 502 | [unicorn/prefer-array-index-of](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md)                          | error  | error  |
+| 503 | [unicorn/prefer-array-some](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md)                                  | error  | error  |
+| 504 | [unicorn/prefer-date-now](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md)                                      | error  | error  |
+| 505 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md)                  |  off   |  off   |
+| 506 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-append.md)                        |  off   |  off   |
+| 507 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-dataset.md)                      |  off   |  off   |
+| 508 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-remove.md)                        |  off   |  off   |
+| 509 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-dom-node-text-content.md)            |  off   |  off   |
+| 510 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md)                                      | error  | error  |
+| 511 | [unicorn/prefer-keyboard-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-keyboard-event-key.md)                  | error  | error  |
+| 512 | [unicorn/prefer-math-trunc](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md)                                  | error  | error  |
+| 513 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md)                        |  off   |  off   |
+| 514 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md)                                          |  off   |  off   |
+| 515 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md)                          | error  | error  |
+| 516 | [unicorn/prefer-node-protocol](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md)                            | error  | error  |
+| 517 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)                    |  off   | error  |
+| 518 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md)          |  off   | error  |
+| 519 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)                          |  off   |  off   |
+| 520 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)                            | error  | error  |
+| 521 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md)                                | error  | error  |
+| 522 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md)                                        |  off   | error  |
+| 523 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)                                          |  off   | error  |
+| 524 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/deprecated-rules.md#prefer-starts-ends-with)           |  off   |
+| 525 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)                  |  off   |  off   |
+| 526 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)                              | error  | error  |
+| 527 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)        | error  | error  |
+| 528 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)            | error  | error  |
+| 529 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md)                                          | error  | error  |
+| 530 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-ternary.md)                                        |  off   |  off   |
+| 531 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md)                                  | error  | error  |
+| 532 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md)                          | error  | error  |
+| 533 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md)                                        |  off   |  off   |
+| 534 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md)                                      | error  | error  |
+| 535 | vue/array-bracket-newline                                                                                                                                       |  off   |  off   |
+| 536 | vue/array-bracket-spacing                                                                                                                                       |  off   |  off   |
+| 537 | vue/arrow-spacing                                                                                                                                               |  off   |  off   |
+| 538 | vue/block-spacing                                                                                                                                               |  off   |  off   |
+| 539 | vue/block-tag-newline                                                                                                                                           |  off   |  off   |
+| 540 | vue/brace-style                                                                                                                                                 |  off   |  off   |
+| 541 | vue/comma-dangle                                                                                                                                                |  off   |  off   |
+| 542 | vue/comma-spacing                                                                                                                                               |  off   |  off   |
+| 543 | vue/comma-style                                                                                                                                                 |  off   |  off   |
+| 544 | vue/dot-location                                                                                                                                                |  off   |  off   |
+| 545 | vue/func-call-spacing                                                                                                                                           |  off   |  off   |
+| 546 | vue/html-closing-bracket-newline                                                                                                                                |  off   |  off   |
+| 547 | vue/html-closing-bracket-spacing                                                                                                                                |  off   |  off   |
+| 548 | vue/html-end-tags                                                                                                                                               |  off   |  off   |
+| 549 | vue/html-indent                                                                                                                                                 |  off   |  off   |
+| 550 | vue/html-quotes                                                                                                                                                 |  off   |  off   |
+| 551 | vue/html-self-closing                                                                                                                                           |  off   |  off   |
+| 552 | vue/key-spacing                                                                                                                                                 |  off   |  off   |
+| 553 | vue/keyword-spacing                                                                                                                                             |  off   |  off   |
+| 554 | vue/max-attributes-per-line                                                                                                                                     |  off   |  off   |
+| 555 | vue/max-len                                                                                                                                                     |  off   |  off   |
+| 556 | vue/multiline-html-element-content-newline                                                                                                                      |  off   |  off   |
+| 557 | vue/mustache-interpolation-spacing                                                                                                                              |  off   |  off   |
+| 558 | vue/no-extra-parens                                                                                                                                             |  off   |  off   |
+| 559 | vue/no-multi-spaces                                                                                                                                             |  off   |  off   |
+| 560 | vue/no-spaces-around-equal-signs-in-attribute                                                                                                                   |  off   |  off   |
+| 561 | vue/object-curly-newline                                                                                                                                        |  off   |  off   |
+| 562 | vue/object-curly-spacing                                                                                                                                        |  off   |  off   |
+| 563 | vue/object-property-newline                                                                                                                                     |  off   |  off   |
+| 564 | vue/operator-linebreak                                                                                                                                          |  off   |  off   |
+| 565 | vue/script-indent                                                                                                                                               |  off   |  off   |
+| 566 | vue/singleline-html-element-content-newline                                                                                                                     |  off   |  off   |
+| 567 | vue/space-in-parens                                                                                                                                             |  off   |  off   |
+| 568 | vue/space-infix-ops                                                                                                                                             |  off   |  off   |
+| 569 | vue/space-unary-ops                                                                                                                                             |  off   |  off   |
+| 570 | vue/template-curly-spacing                                                                                                                                      |  off   |  off   |
