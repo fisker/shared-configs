@@ -54,6 +54,8 @@ module.exports = {
 
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    'import/extensions': 'off',
+    'import/extensions': ['error', 'always'],
+
+    'import/no-anonymous-default-export': 'error',
   },
 }

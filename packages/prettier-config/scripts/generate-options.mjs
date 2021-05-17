@@ -63,7 +63,7 @@ prettierFile({
   file: readmeFile,
   process(readme) {
     return readme.replace(
-      new RegExp(`${OPTIONS_START_MARK}[\\s\\S]*?${OPTIONS_END_MARK}`, 'm'),
+      new RegExp(`${OPTIONS_START_MARK}.*?${OPTIONS_END_MARK}`, 's'),
       content
     )
   },
