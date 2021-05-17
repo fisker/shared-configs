@@ -7,6 +7,8 @@ const postcssPresetEnvironmentPlugin = postcssPresetEnvironment({
   },
 })
 
-export default {
+const config = {
   plugins: [postcssPresetEnvironmentPlugin],
 }
+
+export default config

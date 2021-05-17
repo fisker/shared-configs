@@ -76,4 +76,12 @@ module.exports = {
     'import/no-unresolved': 'off',
     'node/no-missing-import': 'off',
   },
+  overrides: [
+    {
+      files: ['rollup.config.js'],
+      rules: {
+        'import/no-anonymous-default-export': 'off',
+      },
+    },
+  ],
 }

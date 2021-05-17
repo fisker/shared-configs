@@ -1,5 +1,7 @@
 import {STYLELINT} from '../commands'
 
-export default {
+const config = {
   commands: STYLELINT,
 }
+
+export default config

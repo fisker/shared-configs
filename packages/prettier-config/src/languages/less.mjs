@@ -1,3 +1,5 @@
-export default {
+const config = {
   singleQuote: false,
 }
+
+export default config

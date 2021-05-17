@@ -1,5 +1,7 @@
 import {ESLINT} from '../commands'
 
-export default {
+const config = {
   commands: ESLINT,
 }
+
+export default config

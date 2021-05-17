@@ -2,7 +2,9 @@ import {PRETTIER} from '../commands'
 
 // TODO: htmlhint
 
-export default {
+const config = {
   extensions: 'html,htm',
   commands: PRETTIER,
 }
+
+export default config
