@@ -1,5 +1,7 @@
 import {PRETTIER} from '../commands'
 
-export default {
+const config = {
   commands: PRETTIER,
 }
+
+export default config

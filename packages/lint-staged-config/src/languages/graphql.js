@@ -1,6 +1,8 @@
 import {PRETTIER} from '../commands'
 
-export default {
+const config = {
   extensions: 'gql,graphql',
   commands: PRETTIER,
 }
+
+export default config

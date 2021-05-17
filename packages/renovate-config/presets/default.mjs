@@ -1,8 +1,7 @@
 // presets repo: https://github.com/renovatebot/renovate/tree/master/lib/config/presets/internal
 // presets: https://renovatebot.com/docs/presets-config/
 // options: https://renovatebot.com/docs/configuration-options/
-
-export default {
+const defaultConfig = {
   description: 'Default Configuration',
   extends: [
     ':enableRenovate',
@@ -56,3 +55,5 @@ export default {
   stabilityDays: 1,
   // schedule: ['after 5:30pm and before 5:30am'],
 }
+
+export default defaultConfig

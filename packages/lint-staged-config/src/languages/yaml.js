@@ -1,6 +1,8 @@
 import {PRETTIER} from '../commands'
 
-export default {
+const config = {
   extensions: 'yaml,yml',
   commands: PRETTIER,
 }
+
+export default config

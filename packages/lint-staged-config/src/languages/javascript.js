@@ -1,7 +1,9 @@
 import {ESLINT} from '../commands'
 import getExtensions from '../../../../shared/file-extensions.mjs'
 
-export default {
+const config = {
   extensions: getExtensions('javascript'),
   commands: ESLINT,
 }
+
+export default config
