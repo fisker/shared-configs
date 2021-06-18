@@ -52,7 +52,7 @@
     "ava": "3.15.0",
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "4.0.0",
-    "eslint": "7.28.0",
+    "eslint": "7.29.0",
     "husky": "6.0.0",
     "import-commonjs": "0.0.3",
     "lerna": "4.0.0",
