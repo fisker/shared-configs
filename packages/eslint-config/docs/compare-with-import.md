@@ -19,7 +19,7 @@ import/namespace, off, error, https://github.com/benmosher/eslint-plugin-import/
 import/newline-after-import, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
 import/no-absolute-path, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
 import/no-amd, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
-import/no-anonymous-default-export, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
+import/no-anonymous-default-export, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
 import/no-commonjs, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
 import/no-cycle, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
 import/no-default-export, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md
@@ -61,7 +61,7 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |  10 | [import/newline-after-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md)                     | error  |
 |  11 | [import/no-absolute-path](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md)                             | error  |
 |  12 | [import/no-amd](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md)                                                 | error  |
-|  13 | [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md)       | error  |
+|  13 | [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md)       |  off   |
 |  14 | [import/no-commonjs](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md)                                       |  off   |
 |  15 | [import/no-cycle](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md)                                             | error  |
 |  16 | [import/no-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md)                           |  off   |
@@ -105,7 +105,7 @@ import/namespace, off, error, https://github.com/benmosher/eslint-plugin-import/
 import/newline-after-import, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
 import/no-absolute-path, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
 import/no-amd, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
-import/no-anonymous-default-export, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
+import/no-anonymous-default-export, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
 import/no-commonjs, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
 import/no-cycle, error, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
 import/no-default-export, off, , https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md
@@ -150,7 +150,7 @@ import/unambiguous, off, , https://github.com/benmosher/eslint-plugin-import/blo
 |  12 | [import/newline-after-import](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md)                     | error  |
 |  13 | [import/no-absolute-path](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md)                             | error  |
 |  14 | [import/no-amd](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md)                                                 | error  |
-|  15 | [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md)       | error  |
+|  15 | [import/no-anonymous-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md)       |  off   |
 |  16 | [import/no-commonjs](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md)                                       |  off   |
 |  17 | [import/no-cycle](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md)                                             | error  |
 |  18 | [import/no-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md)                           |  off   |

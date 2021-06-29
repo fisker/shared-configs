@@ -56,6 +56,6 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': ['error', 'always'],
 
-    'import/no-anonymous-default-export': 'error',
+    'import/no-anonymous-default-export': 'off',
   },
 }

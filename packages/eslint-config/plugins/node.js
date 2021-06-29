@@ -2,6 +2,8 @@ module.exports = {
   plugins: ['node'],
   extends: ['plugin:node/recommended'],
   rules: {
+    'node/no-unsupported-features/node-builtins': 'off',
+    'node/no-unsupported-features/es-builtins': 'off',
     'node/no-unsupported-features/es-syntax': 'off',
 
     // duplicate of `import/no-extraneous-dependencies`
