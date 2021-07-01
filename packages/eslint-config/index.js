@@ -2,7 +2,6 @@ module.exports = {
   root: true,
   parser: require.resolve('@babel/eslint-parser'),
   env: {
-    es6: true,
     browser: true,
     node: true,
   },
