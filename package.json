@@ -53,7 +53,7 @@
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "4.0.0",
     "eslint": "7.30.0",
-    "husky": "7.0.0",
+    "husky": "7.0.1",
     "import-commonjs": "0.0.3",
     "lerna": "4.0.0",
     "lint-staged": "11.0.0",
