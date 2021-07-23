@@ -35,5 +35,8 @@ module.exports = {
     // Disallow useless backreferences in regular expressions
     // https://eslint.org/docs/rules/no-useless-backreference
     'no-useless-backreference': 'error',
+
+    // https://eslint.org/docs/rules/no-unsafe-negation#options
+    'no-unsafe-negation': ['error', {enforceForOrderingRelations: true}],
   },
 }
