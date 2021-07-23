@@ -38,5 +38,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-unsafe-negation#options
     'no-unsafe-negation': ['error', {enforceForOrderingRelations: true}],
+
+    // Disallow use of optional chaining in contexts where the `undefined` value is not allowed
+    // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+    'no-unsafe-optional-chaining': 'error',
   },
 }
