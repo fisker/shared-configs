@@ -5,5 +5,6 @@ module.exports = {
     'sonarjs/no-duplicate-string': 'off',
     'sonarjs/cognitive-complexity': 'off',
     'sonarjs/prefer-immediate-return': 'off',
+    'sonarjs/no-nested-template-literals': 'off',
   },
 }
