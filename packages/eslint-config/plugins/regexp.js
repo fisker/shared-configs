@@ -10,5 +10,8 @@ module.exports = {
 
     // Conflicting with `unicorn/better-regex`
     'regexp/sort-character-class-elements': 'off',
+
+    // Conflicting with `unicorn/better-regex`
+    'regexp/match-any': ['error', {allows: ['dotAll', '[\\S\\s]']}],
   },
 }
