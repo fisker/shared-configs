@@ -1,4 +1,4 @@
-import {STYLELINT} from '../commands'
+import {STYLELINT} from '../commands.js'
 
 const config = {
   commands: STYLELINT,

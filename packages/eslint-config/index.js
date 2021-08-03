@@ -63,25 +63,16 @@ module.exports = {
     ],
 
     // Override airbnb config
-    'node/no-unsupported-features/node-builtins': [
+    'node/no-unsupported-features/node-builtins': 'off',
+    'import/extensions': ['error', 'always', {ignorePackages: true}],
+    // Default options seems not working
+    'import/order': [
       'error',
-      {
-        version: '>=12.22.1',
-      },
+      {groups: ['builtin', 'external', 'parent', 'sibling', 'index']},
     ],
-
-    'import/extensions': 'off',
 
     // Disable these temporarily, as they conflict with `unicorn/prefer-node-protocol`
     'import/no-unresolved': 'off',
     'node/no-missing-import': 'off',
   },
-  overrides: [
-    {
-      files: ['rollup.config.js'],
-      rules: {
-        'import/no-anonymous-default-export': 'off',
-      },
-    },
-  ],
 }

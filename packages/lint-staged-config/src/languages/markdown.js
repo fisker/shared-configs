@@ -1,4 +1,4 @@
-import {PRETTIER, MARKDOWNLINT} from '../commands'
+import {PRETTIER, MARKDOWNLINT} from '../commands.js'
 
 // markdown files
 // first prettier then lint

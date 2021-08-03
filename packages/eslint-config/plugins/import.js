@@ -9,7 +9,5 @@ module.exports = {
   ],
   rules: {
     'import/first': 'error',
-    'import/extensions': ['error', 'always', {ignorePackages: true}],
-    'import/order': 'error',
   },
 }

@@ -20,5 +20,19 @@ module.exports = {
 
     // duplicate of `import/no-unresolved`
     'node/no-missing-require': 'off',
+
+    'node/prefer-global/buffer': ['error', 'never'],
+    'node/prefer-global/process': ['error', 'never'],
+    'node/prefer-global/console': ['error', 'always'],
+    'node/prefer-global/text-decoder': ['error', 'always'],
+    'node/prefer-global/text-encoder': ['error', 'always'],
+    'node/prefer-global/url-search-params': ['error', 'always'],
+    'node/prefer-global/url': ['error', 'always'],
+
+    'node/prefer-promises/dns': 'error',
+    'node/prefer-promises/fs': 'error',
+
+    'node/no-path-concat': 'error',
+    'node/no-new-require': 'error',
   },
 }

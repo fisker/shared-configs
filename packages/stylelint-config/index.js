@@ -1,12 +1,13 @@
 module.exports = {
-  plugins: ['stylelint-scss', 'stylelint-prettier'].map(require.resolve),
+  plugins: ['stylelint-scss', 'stylelint-prettier'].map((module) =>
+    require.resolve(module)
+  ),
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recommended-scss',
     'stylelint-config-prettier',
-  ].map(require.resolve),
+  ].map((module) => require.resolve(module)),
   rules: {
-    /* eslint-disable unicorn/no-null */
     'block-no-empty': null,
     'font-family-no-missing-generic-family-keyword': null,
     'no-empty-source': null,
@@ -31,6 +32,5 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
     'no-invalid-position-at-import-rule': null,
-    /* eslint-enable unicorn/no-null */
   },
 }

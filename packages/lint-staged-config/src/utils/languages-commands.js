@@ -1,4 +1,4 @@
-import toArray from './to-array'
+import toArray from './to-array.js'
 
 function parseCommands(languages) {
   return Object.keys(languages)

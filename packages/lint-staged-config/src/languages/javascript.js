@@ -1,4 +1,4 @@
-import {ESLINT} from '../commands'
+import {ESLINT} from '../commands.js'
 import getExtensions from '../../../../shared/file-extensions.mjs'
 
 const config = {

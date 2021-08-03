@@ -34,7 +34,7 @@ module.exports = {
 
     // prettier
     '@fisker/eslint-config/plugins/prettier.js',
-  ].map(require.resolve),
+  ].map((module) => require.resolve(module)),
   rules: {
     ...base.rules,
 

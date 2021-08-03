@@ -9,7 +9,7 @@ const require = importCommonJs(import.meta.url)
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 const configs = {
-  legacy: require('../index'),
+  legacy: require('../index.js'),
 
   // fisker
   fisker: {
@@ -23,7 +23,7 @@ const configs = {
 
 const compares = [
   {
-    filter({id}, localRules, foreignRules) {
+    filter({id}, localRules /* , foreignRules */) {
       return has(localRules, id)
     },
     file: 'compare-with-fisker',

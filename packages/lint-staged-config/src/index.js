@@ -1,8 +1,8 @@
-import {SORT_PACKAGE_JSON} from './commands'
-import * as languages from './languages/index'
-import mergeCommands from './utils/merge-commands'
-import parseCommands from './utils/languages-commands'
-import extensionsToGlob from './utils/extensions-to-glob'
+import {SORT_PACKAGE_JSON} from './commands.js'
+import * as languages from './languages/index.js'
+import mergeCommands from './utils/merge-commands.js'
+import parseCommands from './utils/languages-commands.js'
+import extensionsToGlob from './utils/extensions-to-glob.js'
 
 module.exports = mergeCommands(parseCommands(languages)).reduce(
   (config, {extensions, commands}) => ({

@@ -1,4 +1,4 @@
-import {PRETTIER} from '../commands'
+import {PRETTIER} from '../commands.js'
 
 // TODO: htmlhint
 

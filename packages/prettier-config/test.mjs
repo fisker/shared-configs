@@ -42,7 +42,10 @@ test('options', (t) => {
     ...overrides.map(({options}) => parseOptions(options)),
   ])
 
-  t.is(allOptions.every(validateOptions), true)
+  t.is(
+    allOptions.every((options) => validateOptions(options)),
+    true
+  )
 })
 
 test('extend', (t) => {

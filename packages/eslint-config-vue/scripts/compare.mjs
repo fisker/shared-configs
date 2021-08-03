@@ -2,14 +2,13 @@ import path from 'node:path'
 import url from 'node:url'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import importCommonJs from 'import-commonjs'
-import has from '../../../shared/has.mjs'
 import printCompareResult from '../../../shared/eslint/print-compare.mjs'
 
 const require = importCommonJs(import.meta.url)
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 const configs = {
-  vue: require('../index'),
+  vue: require('../index.js'),
 
   'vue/recommended': {
     plugins: ['vue'],

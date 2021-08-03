@@ -9,15 +9,17 @@ const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
 const configs = {
   // fisker
-  fisker: require('../index'),
+  fisker: require('../index.js'),
 
   // airbnb
   airbnb: {
-    extends: ['eslint-config-airbnb-base'].map(require.resolve),
+    extends: ['eslint-config-airbnb-base'].map((module) =>
+      require.resolve(module)
+    ),
   },
   'airbnb + prettier': {
     extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(
-      require.resolve
+      (module) => require.resolve(module)
     ),
   },
 

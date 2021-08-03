@@ -40,11 +40,7 @@ test('overrides with falsely value', (t) => {
     [testHook]: null,
   })
 
-  t.is(
-    modified.hooks[testHook],
-    // eslint-disable-next-line unicorn/no-useless-undefined
-    undefined
-  )
+  t.is(modified.hooks[testHook], undefined)
 })
 
 test('chained', (t) => {

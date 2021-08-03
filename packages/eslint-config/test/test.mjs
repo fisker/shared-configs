@@ -5,7 +5,6 @@ import test from 'ava'
 import ESLint from 'eslint'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
-// eslint-disable-next-line unicorn/prefer-prototype-methods
 const fixture = path.join.bind(path, dirname, 'fixtures')
 
 const eslint = new ESLint.ESLint({

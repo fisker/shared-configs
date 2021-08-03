@@ -1,4 +1,4 @@
-import {ESLINT} from '../commands'
+import {ESLINT} from '../commands.js'
 
 const config = {
   commands: ESLINT,
