@@ -13,5 +13,8 @@ module.exports = {
 
     // Conflicting with `unicorn/better-regex`
     'regexp/match-any': ['error', {allows: ['dotAll', '[\\S\\s]']}],
+
+    // Conflicting with `unicorn/better-regex`
+    'regexp/strict': 'off',
   },
 }
