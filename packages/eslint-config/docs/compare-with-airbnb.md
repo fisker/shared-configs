@@ -115,7 +115,6 @@ vars-on-top, off, error, https://eslint.org/docs/rules/vars-on-top
 wrap-iife, off, error, https://eslint.org/docs/rules/wrap-iife
 yield-star-spacing, off, error, https://eslint.org/docs/rules/yield-star-spacing
 import/exports-last, error, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
-import/extensions, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
 import/no-deprecated, error, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
 import/no-dynamic-require, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
 import/no-named-as-default-member, warn, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
@@ -233,12 +232,11 @@ import/prefer-default-export, off, error, https://github.com/benmosher/eslint-pl
 | 106 | [wrap-iife](https://eslint.org/docs/rules/wrap-iife)                                                                                        |  off   | error  |
 | 107 | [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing)                                                                      |  off   | error  |
 | 108 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md)                             | error  |  off   |
-| 109 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                 |  off   | error  |
-| 110 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md)                           | error  |  off   |
-| 111 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md)                 |  off   | error  |
-| 112 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md) |  warn  | error  |
-| 113 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                           |  off   | error  |
-| 114 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)           |  off   | error  |
+| 109 | [import/no-deprecated](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md)                           | error  |  off   |
+| 110 | [import/no-dynamic-require](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md)                 |  off   | error  |
+| 111 | [import/no-named-as-default-member](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md) |  warn  | error  |
+| 112 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                           |  off   | error  |
+| 113 | [import/prefer-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)           |  off   | error  |
 
 ## all rules
 
@@ -543,7 +541,7 @@ import/default, off, off, https://github.com/benmosher/eslint-plugin-import/blob
 import/dynamic-import-chunkname, off, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
 import/export, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
 import/exports-last, error, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md
-import/extensions, off, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+import/extensions, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
 import/first, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
 import/group-exports, off, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md
 import/imports-first, off, off, https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md
@@ -884,7 +882,7 @@ import/unambiguous, off, off, https://github.com/benmosher/eslint-plugin-import/
 | 298 | [import/dynamic-import-chunkname](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md)             |  off   |  off   |
 | 299 | [import/export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md)                                                 | error  | error  |
 | 300 | [import/exports-last](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/exports-last.md)                                     | error  |  off   |
-| 301 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         |  off   | error  |
+| 301 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                         | error  | error  |
 | 302 | [import/first](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)                                                   | error  | error  |
 | 303 | [import/group-exports](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/group-exports.md)                                   |  off   |  off   |
 | 304 | [import/imports-first](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md) |  off   |  off   |
