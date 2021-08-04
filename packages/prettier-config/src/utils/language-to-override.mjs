@@ -6,14 +6,11 @@ import isGlobalConfig from './is-global-config.mjs'
 function toOverride({extensions, config}) {
   const files = extensionsToGlob(extensions)
 
-  const options = SUPPORTED_OPTIONS.reduce((options, key) => {
-    const value = config[key]
-    if (!isUndefined(value) && !isGlobalConfig(key, value)) {
-      options[key] = value
-    }
-
-    return options
-  }, {})
+  const options = Object.fromEntries(
+    SUPPORTED_OPTIONS.map((key) => [key, config[key]]).filter(
+      ([key, value]) => !isUndefined(value) && !isGlobalConfig(key, value)
+    )
+  )
 
   return {
     files,

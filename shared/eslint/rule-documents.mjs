@@ -1,8 +1,8 @@
 import mem from 'mem'
 
-function getRuleDocuments(ruleId, defs) {
-  const def = defs.get(ruleId) || {}
-  const {meta = {}} = def
+function getRuleDocuments(ruleId, definitions) {
+  const definition = definitions.get(ruleId) || {}
+  const {meta = {}} = definition
   const {docs: documents = {}} = meta
 
   return documents
