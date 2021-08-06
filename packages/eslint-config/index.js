@@ -62,17 +62,16 @@ module.exports = {
       },
     ],
 
-    // Override airbnb config
-    'node/no-unsupported-features/node-builtins': 'off',
     'import/extensions': ['error', 'always', {ignorePackages: true}],
-    // Default options seems not working
-    'import/order': [
-      'error',
-      {groups: ['builtin', 'external', 'parent', 'sibling', 'index']},
-    ],
+
+    // Default options seems not working without second option
+    'import/order': ['error', {}],
 
     // Disable these temporarily, as they conflict with `unicorn/prefer-node-protocol`
     'import/no-unresolved': 'off',
+
+    'node/no-unsupported-features/node-builtins': 'off',
+
     'node/no-missing-import': 'off',
   },
 }
