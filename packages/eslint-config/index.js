@@ -9,7 +9,7 @@ module.exports = {
     ecmaVersion: 2021,
     sourceType: 'module',
     requireConfigFile: false,
-    attachComment: false,
+    allowImportExportEverywhere: true,
     ecmaFeatures: {
       globalReturn: false,
       jsx: true,
@@ -18,7 +18,6 @@ module.exports = {
       babelrc: false,
       configFile: false,
       parserOpts: {
-        allowImportExportEverywhere: true,
         plugins: ['exportDefaultFrom'],
       },
     },
