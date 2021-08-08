@@ -74,4 +74,5 @@ module.exports = {
 
     'node/no-missing-import': 'off',
   },
+  reportUnusedDisableDirectives: true,
 }
