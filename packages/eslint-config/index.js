@@ -10,11 +10,13 @@ module.exports = {
     sourceType: 'module',
     allowImportExportEverywhere: true,
     requireConfigFile: false,
+    attachComment: false,
     ecmaFeatures: {
       globalReturn: false,
       jsx: true,
     },
     babelOptions: {
+      configFile: false,
       parserOpts: {
         allowAwaitOutsideFunction: true,
         plugins: ['exportDefaultFrom'],
