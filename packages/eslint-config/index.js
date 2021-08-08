@@ -8,7 +8,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
-    allowImportExportEverywhere: true,
     requireConfigFile: false,
     attachComment: false,
     ecmaFeatures: {
@@ -16,9 +15,11 @@ module.exports = {
       jsx: true,
     },
     babelOptions: {
+      babelrc: false,
       configFile: false,
       parserOpts: {
         allowAwaitOutsideFunction: true,
+        allowImportExportEverywhere: true,
         plugins: ['exportDefaultFrom'],
       },
     },
