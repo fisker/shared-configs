@@ -18,7 +18,6 @@ module.exports = {
       babelrc: false,
       configFile: false,
       parserOpts: {
-        allowAwaitOutsideFunction: true,
         allowImportExportEverywhere: true,
         plugins: ['exportDefaultFrom'],
       },
