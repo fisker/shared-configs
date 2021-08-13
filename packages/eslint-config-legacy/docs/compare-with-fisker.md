@@ -684,9 +684,9 @@ flowtype/space-after-type-colon, off, off,
 flowtype/space-before-generic-bracket, off, off,
 flowtype/space-before-type-colon, off, off,
 flowtype/union-intersection-spacing, off, off,
-import/extensions, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-import/no-unresolved, off, off, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-import/order, error, error, https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+import/extensions, error, error, https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/extensions.md
+import/no-unresolved, off, off, https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/no-unresolved.md
+import/order, error, error, https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/order.md
 node/no-missing-import, off, off, https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-missing-import.md
 node/no-unsupported-features/node-builtins, off, off, https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-unsupported-features/node-builtins.md
 prettier/prettier, error, error, https://github.com/prettier/eslint-plugin-prettier#options
@@ -1271,9 +1271,9 @@ vue/template-curly-spacing, off, off,
 | 419 | flowtype/space-before-generic-bracket                                                                                                                                      |  off   |  off   |
 | 420 | flowtype/space-before-type-colon                                                                                                                                           |  off   |  off   |
 | 421 | flowtype/union-intersection-spacing                                                                                                                                        |  off   |  off   |
-| 422 | [import/extensions](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md)                                                                | error  | error  |
-| 423 | [import/no-unresolved](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md)                                                          |  off   |  off   |
-| 424 | [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)                                                                          | error  | error  |
+| 422 | [import/extensions](https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/extensions.md)                                                               | error  | error  |
+| 423 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/no-unresolved.md)                                                         |  off   |  off   |
+| 424 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/v2.24.0/docs/rules/order.md)                                                                         | error  | error  |
 | 425 | [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-missing-import.md)                                                    |  off   |  off   |
 | 426 | [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-unsupported-features/node-builtins.md)            |  off   |  off   |
 | 427 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                            | error  | error  |
