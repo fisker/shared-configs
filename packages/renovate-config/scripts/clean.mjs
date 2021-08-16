@@ -1,9 +1,9 @@
-import {readPackageAsync} from 'read-pkg'
-import writePackage from 'write-pkg'
+import {readPackage} from 'read-pkg'
+import {writePackage} from 'write-pkg'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
 
 async function cleanPackage(cwd) {
-  const package_ = await readPackageAsync({
+  const package_ = await readPackage({
     cwd,
     normalize: false,
   })
