@@ -16,5 +16,8 @@ module.exports = {
 
     // Conflicting with `unicorn/better-regex`
     'regexp/strict': 'off',
+
+    // https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-flag.html#stricttypes-false
+    'regexp/no-useless-flag': ['error', {strictTypes: false}],
   },
 }
