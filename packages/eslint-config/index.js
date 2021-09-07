@@ -6,7 +6,7 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 'latest',
     sourceType: 'module',
     requireConfigFile: false,
     allowImportExportEverywhere: true,
