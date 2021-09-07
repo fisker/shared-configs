@@ -16,16 +16,19 @@ module.exports = {
     },
   },
   extends: [
+    // ESLint recommended
+    '@fisker/eslint-config/rules/recommended.js',
+
     // plugins
     '@fisker/eslint-config/plugins/promise.js',
     '@fisker/eslint-config/plugins/unicorn.js',
     '@fisker/eslint-config/plugins/eslint-comments.js',
-
-    // plugins
+    '@fisker/eslint-config/plugins/regexp.js',
+    '@fisker/eslint-config/plugins/sonarjs.js',
     './plugins/es.js',
     './plugins/unicorn.js',
 
-    // basic
+    // airbnb
     'eslint-config-airbnb-base/legacy',
     '@fisker/eslint-config/rules/best-practices.js',
     '@fisker/eslint-config/rules/errors.js',
