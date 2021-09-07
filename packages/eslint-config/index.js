@@ -23,6 +23,9 @@ module.exports = {
     },
   },
   extends: [
+    // ESLint recommended
+    './rules/recommended.js',
+
     // plugins
     './plugins/import.js',
     './plugins/promise.js',

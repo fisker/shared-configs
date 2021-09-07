@@ -44,7 +44,7 @@ module.exports = require('@fisker/prettier-config').extend({
 | htmlWhitespaceSensitivity | ignore | How to handle whitespaces in HTML.                       |
 | semi                      | false  | Print semicolons.                                        |
 | singleQuote               | true   | Use single quotes instead of double quotes.              |
-| trailingComma             | es5    | Print trailing commas wherever possible when multi-line. |
+| trailingComma             | all    | Print trailing commas wherever possible when multi-line. |
 
 ### \*.css
 
