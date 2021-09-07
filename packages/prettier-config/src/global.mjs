@@ -3,7 +3,7 @@ const config = {
   htmlWhitespaceSensitivity: 'ignore',
   semi: false,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'all',
 }
 
 export default config
