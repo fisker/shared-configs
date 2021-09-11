@@ -45,7 +45,7 @@
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-regexp": "1.1.0",
     "eslint-plugin-sonarjs": "0.10.0",
-    "eslint-plugin-unicorn": "35.0.0"
+    "eslint-plugin-unicorn": "36.0.0"
   },
   "devDependencies": {
     "ava": "3.15.0",
