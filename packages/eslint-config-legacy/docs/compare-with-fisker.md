@@ -778,9 +778,9 @@ regexp/order-in-character-class, off, off, https://ota-meshi.github.io/eslint-pl
 regexp/prefer-character-class, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-character-class.html
 regexp/prefer-d, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-d.html
 regexp/prefer-escape-replacement-dollar-char, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-escape-replacement-dollar-char.html
-regexp/prefer-lookaround, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html
+regexp/prefer-lookaround, off, off, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html
 regexp/prefer-named-backreference, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-backreference.html
-regexp/prefer-named-capture-group, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html
+regexp/prefer-named-capture-group, off, off, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html
 regexp/prefer-plus-quantifier, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-plus-quantifier.html
 regexp/prefer-predefined-assertion, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-predefined-assertion.html
 regexp/prefer-quantifier, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-quantifier.html
@@ -792,7 +792,7 @@ regexp/prefer-star-quantifier, error, error, https://ota-meshi.github.io/eslint-
 regexp/prefer-t, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-t.html
 regexp/prefer-unicode-codepoint-escapes, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-unicode-codepoint-escapes.html
 regexp/prefer-w, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-w.html
-regexp/require-unicode-regexp, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html
+regexp/require-unicode-regexp, off, off, https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html
 regexp/sort-alternatives, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-alternatives.html
 regexp/sort-character-class-elements, off, off, https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-character-class-elements.html
 regexp/sort-flags, error, error, https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-flags.html
@@ -1479,9 +1479,9 @@ vue/template-curly-spacing, off, off,
 | 513 | [regexp/prefer-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-character-class.html)                                                      | error  | error  |
 | 514 | [regexp/prefer-d](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-d.html)                                                                                  | error  | error  |
 | 515 | [regexp/prefer-escape-replacement-dollar-char](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-escape-replacement-dollar-char.html)                        | error  | error  |
-| 516 | [regexp/prefer-lookaround](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html)                                                                | error  | error  |
+| 516 | [regexp/prefer-lookaround](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html)                                                                |  off   |  off   |
 | 517 | [regexp/prefer-named-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-backreference.html)                                              | error  | error  |
-| 518 | [regexp/prefer-named-capture-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html)                                              | error  | error  |
+| 518 | [regexp/prefer-named-capture-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html)                                              |  off   |  off   |
 | 519 | [regexp/prefer-plus-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-plus-quantifier.html)                                                      | error  | error  |
 | 520 | [regexp/prefer-predefined-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-predefined-assertion.html)                                            | error  | error  |
 | 521 | [regexp/prefer-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-quantifier.html)                                                                | error  | error  |
@@ -1493,7 +1493,7 @@ vue/template-curly-spacing, off, off,
 | 527 | [regexp/prefer-t](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-t.html)                                                                                  | error  | error  |
 | 528 | [regexp/prefer-unicode-codepoint-escapes](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-unicode-codepoint-escapes.html)                                  | error  | error  |
 | 529 | [regexp/prefer-w](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-w.html)                                                                                  | error  | error  |
-| 530 | [regexp/require-unicode-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html)                                                      | error  | error  |
+| 530 | [regexp/require-unicode-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html)                                                      |  off   |  off   |
 | 531 | [regexp/sort-alternatives](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-alternatives.html)                                                                | error  | error  |
 | 532 | [regexp/sort-character-class-elements](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-character-class-elements.html)                                        |  off   |  off   |
 | 533 | [regexp/sort-flags](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-flags.html)                                                                              | error  | error  |
