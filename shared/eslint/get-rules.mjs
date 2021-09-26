@@ -20,11 +20,11 @@ function getRules(config) {
     let {url: link} = documents
     link = (link || '')
       .replace(
-        /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v(.*?)\//,
+        /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v.*?\//u,
         '/sindresorhus/eslint-plugin-unicorn/blob/main/'
       )
       .replace(
-        /\/import-js\/eslint-plugin-import\/blob\/v(.*?)\//,
+        /\/import-js\/eslint-plugin-import\/blob\/v.*?\//u,
         '/import-js/eslint-plugin-import/blob/main/'
       )
 
