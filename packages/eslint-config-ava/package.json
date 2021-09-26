@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-ava",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "fisker's Shareable ESLint Configuration for ava test",
   "keywords": [
     "ava",
