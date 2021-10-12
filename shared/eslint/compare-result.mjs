@@ -2,13 +2,13 @@ import getRules from './get-rules.mjs'
 import sortRuleId from './sort-rule-id.mjs'
 import parseRuleId from './parse-rule-id.mjs'
 
-function getResult(compare) {
+async function getResult(compare) {
   const {local, foreign, filter} = compare
 
   const names = [local.name, foreign.name]
 
-  const localRules = getRules(local.config)
-  const foreignRules = getRules(foreign.config)
+  const localRules = await getRules(local.config)
+  const foreignRules = await getRules(foreign.config)
 
   const data = [
     ...new Set([...Object.keys(localRules), ...Object.keys(foreignRules)]),

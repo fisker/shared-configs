@@ -11,7 +11,7 @@ function getDiffOnlyFilter(filter) {
   }
 }
 
-function printCompareResult(destination_, compares, configs) {
+async function printCompareResult(destination_, compares, configs) {
   for (const {
     filter,
     file,
@@ -29,8 +29,10 @@ function printCompareResult(destination_, compares, configs) {
       config: configs[foreignName],
     }
 
-    const resultAll = getResult({filter, local, foreign})
-    const resultDiff = getResult({
+    // eslint-disable-next-line no-await-in-loop
+    const resultAll = await getResult({filter, local, foreign})
+    // eslint-disable-next-line no-await-in-loop
+    const resultDiff = await getResult({
       filter: getDiffOnlyFilter(filter),
       local,
       foreign,
