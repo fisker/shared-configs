@@ -6,29 +6,24 @@ const {require} = createEsmUtils(import.meta)
 
 function loadRuleDefinition(id) {
   const {prefix, rule} = parseRuleId(id)
-  switch (prefix) {
-    case '': {
-      return require('eslint/use-at-your-own-risk').builtinRules.get(rule)
-    }
-    case 'unicorn':
-    case 'import':
-    case 'node':
-    case 'prettier':
-    case 'vue':
-    case 'promise':
-    case 'eslint-comments': {
+  if (prefix === '') {
+    return require('eslint/use-at-your-own-risk').builtinRules.get(rule)
+  }
+
+  if (prefix.charAt(0) === '@') {
+    try {
+      return require(`${prefix}/eslint-plugin`).rules[rule]
+    } catch {}
+  } else {
+    try {
       return require(`eslint-plugin-${prefix}`).rules[rule]
-    }
-    default:
-    // No default
+    } catch {}
   }
 }
 
 function getRuleDocumentation(id) {
-  const definition = loadRuleDefinition(id) || {}
-  const {meta = {}} = definition
-  const {docs: documentation = {}} = meta
-  return documentation
+  const definition = loadRuleDefinition(id)
+  return definition?.meta.docs ?? {}
 }
 
 export default mem(getRuleDocumentation, {cacheKey: (ruleId) => ruleId})
