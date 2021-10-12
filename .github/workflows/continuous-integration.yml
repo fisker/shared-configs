@@ -18,7 +18,7 @@ jobs:
           # - "macos-latest"
           # - "windows-latest"
         NODE:
-          - "15"
+          - "16"
           - "14"
           - "12"
         # exclude:
@@ -27,13 +27,15 @@ jobs:
 
     name: Test on node ${{ matrix.NODE }} and ${{ matrix.PLATFORM }}
     runs-on: ${{ matrix.PLATFORM }}
+    env:
+      YARN_ENABLE_IMMUTABLE_INSTALLS: false
     # needs: [build]
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.NODE }}
 
@@ -41,7 +43,7 @@ jobs:
         run: yarn
 
       # - name: Download Artifact
-      #   uses: actions/download-artifact@master
+      #   uses: actions/download-artifact@v2
       #   with:
       #     name: dist
       #     path: dist
@@ -59,14 +61,14 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    env:
+      YARN_ENABLE_IMMUTABLE_INSTALLS: false
     steps:
       - name: Checkout
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v2
 
       - name: Install Dependencies
         run: yarn
@@ -77,14 +79,14 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      YARN_ENABLE_IMMUTABLE_INSTALLS: false
     steps:
       - name: Checkout
-        uses: actions/checkout@master
-        with:
-          fetch-depth: 1
+        uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v2
 
       - name: Install Dependencies
         run: yarn
@@ -92,7 +94,7 @@ jobs:
       - name: Build Package
         run: yarn build
       # - name: Upload Artifact
-      #   uses: actions/upload-artifact@master
+      #   uses: actions/upload-artifact@v2
       #   with:
       #     name: dist
       #     path: dist
