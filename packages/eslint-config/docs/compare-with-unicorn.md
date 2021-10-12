@@ -148,6 +148,7 @@ unicorn/require-array-join-separator, error, error, https://github.com/sindresor
 unicorn/require-number-to-fixed-digits-argument, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
 unicorn/require-post-message-target-origin, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md
 unicorn/string-content, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md
+unicorn/template-indent, warn, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md
 unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md
 -->
 
@@ -242,4 +243,5 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  87 | [unicorn/require-number-to-fixed-digits-argument](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md) | error  |        error        |
 |  88 | [unicorn/require-post-message-target-origin](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)           | error  |        error        |
 |  89 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)                                                   |  off   |         off         |
-|  90 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)                                                 | error  |        error        |
+|  90 | [unicorn/template-indent](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)                                                 |  warn  |        warn         |
+|  91 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)                                                 | error  |        error        |

@@ -5,7 +5,7 @@ function parseRuleId(id) {
 
   const [prefix, ...ruleParts] = array.length < 2 ? ['', ...array] : array
 
-  const rule = ruleParts.join('')
+  const rule = ruleParts.join('/')
   return {
     prefix,
     rule,

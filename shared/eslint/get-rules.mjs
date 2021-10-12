@@ -1,23 +1,23 @@
-import {CLIEngine} from 'eslint'
+import {ESLint} from 'eslint'
 import mem from 'mem'
 
-import ruleDocuments from './rule-documents.mjs'
+import ruleDocumentation from './rule-documentation.mjs'
 import ruleValue from './rule-value.mjs'
 
-function getRules(config) {
-  const engine = new CLIEngine({
+async function getRules(config) {
+  const engine = new ESLint({
     baseConfig: config,
     cache: false,
     useEslintrc: false,
   })
 
-  const {rules} = engine.getConfigForFile('example.js')
-  const defs = engine.getRules()
+  const {rules} = await engine.calculateConfigForFile('example.js')
 
-  for (const id of Object.keys(rules)) {
-    const value = ruleValue(rules[id])
-    const documents = ruleDocuments(id, defs)
-    let {url: link} = documents
+  for (const [id, settings] of Object.entries(rules)) {
+    const value = ruleValue(settings)
+
+    const documentation = ruleDocumentation(id)
+    let {url: link} = documentation
     link = (link || '')
       .replace(
         /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v.*?\//u,
@@ -31,7 +31,7 @@ function getRules(config) {
     rules[id] = {
       value,
       link,
-      docs: documents,
+      documentation,
     }
   }
   return rules

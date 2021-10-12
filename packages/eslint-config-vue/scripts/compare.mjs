@@ -43,4 +43,4 @@ const compares = [
   },
 ]
 
-printCompareResult(path.join(dirname, '../docs'), compares, configs)
+await printCompareResult(path.join(dirname, '../docs'), compares, configs)
