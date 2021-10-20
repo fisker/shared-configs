@@ -22,6 +22,7 @@ module.exports = {
       },
     },
   },
+  reportUnusedDisableDirectives: true,
   extends: [
     // ESLint recommended
     './rules/recommended.js',
@@ -78,5 +79,4 @@ module.exports = {
 
     'node/no-missing-import': 'off',
   },
-  reportUnusedDisableDirectives: true,
 }

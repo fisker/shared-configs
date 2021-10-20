@@ -15,6 +15,7 @@ module.exports = {
       jsx: false,
     },
   },
+  reportUnusedDisableDirectives: true,
   extends: [
     // ESLint recommended
     '@fisker/eslint-config/rules/recommended.js',
