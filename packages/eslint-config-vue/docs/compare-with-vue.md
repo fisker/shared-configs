@@ -23,7 +23,7 @@ vue/html-closing-bracket-spacing, off, warn, https://eslint.vuejs.org/rules/html
 vue/html-end-tags, off, warn, https://eslint.vuejs.org/rules/html-end-tags.html
 vue/html-indent, off, warn, https://eslint.vuejs.org/rules/html-indent.html
 vue/html-quotes, off, warn, https://eslint.vuejs.org/rules/html-quotes.html
-vue/html-self-closing, off, warn, https://eslint.vuejs.org/rules/html-self-closing.html
+vue/html-self-closing, error, warn, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/key-spacing, off, , https://eslint.vuejs.org/rules/key-spacing.html
 vue/keyword-spacing, off, , https://eslint.vuejs.org/rules/keyword-spacing.html
 vue/max-attributes-per-line, off, warn, https://eslint.vuejs.org/rules/max-attributes-per-line.html
@@ -66,7 +66,7 @@ vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-templa
 |  14 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         |  off  |      warn       |
 |  15 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             |  off  |      warn       |
 |  16 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             |  off  |      warn       |
-|  17 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 |  off  |      warn       |
+|  17 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 | error |      warn       |
 |  18 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                             |  off  |
 |  19 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                     |  off  |
 |  20 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                     |  off  |      warn       |
@@ -114,7 +114,7 @@ vue/html-closing-bracket-spacing, off, warn, https://eslint.vuejs.org/rules/html
 vue/html-end-tags, off, warn, https://eslint.vuejs.org/rules/html-end-tags.html
 vue/html-indent, off, warn, https://eslint.vuejs.org/rules/html-indent.html
 vue/html-quotes, off, warn, https://eslint.vuejs.org/rules/html-quotes.html
-vue/html-self-closing, off, warn, https://eslint.vuejs.org/rules/html-self-closing.html
+vue/html-self-closing, error, warn, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/jsx-uses-vars, error, error, https://eslint.vuejs.org/rules/jsx-uses-vars.html
 vue/key-spacing, off, , https://eslint.vuejs.org/rules/key-spacing.html
 vue/keyword-spacing, off, , https://eslint.vuejs.org/rules/keyword-spacing.html
@@ -216,7 +216,7 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  19 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         |  off  |      warn       |
 |  20 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             |  off  |      warn       |
 |  21 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             |  off  |      warn       |
-|  22 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 |  off  |      warn       |
+|  22 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 | error |      warn       |
 |  23 | [vue/jsx-uses-vars](https://eslint.vuejs.org/rules/jsx-uses-vars.html)                                                         | error |      error      |
 |  24 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                             |  off  |
 |  25 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                     |  off  |

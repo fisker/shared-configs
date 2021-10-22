@@ -18,8 +18,12 @@ module.exports = {
       'error',
       {
         html: {
+          normal: 'never',
           void: 'any',
+          component: 'any',
         },
+        svg: 'any',
+        math: 'any',
       },
     ],
   },

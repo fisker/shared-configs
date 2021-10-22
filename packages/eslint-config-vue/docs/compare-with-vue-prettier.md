@@ -7,6 +7,7 @@
 ## difference only
 
 <!-- vue vs vue/recommended + prettier
+vue/html-self-closing, error, off, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/no-unused-components, warn, error, https://eslint.vuejs.org/rules/no-unused-components.html
 vue/no-unused-vars, warn, error, https://eslint.vuejs.org/rules/no-unused-vars.html
 vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-template.html
@@ -14,9 +15,10 @@ vue/this-in-template, error, warn, https://eslint.vuejs.org/rules/this-in-templa
 
 |   # | Rule                                                                                 |  vue  | vue/recommended + prettier |
 | --: | :----------------------------------------------------------------------------------- | :---: | :------------------------: |
-|   1 | [vue/no-unused-components](https://eslint.vuejs.org/rules/no-unused-components.html) | warn  |           error            |
-|   2 | [vue/no-unused-vars](https://eslint.vuejs.org/rules/no-unused-vars.html)             | warn  |           error            |
-|   3 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)         | error |            warn            |
+|   1 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)       | error |            off             |
+|   2 | [vue/no-unused-components](https://eslint.vuejs.org/rules/no-unused-components.html) | warn  |           error            |
+|   3 | [vue/no-unused-vars](https://eslint.vuejs.org/rules/no-unused-vars.html)             | warn  |           error            |
+|   4 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)         | error |            warn            |
 
 ## all rules
 
@@ -42,7 +44,7 @@ vue/html-closing-bracket-spacing, off, off, https://eslint.vuejs.org/rules/html-
 vue/html-end-tags, off, off, https://eslint.vuejs.org/rules/html-end-tags.html
 vue/html-indent, off, off, https://eslint.vuejs.org/rules/html-indent.html
 vue/html-quotes, off, off, https://eslint.vuejs.org/rules/html-quotes.html
-vue/html-self-closing, off, off, https://eslint.vuejs.org/rules/html-self-closing.html
+vue/html-self-closing, error, off, https://eslint.vuejs.org/rules/html-self-closing.html
 vue/jsx-uses-vars, error, error, https://eslint.vuejs.org/rules/jsx-uses-vars.html
 vue/key-spacing, off, off, https://eslint.vuejs.org/rules/key-spacing.html
 vue/keyword-spacing, off, off, https://eslint.vuejs.org/rules/keyword-spacing.html
@@ -144,7 +146,7 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  19 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                         |  off  |            off             |
 |  20 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                             |  off  |            off             |
 |  21 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                             |  off  |            off             |
-|  22 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 |  off  |            off             |
+|  22 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                 | error |            off             |
 |  23 | [vue/jsx-uses-vars](https://eslint.vuejs.org/rules/jsx-uses-vars.html)                                                         | error |           error            |
 |  24 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                             |  off  |            off             |
 |  25 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                     |  off  |            off             |
