@@ -12,5 +12,15 @@ module.exports = {
   extends: ['./plugins/vue.js', '@fisker/eslint-config'].map((module) =>
     require.resolve(module)
   ),
-  rules: {},
+  rules: {
+    // https://github.com/prettier/eslint-config-prettier#vuehtml-self-closing
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'any',
+        },
+      },
+    ],
+  },
 }
