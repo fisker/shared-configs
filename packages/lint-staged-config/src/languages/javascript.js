@@ -3,7 +3,7 @@ import getExtensions from '../../../../shared/file-extensions.mjs'
 
 const config = {
   extensions: getExtensions('javascript'),
-  commands: ESLINT,
+  commands: [ESLINT],
 }
 
 export default config

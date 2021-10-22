@@ -1,7 +1,7 @@
 import {STYLELINT} from '../commands.js'
 
 const config = {
-  commands: STYLELINT,
+  commands: [STYLELINT],
 }
 
 export default config

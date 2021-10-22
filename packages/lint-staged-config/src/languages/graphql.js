@@ -2,7 +2,7 @@ import {PRETTIER} from '../commands.js'
 
 const config = {
   extensions: 'gql,graphql',
-  commands: PRETTIER,
+  commands: [PRETTIER],
 }
 
 export default config

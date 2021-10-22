@@ -1,7 +1,7 @@
 import {PRETTIER} from '../commands.js'
 
 const config = {
-  commands: PRETTIER,
+  commands: [PRETTIER],
 }
 
 export default config

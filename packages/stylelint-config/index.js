@@ -32,6 +32,6 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
     'no-invalid-position-at-import-rule': null,
-    'function-url-quotes': [true, 'never'],
+    'function-url-quotes': 'never',
   },
 }
