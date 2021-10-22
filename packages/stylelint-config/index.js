@@ -8,6 +8,11 @@ module.exports = {
     'stylelint-config-prettier',
   ].map((module) => require.resolve(module)),
   rules: {
+    // Not safe for `rgba` function in `scss` files
+    'color-function-notation': null,
+    // Not safe for `rgba` function in `scss` files
+    'alpha-value-notation': null,
+
     'block-no-empty': null,
     'font-family-no-missing-generic-family-keyword': null,
     'no-empty-source': null,
@@ -33,5 +38,6 @@ module.exports = {
     'declaration-empty-line-before': null,
     'no-invalid-position-at-import-rule': null,
     'function-url-quotes': 'never',
+    'scss/at-import-partial-extension-blacklist': null,
   },
 }
