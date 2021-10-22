@@ -38,6 +38,7 @@ module.exports = {
     'declaration-empty-line-before': null,
     'no-invalid-position-at-import-rule': null,
     'function-url-quotes': 'never',
-    'scss/at-import-partial-extension-blacklist': null,
+
+    'scss/at-import-partial-extension': 'always',
   },
 }
