@@ -28,8 +28,16 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
     'function-url-quotes': 'never',
-
     'rule-empty-line-before': null,
+    'value-no-vendor-prefix': [
+      true,
+      {
+        ignoreValues: [
+          // `display: -webkit-box;`
+          'box',
+        ],
+      },
+    ],
 
     // Annoying during refactoring
     'declaration-block-no-redundant-longhand-properties': null,
