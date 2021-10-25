@@ -39,6 +39,6 @@ module.exports = {
     'no-invalid-position-at-import-rule': null,
     'function-url-quotes': 'never',
 
-    'scss/at-import-partial-extension': 'always',
+    'scss/at-import-partial-extension': null,
   },
 }
