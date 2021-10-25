@@ -22,5 +22,7 @@ module.exports = {
 
     // Prettier may break long expressions
     'scss/operator-no-newline-after': null,
+
+    'scss/comment-no-empty': null,
   },
 }

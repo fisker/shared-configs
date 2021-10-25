@@ -27,19 +27,38 @@ module.exports = {
     'no-descending-specificity': null,
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
-    'function-url-quotes': 'never',
     'rule-empty-line-before': null,
-    'value-no-vendor-prefix': [
-      true,
-      {
-        ignoreValues: [
-          // `display: -webkit-box;`
-          'box',
-        ],
-      },
+    'comment-no-empty': null,
+
+    'function-url-quotes': ['never', {severity: 'warning'}],
+    'color-hex-length': ['short', {severity: 'warning'}],
+    'alpha-value-notation': ['percentage', {severity: 'warning'}],
+    'color-function-notation': [
+      'modern',
+      {disableFix: true, severity: 'warning'},
     ],
+    // New properties, values, at-rules, and selectors have to be prefixed
+    'value-no-vendor-prefix': [true, {disableFix: true, severity: 'warning'}],
+    'property-no-vendor-prefix': [
+      true,
+      {disableFix: true, severity: 'warning'},
+    ],
+    'selector-no-vendor-prefix': [
+      true,
+      {disableFix: true, severity: 'warning'},
+    ],
+    'at-rule-no-vendor-prefix': [true, {disableFix: true, severity: 'warning'}],
 
     // Annoying during refactoring
     'declaration-block-no-redundant-longhand-properties': null,
+    // We (and other libs) use BEM
+    'selector-class-pattern': null,
+    // SCSS precision
+    'number-max-precision': [8],
+
+    'shorthand-property-no-redundant-values': [
+      true,
+      {disableFix: true, severity: 'warning'},
+    ],
   },
 }
