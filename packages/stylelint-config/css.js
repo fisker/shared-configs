@@ -32,6 +32,6 @@ module.exports = {
     'rule-empty-line-before': null,
 
     // Annoying during refactoring
-    'declaration-block-no-redundant-longhand-properties':null,
+    'declaration-block-no-redundant-longhand-properties': null,
   },
 }
