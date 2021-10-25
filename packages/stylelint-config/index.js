@@ -36,7 +36,6 @@ module.exports = {
     'no-descending-specificity': null,
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
-    'no-invalid-position-at-import-rule': null,
     'function-url-quotes': 'never',
 
     'scss/at-import-partial-extension': null,
