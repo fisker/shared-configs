@@ -1,7 +1,7 @@
-import {ESLINT} from '../commands.js'
+import {ESLINT, STYLELINT} from '../commands.js'
 
 const config = {
-  commands: [ESLINT],
+  commands: [ESLINT, STYLELINT],
 }
 
 export default config

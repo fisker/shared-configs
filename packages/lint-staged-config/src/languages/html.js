@@ -1,10 +1,10 @@
-import {PRETTIER} from '../commands.js'
+import {STYLELINT, PRETTIER} from '../commands.js'
 
 // TODO: htmlhint
 
 const config = {
   extensions: 'html,htm',
-  commands: [PRETTIER],
+  commands: [STYLELINT, PRETTIER],
 }
 
 export default config
