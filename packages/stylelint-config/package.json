@@ -19,10 +19,14 @@
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "scss.js",
+    "vue.js",
+    "prettier.js"
   ],
   "scripts": {},
   "dependencies": {
+    "postcss-html": "1.1.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-recommended-scss": "5.0.0",
     "stylelint-config-standard": "23.0.0",
