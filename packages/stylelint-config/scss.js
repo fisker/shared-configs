@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended-scss',
     './css.js',
+    'stylelint-config-recommended-scss',
     './prettier.js',
   ].map((module) => require.resolve(module)),
   rules: {
