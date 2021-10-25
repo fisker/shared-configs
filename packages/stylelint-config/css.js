@@ -30,5 +30,8 @@ module.exports = {
     'function-url-quotes': 'never',
 
     'rule-empty-line-before': null,
+
+    // Annoying during refactoring
+    'declaration-block-no-redundant-longhand-properties':null,
   },
 }

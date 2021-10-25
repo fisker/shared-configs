@@ -16,5 +16,8 @@ module.exports = {
     'scss/no-global-function-names': null,
     // Buggy
     'scss/operator-no-unspaced': null,
+
+    // Prettier may break long expressions
+    'scss/operator-no-newline-after': null,
   },
 }
