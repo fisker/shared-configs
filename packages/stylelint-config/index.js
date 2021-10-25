@@ -3,11 +3,15 @@ module.exports = {
   rules: {},
   overrides: [
     {
-      files: ['**/*.scss'],
+      files: ['*.html', '**/*.html'],
+      extends: ['./html.js'].map((module) => require.resolve(module)),
+    },
+    {
+      files: ['*.scss', '**/*.scss'],
       extends: ['./scss.js'].map((module) => require.resolve(module)),
     },
     {
-      files: ['**/*.vue'],
+      files: ['*.vue', '**/*.vue'],
       extends: ['./vue.js'].map((module) => require.resolve(module)),
     },
   ],
