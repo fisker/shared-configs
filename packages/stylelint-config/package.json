@@ -20,9 +20,11 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "css.js",
     "scss.js",
     "vue.js",
-    "prettier.js"
+    "prettier.js",
+    "html.js"
   ],
   "scripts": {},
   "dependencies": {
