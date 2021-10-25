@@ -1,7 +1,9 @@
 module.exports = {
-  extends: ['stylelint-config-standard', './prettier.js'].map((module) =>
-    require.resolve(module)
-  ),
+  extends: [
+    'stylelint-config-recommended',
+    'stylelint-config-standard',
+    './prettier.js',
+  ].map((module) => require.resolve(module)),
   rules: {
     'block-no-empty': null,
     'font-family-no-missing-generic-family-keyword': null,
@@ -26,5 +28,7 @@ module.exports = {
     'value-keyword-case': null,
     'declaration-empty-line-before': null,
     'function-url-quotes': 'never',
+
+    'rule-empty-line-before': null,
   },
 }

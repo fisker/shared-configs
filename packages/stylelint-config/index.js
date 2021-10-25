@@ -1,17 +1,20 @@
 module.exports = {
-  extends: ['./css.js'].map((module) => require.resolve(module)),
   rules: {},
   overrides: [
     {
-      files: ['*.html', '**/*.html'],
+      files: ['**/*.css'],
+      extends: ['./css.js'].map((module) => require.resolve(module)),
+    },
+    {
+      files: ['**/*.html'],
       extends: ['./html.js'].map((module) => require.resolve(module)),
     },
     {
-      files: ['*.scss', '**/*.scss'],
+      files: ['**/*.scss'],
       extends: ['./scss.js'].map((module) => require.resolve(module)),
     },
     {
-      files: ['*.vue', '**/*.vue'],
+      files: ['**/*.vue'],
       extends: ['./vue.js'].map((module) => require.resolve(module)),
     },
   ],
