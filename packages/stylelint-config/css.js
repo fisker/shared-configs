@@ -9,13 +9,13 @@ module.exports = {
     'selector-pseudo-element-no-unknown': [
       true,
       {
-        ignorePseudoElements: ['v-deep'],
+        ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted'],
       },
     ],
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        ignorePseudoClasses: ['export'],
+        ignorePseudoClasses: ['export', 'deep', 'global'],
       },
     ],
     // SCSS function name, and express function name are case-sensitive
