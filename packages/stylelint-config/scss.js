@@ -12,6 +12,9 @@ module.exports = {
     // Not safe for `rgba` function in `scss` files
     'alpha-value-notation': null,
 
+    // We may import files in the middle of files
+    'no-invalid-position-at-import-rule': null,
+
     'scss/at-import-partial-extension': null,
     'scss/no-global-function-names': null,
     // Buggy
