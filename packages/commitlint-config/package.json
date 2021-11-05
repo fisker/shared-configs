@@ -1,6 +1,6 @@
 {
   "name": "@fisker/commitlint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "fisker's Shareable commitlint Configuration",
   "homepage": "https://github.com/fisker/shared-configs#readme",
   "bugs": {
