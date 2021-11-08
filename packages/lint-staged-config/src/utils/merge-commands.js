@@ -6,7 +6,7 @@ function mergeCommands(commands) {
   return commands.reduce((allCommands, current) => {
     const {extensions, commands: currentCommands} = current
     const result = allCommands.find(({commands}) =>
-      isSameCommands(commands, currentCommands)
+      isSameCommands(commands, currentCommands),
     )
 
     if (result) {

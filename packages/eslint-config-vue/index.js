@@ -10,7 +10,7 @@ module.exports = {
     parser: base.parser,
   },
   extends: ['./plugins/vue.js', '@fisker/eslint-config'].map((module) =>
-    require.resolve(module)
+    require.resolve(module),
   ),
   rules: {
     // https://github.com/prettier/eslint-config-prettier#vuehtml-self-closing

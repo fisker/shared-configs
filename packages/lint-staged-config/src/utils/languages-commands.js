@@ -11,7 +11,7 @@ function parseCommands(languages) {
     })
     .filter(
       ({commands, extensions}) =>
-        commands.length !== 0 && extensions.length !== 0
+        commands.length !== 0 && extensions.length !== 0,
     )
 }
 

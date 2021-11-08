@@ -11,5 +11,5 @@ module.exports = mergeCommands(parseCommands(languages)).reduce(
   }),
   {
     'package.json': [SORT_PACKAGE_JSON],
-  }
+  },
 )
