@@ -42,7 +42,7 @@ class Configuration {
       },
       {
         enumerable: false,
-      }
+      },
     )
   }
 }

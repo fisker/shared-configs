@@ -57,6 +57,6 @@ test('chained', (t) => {
 
   t.is(
     modified.hooks[testHook],
-    ['prepend', testCommand, 'append', testCommand].join(' && ')
+    ['prepend', testCommand, 'append', testCommand].join(' && '),
   )
 })

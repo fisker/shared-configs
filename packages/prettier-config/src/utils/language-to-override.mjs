@@ -8,8 +8,8 @@ function toOverride({extensions, config}) {
 
   const options = Object.fromEntries(
     SUPPORTED_OPTIONS.map((key) => [key, config[key]]).filter(
-      ([key, value]) => !isUndefined(value) && !isGlobalConfig(key, value)
-    )
+      ([key, value]) => !isUndefined(value) && !isGlobalConfig(key, value),
+    ),
   )
 
   return {

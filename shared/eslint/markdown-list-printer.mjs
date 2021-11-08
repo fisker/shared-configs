@@ -4,7 +4,7 @@ function list({names, data}) {
   return [
     `<!-- ${localName} vs ${foreignName}`,
     ...data.map(({name, link, local, foreign}) =>
-      [name, local, foreign, link].join(', ')
+      [name, local, foreign, link].join(', '),
     ),
     '-->',
   ].join('\n')

@@ -14,12 +14,12 @@ const configs = {
   // airbnb
   airbnb: {
     extends: ['eslint-config-airbnb-base'].map((module) =>
-      require.resolve(module)
+      require.resolve(module),
     ),
   },
   'airbnb + prettier': {
     extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(
-      (module) => require.resolve(module)
+      (module) => require.resolve(module),
     ),
   },
 

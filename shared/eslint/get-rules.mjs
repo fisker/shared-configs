@@ -21,11 +21,11 @@ async function getRules(config) {
     link = (link || '')
       .replace(
         /\/sindresorhus\/eslint-plugin-unicorn\/blob\/v.*?\//u,
-        '/sindresorhus/eslint-plugin-unicorn/blob/main/'
+        '/sindresorhus/eslint-plugin-unicorn/blob/main/',
       )
       .replace(
         /\/import-js\/eslint-plugin-import\/blob\/v.*?\//u,
-        '/import-js/eslint-plugin-import/blob/main/'
+        '/import-js/eslint-plugin-import/blob/main/',
       )
 
     rules[id] = {

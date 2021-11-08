@@ -9,7 +9,7 @@ function toOverrides(languages) {
         parser: language,
         ...languages[language],
       },
-    })
+    }),
   )
 }
 

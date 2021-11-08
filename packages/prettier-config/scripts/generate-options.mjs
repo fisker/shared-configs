@@ -20,7 +20,7 @@ function rulesToTable(rules) {
     tableColumns.join(' | '),
     tableAlign.join(' | '),
     ...rules.map(({name, value, description}) =>
-      [name, value, description].join(' | ')
+      [name, value, description].join(' | '),
     ),
   ].join('\n')
 }
@@ -64,7 +64,7 @@ prettierFile({
   process(readme) {
     return readme.replace(
       new RegExp(`${OPTIONS_START_MARK}.*?${OPTIONS_END_MARK}`, 'su'),
-      content
+      content,
     )
   },
 })

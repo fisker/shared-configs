@@ -17,7 +17,7 @@ async function lintResult(file) {
   const results = await eslint.lintFiles([fixture(file)])
 
   return results.map(
-    ({filePath, usedDeprecatedRules, source, ...result}) => result
+    ({filePath, usedDeprecatedRules, source, ...result}) => result,
   )
 }
 

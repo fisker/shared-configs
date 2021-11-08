@@ -32,7 +32,7 @@ function flat(array) {
       ...(Array.isArray(current) ? current : [current]),
     ],
 
-    []
+    [],
   )
 }
 
@@ -44,7 +44,7 @@ test('options', (t) => {
 
   t.is(
     allOptions.every((options) => validateOptions(options)),
-    true
+    true,
   )
 })
 

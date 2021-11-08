@@ -15,7 +15,7 @@ function extend(options = {}) {
     {extend},
     {
       enumerable: false,
-    }
+    },
   )
 }
 
