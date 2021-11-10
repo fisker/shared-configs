@@ -60,5 +60,6 @@ module.exports = {
 
     // Buggy
     'import/no-relative-packages': 'off',
+    'import/no-import-module-exports': 'off',
   },
 }
