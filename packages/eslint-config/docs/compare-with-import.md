@@ -27,6 +27,7 @@ import/no-deprecated, error, , https://github.com/import-js/eslint-plugin-import
 import/no-duplicates, error, warn, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
 import/no-dynamic-require, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md
 import/no-extraneous-dependencies, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+import/no-import-module-exports, off, ,
 import/no-internal-modules, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md
 import/no-mutable-exports, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md
 import/no-named-as-default, error, warn, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md
@@ -34,6 +35,7 @@ import/no-named-default, error, , https://github.com/import-js/eslint-plugin-imp
 import/no-named-export, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md
 import/no-namespace, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md
 import/no-nodejs-modules, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md
+import/no-relative-packages, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-packages.md
 import/no-relative-parent-imports, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md
 import/no-restricted-paths, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md
 import/no-self-import, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md
@@ -69,24 +71,26 @@ import/unambiguous, off, , https://github.com/import-js/eslint-plugin-import/blo
 |  18 | [import/no-duplicates](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md)                                     | error  |             warn              |
 |  19 | [import/no-dynamic-require](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md)                           |  off   |
 |  20 | [import/no-extraneous-dependencies](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md)           | error  |
-|  21 | [import/no-internal-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md)                         |  off   |
-|  22 | [import/no-mutable-exports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md)                           | error  |
-|  23 | [import/no-named-as-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md)                         | error  |             warn              |
-|  24 | [import/no-named-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md)                               | error  |
-|  25 | [import/no-named-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md)                                 |  off   |
-|  26 | [import/no-namespace](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md)                                       |  off   |
-|  27 | [import/no-nodejs-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md)                             |  off   |
-|  28 | [import/no-relative-parent-imports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md)           |  off   |
-|  29 | [import/no-restricted-paths](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md)                         |  off   |
-|  30 | [import/no-self-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md)                                   | error  |
-|  31 | [import/no-unassigned-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md)                       |  off   |
-|  32 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                     |  off   |             error             |
-|  33 | [import/no-unused-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unused-modules.md)                             |  off   |
-|  34 | [import/no-useless-path-segments](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md)               | error  |
-|  35 | [import/no-webpack-loader-syntax](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md)               | error  |
-|  36 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                     | error  |
-|  37 | [import/prefer-default-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md)                     |  off   |
-|  38 | [import/unambiguous](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/unambiguous.md)                                         |  off   |
+|  21 | import/no-import-module-exports                                                                                                                     |  off   |
+|  22 | [import/no-internal-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md)                         |  off   |
+|  23 | [import/no-mutable-exports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md)                           | error  |
+|  24 | [import/no-named-as-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md)                         | error  |             warn              |
+|  25 | [import/no-named-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md)                               | error  |
+|  26 | [import/no-named-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md)                                 |  off   |
+|  27 | [import/no-namespace](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md)                                       |  off   |
+|  28 | [import/no-nodejs-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md)                             |  off   |
+|  29 | [import/no-relative-packages](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-packages.md)                       |  off   |
+|  30 | [import/no-relative-parent-imports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md)           |  off   |
+|  31 | [import/no-restricted-paths](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md)                         |  off   |
+|  32 | [import/no-self-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md)                                   | error  |
+|  33 | [import/no-unassigned-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md)                       |  off   |
+|  34 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                     |  off   |             error             |
+|  35 | [import/no-unused-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unused-modules.md)                             |  off   |
+|  36 | [import/no-useless-path-segments](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md)               | error  |
+|  37 | [import/no-webpack-loader-syntax](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md)               | error  |
+|  38 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                     | error  |
+|  39 | [import/prefer-default-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md)                     |  off   |
+|  40 | [import/unambiguous](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/unambiguous.md)                                         |  off   |
 
 ## all rules
 
@@ -113,6 +117,7 @@ import/no-deprecated, error, , https://github.com/import-js/eslint-plugin-import
 import/no-duplicates, error, warn, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
 import/no-dynamic-require, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md
 import/no-extraneous-dependencies, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md
+import/no-import-module-exports, off, ,
 import/no-internal-modules, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md
 import/no-mutable-exports, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md
 import/no-named-as-default, error, warn, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md
@@ -121,6 +126,7 @@ import/no-named-default, error, , https://github.com/import-js/eslint-plugin-imp
 import/no-named-export, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md
 import/no-namespace, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md
 import/no-nodejs-modules, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md
+import/no-relative-packages, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-packages.md
 import/no-relative-parent-imports, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md
 import/no-restricted-paths, off, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md
 import/no-self-import, error, , https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md
@@ -158,22 +164,24 @@ import/unambiguous, off, , https://github.com/import-js/eslint-plugin-import/blo
 |  20 | [import/no-duplicates](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md)                                     | error  |             warn              |
 |  21 | [import/no-dynamic-require](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-dynamic-require.md)                           |  off   |
 |  22 | [import/no-extraneous-dependencies](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-extraneous-dependencies.md)           | error  |
-|  23 | [import/no-internal-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md)                         |  off   |
-|  24 | [import/no-mutable-exports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md)                           | error  |
-|  25 | [import/no-named-as-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md)                         | error  |             warn              |
-|  26 | [import/no-named-as-default-member](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default-member.md)           |  warn  |             warn              |
-|  27 | [import/no-named-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md)                               | error  |
-|  28 | [import/no-named-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md)                                 |  off   |
-|  29 | [import/no-namespace](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md)                                       |  off   |
-|  30 | [import/no-nodejs-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md)                             |  off   |
-|  31 | [import/no-relative-parent-imports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md)           |  off   |
-|  32 | [import/no-restricted-paths](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md)                         |  off   |
-|  33 | [import/no-self-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md)                                   | error  |
-|  34 | [import/no-unassigned-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md)                       |  off   |
-|  35 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                     |  off   |             error             |
-|  36 | [import/no-unused-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unused-modules.md)                             |  off   |
-|  37 | [import/no-useless-path-segments](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md)               | error  |
-|  38 | [import/no-webpack-loader-syntax](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md)               | error  |
-|  39 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                     | error  |
-|  40 | [import/prefer-default-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md)                     |  off   |
-|  41 | [import/unambiguous](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/unambiguous.md)                                         |  off   |
+|  23 | import/no-import-module-exports                                                                                                                     |  off   |
+|  24 | [import/no-internal-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-internal-modules.md)                         |  off   |
+|  25 | [import/no-mutable-exports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-mutable-exports.md)                           | error  |
+|  26 | [import/no-named-as-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default.md)                         | error  |             warn              |
+|  27 | [import/no-named-as-default-member](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-as-default-member.md)           |  warn  |             warn              |
+|  28 | [import/no-named-default](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-default.md)                               | error  |
+|  29 | [import/no-named-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-named-export.md)                                 |  off   |
+|  30 | [import/no-namespace](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-namespace.md)                                       |  off   |
+|  31 | [import/no-nodejs-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-nodejs-modules.md)                             |  off   |
+|  32 | [import/no-relative-packages](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-packages.md)                       |  off   |
+|  33 | [import/no-relative-parent-imports](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-relative-parent-imports.md)           |  off   |
+|  34 | [import/no-restricted-paths](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-restricted-paths.md)                         |  off   |
+|  35 | [import/no-self-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-self-import.md)                                   | error  |
+|  36 | [import/no-unassigned-import](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unassigned-import.md)                       |  off   |
+|  37 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                     |  off   |             error             |
+|  38 | [import/no-unused-modules](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unused-modules.md)                             |  off   |
+|  39 | [import/no-useless-path-segments](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-useless-path-segments.md)               | error  |
+|  40 | [import/no-webpack-loader-syntax](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-webpack-loader-syntax.md)               | error  |
+|  41 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                     | error  |
+|  42 | [import/prefer-default-export](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/prefer-default-export.md)                     |  off   |
+|  43 | [import/unambiguous](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/unambiguous.md)                                         |  off   |
