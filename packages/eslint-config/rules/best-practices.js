@@ -62,9 +62,6 @@ module.exports = {
     // airbnb allow this
     'no-useless-call': 'error',
 
-    // disallow use of the `RegExp` constructor in favor of regular expression literals
-    'prefer-regex-literals': 'error',
-
     // Disallow returning value in constructor
     // https://eslint.org/docs/rules/no-constructor-return
     'no-constructor-return': 'off',

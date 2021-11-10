@@ -57,5 +57,8 @@ module.exports = {
     'import/extensions': ['error', 'always'],
 
     'import/no-anonymous-default-export': 'off',
+
+    // Buggy
+    'import/no-relative-packages': 'off',
   },
 }
