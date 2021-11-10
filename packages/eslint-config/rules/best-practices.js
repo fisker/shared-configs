@@ -20,9 +20,6 @@ module.exports = {
       },
     ],
 
-    // enforce default parameters to be last
-    'default-param-last': 'error',
-
     // allow return assign in parents
     'no-return-assign': ['error', 'except-parens'],
 
@@ -64,17 +61,6 @@ module.exports = {
     // disallow unnecessary .call() and .apply()
     // airbnb allow this
     'no-useless-call': 'error',
-
-    // disallow use of the `RegExp` constructor in favor of regular expression literals
-    'prefer-regex-literals': 'error',
-
-    // Enforce default clauses in switch statements to be last
-    // https://eslint.org/docs/rules/default-case-last
-    'default-case-last': 'error',
-
-    // Require grouped accessor pairs in object literals and classes
-    // https://eslint.org/docs/rules/grouped-accessor-pairs
-    'grouped-accessor-pairs': 'error',
 
     // Disallow returning value in constructor
     // https://eslint.org/docs/rules/no-constructor-return
