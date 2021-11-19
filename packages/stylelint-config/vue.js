@@ -5,5 +5,7 @@ module.exports = {
     './scss.js',
     './prettier.js',
   ].map((module) => require.resolve(module)),
+  // The customSyntax from `stylelint-config-recommended-vue` is override by `./scss.js`
+  customSyntax: "postcss-html",
   rules: {},
 }
