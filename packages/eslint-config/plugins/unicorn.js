@@ -65,5 +65,7 @@ module.exports = {
 
     // We'll enable later
     'unicorn/prefer-module': 'off',
+
+    'unicorn/prefer-export-from': ['error', {ignoreUsedVariables: true}],
   },
 }
