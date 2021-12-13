@@ -52,7 +52,7 @@ module.exports = {
     // Annoying during refactoring
     'declaration-block-no-redundant-longhand-properties': null,
     // We (and other libs) use BEM
-    'selector-class-pattern': null,
+    'selector-class-pattern': [/^[\d_a-z-]+$/, {resolveNestedSelectors: true}],
     // SCSS precision
     'number-max-precision': [8],
 
