@@ -60,5 +60,9 @@ module.exports = {
       true,
       {disableFix: true, severity: 'warning'},
     ],
+
+    'declaration-property-unit-disallowed-list': {
+      'line-height': ['em', '%'],
+    },
   },
 }
