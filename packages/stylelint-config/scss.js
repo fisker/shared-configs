@@ -24,5 +24,6 @@ module.exports = {
     'scss/operator-no-newline-after': null,
 
     'scss/comment-no-empty': null,
+    'scss/at-import-no-partial-leading-underscore': null,
   },
 }
