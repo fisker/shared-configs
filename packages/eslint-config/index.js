@@ -12,13 +12,12 @@ module.exports = {
     allowImportExportEverywhere: true,
     ecmaFeatures: {
       globalReturn: false,
-      jsx: true,
     },
     babelOptions: {
       babelrc: false,
       configFile: false,
       parserOpts: {
-        plugins: ['exportDefaultFrom'],
+        plugins: ['exportDefaultFrom', 'jsx'],
       },
     },
   },
