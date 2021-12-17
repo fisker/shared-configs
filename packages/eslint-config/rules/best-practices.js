@@ -37,13 +37,14 @@ module.exports = {
 
     // disallow implicit type conversions
     // https://eslint.org/docs/rules/no-implicit-coercion
-    // airbnb allow this
+    // airbnb allows this
     'no-implicit-coercion': [
       'error',
       {
-        boolean: false,
+        boolean: true,
         number: true,
         string: true,
+        disallowTemplateShorthand: true,
         allow: [],
       },
     ],
