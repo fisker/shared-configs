@@ -67,5 +67,7 @@ module.exports = {
     'unicorn/prefer-module': 'off',
 
     'unicorn/prefer-export-from': ['error', {ignoreUsedVariables: true}],
+
+    'unicorn/relative-url-style': ['error', 'always'],
   },
 }
