@@ -35,7 +35,7 @@
     "verbose": true
   },
   "devDependencies": {
-    "ava": "3.15.0"
+    "ava": "4.0.0"
   },
   "peerDependencies": {
     "husky": "*"
