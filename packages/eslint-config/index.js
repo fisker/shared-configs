@@ -34,6 +34,7 @@ module.exports = {
     './plugins/eslint-comments.js',
     './plugins/regexp.js',
     './plugins/sonarjs.js',
+    './plugins/sort-class-members.js',
 
     // airbnb
     'eslint-config-airbnb-base',
