@@ -24,7 +24,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-plugin-ava": "13.1.0"
+    "eslint-plugin-ava": "13.2.0"
   },
   "peerDependencies": {
     "eslint": "*"
