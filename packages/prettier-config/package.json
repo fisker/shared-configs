@@ -35,11 +35,6 @@
     ],
     "verbose": true
   },
-  "devDependencies": {
-    "@ava/babel": "2.0.0",
-    "ava": "4.0.0",
-    "prettier": "2.5.1"
-  },
   "peerDependencies": {
     "prettier": "*"
   },

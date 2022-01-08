@@ -49,8 +49,7 @@
     "eslint-plugin-unicorn": "40.0.0"
   },
   "devDependencies": {
-    "ava": "4.0.0",
-    "eslint": "8.6.0"
+    "ava": "4.0.1"
   },
   "peerDependencies": {
     "eslint": "*",
