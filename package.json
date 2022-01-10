@@ -43,7 +43,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "16.0.1",
+    "@commitlint/cli": "16.0.2",
     "@fisker/commitlint-config": "2.0.2",
     "@fisker/eslint-config": "workspace:./packages/eslint-config",
     "@fisker/husky-config": "4.1.1",
