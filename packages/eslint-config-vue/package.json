@@ -33,7 +33,7 @@
   "dependencies": {
     "@fisker/eslint-config": "^10.0.10",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-vue": "8.3.0"
+    "eslint-plugin-vue": "8.4.0"
   },
   "devDependencies": {
     "@fisker/eslint-config": "workspace:*"
