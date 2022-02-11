@@ -53,5 +53,17 @@ module.exports = {
         ],
       },
     ],
+
+    // require method and property shorthand syntax for object literals
+    // https://eslint.org/docs/rules/object-shorthand
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        ignoreConstructors: false,
+        avoidQuotes: true,
+        avoidExplicitReturnArrows: true, // airbnb didn't enforce this
+      },
+    ],
   },
 }
