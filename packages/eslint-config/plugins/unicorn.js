@@ -70,6 +70,6 @@ module.exports = {
 
     'unicorn/relative-url-style': ['error', 'always'],
 
-    'unicorn/prefer-json-parser-buffer': 'error',
+    'unicorn/prefer-json-parse-buffer': 'error',
   },
 }
