@@ -90,6 +90,7 @@ vue/one-component-per-file, warn, warn, https://eslint.vuejs.org/rules/one-compo
 vue/operator-linebreak, off, off, https://eslint.vuejs.org/rules/operator-linebreak.html
 vue/order-in-components, warn, warn, https://eslint.vuejs.org/rules/order-in-components.html
 vue/prop-name-casing, warn, warn, https://eslint.vuejs.org/rules/prop-name-casing.html
+vue/quote-props, off, off, https://eslint.vuejs.org/rules/quote-props.html
 vue/require-component-is, error, error, https://eslint.vuejs.org/rules/require-component-is.html
 vue/require-default-prop, warn, warn, https://eslint.vuejs.org/rules/require-default-prop.html
 vue/require-prop-type-constructor, error, error, https://eslint.vuejs.org/rules/require-prop-type-constructor.html
@@ -198,40 +199,41 @@ vue/valid-v-text, error, error, https://eslint.vuejs.org/rules/valid-v-text.html
 |  65 | [vue/operator-linebreak](https://eslint.vuejs.org/rules/operator-linebreak.html)                                               |  off  |            off             |
 |  66 | [vue/order-in-components](https://eslint.vuejs.org/rules/order-in-components.html)                                             | warn  |            warn            |
 |  67 | [vue/prop-name-casing](https://eslint.vuejs.org/rules/prop-name-casing.html)                                                   | warn  |            warn            |
-|  68 | [vue/require-component-is](https://eslint.vuejs.org/rules/require-component-is.html)                                           | error |           error            |
-|  69 | [vue/require-default-prop](https://eslint.vuejs.org/rules/require-default-prop.html)                                           | warn  |            warn            |
-|  70 | [vue/require-prop-type-constructor](https://eslint.vuejs.org/rules/require-prop-type-constructor.html)                         | error |           error            |
-|  71 | [vue/require-prop-types](https://eslint.vuejs.org/rules/require-prop-types.html)                                               | warn  |            warn            |
-|  72 | [vue/require-render-return](https://eslint.vuejs.org/rules/require-render-return.html)                                         | error |           error            |
-|  73 | [vue/require-v-for-key](https://eslint.vuejs.org/rules/require-v-for-key.html)                                                 | error |           error            |
-|  74 | [vue/require-valid-default-prop](https://eslint.vuejs.org/rules/require-valid-default-prop.html)                               | error |           error            |
-|  75 | [vue/return-in-computed-property](https://eslint.vuejs.org/rules/return-in-computed-property.html)                             | error |           error            |
-|  76 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                         |  off  |            off             |
-|  77 | [vue/script-setup-uses-vars](https://eslint.vuejs.org/rules/script-setup-uses-vars.html)                                       | error |           error            |
-|  78 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)     |  off  |            off             |
-|  79 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                     |  off  |            off             |
-|  80 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                     |  off  |            off             |
-|  81 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                     |  off  |            off             |
-|  82 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)                                       |  off  |            off             |
-|  83 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)                                                   | error |            warn            |
-|  84 | [vue/use-v-on-exact](https://eslint.vuejs.org/rules/use-v-on-exact.html)                                                       | error |           error            |
-|  85 | [vue/v-bind-style](https://eslint.vuejs.org/rules/v-bind-style.html)                                                           | warn  |            warn            |
-|  86 | [vue/v-on-style](https://eslint.vuejs.org/rules/v-on-style.html)                                                               | warn  |            warn            |
-|  87 | [vue/v-slot-style](https://eslint.vuejs.org/rules/v-slot-style.html)                                                           | warn  |            warn            |
-|  88 | [vue/valid-next-tick](https://eslint.vuejs.org/rules/valid-next-tick.html)                                                     | error |           error            |
-|  89 | [vue/valid-template-root](https://eslint.vuejs.org/rules/valid-template-root.html)                                             | error |           error            |
-|  90 | [vue/valid-v-bind](https://eslint.vuejs.org/rules/valid-v-bind.html)                                                           | error |           error            |
-|  91 | [vue/valid-v-bind-sync](https://eslint.vuejs.org/rules/valid-v-bind-sync.html)                                                 | error |           error            |
-|  92 | [vue/valid-v-cloak](https://eslint.vuejs.org/rules/valid-v-cloak.html)                                                         | error |           error            |
-|  93 | [vue/valid-v-else](https://eslint.vuejs.org/rules/valid-v-else.html)                                                           | error |           error            |
-|  94 | [vue/valid-v-else-if](https://eslint.vuejs.org/rules/valid-v-else-if.html)                                                     | error |           error            |
-|  95 | [vue/valid-v-for](https://eslint.vuejs.org/rules/valid-v-for.html)                                                             | error |           error            |
-|  96 | [vue/valid-v-html](https://eslint.vuejs.org/rules/valid-v-html.html)                                                           | error |           error            |
-|  97 | [vue/valid-v-if](https://eslint.vuejs.org/rules/valid-v-if.html)                                                               | error |           error            |
-|  98 | [vue/valid-v-model](https://eslint.vuejs.org/rules/valid-v-model.html)                                                         | error |           error            |
-|  99 | [vue/valid-v-on](https://eslint.vuejs.org/rules/valid-v-on.html)                                                               | error |           error            |
-| 100 | [vue/valid-v-once](https://eslint.vuejs.org/rules/valid-v-once.html)                                                           | error |           error            |
-| 101 | [vue/valid-v-pre](https://eslint.vuejs.org/rules/valid-v-pre.html)                                                             | error |           error            |
-| 102 | [vue/valid-v-show](https://eslint.vuejs.org/rules/valid-v-show.html)                                                           | error |           error            |
-| 103 | [vue/valid-v-slot](https://eslint.vuejs.org/rules/valid-v-slot.html)                                                           | error |           error            |
-| 104 | [vue/valid-v-text](https://eslint.vuejs.org/rules/valid-v-text.html)                                                           | error |           error            |
+|  68 | [vue/quote-props](https://eslint.vuejs.org/rules/quote-props.html)                                                             |  off  |            off             |
+|  69 | [vue/require-component-is](https://eslint.vuejs.org/rules/require-component-is.html)                                           | error |           error            |
+|  70 | [vue/require-default-prop](https://eslint.vuejs.org/rules/require-default-prop.html)                                           | warn  |            warn            |
+|  71 | [vue/require-prop-type-constructor](https://eslint.vuejs.org/rules/require-prop-type-constructor.html)                         | error |           error            |
+|  72 | [vue/require-prop-types](https://eslint.vuejs.org/rules/require-prop-types.html)                                               | warn  |            warn            |
+|  73 | [vue/require-render-return](https://eslint.vuejs.org/rules/require-render-return.html)                                         | error |           error            |
+|  74 | [vue/require-v-for-key](https://eslint.vuejs.org/rules/require-v-for-key.html)                                                 | error |           error            |
+|  75 | [vue/require-valid-default-prop](https://eslint.vuejs.org/rules/require-valid-default-prop.html)                               | error |           error            |
+|  76 | [vue/return-in-computed-property](https://eslint.vuejs.org/rules/return-in-computed-property.html)                             | error |           error            |
+|  77 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                         |  off  |            off             |
+|  78 | [vue/script-setup-uses-vars](https://eslint.vuejs.org/rules/script-setup-uses-vars.html)                                       | error |           error            |
+|  79 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)     |  off  |            off             |
+|  80 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                     |  off  |            off             |
+|  81 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                     |  off  |            off             |
+|  82 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                     |  off  |            off             |
+|  83 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)                                       |  off  |            off             |
+|  84 | [vue/this-in-template](https://eslint.vuejs.org/rules/this-in-template.html)                                                   | error |            warn            |
+|  85 | [vue/use-v-on-exact](https://eslint.vuejs.org/rules/use-v-on-exact.html)                                                       | error |           error            |
+|  86 | [vue/v-bind-style](https://eslint.vuejs.org/rules/v-bind-style.html)                                                           | warn  |            warn            |
+|  87 | [vue/v-on-style](https://eslint.vuejs.org/rules/v-on-style.html)                                                               | warn  |            warn            |
+|  88 | [vue/v-slot-style](https://eslint.vuejs.org/rules/v-slot-style.html)                                                           | warn  |            warn            |
+|  89 | [vue/valid-next-tick](https://eslint.vuejs.org/rules/valid-next-tick.html)                                                     | error |           error            |
+|  90 | [vue/valid-template-root](https://eslint.vuejs.org/rules/valid-template-root.html)                                             | error |           error            |
+|  91 | [vue/valid-v-bind](https://eslint.vuejs.org/rules/valid-v-bind.html)                                                           | error |           error            |
+|  92 | [vue/valid-v-bind-sync](https://eslint.vuejs.org/rules/valid-v-bind-sync.html)                                                 | error |           error            |
+|  93 | [vue/valid-v-cloak](https://eslint.vuejs.org/rules/valid-v-cloak.html)                                                         | error |           error            |
+|  94 | [vue/valid-v-else](https://eslint.vuejs.org/rules/valid-v-else.html)                                                           | error |           error            |
+|  95 | [vue/valid-v-else-if](https://eslint.vuejs.org/rules/valid-v-else-if.html)                                                     | error |           error            |
+|  96 | [vue/valid-v-for](https://eslint.vuejs.org/rules/valid-v-for.html)                                                             | error |           error            |
+|  97 | [vue/valid-v-html](https://eslint.vuejs.org/rules/valid-v-html.html)                                                           | error |           error            |
+|  98 | [vue/valid-v-if](https://eslint.vuejs.org/rules/valid-v-if.html)                                                               | error |           error            |
+|  99 | [vue/valid-v-model](https://eslint.vuejs.org/rules/valid-v-model.html)                                                         | error |           error            |
+| 100 | [vue/valid-v-on](https://eslint.vuejs.org/rules/valid-v-on.html)                                                               | error |           error            |
+| 101 | [vue/valid-v-once](https://eslint.vuejs.org/rules/valid-v-once.html)                                                           | error |           error            |
+| 102 | [vue/valid-v-pre](https://eslint.vuejs.org/rules/valid-v-pre.html)                                                             | error |           error            |
+| 103 | [vue/valid-v-show](https://eslint.vuejs.org/rules/valid-v-show.html)                                                           | error |           error            |
+| 104 | [vue/valid-v-slot](https://eslint.vuejs.org/rules/valid-v-slot.html)                                                           | error |           error            |
+| 105 | [vue/valid-v-text](https://eslint.vuejs.org/rules/valid-v-text.html)                                                           | error |           error            |

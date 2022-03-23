@@ -14,116 +14,162 @@ no-var, off, error, https://eslint.org/docs/rules/no-var
 prefer-exponentiation-operator, off, error, https://eslint.org/docs/rules/prefer-exponentiation-operator
 prefer-numeric-literals, off, error, https://eslint.org/docs/rules/prefer-numeric-literals
 prefer-object-spread, off, error, https://eslint.org/docs/rules/prefer-object-spread
-es/no-accessor-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html
-es/no-array-from, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html
-es/no-array-isarray, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-isarray.html
-es/no-array-of, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html
-es/no-arrow-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html
-es/no-async-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html
-es/no-async-iteration, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html
-es/no-atomics, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html
-es/no-bigint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-bigint.html
-es/no-binary-numeric-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html
-es/no-block-scoped-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html
-es/no-block-scoped-variables, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html
-es/no-classes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html
-es/no-computed-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html
-es/no-date-now, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-date-now.html
-es/no-default-parameters, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html
-es/no-destructuring, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html
-es/no-dynamic-import, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-dynamic-import.html
-es/no-exponential-operators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html
-es/no-export-ns-from, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-export-ns-from.html
-es/no-for-of-loops, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html
-es/no-generators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html
-es/no-global-this, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-global-this.html
-es/no-import-meta, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-import-meta.html
-es/no-json, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-json.html
-es/no-json-superset, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-json-superset.html
-es/no-keyword-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html
-es/no-malformed-template-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html
-es/no-map, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html
-es/no-math-acosh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html
-es/no-math-asinh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html
-es/no-math-atanh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html
-es/no-math-cbrt, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html
-es/no-math-clz32, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html
-es/no-math-cosh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html
-es/no-math-expm1, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html
-es/no-math-fround, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html
-es/no-math-hypot, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html
-es/no-math-imul, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html
-es/no-math-log10, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html
-es/no-math-log1p, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html
-es/no-math-log2, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html
-es/no-math-sign, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html
-es/no-math-sinh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html
-es/no-math-tanh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html
-es/no-math-trunc, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html
-es/no-modules, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html
-es/no-new-target, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html
-es/no-nullish-coalescing-operators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-nullish-coalescing-operators.html
-es/no-number-epsilon, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html
-es/no-number-isfinite, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html
-es/no-number-isinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html
-es/no-number-isnan, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html
-es/no-number-issafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html
-es/no-number-maxsafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html
-es/no-number-minsafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html
-es/no-number-parsefloat, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html
-es/no-number-parseint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html
-es/no-object-assign, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html
-es/no-object-defineproperties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperties.html
-es/no-object-defineproperty, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperty.html
-es/no-object-entries, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html
-es/no-object-freeze, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-freeze.html
-es/no-object-fromentries, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-fromentries.html
-es/no-object-getownpropertydescriptor, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptor.html
-es/no-object-getownpropertydescriptors, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html
-es/no-object-getownpropertynames, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertynames.html
-es/no-object-getownpropertysymbols, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html
-es/no-object-getprototypeof, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getprototypeof.html
-es/no-object-is, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html
-es/no-object-isextensible, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isextensible.html
-es/no-object-isfrozen, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isfrozen.html
-es/no-object-issealed, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-issealed.html
-es/no-object-keys, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-keys.html
-es/no-object-preventextensions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-preventextensions.html
-es/no-object-seal, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-seal.html
-es/no-object-setprototypeof, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html
-es/no-object-super-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html
-es/no-object-values, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html
-es/no-octal-numeric-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html
-es/no-optional-catch-binding, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-catch-binding.html
-es/no-optional-chaining, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-chaining.html
-es/no-promise, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html
-es/no-promise-all-settled, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-promise-all-settled.html
-es/no-property-shorthands, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html
-es/no-proxy, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html
-es/no-reflect, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html
-es/no-regexp-lookbehind-assertions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html
-es/no-regexp-named-capture-groups, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html
-es/no-regexp-s-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html
-es/no-regexp-u-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html
-es/no-regexp-unicode-property-escapes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html
-es/no-regexp-unicode-property-escapes-2019, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes-2019.html
-es/no-regexp-y-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html
-es/no-rest-parameters, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html
-es/no-rest-spread-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html
-es/no-set, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html
-es/no-shared-array-buffer, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html
-es/no-spread-elements, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html
-es/no-string-fromcodepoint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html
-es/no-string-raw, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html
-es/no-subclassing-builtins, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html
-es/no-symbol, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html
-es/no-template-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html
-es/no-trailing-commas, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html
-es/no-trailing-function-commas, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html
-es/no-typed-arrays, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html
-es/no-unicode-codepoint-escapes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html
-es/no-weak-map, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html
-es/no-weak-set, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html
+es-x/no-accessor-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-accessor-properties.html
+es-x/no-arbitrary-module-namespace-names, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arbitrary-module-namespace-names.html
+es-x/no-array-from, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-from.html
+es-x/no-array-isarray, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-isarray.html
+es-x/no-array-of, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-of.html
+es-x/no-array-prototype-copywithin, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-copywithin.html
+es-x/no-array-prototype-entries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-entries.html
+es-x/no-array-prototype-every, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-every.html
+es-x/no-array-prototype-fill, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-fill.html
+es-x/no-array-prototype-filter, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-filter.html
+es-x/no-array-prototype-find, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-find.html
+es-x/no-array-prototype-findindex, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-findindex.html
+es-x/no-array-prototype-flat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-flat.html
+es-x/no-array-prototype-foreach, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-foreach.html
+es-x/no-array-prototype-includes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-includes.html
+es-x/no-array-prototype-indexof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-indexof.html
+es-x/no-array-prototype-keys, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-keys.html
+es-x/no-array-prototype-lastindexof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-lastindexof.html
+es-x/no-array-prototype-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-map.html
+es-x/no-array-prototype-reduce, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduce.html
+es-x/no-array-prototype-reduceright, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduceright.html
+es-x/no-array-prototype-some, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-some.html
+es-x/no-array-prototype-values, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-values.html
+es-x/no-array-string-prototype-at, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-string-prototype-at.html
+es-x/no-arrow-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arrow-functions.html
+es-x/no-async-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-functions.html
+es-x/no-async-iteration, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-iteration.html
+es-x/no-atomics, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-atomics.html
+es-x/no-bigint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-bigint.html
+es-x/no-binary-numeric-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-binary-numeric-literals.html
+es-x/no-block-scoped-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-functions.html
+es-x/no-block-scoped-variables, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-variables.html
+es-x/no-class-fields, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-fields.html
+es-x/no-class-static-block, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-static-block.html
+es-x/no-classes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-classes.html
+es-x/no-computed-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-computed-properties.html
+es-x/no-date-now, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-date-now.html
+es-x/no-default-parameters, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-default-parameters.html
+es-x/no-destructuring, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-destructuring.html
+es-x/no-dynamic-import, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-dynamic-import.html
+es-x/no-exponential-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-exponential-operators.html
+es-x/no-export-ns-from, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-export-ns-from.html
+es-x/no-for-of-loops, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-for-of-loops.html
+es-x/no-function-prototype-bind, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-function-prototype-bind.html
+es-x/no-generators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-generators.html
+es-x/no-global-this, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-global-this.html
+es-x/no-import-meta, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-import-meta.html
+es-x/no-json, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json.html
+es-x/no-json-superset, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json-superset.html
+es-x/no-keyword-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-keyword-properties.html
+es-x/no-logical-assignment-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-logical-assignment-operators.html
+es-x/no-malformed-template-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-malformed-template-literals.html
+es-x/no-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-map.html
+es-x/no-math-acosh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-acosh.html
+es-x/no-math-asinh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-asinh.html
+es-x/no-math-atanh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-atanh.html
+es-x/no-math-cbrt, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cbrt.html
+es-x/no-math-clz32, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-clz32.html
+es-x/no-math-cosh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cosh.html
+es-x/no-math-expm1, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-expm1.html
+es-x/no-math-fround, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-fround.html
+es-x/no-math-hypot, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-hypot.html
+es-x/no-math-imul, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-imul.html
+es-x/no-math-log10, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log10.html
+es-x/no-math-log1p, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log1p.html
+es-x/no-math-log2, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log2.html
+es-x/no-math-sign, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sign.html
+es-x/no-math-sinh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sinh.html
+es-x/no-math-tanh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-tanh.html
+es-x/no-math-trunc, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-trunc.html
+es-x/no-modules, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-modules.html
+es-x/no-new-target, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-new-target.html
+es-x/no-nullish-coalescing-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-nullish-coalescing-operators.html
+es-x/no-number-epsilon, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-epsilon.html
+es-x/no-number-isfinite, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isfinite.html
+es-x/no-number-isinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isinteger.html
+es-x/no-number-isnan, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isnan.html
+es-x/no-number-issafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-issafeinteger.html
+es-x/no-number-maxsafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-maxsafeinteger.html
+es-x/no-number-minsafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-minsafeinteger.html
+es-x/no-number-parsefloat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parsefloat.html
+es-x/no-number-parseint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parseint.html
+es-x/no-numeric-separators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-numeric-separators.html
+es-x/no-object-assign, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-assign.html
+es-x/no-object-create, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-create.html
+es-x/no-object-defineproperties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperties.html
+es-x/no-object-defineproperty, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperty.html
+es-x/no-object-entries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-entries.html
+es-x/no-object-freeze, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-freeze.html
+es-x/no-object-fromentries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-fromentries.html
+es-x/no-object-getownpropertydescriptor, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptor.html
+es-x/no-object-getownpropertydescriptors, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptors.html
+es-x/no-object-getownpropertynames, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertynames.html
+es-x/no-object-getownpropertysymbols, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertysymbols.html
+es-x/no-object-getprototypeof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getprototypeof.html
+es-x/no-object-hasown, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-hasown.html
+es-x/no-object-is, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-is.html
+es-x/no-object-isextensible, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isextensible.html
+es-x/no-object-isfrozen, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isfrozen.html
+es-x/no-object-issealed, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-issealed.html
+es-x/no-object-keys, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-keys.html
+es-x/no-object-preventextensions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-preventextensions.html
+es-x/no-object-seal, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-seal.html
+es-x/no-object-setprototypeof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-setprototypeof.html
+es-x/no-object-super-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-super-properties.html
+es-x/no-object-values, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-values.html
+es-x/no-octal-numeric-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-octal-numeric-literals.html
+es-x/no-optional-catch-binding, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-catch-binding.html
+es-x/no-optional-chaining, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-chaining.html
+es-x/no-private-in, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-private-in.html
+es-x/no-promise, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise.html
+es-x/no-promise-all-settled, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-all-settled.html
+es-x/no-promise-any, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-any.html
+es-x/no-promise-prototype-finally, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-prototype-finally.html
+es-x/no-property-shorthands, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-property-shorthands.html
+es-x/no-proxy, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-proxy.html
+es-x/no-reflect, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-reflect.html
+es-x/no-regexp-d-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-d-flag.html
+es-x/no-regexp-lookbehind-assertions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-lookbehind-assertions.html
+es-x/no-regexp-named-capture-groups, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-named-capture-groups.html
+es-x/no-regexp-prototype-flags, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-prototype-flags.html
+es-x/no-regexp-s-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-s-flag.html
+es-x/no-regexp-u-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-u-flag.html
+es-x/no-regexp-unicode-property-escapes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes.html
+es-x/no-regexp-unicode-property-escapes-2019, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes-2019.html
+es-x/no-regexp-y-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-y-flag.html
+es-x/no-rest-parameters, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-parameters.html
+es-x/no-rest-spread-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-spread-properties.html
+es-x/no-set, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-set.html
+es-x/no-shared-array-buffer, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-shared-array-buffer.html
+es-x/no-spread-elements, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-spread-elements.html
+es-x/no-string-fromcodepoint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-fromcodepoint.html
+es-x/no-string-prototype-codepointat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-codepointat.html
+es-x/no-string-prototype-endswith, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-endswith.html
+es-x/no-string-prototype-includes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-includes.html
+es-x/no-string-prototype-matchall, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-matchall.html
+es-x/no-string-prototype-normalize, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-normalize.html
+es-x/no-string-prototype-padstart-padend, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-padstart-padend.html
+es-x/no-string-prototype-repeat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-repeat.html
+es-x/no-string-prototype-replaceall, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-replaceall.html
+es-x/no-string-prototype-startswith, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-startswith.html
+es-x/no-string-prototype-trim, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trim.html
+es-x/no-string-prototype-trimstart-trimend, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trimstart-trimend.html
+es-x/no-string-raw, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-raw.html
+es-x/no-subclassing-builtins, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-subclassing-builtins.html
+es-x/no-symbol, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol.html
+es-x/no-symbol-prototype-description, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol-prototype-description.html
+es-x/no-template-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-template-literals.html
+es-x/no-top-level-await, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-top-level-await.html
+es-x/no-trailing-commas, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-commas.html
+es-x/no-trailing-function-commas, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-function-commas.html
+es-x/no-typed-arrays, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-typed-arrays.html
+es-x/no-unicode-codepoint-escapes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-unicode-codepoint-escapes.html
+es-x/no-weak-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-map.html
+es-x/no-weak-set, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-set.html
+es-x/no-weakrefs, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weakrefs.html
 unicorn/no-array-callback-reference, off, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md
 unicorn/no-for-loop, off, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md
 unicorn/prefer-number-properties, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md
@@ -142,123 +188,169 @@ unicorn/prefer-starts-ends-with, off, , https://github.com/sindresorhus/eslint-p
 |   5 | [prefer-exponentiation-operator](https://eslint.org/docs/rules/prefer-exponentiation-operator)                                                       |  off   | error  |
 |   6 | [prefer-numeric-literals](https://eslint.org/docs/rules/prefer-numeric-literals)                                                                     |  off   | error  |
 |   7 | [prefer-object-spread](https://eslint.org/docs/rules/prefer-object-spread)                                                                           |  off   | error  |
-|   8 | [es/no-accessor-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html)                                          | error  |
-|   9 | [es/no-array-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html)                                                            | error  |
-|  10 | [es/no-array-isarray](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-isarray.html)                                                      | error  |
-|  11 | [es/no-array-of](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html)                                                                | error  |
-|  12 | [es/no-arrow-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html)                                                  | error  |
-|  13 | [es/no-async-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html)                                                  | error  |
-|  14 | [es/no-async-iteration](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html)                                                  | error  |
-|  15 | [es/no-atomics](http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html)                                                                  | error  |
-|  16 | [es/no-bigint](http://mysticatea.github.io/eslint-plugin-es/rules/no-bigint.html)                                                                    | error  |
-|  17 | [es/no-binary-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html)                                  | error  |
-|  18 | [es/no-block-scoped-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html)                                    | error  |
-|  19 | [es/no-block-scoped-variables](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html)                                    | error  |
-|  20 | [es/no-classes](http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html)                                                                  | error  |
-|  21 | [es/no-computed-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html)                                          | error  |
-|  22 | [es/no-date-now](http://mysticatea.github.io/eslint-plugin-es/rules/no-date-now.html)                                                                | error  |
-|  23 | [es/no-default-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html)                                            | error  |
-|  24 | [es/no-destructuring](http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html)                                                      | error  |
-|  25 | [es/no-dynamic-import](http://mysticatea.github.io/eslint-plugin-es/rules/no-dynamic-import.html)                                                    | error  |
-|  26 | [es/no-exponential-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html)                                      | error  |
-|  27 | [es/no-export-ns-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-export-ns-from.html)                                                    | error  |
-|  28 | [es/no-for-of-loops](http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html)                                                        | error  |
-|  29 | [es/no-generators](http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html)                                                            | error  |
-|  30 | [es/no-global-this](http://mysticatea.github.io/eslint-plugin-es/rules/no-global-this.html)                                                          | error  |
-|  31 | [es/no-import-meta](http://mysticatea.github.io/eslint-plugin-es/rules/no-import-meta.html)                                                          | error  |
-|  32 | [es/no-json](http://mysticatea.github.io/eslint-plugin-es/rules/no-json.html)                                                                        | error  |
-|  33 | [es/no-json-superset](http://mysticatea.github.io/eslint-plugin-es/rules/no-json-superset.html)                                                      | error  |
-|  34 | [es/no-keyword-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html)                                            | error  |
-|  35 | [es/no-malformed-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html)                          | error  |
-|  36 | [es/no-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html)                                                                          | error  |
-|  37 | [es/no-math-acosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html)                                                            | error  |
-|  38 | [es/no-math-asinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html)                                                            | error  |
-|  39 | [es/no-math-atanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html)                                                            | error  |
-|  40 | [es/no-math-cbrt](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html)                                                              | error  |
-|  41 | [es/no-math-clz32](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html)                                                            | error  |
-|  42 | [es/no-math-cosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html)                                                              | error  |
-|  43 | [es/no-math-expm1](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html)                                                            | error  |
-|  44 | [es/no-math-fround](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html)                                                          | error  |
-|  45 | [es/no-math-hypot](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html)                                                            | error  |
-|  46 | [es/no-math-imul](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html)                                                              | error  |
-|  47 | [es/no-math-log10](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html)                                                            | error  |
-|  48 | [es/no-math-log1p](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html)                                                            | error  |
-|  49 | [es/no-math-log2](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html)                                                              | error  |
-|  50 | [es/no-math-sign](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html)                                                              | error  |
-|  51 | [es/no-math-sinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html)                                                              | error  |
-|  52 | [es/no-math-tanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html)                                                              | error  |
-|  53 | [es/no-math-trunc](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html)                                                            | error  |
-|  54 | [es/no-modules](http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html)                                                                  | error  |
-|  55 | [es/no-new-target](http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html)                                                            | error  |
-|  56 | [es/no-nullish-coalescing-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-nullish-coalescing-operators.html)                        | error  |
-|  57 | [es/no-number-epsilon](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html)                                                    | error  |
-|  58 | [es/no-number-isfinite](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html)                                                  | error  |
-|  59 | [es/no-number-isinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html)                                                | error  |
-|  60 | [es/no-number-isnan](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html)                                                        | error  |
-|  61 | [es/no-number-issafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html)                                        | error  |
-|  62 | [es/no-number-maxsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html)                                      | error  |
-|  63 | [es/no-number-minsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html)                                      | error  |
-|  64 | [es/no-number-parsefloat](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html)                                              | error  |
-|  65 | [es/no-number-parseint](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html)                                                  | error  |
-|  66 | [es/no-object-assign](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html)                                                      | error  |
-|  67 | [es/no-object-defineproperties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperties.html)                                  | error  |
-|  68 | [es/no-object-defineproperty](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperty.html)                                      | error  |
-|  69 | [es/no-object-entries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html)                                                    | error  |
-|  70 | [es/no-object-freeze](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-freeze.html)                                                      | error  |
-|  71 | [es/no-object-fromentries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-fromentries.html)                                            | error  |
-|  72 | [es/no-object-getownpropertydescriptor](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptor.html)                  | error  |
-|  73 | [es/no-object-getownpropertydescriptors](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html)                | error  |
-|  74 | [es/no-object-getownpropertynames](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertynames.html)                            | error  |
-|  75 | [es/no-object-getownpropertysymbols](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html)                        | error  |
-|  76 | [es/no-object-getprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getprototypeof.html)                                      | error  |
-|  77 | [es/no-object-is](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html)                                                              | error  |
-|  78 | [es/no-object-isextensible](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isextensible.html)                                          | error  |
-|  79 | [es/no-object-isfrozen](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isfrozen.html)                                                  | error  |
-|  80 | [es/no-object-issealed](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-issealed.html)                                                  | error  |
-|  81 | [es/no-object-keys](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-keys.html)                                                          | error  |
-|  82 | [es/no-object-preventextensions](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-preventextensions.html)                                | error  |
-|  83 | [es/no-object-seal](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-seal.html)                                                          | error  |
-|  84 | [es/no-object-setprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html)                                      | error  |
-|  85 | [es/no-object-super-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html)                                  | error  |
-|  86 | [es/no-object-values](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html)                                                      | error  |
-|  87 | [es/no-octal-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html)                                    | error  |
-|  88 | [es/no-optional-catch-binding](http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-catch-binding.html)                                    | error  |
-|  89 | [es/no-optional-chaining](http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-chaining.html)                                              | error  |
-|  90 | [es/no-promise](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html)                                                                  | error  |
-|  91 | [es/no-promise-all-settled](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise-all-settled.html)                                          | error  |
-|  92 | [es/no-property-shorthands](http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html)                                          | error  |
-|  93 | [es/no-proxy](http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html)                                                                      | error  |
-|  94 | [es/no-reflect](http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html)                                                                  | error  |
-|  95 | [es/no-regexp-lookbehind-assertions](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html)                        | error  |
-|  96 | [es/no-regexp-named-capture-groups](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html)                          | error  |
-|  97 | [es/no-regexp-s-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html)                                                      | error  |
-|  98 | [es/no-regexp-u-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html)                                                      | error  |
-|  99 | [es/no-regexp-unicode-property-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html)                  | error  |
-| 100 | [es/no-regexp-unicode-property-escapes-2019](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes-2019.html)        | error  |
-| 101 | [es/no-regexp-y-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html)                                                      | error  |
-| 102 | [es/no-rest-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html)                                                  | error  |
-| 103 | [es/no-rest-spread-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html)                                    | error  |
-| 104 | [es/no-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html)                                                                          | error  |
-| 105 | [es/no-shared-array-buffer](http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html)                                          | error  |
-| 106 | [es/no-spread-elements](http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html)                                                  | error  |
-| 107 | [es/no-string-fromcodepoint](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html)                                        | error  |
-| 108 | [es/no-string-raw](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html)                                                            | error  |
-| 109 | [es/no-subclassing-builtins](http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html)                                        | error  |
-| 110 | [es/no-symbol](http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html)                                                                    | error  |
-| 111 | [es/no-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html)                                              | error  |
-| 112 | [es/no-trailing-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html)                                                  | error  |
-| 113 | [es/no-trailing-function-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html)                                | error  |
-| 114 | [es/no-typed-arrays](http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html)                                                        | error  |
-| 115 | [es/no-unicode-codepoint-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html)                              | error  |
-| 116 | [es/no-weak-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html)                                                                | error  |
-| 117 | [es/no-weak-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html)                                                                | error  |
-| 118 | [unicorn/no-array-callback-reference](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)     |  off   |  warn  |
-| 119 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md)                                     |  off   |  warn  |
-| 120 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)           |  off   | error  |
-| 121 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md) |  off   | error  |
-| 122 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)                               |  off   | error  |
-| 123 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)                                 |  off   | error  |
-| 124 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/deprecated-rules.md#prefer-starts-ends-with)  |  off   |
+|   8 | [es-x/no-accessor-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-accessor-properties.html)                                       | error  |
+|   9 | [es-x/no-arbitrary-module-namespace-names](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arbitrary-module-namespace-names.html)             | error  |
+|  10 | [es-x/no-array-from](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-from.html)                                                         | error  |
+|  11 | [es-x/no-array-isarray](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-isarray.html)                                                   | error  |
+|  12 | [es-x/no-array-of](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-of.html)                                                             | error  |
+|  13 | [es-x/no-array-prototype-copywithin](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-copywithin.html)                         | error  |
+|  14 | [es-x/no-array-prototype-entries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-entries.html)                               | error  |
+|  15 | [es-x/no-array-prototype-every](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-every.html)                                   | error  |
+|  16 | [es-x/no-array-prototype-fill](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-fill.html)                                     | error  |
+|  17 | [es-x/no-array-prototype-filter](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-filter.html)                                 | error  |
+|  18 | [es-x/no-array-prototype-find](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-find.html)                                     | error  |
+|  19 | [es-x/no-array-prototype-findindex](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-findindex.html)                           | error  |
+|  20 | [es-x/no-array-prototype-flat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-flat.html)                                     | error  |
+|  21 | [es-x/no-array-prototype-foreach](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-foreach.html)                               | error  |
+|  22 | [es-x/no-array-prototype-includes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-includes.html)                             | error  |
+|  23 | [es-x/no-array-prototype-indexof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-indexof.html)                               | error  |
+|  24 | [es-x/no-array-prototype-keys](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-keys.html)                                     | error  |
+|  25 | [es-x/no-array-prototype-lastindexof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-lastindexof.html)                       | error  |
+|  26 | [es-x/no-array-prototype-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-map.html)                                       | error  |
+|  27 | [es-x/no-array-prototype-reduce](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduce.html)                                 | error  |
+|  28 | [es-x/no-array-prototype-reduceright](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduceright.html)                       | error  |
+|  29 | [es-x/no-array-prototype-some](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-some.html)                                     | error  |
+|  30 | [es-x/no-array-prototype-values](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-values.html)                                 | error  |
+|  31 | [es-x/no-array-string-prototype-at](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-string-prototype-at.html)                           | error  |
+|  32 | [es-x/no-arrow-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arrow-functions.html)                                               | error  |
+|  33 | [es-x/no-async-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-functions.html)                                               | error  |
+|  34 | [es-x/no-async-iteration](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-iteration.html)                                               | error  |
+|  35 | [es-x/no-atomics](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-atomics.html)                                                               | error  |
+|  36 | [es-x/no-bigint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-bigint.html)                                                                 | error  |
+|  37 | [es-x/no-binary-numeric-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-binary-numeric-literals.html)                               | error  |
+|  38 | [es-x/no-block-scoped-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-functions.html)                                 | error  |
+|  39 | [es-x/no-block-scoped-variables](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-variables.html)                                 | error  |
+|  40 | [es-x/no-class-fields](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-fields.html)                                                     | error  |
+|  41 | [es-x/no-class-static-block](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-static-block.html)                                         | error  |
+|  42 | [es-x/no-classes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-classes.html)                                                               | error  |
+|  43 | [es-x/no-computed-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-computed-properties.html)                                       | error  |
+|  44 | [es-x/no-date-now](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-date-now.html)                                                             | error  |
+|  45 | [es-x/no-default-parameters](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-default-parameters.html)                                         | error  |
+|  46 | [es-x/no-destructuring](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-destructuring.html)                                                   | error  |
+|  47 | [es-x/no-dynamic-import](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-dynamic-import.html)                                                 | error  |
+|  48 | [es-x/no-exponential-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-exponential-operators.html)                                   | error  |
+|  49 | [es-x/no-export-ns-from](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-export-ns-from.html)                                                 | error  |
+|  50 | [es-x/no-for-of-loops](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-for-of-loops.html)                                                     | error  |
+|  51 | [es-x/no-function-prototype-bind](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-function-prototype-bind.html)                               | error  |
+|  52 | [es-x/no-generators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-generators.html)                                                         | error  |
+|  53 | [es-x/no-global-this](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-global-this.html)                                                       | error  |
+|  54 | [es-x/no-import-meta](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-import-meta.html)                                                       | error  |
+|  55 | [es-x/no-json](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json.html)                                                                     | error  |
+|  56 | [es-x/no-json-superset](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json-superset.html)                                                   | error  |
+|  57 | [es-x/no-keyword-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-keyword-properties.html)                                         | error  |
+|  58 | [es-x/no-logical-assignment-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-logical-assignment-operators.html)                     | error  |
+|  59 | [es-x/no-malformed-template-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-malformed-template-literals.html)                       | error  |
+|  60 | [es-x/no-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-map.html)                                                                       | error  |
+|  61 | [es-x/no-math-acosh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-acosh.html)                                                         | error  |
+|  62 | [es-x/no-math-asinh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-asinh.html)                                                         | error  |
+|  63 | [es-x/no-math-atanh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-atanh.html)                                                         | error  |
+|  64 | [es-x/no-math-cbrt](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cbrt.html)                                                           | error  |
+|  65 | [es-x/no-math-clz32](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-clz32.html)                                                         | error  |
+|  66 | [es-x/no-math-cosh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cosh.html)                                                           | error  |
+|  67 | [es-x/no-math-expm1](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-expm1.html)                                                         | error  |
+|  68 | [es-x/no-math-fround](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-fround.html)                                                       | error  |
+|  69 | [es-x/no-math-hypot](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-hypot.html)                                                         | error  |
+|  70 | [es-x/no-math-imul](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-imul.html)                                                           | error  |
+|  71 | [es-x/no-math-log10](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log10.html)                                                         | error  |
+|  72 | [es-x/no-math-log1p](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log1p.html)                                                         | error  |
+|  73 | [es-x/no-math-log2](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log2.html)                                                           | error  |
+|  74 | [es-x/no-math-sign](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sign.html)                                                           | error  |
+|  75 | [es-x/no-math-sinh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sinh.html)                                                           | error  |
+|  76 | [es-x/no-math-tanh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-tanh.html)                                                           | error  |
+|  77 | [es-x/no-math-trunc](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-trunc.html)                                                         | error  |
+|  78 | [es-x/no-modules](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-modules.html)                                                               | error  |
+|  79 | [es-x/no-new-target](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-new-target.html)                                                         | error  |
+|  80 | [es-x/no-nullish-coalescing-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-nullish-coalescing-operators.html)                     | error  |
+|  81 | [es-x/no-number-epsilon](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-epsilon.html)                                                 | error  |
+|  82 | [es-x/no-number-isfinite](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isfinite.html)                                               | error  |
+|  83 | [es-x/no-number-isinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isinteger.html)                                             | error  |
+|  84 | [es-x/no-number-isnan](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isnan.html)                                                     | error  |
+|  85 | [es-x/no-number-issafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-issafeinteger.html)                                     | error  |
+|  86 | [es-x/no-number-maxsafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-maxsafeinteger.html)                                   | error  |
+|  87 | [es-x/no-number-minsafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-minsafeinteger.html)                                   | error  |
+|  88 | [es-x/no-number-parsefloat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parsefloat.html)                                           | error  |
+|  89 | [es-x/no-number-parseint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parseint.html)                                               | error  |
+|  90 | [es-x/no-numeric-separators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-numeric-separators.html)                                         | error  |
+|  91 | [es-x/no-object-assign](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-assign.html)                                                   | error  |
+|  92 | [es-x/no-object-create](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-create.html)                                                   | error  |
+|  93 | [es-x/no-object-defineproperties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperties.html)                               | error  |
+|  94 | [es-x/no-object-defineproperty](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperty.html)                                   | error  |
+|  95 | [es-x/no-object-entries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-entries.html)                                                 | error  |
+|  96 | [es-x/no-object-freeze](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-freeze.html)                                                   | error  |
+|  97 | [es-x/no-object-fromentries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-fromentries.html)                                         | error  |
+|  98 | [es-x/no-object-getownpropertydescriptor](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptor.html)               | error  |
+|  99 | [es-x/no-object-getownpropertydescriptors](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptors.html)             | error  |
+| 100 | [es-x/no-object-getownpropertynames](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertynames.html)                         | error  |
+| 101 | [es-x/no-object-getownpropertysymbols](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertysymbols.html)                     | error  |
+| 102 | [es-x/no-object-getprototypeof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getprototypeof.html)                                   | error  |
+| 103 | [es-x/no-object-hasown](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-hasown.html)                                                   | error  |
+| 104 | [es-x/no-object-is](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-is.html)                                                           | error  |
+| 105 | [es-x/no-object-isextensible](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isextensible.html)                                       | error  |
+| 106 | [es-x/no-object-isfrozen](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isfrozen.html)                                               | error  |
+| 107 | [es-x/no-object-issealed](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-issealed.html)                                               | error  |
+| 108 | [es-x/no-object-keys](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-keys.html)                                                       | error  |
+| 109 | [es-x/no-object-preventextensions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-preventextensions.html)                             | error  |
+| 110 | [es-x/no-object-seal](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-seal.html)                                                       | error  |
+| 111 | [es-x/no-object-setprototypeof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-setprototypeof.html)                                   | error  |
+| 112 | [es-x/no-object-super-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-super-properties.html)                               | error  |
+| 113 | [es-x/no-object-values](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-values.html)                                                   | error  |
+| 114 | [es-x/no-octal-numeric-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-octal-numeric-literals.html)                                 | error  |
+| 115 | [es-x/no-optional-catch-binding](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-catch-binding.html)                                 | error  |
+| 116 | [es-x/no-optional-chaining](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-chaining.html)                                           | error  |
+| 117 | [es-x/no-private-in](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-private-in.html)                                                         | error  |
+| 118 | [es-x/no-promise](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise.html)                                                               | error  |
+| 119 | [es-x/no-promise-all-settled](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-all-settled.html)                                       | error  |
+| 120 | [es-x/no-promise-any](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-any.html)                                                       | error  |
+| 121 | [es-x/no-promise-prototype-finally](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-prototype-finally.html)                           | error  |
+| 122 | [es-x/no-property-shorthands](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-property-shorthands.html)                                       | error  |
+| 123 | [es-x/no-proxy](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-proxy.html)                                                                   | error  |
+| 124 | [es-x/no-reflect](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-reflect.html)                                                               | error  |
+| 125 | [es-x/no-regexp-d-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-d-flag.html)                                                   | error  |
+| 126 | [es-x/no-regexp-lookbehind-assertions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-lookbehind-assertions.html)                     | error  |
+| 127 | [es-x/no-regexp-named-capture-groups](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-named-capture-groups.html)                       | error  |
+| 128 | [es-x/no-regexp-prototype-flags](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-prototype-flags.html)                                 | error  |
+| 129 | [es-x/no-regexp-s-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-s-flag.html)                                                   | error  |
+| 130 | [es-x/no-regexp-u-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-u-flag.html)                                                   | error  |
+| 131 | [es-x/no-regexp-unicode-property-escapes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes.html)               | error  |
+| 132 | [es-x/no-regexp-unicode-property-escapes-2019](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes-2019.html)     | error  |
+| 133 | [es-x/no-regexp-y-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-y-flag.html)                                                   | error  |
+| 134 | [es-x/no-rest-parameters](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-parameters.html)                                               | error  |
+| 135 | [es-x/no-rest-spread-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-spread-properties.html)                                 | error  |
+| 136 | [es-x/no-set](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-set.html)                                                                       | error  |
+| 137 | [es-x/no-shared-array-buffer](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-shared-array-buffer.html)                                       | error  |
+| 138 | [es-x/no-spread-elements](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-spread-elements.html)                                               | error  |
+| 139 | [es-x/no-string-fromcodepoint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-fromcodepoint.html)                                     | error  |
+| 140 | [es-x/no-string-prototype-codepointat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-codepointat.html)                     | error  |
+| 141 | [es-x/no-string-prototype-endswith](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-endswith.html)                           | error  |
+| 142 | [es-x/no-string-prototype-includes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-includes.html)                           | error  |
+| 143 | [es-x/no-string-prototype-matchall](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-matchall.html)                           | error  |
+| 144 | [es-x/no-string-prototype-normalize](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-normalize.html)                         | error  |
+| 145 | [es-x/no-string-prototype-padstart-padend](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-padstart-padend.html)             | error  |
+| 146 | [es-x/no-string-prototype-repeat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-repeat.html)                               | error  |
+| 147 | [es-x/no-string-prototype-replaceall](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-replaceall.html)                       | error  |
+| 148 | [es-x/no-string-prototype-startswith](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-startswith.html)                       | error  |
+| 149 | [es-x/no-string-prototype-trim](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trim.html)                                   | error  |
+| 150 | [es-x/no-string-prototype-trimstart-trimend](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trimstart-trimend.html)         | error  |
+| 151 | [es-x/no-string-raw](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-raw.html)                                                         | error  |
+| 152 | [es-x/no-subclassing-builtins](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-subclassing-builtins.html)                                     | error  |
+| 153 | [es-x/no-symbol](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol.html)                                                                 | error  |
+| 154 | [es-x/no-symbol-prototype-description](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol-prototype-description.html)                     | error  |
+| 155 | [es-x/no-template-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-template-literals.html)                                           | error  |
+| 156 | [es-x/no-top-level-await](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-top-level-await.html)                                               | error  |
+| 157 | [es-x/no-trailing-commas](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-commas.html)                                               | error  |
+| 158 | [es-x/no-trailing-function-commas](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-function-commas.html)                             | error  |
+| 159 | [es-x/no-typed-arrays](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-typed-arrays.html)                                                     | error  |
+| 160 | [es-x/no-unicode-codepoint-escapes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-unicode-codepoint-escapes.html)                           | error  |
+| 161 | [es-x/no-weak-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-map.html)                                                             | error  |
+| 162 | [es-x/no-weak-set](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-set.html)                                                             | error  |
+| 163 | [es-x/no-weakrefs](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weakrefs.html)                                                             | error  |
+| 164 | [unicorn/no-array-callback-reference](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)     |  off   |  warn  |
+| 165 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md)                                     |  off   |  warn  |
+| 166 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)           |  off   | error  |
+| 167 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md) |  off   | error  |
+| 168 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)                               |  off   | error  |
+| 169 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)                                 |  off   | error  |
+| 170 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/deprecated-rules.md#prefer-starts-ends-with)  |  off   |
 
 ## all rules
 
@@ -559,122 +651,169 @@ yoda, error, error, https://eslint.org/docs/rules/yoda
 @typescript-eslint/object-curly-spacing, off, off,
 @typescript-eslint/quotes, off, off,
 @typescript-eslint/semi, off, off,
+@typescript-eslint/space-before-blocks, off, off,
 @typescript-eslint/space-before-function-paren, off, off,
 @typescript-eslint/space-infix-ops, off, off,
 @typescript-eslint/type-annotation-spacing, off, off,
 babel/object-curly-spacing, off, off,
 babel/quotes, off, off,
 babel/semi, off, off,
-es/no-accessor-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html
-es/no-array-from, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html
-es/no-array-isarray, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-isarray.html
-es/no-array-of, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html
-es/no-arrow-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html
-es/no-async-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html
-es/no-async-iteration, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html
-es/no-atomics, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html
-es/no-bigint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-bigint.html
-es/no-binary-numeric-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html
-es/no-block-scoped-functions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html
-es/no-block-scoped-variables, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html
-es/no-classes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html
-es/no-computed-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html
-es/no-date-now, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-date-now.html
-es/no-default-parameters, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html
-es/no-destructuring, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html
-es/no-dynamic-import, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-dynamic-import.html
-es/no-exponential-operators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html
-es/no-export-ns-from, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-export-ns-from.html
-es/no-for-of-loops, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html
-es/no-generators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html
-es/no-global-this, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-global-this.html
-es/no-import-meta, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-import-meta.html
-es/no-json, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-json.html
-es/no-json-superset, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-json-superset.html
-es/no-keyword-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html
-es/no-malformed-template-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html
-es/no-map, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html
-es/no-math-acosh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html
-es/no-math-asinh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html
-es/no-math-atanh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html
-es/no-math-cbrt, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html
-es/no-math-clz32, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html
-es/no-math-cosh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html
-es/no-math-expm1, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html
-es/no-math-fround, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html
-es/no-math-hypot, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html
-es/no-math-imul, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html
-es/no-math-log10, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html
-es/no-math-log1p, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html
-es/no-math-log2, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html
-es/no-math-sign, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html
-es/no-math-sinh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html
-es/no-math-tanh, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html
-es/no-math-trunc, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html
-es/no-modules, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html
-es/no-new-target, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html
-es/no-nullish-coalescing-operators, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-nullish-coalescing-operators.html
-es/no-number-epsilon, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html
-es/no-number-isfinite, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html
-es/no-number-isinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html
-es/no-number-isnan, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html
-es/no-number-issafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html
-es/no-number-maxsafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html
-es/no-number-minsafeinteger, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html
-es/no-number-parsefloat, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html
-es/no-number-parseint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html
-es/no-object-assign, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html
-es/no-object-defineproperties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperties.html
-es/no-object-defineproperty, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperty.html
-es/no-object-entries, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html
-es/no-object-freeze, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-freeze.html
-es/no-object-fromentries, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-fromentries.html
-es/no-object-getownpropertydescriptor, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptor.html
-es/no-object-getownpropertydescriptors, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html
-es/no-object-getownpropertynames, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertynames.html
-es/no-object-getownpropertysymbols, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html
-es/no-object-getprototypeof, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getprototypeof.html
-es/no-object-is, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html
-es/no-object-isextensible, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isextensible.html
-es/no-object-isfrozen, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isfrozen.html
-es/no-object-issealed, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-issealed.html
-es/no-object-keys, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-keys.html
-es/no-object-preventextensions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-preventextensions.html
-es/no-object-seal, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-seal.html
-es/no-object-setprototypeof, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html
-es/no-object-super-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html
-es/no-object-values, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html
-es/no-octal-numeric-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html
-es/no-optional-catch-binding, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-catch-binding.html
-es/no-optional-chaining, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-chaining.html
-es/no-promise, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html
-es/no-promise-all-settled, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-promise-all-settled.html
-es/no-property-shorthands, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html
-es/no-proxy, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html
-es/no-reflect, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html
-es/no-regexp-lookbehind-assertions, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html
-es/no-regexp-named-capture-groups, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html
-es/no-regexp-s-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html
-es/no-regexp-u-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html
-es/no-regexp-unicode-property-escapes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html
-es/no-regexp-unicode-property-escapes-2019, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes-2019.html
-es/no-regexp-y-flag, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html
-es/no-rest-parameters, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html
-es/no-rest-spread-properties, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html
-es/no-set, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html
-es/no-shared-array-buffer, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html
-es/no-spread-elements, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html
-es/no-string-fromcodepoint, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html
-es/no-string-raw, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html
-es/no-subclassing-builtins, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html
-es/no-symbol, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html
-es/no-template-literals, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html
-es/no-trailing-commas, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html
-es/no-trailing-function-commas, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html
-es/no-typed-arrays, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html
-es/no-unicode-codepoint-escapes, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html
-es/no-weak-map, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html
-es/no-weak-set, error, , http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html
+es-x/no-accessor-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-accessor-properties.html
+es-x/no-arbitrary-module-namespace-names, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arbitrary-module-namespace-names.html
+es-x/no-array-from, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-from.html
+es-x/no-array-isarray, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-isarray.html
+es-x/no-array-of, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-of.html
+es-x/no-array-prototype-copywithin, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-copywithin.html
+es-x/no-array-prototype-entries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-entries.html
+es-x/no-array-prototype-every, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-every.html
+es-x/no-array-prototype-fill, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-fill.html
+es-x/no-array-prototype-filter, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-filter.html
+es-x/no-array-prototype-find, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-find.html
+es-x/no-array-prototype-findindex, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-findindex.html
+es-x/no-array-prototype-flat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-flat.html
+es-x/no-array-prototype-foreach, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-foreach.html
+es-x/no-array-prototype-includes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-includes.html
+es-x/no-array-prototype-indexof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-indexof.html
+es-x/no-array-prototype-keys, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-keys.html
+es-x/no-array-prototype-lastindexof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-lastindexof.html
+es-x/no-array-prototype-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-map.html
+es-x/no-array-prototype-reduce, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduce.html
+es-x/no-array-prototype-reduceright, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduceright.html
+es-x/no-array-prototype-some, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-some.html
+es-x/no-array-prototype-values, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-values.html
+es-x/no-array-string-prototype-at, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-string-prototype-at.html
+es-x/no-arrow-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arrow-functions.html
+es-x/no-async-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-functions.html
+es-x/no-async-iteration, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-iteration.html
+es-x/no-atomics, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-atomics.html
+es-x/no-bigint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-bigint.html
+es-x/no-binary-numeric-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-binary-numeric-literals.html
+es-x/no-block-scoped-functions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-functions.html
+es-x/no-block-scoped-variables, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-variables.html
+es-x/no-class-fields, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-fields.html
+es-x/no-class-static-block, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-static-block.html
+es-x/no-classes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-classes.html
+es-x/no-computed-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-computed-properties.html
+es-x/no-date-now, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-date-now.html
+es-x/no-default-parameters, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-default-parameters.html
+es-x/no-destructuring, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-destructuring.html
+es-x/no-dynamic-import, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-dynamic-import.html
+es-x/no-exponential-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-exponential-operators.html
+es-x/no-export-ns-from, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-export-ns-from.html
+es-x/no-for-of-loops, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-for-of-loops.html
+es-x/no-function-prototype-bind, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-function-prototype-bind.html
+es-x/no-generators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-generators.html
+es-x/no-global-this, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-global-this.html
+es-x/no-import-meta, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-import-meta.html
+es-x/no-json, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json.html
+es-x/no-json-superset, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json-superset.html
+es-x/no-keyword-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-keyword-properties.html
+es-x/no-logical-assignment-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-logical-assignment-operators.html
+es-x/no-malformed-template-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-malformed-template-literals.html
+es-x/no-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-map.html
+es-x/no-math-acosh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-acosh.html
+es-x/no-math-asinh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-asinh.html
+es-x/no-math-atanh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-atanh.html
+es-x/no-math-cbrt, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cbrt.html
+es-x/no-math-clz32, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-clz32.html
+es-x/no-math-cosh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cosh.html
+es-x/no-math-expm1, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-expm1.html
+es-x/no-math-fround, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-fround.html
+es-x/no-math-hypot, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-hypot.html
+es-x/no-math-imul, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-imul.html
+es-x/no-math-log10, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log10.html
+es-x/no-math-log1p, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log1p.html
+es-x/no-math-log2, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log2.html
+es-x/no-math-sign, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sign.html
+es-x/no-math-sinh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sinh.html
+es-x/no-math-tanh, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-tanh.html
+es-x/no-math-trunc, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-trunc.html
+es-x/no-modules, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-modules.html
+es-x/no-new-target, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-new-target.html
+es-x/no-nullish-coalescing-operators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-nullish-coalescing-operators.html
+es-x/no-number-epsilon, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-epsilon.html
+es-x/no-number-isfinite, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isfinite.html
+es-x/no-number-isinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isinteger.html
+es-x/no-number-isnan, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isnan.html
+es-x/no-number-issafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-issafeinteger.html
+es-x/no-number-maxsafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-maxsafeinteger.html
+es-x/no-number-minsafeinteger, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-minsafeinteger.html
+es-x/no-number-parsefloat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parsefloat.html
+es-x/no-number-parseint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parseint.html
+es-x/no-numeric-separators, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-numeric-separators.html
+es-x/no-object-assign, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-assign.html
+es-x/no-object-create, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-create.html
+es-x/no-object-defineproperties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperties.html
+es-x/no-object-defineproperty, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperty.html
+es-x/no-object-entries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-entries.html
+es-x/no-object-freeze, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-freeze.html
+es-x/no-object-fromentries, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-fromentries.html
+es-x/no-object-getownpropertydescriptor, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptor.html
+es-x/no-object-getownpropertydescriptors, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptors.html
+es-x/no-object-getownpropertynames, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertynames.html
+es-x/no-object-getownpropertysymbols, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertysymbols.html
+es-x/no-object-getprototypeof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getprototypeof.html
+es-x/no-object-hasown, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-hasown.html
+es-x/no-object-is, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-is.html
+es-x/no-object-isextensible, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isextensible.html
+es-x/no-object-isfrozen, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isfrozen.html
+es-x/no-object-issealed, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-issealed.html
+es-x/no-object-keys, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-keys.html
+es-x/no-object-preventextensions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-preventextensions.html
+es-x/no-object-seal, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-seal.html
+es-x/no-object-setprototypeof, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-setprototypeof.html
+es-x/no-object-super-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-super-properties.html
+es-x/no-object-values, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-values.html
+es-x/no-octal-numeric-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-octal-numeric-literals.html
+es-x/no-optional-catch-binding, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-catch-binding.html
+es-x/no-optional-chaining, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-chaining.html
+es-x/no-private-in, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-private-in.html
+es-x/no-promise, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise.html
+es-x/no-promise-all-settled, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-all-settled.html
+es-x/no-promise-any, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-any.html
+es-x/no-promise-prototype-finally, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-prototype-finally.html
+es-x/no-property-shorthands, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-property-shorthands.html
+es-x/no-proxy, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-proxy.html
+es-x/no-reflect, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-reflect.html
+es-x/no-regexp-d-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-d-flag.html
+es-x/no-regexp-lookbehind-assertions, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-lookbehind-assertions.html
+es-x/no-regexp-named-capture-groups, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-named-capture-groups.html
+es-x/no-regexp-prototype-flags, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-prototype-flags.html
+es-x/no-regexp-s-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-s-flag.html
+es-x/no-regexp-u-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-u-flag.html
+es-x/no-regexp-unicode-property-escapes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes.html
+es-x/no-regexp-unicode-property-escapes-2019, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes-2019.html
+es-x/no-regexp-y-flag, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-y-flag.html
+es-x/no-rest-parameters, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-parameters.html
+es-x/no-rest-spread-properties, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-spread-properties.html
+es-x/no-set, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-set.html
+es-x/no-shared-array-buffer, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-shared-array-buffer.html
+es-x/no-spread-elements, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-spread-elements.html
+es-x/no-string-fromcodepoint, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-fromcodepoint.html
+es-x/no-string-prototype-codepointat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-codepointat.html
+es-x/no-string-prototype-endswith, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-endswith.html
+es-x/no-string-prototype-includes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-includes.html
+es-x/no-string-prototype-matchall, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-matchall.html
+es-x/no-string-prototype-normalize, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-normalize.html
+es-x/no-string-prototype-padstart-padend, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-padstart-padend.html
+es-x/no-string-prototype-repeat, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-repeat.html
+es-x/no-string-prototype-replaceall, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-replaceall.html
+es-x/no-string-prototype-startswith, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-startswith.html
+es-x/no-string-prototype-trim, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trim.html
+es-x/no-string-prototype-trimstart-trimend, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trimstart-trimend.html
+es-x/no-string-raw, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-raw.html
+es-x/no-subclassing-builtins, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-subclassing-builtins.html
+es-x/no-symbol, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol.html
+es-x/no-symbol-prototype-description, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol-prototype-description.html
+es-x/no-template-literals, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-template-literals.html
+es-x/no-top-level-await, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-top-level-await.html
+es-x/no-trailing-commas, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-commas.html
+es-x/no-trailing-function-commas, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-function-commas.html
+es-x/no-typed-arrays, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-typed-arrays.html
+es-x/no-unicode-codepoint-escapes, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-unicode-codepoint-escapes.html
+es-x/no-weak-map, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-map.html
+es-x/no-weak-set, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-set.html
+es-x/no-weakrefs, error, , http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weakrefs.html
 eslint-comments/disable-enable-pair, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html
 eslint-comments/no-aggregating-enable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html
 eslint-comments/no-duplicate-disable, error, error, https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html
@@ -695,8 +834,8 @@ flowtype/union-intersection-spacing, off, off,
 import/extensions, error, error, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md
 import/no-unresolved, off, off, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
 import/order, error, error, https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
-node/no-missing-import, off, off, https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-missing-import.md
-node/no-unsupported-features/node-builtins, off, off, https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-unsupported-features/node-builtins.md
+n/no-missing-import, off, off, https://github.com/weiran-zsd/eslint-plugin-node/blob/HEAD/docs/rules/no-missing-import.md
+n/no-unsupported-features/node-builtins, off, off, https://github.com/weiran-zsd/eslint-plugin-node/blob/HEAD/docs/rules/no-unsupported-features/node-builtins.md
 prettier/prettier, error, error, https://github.com/prettier/eslint-plugin-prettier#options
 promise/always-return, off, off, https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
 promise/avoid-new, off, off, https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md
@@ -818,7 +957,7 @@ sonarjs/no-identical-conditions, error, error, https://github.com/SonarSource/es
 sonarjs/no-identical-expressions, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-expressions.md
 sonarjs/no-identical-functions, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-functions.md
 sonarjs/no-ignored-return, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-ignored-return.md
-sonarjs/no-inverted-boolean-check, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-inverted-boolean-check.md
+sonarjs/no-inverted-boolean-check, off, off, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-inverted-boolean-check.md
 sonarjs/no-nested-switch, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-switch.md
 sonarjs/no-nested-template-literals, off, off, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-template-literals.md
 sonarjs/no-one-iteration-loop, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-one-iteration-loop.md
@@ -904,6 +1043,7 @@ unicorn/prefer-dom-node-text-content, off, off, https://github.com/sindresorhus/
 unicorn/prefer-export-from, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
 unicorn/prefer-includes, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md
 unicorn/prefer-json-parse-buffer, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
+unicorn/prefer-json-parser-buffer, error, error,
 unicorn/prefer-keyboard-event-key, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md
 unicorn/prefer-math-trunc, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md
 unicorn/prefer-modern-dom-apis, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md
@@ -935,6 +1075,7 @@ unicorn/require-number-to-fixed-digits-argument, error, error, https://github.co
 unicorn/require-post-message-target-origin, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md
 unicorn/string-content, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md
 unicorn/template-indent, warn, warn, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md
+unicorn/text-encoding-identifier-case, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md
 unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md
 vue/array-bracket-newline, off, off, https://eslint.vuejs.org/rules/array-bracket-newline.html
 vue/array-bracket-spacing, off, off, https://eslint.vuejs.org/rules/array-bracket-spacing.html
@@ -966,6 +1107,7 @@ vue/object-curly-newline, off, off, https://eslint.vuejs.org/rules/object-curly-
 vue/object-curly-spacing, off, off, https://eslint.vuejs.org/rules/object-curly-spacing.html
 vue/object-property-newline, off, off, https://eslint.vuejs.org/rules/object-property-newline.html
 vue/operator-linebreak, off, off, https://eslint.vuejs.org/rules/operator-linebreak.html
+vue/quote-props, off, off, https://eslint.vuejs.org/rules/quote-props.html
 vue/script-indent, off, off, https://eslint.vuejs.org/rules/script-indent.html
 vue/singleline-html-element-content-newline, off, off, https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html
 vue/space-in-parens, off, off, https://eslint.vuejs.org/rules/space-in-parens.html
@@ -1272,416 +1414,466 @@ vue/template-curly-spacing, off, off, https://eslint.vuejs.org/rules/template-cu
 | 294 | @typescript-eslint/object-curly-spacing                                                                                                                                  |  off   |  off   |
 | 295 | @typescript-eslint/quotes                                                                                                                                                |  off   |  off   |
 | 296 | @typescript-eslint/semi                                                                                                                                                  |  off   |  off   |
-| 297 | @typescript-eslint/space-before-function-paren                                                                                                                           |  off   |  off   |
-| 298 | @typescript-eslint/space-infix-ops                                                                                                                                       |  off   |  off   |
-| 299 | @typescript-eslint/type-annotation-spacing                                                                                                                               |  off   |  off   |
-| 300 | babel/object-curly-spacing                                                                                                                                               |  off   |  off   |
-| 301 | babel/quotes                                                                                                                                                             |  off   |  off   |
-| 302 | babel/semi                                                                                                                                                               |  off   |  off   |
-| 303 | [es/no-accessor-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-accessor-properties.html)                                                              | error  |
-| 304 | [es/no-array-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-from.html)                                                                                | error  |
-| 305 | [es/no-array-isarray](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-isarray.html)                                                                          | error  |
-| 306 | [es/no-array-of](http://mysticatea.github.io/eslint-plugin-es/rules/no-array-of.html)                                                                                    | error  |
-| 307 | [es/no-arrow-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-arrow-functions.html)                                                                      | error  |
-| 308 | [es/no-async-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-functions.html)                                                                      | error  |
-| 309 | [es/no-async-iteration](http://mysticatea.github.io/eslint-plugin-es/rules/no-async-iteration.html)                                                                      | error  |
-| 310 | [es/no-atomics](http://mysticatea.github.io/eslint-plugin-es/rules/no-atomics.html)                                                                                      | error  |
-| 311 | [es/no-bigint](http://mysticatea.github.io/eslint-plugin-es/rules/no-bigint.html)                                                                                        | error  |
-| 312 | [es/no-binary-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-binary-numeric-literals.html)                                                      | error  |
-| 313 | [es/no-block-scoped-functions](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-functions.html)                                                        | error  |
-| 314 | [es/no-block-scoped-variables](http://mysticatea.github.io/eslint-plugin-es/rules/no-block-scoped-variables.html)                                                        | error  |
-| 315 | [es/no-classes](http://mysticatea.github.io/eslint-plugin-es/rules/no-classes.html)                                                                                      | error  |
-| 316 | [es/no-computed-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-computed-properties.html)                                                              | error  |
-| 317 | [es/no-date-now](http://mysticatea.github.io/eslint-plugin-es/rules/no-date-now.html)                                                                                    | error  |
-| 318 | [es/no-default-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-default-parameters.html)                                                                | error  |
-| 319 | [es/no-destructuring](http://mysticatea.github.io/eslint-plugin-es/rules/no-destructuring.html)                                                                          | error  |
-| 320 | [es/no-dynamic-import](http://mysticatea.github.io/eslint-plugin-es/rules/no-dynamic-import.html)                                                                        | error  |
-| 321 | [es/no-exponential-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-exponential-operators.html)                                                          | error  |
-| 322 | [es/no-export-ns-from](http://mysticatea.github.io/eslint-plugin-es/rules/no-export-ns-from.html)                                                                        | error  |
-| 323 | [es/no-for-of-loops](http://mysticatea.github.io/eslint-plugin-es/rules/no-for-of-loops.html)                                                                            | error  |
-| 324 | [es/no-generators](http://mysticatea.github.io/eslint-plugin-es/rules/no-generators.html)                                                                                | error  |
-| 325 | [es/no-global-this](http://mysticatea.github.io/eslint-plugin-es/rules/no-global-this.html)                                                                              | error  |
-| 326 | [es/no-import-meta](http://mysticatea.github.io/eslint-plugin-es/rules/no-import-meta.html)                                                                              | error  |
-| 327 | [es/no-json](http://mysticatea.github.io/eslint-plugin-es/rules/no-json.html)                                                                                            | error  |
-| 328 | [es/no-json-superset](http://mysticatea.github.io/eslint-plugin-es/rules/no-json-superset.html)                                                                          | error  |
-| 329 | [es/no-keyword-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-keyword-properties.html)                                                                | error  |
-| 330 | [es/no-malformed-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-malformed-template-literals.html)                                              | error  |
-| 331 | [es/no-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-map.html)                                                                                              | error  |
-| 332 | [es/no-math-acosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-acosh.html)                                                                                | error  |
-| 333 | [es/no-math-asinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-asinh.html)                                                                                | error  |
-| 334 | [es/no-math-atanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-atanh.html)                                                                                | error  |
-| 335 | [es/no-math-cbrt](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cbrt.html)                                                                                  | error  |
-| 336 | [es/no-math-clz32](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-clz32.html)                                                                                | error  |
-| 337 | [es/no-math-cosh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-cosh.html)                                                                                  | error  |
-| 338 | [es/no-math-expm1](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-expm1.html)                                                                                | error  |
-| 339 | [es/no-math-fround](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-fround.html)                                                                              | error  |
-| 340 | [es/no-math-hypot](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-hypot.html)                                                                                | error  |
-| 341 | [es/no-math-imul](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-imul.html)                                                                                  | error  |
-| 342 | [es/no-math-log10](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log10.html)                                                                                | error  |
-| 343 | [es/no-math-log1p](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log1p.html)                                                                                | error  |
-| 344 | [es/no-math-log2](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-log2.html)                                                                                  | error  |
-| 345 | [es/no-math-sign](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sign.html)                                                                                  | error  |
-| 346 | [es/no-math-sinh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-sinh.html)                                                                                  | error  |
-| 347 | [es/no-math-tanh](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-tanh.html)                                                                                  | error  |
-| 348 | [es/no-math-trunc](http://mysticatea.github.io/eslint-plugin-es/rules/no-math-trunc.html)                                                                                | error  |
-| 349 | [es/no-modules](http://mysticatea.github.io/eslint-plugin-es/rules/no-modules.html)                                                                                      | error  |
-| 350 | [es/no-new-target](http://mysticatea.github.io/eslint-plugin-es/rules/no-new-target.html)                                                                                | error  |
-| 351 | [es/no-nullish-coalescing-operators](http://mysticatea.github.io/eslint-plugin-es/rules/no-nullish-coalescing-operators.html)                                            | error  |
-| 352 | [es/no-number-epsilon](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-epsilon.html)                                                                        | error  |
-| 353 | [es/no-number-isfinite](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isfinite.html)                                                                      | error  |
-| 354 | [es/no-number-isinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isinteger.html)                                                                    | error  |
-| 355 | [es/no-number-isnan](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-isnan.html)                                                                            | error  |
-| 356 | [es/no-number-issafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-issafeinteger.html)                                                            | error  |
-| 357 | [es/no-number-maxsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-maxsafeinteger.html)                                                          | error  |
-| 358 | [es/no-number-minsafeinteger](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-minsafeinteger.html)                                                          | error  |
-| 359 | [es/no-number-parsefloat](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parsefloat.html)                                                                  | error  |
-| 360 | [es/no-number-parseint](http://mysticatea.github.io/eslint-plugin-es/rules/no-number-parseint.html)                                                                      | error  |
-| 361 | [es/no-object-assign](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-assign.html)                                                                          | error  |
-| 362 | [es/no-object-defineproperties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperties.html)                                                      | error  |
-| 363 | [es/no-object-defineproperty](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-defineproperty.html)                                                          | error  |
-| 364 | [es/no-object-entries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-entries.html)                                                                        | error  |
-| 365 | [es/no-object-freeze](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-freeze.html)                                                                          | error  |
-| 366 | [es/no-object-fromentries](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-fromentries.html)                                                                | error  |
-| 367 | [es/no-object-getownpropertydescriptor](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptor.html)                                      | error  |
-| 368 | [es/no-object-getownpropertydescriptors](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertydescriptors.html)                                    | error  |
-| 369 | [es/no-object-getownpropertynames](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertynames.html)                                                | error  |
-| 370 | [es/no-object-getownpropertysymbols](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getownpropertysymbols.html)                                            | error  |
-| 371 | [es/no-object-getprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-getprototypeof.html)                                                          | error  |
-| 372 | [es/no-object-is](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-is.html)                                                                                  | error  |
-| 373 | [es/no-object-isextensible](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isextensible.html)                                                              | error  |
-| 374 | [es/no-object-isfrozen](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-isfrozen.html)                                                                      | error  |
-| 375 | [es/no-object-issealed](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-issealed.html)                                                                      | error  |
-| 376 | [es/no-object-keys](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-keys.html)                                                                              | error  |
-| 377 | [es/no-object-preventextensions](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-preventextensions.html)                                                    | error  |
-| 378 | [es/no-object-seal](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-seal.html)                                                                              | error  |
-| 379 | [es/no-object-setprototypeof](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-setprototypeof.html)                                                          | error  |
-| 380 | [es/no-object-super-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-super-properties.html)                                                      | error  |
-| 381 | [es/no-object-values](http://mysticatea.github.io/eslint-plugin-es/rules/no-object-values.html)                                                                          | error  |
-| 382 | [es/no-octal-numeric-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-octal-numeric-literals.html)                                                        | error  |
-| 383 | [es/no-optional-catch-binding](http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-catch-binding.html)                                                        | error  |
-| 384 | [es/no-optional-chaining](http://mysticatea.github.io/eslint-plugin-es/rules/no-optional-chaining.html)                                                                  | error  |
-| 385 | [es/no-promise](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise.html)                                                                                      | error  |
-| 386 | [es/no-promise-all-settled](http://mysticatea.github.io/eslint-plugin-es/rules/no-promise-all-settled.html)                                                              | error  |
-| 387 | [es/no-property-shorthands](http://mysticatea.github.io/eslint-plugin-es/rules/no-property-shorthands.html)                                                              | error  |
-| 388 | [es/no-proxy](http://mysticatea.github.io/eslint-plugin-es/rules/no-proxy.html)                                                                                          | error  |
-| 389 | [es/no-reflect](http://mysticatea.github.io/eslint-plugin-es/rules/no-reflect.html)                                                                                      | error  |
-| 390 | [es/no-regexp-lookbehind-assertions](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-lookbehind-assertions.html)                                            | error  |
-| 391 | [es/no-regexp-named-capture-groups](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-named-capture-groups.html)                                              | error  |
-| 392 | [es/no-regexp-s-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-s-flag.html)                                                                          | error  |
-| 393 | [es/no-regexp-u-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-u-flag.html)                                                                          | error  |
-| 394 | [es/no-regexp-unicode-property-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes.html)                                      | error  |
-| 395 | [es/no-regexp-unicode-property-escapes-2019](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-unicode-property-escapes-2019.html)                            | error  |
-| 396 | [es/no-regexp-y-flag](http://mysticatea.github.io/eslint-plugin-es/rules/no-regexp-y-flag.html)                                                                          | error  |
-| 397 | [es/no-rest-parameters](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-parameters.html)                                                                      | error  |
-| 398 | [es/no-rest-spread-properties](http://mysticatea.github.io/eslint-plugin-es/rules/no-rest-spread-properties.html)                                                        | error  |
-| 399 | [es/no-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-set.html)                                                                                              | error  |
-| 400 | [es/no-shared-array-buffer](http://mysticatea.github.io/eslint-plugin-es/rules/no-shared-array-buffer.html)                                                              | error  |
-| 401 | [es/no-spread-elements](http://mysticatea.github.io/eslint-plugin-es/rules/no-spread-elements.html)                                                                      | error  |
-| 402 | [es/no-string-fromcodepoint](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-fromcodepoint.html)                                                            | error  |
-| 403 | [es/no-string-raw](http://mysticatea.github.io/eslint-plugin-es/rules/no-string-raw.html)                                                                                | error  |
-| 404 | [es/no-subclassing-builtins](http://mysticatea.github.io/eslint-plugin-es/rules/no-subclassing-builtins.html)                                                            | error  |
-| 405 | [es/no-symbol](http://mysticatea.github.io/eslint-plugin-es/rules/no-symbol.html)                                                                                        | error  |
-| 406 | [es/no-template-literals](http://mysticatea.github.io/eslint-plugin-es/rules/no-template-literals.html)                                                                  | error  |
-| 407 | [es/no-trailing-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-commas.html)                                                                      | error  |
-| 408 | [es/no-trailing-function-commas](http://mysticatea.github.io/eslint-plugin-es/rules/no-trailing-function-commas.html)                                                    | error  |
-| 409 | [es/no-typed-arrays](http://mysticatea.github.io/eslint-plugin-es/rules/no-typed-arrays.html)                                                                            | error  |
-| 410 | [es/no-unicode-codepoint-escapes](http://mysticatea.github.io/eslint-plugin-es/rules/no-unicode-codepoint-escapes.html)                                                  | error  |
-| 411 | [es/no-weak-map](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-map.html)                                                                                    | error  |
-| 412 | [es/no-weak-set](http://mysticatea.github.io/eslint-plugin-es/rules/no-weak-set.html)                                                                                    | error  |
-| 413 | [eslint-comments/disable-enable-pair](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html)                                         | error  | error  |
-| 414 | [eslint-comments/no-aggregating-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html)                                     | error  | error  |
-| 415 | [eslint-comments/no-duplicate-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html)                                       | error  | error  |
-| 416 | [eslint-comments/no-unlimited-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html)                                       | error  | error  |
-| 417 | [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                             |  warn  |  warn  |
-| 418 | [eslint-comments/no-unused-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html)                                               | error  | error  |
-| 419 | flowtype/boolean-style                                                                                                                                                   |  off   |  off   |
-| 420 | flowtype/delimiter-dangle                                                                                                                                                |  off   |  off   |
-| 421 | flowtype/generic-spacing                                                                                                                                                 |  off   |  off   |
-| 422 | flowtype/object-type-curly-spacing                                                                                                                                       |  off   |  off   |
-| 423 | flowtype/object-type-delimiter                                                                                                                                           |  off   |  off   |
-| 424 | flowtype/quotes                                                                                                                                                          |  off   |  off   |
-| 425 | flowtype/semi                                                                                                                                                            |  off   |  off   |
-| 426 | flowtype/space-after-type-colon                                                                                                                                          |  off   |  off   |
-| 427 | flowtype/space-before-generic-bracket                                                                                                                                    |  off   |  off   |
-| 428 | flowtype/space-before-type-colon                                                                                                                                         |  off   |  off   |
-| 429 | flowtype/union-intersection-spacing                                                                                                                                      |  off   |  off   |
-| 430 | [import/extensions](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md)                                                                | error  | error  |
-| 431 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                                          |  off   |  off   |
-| 432 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                                          | error  | error  |
-| 433 | [node/no-missing-import](https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-missing-import.md)                                                  |  off   |  off   |
-| 434 | [node/no-unsupported-features/node-builtins](https://github.com/mysticatea/eslint-plugin-node/blob/v11.1.0/docs/rules/no-unsupported-features/node-builtins.md)          |  off   |  off   |
-| 435 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                          | error  | error  |
-| 436 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)                                                       |  off   |  off   |
-| 437 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md)                                                               |  off   |  off   |
-| 438 | [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md)                                                   |  off   |  off   |
-| 439 | [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-callback-in-promise.md)                                     |  warn  |  warn  |
-| 440 | [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md)                                                               |  off   |  off   |
-| 441 | [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md)                                                             |  warn  |  warn  |
-| 442 | [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md)                                                     | error  | error  |
-| 443 | [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-promise-in-callback.md)                                     |  warn  |  warn  |
-| 444 | [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-in-finally.md)                                         |  warn  |  warn  |
-| 445 | [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md)                                                     | error  | error  |
-| 446 | [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md)                                                           | error  | error  |
-| 447 | [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)                                                         |  warn  |  warn  |
-| 448 | react/jsx-child-element-spacing                                                                                                                                          |  off   |  off   |
-| 449 | react/jsx-closing-bracket-location                                                                                                                                       |  off   |  off   |
-| 450 | react/jsx-closing-tag-location                                                                                                                                           |  off   |  off   |
-| 451 | react/jsx-curly-newline                                                                                                                                                  |  off   |  off   |
-| 452 | react/jsx-curly-spacing                                                                                                                                                  |  off   |  off   |
-| 453 | react/jsx-equals-spacing                                                                                                                                                 |  off   |  off   |
-| 454 | react/jsx-first-prop-new-line                                                                                                                                            |  off   |  off   |
-| 455 | react/jsx-indent                                                                                                                                                         |  off   |  off   |
-| 456 | react/jsx-indent-props                                                                                                                                                   |  off   |  off   |
-| 457 | react/jsx-max-props-per-line                                                                                                                                             |  off   |  off   |
-| 458 | react/jsx-newline                                                                                                                                                        |  off   |  off   |
-| 459 | react/jsx-one-expression-per-line                                                                                                                                        |  off   |  off   |
-| 460 | react/jsx-props-no-multi-spaces                                                                                                                                          |  off   |  off   |
-| 461 | react/jsx-space-before-closing                                                                                                                                           |  off   |  off   |
-| 462 | react/jsx-tag-spacing                                                                                                                                                    |  off   |  off   |
-| 463 | react/jsx-wrap-multilines                                                                                                                                                |  off   |  off   |
-| 464 | [regexp/confusing-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/confusing-quantifier.html)                                                          |  warn  |  warn  |
-| 465 | [regexp/control-character-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/control-character-escape.html)                                                  | error  | error  |
-| 466 | [regexp/hexadecimal-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/hexadecimal-escape.html)                                                              | error  | error  |
-| 467 | [regexp/letter-case](https://ota-meshi.github.io/eslint-plugin-regexp/rules/letter-case.html)                                                                            | error  | error  |
-| 468 | [regexp/match-any](https://ota-meshi.github.io/eslint-plugin-regexp/rules/match-any.html)                                                                                | error  | error  |
-| 469 | [regexp/negation](https://ota-meshi.github.io/eslint-plugin-regexp/rules/negation.html)                                                                                  | error  | error  |
-| 470 | [regexp/no-assertion-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-assertion-capturing-group.html)                                          | error  | error  |
-| 471 | [regexp/no-contradiction-with-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-contradiction-with-assertion.html)                                    | error  | error  |
-| 472 | [regexp/no-control-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-control-character.html)                                                          | error  | error  |
-| 473 | [regexp/no-dupe-characters-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-dupe-characters-character-class.html)                              | error  | error  |
-| 474 | [regexp/no-dupe-disjunctions](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-dupe-disjunctions.html)                                                          | error  | error  |
-| 475 | [regexp/no-empty-alternative](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-alternative.html)                                                          |  warn  |  warn  |
-| 476 | [regexp/no-empty-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-capturing-group.html)                                                  | error  | error  |
-| 477 | [regexp/no-empty-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-character-class.html)                                                  | error  | error  |
-| 478 | [regexp/no-empty-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-group.html)                                                                      | error  | error  |
-| 479 | [regexp/no-empty-lookarounds-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-lookarounds-assertion.html)                                      | error  | error  |
-| 480 | [regexp/no-escape-backspace](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-escape-backspace.html)                                                            | error  | error  |
-| 481 | [regexp/no-invalid-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-invalid-regexp.html)                                                                | error  | error  |
-| 482 | [regexp/no-invisible-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-invisible-character.html)                                                      | error  | error  |
-| 483 | [regexp/no-lazy-ends](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-lazy-ends.html)                                                                          |  warn  |  warn  |
-| 484 | [regexp/no-legacy-features](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-legacy-features.html)                                                              | error  | error  |
-| 485 | [regexp/no-misleading-unicode-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-misleading-unicode-character.html)                                    | error  | error  |
-| 486 | [regexp/no-non-standard-flag](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-non-standard-flag.html)                                                          | error  | error  |
-| 487 | [regexp/no-obscure-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-obscure-range.html)                                                                  | error  | error  |
-| 488 | [regexp/no-octal](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-octal.html)                                                                                  | error  | error  |
-| 489 | [regexp/no-optional-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-optional-assertion.html)                                                        | error  | error  |
-| 490 | [regexp/no-potentially-useless-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-potentially-useless-backreference.html)                          |  warn  |  warn  |
-| 491 | [regexp/no-standalone-backslash](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-standalone-backslash.html)                                                    | error  | error  |
-| 492 | [regexp/no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html)                                          | error  | error  |
-| 493 | [regexp/no-super-linear-move](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-move.html)                                                          |  off   |  off   |
-| 494 | [regexp/no-trivially-nested-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-trivially-nested-assertion.html)                                        | error  | error  |
-| 495 | [regexp/no-trivially-nested-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-trivially-nested-quantifier.html)                                      | error  | error  |
-| 496 | [regexp/no-unused-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-unused-capturing-group.html)                                                | error  | error  |
-| 497 | [regexp/no-useless-assertions](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-assertions.html)                                                        | error  | error  |
-| 498 | [regexp/no-useless-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-backreference.html)                                                  | error  | error  |
-| 499 | [regexp/no-useless-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-character-class.html)                                              | error  | error  |
-| 500 | [regexp/no-useless-dollar-replacements](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-dollar-replacements.html)                                      | error  | error  |
-| 501 | [regexp/no-useless-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-escape.html)                                                                | error  | error  |
-| 502 | [regexp/no-useless-exactly-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-exactly-quantifier.html)                                        | error  | error  |
-| 503 | [regexp/no-useless-flag](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-flag.html)                                                                    | error  | error  |
-| 504 | [regexp/no-useless-lazy](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-lazy.html)                                                                    | error  | error  |
-| 505 | [regexp/no-useless-non-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-non-capturing-group.html)                                      | error  | error  |
-| 506 | [regexp/no-useless-non-greedy](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-non-greedy.html)                                                        | error  | error  |
-| 507 | [regexp/no-useless-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-quantifier.html)                                                        | error  | error  |
-| 508 | [regexp/no-useless-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-range.html)                                                                  | error  | error  |
-| 509 | [regexp/no-useless-two-nums-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-two-nums-quantifier.html)                                      | error  | error  |
-| 510 | [regexp/no-zero-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-zero-quantifier.html)                                                              | error  | error  |
-| 511 | [regexp/optimal-lookaround-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/optimal-lookaround-quantifier.html)                                        |  warn  |  warn  |
-| 512 | [regexp/optimal-quantifier-concatenation](https://ota-meshi.github.io/eslint-plugin-regexp/rules/optimal-quantifier-concatenation.html)                                  | error  | error  |
-| 513 | [regexp/order-in-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/order-in-character-class.html)                                                  |  off   |  off   |
-| 514 | [regexp/prefer-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-character-class.html)                                                      | error  | error  |
-| 515 | [regexp/prefer-d](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-d.html)                                                                                  | error  | error  |
-| 516 | [regexp/prefer-escape-replacement-dollar-char](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-escape-replacement-dollar-char.html)                        | error  | error  |
-| 517 | [regexp/prefer-lookaround](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html)                                                                |  off   |  off   |
-| 518 | [regexp/prefer-named-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-backreference.html)                                              | error  | error  |
-| 519 | [regexp/prefer-named-capture-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html)                                              |  off   |  off   |
-| 520 | [regexp/prefer-named-replacement](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-replacement.html)                                                  | error  | error  |
-| 521 | [regexp/prefer-plus-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-plus-quantifier.html)                                                      | error  | error  |
-| 522 | [regexp/prefer-predefined-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-predefined-assertion.html)                                            | error  | error  |
-| 523 | [regexp/prefer-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-quantifier.html)                                                                | error  | error  |
-| 524 | [regexp/prefer-question-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-question-quantifier.html)                                              | error  | error  |
-| 525 | [regexp/prefer-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-range.html)                                                                          | error  | error  |
-| 526 | [regexp/prefer-regexp-exec](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-regexp-exec.html)                                                              | error  | error  |
-| 527 | [regexp/prefer-regexp-test](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-regexp-test.html)                                                              | error  | error  |
-| 528 | [regexp/prefer-result-array-groups](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-result-array-groups.html)                                              | error  | error  |
-| 529 | [regexp/prefer-star-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-star-quantifier.html)                                                      | error  | error  |
-| 530 | [regexp/prefer-t](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-t.html)                                                                                  | error  | error  |
-| 531 | [regexp/prefer-unicode-codepoint-escapes](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-unicode-codepoint-escapes.html)                                  | error  | error  |
-| 532 | [regexp/prefer-w](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-w.html)                                                                                  | error  | error  |
-| 533 | [regexp/require-unicode-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html)                                                      |  off   |  off   |
-| 534 | [regexp/sort-alternatives](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-alternatives.html)                                                                | error  | error  |
-| 535 | [regexp/sort-character-class-elements](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-character-class-elements.html)                                        |  off   |  off   |
-| 536 | [regexp/sort-flags](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-flags.html)                                                                              | error  | error  |
-| 537 | [regexp/strict](https://ota-meshi.github.io/eslint-plugin-regexp/rules/strict.html)                                                                                      |  off   |  off   |
-| 538 | [regexp/unicode-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/unicode-escape.html)                                                                      | error  | error  |
-| 539 | [regexp/use-ignore-case](https://ota-meshi.github.io/eslint-plugin-regexp/rules/use-ignore-case.html)                                                                    | error  | error  |
-| 540 | [sonarjs/cognitive-complexity](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/cognitive-complexity.md)                                      |  off   |  off   |
-| 541 | [sonarjs/elseif-without-else](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/elseif-without-else.md)                                        |  off   |  off   |
-| 542 | [sonarjs/max-switch-cases](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/max-switch-cases.md)                                              | error  | error  |
-| 543 | [sonarjs/no-all-duplicated-branches](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-all-duplicated-branches.md)                          | error  | error  |
-| 544 | [sonarjs/no-collapsible-if](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-collapsible-if.md)                                            | error  | error  |
-| 545 | [sonarjs/no-collection-size-mischeck](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-collection-size-mischeck.md)                        | error  | error  |
-| 546 | [sonarjs/no-duplicate-string](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-duplicate-string.md)                                        |  off   |  off   |
-| 547 | [sonarjs/no-duplicated-branches](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-duplicated-branches.md)                                  | error  | error  |
-| 548 | [sonarjs/no-element-overwrite](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-element-overwrite.md)                                      | error  | error  |
-| 549 | [sonarjs/no-empty-collection](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-empty-collection.md)                                        | error  | error  |
-| 550 | [sonarjs/no-extra-arguments](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-extra-arguments.md)                                          | error  | error  |
-| 551 | [sonarjs/no-gratuitous-expressions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-gratuitous-expressions.md)                            | error  | error  |
-| 552 | [sonarjs/no-identical-conditions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-conditions.md)                                | error  | error  |
-| 553 | [sonarjs/no-identical-expressions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-expressions.md)                              | error  | error  |
-| 554 | [sonarjs/no-identical-functions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-functions.md)                                  | error  | error  |
-| 555 | [sonarjs/no-ignored-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-ignored-return.md)                                            | error  | error  |
-| 556 | [sonarjs/no-inverted-boolean-check](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-inverted-boolean-check.md)                            | error  | error  |
-| 557 | [sonarjs/no-nested-switch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-switch.md)                                              | error  | error  |
-| 558 | [sonarjs/no-nested-template-literals](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-template-literals.md)                        |  off   |  off   |
-| 559 | [sonarjs/no-one-iteration-loop](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-one-iteration-loop.md)                                    | error  | error  |
-| 560 | [sonarjs/no-redundant-boolean](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-redundant-boolean.md)                                      | error  | error  |
-| 561 | [sonarjs/no-redundant-jump](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-redundant-jump.md)                                            | error  | error  |
-| 562 | [sonarjs/no-same-line-conditional](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-same-line-conditional.md)                              | error  | error  |
-| 563 | [sonarjs/no-small-switch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-small-switch.md)                                                | error  | error  |
-| 564 | [sonarjs/no-unused-collection](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-unused-collection.md)                                      | error  | error  |
-| 565 | [sonarjs/no-use-of-empty-return-value](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-use-of-empty-return-value.md)                      | error  | error  |
-| 566 | [sonarjs/no-useless-catch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-useless-catch.md)                                              | error  | error  |
-| 567 | [sonarjs/non-existent-operator](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/non-existent-operator.md)                                    | error  | error  |
-| 568 | [sonarjs/prefer-immediate-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-immediate-return.md)                                |  off   |  off   |
-| 569 | [sonarjs/prefer-object-literal](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-object-literal.md)                                    | error  | error  |
-| 570 | [sonarjs/prefer-single-boolean-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md)                      | error  | error  |
-| 571 | [sonarjs/prefer-while](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-while.md)                                                      | error  | error  |
-| 572 | standard/array-bracket-even-spacing                                                                                                                                      |  off   |  off   |
-| 573 | standard/computed-property-even-spacing                                                                                                                                  |  off   |  off   |
-| 574 | standard/object-curly-even-spacing                                                                                                                                       |  off   |  off   |
-| 575 | [unicorn/better-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-regex.md)                                                       | error  | error  |
-| 576 | [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md)                                               | error  | error  |
-| 577 | [unicorn/consistent-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-destructuring.md)                               |  off   |  off   |
-| 578 | [unicorn/consistent-function-scoping](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md)                         |  warn  |  warn  |
-| 579 | [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/custom-error-definition.md)                                 |  off   |  off   |
-| 580 | [unicorn/empty-brace-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md)                                           |  off   |  off   |
-| 581 | [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md)                                                     | error  | error  |
-| 582 | [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md)                                                         | error  | error  |
-| 583 | [unicorn/expiring-todo-comments](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)                                   |  warn  |  warn  |
-| 584 | [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md)                                     | error  | error  |
-| 585 | [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/filename-case.md)                                                     | error  | error  |
-| 586 | [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-index.md)                                                       |  off   |  off   |
-| 587 | [unicorn/import-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md)                                                       | error  | error  |
-| 588 | [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md)                                               | error  | error  |
-| 589 | [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md)                             | error  | error  |
-| 590 | [unicorn/no-array-callback-reference](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)                         |  off   |  warn  |
-| 591 | [unicorn/no-array-for-each](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md)                                             | error  | error  |
-| 592 | [unicorn/no-array-method-this-argument](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md)                     | error  | error  |
-| 593 | [unicorn/no-array-push-push](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md)                                           | error  | error  |
-| 594 | [unicorn/no-array-reduce](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md)                                                 |  off   |  off   |
-| 595 | [unicorn/no-await-expression-member](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md)                           | error  | error  |
-| 596 | [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md)                                             | error  | error  |
-| 597 | [unicorn/no-document-cookie](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md)                                           | error  | error  |
-| 598 | [unicorn/no-empty-file](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md)                                                     | error  | error  |
-| 599 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md)                                                         |  off   |  warn  |
-| 600 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-hex-escape.md)                                                     | error  | error  |
-| 601 | [unicorn/no-instanceof-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md)                                         | error  | error  |
-| 602 | [unicorn/no-invalid-remove-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md)               | error  | error  |
-| 603 | [unicorn/no-keyword-prefix](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-keyword-prefix.md)                                             |  off   |  off   |
-| 604 | [unicorn/no-lonely-if](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md)                                                       | error  | error  |
-| 605 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nested-ternary.md)                                             |  off   |  off   |
-| 606 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-array.md)                                                       | error  | error  |
-| 607 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-buffer.md)                                                     | error  | error  |
-| 608 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md)                                                                 |  off   |  off   |
-| 609 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md)                   |  off   |  off   |
-| 610 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md)                                                 |  warn  |  warn  |
-| 611 | [unicorn/no-static-only-class](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md)                                       | error  | error  |
-| 612 | [unicorn/no-thenable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md)                                                         | error  | error  |
-| 613 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)                                           | error  | error  |
-| 614 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)             | error  | error  |
-| 615 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-regex.md)                                                 |  off   |  off   |
-| 616 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md)                                       |  off   |  off   |
-| 617 | [unicorn/no-useless-fallback-in-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md)                     | error  | error  |
-| 618 | [unicorn/no-useless-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md)                                 | error  | error  |
-| 619 | [unicorn/no-useless-promise-resolve-reject](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md)             | error  | error  |
-| 620 | [unicorn/no-useless-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md)                                             | error  | error  |
-| 621 | [unicorn/no-useless-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md)                                       | error  | error  |
-| 622 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-fractions.md)                                             | error  | error  |
-| 623 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md)                                         |  off   |  off   |
-| 624 | [unicorn/numeric-separators-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md)                               | error  | error  |
-| 625 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md)                             |  off   |  off   |
-| 626 | [unicorn/prefer-array-find](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md)                                             | error  | error  |
-| 627 | [unicorn/prefer-array-flat](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md)                                             | error  | error  |
-| 628 | [unicorn/prefer-array-flat-map](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md)                                     | error  | error  |
-| 629 | [unicorn/prefer-array-index-of](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md)                                     | error  | error  |
-| 630 | [unicorn/prefer-array-some](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md)                                             | error  | error  |
-| 631 | [unicorn/prefer-at](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md)                                                             |  off   |  off   |
-| 632 | [unicorn/prefer-code-point](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md)                                             | error  | error  |
-| 633 | [unicorn/prefer-date-now](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md)                                                 | error  | error  |
-| 634 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md)                             |  off   |  off   |
-| 635 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md)                                   |  off   |  off   |
-| 636 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md)                                 |  off   |  off   |
-| 637 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md)                                   |  off   |  off   |
-| 638 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)                       |  off   |  off   |
-| 639 | [unicorn/prefer-export-from](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md)                                           | error  | error  |
-| 640 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md)                                                 | error  | error  |
-| 641 | [unicorn/prefer-json-parse-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md)                               | error  | error  |
-| 642 | [unicorn/prefer-keyboard-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md)                             | error  | error  |
-| 643 | [unicorn/prefer-math-trunc](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md)                                             | error  | error  |
-| 644 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)                                   |  off   |  off   |
-| 645 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)                                                     |  off   |  off   |
-| 646 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md)                                     | error  | error  |
-| 647 | [unicorn/prefer-node-protocol](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)                                       | error  | error  |
-| 648 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)                               |  off   | error  |
-| 649 | [unicorn/prefer-object-from-entries](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md)                           | error  | error  |
-| 650 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md)                     |  off   | error  |
-| 651 | [unicorn/prefer-prototype-methods](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md)                               | error  | error  |
-| 652 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md)                                     |  off   |  off   |
-| 653 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-reflect-apply.md)                                       | error  | error  |
-| 654 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md)                                           | error  | error  |
-| 655 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)                                                   |  off   | error  |
-| 656 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)                                                     |  off   | error  |
-| 657 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/deprecated-rules.md#prefer-starts-ends-with)                      |  off   |
-| 658 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md)                             |  off   |  off   |
-| 659 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-slice.md)                                         | error  | error  |
-| 660 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md)                   | error  | error  |
-| 661 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-trim-start-end.md)                       | error  | error  |
-| 662 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-switch.md)                                                     | error  | error  |
-| 663 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md)                                                   |  off   |  off   |
-| 664 | [unicorn/prefer-top-level-await](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md)                                   |  off   |  off   |
-| 665 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-type-error.md)                                             | error  | error  |
-| 666 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md)                                     | error  | error  |
-| 667 | [unicorn/relative-url-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md)                                           | error  | error  |
-| 668 | [unicorn/require-array-join-separator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md)                       | error  | error  |
-| 669 | [unicorn/require-number-to-fixed-digits-argument](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md) | error  | error  |
-| 670 | [unicorn/require-post-message-target-origin](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)           |  off   |  off   |
-| 671 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)                                                   |  off   |  off   |
-| 672 | [unicorn/template-indent](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)                                                 |  warn  |  warn  |
-| 673 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)                                                 | error  | error  |
-| 674 | [vue/array-bracket-newline](https://eslint.vuejs.org/rules/array-bracket-newline.html)                                                                                   |  off   |  off   |
-| 675 | [vue/array-bracket-spacing](https://eslint.vuejs.org/rules/array-bracket-spacing.html)                                                                                   |  off   |  off   |
-| 676 | [vue/arrow-spacing](https://eslint.vuejs.org/rules/arrow-spacing.html)                                                                                                   |  off   |  off   |
-| 677 | [vue/block-spacing](https://eslint.vuejs.org/rules/block-spacing.html)                                                                                                   |  off   |  off   |
-| 678 | [vue/block-tag-newline](https://eslint.vuejs.org/rules/block-tag-newline.html)                                                                                           |  off   |  off   |
-| 679 | [vue/brace-style](https://eslint.vuejs.org/rules/brace-style.html)                                                                                                       |  off   |  off   |
-| 680 | [vue/comma-dangle](https://eslint.vuejs.org/rules/comma-dangle.html)                                                                                                     |  off   |  off   |
-| 681 | [vue/comma-spacing](https://eslint.vuejs.org/rules/comma-spacing.html)                                                                                                   |  off   |  off   |
-| 682 | [vue/comma-style](https://eslint.vuejs.org/rules/comma-style.html)                                                                                                       |  off   |  off   |
-| 683 | [vue/dot-location](https://eslint.vuejs.org/rules/dot-location.html)                                                                                                     |  off   |  off   |
-| 684 | [vue/func-call-spacing](https://eslint.vuejs.org/rules/func-call-spacing.html)                                                                                           |  off   |  off   |
-| 685 | [vue/html-closing-bracket-newline](https://eslint.vuejs.org/rules/html-closing-bracket-newline.html)                                                                     |  off   |  off   |
-| 686 | [vue/html-closing-bracket-spacing](https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html)                                                                     |  off   |  off   |
-| 687 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                                                                   |  off   |  off   |
-| 688 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                                                                       |  off   |  off   |
-| 689 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                                                                       |  off   |  off   |
-| 690 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                                                           |  off   |  off   |
-| 691 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                                                                       |  off   |  off   |
-| 692 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                                                               |  off   |  off   |
-| 693 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                                                               |  off   |  off   |
-| 694 | [vue/max-len](https://eslint.vuejs.org/rules/max-len.html)                                                                                                               |  off   |  off   |
-| 695 | [vue/multiline-html-element-content-newline](https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html)                                                 |  off   |  off   |
-| 696 | [vue/mustache-interpolation-spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html)                                                                 |  off   |  off   |
-| 697 | [vue/no-extra-parens](https://eslint.vuejs.org/rules/no-extra-parens.html)                                                                                               |  off   |  off   |
-| 698 | [vue/no-multi-spaces](https://eslint.vuejs.org/rules/no-multi-spaces.html)                                                                                               |  off   |  off   |
-| 699 | [vue/no-spaces-around-equal-signs-in-attribute](https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html)                                           |  off   |  off   |
-| 700 | [vue/object-curly-newline](https://eslint.vuejs.org/rules/object-curly-newline.html)                                                                                     |  off   |  off   |
-| 701 | [vue/object-curly-spacing](https://eslint.vuejs.org/rules/object-curly-spacing.html)                                                                                     |  off   |  off   |
-| 702 | [vue/object-property-newline](https://eslint.vuejs.org/rules/object-property-newline.html)                                                                               |  off   |  off   |
-| 703 | [vue/operator-linebreak](https://eslint.vuejs.org/rules/operator-linebreak.html)                                                                                         |  off   |  off   |
-| 704 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                                                                   |  off   |  off   |
-| 705 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)                                               |  off   |  off   |
-| 706 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                                                               |  off   |  off   |
-| 707 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                                                               |  off   |  off   |
-| 708 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                                                               |  off   |  off   |
-| 709 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)                                                                                 |  off   |  off   |
+| 297 | @typescript-eslint/space-before-blocks                                                                                                                                   |  off   |  off   |
+| 298 | @typescript-eslint/space-before-function-paren                                                                                                                           |  off   |  off   |
+| 299 | @typescript-eslint/space-infix-ops                                                                                                                                       |  off   |  off   |
+| 300 | @typescript-eslint/type-annotation-spacing                                                                                                                               |  off   |  off   |
+| 301 | babel/object-curly-spacing                                                                                                                                               |  off   |  off   |
+| 302 | babel/quotes                                                                                                                                                             |  off   |  off   |
+| 303 | babel/semi                                                                                                                                                               |  off   |  off   |
+| 304 | [es-x/no-accessor-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-accessor-properties.html)                                                           | error  |
+| 305 | [es-x/no-arbitrary-module-namespace-names](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arbitrary-module-namespace-names.html)                                 | error  |
+| 306 | [es-x/no-array-from](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-from.html)                                                                             | error  |
+| 307 | [es-x/no-array-isarray](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-isarray.html)                                                                       | error  |
+| 308 | [es-x/no-array-of](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-of.html)                                                                                 | error  |
+| 309 | [es-x/no-array-prototype-copywithin](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-copywithin.html)                                             | error  |
+| 310 | [es-x/no-array-prototype-entries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-entries.html)                                                   | error  |
+| 311 | [es-x/no-array-prototype-every](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-every.html)                                                       | error  |
+| 312 | [es-x/no-array-prototype-fill](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-fill.html)                                                         | error  |
+| 313 | [es-x/no-array-prototype-filter](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-filter.html)                                                     | error  |
+| 314 | [es-x/no-array-prototype-find](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-find.html)                                                         | error  |
+| 315 | [es-x/no-array-prototype-findindex](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-findindex.html)                                               | error  |
+| 316 | [es-x/no-array-prototype-flat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-flat.html)                                                         | error  |
+| 317 | [es-x/no-array-prototype-foreach](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-foreach.html)                                                   | error  |
+| 318 | [es-x/no-array-prototype-includes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-includes.html)                                                 | error  |
+| 319 | [es-x/no-array-prototype-indexof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-indexof.html)                                                   | error  |
+| 320 | [es-x/no-array-prototype-keys](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-keys.html)                                                         | error  |
+| 321 | [es-x/no-array-prototype-lastindexof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-lastindexof.html)                                           | error  |
+| 322 | [es-x/no-array-prototype-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-map.html)                                                           | error  |
+| 323 | [es-x/no-array-prototype-reduce](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduce.html)                                                     | error  |
+| 324 | [es-x/no-array-prototype-reduceright](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-reduceright.html)                                           | error  |
+| 325 | [es-x/no-array-prototype-some](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-some.html)                                                         | error  |
+| 326 | [es-x/no-array-prototype-values](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-prototype-values.html)                                                     | error  |
+| 327 | [es-x/no-array-string-prototype-at](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-array-string-prototype-at.html)                                               | error  |
+| 328 | [es-x/no-arrow-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-arrow-functions.html)                                                                   | error  |
+| 329 | [es-x/no-async-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-functions.html)                                                                   | error  |
+| 330 | [es-x/no-async-iteration](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-async-iteration.html)                                                                   | error  |
+| 331 | [es-x/no-atomics](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-atomics.html)                                                                                   | error  |
+| 332 | [es-x/no-bigint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-bigint.html)                                                                                     | error  |
+| 333 | [es-x/no-binary-numeric-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-binary-numeric-literals.html)                                                   | error  |
+| 334 | [es-x/no-block-scoped-functions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-functions.html)                                                     | error  |
+| 335 | [es-x/no-block-scoped-variables](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-block-scoped-variables.html)                                                     | error  |
+| 336 | [es-x/no-class-fields](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-fields.html)                                                                         | error  |
+| 337 | [es-x/no-class-static-block](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-class-static-block.html)                                                             | error  |
+| 338 | [es-x/no-classes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-classes.html)                                                                                   | error  |
+| 339 | [es-x/no-computed-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-computed-properties.html)                                                           | error  |
+| 340 | [es-x/no-date-now](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-date-now.html)                                                                                 | error  |
+| 341 | [es-x/no-default-parameters](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-default-parameters.html)                                                             | error  |
+| 342 | [es-x/no-destructuring](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-destructuring.html)                                                                       | error  |
+| 343 | [es-x/no-dynamic-import](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-dynamic-import.html)                                                                     | error  |
+| 344 | [es-x/no-exponential-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-exponential-operators.html)                                                       | error  |
+| 345 | [es-x/no-export-ns-from](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-export-ns-from.html)                                                                     | error  |
+| 346 | [es-x/no-for-of-loops](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-for-of-loops.html)                                                                         | error  |
+| 347 | [es-x/no-function-prototype-bind](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-function-prototype-bind.html)                                                   | error  |
+| 348 | [es-x/no-generators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-generators.html)                                                                             | error  |
+| 349 | [es-x/no-global-this](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-global-this.html)                                                                           | error  |
+| 350 | [es-x/no-import-meta](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-import-meta.html)                                                                           | error  |
+| 351 | [es-x/no-json](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json.html)                                                                                         | error  |
+| 352 | [es-x/no-json-superset](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-json-superset.html)                                                                       | error  |
+| 353 | [es-x/no-keyword-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-keyword-properties.html)                                                             | error  |
+| 354 | [es-x/no-logical-assignment-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-logical-assignment-operators.html)                                         | error  |
+| 355 | [es-x/no-malformed-template-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-malformed-template-literals.html)                                           | error  |
+| 356 | [es-x/no-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-map.html)                                                                                           | error  |
+| 357 | [es-x/no-math-acosh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-acosh.html)                                                                             | error  |
+| 358 | [es-x/no-math-asinh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-asinh.html)                                                                             | error  |
+| 359 | [es-x/no-math-atanh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-atanh.html)                                                                             | error  |
+| 360 | [es-x/no-math-cbrt](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cbrt.html)                                                                               | error  |
+| 361 | [es-x/no-math-clz32](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-clz32.html)                                                                             | error  |
+| 362 | [es-x/no-math-cosh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-cosh.html)                                                                               | error  |
+| 363 | [es-x/no-math-expm1](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-expm1.html)                                                                             | error  |
+| 364 | [es-x/no-math-fround](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-fround.html)                                                                           | error  |
+| 365 | [es-x/no-math-hypot](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-hypot.html)                                                                             | error  |
+| 366 | [es-x/no-math-imul](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-imul.html)                                                                               | error  |
+| 367 | [es-x/no-math-log10](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log10.html)                                                                             | error  |
+| 368 | [es-x/no-math-log1p](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log1p.html)                                                                             | error  |
+| 369 | [es-x/no-math-log2](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-log2.html)                                                                               | error  |
+| 370 | [es-x/no-math-sign](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sign.html)                                                                               | error  |
+| 371 | [es-x/no-math-sinh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-sinh.html)                                                                               | error  |
+| 372 | [es-x/no-math-tanh](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-tanh.html)                                                                               | error  |
+| 373 | [es-x/no-math-trunc](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-math-trunc.html)                                                                             | error  |
+| 374 | [es-x/no-modules](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-modules.html)                                                                                   | error  |
+| 375 | [es-x/no-new-target](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-new-target.html)                                                                             | error  |
+| 376 | [es-x/no-nullish-coalescing-operators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-nullish-coalescing-operators.html)                                         | error  |
+| 377 | [es-x/no-number-epsilon](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-epsilon.html)                                                                     | error  |
+| 378 | [es-x/no-number-isfinite](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isfinite.html)                                                                   | error  |
+| 379 | [es-x/no-number-isinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isinteger.html)                                                                 | error  |
+| 380 | [es-x/no-number-isnan](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-isnan.html)                                                                         | error  |
+| 381 | [es-x/no-number-issafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-issafeinteger.html)                                                         | error  |
+| 382 | [es-x/no-number-maxsafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-maxsafeinteger.html)                                                       | error  |
+| 383 | [es-x/no-number-minsafeinteger](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-minsafeinteger.html)                                                       | error  |
+| 384 | [es-x/no-number-parsefloat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parsefloat.html)                                                               | error  |
+| 385 | [es-x/no-number-parseint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-number-parseint.html)                                                                   | error  |
+| 386 | [es-x/no-numeric-separators](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-numeric-separators.html)                                                             | error  |
+| 387 | [es-x/no-object-assign](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-assign.html)                                                                       | error  |
+| 388 | [es-x/no-object-create](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-create.html)                                                                       | error  |
+| 389 | [es-x/no-object-defineproperties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperties.html)                                                   | error  |
+| 390 | [es-x/no-object-defineproperty](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-defineproperty.html)                                                       | error  |
+| 391 | [es-x/no-object-entries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-entries.html)                                                                     | error  |
+| 392 | [es-x/no-object-freeze](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-freeze.html)                                                                       | error  |
+| 393 | [es-x/no-object-fromentries](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-fromentries.html)                                                             | error  |
+| 394 | [es-x/no-object-getownpropertydescriptor](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptor.html)                                   | error  |
+| 395 | [es-x/no-object-getownpropertydescriptors](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertydescriptors.html)                                 | error  |
+| 396 | [es-x/no-object-getownpropertynames](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertynames.html)                                             | error  |
+| 397 | [es-x/no-object-getownpropertysymbols](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getownpropertysymbols.html)                                         | error  |
+| 398 | [es-x/no-object-getprototypeof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-getprototypeof.html)                                                       | error  |
+| 399 | [es-x/no-object-hasown](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-hasown.html)                                                                       | error  |
+| 400 | [es-x/no-object-is](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-is.html)                                                                               | error  |
+| 401 | [es-x/no-object-isextensible](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isextensible.html)                                                           | error  |
+| 402 | [es-x/no-object-isfrozen](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-isfrozen.html)                                                                   | error  |
+| 403 | [es-x/no-object-issealed](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-issealed.html)                                                                   | error  |
+| 404 | [es-x/no-object-keys](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-keys.html)                                                                           | error  |
+| 405 | [es-x/no-object-preventextensions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-preventextensions.html)                                                 | error  |
+| 406 | [es-x/no-object-seal](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-seal.html)                                                                           | error  |
+| 407 | [es-x/no-object-setprototypeof](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-setprototypeof.html)                                                       | error  |
+| 408 | [es-x/no-object-super-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-super-properties.html)                                                   | error  |
+| 409 | [es-x/no-object-values](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-object-values.html)                                                                       | error  |
+| 410 | [es-x/no-octal-numeric-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-octal-numeric-literals.html)                                                     | error  |
+| 411 | [es-x/no-optional-catch-binding](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-catch-binding.html)                                                     | error  |
+| 412 | [es-x/no-optional-chaining](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-optional-chaining.html)                                                               | error  |
+| 413 | [es-x/no-private-in](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-private-in.html)                                                                             | error  |
+| 414 | [es-x/no-promise](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise.html)                                                                                   | error  |
+| 415 | [es-x/no-promise-all-settled](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-all-settled.html)                                                           | error  |
+| 416 | [es-x/no-promise-any](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-any.html)                                                                           | error  |
+| 417 | [es-x/no-promise-prototype-finally](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-promise-prototype-finally.html)                                               | error  |
+| 418 | [es-x/no-property-shorthands](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-property-shorthands.html)                                                           | error  |
+| 419 | [es-x/no-proxy](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-proxy.html)                                                                                       | error  |
+| 420 | [es-x/no-reflect](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-reflect.html)                                                                                   | error  |
+| 421 | [es-x/no-regexp-d-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-d-flag.html)                                                                       | error  |
+| 422 | [es-x/no-regexp-lookbehind-assertions](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-lookbehind-assertions.html)                                         | error  |
+| 423 | [es-x/no-regexp-named-capture-groups](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-named-capture-groups.html)                                           | error  |
+| 424 | [es-x/no-regexp-prototype-flags](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-prototype-flags.html)                                                     | error  |
+| 425 | [es-x/no-regexp-s-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-s-flag.html)                                                                       | error  |
+| 426 | [es-x/no-regexp-u-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-u-flag.html)                                                                       | error  |
+| 427 | [es-x/no-regexp-unicode-property-escapes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes.html)                                   | error  |
+| 428 | [es-x/no-regexp-unicode-property-escapes-2019](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-unicode-property-escapes-2019.html)                         | error  |
+| 429 | [es-x/no-regexp-y-flag](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-regexp-y-flag.html)                                                                       | error  |
+| 430 | [es-x/no-rest-parameters](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-parameters.html)                                                                   | error  |
+| 431 | [es-x/no-rest-spread-properties](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-rest-spread-properties.html)                                                     | error  |
+| 432 | [es-x/no-set](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-set.html)                                                                                           | error  |
+| 433 | [es-x/no-shared-array-buffer](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-shared-array-buffer.html)                                                           | error  |
+| 434 | [es-x/no-spread-elements](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-spread-elements.html)                                                                   | error  |
+| 435 | [es-x/no-string-fromcodepoint](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-fromcodepoint.html)                                                         | error  |
+| 436 | [es-x/no-string-prototype-codepointat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-codepointat.html)                                         | error  |
+| 437 | [es-x/no-string-prototype-endswith](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-endswith.html)                                               | error  |
+| 438 | [es-x/no-string-prototype-includes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-includes.html)                                               | error  |
+| 439 | [es-x/no-string-prototype-matchall](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-matchall.html)                                               | error  |
+| 440 | [es-x/no-string-prototype-normalize](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-normalize.html)                                             | error  |
+| 441 | [es-x/no-string-prototype-padstart-padend](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-padstart-padend.html)                                 | error  |
+| 442 | [es-x/no-string-prototype-repeat](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-repeat.html)                                                   | error  |
+| 443 | [es-x/no-string-prototype-replaceall](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-replaceall.html)                                           | error  |
+| 444 | [es-x/no-string-prototype-startswith](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-startswith.html)                                           | error  |
+| 445 | [es-x/no-string-prototype-trim](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trim.html)                                                       | error  |
+| 446 | [es-x/no-string-prototype-trimstart-trimend](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-prototype-trimstart-trimend.html)                             | error  |
+| 447 | [es-x/no-string-raw](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-string-raw.html)                                                                             | error  |
+| 448 | [es-x/no-subclassing-builtins](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-subclassing-builtins.html)                                                         | error  |
+| 449 | [es-x/no-symbol](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol.html)                                                                                     | error  |
+| 450 | [es-x/no-symbol-prototype-description](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-symbol-prototype-description.html)                                         | error  |
+| 451 | [es-x/no-template-literals](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-template-literals.html)                                                               | error  |
+| 452 | [es-x/no-top-level-await](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-top-level-await.html)                                                                   | error  |
+| 453 | [es-x/no-trailing-commas](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-commas.html)                                                                   | error  |
+| 454 | [es-x/no-trailing-function-commas](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-trailing-function-commas.html)                                                 | error  |
+| 455 | [es-x/no-typed-arrays](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-typed-arrays.html)                                                                         | error  |
+| 456 | [es-x/no-unicode-codepoint-escapes](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-unicode-codepoint-escapes.html)                                               | error  |
+| 457 | [es-x/no-weak-map](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-map.html)                                                                                 | error  |
+| 458 | [es-x/no-weak-set](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weak-set.html)                                                                                 | error  |
+| 459 | [es-x/no-weakrefs](http://ota-meshi.github.io/eslint-plugin-es-x/rules/no-weakrefs.html)                                                                                 | error  |
+| 460 | [eslint-comments/disable-enable-pair](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/disable-enable-pair.html)                                         | error  | error  |
+| 461 | [eslint-comments/no-aggregating-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-aggregating-enable.html)                                     | error  | error  |
+| 462 | [eslint-comments/no-duplicate-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-duplicate-disable.html)                                       | error  | error  |
+| 463 | [eslint-comments/no-unlimited-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unlimited-disable.html)                                       | error  | error  |
+| 464 | [eslint-comments/no-unused-disable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-disable.html)                                             |  warn  |  warn  |
+| 465 | [eslint-comments/no-unused-enable](https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/no-unused-enable.html)                                               | error  | error  |
+| 466 | flowtype/boolean-style                                                                                                                                                   |  off   |  off   |
+| 467 | flowtype/delimiter-dangle                                                                                                                                                |  off   |  off   |
+| 468 | flowtype/generic-spacing                                                                                                                                                 |  off   |  off   |
+| 469 | flowtype/object-type-curly-spacing                                                                                                                                       |  off   |  off   |
+| 470 | flowtype/object-type-delimiter                                                                                                                                           |  off   |  off   |
+| 471 | flowtype/quotes                                                                                                                                                          |  off   |  off   |
+| 472 | flowtype/semi                                                                                                                                                            |  off   |  off   |
+| 473 | flowtype/space-after-type-colon                                                                                                                                          |  off   |  off   |
+| 474 | flowtype/space-before-generic-bracket                                                                                                                                    |  off   |  off   |
+| 475 | flowtype/space-before-type-colon                                                                                                                                         |  off   |  off   |
+| 476 | flowtype/union-intersection-spacing                                                                                                                                      |  off   |  off   |
+| 477 | [import/extensions](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/extensions.md)                                                                | error  | error  |
+| 478 | [import/no-unresolved](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md)                                                          |  off   |  off   |
+| 479 | [import/order](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md)                                                                          | error  | error  |
+| 480 | [n/no-missing-import](https://github.com/weiran-zsd/eslint-plugin-node/blob/HEAD/docs/rules/no-missing-import.md)                                                        |  off   |  off   |
+| 481 | [n/no-unsupported-features/node-builtins](https://github.com/weiran-zsd/eslint-plugin-node/blob/HEAD/docs/rules/no-unsupported-features/node-builtins.md)                |  off   |  off   |
+| 482 | [prettier/prettier](https://github.com/prettier/eslint-plugin-prettier#options)                                                                                          | error  | error  |
+| 483 | [promise/always-return](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md)                                                       |  off   |  off   |
+| 484 | [promise/avoid-new](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/avoid-new.md)                                                               |  off   |  off   |
+| 485 | [promise/catch-or-return](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md)                                                   |  off   |  off   |
+| 486 | [promise/no-callback-in-promise](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-callback-in-promise.md)                                     |  warn  |  warn  |
+| 487 | [promise/no-native](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md)                                                               |  off   |  off   |
+| 488 | [promise/no-nesting](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-nesting.md)                                                             |  warn  |  warn  |
+| 489 | [promise/no-new-statics](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-new-statics.md)                                                     | error  | error  |
+| 490 | [promise/no-promise-in-callback](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-promise-in-callback.md)                                     |  warn  |  warn  |
+| 491 | [promise/no-return-in-finally](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-in-finally.md)                                         |  warn  |  warn  |
+| 492 | [promise/no-return-wrap](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md)                                                     | error  | error  |
+| 493 | [promise/param-names](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md)                                                           | error  | error  |
+| 494 | [promise/valid-params](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/valid-params.md)                                                         |  warn  |  warn  |
+| 495 | react/jsx-child-element-spacing                                                                                                                                          |  off   |  off   |
+| 496 | react/jsx-closing-bracket-location                                                                                                                                       |  off   |  off   |
+| 497 | react/jsx-closing-tag-location                                                                                                                                           |  off   |  off   |
+| 498 | react/jsx-curly-newline                                                                                                                                                  |  off   |  off   |
+| 499 | react/jsx-curly-spacing                                                                                                                                                  |  off   |  off   |
+| 500 | react/jsx-equals-spacing                                                                                                                                                 |  off   |  off   |
+| 501 | react/jsx-first-prop-new-line                                                                                                                                            |  off   |  off   |
+| 502 | react/jsx-indent                                                                                                                                                         |  off   |  off   |
+| 503 | react/jsx-indent-props                                                                                                                                                   |  off   |  off   |
+| 504 | react/jsx-max-props-per-line                                                                                                                                             |  off   |  off   |
+| 505 | react/jsx-newline                                                                                                                                                        |  off   |  off   |
+| 506 | react/jsx-one-expression-per-line                                                                                                                                        |  off   |  off   |
+| 507 | react/jsx-props-no-multi-spaces                                                                                                                                          |  off   |  off   |
+| 508 | react/jsx-space-before-closing                                                                                                                                           |  off   |  off   |
+| 509 | react/jsx-tag-spacing                                                                                                                                                    |  off   |  off   |
+| 510 | react/jsx-wrap-multilines                                                                                                                                                |  off   |  off   |
+| 511 | [regexp/confusing-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/confusing-quantifier.html)                                                          |  warn  |  warn  |
+| 512 | [regexp/control-character-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/control-character-escape.html)                                                  | error  | error  |
+| 513 | [regexp/hexadecimal-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/hexadecimal-escape.html)                                                              | error  | error  |
+| 514 | [regexp/letter-case](https://ota-meshi.github.io/eslint-plugin-regexp/rules/letter-case.html)                                                                            | error  | error  |
+| 515 | [regexp/match-any](https://ota-meshi.github.io/eslint-plugin-regexp/rules/match-any.html)                                                                                | error  | error  |
+| 516 | [regexp/negation](https://ota-meshi.github.io/eslint-plugin-regexp/rules/negation.html)                                                                                  | error  | error  |
+| 517 | [regexp/no-assertion-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-assertion-capturing-group.html)                                          | error  | error  |
+| 518 | [regexp/no-contradiction-with-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-contradiction-with-assertion.html)                                    | error  | error  |
+| 519 | [regexp/no-control-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-control-character.html)                                                          | error  | error  |
+| 520 | [regexp/no-dupe-characters-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-dupe-characters-character-class.html)                              | error  | error  |
+| 521 | [regexp/no-dupe-disjunctions](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-dupe-disjunctions.html)                                                          | error  | error  |
+| 522 | [regexp/no-empty-alternative](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-alternative.html)                                                          |  warn  |  warn  |
+| 523 | [regexp/no-empty-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-capturing-group.html)                                                  | error  | error  |
+| 524 | [regexp/no-empty-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-character-class.html)                                                  | error  | error  |
+| 525 | [regexp/no-empty-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-group.html)                                                                      | error  | error  |
+| 526 | [regexp/no-empty-lookarounds-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-empty-lookarounds-assertion.html)                                      | error  | error  |
+| 527 | [regexp/no-escape-backspace](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-escape-backspace.html)                                                            | error  | error  |
+| 528 | [regexp/no-invalid-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-invalid-regexp.html)                                                                | error  | error  |
+| 529 | [regexp/no-invisible-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-invisible-character.html)                                                      | error  | error  |
+| 530 | [regexp/no-lazy-ends](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-lazy-ends.html)                                                                          |  warn  |  warn  |
+| 531 | [regexp/no-legacy-features](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-legacy-features.html)                                                              | error  | error  |
+| 532 | [regexp/no-misleading-unicode-character](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-misleading-unicode-character.html)                                    | error  | error  |
+| 533 | [regexp/no-non-standard-flag](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-non-standard-flag.html)                                                          | error  | error  |
+| 534 | [regexp/no-obscure-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-obscure-range.html)                                                                  | error  | error  |
+| 535 | [regexp/no-octal](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-octal.html)                                                                                  | error  | error  |
+| 536 | [regexp/no-optional-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-optional-assertion.html)                                                        | error  | error  |
+| 537 | [regexp/no-potentially-useless-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-potentially-useless-backreference.html)                          |  warn  |  warn  |
+| 538 | [regexp/no-standalone-backslash](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-standalone-backslash.html)                                                    | error  | error  |
+| 539 | [regexp/no-super-linear-backtracking](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-backtracking.html)                                          | error  | error  |
+| 540 | [regexp/no-super-linear-move](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-move.html)                                                          |  off   |  off   |
+| 541 | [regexp/no-trivially-nested-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-trivially-nested-assertion.html)                                        | error  | error  |
+| 542 | [regexp/no-trivially-nested-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-trivially-nested-quantifier.html)                                      | error  | error  |
+| 543 | [regexp/no-unused-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-unused-capturing-group.html)                                                | error  | error  |
+| 544 | [regexp/no-useless-assertions](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-assertions.html)                                                        | error  | error  |
+| 545 | [regexp/no-useless-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-backreference.html)                                                  | error  | error  |
+| 546 | [regexp/no-useless-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-character-class.html)                                              | error  | error  |
+| 547 | [regexp/no-useless-dollar-replacements](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-dollar-replacements.html)                                      | error  | error  |
+| 548 | [regexp/no-useless-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-escape.html)                                                                | error  | error  |
+| 549 | [regexp/no-useless-exactly-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-exactly-quantifier.html)                                        | error  | error  |
+| 550 | [regexp/no-useless-flag](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-flag.html)                                                                    | error  | error  |
+| 551 | [regexp/no-useless-lazy](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-lazy.html)                                                                    | error  | error  |
+| 552 | [regexp/no-useless-non-capturing-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-non-capturing-group.html)                                      | error  | error  |
+| 553 | [regexp/no-useless-non-greedy](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-non-greedy.html)                                                        | error  | error  |
+| 554 | [regexp/no-useless-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-quantifier.html)                                                        | error  | error  |
+| 555 | [regexp/no-useless-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-range.html)                                                                  | error  | error  |
+| 556 | [regexp/no-useless-two-nums-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-useless-two-nums-quantifier.html)                                      | error  | error  |
+| 557 | [regexp/no-zero-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-zero-quantifier.html)                                                              | error  | error  |
+| 558 | [regexp/optimal-lookaround-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/optimal-lookaround-quantifier.html)                                        |  warn  |  warn  |
+| 559 | [regexp/optimal-quantifier-concatenation](https://ota-meshi.github.io/eslint-plugin-regexp/rules/optimal-quantifier-concatenation.html)                                  | error  | error  |
+| 560 | [regexp/order-in-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/order-in-character-class.html)                                                  |  off   |  off   |
+| 561 | [regexp/prefer-character-class](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-character-class.html)                                                      | error  | error  |
+| 562 | [regexp/prefer-d](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-d.html)                                                                                  | error  | error  |
+| 563 | [regexp/prefer-escape-replacement-dollar-char](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-escape-replacement-dollar-char.html)                        | error  | error  |
+| 564 | [regexp/prefer-lookaround](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-lookaround.html)                                                                |  off   |  off   |
+| 565 | [regexp/prefer-named-backreference](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-backreference.html)                                              | error  | error  |
+| 566 | [regexp/prefer-named-capture-group](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-capture-group.html)                                              |  off   |  off   |
+| 567 | [regexp/prefer-named-replacement](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-named-replacement.html)                                                  | error  | error  |
+| 568 | [regexp/prefer-plus-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-plus-quantifier.html)                                                      | error  | error  |
+| 569 | [regexp/prefer-predefined-assertion](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-predefined-assertion.html)                                            | error  | error  |
+| 570 | [regexp/prefer-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-quantifier.html)                                                                | error  | error  |
+| 571 | [regexp/prefer-question-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-question-quantifier.html)                                              | error  | error  |
+| 572 | [regexp/prefer-range](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-range.html)                                                                          | error  | error  |
+| 573 | [regexp/prefer-regexp-exec](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-regexp-exec.html)                                                              | error  | error  |
+| 574 | [regexp/prefer-regexp-test](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-regexp-test.html)                                                              | error  | error  |
+| 575 | [regexp/prefer-result-array-groups](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-result-array-groups.html)                                              | error  | error  |
+| 576 | [regexp/prefer-star-quantifier](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-star-quantifier.html)                                                      | error  | error  |
+| 577 | [regexp/prefer-t](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-t.html)                                                                                  | error  | error  |
+| 578 | [regexp/prefer-unicode-codepoint-escapes](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-unicode-codepoint-escapes.html)                                  | error  | error  |
+| 579 | [regexp/prefer-w](https://ota-meshi.github.io/eslint-plugin-regexp/rules/prefer-w.html)                                                                                  | error  | error  |
+| 580 | [regexp/require-unicode-regexp](https://ota-meshi.github.io/eslint-plugin-regexp/rules/require-unicode-regexp.html)                                                      |  off   |  off   |
+| 581 | [regexp/sort-alternatives](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-alternatives.html)                                                                | error  | error  |
+| 582 | [regexp/sort-character-class-elements](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-character-class-elements.html)                                        |  off   |  off   |
+| 583 | [regexp/sort-flags](https://ota-meshi.github.io/eslint-plugin-regexp/rules/sort-flags.html)                                                                              | error  | error  |
+| 584 | [regexp/strict](https://ota-meshi.github.io/eslint-plugin-regexp/rules/strict.html)                                                                                      |  off   |  off   |
+| 585 | [regexp/unicode-escape](https://ota-meshi.github.io/eslint-plugin-regexp/rules/unicode-escape.html)                                                                      | error  | error  |
+| 586 | [regexp/use-ignore-case](https://ota-meshi.github.io/eslint-plugin-regexp/rules/use-ignore-case.html)                                                                    | error  | error  |
+| 587 | [sonarjs/cognitive-complexity](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/cognitive-complexity.md)                                      |  off   |  off   |
+| 588 | [sonarjs/elseif-without-else](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/elseif-without-else.md)                                        |  off   |  off   |
+| 589 | [sonarjs/max-switch-cases](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/max-switch-cases.md)                                              | error  | error  |
+| 590 | [sonarjs/no-all-duplicated-branches](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-all-duplicated-branches.md)                          | error  | error  |
+| 591 | [sonarjs/no-collapsible-if](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-collapsible-if.md)                                            | error  | error  |
+| 592 | [sonarjs/no-collection-size-mischeck](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-collection-size-mischeck.md)                        | error  | error  |
+| 593 | [sonarjs/no-duplicate-string](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-duplicate-string.md)                                        |  off   |  off   |
+| 594 | [sonarjs/no-duplicated-branches](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-duplicated-branches.md)                                  | error  | error  |
+| 595 | [sonarjs/no-element-overwrite](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-element-overwrite.md)                                      | error  | error  |
+| 596 | [sonarjs/no-empty-collection](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-empty-collection.md)                                        | error  | error  |
+| 597 | [sonarjs/no-extra-arguments](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-extra-arguments.md)                                          | error  | error  |
+| 598 | [sonarjs/no-gratuitous-expressions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-gratuitous-expressions.md)                            | error  | error  |
+| 599 | [sonarjs/no-identical-conditions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-conditions.md)                                | error  | error  |
+| 600 | [sonarjs/no-identical-expressions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-expressions.md)                              | error  | error  |
+| 601 | [sonarjs/no-identical-functions](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-identical-functions.md)                                  | error  | error  |
+| 602 | [sonarjs/no-ignored-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-ignored-return.md)                                            | error  | error  |
+| 603 | [sonarjs/no-inverted-boolean-check](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-inverted-boolean-check.md)                            |  off   |  off   |
+| 604 | [sonarjs/no-nested-switch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-switch.md)                                              | error  | error  |
+| 605 | [sonarjs/no-nested-template-literals](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-nested-template-literals.md)                        |  off   |  off   |
+| 606 | [sonarjs/no-one-iteration-loop](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-one-iteration-loop.md)                                    | error  | error  |
+| 607 | [sonarjs/no-redundant-boolean](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-redundant-boolean.md)                                      | error  | error  |
+| 608 | [sonarjs/no-redundant-jump](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-redundant-jump.md)                                            | error  | error  |
+| 609 | [sonarjs/no-same-line-conditional](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-same-line-conditional.md)                              | error  | error  |
+| 610 | [sonarjs/no-small-switch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-small-switch.md)                                                | error  | error  |
+| 611 | [sonarjs/no-unused-collection](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-unused-collection.md)                                      | error  | error  |
+| 612 | [sonarjs/no-use-of-empty-return-value](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-use-of-empty-return-value.md)                      | error  | error  |
+| 613 | [sonarjs/no-useless-catch](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-useless-catch.md)                                              | error  | error  |
+| 614 | [sonarjs/non-existent-operator](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/non-existent-operator.md)                                    | error  | error  |
+| 615 | [sonarjs/prefer-immediate-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-immediate-return.md)                                |  off   |  off   |
+| 616 | [sonarjs/prefer-object-literal](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-object-literal.md)                                    | error  | error  |
+| 617 | [sonarjs/prefer-single-boolean-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md)                      | error  | error  |
+| 618 | [sonarjs/prefer-while](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-while.md)                                                      | error  | error  |
+| 619 | standard/array-bracket-even-spacing                                                                                                                                      |  off   |  off   |
+| 620 | standard/computed-property-even-spacing                                                                                                                                  |  off   |  off   |
+| 621 | standard/object-curly-even-spacing                                                                                                                                       |  off   |  off   |
+| 622 | [unicorn/better-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-regex.md)                                                       | error  | error  |
+| 623 | [unicorn/catch-error-name](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md)                                               | error  | error  |
+| 624 | [unicorn/consistent-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-destructuring.md)                               |  off   |  off   |
+| 625 | [unicorn/consistent-function-scoping](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-function-scoping.md)                         |  warn  |  warn  |
+| 626 | [unicorn/custom-error-definition](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/custom-error-definition.md)                                 |  off   |  off   |
+| 627 | [unicorn/empty-brace-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/empty-brace-spaces.md)                                           |  off   |  off   |
+| 628 | [unicorn/error-message](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md)                                                     | error  | error  |
+| 629 | [unicorn/escape-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md)                                                         | error  | error  |
+| 630 | [unicorn/expiring-todo-comments](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)                                   |  warn  |  warn  |
+| 631 | [unicorn/explicit-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md)                                     | error  | error  |
+| 632 | [unicorn/filename-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/filename-case.md)                                                     | error  | error  |
+| 633 | [unicorn/import-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-index.md)                                                       |  off   |  off   |
+| 634 | [unicorn/import-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md)                                                       | error  | error  |
+| 635 | [unicorn/new-for-builtins](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md)                                               | error  | error  |
+| 636 | [unicorn/no-abusive-eslint-disable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md)                             | error  | error  |
+| 637 | [unicorn/no-array-callback-reference](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md)                         |  off   |  warn  |
+| 638 | [unicorn/no-array-for-each](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md)                                             | error  | error  |
+| 639 | [unicorn/no-array-method-this-argument](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md)                     | error  | error  |
+| 640 | [unicorn/no-array-push-push](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md)                                           | error  | error  |
+| 641 | [unicorn/no-array-reduce](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md)                                                 |  off   |  off   |
+| 642 | [unicorn/no-await-expression-member](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md)                           | error  | error  |
+| 643 | [unicorn/no-console-spaces](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-console-spaces.md)                                             | error  | error  |
+| 644 | [unicorn/no-document-cookie](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md)                                           | error  | error  |
+| 645 | [unicorn/no-empty-file](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md)                                                     | error  | error  |
+| 646 | [unicorn/no-for-loop](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-for-loop.md)                                                         |  off   |  warn  |
+| 647 | [unicorn/no-hex-escape](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-hex-escape.md)                                                     | error  | error  |
+| 648 | [unicorn/no-instanceof-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md)                                         | error  | error  |
+| 649 | [unicorn/no-invalid-remove-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md)               | error  | error  |
+| 650 | [unicorn/no-keyword-prefix](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-keyword-prefix.md)                                             |  off   |  off   |
+| 651 | [unicorn/no-lonely-if](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-lonely-if.md)                                                       | error  | error  |
+| 652 | [unicorn/no-nested-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nested-ternary.md)                                             |  off   |  off   |
+| 653 | [unicorn/no-new-array](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-array.md)                                                       | error  | error  |
+| 654 | [unicorn/no-new-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-buffer.md)                                                     | error  | error  |
+| 655 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md)                                                                 |  off   |  off   |
+| 656 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md)                   |  off   |  off   |
+| 657 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md)                                                 |  warn  |  warn  |
+| 658 | [unicorn/no-static-only-class](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md)                                       | error  | error  |
+| 659 | [unicorn/no-thenable](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md)                                                         | error  | error  |
+| 660 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)                                           | error  | error  |
+| 661 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)             | error  | error  |
+| 662 | [unicorn/no-unsafe-regex](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-regex.md)                                                 |  off   |  off   |
+| 663 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md)                                       |  off   |  off   |
+| 664 | [unicorn/no-useless-fallback-in-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md)                     | error  | error  |
+| 665 | [unicorn/no-useless-length-check](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md)                                 | error  | error  |
+| 666 | [unicorn/no-useless-promise-resolve-reject](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md)             | error  | error  |
+| 667 | [unicorn/no-useless-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md)                                             | error  | error  |
+| 668 | [unicorn/no-useless-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-undefined.md)                                       | error  | error  |
+| 669 | [unicorn/no-zero-fractions](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-zero-fractions.md)                                             | error  | error  |
+| 670 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md)                                         |  off   |  off   |
+| 671 | [unicorn/numeric-separators-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md)                               | error  | error  |
+| 672 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md)                             |  off   |  off   |
+| 673 | [unicorn/prefer-array-find](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md)                                             | error  | error  |
+| 674 | [unicorn/prefer-array-flat](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md)                                             | error  | error  |
+| 675 | [unicorn/prefer-array-flat-map](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md)                                     | error  | error  |
+| 676 | [unicorn/prefer-array-index-of](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md)                                     | error  | error  |
+| 677 | [unicorn/prefer-array-some](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md)                                             | error  | error  |
+| 678 | [unicorn/prefer-at](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md)                                                             |  off   |  off   |
+| 679 | [unicorn/prefer-code-point](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md)                                             | error  | error  |
+| 680 | [unicorn/prefer-date-now](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md)                                                 | error  | error  |
+| 681 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md)                             |  off   |  off   |
+| 682 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md)                                   |  off   |  off   |
+| 683 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md)                                 |  off   |  off   |
+| 684 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md)                                   |  off   |  off   |
+| 685 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)                       |  off   |  off   |
+| 686 | [unicorn/prefer-export-from](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md)                                           | error  | error  |
+| 687 | [unicorn/prefer-includes](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-includes.md)                                                 | error  | error  |
+| 688 | [unicorn/prefer-json-parse-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md)                               | error  | error  |
+| 689 | unicorn/prefer-json-parser-buffer                                                                                                                                        | error  | error  |
+| 690 | [unicorn/prefer-keyboard-event-key](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-keyboard-event-key.md)                             | error  | error  |
+| 691 | [unicorn/prefer-math-trunc](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-trunc.md)                                             | error  | error  |
+| 692 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)                                   |  off   |  off   |
+| 693 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)                                                     |  off   |  off   |
+| 694 | [unicorn/prefer-negative-index](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md)                                     | error  | error  |
+| 695 | [unicorn/prefer-node-protocol](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)                                       | error  | error  |
+| 696 | [unicorn/prefer-number-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)                               |  off   | error  |
+| 697 | [unicorn/prefer-object-from-entries](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md)                           | error  | error  |
+| 698 | [unicorn/prefer-optional-catch-binding](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-optional-catch-binding.md)                     |  off   | error  |
+| 699 | [unicorn/prefer-prototype-methods](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md)                               | error  | error  |
+| 700 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md)                                     |  off   |  off   |
+| 701 | [unicorn/prefer-reflect-apply](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-reflect-apply.md)                                       | error  | error  |
+| 702 | [unicorn/prefer-regexp-test](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md)                                           | error  | error  |
+| 703 | [unicorn/prefer-set-has](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)                                                   |  off   | error  |
+| 704 | [unicorn/prefer-spread](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)                                                     |  off   | error  |
+| 705 | [unicorn/prefer-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/deprecated-rules.md#prefer-starts-ends-with)                      |  off   |
+| 706 | [unicorn/prefer-string-replace-all](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md)                             |  off   |  off   |
+| 707 | [unicorn/prefer-string-slice](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-slice.md)                                         | error  | error  |
+| 708 | [unicorn/prefer-string-starts-ends-with](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md)                   | error  | error  |
+| 709 | [unicorn/prefer-string-trim-start-end](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-trim-start-end.md)                       | error  | error  |
+| 710 | [unicorn/prefer-switch](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-switch.md)                                                     | error  | error  |
+| 711 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md)                                                   |  off   |  off   |
+| 712 | [unicorn/prefer-top-level-await](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md)                                   |  off   |  off   |
+| 713 | [unicorn/prefer-type-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-type-error.md)                                             | error  | error  |
+| 714 | [unicorn/prevent-abbreviations](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prevent-abbreviations.md)                                     | error  | error  |
+| 715 | [unicorn/relative-url-style](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md)                                           | error  | error  |
+| 716 | [unicorn/require-array-join-separator](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md)                       | error  | error  |
+| 717 | [unicorn/require-number-to-fixed-digits-argument](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md) | error  | error  |
+| 718 | [unicorn/require-post-message-target-origin](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)           |  off   |  off   |
+| 719 | [unicorn/string-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)                                                   |  off   |  off   |
+| 720 | [unicorn/template-indent](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)                                                 |  warn  |  warn  |
+| 721 | [unicorn/text-encoding-identifier-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md)                     | error  | error  |
+| 722 | [unicorn/throw-new-error](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)                                                 | error  | error  |
+| 723 | [vue/array-bracket-newline](https://eslint.vuejs.org/rules/array-bracket-newline.html)                                                                                   |  off   |  off   |
+| 724 | [vue/array-bracket-spacing](https://eslint.vuejs.org/rules/array-bracket-spacing.html)                                                                                   |  off   |  off   |
+| 725 | [vue/arrow-spacing](https://eslint.vuejs.org/rules/arrow-spacing.html)                                                                                                   |  off   |  off   |
+| 726 | [vue/block-spacing](https://eslint.vuejs.org/rules/block-spacing.html)                                                                                                   |  off   |  off   |
+| 727 | [vue/block-tag-newline](https://eslint.vuejs.org/rules/block-tag-newline.html)                                                                                           |  off   |  off   |
+| 728 | [vue/brace-style](https://eslint.vuejs.org/rules/brace-style.html)                                                                                                       |  off   |  off   |
+| 729 | [vue/comma-dangle](https://eslint.vuejs.org/rules/comma-dangle.html)                                                                                                     |  off   |  off   |
+| 730 | [vue/comma-spacing](https://eslint.vuejs.org/rules/comma-spacing.html)                                                                                                   |  off   |  off   |
+| 731 | [vue/comma-style](https://eslint.vuejs.org/rules/comma-style.html)                                                                                                       |  off   |  off   |
+| 732 | [vue/dot-location](https://eslint.vuejs.org/rules/dot-location.html)                                                                                                     |  off   |  off   |
+| 733 | [vue/func-call-spacing](https://eslint.vuejs.org/rules/func-call-spacing.html)                                                                                           |  off   |  off   |
+| 734 | [vue/html-closing-bracket-newline](https://eslint.vuejs.org/rules/html-closing-bracket-newline.html)                                                                     |  off   |  off   |
+| 735 | [vue/html-closing-bracket-spacing](https://eslint.vuejs.org/rules/html-closing-bracket-spacing.html)                                                                     |  off   |  off   |
+| 736 | [vue/html-end-tags](https://eslint.vuejs.org/rules/html-end-tags.html)                                                                                                   |  off   |  off   |
+| 737 | [vue/html-indent](https://eslint.vuejs.org/rules/html-indent.html)                                                                                                       |  off   |  off   |
+| 738 | [vue/html-quotes](https://eslint.vuejs.org/rules/html-quotes.html)                                                                                                       |  off   |  off   |
+| 739 | [vue/html-self-closing](https://eslint.vuejs.org/rules/html-self-closing.html)                                                                                           |  off   |  off   |
+| 740 | [vue/key-spacing](https://eslint.vuejs.org/rules/key-spacing.html)                                                                                                       |  off   |  off   |
+| 741 | [vue/keyword-spacing](https://eslint.vuejs.org/rules/keyword-spacing.html)                                                                                               |  off   |  off   |
+| 742 | [vue/max-attributes-per-line](https://eslint.vuejs.org/rules/max-attributes-per-line.html)                                                                               |  off   |  off   |
+| 743 | [vue/max-len](https://eslint.vuejs.org/rules/max-len.html)                                                                                                               |  off   |  off   |
+| 744 | [vue/multiline-html-element-content-newline](https://eslint.vuejs.org/rules/multiline-html-element-content-newline.html)                                                 |  off   |  off   |
+| 745 | [vue/mustache-interpolation-spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html)                                                                 |  off   |  off   |
+| 746 | [vue/no-extra-parens](https://eslint.vuejs.org/rules/no-extra-parens.html)                                                                                               |  off   |  off   |
+| 747 | [vue/no-multi-spaces](https://eslint.vuejs.org/rules/no-multi-spaces.html)                                                                                               |  off   |  off   |
+| 748 | [vue/no-spaces-around-equal-signs-in-attribute](https://eslint.vuejs.org/rules/no-spaces-around-equal-signs-in-attribute.html)                                           |  off   |  off   |
+| 749 | [vue/object-curly-newline](https://eslint.vuejs.org/rules/object-curly-newline.html)                                                                                     |  off   |  off   |
+| 750 | [vue/object-curly-spacing](https://eslint.vuejs.org/rules/object-curly-spacing.html)                                                                                     |  off   |  off   |
+| 751 | [vue/object-property-newline](https://eslint.vuejs.org/rules/object-property-newline.html)                                                                               |  off   |  off   |
+| 752 | [vue/operator-linebreak](https://eslint.vuejs.org/rules/operator-linebreak.html)                                                                                         |  off   |  off   |
+| 753 | [vue/quote-props](https://eslint.vuejs.org/rules/quote-props.html)                                                                                                       |  off   |  off   |
+| 754 | [vue/script-indent](https://eslint.vuejs.org/rules/script-indent.html)                                                                                                   |  off   |  off   |
+| 755 | [vue/singleline-html-element-content-newline](https://eslint.vuejs.org/rules/singleline-html-element-content-newline.html)                                               |  off   |  off   |
+| 756 | [vue/space-in-parens](https://eslint.vuejs.org/rules/space-in-parens.html)                                                                                               |  off   |  off   |
+| 757 | [vue/space-infix-ops](https://eslint.vuejs.org/rules/space-infix-ops.html)                                                                                               |  off   |  off   |
+| 758 | [vue/space-unary-ops](https://eslint.vuejs.org/rules/space-unary-ops.html)                                                                                               |  off   |  off   |
+| 759 | [vue/template-curly-spacing](https://eslint.vuejs.org/rules/template-curly-spacing.html)                                                                                 |  off   |  off   |

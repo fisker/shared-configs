@@ -69,5 +69,7 @@ module.exports = {
     'unicorn/prefer-export-from': ['error', {ignoreUsedVariables: true}],
 
     'unicorn/relative-url-style': ['error', 'always'],
+
+    'unicorn/prefer-json-parser-buffer': 'error',
   },
 }
