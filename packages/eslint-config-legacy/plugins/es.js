@@ -1,4 +1,4 @@
 module.exports = {
-  plugins: ['es'],
-  extends: ['plugin:es/restrict-to-es3'],
+  plugins: ['es-x'],
+  extends: ['plugin:es-x/restrict-to-es3'],
 }
