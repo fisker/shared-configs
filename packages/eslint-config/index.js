@@ -76,8 +76,8 @@ module.exports = {
     // Disable these temporarily, as they conflict with `unicorn/prefer-node-protocol`
     'import/no-unresolved': 'off',
 
-    'node/no-unsupported-features/node-builtins': 'off',
+    'n/no-unsupported-features/node-builtins': 'off',
 
-    'node/no-missing-import': 'off',
+    'n/no-missing-import': 'off',
   },
 }
