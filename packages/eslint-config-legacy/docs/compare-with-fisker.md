@@ -971,7 +971,7 @@ sonarjs/no-useless-catch, error, error, https://github.com/SonarSource/eslint-pl
 sonarjs/non-existent-operator, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/non-existent-operator.md
 sonarjs/prefer-immediate-return, off, off, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-immediate-return.md
 sonarjs/prefer-object-literal, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-object-literal.md
-sonarjs/prefer-single-boolean-return, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md
+sonarjs/prefer-single-boolean-return, off, off, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md
 sonarjs/prefer-while, error, error, https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-while.md
 standard/array-bracket-even-spacing, off, off,
 standard/computed-property-even-spacing, off, off,
@@ -1733,7 +1733,7 @@ vue/template-curly-spacing, off, off, https://eslint.vuejs.org/rules/template-cu
 | 614 | [sonarjs/non-existent-operator](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/non-existent-operator.md)                                    | error  | error  |
 | 615 | [sonarjs/prefer-immediate-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-immediate-return.md)                                |  off   |  off   |
 | 616 | [sonarjs/prefer-object-literal](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-object-literal.md)                                    | error  | error  |
-| 617 | [sonarjs/prefer-single-boolean-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md)                      | error  | error  |
+| 617 | [sonarjs/prefer-single-boolean-return](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-single-boolean-return.md)                      |  off   |  off   |
 | 618 | [sonarjs/prefer-while](https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/prefer-while.md)                                                      | error  | error  |
 | 619 | standard/array-bracket-even-spacing                                                                                                                                      |  off   |  off   |
 | 620 | standard/computed-property-even-spacing                                                                                                                                  |  off   |  off   |
