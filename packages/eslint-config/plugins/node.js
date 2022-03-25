@@ -34,5 +34,6 @@ module.exports = {
 
     'n/no-path-concat': 'error',
     'n/no-new-require': 'error',
+    'n/no-process-exit': 'off',
   },
 }
