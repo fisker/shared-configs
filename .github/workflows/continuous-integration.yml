@@ -20,7 +20,6 @@ jobs:
         NODE:
           - "16"
           - "14"
-          - "12"
         # exclude:
         #   - PLATFORM: "macos-latest"
         #     NODE: "12"
@@ -93,6 +92,7 @@ jobs:
 
       - name: Build Package
         run: yarn build
+
       # - name: Upload Artifact
       #   uses: actions/upload-artifact@v2
       #   with:
