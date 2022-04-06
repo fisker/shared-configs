@@ -34,7 +34,7 @@
     "@fisker/eslint-config": "^10.1.2",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-es-x": "5.2.0",
-    "eslint-plugin-import": "2.25.4"
+    "eslint-plugin-import": "2.26.0"
   },
   "devDependencies": {
     "@fisker/eslint-config": "workspace:*"
