@@ -6,7 +6,7 @@ const languageExtensions = {
   javascript: 'js,jsx,mjs,cjs',
   // more markdown extensions: mdown, mdwn, mkd, mkdn, mkdown
   markdown: 'md,markdown',
-  typescript: 'ts,tsx',
+  typescript: 'ts,tsx,mts,cts',
   yaml: 'yaml,yml',
 }
 

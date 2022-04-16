@@ -1,5 +1,5 @@
 export const PRETTIER = 'prettier --write'
 export const ESLINT = 'eslint --fix'
 export const STYLELINT = 'stylelint --fix'
-export const MARKDOWNLINT = 'markdownlint --fix'
+export const MARKDOWNLINT = 'markdownlint-cli2-fix'
 export const SORT_PACKAGE_JSON = 'sort-package-json'
