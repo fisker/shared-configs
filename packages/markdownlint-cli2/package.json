@@ -1,0 +1,32 @@
+{
+  "name": "@fisker/markdownlint-cli2",
+  "version": "0.0.1",
+  "description": "fisker's Shareable markdownlint-cli2 Configuration",
+  "keywords": [
+    "fisker",
+    "prettier"
+  ],
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "main": "index.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "echo no need",
+    "clean": "del-cli dist",
+    "test": "echo no tests"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
