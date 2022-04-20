@@ -111,7 +111,7 @@ module.exports = require('@fisker/prettier-config').extend({
 | parser      | scss  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.{ts,tsx}
+### \*.{cts,mts,ts,tsx}
 
 | Option | value      | Description          |
 | :----- | :--------- | :------------------- |
