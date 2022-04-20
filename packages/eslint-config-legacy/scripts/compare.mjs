@@ -1,12 +1,9 @@
 import path from 'node:path'
-import url from 'node:url'
-
-import importCommonJs from 'import-commonjs'
+import createEsmUtils from 'esm-utils'
 import has from '../../../shared/has.mjs'
 import printCompareResult from '../../../shared/eslint/print-compare.mjs'
 
-const require = importCommonJs(import.meta.url)
-const dirname = path.dirname(url.fileURLToPath(import.meta.url))
+const {require, dirname} = createEsmUtils(import.meta)
 
 const configs = {
   legacy: require('../index.js'),
