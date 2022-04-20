@@ -7,6 +7,7 @@
     "url": "https://github.com/fisker/shared-configs/issues"
   },
   "repository": "fisker/shared-configs",
+  "funding": "https://github.com/fisker/shared-configs?sponsor=1",
   "license": "MIT",
   "author": {
     "name": "fisker Cheung",
@@ -29,17 +30,16 @@
     "format:markdown": "markdownlint-cli2-fix",
     "format:package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
     "format:prettier": "yarn lint:prettier --write",
-    "lint": "run-p \"lint:*\"",
-    "lint:eslint": "eslint \"**/*.{js,mjs,cjs,vue}\"",
+    "lint": "run-p lint:*",
+    "lint:eslint": "eslint \"**/*.{js,jsx,mjs,cjs,vue}\"",
     "lint:markdown": "markdownlint-cli2",
     "lint:package-json": "yarn run format:package-json --check",
     "lint:prettier": "prettier . --check",
+    "prepare": "husky install",
     "release": "run-s clean build format lint test dist",
-    "test": "lerna run test",
-    "prepare": "husky install"
+    "test": "lerna run test"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
     "@fisker/eslint-config": "workspace:*",
     "@fisker/husky-config": "4.1.2",
     "@fisker/lint-staged-config": "3.1.5",
