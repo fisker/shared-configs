@@ -43,7 +43,7 @@
     "@fisker/eslint-config": "workspace:*",
     "@fisker/husky-config": "4.1.2",
     "@fisker/lint-staged-config": "3.1.4",
-    "@fisker/markdownlint-cli2": "workspace:*",
+    "@fisker/markdownlint-cli2-config": "workspace:*",
     "@fisker/prettier-config": "5.0.5",
     "ava": "4.2.0",
     "del-cli": "4.0.1",
