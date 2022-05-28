@@ -24,7 +24,7 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-plugin-mocha": "10.0.4"
+    "eslint-plugin-mocha": "10.0.5"
   },
   "peerDependencies": {
     "eslint": "*"
