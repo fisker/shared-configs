@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-mocha",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "fisker's Shareable ESLint Configuration for mocha test",
   "keywords": [
     "config",
