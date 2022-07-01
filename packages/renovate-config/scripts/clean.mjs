@@ -8,7 +8,7 @@ async function cleanPackage(cwd) {
     normalize: false,
   })
   delete packageJson[PACKAGE_FIELD]
-  await writePackage(PACKAGE_JSON_DIR, package_)
+  await writePackage(PACKAGE_JSON_DIR, packageJson)
 }
 
 await cleanPackage(PACKAGE_JSON_DIR)
