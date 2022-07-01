@@ -3,12 +3,12 @@ import {writePackage} from 'write-pkg'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
 
 async function cleanPackage(cwd) {
-  const package_ = await readPackage({
+  const packageJson = await readPackage({
     cwd,
     normalize: false,
   })
-  delete package_[PACKAGE_FIELD]
+  delete packageJson[PACKAGE_FIELD]
   await writePackage(PACKAGE_JSON_DIR, package_)
 }
 
-cleanPackage(PACKAGE_JSON_DIR)
+await cleanPackage(PACKAGE_JSON_DIR)

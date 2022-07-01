@@ -4,16 +4,16 @@ import * as presets from '../presets/index.mjs'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
 
 async function updatePackage(cwd, data) {
-  const package_ = await readPackage({
+  const packageJson = await readPackage({
     cwd,
     normalize: false,
   })
   await writePackage(PACKAGE_JSON_DIR, {
-    ...package_,
+    ...packageJson,
     ...data,
   })
 }
 
-updatePackage(PACKAGE_JSON_DIR, {
+await updatePackage(PACKAGE_JSON_DIR, {
   [PACKAGE_FIELD]: presets,
 })
