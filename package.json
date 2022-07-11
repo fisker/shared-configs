@@ -45,7 +45,7 @@
     "@fisker/lint-staged-config": "3.1.5",
     "@fisker/markdownlint-cli2-config": "workspace:*",
     "@fisker/prettier-config": "5.0.6",
-    "ava": "4.3.0",
+    "ava": "4.3.1",
     "del-cli": "4.0.1",
     "eslint": "8.19.0",
     "esm-utils": "4.0.0",
