@@ -35,7 +35,6 @@
     "lint:markdown": "markdownlint-cli2",
     "lint:package-json": "yarn run format:package-json --check",
     "lint:prettier": "prettier . --check",
-    "prepare": "husky install",
     "release": "run-s clean build format lint test dist",
     "test": "lerna run test"
   },
