@@ -28,5 +28,7 @@ module.exports = {
     // Disallow Unused Private Class Members
     // https://eslint.org/docs/rules/no-unused-private-class-members
     'no-unused-private-class-members': 'error',
+
+    'no-constant-binary-expression': 'error',
   },
 }
