@@ -71,5 +71,7 @@ module.exports = {
     'unicorn/relative-url-style': ['error', 'always'],
 
     'unicorn/prefer-json-parse-buffer': 'error',
+
+    'unicorn/switch-case-braces': ['error', 'avoid'],
   },
 }
