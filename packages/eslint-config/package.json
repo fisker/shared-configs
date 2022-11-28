@@ -46,7 +46,7 @@
     "eslint-plugin-regexp": "1.11.0",
     "eslint-plugin-sonarjs": "0.16.0",
     "eslint-plugin-sort-class-members": "1.15.2",
-    "eslint-plugin-unicorn": "45.0.0"
+    "eslint-plugin-unicorn": "45.0.1"
   },
   "devDependencies": {
     "ava": "5.1.0"
