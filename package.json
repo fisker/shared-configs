@@ -47,7 +47,7 @@
     "@fisker/prettier-config": "5.0.6",
     "ava": "5.1.1",
     "del-cli": "5.0.0",
-    "eslint": "8.32.0",
+    "eslint": "8.33.0",
     "esm-utils": "4.1.1",
     "husky": "8.0.3",
     "lerna": "6.4.1",
