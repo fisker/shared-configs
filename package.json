@@ -48,7 +48,7 @@
     "ava": "5.2.0",
     "del-cli": "5.0.0",
     "eslint": "8.33.0",
-    "esm-utils": "4.1.1",
+    "esm-utils": "4.1.2",
     "husky": "8.0.3",
     "lerna": "6.4.1",
     "lint-staged": "13.1.1",
