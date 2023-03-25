@@ -50,7 +50,7 @@
     "eslint": "8.36.0",
     "esm-utils": "4.1.2",
     "husky": "8.0.3",
-    "lerna": "6.6.0",
+    "lerna": "6.6.1",
     "lint-staged": "13.2.0",
     "markdownlint-cli2": "0.6.0",
     "mem": "9.0.2",
