@@ -834,6 +834,7 @@ __metadata:
     stylelint-config-recommended-scss: 11.0.0
     stylelint-config-recommended-vue: 1.4.0
     stylelint-config-standard: 33.0.0
+    stylelint-config-standard-scss: 9.0.0
     stylelint-prettier: 3.0.0
     stylelint-scss: 4.6.0
   peerDependencies:
@@ -9713,7 +9714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended-scss@npm:11.0.0":
+"stylelint-config-recommended-scss@npm:11.0.0, stylelint-config-recommended-scss@npm:^11.0.0":
   version: 11.0.0
   resolution: "stylelint-config-recommended-scss@npm:11.0.0"
   dependencies:
@@ -9753,7 +9754,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:33.0.0":
+"stylelint-config-standard-scss@npm:9.0.0":
+  version: 9.0.0
+  resolution: "stylelint-config-standard-scss@npm:9.0.0"
+  dependencies:
+    stylelint-config-recommended-scss: ^11.0.0
+    stylelint-config-standard: ^33.0.0
+  peerDependencies:
+    postcss: ^8.3.3
+    stylelint: ^15.5.0
+  peerDependenciesMeta:
+    postcss:
+      optional: true
+  checksum: c47e08a33baf5d6f2614bcddf9b83e11dbaee6c11dfad15fb9ac1489967d0d61bb846e05ee2789107d361797739dd3a3a67b3f55a8334fc78a7dab0681f6760b
+  languageName: node
+  linkType: hard
+
+"stylelint-config-standard@npm:33.0.0, stylelint-config-standard@npm:^33.0.0":
   version: 33.0.0
   resolution: "stylelint-config-standard@npm:33.0.0"
   dependencies:

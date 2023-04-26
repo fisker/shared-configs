@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-html', './css.js', './prettier.js'].map(
+  extends: ['./css.js', 'stylelint-config-html', './prettier.js'].map(
     (module) => require.resolve(module),
   ),
   rules: {},

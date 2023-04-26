@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended-vue/scss',
     './css.js',
+    'stylelint-config-recommended-vue/scss',
     './scss.js',
     './prettier.js',
   ].map((module) => require.resolve(module)),

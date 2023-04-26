@@ -1,22 +1,24 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended-scss',
     './css.js',
+    'stylelint-config-recommended-scss',
+    'stylelint-config-standard-scss',
     './prettier.js',
   ].map((module) => require.resolve(module)),
   rules: {
-    ...require('stylelint-config-recommended-scss').rules,
-
     // Not safe for `rgba` function in `scss` files
     'color-function-notation': null,
     // Not safe for `rgba` function in `scss` files
     'alpha-value-notation': null,
+
+    'at-rule-empty-line-before': null,
 
     // We may import files in the middle of files
     'no-invalid-position-at-import-rule': null,
 
     'scss/at-import-partial-extension': null,
     'scss/no-global-function-names': null,
+    'scss/at-if-no-null': null,
     // Buggy
     'scss/operator-no-unspaced': null,
 
