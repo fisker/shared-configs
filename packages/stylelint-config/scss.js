@@ -3,9 +3,10 @@ module.exports = {
     './css.js',
     'stylelint-config-recommended-scss',
     'stylelint-config-standard-scss',
-    './prettier.js',
   ].map((module) => require.resolve(module)),
   rules: {
+    ...require('./css.js').rules,
+
     // Not safe for `rgba` function in `scss` files
     'color-function-notation': null,
     // Not safe for `rgba` function in `scss` files
@@ -27,5 +28,9 @@ module.exports = {
 
     'scss/comment-no-empty': null,
     'scss/at-import-no-partial-leading-underscore': null,
+    'scss/dollar-variable-empty-line-before': null,
+    'scss/double-slash-comment-empty-line-before': null,
+    'scss/at-mixin-argumentless-call-parentheses': null,
+    'scss/at-rule-conditional-no-parentheses': null,
   },
 }
