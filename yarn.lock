@@ -164,14 +164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-string-parser@npm:^7.19.4":
-  version: 7.19.4
-  resolution: "@babel/helper-string-parser@npm:7.19.4"
-  checksum: b2f8a3920b30dfac81ec282ac4ad9598ea170648f8254b10f475abe6d944808fb006aab325d3eb5a8ad3bea8dfa888cfa6ef471050dae5748497c110ec060943
-  languageName: node
-  linkType: hard
-
-"@babel/helper-string-parser@npm:^7.21.5":
+"@babel/helper-string-parser@npm:^7.19.4, @babel/helper-string-parser@npm:^7.21.5":
   version: 7.21.5
   resolution: "@babel/helper-string-parser@npm:7.21.5"
   checksum: 36c0ded452f3858e67634b81960d4bde1d1cd2a56b82f4ba2926e97864816021c885f111a7cf81de88a0ed025f49d84a393256700e9acbca2d99462d648705d8
