@@ -1677,13 +1677,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tufjs/models@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@tufjs/models@npm:1.0.3"
+"@tufjs/models@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@tufjs/models@npm:1.0.4"
   dependencies:
     "@tufjs/canonical-json": 1.0.0
-    minimatch: ^7.4.6
-  checksum: 4499de770bd1300510971289ea09038945544db4cd4ef56218986f2587cec77a4971d2b519f87cb67f736edc78d590b65ed0cb2c6ce7467249298611ffea83d0
+    minimatch: ^9.0.0
+  checksum: b489baa854abce6865f360591c20d5eb7d8dde3fb150f42840c12bb7ee3e5e7a69eab9b2e44ea82ae1f8cd95b586963c5a5c5af8ba4ffa3614b3ddccbc306779
   languageName: node
   linkType: hard
 
@@ -6420,6 +6420,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"make-fetch-happen@npm:^11.1.0":
+  version: 11.1.1
+  resolution: "make-fetch-happen@npm:11.1.1"
+  dependencies:
+    agentkeepalive: ^4.2.1
+    cacache: ^17.0.0
+    http-cache-semantics: ^4.1.1
+    http-proxy-agent: ^5.0.0
+    https-proxy-agent: ^5.0.0
+    is-lambda: ^1.0.1
+    lru-cache: ^7.7.1
+    minipass: ^5.0.0
+    minipass-fetch: ^3.0.0
+    minipass-flush: ^1.0.5
+    minipass-pipeline: ^1.2.4
+    negotiator: ^0.6.3
+    promise-retry: ^2.0.1
+    socks-proxy-agent: ^7.0.0
+    ssri: ^10.0.0
+  checksum: 7268bf274a0f6dcf0343829489a4506603ff34bd0649c12058753900b0eb29191dce5dba12680719a5d0a983d3e57810f594a12f3c18494e93a1fbc6348a4540
+  languageName: node
+  linkType: hard
+
 "map-age-cleaner@npm:^0.1.3":
   version: 0.1.3
   resolution: "map-age-cleaner@npm:0.1.3"
@@ -6687,7 +6710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^7.4.2, minimatch@npm:^7.4.6":
+"minimatch@npm:^7.4.2":
   version: 7.4.6
   resolution: "minimatch@npm:7.4.6"
   dependencies:
@@ -6702,6 +6725,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 2e46cffb86bacbc524ad45a6426f338920c529dd13f3a732cc2cf7618988ee1aae88df4ca28983285aca9e0f45222019ac2d14ebd17c1edadd2ee12221ab801a
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "minimatch@npm:9.0.0"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 7bd57899edd1d1b0560f50b5b2d1ea4ad2a366c5a2c8e0a943372cf2f200b64c256bae45a87a80915adbce27fa36526264296ace0da57b600481fe5ea3e372e5
   languageName: node
   linkType: hard
 
@@ -10128,12 +10160,12 @@ __metadata:
   linkType: hard
 
 "tuf-js@npm:^1.1.3":
-  version: 1.1.4
-  resolution: "tuf-js@npm:1.1.4"
+  version: 1.1.5
+  resolution: "tuf-js@npm:1.1.5"
   dependencies:
-    "@tufjs/models": 1.0.3
-    make-fetch-happen: ^11.0.1
-  checksum: 73595ac6028dd9cf68a65b88730d47ff88f63e836efc2904476939598480d6625745ca43a8f5bb754f667dfd431b81fc81b0e49fc3fdfc2df0cf271536829af9
+    "@tufjs/models": 1.0.4
+    make-fetch-happen: ^11.1.0
+  checksum: 59b0b0abb6d3a10a4b7c984e6326bed0b88adac2c86b8905fb1259d490ec761fb349ff61d3923566d7c11c2ee70aaa99bf393826a1b12410ed40ed7fde32a92e
   languageName: node
   linkType: hard
 
