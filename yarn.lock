@@ -1338,8 +1338,8 @@ __metadata:
   linkType: hard
 
 "@nrwl/devkit@npm:>=15.5.2 < 16":
-  version: 15.9.2
-  resolution: "@nrwl/devkit@npm:15.9.2"
+  version: 15.9.4
+  resolution: "@nrwl/devkit@npm:15.9.4"
   dependencies:
     ejs: ^3.1.7
     ignore: ^5.0.4
@@ -1348,7 +1348,7 @@ __metadata:
     tslib: ^2.3.0
   peerDependencies:
     nx: ">= 14.1 <= 16"
-  checksum: 22671995612adbe08f0c270689a131964e38bb0d2f1169168e86016394d553e1de2706f19283e8de65c789a46060be0dd8714422ab61a9fd5b889f3e4dbdb4ba
+  checksum: 4207edab94384315bc80da673ae5c31bd63a8944c69ad1a2a2834d0e6f9ef5eb8a4118a1943ae855c6da889e326490cc4e5df718cb8df5853263e3b3c44d0148
   languageName: node
   linkType: hard
 
