@@ -8892,11 +8892,11 @@ __metadata:
   linkType: hard
 
 "regexp-tree@npm:^0.1.24, regexp-tree@npm:~0.1.1":
-  version: 0.1.25
-  resolution: "regexp-tree@npm:0.1.25"
+  version: 0.1.27
+  resolution: "regexp-tree@npm:0.1.27"
   bin:
     regexp-tree: bin/regexp-tree
-  checksum: 7117d2378376c4ea0d088f19cb68b210daffe23d5b7c1c604e9d4576470ea5f07624727fc88de969dd71abdb720bd32205407f954c6dcc4a4320cb599651e2f6
+  checksum: 129aebb34dae22d6694ab2ac328be3f99105143737528ab072ef624d599afecbcfae1f5c96a166fa9e5f64fa1ecf30b411c4691e7924c3e11bbaf1712c260c54
   languageName: node
   linkType: hard
 
