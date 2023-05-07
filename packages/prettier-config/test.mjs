@@ -70,5 +70,5 @@ test('extend', (t) => {
   t.is(options.trailingComma, originalValue)
   t.is(extended.trailingComma, testValue)
   t.is(extended.overrides.length, options.overrides.length + 1)
-  t.deepEqual(extended.overrides[extended.overrides.length - 1], testOverrides)
+  t.deepEqual(extended.overrides.at(-1), testOverrides)
 })
