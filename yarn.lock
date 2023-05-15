@@ -4385,7 +4385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filelist@npm:^1.0.1":
+"filelist@npm:^1.0.4":
   version: 1.0.4
   resolution: "filelist@npm:1.0.4"
   dependencies:
@@ -5775,16 +5775,16 @@ __metadata:
   linkType: hard
 
 "jake@npm:^10.8.5":
-  version: 10.8.5
-  resolution: "jake@npm:10.8.5"
+  version: 10.8.6
+  resolution: "jake@npm:10.8.6"
   dependencies:
     async: ^3.2.3
     chalk: ^4.0.2
-    filelist: ^1.0.1
-    minimatch: ^3.0.4
+    filelist: ^1.0.4
+    minimatch: ^3.1.2
   bin:
-    jake: ./bin/cli.js
-  checksum: 56c913ecf5a8d74325d0af9bc17a233bad50977438d44864d925bb6c45c946e0fee8c4c1f5fe2225471ef40df5222e943047982717ebff0d624770564d3c46ba
+    jake: bin/cli.js
+  checksum: eebebd3ca62a01ced630afc116f429d727d34bebe58a9424c0d5a0618ad6c1db893163fb4fbcdff01f34d34d6d63c0dd2448de598270bcd27d9440630de4aeea
   languageName: node
   linkType: hard
 
