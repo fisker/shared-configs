@@ -448,15 +448,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/postcss-is-pseudo-class@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@csstools/postcss-is-pseudo-class@npm:3.2.0"
+"@csstools/postcss-is-pseudo-class@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@csstools/postcss-is-pseudo-class@npm:3.2.1"
   dependencies:
     "@csstools/selector-specificity": ^2.0.0
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     postcss: ^8.4
-  checksum: c2c1f57ef88faabd95e34cffddb0f713d033dae6466f6a08810cb0383ad1e5199295ecd9563d11fd728c37e7df650966a99aff797ffba5ad1b878925742760a5
+  checksum: 62c3829405540665545b1fad80bd3fe655b2f2df6e713a121278972af199e5bcd4329a9f0abbcd7576cd61d18bbc2ad05e6c6e4a3dd278c53b45c1ccab64b123
   languageName: node
   linkType: hard
 
@@ -801,7 +801,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/postcss-config@workspace:packages/postcss-config"
   dependencies:
-    postcss-preset-env: 8.3.2
+    postcss-preset-env: 8.3.3
   peerDependencies:
     postcss: "*"
   languageName: unknown
@@ -8210,14 +8210,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-logical@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "postcss-logical@npm:6.1.0"
+"postcss-logical@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "postcss-logical@npm:6.2.0"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: a84b22b1e2839fcf2199da8670775ee07afe6826408a80d350e7a0966de4baf21d165cbfb7a0a2c30d029a2f9e62330ac96bbcc5a5663c97f32ee108feace097
+  checksum: e5dbc9abc88a820714aa89f90865c9f08d8391ab3f96b326f7b4c6923d9c543aee691f3661e7ba873dcbc0f89d495a2da8a9b369ca14c15c2c6bf8c44457f917
   languageName: node
   linkType: hard
 
@@ -8280,9 +8280,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:8.3.2":
-  version: 8.3.2
-  resolution: "postcss-preset-env@npm:8.3.2"
+"postcss-preset-env@npm:8.3.3":
+  version: 8.3.3
+  resolution: "postcss-preset-env@npm:8.3.3"
   dependencies:
     "@csstools/postcss-cascade-layers": ^3.0.1
     "@csstools/postcss-color-function": ^2.2.1
@@ -8291,7 +8291,7 @@ __metadata:
     "@csstools/postcss-gradients-interpolation-method": ^3.0.4
     "@csstools/postcss-hwb-function": ^2.2.1
     "@csstools/postcss-ic-unit": ^2.0.2
-    "@csstools/postcss-is-pseudo-class": ^3.2.0
+    "@csstools/postcss-is-pseudo-class": ^3.2.1
     "@csstools/postcss-logical-float-and-clear": ^1.0.1
     "@csstools/postcss-logical-resize": ^1.0.1
     "@csstools/postcss-logical-viewport-units": ^1.0.3
@@ -8329,7 +8329,7 @@ __metadata:
     postcss-image-set-function: ^5.0.2
     postcss-initial: ^4.0.1
     postcss-lab-function: ^5.2.1
-    postcss-logical: ^6.1.0
+    postcss-logical: ^6.2.0
     postcss-nesting: ^11.2.1
     postcss-opacity-percentage: ^2.0.0
     postcss-overflow-shorthand: ^4.0.1
@@ -8341,7 +8341,7 @@ __metadata:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: d0ebfcc4f06a0f6ec2bdfbd2d19388e65c6eb0922e5b4638e32af013c84c955ad7b2702c24987b599ccc287af814f5fbd80df0c1ecff37e8c3e311e7c4c0785c
+  checksum: ff779bd38ab9848cff4d5bcfda297f9694885ac3b6b8792651be6313f2b2da7c67d906580b536ed95a1828ec40d1f20a920aab9fa185ce3e407de15c41ed6b5b
   languageName: node
   linkType: hard
 
