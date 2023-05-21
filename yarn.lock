@@ -303,9 +303,9 @@ __metadata:
   linkType: hard
 
 "@csstools/color-helpers@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@csstools/color-helpers@npm:2.0.0"
-  checksum: 5cbb1104794e30721e201baa1433cf9c207fe0dbed2575a086dc3d24478f214e440995fbf41157284b666da4aa5c7eadfc4550ab1474c28ae5805bfd542b5bf3
+  version: 2.1.0
+  resolution: "@csstools/color-helpers@npm:2.1.0"
+  checksum: 3aadf25428fbb26ba6bda118dd5c0c99c0209a5cc63f72fa6c2f226ddf1f9897f6b6798c042df4bae61fcbe33d471028115df97e2d069c8fd9871cbd6da523bf
   languageName: node
   linkType: hard
 
