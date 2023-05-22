@@ -700,7 +700,7 @@ __metadata:
   dependencies:
     "@fisker/eslint-config": "workspace:*"
     eslint-config-airbnb-base: 15.0.0
-    eslint-plugin-es-x: 7.0.0
+    eslint-plugin-es-x: 7.1.0
     eslint-plugin-import: 2.27.5
   peerDependencies:
     eslint: "*"
@@ -740,7 +740,7 @@ __metadata:
     ava: 5.2.0
     eslint-config-airbnb-base: 15.0.0
     eslint-config-prettier: 8.8.0
-    eslint-plugin-es-x: 7.0.0
+    eslint-plugin-es-x: 7.1.0
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-html: 7.1.0
     eslint-plugin-import: 2.27.5
@@ -3778,15 +3778,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:7.0.0":
-  version: 7.0.0
-  resolution: "eslint-plugin-es-x@npm:7.0.0"
+"eslint-plugin-es-x@npm:7.1.0":
+  version: 7.1.0
+  resolution: "eslint-plugin-es-x@npm:7.1.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.1.2
     "@eslint-community/regexpp": ^4.5.0
   peerDependencies:
     eslint: ">=8"
-  checksum: f6772ba3d1367a71953a4120aae27c9cbbe2165e709d70bb9ee3348939cc8daf178f4483113c1a21a4d9accf93917a9ee1c18b156262c0a7e5956020e35990df
+  checksum: a19924313ce28214cc1b25fb749e3d977688f23c7fc9f01c3447b5853528b82b63586d94060924b49072b005314695af3b073dcd8f6b965ad1923a2cabf3e9f7
   languageName: node
   linkType: hard
 
