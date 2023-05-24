@@ -565,6 +565,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/postcss-progressive-custom-properties@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:2.2.0"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 1787b4222ccab22b4a7febb9b4bbc5c71e6d915bd5a02026e1f3dd70d5eb5e62fe3225093adfa7b2cd0a0b882285a63ef8fc953563130cbf55355b8e2250f76e
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-scope-pseudo-class@npm:^2.0.2":
   version: 2.0.2
   resolution: "@csstools/postcss-scope-pseudo-class@npm:2.0.2"
@@ -8112,14 +8123,14 @@ __metadata:
   linkType: hard
 
 "postcss-double-position-gradients@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "postcss-double-position-gradients@npm:4.0.2"
+  version: 4.0.3
+  resolution: "postcss-double-position-gradients@npm:4.0.3"
   dependencies:
-    "@csstools/postcss-progressive-custom-properties": ^2.0.0
+    "@csstools/postcss-progressive-custom-properties": ^2.2.0
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: ce7cae0b4331d563f5d2cd99e376c7ecaf1b8d096b3fc2bbd44e4bbe9a2905f93ab4739f6833297e73d461fa14bbe65c4a9384262dcd2205198fcc6fcd13af36
+  checksum: 5c382812c7b55bed35e9e7882c0e5bac444552d1fae7875c0cfdf0163c4b7a3e8297c1244b24543ea68132093dfefa4e6e6fa6ba134b7fe28676f02e9994b440
   languageName: node
   linkType: hard
 
