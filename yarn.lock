@@ -565,6 +565,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/postcss-progressive-custom-properties@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:2.3.0"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 9edcb4e69e3b1b6b2debb8e78a20b71cb1922d7df57a45427062c0ff87e404e4b837bbe3a86ed9cb1ed4fca60514c72cf4e96ec6d77ddc222aca09633bdb7b4c
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-scope-pseudo-class@npm:^2.0.2":
   version: 2.0.2
   resolution: "@csstools/postcss-scope-pseudo-class@npm:2.0.2"
@@ -8024,13 +8035,14 @@ __metadata:
   linkType: hard
 
 "postcss-color-functional-notation@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "postcss-color-functional-notation@npm:5.0.2"
+  version: 5.1.0
+  resolution: "postcss-color-functional-notation@npm:5.1.0"
   dependencies:
+    "@csstools/postcss-progressive-custom-properties": ^2.3.0
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: a9e29f1513d8f8f97b485fa73e66efb1b2fb6ba50a44f583d238cc25320b3c7f83a336954a5a3f909b53a48db0cadd8214cd15244bc0dfa83a42902f08f45dfe
+  checksum: 336da1de9042764c9a436e030b80b16333fc7dd7dbaeb97d719fb11fe76da13ead50768e07a12a748988037a15562869d7e4be6b70a3556502c4f6bd592544db
   languageName: node
   linkType: hard
 
