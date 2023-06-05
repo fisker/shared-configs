@@ -358,6 +358,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/media-query-list-parser@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@csstools/media-query-list-parser@npm:2.1.0"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.1.1
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: 854379ad108673eb3a2031a9ca1d3b5976d3234f715b3fc2a0a67b057a80fb4b34ec4888cfa7675fbd31418e4b939128cdbbe7c75b635f639ddbbb0a22847b6d
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-cascade-layers@npm:^3.0.1":
   version: 3.0.1
   resolution: "@csstools/postcss-cascade-layers@npm:3.0.1"
@@ -506,15 +516,15 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:1.0.2"
+  version: 1.0.3
+  resolution: "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:1.0.3"
   dependencies:
     "@csstools/css-parser-algorithms": ^2.1.1
     "@csstools/css-tokenizer": ^2.1.1
-    "@csstools/media-query-list-parser": ^2.0.4
+    "@csstools/media-query-list-parser": ^2.1.0
   peerDependencies:
     postcss: ^8.4
-  checksum: 88ec8e5a018fd60aec0512d7f141ed4d12ac9590d26cb7ca8371fcd1f376f9432c8166dc80018a6cbb5692c7236e0ed089725202108e0fae6f1e2f233896e4a5
+  checksum: f1157c6c679a6097e52a03153be22137c5de3ceb4075ee35f26eb65ad2d53c9aeeb8c7308c663ed8c3fd0d5cf368422ac4709159e90a62016cb8c6c0d9481add
   languageName: node
   linkType: hard
 
