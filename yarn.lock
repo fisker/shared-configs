@@ -4498,7 +4498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^9.2.0, glob@npm:^9.3.0, glob@npm:^9.3.1":
+"glob@npm:^9.2.0, glob@npm:^9.3.1":
   version: 9.3.5
   resolution: "glob@npm:9.3.5"
   dependencies:
@@ -8167,7 +8167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-package-json@npm:6.0.4":
+"read-package-json@npm:6.0.4, read-package-json@npm:^6.0.0":
   version: 6.0.4
   resolution: "read-package-json@npm:6.0.4"
   dependencies:
@@ -8176,18 +8176,6 @@ __metadata:
     normalize-package-data: ^5.0.0
     npm-normalize-package-bin: ^3.0.0
   checksum: ce40c4671299753f1349aebe44693cd250d6936c4bacfb31cd884c87f24a0174ba5f651ee2866cf5e57365451cba38bc1db9c2a371e4ba7502fb46dcad50f1d7
-  languageName: node
-  linkType: hard
-
-"read-package-json@npm:^6.0.0":
-  version: 6.0.1
-  resolution: "read-package-json@npm:6.0.1"
-  dependencies:
-    glob: ^9.3.0
-    json-parse-even-better-errors: ^3.0.0
-    normalize-package-data: ^5.0.0
-    npm-normalize-package-bin: ^3.0.0
-  checksum: 2fb5c2248da02d5a7180c0538c5b9ebdf04920f4bbf5c19d336d656277d99f1559ba90f2afcdfd6f580c3182a46fe5fb1d3d8c01bc63ffdeae927c91a11a82c9
   languageName: node
   linkType: hard
 
