@@ -6782,22 +6782,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-registry-fetch@npm:^14.0.0, npm-registry-fetch@npm:^14.0.3":
-  version: 14.0.4
-  resolution: "npm-registry-fetch@npm:14.0.4"
-  dependencies:
-    make-fetch-happen: ^11.0.0
-    minipass: ^4.0.0
-    minipass-fetch: ^3.0.0
-    minipass-json-stream: ^1.0.1
-    minizlib: ^2.1.2
-    npm-package-arg: ^10.0.0
-    proc-log: ^3.0.0
-  checksum: 7d6e82f3fe8ce50b7e04490580fa7294e9934025db47e922c8d26c9a6c81374f91dd7e32e3c8fa34089dbd321adb128627f1c02d233714f77b5795140224af49
-  languageName: node
-  linkType: hard
-
-"npm-registry-fetch@npm:^14.0.5":
+"npm-registry-fetch@npm:^14.0.0, npm-registry-fetch@npm:^14.0.3, npm-registry-fetch@npm:^14.0.5":
   version: 14.0.5
   resolution: "npm-registry-fetch@npm:14.0.5"
   dependencies:
