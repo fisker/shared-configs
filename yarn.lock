@@ -9819,8 +9819,8 @@ __metadata:
   linkType: hard
 
 "vue-eslint-parser@npm:^9.3.0":
-  version: 9.3.0
-  resolution: "vue-eslint-parser@npm:9.3.0"
+  version: 9.3.1
+  resolution: "vue-eslint-parser@npm:9.3.1"
   dependencies:
     debug: ^4.3.4
     eslint-scope: ^7.1.1
@@ -9831,7 +9831,7 @@ __metadata:
     semver: ^7.3.6
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 9bdf375655c405f49a6e46e20127e42e2cb03ec63e811baf9798da7b881769653bb56aba7007d7e6584b8b22c14f0ffbdaf8fa3a902bd52ce9ff947b78e55188
+  checksum: 6d1476b45fcc5b456a1e5c0f33ec695cf1d392ca6113250d5e3441e6cf3b2a0ec28a9455699363641dfb7c48358f215db07856c98385a31ace9bc58196f4156e
   languageName: node
   linkType: hard
 
