@@ -7780,14 +7780,14 @@ __metadata:
   linkType: hard
 
 "postcss-nesting@npm:^11.2.1":
-  version: 11.2.2
-  resolution: "postcss-nesting@npm:11.2.2"
+  version: 11.3.0
+  resolution: "postcss-nesting@npm:11.3.0"
   dependencies:
     "@csstools/selector-specificity": ^2.0.0
     postcss-selector-parser: ^6.0.10
   peerDependencies:
     postcss: ^8.4
-  checksum: 84149edbfe9b0adf069b7ddf06d21fc7a543e7f44b97c3975d8b1f088dddc20853689cb859d5be06000cca83bdc56929b13581bfdaf1971cfafa492add867831
+  checksum: bc8f59e8114f21ec3fcbd0661072f3e706f25dc5300a925863485a0ab82950c48b75c1fed9548acddc924fa479ab7277b55fcdcc33eb0fe1742b389683479384
   languageName: node
   linkType: hard
 
