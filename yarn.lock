@@ -341,6 +341,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-parser-algorithms@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@csstools/css-parser-algorithms@npm:2.2.0"
+  peerDependencies:
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: 9f1b6e902dadfc6ac37086c4b7073b16458186d9f42c534fdede8b0e7c2e3a832ea2d716baf32d4976c1fc2d8ad78f829916419faa73ecd10cc61c329121e683
+  languageName: node
+  linkType: hard
+
 "@csstools/css-tokenizer@npm:^2.1.1":
   version: 2.1.1
   resolution: "@csstools/css-tokenizer@npm:2.1.1"
@@ -355,6 +364,16 @@ __metadata:
     "@csstools/css-parser-algorithms": ^2.1.1
     "@csstools/css-tokenizer": ^2.1.1
   checksum: 059b1e9bb78fc55888d5c51b55ae6a3aa89b7fde14d846a659bc2bc7f01b5a85d4baf02d36b59a44e5157a5a8eb283b24918d567eda34667e5776befbf122983
+  languageName: node
+  linkType: hard
+
+"@csstools/media-query-list-parser@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@csstools/media-query-list-parser@npm:2.1.1"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.2.0
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: bd97737fe92669fa6e26aab0b28a1b82e0bb3992e548bfeb1a45d56007f2a2dfee70c2bb9c2092703680fed505ae1a71254bc0e103f7486bb7724d6c7193fa71
   languageName: node
   linkType: hard
 
@@ -506,15 +525,15 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:1.0.2"
+  version: 1.0.4
+  resolution: "@csstools/postcss-media-queries-aspect-ratio-number-values@npm:1.0.4"
   dependencies:
-    "@csstools/css-parser-algorithms": ^2.1.1
+    "@csstools/css-parser-algorithms": ^2.2.0
     "@csstools/css-tokenizer": ^2.1.1
-    "@csstools/media-query-list-parser": ^2.0.4
+    "@csstools/media-query-list-parser": ^2.1.1
   peerDependencies:
     postcss: ^8.4
-  checksum: 88ec8e5a018fd60aec0512d7f141ed4d12ac9590d26cb7ca8371fcd1f376f9432c8166dc80018a6cbb5692c7236e0ed089725202108e0fae6f1e2f233896e4a5
+  checksum: 99125a673066ee6119dc25d8aecf7b9ed14a56eba7ae1e18a7aaee596860a35629f45b87d39bfa4f2fafbe505aa29213d7bde9150928d97e628b351b71f3fd00
   languageName: node
   linkType: hard
 
