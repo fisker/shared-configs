@@ -316,6 +316,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/color-helpers@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@csstools/color-helpers@npm:3.0.0"
+  checksum: a2634199fe809a46525bdc3a9660775acdf95a348f347995b82f85cda15bbd6f0f5b8d78b69a3a786fa4d44afd156c72d9a8f55706810f2830178f39aab22e14
+  languageName: node
+  linkType: hard
+
 "@csstools/css-calc@npm:^1.1.1":
   version: 1.1.1
   resolution: "@csstools/css-calc@npm:1.1.1"
@@ -326,16 +333,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-color-parser@npm:^1.1.2":
+"@csstools/css-calc@npm:^1.1.2":
   version: 1.1.2
-  resolution: "@csstools/css-color-parser@npm:1.1.2"
-  dependencies:
-    "@csstools/color-helpers": ^2.0.0
-    "@csstools/css-calc": ^1.1.1
+  resolution: "@csstools/css-calc@npm:1.1.2"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.1.1
+    "@csstools/css-parser-algorithms": ^2.3.0
     "@csstools/css-tokenizer": ^2.1.1
-  checksum: d6fc09eceb4384018ef5a481a934a4c955bba789265f99a401fab601a9a4258ea4e0b13abcdc5a199e3b1d5b22930ba5eefbe56171615c04ce7bb06bd13ace80
+  checksum: 446f376fe9f079dafb103d805e047c9a5de53655f03518eae1bd9e48232596765672469b016eb24f5978ea9cec45d4d7616ea198e27f499b185d913abc8a1837
+  languageName: node
+  linkType: hard
+
+"@csstools/css-color-parser@npm:^1.1.2":
+  version: 1.2.2
+  resolution: "@csstools/css-color-parser@npm:1.2.2"
+  dependencies:
+    "@csstools/color-helpers": ^3.0.0
+    "@csstools/css-calc": ^1.1.2
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.3.0
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: f69faf0bafb66647cfe72b88de9b85975c6006727f71a662d5cf886f73e60ac72fdf2ff450be73c0bbc3b86f54abc665f1ff1a008d65d360ff4071814a02d11b
   languageName: node
   linkType: hard
 
