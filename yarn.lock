@@ -309,6 +309,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/cascade-layer-name-parser@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@csstools/cascade-layer-name-parser@npm:1.0.3"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.3.0
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: 5fe06884c2247af50345a1044438af62065c11fe5333dbe46e560182484333f9e2206829ae3577e8d4a4f04a98fe0bfa714762af5326a7354924818492f3d9c8
+  languageName: node
+  linkType: hard
+
 "@csstools/color-helpers@npm:^2.0.0":
   version: 2.0.0
   resolution: "@csstools/color-helpers@npm:2.0.0"
@@ -345,6 +355,15 @@ __metadata:
   peerDependencies:
     "@csstools/css-tokenizer": ^2.1.1
   checksum: 0ba3f3d38b99c933d12c6cb7fc348a9c0056a1e23b8a4b7e66b79295b5071bc443c4c3ed87ad7f155ce7e76e49c20c582dc27d804c9a45c82e5bd37585870d60
+  languageName: node
+  linkType: hard
+
+"@csstools/css-parser-algorithms@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@csstools/css-parser-algorithms@npm:2.3.0"
+  peerDependencies:
+    "@csstools/css-tokenizer": ^2.1.1
+  checksum: 3be22a0cfcfe0dc4bb140e2f266590addf21c5052d9e69334da860b3839fbd4369c3d158cbc396032d5ed96d01d2b5d8ebdb5497f75c9830ed9ce99853e3f915
   languageName: node
   linkType: hard
 
@@ -7639,16 +7658,16 @@ __metadata:
   linkType: hard
 
 "postcss-custom-properties@npm:^13.1.5":
-  version: 13.1.5
-  resolution: "postcss-custom-properties@npm:13.1.5"
+  version: 13.2.1
+  resolution: "postcss-custom-properties@npm:13.2.1"
   dependencies:
-    "@csstools/cascade-layer-name-parser": ^1.0.2
-    "@csstools/css-parser-algorithms": ^2.1.1
+    "@csstools/cascade-layer-name-parser": ^1.0.3
+    "@csstools/css-parser-algorithms": ^2.3.0
     "@csstools/css-tokenizer": ^2.1.1
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: 60b62a8a6f02864264171d5d7fb43c235334f513e3f5fb4bb013f46e93e1ecb302fd19c27ce47680da85ea285e0a6ffcd7a12136204acdfd11f4bea880b8dbe1
+  checksum: 567bbaa7f8f2f3b970bb48230578788d63e395bdb3ab5957116496a94dec1f20268863852d5bd9f29e7409a062a069f17e7983c0ed1510aa492279993610ea37
   languageName: node
   linkType: hard
 
