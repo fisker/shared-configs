@@ -4390,14 +4390,14 @@ __metadata:
   linkType: hard
 
 "git-semver-tags@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "git-semver-tags@npm:5.0.0"
+  version: 5.0.1
+  resolution: "git-semver-tags@npm:5.0.1"
   dependencies:
     meow: ^8.1.2
-    semver: ^6.3.0
+    semver: ^7.0.0
   bin:
     git-semver-tags: cli.js
-  checksum: 837d47ba46711e464fbddc6850adb1d8e715e1529ef0951171cbd7fcba3e44b2cb8011f66a9c9e1b86d687178a55258b061fbedf7c23afdc3f116f26be565aa4
+  checksum: c181e1d9e7649fd90e6c347f400f791db08b236265d79874dfa60f09ca893fa7a4fceebf3fd5f01443705e7eac5c73c5235eb96c6bc4a39eb37746a1d7c49ec4
   languageName: node
   linkType: hard
 
