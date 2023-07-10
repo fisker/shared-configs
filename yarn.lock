@@ -9885,8 +9885,8 @@ __metadata:
   linkType: hard
 
 "which-typed-array@npm:^1.1.9":
-  version: 1.1.9
-  resolution: "which-typed-array@npm:1.1.9"
+  version: 1.1.10
+  resolution: "which-typed-array@npm:1.1.10"
   dependencies:
     available-typed-arrays: ^1.0.5
     call-bind: ^1.0.2
@@ -9894,7 +9894,7 @@ __metadata:
     gopd: ^1.0.1
     has-tostringtag: ^1.0.0
     is-typed-array: ^1.1.10
-  checksum: fe0178ca44c57699ca2c0e657b64eaa8d2db2372a4e2851184f568f98c478ae3dc3fdb5f7e46c384487046b0cf9e23241423242b277e03e8ba3dabc7c84c98ef
+  checksum: 149f54f5d11773ce938c60a2c36306720a1824eccb62bda0620170932c2783fa50ad0226254c5741a962e35c7ccba5f4e4c402b8618cb3b4f2cf47bf5e6ade31
   languageName: node
   linkType: hard
 
