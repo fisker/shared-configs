@@ -2,7 +2,7 @@ import test from 'ava'
 import prettier from 'prettier'
 import options from './src/index.mjs'
 
-const prettierOptions = prettier.getSupportInfo().options
+const {options: prettierOptions} = await prettier.getSupportInfo()
 const {overrides = []} = options
 
 function parseOptions(options) {
