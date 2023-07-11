@@ -7,7 +7,7 @@ import options from '../src/default-config.mjs'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
-const prettierOptions = prettier.getSupportInfo().options
+const {options: prettierOptions} = await prettier.getSupportInfo()
 
 const OPTIONS_START_MARK = '<!-- options start -->'
 const OPTIONS_END_MARK = '<!-- options end -->'
