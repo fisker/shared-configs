@@ -75,19 +75,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.22.7":
-  version: 7.22.7
-  resolution: "@babel/generator@npm:7.22.7"
-  dependencies:
-    "@babel/types": ^7.22.5
-    "@jridgewell/gen-mapping": ^0.3.2
-    "@jridgewell/trace-mapping": ^0.3.17
-    jsesc: ^2.5.1
-  checksum: cee15558888bdf5564e19cfaf95101b2910fa425f30cc1a25ac9b8621bd62b63544eb1b36ad89c80b5e41915699219f78712cab128d1f7e3da6a21fbf4143927
-  languageName: node
-  linkType: hard
-
-"@babel/generator@npm:^7.22.9":
+"@babel/generator@npm:^7.22.7, @babel/generator@npm:^7.22.9":
   version: 7.22.9
   resolution: "@babel/generator@npm:7.22.9"
   dependencies:
