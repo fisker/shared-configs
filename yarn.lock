@@ -836,7 +836,7 @@ __metadata:
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
   dependencies:
     read-pkg: 8.0.0
-    write-pkg: 5.1.0
+    write-pkg: 6.0.0
   languageName: unknown
   linkType: soft
 
@@ -2956,6 +2956,13 @@ __metadata:
   version: 0.1.4
   resolution: "deep-is@npm:0.1.4"
   checksum: edb65dd0d7d1b9c40b2f50219aef30e116cedd6fc79290e740972c132c09106d2e80aa0bc8826673dd5a00222d4179c84b36a790eef63a4c4bca75a37ef90804
+  languageName: node
+  linkType: hard
+
+"deepmerge-ts@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "deepmerge-ts@npm:5.1.0"
+  checksum: 6b57db93c2985e4a35f24b2451db31715050d143988b7d6346f4049c9aec21a6c289514b88d3ee3d6e0697e72ef5d96ff0bbb7cb75422d56fee55ee85c7168e7
   languageName: node
   linkType: hard
 
@@ -8176,7 +8183,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:8.0.0":
+"read-pkg@npm:8.0.0, read-pkg@npm:^8.0.0":
   version: 8.0.0
   resolution: "read-pkg@npm:8.0.0"
   dependencies:
@@ -9535,14 +9542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^2.12.1":
-  version: 2.19.0
-  resolution: "type-fest@npm:2.19.0"
-  checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^3.8.0":
+"type-fest@npm:^3.13.0, type-fest@npm:^3.8.0":
   version: 3.13.0
   resolution: "type-fest@npm:3.13.0"
   checksum: f7be142ae1ad0582eafd52d085350799c8cd918c15455896a06c82c147b61f8cea58892bedf1348943478e37740562219375b3b59fd855db99cd2b2766510f98
@@ -9987,14 +9987,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-pkg@npm:5.1.0":
-  version: 5.1.0
-  resolution: "write-pkg@npm:5.1.0"
+"write-pkg@npm:6.0.0":
+  version: 6.0.0
+  resolution: "write-pkg@npm:6.0.0"
   dependencies:
+    deepmerge-ts: ^5.1.0
+    read-pkg: ^8.0.0
     sort-keys: ^5.0.0
-    type-fest: ^2.12.1
+    type-fest: ^3.13.0
     write-json-file: ^5.0.0
-  checksum: b29138f27450c64ce0f3bb250e04f5696efb7ed8583be96ca25cc50d3aa4913851d8dc501f655dd40c922ebb02c36d73221b85263e48bdbea4c9c33ffe9bfef4
+  checksum: 4af8a88516603ead280827019a6681d0a450e1e57c5626efca57889121cedc3558e7b80c4881c16350f12364d3d31a367f59bc487268635b185d9da4f332bf6b
   languageName: node
   linkType: hard
 
