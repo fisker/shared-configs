@@ -5359,15 +5359,15 @@ __metadata:
   linkType: hard
 
 "is-typed-array@npm:^1.1.10, is-typed-array@npm:^1.1.9":
-  version: 1.1.10
-  resolution: "is-typed-array@npm:1.1.10"
+  version: 1.1.11
+  resolution: "is-typed-array@npm:1.1.11"
   dependencies:
     available-typed-arrays: ^1.0.5
     call-bind: ^1.0.2
     for-each: ^0.3.3
     gopd: ^1.0.1
     has-tostringtag: ^1.0.0
-  checksum: aac6ecb59d4c56a1cdeb69b1f129154ef462bbffe434cb8a8235ca89b42f258b7ae94073c41b3cb7bce37f6a1733ad4499f07882d5d5093a7ba84dfc4ebb8017
+  checksum: 19e442eb1c29d7701d7ab0de391924dd6576d5efba125b5468c87f0b7f408154d7f9405356ccda419084a20e5fb83e03128d7d48d674497419d4bd10cdd5e8cf
   languageName: node
   linkType: hard
 
