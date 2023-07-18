@@ -59,7 +59,7 @@
     "prettier-format": "3.2.0",
     "rollup": "3.26.3",
     "sort-package-json": "2.5.1",
-    "write-prettier-file": "2.2.0"
+    "write-prettier-file": "3.0.0"
   },
   "packageManager": "yarn@3.6.1",
   "publishConfig": {

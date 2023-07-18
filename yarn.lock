@@ -863,7 +863,7 @@ __metadata:
     prettier-format: 3.2.0
     rollup: 3.26.3
     sort-package-json: 2.5.1
-    write-prettier-file: 2.2.0
+    write-prettier-file: 3.0.0
   languageName: unknown
   linkType: soft
 
@@ -4875,13 +4875,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-from@npm:4.0.0":
-  version: 4.0.0
-  resolution: "import-from@npm:4.0.0"
-  checksum: 1fa29c05b048da18914e91d9a529e5d9b91774bebbfab10e53f59bcc1667917672b971cf102fee857f142e5e433ce69fa1f0a596e1c7d82f9947a5ec352694b9
-  languageName: node
-  linkType: hard
-
 "import-local@npm:3.1.0":
   version: 3.1.0
   resolution: "import-local@npm:3.1.0"
@@ -7959,16 +7952,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-format@npm:3.1.0":
-  version: 3.1.0
-  resolution: "prettier-format@npm:3.1.0"
-  dependencies:
-    import-from: 4.0.0
-    prettier: 2.6.1
-  checksum: 5eeb113d03feb489b09f71083f9aa050be03252732ae86f3122f9130d28417d28e87e0f2e073a4bd45a418f959bc293b21f4f3aaefc1f0c2e0dc663d450a9621
-  languageName: node
-  linkType: hard
-
 "prettier-format@npm:3.2.0":
   version: 3.2.0
   resolution: "prettier-format@npm:3.2.0"
@@ -7985,15 +7968,6 @@ __metadata:
   dependencies:
     fast-diff: ^1.1.2
   checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
-  languageName: node
-  linkType: hard
-
-"prettier@npm:2.6.1":
-  version: 2.6.1
-  resolution: "prettier@npm:2.6.1"
-  bin:
-    prettier: bin-prettier.js
-  checksum: 78be1f8a3ddfad7c3d8a854b6c8941a3bb1ddfca4225c38d778e0fe1029a55368f71b3bbefff82c689015fbb4d391ec44add957f01308ad2725e01a7c1f37cb6
   languageName: node
   linkType: hard
 
@@ -9991,13 +9965,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-prettier-file@npm:2.2.0":
-  version: 2.2.0
-  resolution: "write-prettier-file@npm:2.2.0"
+"write-prettier-file@npm:3.0.0":
+  version: 3.0.0
+  resolution: "write-prettier-file@npm:3.0.0"
   dependencies:
-    prettier-format: 3.1.0
+    prettier-format: 3.2.0
     url-or-path: 2.1.0
-  checksum: c336793af6f3d81c61274f933a4984f548c35f1f6e8838bb927e4577ce13179fd6317aea37955c682296179049a4bb6cdd8590e43d627bfd1085de6e43532e48
+  checksum: b365f94f33f7e7caff4c205720b93eda06e9786e41fe01867579b3fe5c10fdeec6536c66a6495aae206b685707edcf0f8bc8ce414d4080afcfe00721cef6c14e
   languageName: node
   linkType: hard
 
