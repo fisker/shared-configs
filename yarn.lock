@@ -2860,9 +2860,9 @@ __metadata:
   linkType: hard
 
 "cssdb@npm:^7.6.0":
-  version: 7.6.0
-  resolution: "cssdb@npm:7.6.0"
-  checksum: 3b63c87f5e1ac49a131437165d62a7b850a003e6eca00d4dd66cda41269386464ead7e67ec5da21f7d612134a7a264a85795f496529baaa6a9b098eb6f3d8ec4
+  version: 7.7.0
+  resolution: "cssdb@npm:7.7.0"
+  checksum: 973b483fdd17e86fe24609297cdbee0b44ff3ba5d3b118bfc65ff98441300357cd853e7d7365b9cfecc779750bca844daa5c45779efdd098ac9c4841142a6213
   languageName: node
   linkType: hard
 
