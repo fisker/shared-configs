@@ -885,7 +885,7 @@ __metadata:
     stylelint-config-recommended-vue: 1.5.0
     stylelint-config-standard: 34.0.0
     stylelint-config-standard-scss: 10.0.0
-    stylelint-prettier: 4.0.1
+    stylelint-prettier: 4.0.2
     stylelint-scss: 5.0.1
   peerDependencies:
     prettier: "*"
@@ -9200,15 +9200,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-prettier@npm:4.0.1":
-  version: 4.0.1
-  resolution: "stylelint-prettier@npm:4.0.1"
+"stylelint-prettier@npm:4.0.2":
+  version: 4.0.2
+  resolution: "stylelint-prettier@npm:4.0.2"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
     prettier: ">=3.0.0"
     stylelint: ">=15.8.0"
-  checksum: 25d38f0f0c5fd9687b8f4f1a48db1da8a697c5b5fa6e26971c2825ba9166e15d376a2a0d9344aa485ef2a0c2c3b476a1da81f17608eff6f474523771e55ba523
+  checksum: b60112c10b8f31456211d65b4c17238fdaf46ee9f80ab035621f2eb86b47505a4b9582d99f4334dfe370cc8104de870f7fcc256737d0f2e68f4357239f739054
   languageName: node
   linkType: hard
 
