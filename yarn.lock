@@ -301,17 +301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-calc@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@csstools/css-calc@npm:1.1.2"
-  peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.3.0
-    "@csstools/css-tokenizer": ^2.1.1
-  checksum: 446f376fe9f079dafb103d805e047c9a5de53655f03518eae1bd9e48232596765672469b016eb24f5978ea9cec45d4d7616ea198e27f499b185d913abc8a1837
-  languageName: node
-  linkType: hard
-
-"@csstools/css-calc@npm:^1.1.3":
+"@csstools/css-calc@npm:^1.1.2, @csstools/css-calc@npm:^1.1.3":
   version: 1.1.3
   resolution: "@csstools/css-calc@npm:1.1.3"
   peerDependencies:
