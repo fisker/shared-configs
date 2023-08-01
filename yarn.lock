@@ -352,14 +352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-tokenizer@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@csstools/css-tokenizer@npm:2.1.1"
-  checksum: d6ac4b08d7fdfc146755542f00b208af7248efd6cf2eb0f0f7d2ba3583a81f08ed9be6047d78b046925708b5bd0886f487edeeee2f90f0f34030dcbef4122d0e
-  languageName: node
-  linkType: hard
-
-"@csstools/css-tokenizer@npm:^2.2.0":
+"@csstools/css-tokenizer@npm:^2.1.1, @csstools/css-tokenizer@npm:^2.2.0":
   version: 2.2.0
   resolution: "@csstools/css-tokenizer@npm:2.2.0"
   checksum: d6b3ead496e187cbf89b5e08a55be7a8393676c2b93526f7f051418376d08146f9f533708aca5eec6a07d925ea6a7e65b0e0bb36aabeba657666e968b8d89cd0
