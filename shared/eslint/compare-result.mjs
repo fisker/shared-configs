@@ -14,9 +14,7 @@ async function getResult(compare) {
     ...new Set([...Object.keys(localRules), ...Object.keys(foreignRules)]),
   ]
     .sort(sortRuleId)
-    .filter((ruleId) => {
-      return filter(parseRuleId(ruleId), localRules, foreignRules)
-    })
+    .filter((ruleId) => filter(parseRuleId(ruleId), localRules, foreignRules))
     .map((ruleId) => {
       const local = localRules[ruleId] || {}
       const foreign = foreignRules[ruleId] || {}

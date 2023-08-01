@@ -1,7 +1,7 @@
-import {STYLELINT} from '../commands.js'
+import {STYLELINT, PRETTIER} from '../commands.js'
 
 const config = {
-  commands: [STYLELINT],
+  commands: [STYLELINT, PRETTIER],
 }
 
 export default config

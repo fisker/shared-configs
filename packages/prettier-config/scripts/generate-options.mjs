@@ -62,7 +62,7 @@ const content = [
 
 const readmeFile = path.join(dirname, '../readme.md')
 
-prettierFile({
+await prettierFile({
   file: readmeFile,
   process(readme) {
     return readme.replace(

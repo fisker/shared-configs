@@ -1,6 +1,8 @@
+import {PRETTIER} from '../commands.js'
+
 const config = {
   extensions: 'ts,tsx',
-  commands: '',
+  commands: [PRETTIER],
 }
 
 export default config

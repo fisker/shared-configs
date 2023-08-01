@@ -6,9 +6,8 @@ import listPrinter from './markdown-list-printer.mjs'
 import isEqualRuleValue from './is-equal-rule-value.mjs'
 
 function getDiffOnlyFilter(filter) {
-  return (...arguments_) => {
-    return !isEqualRuleValue(...arguments_) && filter(...arguments_)
-  }
+  return (...arguments_) =>
+    !isEqualRuleValue(...arguments_) && filter(...arguments_)
 }
 
 async function printCompareResult(destination_, compares, configs) {
@@ -52,7 +51,8 @@ async function printCompareResult(destination_, compares, configs) {
 
     const destination = path.join(destination_, `${file}.md`)
 
-    writePrettierFile(destination, content)
+    // eslint-disable-next-line no-await-in-loop
+    await writePrettierFile(destination, content)
 
     console.log(`saved: ${destination}`)
   }

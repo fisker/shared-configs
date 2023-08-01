@@ -14,11 +14,6 @@ const configs = {
       require.resolve(module),
     ),
   },
-  'airbnb + prettier': {
-    extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(
-      (module) => require.resolve(module),
-    ),
-  },
 
   // plugins
   'eslint-comments/recommended': {
@@ -36,14 +31,6 @@ const configs = {
     extends: ['plugin:unicorn/recommended'],
   },
 
-  'unicorn/recommended + prettier': {
-    plugins: ['unicorn'],
-    extends: [
-      'plugin:unicorn/recommended',
-      require.resolve('eslint-config-prettier'),
-    ],
-  },
-
   'import/error + import/warning': {
     plugins: ['import'],
     extends: ['plugin:import/errors', 'plugin:import/warnings'],
@@ -59,14 +46,6 @@ const compares = [
     file: 'compare-with-airbnb',
     local: 'fisker',
     foreign: 'airbnb',
-  },
-  {
-    filter({prefix}) {
-      return !prefix || prefix === 'import'
-    },
-    file: 'compare-with-airbnb-prettier',
-    local: 'fisker',
-    foreign: 'airbnb + prettier',
   },
   // plugins
   {
@@ -92,14 +71,6 @@ const compares = [
     file: 'compare-with-unicorn',
     local: 'fisker',
     foreign: 'unicorn/recommended',
-  },
-  {
-    filter({prefix}) {
-      return prefix === 'unicorn'
-    },
-    file: 'compare-with-unicorn-prettier',
-    local: 'fisker',
-    foreign: 'unicorn/recommended + prettier',
   },
   {
     filter({prefix}) {

@@ -11,7 +11,7 @@ module.exports = {
   root: true,
   env: {},
   parserOptions: {},
-  extends: ['@fisker'],
+  extends: [require.resolve('./packages/eslint-config/index.js')],
   settings: {},
   rules: {
     'import/no-extraneous-dependencies': 'off',

@@ -1,4 +1,4 @@
-import {PRETTIER, MARKDOWNLINT} from '../commands.js'
+import {MARKDOWNLINT, PRETTIER} from '../commands.js'
 
 // markdown files
 // first prettier then lint
@@ -6,7 +6,7 @@ import {PRETTIER, MARKDOWNLINT} from '../commands.js'
 const config = {
   // more ext: mdown,mdwn,mkd,mkdn,mkdown
   extensions: 'md,markdown',
-  commands: [PRETTIER, MARKDOWNLINT],
+  commands: [MARKDOWNLINT, PRETTIER],
 }
 
 export default config
