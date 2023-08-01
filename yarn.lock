@@ -274,17 +274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/cascade-layer-name-parser@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@csstools/cascade-layer-name-parser@npm:1.0.3"
-  peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.3.0
-    "@csstools/css-tokenizer": ^2.1.1
-  checksum: 5fe06884c2247af50345a1044438af62065c11fe5333dbe46e560182484333f9e2206829ae3577e8d4a4f04a98fe0bfa714762af5326a7354924818492f3d9c8
-  languageName: node
-  linkType: hard
-
-"@csstools/cascade-layer-name-parser@npm:^1.0.4":
+"@csstools/cascade-layer-name-parser@npm:^1.0.3, @csstools/cascade-layer-name-parser@npm:^1.0.4":
   version: 1.0.4
   resolution: "@csstools/cascade-layer-name-parser@npm:1.0.4"
   peerDependencies:
