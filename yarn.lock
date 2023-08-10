@@ -1440,11 +1440,11 @@ __metadata:
   linkType: hard
 
 "@sigstore/bundle@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@sigstore/bundle@npm:1.0.0"
+  version: 1.1.0
+  resolution: "@sigstore/bundle@npm:1.1.0"
   dependencies:
     "@sigstore/protobuf-specs": ^0.2.0
-  checksum: 9902b9fcd298127876646dd9600e2f55f187589027579e3779d93d014c618a80aa061bf5a72cd4ca0a41008e2a4d3f0099f5185fc695d1a09b4911824e7810a1
+  checksum: 9bdd829f2867de6c03a19c5a7cff2c864887a9ed6e1c3438eb6659e838fde0b449fe83b1ca21efa00286a80c71e0144e20c0d9c415eead12e97d149285245c5a
   languageName: node
   linkType: hard
 
