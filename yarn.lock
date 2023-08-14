@@ -6722,11 +6722,11 @@ __metadata:
   linkType: hard
 
 "npm-install-checks@npm:^6.0.0":
-  version: 6.1.1
-  resolution: "npm-install-checks@npm:6.1.1"
+  version: 6.2.0
+  resolution: "npm-install-checks@npm:6.2.0"
   dependencies:
     semver: ^7.1.1
-  checksum: 8fb3ed05cfd3fdeb20d2fd22d45a89cd509afac3b05d188af7d9bcdf07ed745d1346943692782a4dca4c42b2c1fec34eb42fdf20e2ef8bb5b249fbb5a811ce3b
+  checksum: 2f91f71e07111ef89c6f4ad37b89933322567be51ca3a4ec5e972cc5edbc8d1ac6059f3b8904d2bab9893df1567366230eda3d0fe3bcf0de610c48f3f57f17a8
   languageName: node
   linkType: hard
 
