@@ -2934,9 +2934,9 @@ __metadata:
   linkType: hard
 
 "cssdb@npm:^7.7.0":
-  version: 7.7.0
-  resolution: "cssdb@npm:7.7.0"
-  checksum: 973b483fdd17e86fe24609297cdbee0b44ff3ba5d3b118bfc65ff98441300357cd853e7d7365b9cfecc779750bca844daa5c45779efdd098ac9c4841142a6213
+  version: 7.7.1
+  resolution: "cssdb@npm:7.7.1"
+  checksum: 61e3094a3c5cc94c6965ddd1b91af3383f6fb24fe96945e44954c548612a24a06713fe384e4da5efcd37e6383e534e6193aedcac9f2441b207d3c04dcc1aabf7
   languageName: node
   linkType: hard
 
