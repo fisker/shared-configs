@@ -4242,9 +4242,9 @@ __metadata:
   linkType: hard
 
 "fraction.js@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "fraction.js@npm:4.2.0"
-  checksum: 8c76a6e21dedea87109d6171a0ac77afa14205794a565d71cb10d2925f629a3922da61bf45ea52dbc30bce4d8636dc0a27213a88cbd600eab047d82f9a3a94c5
+  version: 4.3.2
+  resolution: "fraction.js@npm:4.3.2"
+  checksum: 21820632b85240dc638726282fd3fab973a2a90a6e396e57d48d154558b42ba1fb09667480067e1bc87488f7bed69c0a21f2cafe31657e21e6ffdd7fca7d04bf
   languageName: node
   linkType: hard
 
