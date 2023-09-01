@@ -899,7 +899,7 @@ __metadata:
     "@fisker/markdownlint-cli2-config": "workspace:*"
     "@fisker/prettier-config": 5.0.6
     ava: 5.3.1
-    del-cli: 5.0.1
+    del-cli: 5.1.0
     eslint: 8.47.0
     esm-utils: 4.1.2
     husky: 8.0.3
@@ -3092,22 +3092,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"del-cli@npm:5.0.1":
-  version: 5.0.1
-  resolution: "del-cli@npm:5.0.1"
+"del-cli@npm:5.1.0":
+  version: 5.1.0
+  resolution: "del-cli@npm:5.1.0"
   dependencies:
-    del: ^7.0.0
+    del: ^7.1.0
     meow: ^10.1.3
   bin:
     del: cli.js
     del-cli: cli.js
-  checksum: bc6bc9d37e2b0eaa3c4ba1c38f85bceb26ba4d7524c0e823b9a32d8a0ee02d1612821fcc136a8c0590ba6f4ebea314cde1d87d443e7554f5ade86939e2b7eec6
+  checksum: 7a8953d3d22716d08080d7344ce9b66fe1608ac4aa32b6106ba825eb986ed2a31ba7826c2f269a2060f013885274c8935628bb6009336adc29a36413dc660741
   languageName: node
   linkType: hard
 
-"del@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "del@npm:7.0.0"
+"del@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "del@npm:7.1.0"
   dependencies:
     globby: ^13.1.2
     graceful-fs: ^4.2.10
@@ -3117,7 +3117,7 @@ __metadata:
     p-map: ^5.5.0
     rimraf: ^3.0.2
     slash: ^4.0.0
-  checksum: 33e5077f18b5dfbe81971d1f8a2cd8bf676dd5ede491bab85ec17a4a1d59001bd3ec47fd38e9a4ae01a3c98c07b98c7b3dc56190b86d88926798802d7858d827
+  checksum: 93527e78e95125809ff20a112814b00648ed64af204be1a565862698060c9ec8f5c5fe1a4866725acfde9b0da6423f4b7a7642c1d38cd4b05cbeb643a7b089e3
   languageName: node
   linkType: hard
 
