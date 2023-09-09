@@ -919,7 +919,7 @@ __metadata:
     prettier-format: 4.0.0
     rollup: 3.29.0
     sort-package-json: 2.5.1
-    write-prettier-file: 3.0.2
+    write-prettier-file: 3.0.3
   languageName: unknown
   linkType: soft
 
@@ -8055,16 +8055,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-format@npm:3.2.3":
-  version: 3.2.3
-  resolution: "prettier-format@npm:3.2.3"
-  dependencies:
-    import-meta-resolve: 3.0.0
-    prettier: 3.0.0
-  checksum: 4cf2e4ad4076bf829af3805960318408b2ba77b1093e0811b500ff18f02fde1069ad1efe07b46ed16be7e7c1e706abf316e7cef292b0354ea45e29717d4c722b
-  languageName: node
-  linkType: hard
-
 "prettier-format@npm:4.0.0":
   version: 4.0.0
   resolution: "prettier-format@npm:4.0.0"
@@ -8082,15 +8072,6 @@ __metadata:
   dependencies:
     fast-diff: ^1.1.2
   checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.0.0":
-  version: 3.0.0
-  resolution: "prettier@npm:3.0.0"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
   languageName: node
   linkType: hard
 
@@ -10079,13 +10060,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-prettier-file@npm:3.0.2":
-  version: 3.0.2
-  resolution: "write-prettier-file@npm:3.0.2"
+"write-prettier-file@npm:3.0.3":
+  version: 3.0.3
+  resolution: "write-prettier-file@npm:3.0.3"
   dependencies:
-    prettier-format: 3.2.3
+    prettier-format: 4.0.0
     url-or-path: 2.1.0
-  checksum: 1df5d32ca2f32de509b4743f1e8ebfca144fa3bf8594632d5ecdce2ef2f308200c2c0f2c04789563c63d3540a37cfeb1d3887c0849f2e69bf1a6c9d5071e9d6f
+  checksum: 584dacc6b86450245035a884f2d325d097aeb74a7bf70142e2e7b49c70c4bd403d7dc9840a9c8b27cf85bd9a39a2b45d143ae205fc9e8d9930d0ed393d1037ae
   languageName: node
   linkType: hard
 
