@@ -916,7 +916,7 @@ __metadata:
     mem: 9.0.2
     npm-run-all: 4.1.5
     prettier: 3.0.3
-    prettier-format: 3.2.3
+    prettier-format: 4.0.0
     rollup: 3.29.0
     sort-package-json: 2.5.1
     write-prettier-file: 3.0.2
@@ -8062,6 +8062,17 @@ __metadata:
     import-meta-resolve: 3.0.0
     prettier: 3.0.0
   checksum: 4cf2e4ad4076bf829af3805960318408b2ba77b1093e0811b500ff18f02fde1069ad1efe07b46ed16be7e7c1e706abf316e7cef292b0354ea45e29717d4c722b
+  languageName: node
+  linkType: hard
+
+"prettier-format@npm:4.0.0":
+  version: 4.0.0
+  resolution: "prettier-format@npm:4.0.0"
+  dependencies:
+    import-meta-resolve: 3.0.0
+    prettier: 3.0.3
+    url-or-path: 2.1.0
+  checksum: 37b0b3c904175615606cb46d87b074e076aa5a97e21d9de840add84ce0f7ca1a67a7c66c9303c5ee2065abc18e11831abd1cb9dae99f09f9e101bda7f451ecb7
   languageName: node
   linkType: hard
 
