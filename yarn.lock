@@ -746,9 +746,9 @@ __metadata:
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.4.0, @eslint-community/regexpp@npm:^4.5.0, @eslint-community/regexpp@npm:^4.6.0, @eslint-community/regexpp@npm:^4.6.1":
-  version: 4.6.2
-  resolution: "@eslint-community/regexpp@npm:4.6.2"
-  checksum: a3c341377b46b54fa228f455771b901d1a2717f95d47dcdf40199df30abc000ba020f747f114f08560d119e979d882a94cf46cfc51744544d54b00319c0f2724
+  version: 4.8.1
+  resolution: "@eslint-community/regexpp@npm:4.8.1"
+  checksum: 82d62c845ef42b810f268cfdc84d803a2da01735fb52e902fd34bdc09f92464a094fd8e4802839874b000b2f73f67c972859e813ba705233515d3e954f234bf2
   languageName: node
   linkType: hard
 
