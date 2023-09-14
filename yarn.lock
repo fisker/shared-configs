@@ -1270,12 +1270,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/devkit@npm:16.6.0":
-  version: 16.6.0
-  resolution: "@nrwl/devkit@npm:16.6.0"
+"@nrwl/devkit@npm:16.8.1":
+  version: 16.8.1
+  resolution: "@nrwl/devkit@npm:16.8.1"
   dependencies:
-    "@nx/devkit": 16.6.0
-  checksum: 37ebdd6b0d59202e5609e9bd1c38db603cf8aabdd5e06d1301512abaca7383b51c9f19b93c83bca50deafc8920cb7af7ad4f5905a6540c24597a0d23ac88f78b
+    "@nx/devkit": 16.8.1
+  checksum: c721b33853db99d6456d5539d601c2121ee1268e434c0ef37130be38f4a3d060b1fca47980f559338072442e4be3bb9c69c0ff4cc0756a0dfae248f91004125f
   languageName: node
   linkType: hard
 
@@ -1291,19 +1291,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nx/devkit@npm:16.6.0, @nx/devkit@npm:>=16.5.1 < 17":
-  version: 16.6.0
-  resolution: "@nx/devkit@npm:16.6.0"
+"@nx/devkit@npm:16.8.1, @nx/devkit@npm:>=16.5.1 < 17":
+  version: 16.8.1
+  resolution: "@nx/devkit@npm:16.8.1"
   dependencies:
-    "@nrwl/devkit": 16.6.0
+    "@nrwl/devkit": 16.8.1
     ejs: ^3.1.7
+    enquirer: ~2.3.6
     ignore: ^5.0.4
     semver: 7.5.3
     tmp: ~0.2.1
     tslib: ^2.3.0
   peerDependencies:
     nx: ">= 15 <= 17"
-  checksum: 015d60bbf3f09384b3184093083397edeb11b836454169403625808ec1a098b4de86e18ed21365c53b0f7e4d6fcd3a17b8d6c18ad57f9e48b61702158aa8b322
+  checksum: 92579ccc3f3cc7bdc0f23a26c2a1f358cadb4a06e7c166c6cca569f63e0715f74748e3657c40c252fded89786f870d88127211fc4c1158a58e5c528d39214d30
   languageName: node
   linkType: hard
 
