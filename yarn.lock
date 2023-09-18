@@ -7781,16 +7781,16 @@ __metadata:
   linkType: hard
 
 "postcss-custom-selectors@npm:^7.1.4":
-  version: 7.1.4
-  resolution: "postcss-custom-selectors@npm:7.1.4"
+  version: 7.1.5
+  resolution: "postcss-custom-selectors@npm:7.1.5"
   dependencies:
-    "@csstools/cascade-layer-name-parser": ^1.0.3
-    "@csstools/css-parser-algorithms": ^2.3.0
-    "@csstools/css-tokenizer": ^2.1.1
+    "@csstools/cascade-layer-name-parser": ^1.0.4
+    "@csstools/css-parser-algorithms": ^2.3.1
+    "@csstools/css-tokenizer": ^2.2.0
     postcss-selector-parser: ^6.0.13
   peerDependencies:
     postcss: ^8.4
-  checksum: dfb5d82f52ddfdaca0174f1840e5da27c0a184ad552bcb800c060b6a67d95efc98d9a7179d6a863a669c8ad1d34b5f006a211e536657b9aea1e97dee5cfe7ce1
+  checksum: 416561fc471e4856ec696015262d0502042413ce09f13cc47bced72b450a6e01c3be4f9631bc87c3eea043df90b6e54cebc5e078e97b406467ff90f093b38adb
   languageName: node
   linkType: hard
 
