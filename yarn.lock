@@ -639,13 +639,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-normalize-display-values@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-normalize-display-values@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-normalize-display-values@npm:3.0.1"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: fcb1c3f862b5966558e1ea91a8e91db86afc34cfe5cc4c2d19a4126153b87a041533dec9a8887f0fa284c361de30a38262799aa83dcc789ed336abc9b17f8d97
+  checksum: 895873a7ec7551962fd2c03207b7899cc0f6a575b9bf816de49afff15b28dd751e8cf6fbf2a3bfb8372993309d600b3f35236ddf249a59ecf7c981ec72628305
   languageName: node
   linkType: hard
 
