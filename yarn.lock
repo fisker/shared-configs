@@ -674,17 +674,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/postcss-progressive-custom-properties@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.0.1"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 4bb03459c5f39fcd77518c8229026b68cc24746e44234604fc4f93ea4c6fccf01d23e8cad6043a23e1bc7ce3b677f5d038b9b63ea5971231bb7787535fa035ed
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-relative-color-syntax@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@csstools/postcss-relative-color-syntax@npm:2.0.3"
+  version: 2.0.4
+  resolution: "@csstools/postcss-relative-color-syntax@npm:2.0.4"
   dependencies:
     "@csstools/css-color-parser": ^1.3.1
     "@csstools/css-parser-algorithms": ^2.3.1
     "@csstools/css-tokenizer": ^2.2.0
-    "@csstools/postcss-progressive-custom-properties": ^3.0.0
+    "@csstools/postcss-progressive-custom-properties": ^3.0.1
   peerDependencies:
     postcss: ^8.4
-  checksum: 02465a12737805474e0ff0dbe83a770aaa53f6b7e3a82f47c24cc0a89e392c958e04194e1938e341265748aae1aacc0a59b806aa2c53384a3875663fecf1b6f3
+  checksum: 5c1b13e8e17e206547b0cef55d227d66e5a1cf96a11eb91a2ea176cad3c6dd5abec88c742ba90d4812f3cbbd9ef88d2a80b31e6858345e2966393ab7f3fd784f
   languageName: node
   linkType: hard
 
