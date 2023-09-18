@@ -590,13 +590,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-logical-viewport-units@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@csstools/postcss-logical-viewport-units@npm:2.0.1"
+  version: 2.0.2
+  resolution: "@csstools/postcss-logical-viewport-units@npm:2.0.2"
   dependencies:
     "@csstools/css-tokenizer": ^2.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: f779267989a9e46e7bcf2163a4ae1862d2af171248c31adcd6b1fba73611dbf788d5c58c90c9ef0851db63fa00b2dc09e6883ebc31645ddf5cbbe2da2b7616c0
+  checksum: 6d6a86b41cd846d1298a0bdb39f03ece179bc8e1fb96c9d129658102952a389a6f4110ead25d7d8c65ff74313b59a567a4a2e9000a290777d69892b08742fef1
   languageName: node
   linkType: hard
 
