@@ -546,14 +546,14 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-ic-unit@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-ic-unit@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-ic-unit@npm:3.0.1"
   dependencies:
-    "@csstools/postcss-progressive-custom-properties": ^3.0.0
+    "@csstools/postcss-progressive-custom-properties": ^3.0.1
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: 91bbe46c8691f641d610f8878fa5a8a01cbf7cb8f2b79222c3de4c21c2afa5e82654fd169b507faa424c8cd8711677aadaa978df4d25269b811be36615eebf61
+  checksum: b8120d8e2886cb5fc3276d576b7351821665575d0f2f3cf58c2a376352a19f21c88087ebb8f55bdfe094b2d4f9ef25e5bc8e0944e1761760b4f8c34032b04d9a
   languageName: node
   linkType: hard
 
@@ -671,6 +671,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 4b92e5ae893c45bfd4109a0c5b90180af9df121e38a1ad0e828c29bec4f487b89af9140a1d9c58b83ebc28303b733f62926c8bb8cc72ac9db6e10a1e7a31c9ee
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.0.1"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 4bb03459c5f39fcd77518c8229026b68cc24746e44234604fc4f93ea4c6fccf01d23e8cad6043a23e1bc7ce3b677f5d038b9b63ea5971231bb7787535fa035ed
   languageName: node
   linkType: hard
 
