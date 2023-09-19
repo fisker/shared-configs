@@ -713,14 +713,14 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-text-decoration-shorthand@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@csstools/postcss-text-decoration-shorthand@npm:3.0.2"
+  version: 3.0.3
+  resolution: "@csstools/postcss-text-decoration-shorthand@npm:3.0.3"
   dependencies:
     "@csstools/color-helpers": ^3.0.2
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: ce0eedb04f628b874a20caff68848ca98fc8731852a4da8c0014f093d593f920be3ae024b272444e10cdc3c1779630426d288d6cb57883f2c7b2b0ea9f5ed7c3
+  checksum: c39e4e7aa275f49c2dc565e606bdecc6605eac3fd46c1bdf551b75674034511c666294f935e203c2e0103f7c422c09ccdbbe1a5c3fb16991072744a963a820ad
   languageName: node
   linkType: hard
 
