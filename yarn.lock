@@ -7870,13 +7870,13 @@ __metadata:
   linkType: hard
 
 "postcss-image-set-function@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "postcss-image-set-function@npm:6.0.0"
+  version: 6.0.1
+  resolution: "postcss-image-set-function@npm:6.0.1"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: edea6b3a9cda696bfdbaabe9956e9245e4a9d36eb098dc83b6ba1db59418f350ad18b66e38e8f99fe18c895b71d3d627c3913c097cca2834e4763bf62223cb35
+  checksum: 0a4043591af3b92725f439651330cfb0a43f1388772e7aa4441ceee502e347bd131e71b1bcaa3fc50205195f1e00513d3d515108c4de6f57a60b1b06a28ca9a0
   languageName: node
   linkType: hard
 
