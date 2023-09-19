@@ -664,13 +664,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-progressive-custom-properties@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.0.1"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     postcss: ^8.4
-  checksum: 4b92e5ae893c45bfd4109a0c5b90180af9df121e38a1ad0e828c29bec4f487b89af9140a1d9c58b83ebc28303b733f62926c8bb8cc72ac9db6e10a1e7a31c9ee
+  checksum: 4bb03459c5f39fcd77518c8229026b68cc24746e44234604fc4f93ea4c6fccf01d23e8cad6043a23e1bc7ce3b677f5d038b9b63ea5971231bb7787535fa035ed
   languageName: node
   linkType: hard
 
