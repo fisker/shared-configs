@@ -650,16 +650,16 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-oklab-function@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@csstools/postcss-oklab-function@npm:3.0.3"
+  version: 3.0.4
+  resolution: "@csstools/postcss-oklab-function@npm:3.0.4"
   dependencies:
     "@csstools/css-color-parser": ^1.3.1
     "@csstools/css-parser-algorithms": ^2.3.1
     "@csstools/css-tokenizer": ^2.2.0
-    "@csstools/postcss-progressive-custom-properties": ^3.0.0
+    "@csstools/postcss-progressive-custom-properties": ^3.0.1
   peerDependencies:
     postcss: ^8.4
-  checksum: 4e3c6f6b9388d23d5c7a8c1b35912af354af5ca985552f7a2d01c6efe5a11e0a6ebeeaa4fd5a159c41a76292856f19de1388772718d3d46f91d41ff6bdd61d85
+  checksum: 714a3cd27e2c46a925b74eeb6d1840dc3088655fb49b83aae8632416fcbec0797acde31bdbd9d26ba6707663675ba78a92ccfb12c1f35eec41a5731ed3c32f4f
   languageName: node
   linkType: hard
 
@@ -671,6 +671,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 4b92e5ae893c45bfd4109a0c5b90180af9df121e38a1ad0e828c29bec4f487b89af9140a1d9c58b83ebc28303b733f62926c8bb8cc72ac9db6e10a1e7a31c9ee
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.0.1"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 4bb03459c5f39fcd77518c8229026b68cc24746e44234604fc4f93ea4c6fccf01d23e8cad6043a23e1bc7ce3b677f5d038b9b63ea5971231bb7787535fa035ed
   languageName: node
   linkType: hard
 
