@@ -379,12 +379,12 @@ __metadata:
   linkType: hard
 
 "@csstools/cascade-layer-name-parser@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@csstools/cascade-layer-name-parser@npm:1.0.4"
+  version: 1.0.5
+  resolution: "@csstools/cascade-layer-name-parser@npm:1.0.5"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.3.1
-    "@csstools/css-tokenizer": ^2.2.0
-  checksum: b0a6394b8c6a0d2fdb21192d127888fed2c2a1e96c4f1417b274e41205d880ff3b99c9ad149215a0540e17fd62772e94ae151a7787b22839ebf2924d92f5a2db
+    "@csstools/css-parser-algorithms": ^2.3.2
+    "@csstools/css-tokenizer": ^2.2.1
+  checksum: 91c533690b249fc5a284dcdedcb29b4129cc64d8325895c566c13b795c381d65b4b9829eb2e66df883d5b9468536f6010cccc74c8bf78fbbd85ecc595656c8f6
   languageName: node
   linkType: hard
 
