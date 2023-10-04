@@ -870,7 +870,7 @@ __metadata:
     eslint-plugin-promise: 6.1.1
     eslint-plugin-regexp: 1.15.0
     eslint-plugin-sonarjs: 0.21.0
-    eslint-plugin-sort-class-members: 1.18.0
+    eslint-plugin-sort-class-members: 1.19.0
     eslint-plugin-unicorn: 48.0.1
   peerDependencies:
     eslint: "*"
@@ -3783,12 +3783,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.18.0":
-  version: 1.18.0
-  resolution: "eslint-plugin-sort-class-members@npm:1.18.0"
+"eslint-plugin-sort-class-members@npm:1.19.0":
+  version: 1.19.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.19.0"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: aeeccef0c7c68936225558258a3270cafecad9fbed01551d7140bf725512b98dddf881824693457ca602ada07697307de66e63b851aebdc9709c19a721449403
+  checksum: 7334737eeb1a61d8c98463370acd60d3fddb645dc39c234727bc6961fa4e4954951698454e7cce3688d5933214131c1b7bfb804f926885bac33648082899c759
   languageName: node
   linkType: hard
 
