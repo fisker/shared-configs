@@ -8151,11 +8151,11 @@ __metadata:
   linkType: hard
 
 "postcss-scss@npm:^4.0.7":
-  version: 4.0.7
-  resolution: "postcss-scss@npm:4.0.7"
+  version: 4.0.9
+  resolution: "postcss-scss@npm:4.0.9"
   peerDependencies:
-    postcss: ^8.4.19
-  checksum: 579aa6807bf4934dd9bd3f8a257736c1121e189f2aa23853512e2a1be1005bac0136020d08e626998bcd3537080a1403f7a03a8cae277f3e0e314eb3c779db9c
+    postcss: ^8.4.29
+  checksum: dc358bafc23d52ed3a9a29333808825deba213042be74ece6eae7a61c692f67d0e6691fa7005367b013c01c79562fbb9ef2fe4c0485075233931bd90715f5132
   languageName: node
   linkType: hard
 
