@@ -1737,9 +1737,9 @@ __metadata:
   linkType: hard
 
 "@types/normalize-package-data@npm:^2.4.0, @types/normalize-package-data@npm:^2.4.1":
-  version: 2.4.1
-  resolution: "@types/normalize-package-data@npm:2.4.1"
-  checksum: e87bccbf11f95035c89a132b52b79ce69a1e3652fe55962363063c9c0dae0fe2477ebc585e03a9652adc6f381d24ba5589cc5e51849df4ced3d3e004a7d40ed5
+  version: 2.4.3
+  resolution: "@types/normalize-package-data@npm:2.4.3"
+  checksum: 6f60e157c0fc39b80d80eb9043cdd78e4090f25c5264ef0317f5701648a5712fd453d364569675a19aef44a18c6f14f6e4809bdc0b97a46a0ed9ce4a320bbe42
   languageName: node
   linkType: hard
 
