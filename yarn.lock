@@ -993,7 +993,7 @@ __metadata:
     stylelint-config-standard: 34.0.0
     stylelint-config-standard-scss: 11.0.0
     stylelint-prettier: 4.0.2
-    stylelint-scss: 5.2.1
+    stylelint-scss: 5.3.0
   peerDependencies:
     prettier: "*"
     stylelint: "*"
@@ -9695,9 +9695,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:5.2.1":
-  version: 5.2.1
-  resolution: "stylelint-scss@npm:5.2.1"
+"stylelint-scss@npm:5.3.0":
+  version: 5.3.0
+  resolution: "stylelint-scss@npm:5.3.0"
   dependencies:
     known-css-properties: ^0.28.0
     postcss-media-query-parser: ^0.2.3
@@ -9706,7 +9706,7 @@ __metadata:
     postcss-value-parser: ^4.2.0
   peerDependencies:
     stylelint: ^14.5.1 || ^15.0.0
-  checksum: 50fdff1f6af66b5f4afbb3e4dff0cfe9fbb58fe4649d71eb3feeca206706743f63779ee1f07063e33473f4e0c52389d3ea59b5282e47d90b21fd53ad8967e6a0
+  checksum: 63b7e8ebfaad7d78047868f605909248d17dc6b7ddcf8a4eca420872bf273d95973fde0220a569c5fe3a4f1ec3ed3f9159d22950e92a236fb52d4b186c159a70
   languageName: node
   linkType: hard
 
