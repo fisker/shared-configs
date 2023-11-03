@@ -949,7 +949,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    read-pkg: 8.1.0
+    read-pkg: 9.0.0
     write-pkg: 6.0.0
   languageName: unknown
   linkType: soft
@@ -1740,6 +1740,13 @@ __metadata:
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
   checksum: e87bccbf11f95035c89a132b52b79ce69a1e3652fe55962363063c9c0dae0fe2477ebc585e03a9652adc6f381d24ba5589cc5e51849df4ced3d3e004a7d40ed5
+  languageName: node
+  linkType: hard
+
+"@types/normalize-package-data@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "@types/normalize-package-data@npm:2.4.3"
+  checksum: 6f60e157c0fc39b80d80eb9043cdd78e4090f25c5264ef0317f5701648a5712fd453d364569675a19aef44a18c6f14f6e4809bdc0b97a46a0ed9ce4a320bbe42
   languageName: node
   linkType: hard
 
@@ -5299,6 +5306,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"index-to-position@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "index-to-position@npm:0.1.0"
+  checksum: d72a0694e001998008615d3dd662a49ebfdbdc18a78163e69c284a66553e46e5c5129f1a7fbde561ccef9429ac77a7fa8d577e4e3c99879ce4876a8f776dc0d5
+  languageName: node
+  linkType: hard
+
 "inflight@npm:^1.0.4":
   version: 1.0.6
   resolution: "inflight@npm:1.0.6"
@@ -7721,6 +7735,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"parse-json@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "parse-json@npm:8.0.0"
+  dependencies:
+    "@babel/code-frame": ^7.22.13
+    index-to-position: ^0.1.0
+    json-parse-even-better-errors: ^3.0.0
+    type-fest: ^4.6.0
+  checksum: 273d32b15a0ef5c2cc4278025b3b2ef8984755e3208c484d05571682880c2255d661ca0bd83aa6d0b5b7f944e7a156f6ffed5525ff0a43a5716b78a54d637feb
+  languageName: node
+  linkType: hard
+
 "parse-ms@npm:^3.0.0":
   version: 3.0.0
   resolution: "parse-ms@npm:3.0.0"
@@ -8573,15 +8599,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:8.1.0":
-  version: 8.1.0
-  resolution: "read-pkg@npm:8.1.0"
+"read-pkg@npm:9.0.0":
+  version: 9.0.0
+  resolution: "read-pkg@npm:9.0.0"
   dependencies:
-    "@types/normalize-package-data": ^2.4.1
+    "@types/normalize-package-data": ^2.4.3
     normalize-package-data: ^6.0.0
-    parse-json: ^7.0.0
-    type-fest: ^4.2.0
-  checksum: f4cd164f096e78cf3e338a55f800043524e3055f9b0b826143290002fafc951025fc3cbd6ca683ebaf7945efcfb092d31c683dd252a7871a974662985c723b67
+    parse-json: ^8.0.0
+    type-fest: ^4.6.0
+  checksum: a5a6233607b09891d8f2a70333a56b04db934a7a61b4e3b235594b9f971556c5ecd5cf9708be1e5a37ad88677ddfd53a94f46851323c1c812aec938c65acc056
   languageName: node
   linkType: hard
 
@@ -10077,10 +10103,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "type-fest@npm:4.2.0"
-  checksum: 76c5dfde9293b1b185b266a07df669f68d58ae3e19c06e33f0ff0dd0ba68628f05389bc26bcee8476e29a79ab7da054653670b9778399ceb079c4c259bac29f0
+"type-fest@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "type-fest@npm:4.6.0"
+  checksum: e38f2b4b35e912bf60dbe7d4350653fb76b241a456e849fab85002ba08e938a26a7c44a330dd5620dd48ce57566be7c97e997064dc0d5066d5b6949b8c444430
   languageName: node
   linkType: hard
 
