@@ -950,7 +950,7 @@ __metadata:
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
   dependencies:
     read-pkg: 9.0.0
-    write-pkg: 6.0.0
+    write-pkg: 6.0.1
   languageName: unknown
   linkType: soft
 
@@ -8637,15 +8637,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "read-pkg@npm:8.0.0"
+"read-pkg@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "read-pkg@npm:8.1.0"
   dependencies:
     "@types/normalize-package-data": ^2.4.1
-    normalize-package-data: ^5.0.0
+    normalize-package-data: ^6.0.0
     parse-json: ^7.0.0
-    type-fest: ^3.8.0
-  checksum: 10c6f8bc64fd7c7d62d8d0233c41b0d929525d2c10c1a65ecfbe793519f0aea38d0ddbd649639d38b971269ff1b5c45bb70f438162fa2aeec7b119aa9435a29b
+    type-fest: ^4.2.0
+  checksum: f4cd164f096e78cf3e338a55f800043524e3055f9b0b826143290002fafc951025fc3cbd6ca683ebaf7945efcfb092d31c683dd252a7871a974662985c723b67
   languageName: node
   linkType: hard
 
@@ -10056,14 +10056,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^3.13.0, type-fest@npm:^3.8.0":
+"type-fest@npm:^3.8.0":
   version: 3.13.1
   resolution: "type-fest@npm:3.13.1"
   checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.6.0":
+"type-fest@npm:^4.2.0, type-fest@npm:^4.6.0":
   version: 4.6.0
   resolution: "type-fest@npm:4.6.0"
   checksum: e38f2b4b35e912bf60dbe7d4350653fb76b241a456e849fab85002ba08e938a26a7c44a330dd5620dd48ce57566be7c97e997064dc0d5066d5b6949b8c444430
@@ -10538,16 +10538,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-pkg@npm:6.0.0":
-  version: 6.0.0
-  resolution: "write-pkg@npm:6.0.0"
+"write-pkg@npm:6.0.1":
+  version: 6.0.1
+  resolution: "write-pkg@npm:6.0.1"
   dependencies:
     deepmerge-ts: ^5.1.0
-    read-pkg: ^8.0.0
+    read-pkg: ^8.1.0
     sort-keys: ^5.0.0
-    type-fest: ^3.13.0
+    type-fest: ^4.6.0
     write-json-file: ^5.0.0
-  checksum: 4af8a88516603ead280827019a6681d0a450e1e57c5626efca57889121cedc3558e7b80c4881c16350f12364d3d31a367f59bc487268635b185d9da4f332bf6b
+  checksum: d482355662774945a7243bea2e03d32bf1173571211646d3793c18df5a41516c2eb35eca2ebbe65563b9d20c643560bd3751ea32ae57aa9144b3f81b79512a60
   languageName: node
   linkType: hard
 
