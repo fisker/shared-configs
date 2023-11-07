@@ -993,7 +993,7 @@ __metadata:
     stylelint-config-standard: 34.0.0
     stylelint-config-standard-scss: 11.1.0
     stylelint-prettier: 4.0.2
-    stylelint-scss: 5.3.0
+    stylelint-scss: 5.3.1
   peerDependencies:
     prettier: "*"
     stylelint: "*"
@@ -6038,6 +6038,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"known-css-properties@npm:^0.29.0":
+  version: 0.29.0
+  resolution: "known-css-properties@npm:0.29.0"
+  checksum: daa6562e907f856cbfd58a00c42f532c9bba283388984da6a3bffb494e56612e5f23c52f30b0d9885f0ea07ad5d88bfa0470ee65017a6ce6c565289a1afd78af
+  languageName: node
+  linkType: hard
+
 "lerna@npm:7.4.2":
   version: 7.4.2
   resolution: "lerna@npm:7.4.2"
@@ -9732,7 +9739,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:5.3.0, stylelint-scss@npm:^5.3.0":
+"stylelint-scss@npm:5.3.1":
+  version: 5.3.1
+  resolution: "stylelint-scss@npm:5.3.1"
+  dependencies:
+    known-css-properties: ^0.29.0
+    postcss-media-query-parser: ^0.2.3
+    postcss-resolve-nested-selector: ^0.1.1
+    postcss-selector-parser: ^6.0.13
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    stylelint: ^14.5.1 || ^15.0.0
+  checksum: 47b5ba6ce1d469b4e5fd083dc7f41e11cf9cbe56a4ce91b337e6201a9b96f1651fe9ae7da99b1ab105ed6ba17421260e25ef9c208bc4b5503b53b6b5eff29c06
+  languageName: node
+  linkType: hard
+
+"stylelint-scss@npm:^5.3.0":
   version: 5.3.0
   resolution: "stylelint-scss@npm:5.3.0"
   dependencies:
