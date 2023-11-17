@@ -949,7 +949,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
   dependencies:
-    read-pkg: 9.0.0
+    read-pkg: 9.0.1
     write-pkg: 6.0.1
   languageName: unknown
   linkType: soft
@@ -8607,15 +8607,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"read-pkg@npm:9.0.0":
-  version: 9.0.0
-  resolution: "read-pkg@npm:9.0.0"
+"read-pkg@npm:9.0.1":
+  version: 9.0.1
+  resolution: "read-pkg@npm:9.0.1"
   dependencies:
     "@types/normalize-package-data": ^2.4.3
     normalize-package-data: ^6.0.0
     parse-json: ^8.0.0
     type-fest: ^4.6.0
-  checksum: a5a6233607b09891d8f2a70333a56b04db934a7a61b4e3b235594b9f971556c5ecd5cf9708be1e5a37ad88677ddfd53a94f46851323c1c812aec938c65acc056
+    unicorn-magic: ^0.1.0
+  checksum: 5544bea2a58c6e5706db49a96137e8f0768c69395f25363f934064fbba00bdcdaa326fcd2f4281741df38cf81dbf27b76138240dc6de0ed718cf650475e0de3c
   languageName: node
   linkType: hard
 
@@ -10210,6 +10211,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"unicorn-magic@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "unicorn-magic@npm:0.1.0"
+  checksum: 48c5882ca3378f380318c0b4eb1d73b7e3c5b728859b060276e0a490051d4180966beeb48962d850fd0c6816543bcdfc28629dcd030bb62a286a2ae2acb5acb6
   languageName: node
   linkType: hard
 
