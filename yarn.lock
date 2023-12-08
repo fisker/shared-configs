@@ -859,7 +859,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.22.20
     "@babel/eslint-parser": 7.22.15
-    ava: 6.0.0
+    ava: 6.0.1
     eslint-config-airbnb-base: 15.0.0
     eslint-config-prettier: 9.1.0
     eslint-plugin-es-x: 7.5.0
@@ -963,7 +963,7 @@ __metadata:
     "@fisker/lint-staged-config": 3.1.5
     "@fisker/markdownlint-cli2-config": "workspace:*"
     "@fisker/prettier-config": 5.0.6
-    ava: 6.0.0
+    ava: 6.0.1
     del-cli: 5.1.0
     eslint: 8.47.0
     esm-utils: 4.2.1
@@ -2302,9 +2302,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ava@npm:6.0.0":
-  version: 6.0.0
-  resolution: "ava@npm:6.0.0"
+"ava@npm:6.0.1":
+  version: 6.0.1
+  resolution: "ava@npm:6.0.1"
   dependencies:
     "@vercel/nft": ^0.24.4
     acorn: ^8.11.2
@@ -2353,7 +2353,7 @@ __metadata:
       optional: true
   bin:
     ava: entrypoints/cli.mjs
-  checksum: 41e8b3dcaf3122c7ab16aec93dd787c4334b374318c591a34e2f9cf788d2db940a94ececf0289d483d4a6c6ef05f06412989b151e282f6ae5d24d8943fda2a12
+  checksum: 6bb0931a4a15ce95980bf7df3250a66ddab0bb117b677f062e2091c8ed54cc61f00711880bc3ca417cf3e2f829cd2fd32302b20e6332e870a1b360e251930d91
   languageName: node
   linkType: hard
 
