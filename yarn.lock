@@ -883,7 +883,7 @@ __metadata:
     eslint-plugin-eslint-comments: 3.2.0
     eslint-plugin-html: 7.1.0
     eslint-plugin-import: 2.29.1
-    eslint-plugin-n: 16.6.1
+    eslint-plugin-n: 16.6.2
     eslint-plugin-promise: 6.1.1
     eslint-plugin-regexp: 1.15.0
     eslint-plugin-sonarjs: 0.23.0
@@ -4152,9 +4152,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:16.6.1":
-  version: 16.6.1
-  resolution: "eslint-plugin-n@npm:16.6.1"
+"eslint-plugin-n@npm:16.6.2":
+  version: 16.6.2
+  resolution: "eslint-plugin-n@npm:16.6.2"
   dependencies:
     "@eslint-community/eslint-utils": ^4.4.0
     builtins: ^5.0.1
@@ -4169,7 +4169,7 @@ __metadata:
     semver: ^7.5.3
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 2c8e80cf07f669be287bf7af335dd450c2f0c08e4efcf8ef8ccd7d1aa9d2e93dfa20f9f204efa22e4a552057e54b7cc6597bbf9dbb5626b1d711e41054ed46ef
+  checksum: 3b468da0038cf25af582608983491b33ac2d481b6a94a0ff2e715d3b85e1ff8cb93df4cd67b689d520bea1bfb8f2b717f01606bf6b2ea19fe8f9c0999ea7057d
   languageName: node
   linkType: hard
 
