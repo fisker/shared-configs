@@ -79,5 +79,7 @@ module.exports = {
     'n/no-unsupported-features/node-builtins': 'off',
 
     'n/no-missing-import': 'off',
+
+    'unicorn/template-indent': 'error',
   },
 }

@@ -28,7 +28,6 @@ keyword-spacing, off, error, https://eslint.org/docs/latest/rules/keyword-spacin
 linebreak-style, off, error, https://eslint.org/docs/latest/rules/linebreak-style
 max-len, off, error, https://eslint.org/docs/latest/rules/max-len
 max-params, warn, off, https://eslint.org/docs/latest/rules/max-params
-max-statements-per-line, error, off, https://eslint.org/docs/latest/rules/max-statements-per-line
 new-parens, off, error, https://eslint.org/docs/latest/rules/new-parens
 newline-per-chained-call, off, error, https://eslint.org/docs/latest/rules/newline-per-chained-call
 no-catch-shadow, error, off, https://eslint.org/docs/latest/rules/no-catch-shadow
@@ -79,7 +78,6 @@ space-infix-ops, off, error, https://eslint.org/docs/latest/rules/space-infix-op
 space-unary-ops, off, error, https://eslint.org/docs/latest/rules/space-unary-ops
 switch-colon-spacing, off, error, https://eslint.org/docs/latest/rules/switch-colon-spacing
 template-tag-spacing, off, error, https://eslint.org/docs/latest/rules/template-tag-spacing
-unicode-bom, off, error, https://eslint.org/docs/latest/rules/unicode-bom
 vars-on-top, off, error, https://eslint.org/docs/latest/rules/vars-on-top
 wrap-iife, off, error, https://eslint.org/docs/latest/rules/wrap-iife
 -->
@@ -107,60 +105,58 @@ wrap-iife, off, error, https://eslint.org/docs/latest/rules/wrap-iife
 |  19 | [linebreak-style](https://eslint.org/docs/latest/rules/linebreak-style)                                   |  off   |     error     |
 |  20 | [max-len](https://eslint.org/docs/latest/rules/max-len)                                                   |  off   |     error     |
 |  21 | [max-params](https://eslint.org/docs/latest/rules/max-params)                                             |  warn  |      off      |
-|  22 | [max-statements-per-line](https://eslint.org/docs/latest/rules/max-statements-per-line)                   | error  |      off      |
-|  23 | [new-parens](https://eslint.org/docs/latest/rules/new-parens)                                             |  off   |     error     |
-|  24 | [newline-per-chained-call](https://eslint.org/docs/latest/rules/newline-per-chained-call)                 |  off   |     error     |
-|  25 | [no-catch-shadow](https://eslint.org/docs/latest/rules/no-catch-shadow)                                   | error  |      off      |
-|  26 | [no-console](https://eslint.org/docs/latest/rules/no-console)                                             |  off   |     warn      |
-|  27 | [no-constructor-return](https://eslint.org/docs/latest/rules/no-constructor-return)                       |  off   |     error     |
-|  28 | [no-continue](https://eslint.org/docs/latest/rules/no-continue)                                           |  off   |     error     |
-|  29 | [no-eq-null](https://eslint.org/docs/latest/rules/no-eq-null)                                             | error  |      off      |
-|  30 | [no-extra-semi](https://eslint.org/docs/latest/rules/no-extra-semi)                                       |  off   |     error     |
-|  31 | [no-floating-decimal](https://eslint.org/docs/latest/rules/no-floating-decimal)                           |  off   |     error     |
-|  32 | [no-implicit-coercion](https://eslint.org/docs/latest/rules/no-implicit-coercion)                         | error  |      off      |
-|  33 | [no-implicit-globals](https://eslint.org/docs/latest/rules/no-implicit-globals)                           | error  |      off      |
-|  34 | [no-lonely-if](https://eslint.org/docs/latest/rules/no-lonely-if)                                         |  off   |     error     |
-|  35 | [no-loop-func](https://eslint.org/docs/latest/rules/no-loop-func)                                         |  warn  |     error     |
-|  36 | [no-mixed-operators](https://eslint.org/docs/latest/rules/no-mixed-operators)                             |  off   |     error     |
-|  37 | [no-mixed-spaces-and-tabs](https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs)                 |  off   |     error     |
-|  38 | [no-multi-assign](https://eslint.org/docs/latest/rules/no-multi-assign)                                   |  off   |     error     |
-|  39 | [no-multi-spaces](https://eslint.org/docs/latest/rules/no-multi-spaces)                                   |  off   |     error     |
-|  40 | [no-multiple-empty-lines](https://eslint.org/docs/latest/rules/no-multiple-empty-lines)                   |  off   |     error     |
-|  41 | [no-new](https://eslint.org/docs/latest/rules/no-new)                                                     |  warn  |     error     |
-|  42 | [no-param-reassign](https://eslint.org/docs/latest/rules/no-param-reassign)                               |  off   |     error     |
-|  43 | [no-shadow](https://eslint.org/docs/latest/rules/no-shadow)                                               |  off   |     error     |
-|  44 | [no-spaced-func](https://eslint.org/docs/latest/rules/no-spaced-func)                                     |  off   |     error     |
-|  45 | [no-tabs](https://eslint.org/docs/latest/rules/no-tabs)                                                   |  off   |     error     |
-|  46 | [no-trailing-spaces](https://eslint.org/docs/latest/rules/no-trailing-spaces)                             |  off   |     error     |
-|  47 | [no-underscore-dangle](https://eslint.org/docs/latest/rules/no-underscore-dangle)                         |  off   |     error     |
-|  48 | [no-unexpected-multiline](https://eslint.org/docs/latest/rules/no-unexpected-multiline)                   |  off   |     error     |
-|  49 | [no-unmodified-loop-condition](https://eslint.org/docs/latest/rules/no-unmodified-loop-condition)         | error  |      off      |
-|  50 | [no-unused-private-class-members](https://eslint.org/docs/latest/rules/no-unused-private-class-members)   | error  |      off      |
-|  51 | [no-unused-vars](https://eslint.org/docs/latest/rules/no-unused-vars)                                     |  warn  |     error     |
-|  52 | [no-useless-call](https://eslint.org/docs/latest/rules/no-useless-call)                                   | error  |      off      |
-|  53 | [no-whitespace-before-property](https://eslint.org/docs/latest/rules/no-whitespace-before-property)       |  off   |     error     |
-|  54 | [nonblock-statement-body-position](https://eslint.org/docs/latest/rules/nonblock-statement-body-position) |  off   |     error     |
-|  55 | [object-curly-newline](https://eslint.org/docs/latest/rules/object-curly-newline)                         |  off   |     error     |
-|  56 | [object-curly-spacing](https://eslint.org/docs/latest/rules/object-curly-spacing)                         |  off   |     error     |
-|  57 | [object-property-newline](https://eslint.org/docs/latest/rules/object-property-newline)                   |  off   |     error     |
-|  58 | [one-var-declaration-per-line](https://eslint.org/docs/latest/rules/one-var-declaration-per-line)         |  off   |     error     |
-|  59 | [operator-linebreak](https://eslint.org/docs/latest/rules/operator-linebreak)                             |  off   |     error     |
-|  60 | [padded-blocks](https://eslint.org/docs/latest/rules/padded-blocks)                                       |  off   |     error     |
-|  61 | [prefer-exponentiation-operator](https://eslint.org/docs/latest/rules/prefer-exponentiation-operator)     |  off   |     error     |
-|  62 | [quote-props](https://eslint.org/docs/latest/rules/quote-props)                                           |  off   |     error     |
-|  63 | [semi](https://eslint.org/docs/latest/rules/semi)                                                         |  off   |     error     |
-|  64 | [semi-spacing](https://eslint.org/docs/latest/rules/semi-spacing)                                         |  off   |     error     |
-|  65 | [semi-style](https://eslint.org/docs/latest/rules/semi-style)                                             |  off   |     error     |
-|  66 | [space-before-blocks](https://eslint.org/docs/latest/rules/space-before-blocks)                           |  off   |     error     |
-|  67 | [space-before-function-paren](https://eslint.org/docs/latest/rules/space-before-function-paren)           |  off   |     error     |
-|  68 | [space-in-parens](https://eslint.org/docs/latest/rules/space-in-parens)                                   |  off   |     error     |
-|  69 | [space-infix-ops](https://eslint.org/docs/latest/rules/space-infix-ops)                                   |  off   |     error     |
-|  70 | [space-unary-ops](https://eslint.org/docs/latest/rules/space-unary-ops)                                   |  off   |     error     |
-|  71 | [switch-colon-spacing](https://eslint.org/docs/latest/rules/switch-colon-spacing)                         |  off   |     error     |
-|  72 | [template-tag-spacing](https://eslint.org/docs/latest/rules/template-tag-spacing)                         |  off   |     error     |
-|  73 | [unicode-bom](https://eslint.org/docs/latest/rules/unicode-bom)                                           |  off   |     error     |
-|  74 | [vars-on-top](https://eslint.org/docs/latest/rules/vars-on-top)                                           |  off   |     error     |
-|  75 | [wrap-iife](https://eslint.org/docs/latest/rules/wrap-iife)                                               |  off   |     error     |
+|  22 | [new-parens](https://eslint.org/docs/latest/rules/new-parens)                                             |  off   |     error     |
+|  23 | [newline-per-chained-call](https://eslint.org/docs/latest/rules/newline-per-chained-call)                 |  off   |     error     |
+|  24 | [no-catch-shadow](https://eslint.org/docs/latest/rules/no-catch-shadow)                                   | error  |      off      |
+|  25 | [no-console](https://eslint.org/docs/latest/rules/no-console)                                             |  off   |     warn      |
+|  26 | [no-constructor-return](https://eslint.org/docs/latest/rules/no-constructor-return)                       |  off   |     error     |
+|  27 | [no-continue](https://eslint.org/docs/latest/rules/no-continue)                                           |  off   |     error     |
+|  28 | [no-eq-null](https://eslint.org/docs/latest/rules/no-eq-null)                                             | error  |      off      |
+|  29 | [no-extra-semi](https://eslint.org/docs/latest/rules/no-extra-semi)                                       |  off   |     error     |
+|  30 | [no-floating-decimal](https://eslint.org/docs/latest/rules/no-floating-decimal)                           |  off   |     error     |
+|  31 | [no-implicit-coercion](https://eslint.org/docs/latest/rules/no-implicit-coercion)                         | error  |      off      |
+|  32 | [no-implicit-globals](https://eslint.org/docs/latest/rules/no-implicit-globals)                           | error  |      off      |
+|  33 | [no-lonely-if](https://eslint.org/docs/latest/rules/no-lonely-if)                                         |  off   |     error     |
+|  34 | [no-loop-func](https://eslint.org/docs/latest/rules/no-loop-func)                                         |  warn  |     error     |
+|  35 | [no-mixed-operators](https://eslint.org/docs/latest/rules/no-mixed-operators)                             |  off   |     error     |
+|  36 | [no-mixed-spaces-and-tabs](https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs)                 |  off   |     error     |
+|  37 | [no-multi-assign](https://eslint.org/docs/latest/rules/no-multi-assign)                                   |  off   |     error     |
+|  38 | [no-multi-spaces](https://eslint.org/docs/latest/rules/no-multi-spaces)                                   |  off   |     error     |
+|  39 | [no-multiple-empty-lines](https://eslint.org/docs/latest/rules/no-multiple-empty-lines)                   |  off   |     error     |
+|  40 | [no-new](https://eslint.org/docs/latest/rules/no-new)                                                     |  warn  |     error     |
+|  41 | [no-param-reassign](https://eslint.org/docs/latest/rules/no-param-reassign)                               |  off   |     error     |
+|  42 | [no-shadow](https://eslint.org/docs/latest/rules/no-shadow)                                               |  off   |     error     |
+|  43 | [no-spaced-func](https://eslint.org/docs/latest/rules/no-spaced-func)                                     |  off   |     error     |
+|  44 | [no-tabs](https://eslint.org/docs/latest/rules/no-tabs)                                                   |  off   |     error     |
+|  45 | [no-trailing-spaces](https://eslint.org/docs/latest/rules/no-trailing-spaces)                             |  off   |     error     |
+|  46 | [no-underscore-dangle](https://eslint.org/docs/latest/rules/no-underscore-dangle)                         |  off   |     error     |
+|  47 | [no-unexpected-multiline](https://eslint.org/docs/latest/rules/no-unexpected-multiline)                   |  off   |     error     |
+|  48 | [no-unmodified-loop-condition](https://eslint.org/docs/latest/rules/no-unmodified-loop-condition)         | error  |      off      |
+|  49 | [no-unused-private-class-members](https://eslint.org/docs/latest/rules/no-unused-private-class-members)   | error  |      off      |
+|  50 | [no-unused-vars](https://eslint.org/docs/latest/rules/no-unused-vars)                                     |  warn  |     error     |
+|  51 | [no-useless-call](https://eslint.org/docs/latest/rules/no-useless-call)                                   | error  |      off      |
+|  52 | [no-whitespace-before-property](https://eslint.org/docs/latest/rules/no-whitespace-before-property)       |  off   |     error     |
+|  53 | [nonblock-statement-body-position](https://eslint.org/docs/latest/rules/nonblock-statement-body-position) |  off   |     error     |
+|  54 | [object-curly-newline](https://eslint.org/docs/latest/rules/object-curly-newline)                         |  off   |     error     |
+|  55 | [object-curly-spacing](https://eslint.org/docs/latest/rules/object-curly-spacing)                         |  off   |     error     |
+|  56 | [object-property-newline](https://eslint.org/docs/latest/rules/object-property-newline)                   |  off   |     error     |
+|  57 | [one-var-declaration-per-line](https://eslint.org/docs/latest/rules/one-var-declaration-per-line)         |  off   |     error     |
+|  58 | [operator-linebreak](https://eslint.org/docs/latest/rules/operator-linebreak)                             |  off   |     error     |
+|  59 | [padded-blocks](https://eslint.org/docs/latest/rules/padded-blocks)                                       |  off   |     error     |
+|  60 | [prefer-exponentiation-operator](https://eslint.org/docs/latest/rules/prefer-exponentiation-operator)     |  off   |     error     |
+|  61 | [quote-props](https://eslint.org/docs/latest/rules/quote-props)                                           |  off   |     error     |
+|  62 | [semi](https://eslint.org/docs/latest/rules/semi)                                                         |  off   |     error     |
+|  63 | [semi-spacing](https://eslint.org/docs/latest/rules/semi-spacing)                                         |  off   |     error     |
+|  64 | [semi-style](https://eslint.org/docs/latest/rules/semi-style)                                             |  off   |     error     |
+|  65 | [space-before-blocks](https://eslint.org/docs/latest/rules/space-before-blocks)                           |  off   |     error     |
+|  66 | [space-before-function-paren](https://eslint.org/docs/latest/rules/space-before-function-paren)           |  off   |     error     |
+|  67 | [space-in-parens](https://eslint.org/docs/latest/rules/space-in-parens)                                   |  off   |     error     |
+|  68 | [space-infix-ops](https://eslint.org/docs/latest/rules/space-infix-ops)                                   |  off   |     error     |
+|  69 | [space-unary-ops](https://eslint.org/docs/latest/rules/space-unary-ops)                                   |  off   |     error     |
+|  70 | [switch-colon-spacing](https://eslint.org/docs/latest/rules/switch-colon-spacing)                         |  off   |     error     |
+|  71 | [template-tag-spacing](https://eslint.org/docs/latest/rules/template-tag-spacing)                         |  off   |     error     |
+|  72 | [vars-on-top](https://eslint.org/docs/latest/rules/vars-on-top)                                           |  off   |     error     |
+|  73 | [wrap-iife](https://eslint.org/docs/latest/rules/wrap-iife)                                               |  off   |     error     |
 
 ## all rules
 
@@ -226,7 +222,7 @@ max-lines-per-function, off, off, https://eslint.org/docs/latest/rules/max-lines
 max-nested-callbacks, off, off, https://eslint.org/docs/latest/rules/max-nested-callbacks
 max-params, warn, off, https://eslint.org/docs/latest/rules/max-params
 max-statements, off, off, https://eslint.org/docs/latest/rules/max-statements
-max-statements-per-line, error, off, https://eslint.org/docs/latest/rules/max-statements-per-line
+max-statements-per-line, off, off, https://eslint.org/docs/latest/rules/max-statements-per-line
 multiline-comment-style, off, off, https://eslint.org/docs/latest/rules/multiline-comment-style
 multiline-ternary, off, off, https://eslint.org/docs/latest/rules/multiline-ternary
 new-cap, error, error, https://eslint.org/docs/latest/rules/new-cap
@@ -409,7 +405,7 @@ spaced-comment, error, error, https://eslint.org/docs/latest/rules/spaced-commen
 strict, error, error, https://eslint.org/docs/latest/rules/strict
 switch-colon-spacing, off, error, https://eslint.org/docs/latest/rules/switch-colon-spacing
 template-tag-spacing, off, error, https://eslint.org/docs/latest/rules/template-tag-spacing
-unicode-bom, off, error, https://eslint.org/docs/latest/rules/unicode-bom
+unicode-bom, error, error, https://eslint.org/docs/latest/rules/unicode-bom
 use-isnan, error, error, https://eslint.org/docs/latest/rules/use-isnan
 valid-jsdoc, off, off, https://eslint.org/docs/latest/rules/valid-jsdoc
 valid-typeof, error, error, https://eslint.org/docs/latest/rules/valid-typeof
@@ -482,7 +478,7 @@ yoda, error, error, https://eslint.org/docs/latest/rules/yoda
 |  59 | [max-nested-callbacks](https://eslint.org/docs/latest/rules/max-nested-callbacks)                         |  off   |      off      |
 |  60 | [max-params](https://eslint.org/docs/latest/rules/max-params)                                             |  warn  |      off      |
 |  61 | [max-statements](https://eslint.org/docs/latest/rules/max-statements)                                     |  off   |      off      |
-|  62 | [max-statements-per-line](https://eslint.org/docs/latest/rules/max-statements-per-line)                   | error  |      off      |
+|  62 | [max-statements-per-line](https://eslint.org/docs/latest/rules/max-statements-per-line)                   |  off   |      off      |
 |  63 | [multiline-comment-style](https://eslint.org/docs/latest/rules/multiline-comment-style)                   |  off   |      off      |
 |  64 | [multiline-ternary](https://eslint.org/docs/latest/rules/multiline-ternary)                               |  off   |      off      |
 |  65 | [new-cap](https://eslint.org/docs/latest/rules/new-cap)                                                   | error  |     error     |
@@ -665,7 +661,7 @@ yoda, error, error, https://eslint.org/docs/latest/rules/yoda
 | 242 | [strict](https://eslint.org/docs/latest/rules/strict)                                                     | error  |     error     |
 | 243 | [switch-colon-spacing](https://eslint.org/docs/latest/rules/switch-colon-spacing)                         |  off   |     error     |
 | 244 | [template-tag-spacing](https://eslint.org/docs/latest/rules/template-tag-spacing)                         |  off   |     error     |
-| 245 | [unicode-bom](https://eslint.org/docs/latest/rules/unicode-bom)                                           |  off   |     error     |
+| 245 | [unicode-bom](https://eslint.org/docs/latest/rules/unicode-bom)                                           | error  |     error     |
 | 246 | [use-isnan](https://eslint.org/docs/latest/rules/use-isnan)                                               | error  |     error     |
 | 247 | [valid-jsdoc](https://eslint.org/docs/latest/rules/valid-jsdoc)                                           |  off   |      off      |
 | 248 | [valid-typeof](https://eslint.org/docs/latest/rules/valid-typeof)                                         | error  |     error     |
