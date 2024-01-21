@@ -908,12 +908,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/husky-config@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@fisker/husky-config@npm:4.1.2"
+"@fisker/husky-config@npm:4.1.3":
+  version: 4.1.3
+  resolution: "@fisker/husky-config@npm:4.1.3"
   peerDependencies:
     husky: "*"
-  checksum: a5c12460fd80ee181b9331ee88c3c5c98eab4d2560e7f49eca73571af2f756d7c3d18081d582377cabce9fe82f1075e03eba3145244fb83d81b8283dd6b2dbb7
+  checksum: 29c34348da48dbfd0faf8ee50d4d69c44b6c2d547662faba3d600f8497a1a440153eb806a1a72fd4def130454c2c00ab78a2451b4d936bfd028456cbdffe2ff7
   languageName: node
   linkType: hard
 
@@ -925,12 +925,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/lint-staged-config@npm:3.1.5":
-  version: 3.1.5
-  resolution: "@fisker/lint-staged-config@npm:3.1.5"
+"@fisker/lint-staged-config@npm:3.3.1":
+  version: 3.3.1
+  resolution: "@fisker/lint-staged-config@npm:3.3.1"
   peerDependencies:
     prettier: "*"
-  checksum: 1842952766a796e670fc97b4dc069e8ca1055e41a8ebf10cda4ce2e84d9cbdfb94c5b1a6aa234771a975d46ca0029e7eda155785671624d3416d99d47968847c
+  checksum: 2b7629798524dbd911ab39e5d3c4d27e86a33f9a0abfbf5732540ec1747ef2321f99a65c49e93bb50823ac60d0708230cfb865ab9c8f0b41dc769eeeecaec9ff
   languageName: node
   linkType: hard
 
@@ -958,12 +958,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/prettier-config@npm:5.0.6":
-  version: 5.0.6
-  resolution: "@fisker/prettier-config@npm:5.0.6"
+"@fisker/prettier-config@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@fisker/prettier-config@npm:5.1.1"
   peerDependencies:
     prettier: "*"
-  checksum: 5202b2b6f213f3cdd72f015da58ab0555f2bb59b19d70329df320d03c237d478668d36faaff0d25c63094a3ef6bd1b1c59c10a7be2625050defc570c1f1f1b15
+  checksum: 8c2d6befecbc33bd0472616d51b96878c34c0ffdfdb657081d96c7a384fdccb382546bfaaa82a0d62530728328333eca24389f51593bdad5a6d01a002c1d78e5
   languageName: node
   linkType: hard
 
@@ -989,10 +989,10 @@ __metadata:
   resolution: "@fisker/shared-configs@workspace:."
   dependencies:
     "@fisker/eslint-config": "workspace:*"
-    "@fisker/husky-config": "npm:4.1.2"
-    "@fisker/lint-staged-config": "npm:3.1.5"
+    "@fisker/husky-config": "npm:4.1.3"
+    "@fisker/lint-staged-config": "npm:3.3.1"
     "@fisker/markdownlint-cli2-config": "workspace:*"
-    "@fisker/prettier-config": "npm:5.0.6"
+    "@fisker/prettier-config": "npm:5.1.1"
     ava: "npm:6.0.1"
     del-cli: "npm:5.1.0"
     eslint: "npm:8.56.0"
@@ -1001,11 +1001,11 @@ __metadata:
     lerna: "npm:8.0.2"
     lint-staged: "npm:15.2.0"
     markdownlint-cli2: "npm:0.12.1"
-    mem: "npm:9.0.2"
+    mem: "npm:10.0.0"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.2.4"
     prettier-format: "npm:4.0.0"
-    rollup: "npm:4.9.5"
+    rollup: "npm:4.9.6"
     sort-package-json: "npm:2.6.0"
     write-prettier-file: "npm:3.0.3"
   languageName: unknown
@@ -1626,93 +1626,93 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm-eabi@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.5"
+"@rollup/rollup-android-arm-eabi@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.6"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm64@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-android-arm64@npm:4.9.5"
+"@rollup/rollup-android-arm64@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-android-arm64@npm:4.9.6"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-arm64@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.5"
+"@rollup/rollup-darwin-arm64@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.6"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-x64@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-darwin-x64@npm:4.9.5"
+"@rollup/rollup-darwin-x64@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-darwin-x64@npm:4.9.6"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5"
+"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.6"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-gnu@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.5"
+"@rollup/rollup-linux-arm64-gnu@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.6"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-musl@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.5"
+"@rollup/rollup-linux-arm64-musl@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.6"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-riscv64-gnu@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.5"
+"@rollup/rollup-linux-riscv64-gnu@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.6"
   conditions: os=linux & cpu=riscv64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.5"
+"@rollup/rollup-linux-x64-gnu@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.6"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-musl@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.5"
+"@rollup/rollup-linux-x64-musl@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.6"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-arm64-msvc@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.5"
+"@rollup/rollup-win32-arm64-msvc@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.6"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-ia32-msvc@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.5"
+"@rollup/rollup-win32-ia32-msvc@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.6"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-x64-msvc@npm:4.9.5":
-  version: 4.9.5
-  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.5"
+"@rollup/rollup-win32-x64-msvc@npm:4.9.6":
+  version: 4.9.6
+  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.6"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -6885,13 +6885,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mem@npm:9.0.2":
-  version: 9.0.2
-  resolution: "mem@npm:9.0.2"
+"mem@npm:10.0.0":
+  version: 10.0.0
+  resolution: "mem@npm:10.0.0"
   dependencies:
     map-age-cleaner: "npm:^0.1.3"
     mimic-fn: "npm:^4.0.0"
-  checksum: c2c56141399e520d8f0e50186bb7e4b49300b33984dc919682f3f13e53dec0e6608fbd327d5ae99494f45061a3a05a8ee04ccba6dcf795c3c215b5aa906eb41f
+  checksum: 80e0a4640380648f9933f99e7b7db7bd0d26662f1362f7c0645078e078ade2ced9fd8ab21c908be4b0a1688678b18f8ab14eaeb0f1f91b39ef5e9c1d12d0e1c9
   languageName: node
   linkType: hard
 
@@ -9416,23 +9416,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:4.9.5":
-  version: 4.9.5
-  resolution: "rollup@npm:4.9.5"
+"rollup@npm:4.9.6":
+  version: 4.9.6
+  resolution: "rollup@npm:4.9.6"
   dependencies:
-    "@rollup/rollup-android-arm-eabi": "npm:4.9.5"
-    "@rollup/rollup-android-arm64": "npm:4.9.5"
-    "@rollup/rollup-darwin-arm64": "npm:4.9.5"
-    "@rollup/rollup-darwin-x64": "npm:4.9.5"
-    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.5"
-    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.5"
-    "@rollup/rollup-linux-arm64-musl": "npm:4.9.5"
-    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.5"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.9.5"
-    "@rollup/rollup-linux-x64-musl": "npm:4.9.5"
-    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.5"
-    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.5"
-    "@rollup/rollup-win32-x64-msvc": "npm:4.9.5"
+    "@rollup/rollup-android-arm-eabi": "npm:4.9.6"
+    "@rollup/rollup-android-arm64": "npm:4.9.6"
+    "@rollup/rollup-darwin-arm64": "npm:4.9.6"
+    "@rollup/rollup-darwin-x64": "npm:4.9.6"
+    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.6"
+    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.6"
+    "@rollup/rollup-linux-arm64-musl": "npm:4.9.6"
+    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.6"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.9.6"
+    "@rollup/rollup-linux-x64-musl": "npm:4.9.6"
+    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.6"
+    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.6"
+    "@rollup/rollup-win32-x64-msvc": "npm:4.9.6"
     "@types/estree": "npm:1.0.5"
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -9466,7 +9466,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 7f241ad4028f32c1300eb8391493f192f622ed7e9564f993d8f3862be32dd995c8237f4691ea76327a323ef62808495a497eabf0c8fb0c6fa6556a69653a449f
+  checksum: fcd9ab091cd2e604525ab919137f7868f002e27dc12921a3e09be2c85fa6e477c9dbd7ca54730500622db64e1fa53d1e5e2db3567e273a31d96d594932c8ae3b
   languageName: node
   linkType: hard
 
