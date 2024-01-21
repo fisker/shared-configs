@@ -565,11 +565,11 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-logical-float-and-clear@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@csstools/postcss-logical-float-and-clear@npm:2.0.0"
+  version: 2.0.1
+  resolution: "@csstools/postcss-logical-float-and-clear@npm:2.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: d71b77d8ae1bb90325581092f873be24bdc6d6b71d9933e4aaffb4a160f9ac3034993d1cb86474d1bcbf4ad6854b9b9cc645861684980cf5439e27c4a518c2ba
+  checksum: 92d9184bf8a159753a5872463dcfde580abd9b935e2a59f7ebe601cd14d9871f2f9f4dc18d8bbe251e7d8a3e446e302d9d99bf408d9cabbd9a6323825f5e833d
   languageName: node
   linkType: hard
 
