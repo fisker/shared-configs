@@ -8672,13 +8672,13 @@ __metadata:
   linkType: hard
 
 "postcss-place@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "postcss-place@npm:9.0.0"
+  version: 9.0.1
+  resolution: "postcss-place@npm:9.0.1"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: e7f87a38c6ab6c85c4ca36632a12a17146dd01bc89354e6bc60de00f0dc782d3f996f3820d541905db3662a70dd2d632a4ab14360d9da8647aabe4d77499eed8
+  checksum: d0fb5b0416fd15d5ac7da5fcc1829b9b78c5a90caba5bd045052c6ac0467910cbbeb2fff6c5257190affa656be27168c94ff339f86c0b7df54f9bea04bcadba7
   languageName: node
   linkType: hard
 
