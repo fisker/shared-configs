@@ -1056,7 +1056,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    postcss-html: 1.5.0
+    postcss-html: 1.6.0
     stylelint-config-html: 1.1.0
     stylelint-config-recommended: 14.0.0
     stylelint-config-recommended-scss: 14.0.0
@@ -8616,15 +8616,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:1.5.0":
-  version: 1.5.0
-  resolution: "postcss-html@npm:1.5.0"
+"postcss-html@npm:1.6.0":
+  version: 1.6.0
+  resolution: "postcss-html@npm:1.6.0"
   dependencies:
     htmlparser2: ^8.0.0
     js-tokens: ^8.0.0
     postcss: ^8.4.0
     postcss-safe-parser: ^6.0.0
-  checksum: 33c2b7aeaed0f245e34ba80f6e2094d064b73e4087554991ea53556c4ef1a0f1633ef23265369265c959c282b4ec45e6485135177e75f8ff3a62f9704793410d
+  checksum: 4ce8058c7a88fabbf0133e85afae4a093e603590f94fa89374142f56f2f71b1f849945923ec0f6b97367ede2c94fcdb1437ccf852ed131818459293141320314
   languageName: node
   linkType: hard
 
