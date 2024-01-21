@@ -73,5 +73,7 @@ module.exports = {
     'unicorn/prefer-json-parse-buffer': 'error',
 
     'unicorn/switch-case-braces': ['error', 'avoid'],
+
+    'unicorn/no-unnecessary-polyfills': 'off',
   },
 }

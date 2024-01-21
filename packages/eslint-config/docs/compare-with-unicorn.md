@@ -19,6 +19,7 @@ unicorn/no-nested-ternary, off, error, https://github.com/sindresorhus/eslint-pl
 unicorn/no-null, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md
 unicorn/no-object-as-default-parameter, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md
 unicorn/no-process-exit, warn, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md
+unicorn/no-unnecessary-polyfills, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
 unicorn/number-literal-case, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md
 unicorn/prefer-add-event-listener, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md
 unicorn/prefer-default-parameters, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md
@@ -47,18 +48,19 @@ unicorn/prefer-ternary, off, error, https://github.com/sindresorhus/eslint-plugi
 |  10 | [unicorn/no-null](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md)                                               |  off   |        error        |
 |  11 | [unicorn/no-object-as-default-parameter](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md) |  off   |        error        |
 |  12 | [unicorn/no-process-exit](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md)                               |  warn  |        error        |
-|  13 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md)                       |  off   |        error        |
-|  14 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md)           |  off   |        error        |
-|  15 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md)           |  off   |        error        |
-|  16 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md)                 |  off   |        error        |
-|  17 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md)               |  off   |        error        |
-|  18 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md)                 |  off   |        error        |
-|  19 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)     |  off   |        error        |
-|  20 | [unicorn/prefer-json-parse-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md)             | error  |         off         |
-|  21 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)                 |  off   |        error        |
-|  22 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)                                   |  off   |        error        |
-|  23 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md)                   |  off   |        error        |
-|  24 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md)                                 |  off   |        error        |
+|  13 | [unicorn/no-unnecessary-polyfills](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)             |  off   |        error        |
+|  14 | [unicorn/number-literal-case](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/number-literal-case.md)                       |  off   |        error        |
+|  15 | [unicorn/prefer-add-event-listener](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md)           |  off   |        error        |
+|  16 | [unicorn/prefer-default-parameters](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md)           |  off   |        error        |
+|  17 | [unicorn/prefer-dom-node-append](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md)                 |  off   |        error        |
+|  18 | [unicorn/prefer-dom-node-dataset](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md)               |  off   |        error        |
+|  19 | [unicorn/prefer-dom-node-remove](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md)                 |  off   |        error        |
+|  20 | [unicorn/prefer-dom-node-text-content](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md)     |  off   |        error        |
+|  21 | [unicorn/prefer-json-parse-buffer](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md)             | error  |         off         |
+|  22 | [unicorn/prefer-modern-dom-apis](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)                 |  off   |        error        |
+|  23 | [unicorn/prefer-module](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)                                   |  off   |        error        |
+|  24 | [unicorn/prefer-query-selector](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-query-selector.md)                   |  off   |        error        |
+|  25 | [unicorn/prefer-ternary](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md)                                 |  off   |        error        |
 
 ## all rules
 
@@ -105,7 +107,7 @@ unicorn/no-thenable, error, error, https://github.com/sindresorhus/eslint-plugin
 unicorn/no-this-assignment, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
 unicorn/no-typeof-undefined, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md
 unicorn/no-unnecessary-await, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
-unicorn/no-unnecessary-polyfills, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
+unicorn/no-unnecessary-polyfills, off, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
 unicorn/no-unreadable-array-destructuring, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md
 unicorn/no-unreadable-iife, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
 unicorn/no-unused-properties, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md
@@ -220,7 +222,7 @@ unicorn/throw-new-error, error, error, https://github.com/sindresorhus/eslint-pl
 |  40 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)                                           | error  |        error        |
 |  41 | [unicorn/no-typeof-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md)                                         | error  |        error        |
 |  42 | [unicorn/no-unnecessary-await](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md)                                       | error  |        error        |
-|  43 | [unicorn/no-unnecessary-polyfills](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)                               | error  |        error        |
+|  43 | [unicorn/no-unnecessary-polyfills](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)                               |  off   |        error        |
 |  44 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)             | error  |        error        |
 |  45 | [unicorn/no-unreadable-iife](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md)                                           | error  |        error        |
 |  46 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md)                                       |  off   |         off         |

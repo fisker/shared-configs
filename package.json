@@ -21,9 +21,9 @@
     ]
   },
   "scripts": {
-    "build": "yarn workspaces foreach run build",
-    "build:docs": "yarn workspaces foreach run build:docs",
-    "clean": "yarn workspaces foreach run clean",
+    "build": "yarn workspaces foreach --all run build",
+    "build:docs": "yarn workspaces foreach --all run build:docs",
+    "clean": "yarn workspaces foreach --all run clean",
     "dist": "lerna publish",
     "format": "run-p \"format:*\"",
     "format:eslint": "yarn lint:eslint --fix",
@@ -37,7 +37,7 @@
     "lint:prettier": "prettier . --check",
     "prepare": "husky install",
     "release": "run-s clean build format lint test dist",
-    "test": "yarn workspaces foreach run test"
+    "test": "yarn workspaces foreach --all run test"
   },
   "devDependencies": {
     "@fisker/eslint-config": "workspace:*",

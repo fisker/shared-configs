@@ -1058,7 +1058,7 @@ unicorn/no-thenable, error, error, https://github.com/sindresorhus/eslint-plugin
 unicorn/no-this-assignment, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
 unicorn/no-typeof-undefined, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md
 unicorn/no-unnecessary-await, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
-unicorn/no-unnecessary-polyfills, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
+unicorn/no-unnecessary-polyfills, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
 unicorn/no-unreadable-array-destructuring, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md
 unicorn/no-unreadable-iife, error, error, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
 unicorn/no-unused-properties, off, off, https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md
@@ -1852,7 +1852,7 @@ vue/template-curly-spacing, off, off, https://eslint.vuejs.org/rules/template-cu
 | 679 | [unicorn/no-this-assignment](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)                                           | error  | error  |
 | 680 | [unicorn/no-typeof-undefined](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md)                                         | error  | error  |
 | 681 | [unicorn/no-unnecessary-await](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md)                                       | error  | error  |
-| 682 | [unicorn/no-unnecessary-polyfills](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)                               | error  | error  |
+| 682 | [unicorn/no-unnecessary-polyfills](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)                               |  off   |  off   |
 | 683 | [unicorn/no-unreadable-array-destructuring](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)             | error  | error  |
 | 684 | [unicorn/no-unreadable-iife](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md)                                           | error  | error  |
 | 685 | [unicorn/no-unused-properties](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md)                                       |  off   |  off   |
