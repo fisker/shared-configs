@@ -27,5 +27,6 @@ module.exports = {
     // Enable these in future
     'regexp/prefer-named-capture-group': 'off',
     'regexp/require-unicode-regexp': 'off',
+    'regexp/require-unicode-sets-regexp': 'off',
   },
 }
