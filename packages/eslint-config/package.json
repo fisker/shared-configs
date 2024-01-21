@@ -33,7 +33,7 @@
     "verbose": true
   },
   "dependencies": {
-    "@babel/core": "7.22.20",
+    "@babel/core": "7.23.7",
     "@babel/eslint-parser": "7.23.3",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
