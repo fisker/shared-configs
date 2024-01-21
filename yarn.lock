@@ -652,13 +652,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-normalize-display-values@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@csstools/postcss-normalize-display-values@npm:3.0.1"
+  version: 3.0.2
+  resolution: "@csstools/postcss-normalize-display-values@npm:3.0.2"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: dcd406efdbb4af7975ed57695efb86f801205dd0f3b78622cee6ec1d7a08706ff0cac7d6816f507dc8a86c650c8d931f79a380b73307c1f862bfe4f94815c7f8
+  checksum: a20e2f4c213a5ec6e004c2ba76b543d3288a39aae21b3198b06a57df0d2c7916111d2cd70dcb0e8c6ca1cf1b01751e88fd2fe9abbc070e1efab1a4e54dcdbbbe
   languageName: node
   linkType: hard
 
