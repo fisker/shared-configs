@@ -8618,14 +8618,14 @@ __metadata:
   linkType: hard
 
 "postcss-nesting@npm:^12.0.1":
-  version: 12.0.1
-  resolution: "postcss-nesting@npm:12.0.1"
+  version: 12.0.2
+  resolution: "postcss-nesting@npm:12.0.2"
   dependencies:
-    "@csstools/selector-specificity": "npm:^3.0.0"
+    "@csstools/selector-specificity": "npm:^3.0.1"
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: 7e59febfdae1fb5f95b77c2a9040193a552db435acaa6399a80c83d0c10920f5b7d05a2965d40717433a1f4820667fbcf16da86fd21a589a482850b2cef8f7c2
+  checksum: 9bb69cb5f5a3cd4945f2f427800a620176c924b11f79f819d9076f0c67bfe8cbc04e6a7f7d0224f712b85338d970eed67fa98271e63155b4670aec1285de2750
   languageName: node
   linkType: hard
 
