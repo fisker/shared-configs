@@ -5609,9 +5609,9 @@ __metadata:
   linkType: hard
 
 "index-to-position@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "index-to-position@npm:0.1.0"
-  checksum: a87455b346b65f5d9d8e6c33b0c475210c1df1735197bbee903e3d7a1aad911d79b430d6070c18e8cb254647034a8e1e90eb13ac13da9ceeb0892472819cc137
+  version: 0.1.2
+  resolution: "index-to-position@npm:0.1.2"
+  checksum: 7c91bde8bafc22684b74a7a24915bee4691cba48352ddb4ebe3b20a3a87bc0fa7a05f586137245ca8f92222a11f341f7631ff7f38cd78a523505d2d02dbfa257
   languageName: node
   linkType: hard
 
