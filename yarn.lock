@@ -702,13 +702,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-scope-pseudo-class@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-scope-pseudo-class@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-scope-pseudo-class@npm:3.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: 8198e453cb4d6571cc4ce477cd33fc5a077e434aadeb2d91cb0dbf55d3b3c300ed0d61a373bc02ef89e2406cf4e0f8aca83adc9164fc4e15fb2b90f611548118
+  checksum: 489c5469951277b810754ba02e9f6c42196e03f2203b908181a81747bf1dcaa7b194c8c0f5c7dcb6b7276d08f2573a71bd7df4f2251c034ef1b92968c7070285
   languageName: node
   linkType: hard
 
