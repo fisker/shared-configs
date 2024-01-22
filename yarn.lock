@@ -641,13 +641,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-nested-calc@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-nested-calc@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-nested-calc@npm:3.0.1"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 6619825637e769854f8b4bd74dcc01dbbb4817d22f8a92be4cba7647ff50336d00719d9551461f01d8cb22d3d333e19cf3a7ce3a34573af6e964d50a06143173
+  checksum: a1a091cd9343312b4464cd7d5fa62808e97c02ca33f815013e57f5ad9724306c5fbbd9af257bef62f87cb39b9ee594d508175111ad558e0022762c55ae0bcea6
   languageName: node
   linkType: hard
 
