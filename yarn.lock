@@ -402,11 +402,11 @@ __metadata:
   linkType: hard
 
 "@csstools/css-parser-algorithms@npm:^2.3.2, @csstools/css-parser-algorithms@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "@csstools/css-parser-algorithms@npm:2.4.0"
+  version: 2.5.0
+  resolution: "@csstools/css-parser-algorithms@npm:2.5.0"
   peerDependencies:
-    "@csstools/css-tokenizer": ^2.2.2
-  checksum: bcfc067b9d1bd5e0bc6044bfbf6450a4a6837d88c5ffd081e2159d4e442c28f018b58c7c2b3ce176ba0bf76cbbce0fd3c65468a40b9867ad9b3e3ef90b9b2655
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: 31b4a523d956e204af9842183678cca5a88ad76551d54dcb6083f8a6f2dfd8fdec6c09bca5410842af54b90997308bebee7593c17dbc1a4e951453b54bd3f024
   languageName: node
   linkType: hard
 
