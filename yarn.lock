@@ -544,11 +544,11 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-initial@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@csstools/postcss-initial@npm:1.0.0"
+  version: 1.0.1
+  resolution: "@csstools/postcss-initial@npm:1.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 518c69916a87a715f3c19d4e67730849b7faa823269da2e7cf726de5f457574ea86ab48a31aa3db358dc9e6332c3f17c7513952854d2794c8fb04f1499509657
+  checksum: 5d21c7c611d90a4b6758ba5be5e38d8d9eea9499c62797c4f5e01fbc9ccc2c68daf1c201850efe70ffa4ff9e979e7dea80b854b8793768550879562881aa6f9f
   languageName: node
   linkType: hard
 
