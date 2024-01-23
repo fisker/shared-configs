@@ -481,13 +481,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-font-format-keywords@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-font-format-keywords@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-font-format-keywords@npm:3.0.1"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 523b8dc1a5a42a5bf3b6cc3e22950a5215cb24daea3ecae886a2cbf344854b293a9bf93093b8e4873b88926f6fad6af226202dcfeb1c2373d930c46d3c52464c
+  checksum: 1a0fe7b5b27c55818729616f4529d9d183b721e9156ba06d36e9be502a6e5a417a5d125423024e7d7155e12a294597100b9cdc9db3cf693376ed5331aead5ac8
   languageName: node
   linkType: hard
 
