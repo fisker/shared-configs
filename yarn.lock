@@ -592,13 +592,13 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-logical-resize@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@csstools/postcss-logical-resize@npm:2.0.0"
+  version: 2.0.1
+  resolution: "@csstools/postcss-logical-resize@npm:2.0.1"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 040f7db9771da02d2de70343084b179a3a16997e684db83b1ef32f5cb3444bd6350f0ffa5dcc54692a7d23c78de67d6a1942bc0ad1ae74a1818e41d480532bb4
+  checksum: 18f7e19ea465a15b334d8231b9ed98b630c74a6c2a6c52884437b852065f7b55bb1282cdbbdc1136aade479e996605b01799ab0ab771e2c47fd78d966ed33162
   languageName: node
   linkType: hard
 
