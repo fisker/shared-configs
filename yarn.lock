@@ -8639,13 +8639,13 @@ __metadata:
   linkType: hard
 
 "postcss-overflow-shorthand@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "postcss-overflow-shorthand@npm:5.0.0"
+  version: 5.0.1
+  resolution: "postcss-overflow-shorthand@npm:5.0.1"
   dependencies:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 8559c50a07475c2eb4e5fe824ed44f0c9a53f06b6c68e57229b90132665a9dd188ad0e1583eddde3ec123820501721951fc1e8be12957f6cc52da5883857b18b
+  checksum: 328407adffae084c096b3ea2c03037f0083a0000cae744872bb1168fdd317eef12bb049cdfef749343c3ed65b4275dc6eefe577d99cbc78e3617cb36d07e8717
   languageName: node
   linkType: hard
 
