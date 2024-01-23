@@ -3937,11 +3937,11 @@ __metadata:
   linkType: hard
 
 "es-shim-unscopables@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "es-shim-unscopables@npm:1.0.0"
+  version: 1.0.2
+  resolution: "es-shim-unscopables@npm:1.0.2"
   dependencies:
-    has: "npm:^1.0.3"
-  checksum: d54a66239fbd19535b3e50333913260394f14d2d7adb136a95396a13ca584bab400cf9cb2ffd9232f3fe2f0362540bd3a708240c493e46e13fe0b90cfcfedc3d
+    hasown: "npm:^2.0.0"
+  checksum: f495af7b4b7601a4c0cfb893581c352636e5c08654d129590386a33a0432cf13a7bdc7b6493801cadd990d838e2839b9013d1de3b880440cb537825e834fe783
   languageName: node
   linkType: hard
 
