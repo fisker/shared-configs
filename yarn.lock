@@ -8500,13 +8500,13 @@ __metadata:
   linkType: hard
 
 "postcss-dir-pseudo-class@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "postcss-dir-pseudo-class@npm:8.0.0"
+  version: 8.0.1
+  resolution: "postcss-dir-pseudo-class@npm:8.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: b3d58899bb361c14bad7e90a54b752d243fa9f5b1cc3397c4a42d6074e5804690b2f002208bd363f95644582add291e8b4fb254f28373426fcfdecac77912150
+  checksum: 8c096e096b09e4041818bd2edf5581b5172375621f5eeca013633166ea100ab98e71bf60fccd92fa20cfa7b55c57598605a1655c6bcbe54a80728a7d4e36859e
   languageName: node
   linkType: hard
 
