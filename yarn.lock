@@ -3343,11 +3343,11 @@ __metadata:
   linkType: hard
 
 "css-prefers-color-scheme@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "css-prefers-color-scheme@npm:9.0.0"
+  version: 9.0.1
+  resolution: "css-prefers-color-scheme@npm:9.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 35664c553865480e567ccc30172a0682f243b42309c26cc98f5063c2518a6e053b42a3e5b4455ca334074907fb447a883dcd1edd7a8fa1e09263f8f4e9d89568
+  checksum: b94da00d84c4ebb56eb8fce96d4fdb20d2e622a7cd8cd6d7b87d1d2b718a55ce88bccc9d871771bfe77c5107de06132ba87190e3656f049e45f19f652d50136c
   languageName: node
   linkType: hard
 
