@@ -388,6 +388,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-calc@npm:^1.1.6":
+  version: 1.1.6
+  resolution: "@csstools/css-calc@npm:1.1.6"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.5.0
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: e313834ad3517bd53b4b15abd4c9bf7951ccf3671669be4ed185c8b1af9dc8fe463d0cd75a61845364a9d6c7b8107dfba1032a2bde5eb7c905ab956a764ee56d
+  languageName: node
+  linkType: hard
+
 "@csstools/css-color-parser@npm:^1.5.0":
   version: 1.5.0
   resolution: "@csstools/css-color-parser@npm:1.5.0"
@@ -410,10 +420,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-parser-algorithms@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@csstools/css-parser-algorithms@npm:2.5.0"
+  peerDependencies:
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: 31b4a523d956e204af9842183678cca5a88ad76551d54dcb6083f8a6f2dfd8fdec6c09bca5410842af54b90997308bebee7593c17dbc1a4e951453b54bd3f024
+  languageName: node
+  linkType: hard
+
 "@csstools/css-tokenizer@npm:^2.2.1, @csstools/css-tokenizer@npm:^2.2.2":
   version: 2.2.2
   resolution: "@csstools/css-tokenizer@npm:2.2.2"
   checksum: 9e7374aab06a811f868a85127af1ff07ad7a56e22e8c46930e789a907098bdd4e6eec82e0cb0d4b8ac1cd5cd054c1f0e329ec50d8548f57d660aeee7cf9b3167
+  languageName: node
+  linkType: hard
+
+"@csstools/css-tokenizer@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "@csstools/css-tokenizer@npm:2.2.3"
+  checksum: 557266ec52e8b36c19008a5bbd7151effba085cdd6d68270c01afebf914981caac698eda754b2a530a8a9947a3dd70e3f3a39a5e037c4170bb2a055a92754acb
   languageName: node
   linkType: hard
 
@@ -713,15 +739,15 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-stepped-value-functions@npm:^3.0.2":
-  version: 3.0.3
-  resolution: "@csstools/postcss-stepped-value-functions@npm:3.0.3"
+  version: 3.0.4
+  resolution: "@csstools/postcss-stepped-value-functions@npm:3.0.4"
   dependencies:
-    "@csstools/css-calc": "npm:^1.1.5"
-    "@csstools/css-parser-algorithms": "npm:^2.4.0"
-    "@csstools/css-tokenizer": "npm:^2.2.2"
+    "@csstools/css-calc": "npm:^1.1.6"
+    "@csstools/css-parser-algorithms": "npm:^2.5.0"
+    "@csstools/css-tokenizer": "npm:^2.2.3"
   peerDependencies:
     postcss: ^8.4
-  checksum: 4e4ea1fd5dd3a5e8af5ec60dac24759e434023e2166e5e3264d02052f4d179ef59c40987cfa372139f44edbeff6508d3e60b0ed8a906229cce19c180fc4243f2
+  checksum: fc32c29cf237e9d6bf77d7cfd95abd4b98a92984f3e236009c72717ab8777427ef73a6b5425a3e1b0906ef7c694837c669a45da03493a66d556c4bbca7d39a4c
   languageName: node
   linkType: hard
 
