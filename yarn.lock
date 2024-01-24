@@ -8554,11 +8554,11 @@ __metadata:
   linkType: hard
 
 "postcss-gap-properties@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "postcss-gap-properties@npm:5.0.0"
+  version: 5.0.1
+  resolution: "postcss-gap-properties@npm:5.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 1fefa0b88510c22483bb62f3d1baf40a4cbc3c9bae3b88e1e132f6a8b3d930a33f5e8310f25ff86b9a160d431bffe22698271b8edea41ed4c5571dc09a76dfb6
+  checksum: 3b28c38819add37a2fc7decd7e3bdda1cab1de861af228abfb3e4310d87786eff4572a693bec6cea1c435bcd3dd0bb58bc9a58f1dde3a1c7def9feaf800762b8
   languageName: node
   linkType: hard
 
