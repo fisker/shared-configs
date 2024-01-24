@@ -8523,13 +8523,13 @@ __metadata:
   linkType: hard
 
 "postcss-focus-visible@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "postcss-focus-visible@npm:9.0.0"
+  version: 9.0.1
+  resolution: "postcss-focus-visible@npm:9.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: c241728485e85a94d17520fa0b4af3e17fa17dbc2c45eacc1d6875d1e8f1a3dbef6f76feaaab533e21b1489a1114b21bffdf34da3271d8d3337fed30cb737758
+  checksum: b8eb14ef51df62969559a7b2b4a4b6313a802fc2de225de293ad484ed6528833fc6bb7574aad5fabe7eeb27e8cd62663c2d547b25ff058d31c06d3d066abd904
   languageName: node
   linkType: hard
 
