@@ -388,16 +388,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-calc@npm:^1.1.6":
+  version: 1.1.6
+  resolution: "@csstools/css-calc@npm:1.1.6"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.5.0
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: e313834ad3517bd53b4b15abd4c9bf7951ccf3671669be4ed185c8b1af9dc8fe463d0cd75a61845364a9d6c7b8107dfba1032a2bde5eb7c905ab956a764ee56d
+  languageName: node
+  linkType: hard
+
 "@csstools/css-color-parser@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@csstools/css-color-parser@npm:1.5.0"
+  version: 1.5.1
+  resolution: "@csstools/css-color-parser@npm:1.5.1"
   dependencies:
     "@csstools/color-helpers": "npm:^4.0.0"
-    "@csstools/css-calc": "npm:^1.1.5"
+    "@csstools/css-calc": "npm:^1.1.6"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.4.0
-    "@csstools/css-tokenizer": ^2.2.2
-  checksum: 3f9d25533bb1afb2555f1a445d95cf870b516e266bb4f5b6e6a6b17c21c7774761fe9dea4bd6bd2ae6f28ad3a4ca957303502c79a1bb80585b44ad4ebe96e59b
+    "@csstools/css-parser-algorithms": ^2.5.0
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: 98c3fe23064e6218976d951b9e13da1c9d067075318004be511f7c752b972ada038b750c1c844f94d73d78c55bc8571bd2a123f0747ce107845b39678b833873
   languageName: node
   linkType: hard
 
