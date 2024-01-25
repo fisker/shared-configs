@@ -751,11 +751,11 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-unset-value@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-unset-value@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@csstools/postcss-unset-value@npm:3.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 0bad86c0eff261c0d9924a1c913984fb2fb3a2f730d4b7087015ebc64f3e0450b0105a890861b507b9e58ba7e7060889e2d4092ae00d4fd73b1d77663ac42c87
+  checksum: 5032c3125eada0a3a77d0867644cf994e28b789aaa40e990e7eebcdf5a9ed9f36b30e0904827044cea39849c9a9a19c90e82d3ca655550d82a7530872b3b6ff8
   languageName: node
   linkType: hard
 
