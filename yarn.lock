@@ -3330,15 +3330,15 @@ __metadata:
   linkType: hard
 
 "css-has-pseudo@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "css-has-pseudo@npm:6.0.0"
+  version: 6.0.1
+  resolution: "css-has-pseudo@npm:6.0.1"
   dependencies:
-    "@csstools/selector-specificity": "npm:^3.0.0"
+    "@csstools/selector-specificity": "npm:^3.0.1"
     postcss-selector-parser: "npm:^6.0.13"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: b1de0133f2fd8c8317409e982d01bf9ecdf381c13127542accd99d13ddb3e52a2a077c5287580d42eccc9a80613faa23741f69f624a470d3c8285d61d0c804e7
+  checksum: 3f48dd4165bcc8e3a4f66e096f944eb18255daca62a389ca64227193bd2320a3ada1b884aac8a61c0834cae41647c1a3358049a6c9ab3c04725e0231260cbf63
   languageName: node
   linkType: hard
 
