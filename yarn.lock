@@ -997,7 +997,7 @@ __metadata:
     del-cli: "npm:5.1.0"
     eslint: "npm:8.56.0"
     esm-utils: "npm:4.2.1"
-    husky: "npm:9.0.1"
+    husky: "npm:9.0.5"
     lerna: "npm:8.0.2"
     lint-staged: "npm:15.2.0"
     markdownlint-cli2: "npm:0.12.1"
@@ -5478,12 +5478,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:9.0.1":
-  version: 9.0.1
-  resolution: "husky@npm:9.0.1"
+"husky@npm:9.0.5":
+  version: 9.0.5
+  resolution: "husky@npm:9.0.5"
   bin:
     husky: bin.js
-  checksum: d7f3d158fffc8cc91211172637f7069b2173dbf5e732f46596a2a512e5f5f17ddebd895202cc67b0f159b747b698e2cc5601282b198d9cb5d97a5671fcb2afb7
+  checksum: 699294459d3147cebcda13872a680a8b7fa8b71bcb28c0f3b932f2f60501b6f004d6e84003b0cf7373fe62efcf869eee976a4471515914d012a259e1f5d5eb97
   languageName: node
   linkType: hard
 
