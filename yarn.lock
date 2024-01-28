@@ -3341,13 +3341,13 @@ __metadata:
   linkType: hard
 
 "css-blank-pseudo@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "css-blank-pseudo@npm:6.0.0"
+  version: 6.0.1
+  resolution: "css-blank-pseudo@npm:6.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: 2cbcc79dc56d27152a1c4b7af522228f78e12c2a59158944736b49ced63e197c69ff16927198286fb3630e4ffe202106de4b5775f10e661e58d741a6ac3593a6
+  checksum: 04f2dc1c39a429cb4958b60a9d00b03e29a78e3e55fe111b3a0660b7c6c478455d5907eda7c7a495cf72dbe83ae3c80b409e0468ca1ba5ccef992e69a8f49df8
   languageName: node
   linkType: hard
 
