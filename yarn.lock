@@ -8762,13 +8762,13 @@ __metadata:
   linkType: hard
 
 "postcss-pseudo-class-any-link@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "postcss-pseudo-class-any-link@npm:9.0.0"
+  version: 9.0.1
+  resolution: "postcss-pseudo-class-any-link@npm:9.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: 6213db4f05d06f827d8a9fe1ee67ce1b5723472e542ba50c02c320ebf4bb5c505901ff241f60f00e9958594dfce2dc222fe62d5389055976afd0170e65be28d7
+  checksum: 2d33f486af442a0ee095b7b8875701ed3f54ea3f80d2c4d1c1b35d105088b569c847e1c71fde2adf6cefb4920e8fb7d057ff1ad56e62c65892c7b68e26213b98
   languageName: node
   linkType: hard
 
