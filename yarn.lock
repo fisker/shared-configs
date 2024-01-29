@@ -8556,13 +8556,13 @@ __metadata:
   linkType: hard
 
 "postcss-focus-within@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "postcss-focus-within@npm:8.0.0"
+  version: 8.0.1
+  resolution: "postcss-focus-within@npm:8.0.1"
   dependencies:
     postcss-selector-parser: "npm:^6.0.13"
   peerDependencies:
     postcss: ^8.4
-  checksum: 451c2e0e66cc0fd7975ad62b277feff2a596be6db541281f3ef5d6c583f5b2fb995ad68278ef1935099c831f681051d88b3484b1b89b644ce08d735a414e9168
+  checksum: cb0380d89f3b9313345dbea65c78c7ad16a6e6ab2ba9e90451d5b14f05ee691a0cdf458376368061327182e031644da21eee7e6e9ae508d195f083e0a20c0502
   languageName: node
   linkType: hard
 
