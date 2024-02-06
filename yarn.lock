@@ -1002,7 +1002,7 @@ __metadata:
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
   dependencies:
     read-pkg: "npm:9.0.1"
-    write-pkg: "npm:6.0.1"
+    write-pkg: "npm:7.0.0"
   languageName: unknown
   linkType: soft
 
@@ -11165,16 +11165,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-pkg@npm:6.0.1":
-  version: 6.0.1
-  resolution: "write-pkg@npm:6.0.1"
+"write-pkg@npm:7.0.0":
+  version: 7.0.0
+  resolution: "write-pkg@npm:7.0.0"
   dependencies:
     deepmerge-ts: "npm:^5.1.0"
     read-pkg: "npm:^8.1.0"
     sort-keys: "npm:^5.0.0"
     type-fest: "npm:^4.6.0"
     write-json-file: "npm:^5.0.0"
-  checksum: 1fb3c640473133d32091d3a12ee8d561107a70788cfa68af68821f42d20a0136a0edf8fc5c74d75f550751ed73bb49fffea883fc86d58adcb56449a51d5c5076
+  checksum: 8247dabb965c29a381fbc2bbf52e2298a17c0a932e5e3e05608a9a9ffef698b5a84d78b96bb0b63265dc531381c5d906502b20a92abfa8def986d088959cec67
   languageName: node
   linkType: hard
 
