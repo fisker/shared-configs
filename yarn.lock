@@ -923,7 +923,7 @@ __metadata:
     eslint-plugin-regexp: "npm:2.2.0"
     eslint-plugin-sonarjs: "npm:0.23.0"
     eslint-plugin-sort-class-members: "npm:1.19.0"
-    eslint-plugin-unicorn: "npm:51.0.0"
+    eslint-plugin-unicorn: "npm:51.0.1"
   peerDependencies:
     eslint: "*"
     prettier: "*"
@@ -4265,9 +4265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:51.0.0":
-  version: 51.0.0
-  resolution: "eslint-plugin-unicorn@npm:51.0.0"
+"eslint-plugin-unicorn@npm:51.0.1":
+  version: 51.0.1
+  resolution: "eslint-plugin-unicorn@npm:51.0.1"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.22.20"
     "@eslint-community/eslint-utils": "npm:^4.4.0"
@@ -4287,7 +4287,7 @@ __metadata:
     strip-indent: "npm:^3.0.0"
   peerDependencies:
     eslint: ">=8.56.0"
-  checksum: 99f48da21f10fe2b31ae880df6c1630c4212f69a334d200aec7032c0f6141213a31e3bf51fbc8ff4154f00cd269670f0d6b610bd46261ac1ab64ad8a11b016a1
+  checksum: e3b019e55d60511c18aec081ff512366f917d0162db3ee122e1f881657b9a1c89e0d505bb7aec968d612ff3c757c055d5b734aaf0b3078a283315bb7db56ca04
   languageName: node
   linkType: hard
 
