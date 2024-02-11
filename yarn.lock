@@ -916,7 +916,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-es-x: "npm:7.5.0"
     eslint-plugin-eslint-comments: "npm:3.2.0"
-    eslint-plugin-html: "npm:7.1.0"
+    eslint-plugin-html: "npm:8.0.0"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:16.6.2"
     eslint-plugin-promise: "npm:6.1.1"
@@ -3697,7 +3697,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.0.1":
+"domutils@npm:^3.0.1, domutils@npm:^3.1.0":
   version: 3.1.0
   resolution: "domutils@npm:3.1.0"
   dependencies:
@@ -3834,7 +3834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:^4.2.0, entities@npm:^4.4.0":
+"entities@npm:^4.2.0, entities@npm:^4.4.0, entities@npm:^4.5.0":
   version: 4.5.0
   resolution: "entities@npm:4.5.0"
   checksum: 5b039739f7621f5d1ad996715e53d964035f75ad3b9a4d38c6b3804bb226e282ffeae2443624d8fdd9c47d8e926ae9ac009c54671243f0c3294c26af7cc85250
@@ -4134,12 +4134,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-html@npm:7.1.0":
-  version: 7.1.0
-  resolution: "eslint-plugin-html@npm:7.1.0"
+"eslint-plugin-html@npm:8.0.0":
+  version: 8.0.0
+  resolution: "eslint-plugin-html@npm:8.0.0"
   dependencies:
-    htmlparser2: "npm:^8.0.1"
-  checksum: f16455861af9eaa12dcf4e1c3cec7c4a3b17f1f3089300cbfe26dad721afd81ec4e29a0ab408b5cc34168726e7e793a340dd4a6e7c37f705ef74674c9d8a259f
+    htmlparser2: "npm:^9.1.0"
+  checksum: 0d0a32fc643768487abbf53d945dfe53ef9f8162136f305ba20a6154570a32edb2ce0f74e8fc26d9574ecba81be523173cf80d63fe769a83fc6545958f2cd649
   languageName: node
   linkType: hard
 
@@ -5423,7 +5423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^8.0.0, htmlparser2@npm:^8.0.1":
+"htmlparser2@npm:^8.0.0":
   version: 8.0.2
   resolution: "htmlparser2@npm:8.0.2"
   dependencies:
@@ -5432,6 +5432,18 @@ __metadata:
     domutils: "npm:^3.0.1"
     entities: "npm:^4.4.0"
   checksum: 609cca85886d0bf2c9a5db8c6926a89f3764596877492e2caa7a25a789af4065bc6ee2cdc81807fe6b1d03a87bf8a373b5a754528a4cc05146b713c20575aab4
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "htmlparser2@npm:9.1.0"
+  dependencies:
+    domelementtype: "npm:^2.3.0"
+    domhandler: "npm:^5.0.3"
+    domutils: "npm:^3.1.0"
+    entities: "npm:^4.5.0"
+  checksum: 394f6323efc265bbc791d8c0d96bfe95984e0407565248521ab92e2dc7668e5ceeca7bc6ed18d408b9ee3b25032c5743368a4280d280332d782821d5d467ad8f
   languageName: node
   linkType: hard
 
