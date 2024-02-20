@@ -799,6 +799,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -8502,13 +8511,14 @@ __metadata:
   linkType: hard
 
 "postcss-color-rebeccapurple@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "postcss-color-rebeccapurple@npm:9.0.1"
+  version: 9.0.3
+  resolution: "postcss-color-rebeccapurple@npm:9.0.3"
   dependencies:
+    "@csstools/utilities": "npm:^1.0.0"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 2c95edec1f6fba34e1b3335e93068ce532ee68e7b36a8047c4b20b910286f7c7015f76db6fda7e90826a350552f45395a026264367ca71eca7ed307bd5c11b70
+  checksum: ab36d29df23dd475a2a540101427640ef9c7936bbf941816e8582caea05feced26c65f795a849e2ad17469cee6682d1bbccd2f8ab0da07fe91efcc0649568038
   languageName: node
   linkType: hard
 
