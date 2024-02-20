@@ -401,12 +401,12 @@ __metadata:
   linkType: hard
 
 "@csstools/css-calc@npm:^1.1.5":
-  version: 1.1.5
-  resolution: "@csstools/css-calc@npm:1.1.5"
+  version: 1.1.7
+  resolution: "@csstools/css-calc@npm:1.1.7"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.4.0
-    "@csstools/css-tokenizer": ^2.2.2
-  checksum: 0ea41571aeec49ac6b5ce40752c9276c04e0b085fe913399c2086f586ccd43b07eb51517795d158680c87018c231d1b246efd170fea5a5805cb62098c126d435
+    "@csstools/css-parser-algorithms": ^2.6.0
+    "@csstools/css-tokenizer": ^2.2.3
+  checksum: 72848f0847292dfbe230ab7af72112471755679d8d3c165f82b7495d168ed3fce396fbd4bad5d81ea09aefa4f8d5073f10e491938573154370631ca1fa263885
   languageName: node
   linkType: hard
 
