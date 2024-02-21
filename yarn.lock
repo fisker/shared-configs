@@ -799,6 +799,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -8491,13 +8500,14 @@ __metadata:
   linkType: hard
 
 "postcss-color-hex-alpha@npm:^9.0.2":
-  version: 9.0.2
-  resolution: "postcss-color-hex-alpha@npm:9.0.2"
+  version: 9.0.4
+  resolution: "postcss-color-hex-alpha@npm:9.0.4"
   dependencies:
+    "@csstools/utilities": "npm:^1.0.0"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 77c0cf0769ed4a8a2c728df6f69a7487ea9211246b7c9836cb83e68e395591ed5fb0045de589f58ed2500a1878e058f3ec0ebfad56b69c2768539d48ae6646c6
+  checksum: 57b5cfe17e0b659d5444f267c485462b8b25f6ab087b810c7dd44662af4828e1e8f9c4a9169b8635a4755509ca7c0f3463c2e96444764c4e6ff9f4036aad05e5
   languageName: node
   linkType: hard
 
