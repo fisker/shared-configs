@@ -799,6 +799,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/selector-specificity@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@csstools/selector-specificity@npm:3.0.2"
+  peerDependencies:
+    postcss-selector-parser: ^6.0.13
+  checksum: d0c7dae2f1e9536e3e17f00467320a704f3208c76283c29c57fd69d4b83dcf6d062f492ed687c5ffd5f47fada9f0657c2efc89ea18fd4b038f757669553e0095
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -3372,15 +3381,15 @@ __metadata:
   linkType: hard
 
 "css-has-pseudo@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "css-has-pseudo@npm:6.0.0"
+  version: 6.0.2
+  resolution: "css-has-pseudo@npm:6.0.2"
   dependencies:
-    "@csstools/selector-specificity": "npm:^3.0.0"
+    "@csstools/selector-specificity": "npm:^3.0.2"
     postcss-selector-parser: "npm:^6.0.13"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: b1de0133f2fd8c8317409e982d01bf9ecdf381c13127542accd99d13ddb3e52a2a077c5287580d42eccc9a80613faa23741f69f624a470d3c8285d61d0c804e7
+  checksum: 96f9a6a4f31e11797e583d458535e11fa513b3f1f430ab566964a2f0792eaaa543213598b0a509516f07464234348ab11d56448b6d0c0c8a36988e0c86cf4ca1
   languageName: node
   linkType: hard
 
