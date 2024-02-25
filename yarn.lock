@@ -799,6 +799,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -8630,13 +8639,14 @@ __metadata:
   linkType: hard
 
 "postcss-image-set-function@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "postcss-image-set-function@npm:6.0.1"
+  version: 6.0.3
+  resolution: "postcss-image-set-function@npm:6.0.3"
   dependencies:
+    "@csstools/utilities": "npm:^1.0.0"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 61381e33ce41b70a9846f81bcf821c07c85945fd95a68e6e78441dfc6bf03df5e91f63e07e4098b1832d1f5a1d5f8208349c22e0aa2959b5c61f20090b0fa157
+  checksum: b35ce25aeca95f7abc5e5820f2398588150f5be02209054d714e870ae2fa01a8482fd10600fe1f847add898c39690275a60a5999f83f6bed6c66be9b0444b704
   languageName: node
   linkType: hard
 
