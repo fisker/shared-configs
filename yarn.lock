@@ -503,13 +503,14 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-font-format-keywords@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-font-format-keywords@npm:3.0.0"
+  version: 3.0.2
+  resolution: "@csstools/postcss-font-format-keywords@npm:3.0.2"
   dependencies:
+    "@csstools/utilities": "npm:^1.0.0"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 523b8dc1a5a42a5bf3b6cc3e22950a5215cb24daea3ecae886a2cbf344854b293a9bf93093b8e4873b88926f6fad6af226202dcfeb1c2373d930c46d3c52464c
+  checksum: 1b9bf031ce1a00fef1fae0b1ad614eddc6bb4c036ecad47e065c99063ba3d2f6ab8e47f9db02a6fbe8b75b0e02a075a7a80480d4296918970ba9e8d36f07a523
   languageName: node
   linkType: hard
 
@@ -796,6 +797,15 @@ __metadata:
   peerDependencies:
     postcss-selector-parser: ^6.0.13
   checksum: 4280f494726d5e38de74e28dee2ff74ec86244560dff4edeec3ddff3ac73c774c19535bd1bb70cad77949bfb359cf87e977d0ec3264591e3b7260342a20dd84f
+  languageName: node
+  linkType: hard
+
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
   languageName: node
   linkType: hard
 
