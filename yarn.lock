@@ -663,13 +663,14 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-nested-calc@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@csstools/postcss-nested-calc@npm:3.0.0"
+  version: 3.0.2
+  resolution: "@csstools/postcss-nested-calc@npm:3.0.2"
   dependencies:
+    "@csstools/utilities": "npm:^1.0.0"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 6619825637e769854f8b4bd74dcc01dbbb4817d22f8a92be4cba7647ff50336d00719d9551461f01d8cb22d3d333e19cf3a7ce3a34573af6e964d50a06143173
+  checksum: 3e24cf641170f9090f0dce088f6dae09ed9a0f38af1bdaa369ecc791a94cce54d7a02a0634f661a97fae24e04f1601c21d753593de018c80ad4236d36144b975
   languageName: node
   linkType: hard
 
@@ -796,6 +797,15 @@ __metadata:
   peerDependencies:
     postcss-selector-parser: ^6.0.13
   checksum: 4280f494726d5e38de74e28dee2ff74ec86244560dff4edeec3ddff3ac73c774c19535bd1bb70cad77949bfb359cf87e977d0ec3264591e3b7260342a20dd84f
+  languageName: node
+  linkType: hard
+
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
   languageName: node
   linkType: hard
 
