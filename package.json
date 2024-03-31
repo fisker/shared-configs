@@ -58,7 +58,7 @@
     "prettier": "3.2.5",
     "prettier-format": "4.0.0",
     "rollup": "4.13.2",
-    "sort-package-json": "2.9.0",
+    "sort-package-json": "2.10.0",
     "write-prettier-file": "3.0.3"
   },
   "packageManager": "yarn@4.0.2",
