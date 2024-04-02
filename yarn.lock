@@ -400,6 +400,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/color-helpers@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@csstools/color-helpers@npm:4.1.0"
+  checksum: 0e41fd04dd28361717b161e7000c3a3b64b8b01119e93758297ea0b8a87c04121c3e3ef02e29c56fdd133227dd879163aa4b52e2370853d9fe64af6b6821668d
+  languageName: node
+  linkType: hard
+
 "@csstools/css-calc@npm:^1.1.5":
   version: 1.1.5
   resolution: "@csstools/css-calc@npm:1.1.5"
@@ -407,6 +414,16 @@ __metadata:
     "@csstools/css-parser-algorithms": ^2.4.0
     "@csstools/css-tokenizer": ^2.2.2
   checksum: 0ea41571aeec49ac6b5ce40752c9276c04e0b085fe913399c2086f586ccd43b07eb51517795d158680c87018c231d1b246efd170fea5a5805cb62098c126d435
+  languageName: node
+  linkType: hard
+
+"@csstools/css-calc@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@csstools/css-calc@npm:1.2.0"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.6.1
+    "@csstools/css-tokenizer": ^2.2.4
+  checksum: ef12dc08ccdb9903e5cb24d81b469080b94c79123415f62f707196a85c53420b7729be608930314c7a9404f50c832fe5256f647c0567d1c825079cb77f6a8719
   languageName: node
   linkType: hard
 
@@ -423,6 +440,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-color-parser@npm:^1.6.3":
+  version: 1.6.3
+  resolution: "@csstools/css-color-parser@npm:1.6.3"
+  dependencies:
+    "@csstools/color-helpers": "npm:^4.1.0"
+    "@csstools/css-calc": "npm:^1.2.0"
+  peerDependencies:
+    "@csstools/css-parser-algorithms": ^2.6.1
+    "@csstools/css-tokenizer": ^2.2.4
+  checksum: 3b15d9974105fe6e5d5e839953ee06153bc308bd62feacdeb88b7da7486ef1625254d0df908c68654596e477ca6be0c312d0c02a62d6dc4bddee61821be17d27
+  languageName: node
+  linkType: hard
+
 "@csstools/css-parser-algorithms@npm:^2.3.2, @csstools/css-parser-algorithms@npm:^2.4.0":
   version: 2.4.0
   resolution: "@csstools/css-parser-algorithms@npm:2.4.0"
@@ -432,10 +462,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/css-parser-algorithms@npm:^2.6.1":
+  version: 2.6.1
+  resolution: "@csstools/css-parser-algorithms@npm:2.6.1"
+  peerDependencies:
+    "@csstools/css-tokenizer": ^2.2.4
+  checksum: 2c60377c4ffc96bbeb962cab19c09fccbcc834785928747219ed3bd916a34e52977393935d1d36501403f3f95ff59d358dd741d1dddcdaf9564ab36d73926aa6
+  languageName: node
+  linkType: hard
+
 "@csstools/css-tokenizer@npm:^2.2.1, @csstools/css-tokenizer@npm:^2.2.2":
   version: 2.2.2
   resolution: "@csstools/css-tokenizer@npm:2.2.2"
   checksum: 9e7374aab06a811f868a85127af1ff07ad7a56e22e8c46930e789a907098bdd4e6eec82e0cb0d4b8ac1cd5cd054c1f0e329ec50d8548f57d660aeee7cf9b3167
+  languageName: node
+  linkType: hard
+
+"@csstools/css-tokenizer@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "@csstools/css-tokenizer@npm:2.2.4"
+  checksum: 23997db5874514f4b951ebd215e1e6cc8baf03adf9a35fc6fd028b84cb52aa2dc053860722108c09859a9b37b455f62b84181fe15539cd37797ea699b9ff85f0
   languageName: node
   linkType: hard
 
@@ -685,16 +731,17 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-oklab-function@npm:^3.0.7":
-  version: 3.0.8
-  resolution: "@csstools/postcss-oklab-function@npm:3.0.8"
+  version: 3.0.13
+  resolution: "@csstools/postcss-oklab-function@npm:3.0.13"
   dependencies:
-    "@csstools/css-color-parser": "npm:^1.5.0"
-    "@csstools/css-parser-algorithms": "npm:^2.4.0"
-    "@csstools/css-tokenizer": "npm:^2.2.2"
-    "@csstools/postcss-progressive-custom-properties": "npm:^3.0.3"
+    "@csstools/css-color-parser": "npm:^1.6.3"
+    "@csstools/css-parser-algorithms": "npm:^2.6.1"
+    "@csstools/css-tokenizer": "npm:^2.2.4"
+    "@csstools/postcss-progressive-custom-properties": "npm:^3.2.0"
+    "@csstools/utilities": "npm:^1.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 548e64a1f9e22f8de539704f094b7e04482f8634e884b97b370b09c467b03f2fe396163dc5f4baa7f531e4fb3d4902d926516cb635928bf4512d592a759ebe02
+  checksum: 26915f65ccc8b631a08542c4b088f9e5155f95a6c1f3a6bd2a33207f96d33438b930de60f493a5bbfee1b9f2abc8dfcab3ecbf20b5c7445d729fc434234fb046
   languageName: node
   linkType: hard
 
@@ -706,6 +753,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: c2f228b71ddf71a368583c4a240ae109f371adf459b5cb5ef0ae7899a31662776d7430ef43be0a988c8d57bda1d709399d9b8488cf05f7c4ff56d1d8ba286eed
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.2.0"
+  dependencies:
+    postcss-value-parser: "npm:^4.2.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 829880844fbbeef1c67e0b380057e574659b4caed38c8414c17d7eb4a0cc727afa1cd74a889bc7ca79c819ecae757810356706901cf6bb677a36ca123915cbb7
   languageName: node
   linkType: hard
 
@@ -796,6 +854,15 @@ __metadata:
   peerDependencies:
     postcss-selector-parser: ^6.0.13
   checksum: 4280f494726d5e38de74e28dee2ff74ec86244560dff4edeec3ddff3ac73c774c19535bd1bb70cad77949bfb359cf87e977d0ec3264591e3b7260342a20dd84f
+  languageName: node
+  linkType: hard
+
+"@csstools/utilities@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/utilities@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 2ac10895e0a1f9e1fc9c092197c8595a09f632552791af91219f38c55bb39083fb44b74a6a7de9112492cf24a2fe66d20c955a2b4aff041d5c017d87bbebc0f2
   languageName: node
   linkType: hard
 
