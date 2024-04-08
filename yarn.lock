@@ -862,7 +862,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
-    eslint-plugin-jest: "npm:28.0.0"
+    eslint-plugin-jest: "npm:28.2.0"
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -4215,9 +4215,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:28.0.0":
-  version: 28.0.0
-  resolution: "eslint-plugin-jest@npm:28.0.0"
+"eslint-plugin-jest@npm:28.2.0":
+  version: 28.2.0
+  resolution: "eslint-plugin-jest@npm:28.2.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^6.0.0"
   peerDependencies:
@@ -4229,7 +4229,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: bdcf1e3c86ecc876713ab16cece10838e6b2671c20773535efdd7484c16ca44751d24d4360a464b89c90ea5602e2f524665bb7d9d72b3b2d73561beb84b7f396
+  checksum: 9f825bad115b57f05cd74a108d46c0ef29fd9aefd7dee565e328b5c7767c9a2b73878af31b2f807e4df8414badd6d721822857b1d9fd3f013fede8cc76c73da0
   languageName: node
   linkType: hard
 
