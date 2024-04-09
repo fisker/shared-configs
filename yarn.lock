@@ -920,7 +920,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:16.6.2"
     eslint-plugin-promise: "npm:6.1.1"
-    eslint-plugin-regexp: "npm:2.4.0"
+    eslint-plugin-regexp: "npm:2.5.0"
     eslint-plugin-sonarjs: "npm:0.25.1"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-unicorn: "npm:52.0.0"
@@ -4276,9 +4276,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-regexp@npm:2.4.0":
-  version: 2.4.0
-  resolution: "eslint-plugin-regexp@npm:2.4.0"
+"eslint-plugin-regexp@npm:2.5.0":
+  version: 2.5.0
+  resolution: "eslint-plugin-regexp@npm:2.5.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.9.1"
@@ -4289,7 +4289,7 @@ __metadata:
     scslre: "npm:^0.3.0"
   peerDependencies:
     eslint: ">=8.44.0"
-  checksum: 1eac65efc3cc9a8de13267c31c3a1f664fa81d50f6b670957b3c9539c8522dad6e419795b823bb9e12afbe49326ba3b53ac55202c2dec068ce9cb0a2b07acc14
+  checksum: 601b7b63ffc3607c22464ba4f4ec50a8e6f7f37d2ddfb7c72c782f269cafa518b40e77f7e9ce17329cfa90b08a9bb250b2fba1aec9a23b44d52352bad382b02d
   languageName: node
   linkType: hard
 
