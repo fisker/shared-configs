@@ -918,7 +918,7 @@ __metadata:
     eslint-plugin-eslint-comments: "npm:3.2.0"
     eslint-plugin-html: "npm:8.0.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-n: "npm:17.0.0"
+    eslint-plugin-n: "npm:17.1.0"
     eslint-plugin-promise: "npm:6.1.1"
     eslint-plugin-regexp: "npm:2.5.0"
     eslint-plugin-sonarjs: "npm:0.25.1"
@@ -4256,9 +4256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:17.0.0":
-  version: 17.0.0
-  resolution: "eslint-plugin-n@npm:17.0.0"
+"eslint-plugin-n@npm:17.1.0":
+  version: 17.1.0
+  resolution: "eslint-plugin-n@npm:17.1.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     enhanced-resolve: "npm:^5.15.0"
@@ -4266,12 +4266,11 @@ __metadata:
     get-tsconfig: "npm:^4.7.0"
     globals: "npm:^14.0.0"
     ignore: "npm:^5.2.4"
-    is-builtin-module: "npm:^3.2.1"
     minimatch: "npm:^9.0.0"
     semver: "npm:^7.5.3"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 0ffc4ad60906f8ec792ca4d0736cf38f2c13ac2bddcc998ac5724f94059a0f6e9bd3a77abe1569955e9f1845d8f68dc78fbb664a61857d025fa1bf39e07c395f
+  checksum: adb0a87ba591c37676628af4303b8fa70111e28082031cad4cfb8813d2122066936c5ed6f953685dc07b5cc6cc887ec940b41ca17421c59769343d14d683c4ba
   languageName: node
   linkType: hard
 
