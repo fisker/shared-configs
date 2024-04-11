@@ -916,7 +916,7 @@ __metadata:
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-es-x: "npm:7.6.0"
     eslint-plugin-eslint-comments: "npm:3.2.0"
-    eslint-plugin-html: "npm:8.0.0"
+    eslint-plugin-html: "npm:8.1.0"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:17.1.0"
     eslint-plugin-promise: "npm:6.1.1"
@@ -4189,12 +4189,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-html@npm:8.0.0":
-  version: 8.0.0
-  resolution: "eslint-plugin-html@npm:8.0.0"
+"eslint-plugin-html@npm:8.1.0":
+  version: 8.1.0
+  resolution: "eslint-plugin-html@npm:8.1.0"
   dependencies:
     htmlparser2: "npm:^9.1.0"
-  checksum: 0d0a32fc643768487abbf53d945dfe53ef9f8162136f305ba20a6154570a32edb2ce0f74e8fc26d9574ecba81be523173cf80d63fe769a83fc6545958f2cd649
+  checksum: b8e1157b190ba3e4c81db7643a082d7e16a3d7c030edfed68addab6a391ad2c842af41d4be3df6e0f983bcefa330866247cf5bd764ec04eba66ec8608dcd50ad
   languageName: node
   linkType: hard
 
