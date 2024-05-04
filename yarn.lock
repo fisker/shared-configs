@@ -852,7 +852,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/eslint-config-ava@workspace:packages/eslint-config-ava"
   dependencies:
-    eslint-plugin-ava: "npm:14.0.0"
+    eslint-plugin-ava: "npm:15.0.0"
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -4140,9 +4140,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ava@npm:14.0.0":
-  version: 14.0.0
-  resolution: "eslint-plugin-ava@npm:14.0.0"
+"eslint-plugin-ava@npm:15.0.0":
+  version: 15.0.0
+  resolution: "eslint-plugin-ava@npm:15.0.0"
   dependencies:
     enhance-visitors: "npm:^1.0.0"
     eslint-utils: "npm:^3.0.0"
@@ -4153,8 +4153,8 @@ __metadata:
     pkg-dir: "npm:^5.0.0"
     resolve-from: "npm:^5.0.0"
   peerDependencies:
-    eslint: ">=8.26.0"
-  checksum: 2bedbac208b6b964dd5ed60e14af0de757f5d68133c38f73c6211b03be39af5f4b19f1f667ce19bc9c4252113c550a8cd48146061f7ff6ebb3551bc8b2217f67
+    eslint: ">=9"
+  checksum: 9a1fa94b8ed2412501e100df034f48af011d7ee29f77886b92006c885b9e3a464aef25f31aa90e375569a4a368068172a7fa7607abda4c21cdca6c52d54abfb0
   languageName: node
   linkType: hard
 
