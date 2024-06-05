@@ -18,7 +18,7 @@ export default [
       'regexp/sort-character-class-elements': 'off',
 
       // Conflicting with `unicorn/better-regex`
-      'regexp/match-any': ['error', {allows: ['dotAll', '[\\S\\s]']}],
+      'regexp/match-any': ['error', {allows: ['dotAll', String.raw`[\S\s]`]}],
 
       // Conflicting with `unicorn/better-regex`
       'regexp/strict': 'off',

@@ -1,7 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
   "version": "10.4.0",
-  "type": "module",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "keywords": [
     "config",
@@ -19,6 +18,7 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./*": "./*"

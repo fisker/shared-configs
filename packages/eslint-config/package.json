@@ -2,7 +2,6 @@
   "name": "@fisker/eslint-config",
   "version": "12.1.0",
   "description": "fisker's Shareable ESLint Configuration",
-  "type": "module",
   "keywords": [
     "config",
     "eslint",
@@ -18,6 +17,7 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./*": "./*"

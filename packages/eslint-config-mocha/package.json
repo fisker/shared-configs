@@ -1,7 +1,6 @@
 {
   "name": "@fisker/eslint-config-mocha",
   "version": "1.3.0",
-  "type": "module",
   "description": "fisker's Shareable ESLint Configuration for mocha test",
   "keywords": [
     "config",
@@ -20,6 +19,7 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./*": "./*"
