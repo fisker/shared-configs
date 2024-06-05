@@ -1045,7 +1045,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    postcss-html: "npm:1.6.0"
+    postcss-html: "npm:1.7.0"
     stylelint-config-html: "npm:1.1.0"
     stylelint-config-recommended: "npm:14.0.0"
     stylelint-config-recommended-scss: "npm:14.0.0"
@@ -6366,10 +6366,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tokens@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "js-tokens@npm:8.0.1"
-  checksum: 10c0/896986a9c4aad01addb705e6596ee61f6c453cfcf801606006d78e2782f381ddd6eadbf16083f2efd49d31c770bb51e6921727e1954371a8dc9fa5cecbe3b6f3
+"js-tokens@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "js-tokens@npm:9.0.0"
+  checksum: 10c0/4ad1c12f47b8c8b2a3a99e29ef338c1385c7b7442198a425f3463f3537384dab6032012791bfc2f056ea5ecdb06b1ed4f70e11a3ab3f388d3dcebfe16a52b27d
   languageName: node
   linkType: hard
 
@@ -8786,15 +8786,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:1.6.0":
-  version: 1.6.0
-  resolution: "postcss-html@npm:1.6.0"
+"postcss-html@npm:1.7.0":
+  version: 1.7.0
+  resolution: "postcss-html@npm:1.7.0"
   dependencies:
     htmlparser2: "npm:^8.0.0"
-    js-tokens: "npm:^8.0.0"
+    js-tokens: "npm:^9.0.0"
     postcss: "npm:^8.4.0"
     postcss-safe-parser: "npm:^6.0.0"
-  checksum: 10c0/b7e4b69bb1ba3636554268b141ee0b10f789fcf42db83c086d637a5aead7d77385999160422fcd6ddaf5a61b72af17635aedde0035cc100be0d7e604f233e6dd
+  checksum: 10c0/5c6a7ead7ad6e2ed8427035dc7b8ee18f03b0c03684d8e59ec2b7c4d5485ebb7e026049e73bd907f3f16db6be004575706e6d25592258de1b4329b98e6845bd5
   languageName: node
   linkType: hard
 
