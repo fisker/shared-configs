@@ -13,9 +13,7 @@ yarn add --dev eslint prettier @fisker/eslint-config-vue
 ```js
 import fiskerEslintConfigVue from '@fisker/eslint-config-vue'
 
-export default [
-  ...fiskerEslintConfigVue,
-]
+export default [...fiskerEslintConfigVue]
 ```
 
 ## Links

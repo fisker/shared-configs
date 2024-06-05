@@ -13,9 +13,7 @@ yarn add --dev eslint prettier @fisker/eslint-config
 ```js
 import fiskerEslintConfig from '@fisker/eslint-config'
 
-export default [
-  ...fiskerEslintConfig,
-]
+export default [...fiskerEslintConfig]
 ```
 
 ## Todos
