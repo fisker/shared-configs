@@ -17,15 +17,17 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
   "files": [
     "plugins",
-    "rules"
+    "rules",
+    "utilities"
   ],
   "scripts": {
-    "build": "run-p \"build:*\"",
-    "build:docs": "node scripts/compare.mjs",
-    "clean": "del-cli docs",
     "test": "ava"
   },
   "ava": {
@@ -33,20 +35,23 @@
     "verbose": true
   },
   "dependencies": {
-    "@babel/core": "7.23.9",
-    "@babel/eslint-parser": "7.24.5",
+    "@babel/core": "7.24.6",
+    "@babel/eslint-parser": "7.24.6",
+    "@eslint/compat": "1.0.3",
+    "@eslint/eslintrc": "3.1.0",
+    "@eslint/js": "9.4.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-es-x": "7.6.0",
     "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-html": "8.1.1",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.5.0",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-regexp": "2.5.0",
-    "eslint-plugin-sonarjs": "0.25.1",
+    "eslint-plugin-n": "17.7.0",
+    "eslint-plugin-promise": "6.2.0",
+    "eslint-plugin-regexp": "2.6.0",
+    "eslint-plugin-sonarjs": "1.0.3",
     "eslint-plugin-sort-class-members": "1.20.0",
-    "eslint-plugin-unicorn": "52.0.0"
+    "eslint-plugin-unicorn": "53.0.0",
+    "import-meta-resolve": "4.1.0"
   },
   "devDependencies": {
     "ava": "6.1.3"

@@ -11,35 +11,10 @@ yarn add --dev eslint prettier @fisker/eslint-config
 ## .eslintrc.js
 
 ```js
-module.exports = {
-  extends: ['@fisker'],
-}
+import fiskerEslintConfig from '@fisker/eslint-config'
+
+export default [...fiskerEslintConfig]
 ```
-
-## foreign config & plugins
-
-### eslint-config-airbnb-base
-
-- [compare `@fisker` with `airbnb-base`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-airbnb.md)
-- [compare `@fisker` with `airbnb-base` + `prettier`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-airbnb-prettier.md)
-
-### eslint-plugin-eslint-comments
-
-- [compare `@fisker` with `eslint-comments/recommended`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-eslint-comments.md)
-
-### eslint-plugin-import
-
-- [compare `@fisker` with `import/error` + `import/warning`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-import.md)
-
-### eslint-plugin-promise
-
-- [compare `@fisker` with `promise/recommended`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-promise.md)
-
-### eslint-plugin-unicorn
-
-- [compare `@fisker` with `unicorn/recommended`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-unicorn.md)
-
-- [compare `@fisker` with `unicorn/recommended` + `prettier/unicorn`](https://github.com/fisker/shared-configs/tree/master/packages/eslint-config/docs/compare-with-unicorn-prettier.md)
 
 ## Todos
 
@@ -66,7 +41,3 @@ module.exports = {
 - [eslint-plugin-html](https://github.com/BenoitZugmeyer/eslint-plugin-html)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - [eslint-plugin-optimize-regex](https://github.com/BrainMaestro/eslint-plugin-optimize-regex)
-
-## License
-
-MIT © [fisker Cheung](https://www.fiskercheung.com/)

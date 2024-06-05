@@ -3,14 +3,23 @@ import path from 'node:path'
 import url from 'node:url'
 import test from 'ava'
 import ESLint from 'eslint'
+import configs from '../index.js'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 const fixture = path.join.bind(path, dirname, 'fixtures')
 
 const eslint = new ESLint.ESLint({
   ignore: false,
-  useEslintrc: false,
-  overrideConfigFile: path.join(dirname, '../index.js'),
+  cache: false,
+  overrideConfigFile: true,
+  overrideConfig: [
+    ...configs,
+    {
+      linterOptions: {
+        reportUnusedDisableDirectives: 'off',
+      },
+    },
+  ],
 })
 
 async function lintResult(file) {

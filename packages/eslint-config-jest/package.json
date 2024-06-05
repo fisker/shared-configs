@@ -19,7 +19,11 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
   "files": [
     "index.js"
   ],

@@ -1,18 +1,21 @@
-module.exports = {
-  env: {
-    jest: true,
-  },
-  plugins: ['jest'],
-  extends: ['plugin:jest/recommended'],
-  rules: {
-    'jest/no-disabled-tests': 'warn',
-    'jest/valid-title': 'off',
+// TODO: Prefer local installed plugin
+import eslintPluginJest from 'eslint-plugin-jest'
 
-    'unicorn/prefer-module': 'off',
+export default [
+  eslintPluginJest.configs['flat/recommended'],
+  {
+    rules: {
+      'jest/no-disabled-tests': 'warn',
+      'jest/valid-title': 'off',
+      'unicorn/prefer-module': 'off',
+    },
+
+    languageOptions: {
+      globals: {
+        require: 'readonly',
+        __filename: 'readonly',
+        __dirname: 'readonly',
+      },
+    },
   },
-  globals: {
-    require: 'readonly',
-    __filename: 'readonly',
-    __dirname: 'readonly',
-  },
-}
+]
