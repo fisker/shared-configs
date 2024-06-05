@@ -24,7 +24,8 @@
     "./*": "./*"
   },
   "files": [
-    "plugins"
+    "plugins",
+    "index.js"
   ],
   "scripts": {
     "test": "run-p \"test:*\"",

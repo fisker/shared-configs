@@ -25,7 +25,8 @@
   "files": [
     "plugins",
     "rules",
-    "utilities"
+    "utilities",
+    "index.js"
   ],
   "scripts": {
     "test": "ava"
