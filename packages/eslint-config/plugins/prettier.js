@@ -1,7 +1,7 @@
-module.exports = {
-  extends: [require.resolve('eslint-config-prettier')],
-  rules: {
-    // specify curly brace conventions for all control statements
-    curly: ['error', 'all'],
-  },
-}
+import {importPreferLocal} from '../utilities/utilities.js'
+
+const {default: eslintConfigPrettier} = await importPreferLocal(
+  'eslint-config-prettier',
+)
+
+export default [eslintConfigPrettier]

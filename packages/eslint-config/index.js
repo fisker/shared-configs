@@ -1,85 +1,90 @@
-module.exports = {
-  root: true,
-  parser: require.resolve('@babel/eslint-parser'),
-  env: {
-    browser: true,
-    node: true,
-    es2022: true,
-  },
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    requireConfigFile: false,
-    allowImportExportEverywhere: true,
-    ecmaFeatures: {
-      globalReturn: false,
-    },
-    babelOptions: {
-      babelrc: false,
-      configFile: false,
-      parserOpts: {
-        plugins: ['exportDefaultFrom', 'jsx'],
+import {importPreferLocal, importFile} from './utilities/utilities.js'
+import configAirbnb from './airbnb/index.js'
+import pluginPromise from './plugins/promise.js'
+import pluginNode from './plugins/node.js'
+import pluginUnicorn from './plugins/unicorn.js'
+import pluginEslintComments from './plugins/eslint-comments.js'
+import pluginRegexp from './plugins/regexp.js'
+import pluginSonarjs from './plugins/sonarjs.js'
+import pluginSortClassMember from './plugins/sort-class-members.js'
+import configPrettier from './plugins/prettier.js'
+
+const {default: babelEslintParser} = await importPreferLocal(
+  '@babel/eslint-parser',
+)
+const {default: eslintPluginJs} = await importPreferLocal('@eslint/js')
+const eslintrc = await importPreferLocal('@eslint/eslintrc')
+
+export default [
+  // ESLint recommended
+  eslintPluginJs.configs.recommended,
+
+  // plugins
+  ...pluginPromise,
+  ...pluginNode,
+  ...pluginUnicorn,
+  ...pluginEslintComments,
+  ...pluginRegexp,
+  ...pluginSonarjs,
+  ...pluginSortClassMember,
+
+  // airbnb
+  ...configAirbnb,
+
+  // Prettier
+  ...configPrettier,
+
+  {
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      parser: babelEslintParser,
+      globals: {
+        ...eslintrc.Legacy.environments.get('es2024').globals,
+        ...eslintrc.Legacy.environments.get('browser').globals,
+        ...eslintrc.Legacy.environments.get('node').globals,
+      },
+      parserOptions: {
+        requireConfigFile: false,
+        sourceType: 'module',
+        allowImportExportEverywhere: true,
+        ecmaFeatures: {
+          globalReturn: false,
+        },
+        babelOptions: {
+          babelrc: false,
+          configFile: false,
+          parserOpts: {
+            plugins: ['jsx'],
+          },
+        },
       },
     },
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+    },
+    rules: {
+      // should not set by `eslint-plugin-node`,
+      // and also there is a option by `eslint-config-unicorn`
+      'no-process-exit': 'off',
+
+      // conflicts with `unicorn/prevent-abbreviations` auto fixing
+      'no-underscore-dangle': 'off',
+
+      quotes: [
+        'error',
+        'single',
+        {
+          avoidEscape: true,
+          allowTemplateLiterals: false,
+        },
+      ],
+
+      'n/no-unsupported-features/node-builtins': 'off',
+
+      'n/no-missing-import': 'off',
+
+      'unicorn/template-indent': 'error',
+    },
   },
-  reportUnusedDisableDirectives: true,
-  extends: [
-    // ESLint recommended
-    './rules/recommended.js',
-
-    // plugins
-    './plugins/import.js',
-    './plugins/promise.js',
-    './plugins/node.js',
-    './plugins/unicorn.js',
-    './plugins/eslint-comments.js',
-    './plugins/regexp.js',
-    './plugins/sonarjs.js',
-    './plugins/sort-class-members.js',
-
-    // airbnb
-    'eslint-config-airbnb-base',
-    './rules/best-practices.js',
-    './rules/errors.js',
-    './rules/es6.js',
-    './rules/imports.js',
-    './rules/node.js',
-    './rules/strict.js',
-    './rules/style.js',
-    './rules/variables.js',
-
-    // prettier
-    './plugins/prettier.js',
-  ].map((id) => require.resolve(id)),
-  rules: {
-    // should not set by `eslint-plugin-node`,
-    // and also there is a option by `eslint-config-unicorn`
-    'no-process-exit': 'off',
-
-    // conflicts with `unicorn/prevent-abbreviations` auto fixing
-    'no-underscore-dangle': 'off',
-
-    quotes: [
-      'error',
-      'single',
-      {
-        avoidEscape: true,
-        allowTemplateLiterals: false,
-      },
-    ],
-
-    'import/extensions': ['error', 'always', {ignorePackages: true}],
-
-    // Default options seems not working without second option
-    'import/order': ['error', {}],
-
-    // Disable these temporarily, as they conflict with `unicorn/prefer-node-protocol`
-    'import/no-unresolved': 'off',
-
-    'n/no-unsupported-features/node-builtins': 'off',
-
-    'n/no-missing-import': 'off',
-
-    'unicorn/template-indent': 'error',
-  },
-}
+]
