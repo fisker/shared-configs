@@ -14,7 +14,7 @@ const {default: eslintConfigAirbnbBase} = await importPreferLocal(
 const modules = await Promise.all(
   eslintConfigAirbnbBase.extends
     .filter((file) => !file.endsWith('imports.js'))
-    .map(async (file) => await importFile(file)),
+    .map((file) => importFile(file)),
 )
 const eslintConfigAirbnbBaseRules = Object.fromEntries(
   modules.flatMap((module) => Object.entries(module.default.rules)),

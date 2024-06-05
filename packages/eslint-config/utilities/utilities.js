@@ -1,4 +1,5 @@
 import process from 'node:process'
+import * as path from 'node:path'
 import {toUrl} from 'url-or-path'
 import {resolve} from 'import-meta-resolve'
 
