@@ -1,4 +1,4 @@
-import {importPreferLocal, importFile} from './utilities/utilities.js'
+import {importPreferLocal} from './utilities/utilities.js'
 import configAirbnb from './airbnb/index.js'
 import pluginPromise from './plugins/promise.js'
 import pluginNode from './plugins/node.js'
