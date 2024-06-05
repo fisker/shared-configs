@@ -2,6 +2,7 @@
   "name": "@fisker/eslint-config-ava",
   "version": "2.0.6",
   "description": "fisker's Shareable ESLint Configuration for ava test",
+  "type": "module",
   "keywords": [
     "ava",
     "config",
@@ -19,12 +20,15 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "eslint-plugin-ava": "15.0.0"
+    "eslint-plugin-ava": "15.0.1"
   },
   "peerDependencies": {
     "eslint": "*"

@@ -2,6 +2,7 @@
   "name": "@fisker/eslint-config-jest",
   "version": "3.2.0",
   "description": "fisker's Shareable ESLint Configuration for jest test",
+  "type": "module",
   "keywords": [
     "config",
     "eslint",
@@ -19,7 +20,10 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
   "files": [
     "index.js"
   ],

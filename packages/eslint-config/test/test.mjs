@@ -10,12 +10,15 @@ const fixture = path.join.bind(path, dirname, 'fixtures')
 
 const eslint = new ESLint.ESLint({
   ignore: false,
-overrideConfigFile: true,
-overrideConfig: [...configs,	{
-		linterOptions: {
-			reportUnusedDisableDirectives: 'off',
-		},
-	},]
+  overrideConfigFile: true,
+  overrideConfig: [
+    ...configs,
+    {
+      linterOptions: {
+        reportUnusedDisableDirectives: 'off',
+      },
+    },
+  ],
 })
 
 async function lintResult(file) {
