@@ -80,6 +80,22 @@ export default [
       'unicorn/switch-case-braces': ['error', 'avoid'],
 
       'unicorn/no-unnecessary-polyfills': 'off',
+
+      'unicorn/import-style': [
+        'error',
+        {
+          styles: {
+            path: {
+              namespace: true,
+              named: true,
+            },
+            'node:path': {
+              namespace: true,
+              named: true,
+            },
+          },
+        },
+      ],
     },
   },
 ]
