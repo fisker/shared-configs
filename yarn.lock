@@ -2115,11 +2115,11 @@ __metadata:
   linkType: hard
 
 "acorn-import-attributes@npm:^1.9.2":
-  version: 1.9.2
-  resolution: "acorn-import-attributes@npm:1.9.2"
+  version: 1.9.5
+  resolution: "acorn-import-attributes@npm:1.9.5"
   peerDependencies:
     acorn: ^8
-  checksum: 10c0/adbe756dcd3479368e4aa2100d03d5a836958635a4a6ca33e0916c45a4f1ea11aaec33564cdedc11fa3037bd46c3cdda91f703c79f1413a874af6b18a87753aa
+  checksum: 10c0/5926eaaead2326d5a86f322ff1b617b0f698aa61dc719a5baa0e9d955c9885cc71febac3fb5bacff71bbf2c4f9c12db2056883c68c53eb962c048b952e1e013d
   languageName: node
   linkType: hard
 
