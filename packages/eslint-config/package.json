@@ -28,9 +28,6 @@
     "utilities"
   ],
   "scripts": {
-    "build": "run-p \"build:*\"",
-    "build:docs": "node scripts/compare.mjs",
-    "clean": "del-cli docs",
     "test": "ava"
   },
   "ava": {

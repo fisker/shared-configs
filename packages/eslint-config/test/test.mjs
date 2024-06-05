@@ -10,6 +10,7 @@ const fixture = path.join.bind(path, dirname, 'fixtures')
 
 const eslint = new ESLint.ESLint({
   ignore: false,
+    cache: false,
   overrideConfigFile: true,
   overrideConfig: [
     ...configs,

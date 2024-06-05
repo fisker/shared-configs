@@ -27,17 +27,12 @@
     "plugins"
   ],
   "scripts": {
-    "build": "run-p \"build:*\"",
-    "build:docs": "node scripts/compare.mjs",
-    "clean": "del-cli docs",
-    "prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
     "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
     "@fisker/eslint-config": "^12.1.0",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-vue": "9.25.0"
+    "eslint-plugin-vue": "9.26.0"
   },
   "devDependencies": {
     "@fisker/eslint-config": "workspace:*"
