@@ -1,9 +1,9 @@
-# ignore file for `eslint`
-#
-# update: wget -O .eslintignore https://git.io/fjVjo
-# document: https://eslint.org/docs/user-guide/configuring#eslintignore
-#
+import fiskerEslintConfig from './packages/eslint-config/index.js'
 
+export default [
+  ...fiskerEslintConfig,
+  {
+    ignores: `
 # also lint dot files
 !.*
 
@@ -28,3 +28,8 @@
 **/.yarn
 
 # project glob
+`
+      .split('\n')
+      .filter((pattern) => pattern && !pattern.startsWith('#')),
+  },
+]
