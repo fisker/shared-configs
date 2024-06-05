@@ -217,9 +217,9 @@ __metadata:
   linkType: hard
 
 "@babel/helper-validator-option@npm:^7.24.6":
-  version: 7.24.6
-  resolution: "@babel/helper-validator-option@npm:7.24.6"
-  checksum: 10c0/787268dff5cf77f3b704454b96ab7b58aa4f43b2808247e51859a103a1c28a9c252100f830433f4b37a73f4a61ba745bbeef4cdccbab48c1e9adf037f4ca3491
+  version: 7.24.7
+  resolution: "@babel/helper-validator-option@npm:7.24.7"
+  checksum: 10c0/21aea2b7bc5cc8ddfb828741d5c8116a84cbc35b4a3184ec53124f08e09746f1f67a6f9217850188995ca86059a7942e36d8965a6730784901def777b7e8a436
   languageName: node
   linkType: hard
 
