@@ -933,7 +933,7 @@ __metadata:
     ava: "npm:6.1.3"
     eslint-config-airbnb-base: "npm:15.0.0"
     eslint-config-prettier: "npm:9.1.0"
-    eslint-plugin-es-x: "npm:7.6.0"
+    eslint-plugin-es-x: "npm:7.7.0"
     eslint-plugin-eslint-comments: "npm:3.2.0"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:17.8.1"
@@ -4129,14 +4129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-compat-utils@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "eslint-compat-utils@npm:0.5.0"
+"eslint-compat-utils@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "eslint-compat-utils@npm:0.5.1"
   dependencies:
     semver: "npm:^7.5.4"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10c0/aea9ff05df3f4d5db95361c13cb89baf3669fe34ad73e5771843dbb5cafdc7a9636c6f93814a29d0e0b87f147846ddef6672b71e28c4e73f889b5ea8d1d454d2
+  checksum: 10c0/325e815205fab70ebcd379f6d4b5d44c7d791bb8dfe0c9888233f30ebabd9418422595b53a781b946c768d9244d858540e5e6129a6b3dd6d606f467d599edc6c
   languageName: node
   linkType: hard
 
@@ -4207,16 +4207,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:7.6.0":
-  version: 7.6.0
-  resolution: "eslint-plugin-es-x@npm:7.6.0"
+"eslint-plugin-es-x@npm:7.7.0":
+  version: 7.7.0
+  resolution: "eslint-plugin-es-x@npm:7.7.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.1.2"
     "@eslint-community/regexpp": "npm:^4.6.0"
-    eslint-compat-utils: "npm:^0.5.0"
+    eslint-compat-utils: "npm:^0.5.1"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/cb88c0a94dacdb65311563928c6ed0072939fff70e25f02e810329be388859ff60bf77b82096b639464293f49f98f83f7b5611b3331d0435d3bfca0c0ded5901
+  checksum: 10c0/73f04fb58bbf023422681e6af3be9540dfe3d3485021c6d4050b924797e302faef3de83ac8a4d9a4ac0d5704d6f241f95cc85e7459573476d3f658411ae1e627
   languageName: node
   linkType: hard
 
