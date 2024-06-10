@@ -22,26 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.21.4":
-  version: 7.22.5
-  resolution: "@babel/code-frame@npm:7.22.5"
-  dependencies:
-    "@babel/highlight": "npm:^7.22.5"
-  checksum: 10c0/0b6c5eaf9e58be7140ac790b7bdf8148e8a24e26502dcaa50f157259c083b0584285748fd90d342ae311a5bb1eaad7835aec625296d2b46853464f9bd8991e28
-  languageName: node
-  linkType: hard
-
-"@babel/code-frame@npm:^7.22.13":
-  version: 7.22.13
-  resolution: "@babel/code-frame@npm:7.22.13"
-  dependencies:
-    "@babel/highlight": "npm:^7.22.13"
-    chalk: "npm:^2.4.2"
-  checksum: 10c0/f4cc8ae1000265677daf4845083b72f88d00d311adb1a93c94eb4b07bf0ed6828a81ae4ac43ee7d476775000b93a28a9cddec18fbdc5796212d8dcccd5de72bd
-  languageName: node
-  linkType: hard
-
-"@babel/code-frame@npm:^7.24.7":
+"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.21.4, @babel/code-frame@npm:^7.22.13, @babel/code-frame@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/code-frame@npm:7.24.7"
   dependencies:
@@ -241,28 +222,6 @@ __metadata:
     "@babel/template": "npm:^7.24.7"
     "@babel/types": "npm:^7.24.7"
   checksum: 10c0/aa8e230f6668773e17e141dbcab63e935c514b4b0bf1fed04d2eaefda17df68e16b61a56573f7f1d4d1e605ce6cc162b5f7e9fdf159fde1fd9b77c920ae47d27
-  languageName: node
-  linkType: hard
-
-"@babel/highlight@npm:^7.22.13":
-  version: 7.22.13
-  resolution: "@babel/highlight@npm:7.22.13"
-  dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.22.5"
-    chalk: "npm:^2.4.2"
-    js-tokens: "npm:^4.0.0"
-  checksum: 10c0/65f20132c7ada5d82d343dc23ca61bcd040980f7bd59e480532bcd7f7895aa7abe58470ae8a4f851fd244b71b42a7ad915f7c515fef8f1c2e003777721ebdbe6
-  languageName: node
-  linkType: hard
-
-"@babel/highlight@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/highlight@npm:7.22.5"
-  dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.22.5"
-    chalk: "npm:^2.0.0"
-    js-tokens: "npm:^4.0.0"
-  checksum: 10c0/e8cc07b5de76a9bf779982096ccbbe5a867c36d3786b26151eb570d9344a68af8aa065ed97d431e0d18ba55fe792c7c4301e0d62afff7a52ee0d20678443be54
   languageName: node
   linkType: hard
 
@@ -2928,7 +2887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
+"chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
