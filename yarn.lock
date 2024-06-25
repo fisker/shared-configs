@@ -1405,16 +1405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@npmcli/fs@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@npmcli/fs@npm:3.1.0"
-  dependencies:
-    semver: "npm:^7.3.5"
-  checksum: 10c0/162b4a0b8705cd6f5c2470b851d1dc6cd228c86d2170e1769d738c1fbb69a87160901411c3c035331e9e99db72f1f1099a8b734bf1637cc32b9a5be1660e4e1e
-  languageName: node
-  linkType: hard
-
-"@npmcli/fs@npm:^3.1.1":
+"@npmcli/fs@npm:^3.1.0, @npmcli/fs@npm:^3.1.1":
   version: 3.1.1
   resolution: "@npmcli/fs@npm:3.1.1"
   dependencies:
