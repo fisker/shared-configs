@@ -943,6 +943,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-unicorn: "npm:54.0.0"
     import-meta-resolve: "npm:4.1.0"
+    url-or-path: "npm:2.3.0"
   peerDependencies:
     eslint: "*"
     prettier: "*"
@@ -11299,7 +11300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-or-path@npm:^2.3.0":
+"url-or-path@npm:2.3.0, url-or-path@npm:^2.3.0":
   version: 2.3.0
   resolution: "url-or-path@npm:2.3.0"
   checksum: 10c0/6a019121b70129da034f6f0b24a0a3bf2371e0f04aac1d9fb5955eedfeebc0d8f09db0639c3ee9207448b2ebe43f2aae411dc58d522aff005fdc2589b328aaf2
