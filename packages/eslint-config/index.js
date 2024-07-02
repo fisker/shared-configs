@@ -1,4 +1,6 @@
-import {importPreferLocal} from './utilities/utilities.js'
+import globals from 'globals'
+import eslintPluginJs from '@eslint/js'
+import babelEslintParser from '@babel/eslint-parser'
 import configAirbnb from './airbnb/index.js'
 import pluginPromise from './plugins/promise.js'
 import pluginNode from './plugins/node.js'
@@ -8,31 +10,28 @@ import pluginRegexp from './plugins/regexp.js'
 import pluginSonarjs from './plugins/sonarjs.js'
 import pluginSortClassMember from './plugins/sort-class-members.js'
 import configPrettier from './plugins/prettier.js'
-
-const {default: babelEslintParser} = await importPreferLocal(
-  '@babel/eslint-parser',
-)
-const {default: eslintPluginJs} = await importPreferLocal('@eslint/js')
-const eslintrc = await importPreferLocal('@eslint/eslintrc')
+import ignores from './ignores/index.js'
 
 export default [
   // ESLint recommended
   eslintPluginJs.configs.recommended,
 
   // plugins
-  ...pluginPromise,
-  ...pluginNode,
-  ...pluginUnicorn,
-  ...pluginEslintComments,
-  ...pluginRegexp,
-  ...pluginSonarjs,
-  ...pluginSortClassMember,
+  pluginPromise,
+  pluginNode,
+  pluginUnicorn,
+  pluginEslintComments,
+  pluginRegexp,
+  pluginSonarjs,
+  pluginSortClassMember,
 
   // airbnb
-  ...configAirbnb,
+  configAirbnb,
 
   // Prettier
-  ...configPrettier,
+  configPrettier,
+
+  ignores,
 
   {
     languageOptions: {
@@ -40,9 +39,9 @@ export default [
       sourceType: 'module',
       parser: babelEslintParser,
       globals: {
-        ...eslintrc.Legacy.environments.get('es2024').globals,
-        ...eslintrc.Legacy.environments.get('browser').globals,
-        ...eslintrc.Legacy.environments.get('node').globals,
+        ...globals.builtin,
+        ...globals.browser,
+        ...globals.node,
       },
       parserOptions: {
         requireConfigFile: false,
@@ -87,4 +86,4 @@ export default [
       'unicorn/template-indent': 'error',
     },
   },
-]
+].flat()

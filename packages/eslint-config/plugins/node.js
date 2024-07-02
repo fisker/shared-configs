@@ -1,6 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginN} = await importPreferLocal('eslint-plugin-n')
+import eslintPluginN from 'eslint-plugin-n'
 
 export default [
   eslintPluginN.configs['flat/recommended'],

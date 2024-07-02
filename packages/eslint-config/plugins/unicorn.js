@@ -1,8 +1,5 @@
-import {importPreferLocal} from '../utilities/utilities.js'
+import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 
-const {default: eslintPluginUnicorn} = await importPreferLocal(
-  'eslint-plugin-unicorn',
-)
 export default [
   eslintPluginUnicorn.configs['flat/recommended'],
   {

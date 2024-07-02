@@ -1,8 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginRegexp} = await importPreferLocal(
-  'eslint-plugin-regexp',
-)
+import eslintPluginRegexp from 'eslint-plugin-regexp'
 
 export default [
   eslintPluginRegexp.configs['flat/all'],

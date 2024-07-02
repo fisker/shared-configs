@@ -1,7 +1,3 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintConfigPrettier} = await importPreferLocal(
-  'eslint-config-prettier',
-)
+import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default [eslintConfigPrettier]

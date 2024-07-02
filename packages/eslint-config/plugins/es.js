@@ -1,6 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginEsX} = await importPreferLocal('eslint-plugin-es-x')
+import eslintPluginEsX from 'eslint-plugin-es-x'
 
 export default [
   {

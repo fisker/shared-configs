@@ -1,8 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginPromise} = await importPreferLocal(
-  'eslint-plugin-promise',
-)
+import eslintPluginPromise from 'eslint-plugin-promise'
 
 export default [
   {

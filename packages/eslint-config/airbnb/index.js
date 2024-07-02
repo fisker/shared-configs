@@ -1,4 +1,10 @@
-import {importPreferLocal, importFile} from '../utilities/utilities.js'
+import eslintConfigAirbnbBaseRulesBestPractices from 'eslint-config-airbnb-base/rules/best-practices'
+import eslintConfigAirbnbBaseRulesErrors from 'eslint-config-airbnb-base/rules/errors'
+import eslintConfigAirbnbBaseRulesEs6 from 'eslint-config-airbnb-base/rules/es6'
+import eslintConfigAirbnbBaseRulesNode from 'eslint-config-airbnb-base/rules/node'
+import eslintConfigAirbnbBaseRulesStrict from 'eslint-config-airbnb-base/rules/strict'
+import eslintConfigAirbnbBaseRulesStyle from 'eslint-config-airbnb-base/rules/style'
+import eslintConfigAirbnbBaseRulesVariables from 'eslint-config-airbnb-base/rules/variables'
 import rulesBestPractices from './best-practices.js'
 import rulesErrors from './errors.js'
 import rulesEs6 from './es6.js'
@@ -7,18 +13,15 @@ import rulesStrict from './strict.js'
 import rulesStyle from './style.js'
 import rulesVariables from './variables.js'
 
-const {default: eslintConfigAirbnbBase} = await importPreferLocal(
-  'eslint-config-airbnb-base',
-)
-
-const modules = await Promise.all(
-  eslintConfigAirbnbBase.extends
-    .filter((file) => !file.endsWith('imports.js'))
-    .map((file) => importFile(file)),
-)
-const eslintConfigAirbnbBaseRules = Object.fromEntries(
-  modules.flatMap((module) => Object.entries(module.default.rules)),
-)
+const eslintConfigAirbnbBaseRules = {
+  ...eslintConfigAirbnbBaseRulesBestPractices.rules,
+  ...eslintConfigAirbnbBaseRulesErrors.rules,
+  ...eslintConfigAirbnbBaseRulesEs6.rules,
+  ...eslintConfigAirbnbBaseRulesNode.rules,
+  ...eslintConfigAirbnbBaseRulesStrict.rules,
+  ...eslintConfigAirbnbBaseRulesStyle.rules,
+  ...eslintConfigAirbnbBaseRulesVariables.rules,
+}
 
 export default [
   {

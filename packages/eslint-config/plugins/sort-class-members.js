@@ -1,6 +1,3 @@
-import {importPreferLocal} from '../utilities/utilities.js'
+import eslintPluginSortClassMembers from 'eslint-plugin-sort-class-members'
 
-const {default: eslintPluginSortClassMembers} = await importPreferLocal(
-  'eslint-plugin-sort-class-members',
-)
 export default [eslintPluginSortClassMembers.configs['flat/recommended']]

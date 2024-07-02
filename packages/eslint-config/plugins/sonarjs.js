@@ -1,8 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginSonarjs} = await importPreferLocal(
-  'eslint-plugin-sonarjs',
-)
+import eslintPluginSonarjs from 'eslint-plugin-sonarjs'
 
 export default [
   eslintPluginSonarjs.configs.recommended,

@@ -1,8 +1,4 @@
-import {importPreferLocal} from '../utilities/utilities.js'
-
-const {default: eslintPluginEslintComments} = await importPreferLocal(
-  'eslint-plugin-eslint-comments',
-)
+import eslintPluginEslintComments from 'eslint-plugin-eslint-comments'
 
 export default [
   {
