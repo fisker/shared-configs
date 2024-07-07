@@ -412,17 +412,17 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-gradients-interpolation-method@npm:^4.0.19":
-  version: 4.0.19
-  resolution: "@csstools/postcss-gradients-interpolation-method@npm:4.0.19"
+  version: 4.0.20
+  resolution: "@csstools/postcss-gradients-interpolation-method@npm:4.0.20"
   dependencies:
     "@csstools/css-color-parser": "npm:^2.0.4"
     "@csstools/css-parser-algorithms": "npm:^2.7.1"
     "@csstools/css-tokenizer": "npm:^2.4.1"
-    "@csstools/postcss-progressive-custom-properties": "npm:^3.2.0"
+    "@csstools/postcss-progressive-custom-properties": "npm:^3.3.0"
     "@csstools/utilities": "npm:^1.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10c0/0dc89d7feb9421a39ed23ad2d00dc725b67b44ce8d0c149082978ffcfbb1e3c50d1aa0c91ba33ed990aec434e80d9dccf814cd8bda323ed15326db48cfe1fa72
+  checksum: 10c0/6588825a72a1471e2d6036c8cf7dbad2bf05f369d96dbdd68ff5ce7ff91803b8ee1146f5f1bf6f3ab6299944549da872914664c3f9e8ae5a31847f76f0085c74
   languageName: node
   linkType: hard
 
@@ -612,6 +612,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10c0/829880844fbbeef1c67e0b380057e574659b4caed38c8414c17d7eb4a0cc727afa1cd74a889bc7ca79c819ecae757810356706901cf6bb677a36ca123915cbb7
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.3.0"
+  dependencies:
+    postcss-value-parser: "npm:^4.2.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10c0/6c9987d65049a70b5090dcfe42fde9ab2b3cb88911a81bb6651ed81c8baf99502ff2cbec0cb3e022426fa994b558b4bf33fd791ccdcdf683dde75b4865d34f39
   languageName: node
   linkType: hard
 
