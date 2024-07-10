@@ -476,16 +476,16 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-light-dark-function@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "@csstools/postcss-light-dark-function@npm:1.0.7"
+  version: 1.0.8
+  resolution: "@csstools/postcss-light-dark-function@npm:1.0.8"
   dependencies:
     "@csstools/css-parser-algorithms": "npm:^2.7.1"
     "@csstools/css-tokenizer": "npm:^2.4.1"
-    "@csstools/postcss-progressive-custom-properties": "npm:^3.2.0"
+    "@csstools/postcss-progressive-custom-properties": "npm:^3.3.0"
     "@csstools/utilities": "npm:^1.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10c0/50ec254b0cf8ed0112e91ff0d41e7025407fde64c3172ee22ec6116024f11112e3bf4420d95be216a2e7546edaa67c245c40d4c15dda0e7693af344e34f19b72
+  checksum: 10c0/78fa6d799d38f14af1b32b534eedbec9478033e1fbc5a4e820f2421e865673d010b69b391546686ceb408ead64d79bb4eba2a4fb1fc9f0de70ff21e3ff8477c6
   languageName: node
   linkType: hard
 
@@ -612,6 +612,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10c0/829880844fbbeef1c67e0b380057e574659b4caed38c8414c17d7eb4a0cc727afa1cd74a889bc7ca79c819ecae757810356706901cf6bb677a36ca123915cbb7
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.3.0"
+  dependencies:
+    postcss-value-parser: "npm:^4.2.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10c0/6c9987d65049a70b5090dcfe42fde9ab2b3cb88911a81bb6651ed81c8baf99502ff2cbec0cb3e022426fa994b558b4bf33fd791ccdcdf683dde75b4865d34f39
   languageName: node
   linkType: hard
 
