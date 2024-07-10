@@ -359,17 +359,17 @@ __metadata:
   linkType: hard
 
 "@csstools/postcss-color-mix-function@npm:^2.0.18":
-  version: 2.0.18
-  resolution: "@csstools/postcss-color-mix-function@npm:2.0.18"
+  version: 2.0.19
+  resolution: "@csstools/postcss-color-mix-function@npm:2.0.19"
   dependencies:
     "@csstools/css-color-parser": "npm:^2.0.4"
     "@csstools/css-parser-algorithms": "npm:^2.7.1"
     "@csstools/css-tokenizer": "npm:^2.4.1"
-    "@csstools/postcss-progressive-custom-properties": "npm:^3.2.0"
+    "@csstools/postcss-progressive-custom-properties": "npm:^3.3.0"
     "@csstools/utilities": "npm:^1.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10c0/db77c7ca1739f89ac7e9a877fd9f5a7a589ca59a2676618b964c96d73677c6993246453134f60bb066c38505755061670abb48f4ca50c201aa6e42b8cf614b55
+  checksum: 10c0/e967d93672a065806dc78da0153f8b4f5087f7c3ddfe361eba4942780760d47b317124913c9b0dda7f9bfff1253f77d1b6debd8a6a2aa3a6c80e263101da5e8c
   languageName: node
   linkType: hard
 
@@ -612,6 +612,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10c0/829880844fbbeef1c67e0b380057e574659b4caed38c8414c17d7eb4a0cc727afa1cd74a889bc7ca79c819ecae757810356706901cf6bb677a36ca123915cbb7
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-progressive-custom-properties@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@csstools/postcss-progressive-custom-properties@npm:3.3.0"
+  dependencies:
+    postcss-value-parser: "npm:^4.2.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10c0/6c9987d65049a70b5090dcfe42fde9ab2b3cb88911a81bb6651ed81c8baf99502ff2cbec0cb3e022426fa994b558b4bf33fd791ccdcdf683dde75b4865d34f39
   languageName: node
   linkType: hard
 
