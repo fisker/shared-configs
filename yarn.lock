@@ -790,10 +790,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@eslint/compat@npm:1.1.0"
-  checksum: 10c0/0aca1990c9303c35f9f0a5d9a9942fb5821b4ebbc4e663336dec7223ae73d22a24960cabf8ecac99176297d4ce766316bff24186bd4bbedd444b6658b8ec7a55
+"@eslint/compat@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@eslint/compat@npm:1.1.1"
+  checksum: 10c0/ca8aa3811fa22d45913f5724978e6f3ae05fb7685b793de4797c9db3b0e22b530f0f492011b253754bffce879d7cece65762cc3391239b5d2249aef8230edc9a
   languageName: node
   linkType: hard
 
@@ -887,7 +887,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.24.8"
     "@babel/eslint-parser": "npm:7.24.8"
-    "@eslint/compat": "npm:1.1.0"
+    "@eslint/compat": "npm:1.1.1"
     "@eslint/js": "npm:9.6.0"
     ava: "npm:6.1.3"
     eslint-config-airbnb-base: "npm:15.0.0"
