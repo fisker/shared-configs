@@ -373,15 +373,15 @@ __metadata:
   linkType: hard
 
 "@csstools/css-color-parser@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "@csstools/css-color-parser@npm:2.0.4"
+  version: 2.0.5
+  resolution: "@csstools/css-color-parser@npm:2.0.5"
   dependencies:
     "@csstools/color-helpers": "npm:^4.2.1"
     "@csstools/css-calc": "npm:^1.2.4"
   peerDependencies:
     "@csstools/css-parser-algorithms": ^2.7.1
     "@csstools/css-tokenizer": ^2.4.1
-  checksum: 10c0/e009a2f34b6c328daad54262deb86b71c6a7a9a1da1db8ad39cf719641e1a728ed8ddbd23613d519d26deee33b89ba12cb15a6928718c1b3cc5e24ac1ed02f47
+  checksum: 10c0/f58bdb20e5af6ef34e0d3be4d3d0015cb66bc4f81f7b7dac6247e85b68722801bc5c01ab197642626b38c5338d292b3b4e8e3a5008c5cdf2ec01e083399546af
   languageName: node
   linkType: hard
 
