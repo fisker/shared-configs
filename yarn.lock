@@ -1467,12 +1467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/devkit@npm:19.1.2":
-  version: 19.1.2
-  resolution: "@nrwl/devkit@npm:19.1.2"
+"@nrwl/devkit@npm:19.5.1":
+  version: 19.5.1
+  resolution: "@nrwl/devkit@npm:19.5.1"
   dependencies:
-    "@nx/devkit": "npm:19.1.2"
-  checksum: 10c0/97f7af65cd67430ea5a9818531d68b7fb72b9feba344d5d17794bc9cc4bdcfd23352d0034deb21405745d2b78ff4671e853d9cad59a9b95ce8c00f6178e8f506
+    "@nx/devkit": "npm:19.5.1"
+  checksum: 10c0/133760dcc1038894e396cf6eeaf834ef3553487cc3c11be2294cabe065e725d0fc4feb51db0b5dc436c8d1ff1bdd34e49698c38404af9883210012bb4878ed8c
   languageName: node
   linkType: hard
 
@@ -1488,11 +1488,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nx/devkit@npm:19.1.2, @nx/devkit@npm:>=17.1.2 < 20":
-  version: 19.1.2
-  resolution: "@nx/devkit@npm:19.1.2"
+"@nx/devkit@npm:19.5.1, @nx/devkit@npm:>=17.1.2 < 20":
+  version: 19.5.1
+  resolution: "@nx/devkit@npm:19.5.1"
   dependencies:
-    "@nrwl/devkit": "npm:19.1.2"
+    "@nrwl/devkit": "npm:19.5.1"
     ejs: "npm:^3.1.7"
     enquirer: "npm:~2.3.6"
     ignore: "npm:^5.0.4"
@@ -1503,7 +1503,7 @@ __metadata:
     yargs-parser: "npm:21.1.1"
   peerDependencies:
     nx: ">= 17 <= 20"
-  checksum: 10c0/b8484c6243be0afab41a148c369724e659ac06f1324f66f9707db9182707e5ca61b9ccede1aca7933cd9d69dbab87bdc300a04b5c644b0ead2c4440d97160792
+  checksum: 10c0/ecc29aa99ad10c6b83a8d2477da3b94c6a2d73e9950ad699a9377f26b389b7cc4414fee9aec3b27a6e0dddfccf7abb462a33d924525d37fac7e4b3db38721f51
   languageName: node
   linkType: hard
 
