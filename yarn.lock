@@ -76,31 +76,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.24.7":
-  version: 7.24.7
-  resolution: "@babel/generator@npm:7.24.7"
-  dependencies:
-    "@babel/types": "npm:^7.24.7"
-    "@jridgewell/gen-mapping": "npm:^0.3.5"
-    "@jridgewell/trace-mapping": "npm:^0.3.25"
-    jsesc: "npm:^2.5.1"
-  checksum: 10c0/06b1f3350baf527a3309e50ffd7065f7aee04dd06e1e7db794ddfde7fe9d81f28df64edd587173f8f9295496a7ddb74b9a185d4bf4de7bb619e6d4ec45c8fd35
-  languageName: node
-  linkType: hard
-
-"@babel/generator@npm:^7.24.8":
-  version: 7.24.8
-  resolution: "@babel/generator@npm:7.24.8"
-  dependencies:
-    "@babel/types": "npm:^7.24.8"
-    "@jridgewell/gen-mapping": "npm:^0.3.5"
-    "@jridgewell/trace-mapping": "npm:^0.3.25"
-    jsesc: "npm:^2.5.1"
-  checksum: 10c0/e8a278e75a895f13a7b17dd79abe1e894fe82a5ed3abb127c33c14c66773d69993762521c094c6c364723f8f7375683b0d4a96097781175a29407baedf67b769
-  languageName: node
-  linkType: hard
-
-"@babel/generator@npm:^7.24.9":
+"@babel/generator@npm:^7.24.7, @babel/generator@npm:^7.24.8, @babel/generator@npm:^7.24.9":
   version: 7.24.10
   resolution: "@babel/generator@npm:7.24.10"
   dependencies:
