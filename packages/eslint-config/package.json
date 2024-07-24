@@ -48,7 +48,7 @@
     "eslint-plugin-n": "17.9.0",
     "eslint-plugin-promise": "6.6.0",
     "eslint-plugin-regexp": "2.6.0",
-    "eslint-plugin-sonarjs": "1.0.3",
+    "eslint-plugin-sonarjs": "1.0.4",
     "eslint-plugin-sort-class-members": "1.20.0",
     "eslint-plugin-unicorn": "54.0.0",
     "globals": "15.7.0"
