@@ -21,7 +21,7 @@
     "test": "echo \"no test yet\""
   },
   "dependencies": {
-    "postcss-preset-env": "9.5.16"
+    "postcss-preset-env": "10.0.0"
   },
   "peerDependencies": {
     "postcss": "*"
