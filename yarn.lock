@@ -945,7 +945,7 @@ __metadata:
     eslint-plugin-sonarjs: "npm:1.0.4"
     eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-unicorn: "npm:56.0.0"
-    globals: "npm:15.7.0"
+    globals: "npm:15.11.0"
   peerDependencies:
     eslint: "*"
     prettier: "*"
@@ -5441,10 +5441,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:15.7.0":
-  version: 15.7.0
-  resolution: "globals@npm:15.7.0"
-  checksum: 10c0/5294e3e521a1957e9930843cfd9ff6f70090f21c2c13f0df2f857787fb4f00af36d30411aa4b3cd654ec274e4b9205ee16ce347ad95b9519427bd3146c80e7aa
+"globals@npm:15.11.0":
+  version: 15.11.0
+  resolution: "globals@npm:15.11.0"
+  checksum: 10c0/861e39bb6bd9bd1b9f355c25c962e5eb4b3f0e1567cf60fa6c06e8c502b0ec8706b1cce055d69d84d0b7b8e028bec5418cf629a54e7047e116538d1c1c1a375c
   languageName: node
   linkType: hard
 
