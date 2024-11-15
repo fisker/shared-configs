@@ -38,7 +38,7 @@
   "dependencies": {
     "@babel/core": "7.24.9",
     "@babel/eslint-parser": "7.25.9",
-    "@eslint/compat": "1.2.2",
+    "@eslint/compat": "1.2.3",
     "@eslint/js": "9.14.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
