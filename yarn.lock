@@ -989,7 +989,7 @@ __metadata:
     ava: "npm:6.2.0"
     eslint-config-airbnb-base: "npm:15.0.0"
     eslint-config-prettier: "npm:9.1.0"
-    eslint-plugin-es-x: "npm:8.1.0"
+    eslint-plugin-es-x: "npm:8.2.0"
     eslint-plugin-eslint-comments: "npm:3.2.0"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-n: "npm:17.13.2"
@@ -4370,6 +4370,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-compat-utils@npm:^0.6.0":
+  version: 0.6.3
+  resolution: "eslint-compat-utils@npm:0.6.3"
+  dependencies:
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 10c0/5015cd92590ab4630dfddc4416b058c2e40c58c548203761745e6874bf3e06f15dd84fc447187853025924f86d1870efc959032fcffaf5003e32a7d4f822c43f
+  languageName: node
+  linkType: hard
+
 "eslint-config-airbnb-base@npm:15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -4437,16 +4448,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:8.1.0":
-  version: 8.1.0
-  resolution: "eslint-plugin-es-x@npm:8.1.0"
+"eslint-plugin-es-x@npm:8.2.0":
+  version: 8.2.0
+  resolution: "eslint-plugin-es-x@npm:8.2.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.1.2"
     "@eslint-community/regexpp": "npm:^4.12.1"
-    eslint-compat-utils: "npm:^0.5.1"
+    eslint-compat-utils: "npm:^0.6.0"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/a2712967fb574b8500a2efb15284fd0b0e4d6351e3be629eeed500311fc264e10a874c95e9ee25494ffd7194c7919371362765499c6b66a3fb712c9cfafc8889
+  checksum: 10c0/70a80acc9bcb85441d6a254d25cf630598dc435533314849c5bc7850f478c3480108d138d9ab67ee514c62ccccc22ccbcce22c857dd4b67caf14e22151e7e79d
   languageName: node
   linkType: hard
 
