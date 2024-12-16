@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-mocha",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "fisker's Shareable ESLint Configuration for mocha test",
   "keywords": [
     "config",
@@ -37,5 +37,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "d474c4d3684f94e22444bc4532bff456115ed9d1"
+  "gitHead": "ab1867b4b4ab3bf0a382bc61a07373c2a5c4e6ad"
 }

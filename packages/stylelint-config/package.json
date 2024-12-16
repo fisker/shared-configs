@@ -1,6 +1,6 @@
 {
   "name": "@fisker/stylelint-config",
-  "version": "5.4.2",
+  "version": "5.4.3",
   "description": "fisker's Shareable stylelint Configuration",
   "keywords": [
     "config",
@@ -45,5 +45,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "31f42448a59e30497cb2698c717e114fc264eed4"
+  "gitHead": "ab1867b4b4ab3bf0a382bc61a07373c2a5c4e6ad"
 }

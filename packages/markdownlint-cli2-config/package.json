@@ -1,6 +1,6 @@
 {
   "name": "@fisker/markdownlint-cli2-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "fisker's Shareable markdownlint-cli2 Configuration",
   "keywords": [
     "fisker",

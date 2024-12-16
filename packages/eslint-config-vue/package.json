@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
-  "version": "11.1.2",
+  "version": "11.1.3",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "keywords": [
     "config",
@@ -32,7 +32,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@fisker/eslint-config": "^13.1.2",
+    "@fisker/eslint-config": "^13.1.3",
     "eslint-plugin-vue": "9.32.0"
   },
   "devDependencies": {
@@ -46,5 +46,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "31f42448a59e30497cb2698c717e114fc264eed4"
+  "gitHead": "ab1867b4b4ab3bf0a382bc61a07373c2a5c4e6ad"
 }
