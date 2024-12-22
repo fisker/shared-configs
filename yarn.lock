@@ -6051,15 +6051,16 @@ __metadata:
   linkType: hard
 
 "function.prototype.name@npm:^1.1.6, function.prototype.name@npm:^1.1.7":
-  version: 1.1.7
-  resolution: "function.prototype.name@npm:1.1.7"
+  version: 1.1.8
+  resolution: "function.prototype.name@npm:1.1.8"
   dependencies:
     call-bind: "npm:^1.0.8"
+    call-bound: "npm:^1.0.3"
     define-properties: "npm:^1.2.1"
     functions-have-names: "npm:^1.2.3"
     hasown: "npm:^2.0.2"
     is-callable: "npm:^1.2.7"
-  checksum: 10c0/f369f794099a9883e8253290d84a7a3e37ed9d4e2b185bdb3034fcfe02d6ee9dd72b41ea1e6e556c49bce897c535aa373b8e31dab5b018875cf9bc0a70c5215f
+  checksum: 10c0/e920a2ab52663005f3cbe7ee3373e3c71c1fb5558b0b0548648cdf3e51961085032458e26c71ff1a8c8c20e7ee7caeb03d43a5d1fa8610c459333323a2e71253
   languageName: node
   linkType: hard
 
