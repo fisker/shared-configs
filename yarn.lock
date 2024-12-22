@@ -4537,13 +4537,13 @@ __metadata:
   linkType: hard
 
 "data-view-buffer@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "data-view-buffer@npm:1.0.1"
+  version: 1.0.2
+  resolution: "data-view-buffer@npm:1.0.2"
   dependencies:
-    call-bind: "npm:^1.0.6"
+    call-bound: "npm:^1.0.3"
     es-errors: "npm:^1.3.0"
-    is-data-view: "npm:^1.0.1"
-  checksum: 10c0/8984119e59dbed906a11fcfb417d7d861936f16697a0e7216fe2c6c810f6b5e8f4a5281e73f2c28e8e9259027190ac4a33e2a65fdd7fa86ac06b76e838918583
+    is-data-view: "npm:^1.0.2"
+  checksum: 10c0/7986d40fc7979e9e6241f85db8d17060dd9a71bd53c894fa29d126061715e322a4cd47a00b0b8c710394854183d4120462b980b8554012acc1c0fa49df7ad38c
   languageName: node
   linkType: hard
 
