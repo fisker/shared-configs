@@ -2058,7 +2058,7 @@ __metadata:
   dependencies:
     postcss-html: "npm:1.7.0"
     stylelint-config-html: "npm:1.1.0"
-    stylelint-config-recommended: "npm:14.0.1"
+    stylelint-config-recommended: "npm:15.0.0"
     stylelint-config-recommended-scss: "npm:14.1.0"
     stylelint-config-recommended-vue: "npm:1.5.0"
     stylelint-config-standard: "npm:36.0.1"
@@ -11813,7 +11813,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:14.0.1, stylelint-config-recommended@npm:>=6.0.0, stylelint-config-recommended@npm:^14.0.1":
+"stylelint-config-recommended@npm:15.0.0":
+  version: 15.0.0
+  resolution: "stylelint-config-recommended@npm:15.0.0"
+  peerDependencies:
+    stylelint: ^16.13.0
+  checksum: 10c0/de82e675e7d0cdbc486beee1f76002d5a5676247c1780fbe04f6adb617b016033f18f3361f4e99a76fc4d2115fbfc97786d9cf87ee7d90a345e146de35b04ab8
+  languageName: node
+  linkType: hard
+
+"stylelint-config-recommended@npm:>=6.0.0, stylelint-config-recommended@npm:^14.0.1":
   version: 14.0.1
   resolution: "stylelint-config-recommended@npm:14.0.1"
   peerDependencies:
