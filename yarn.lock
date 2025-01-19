@@ -2522,8 +2522,8 @@ __metadata:
   linkType: hard
 
 "@nx/devkit@npm:>=17.1.2 < 21":
-  version: 20.0.7
-  resolution: "@nx/devkit@npm:20.0.7"
+  version: 20.3.2
+  resolution: "@nx/devkit@npm:20.3.2"
   dependencies:
     ejs: "npm:^3.1.7"
     enquirer: "npm:~2.3.6"
@@ -2535,7 +2535,7 @@ __metadata:
     yargs-parser: "npm:21.1.1"
   peerDependencies:
     nx: ">= 19 <= 21"
-  checksum: 10c0/ea18aa7966230d0ddaf972dbc90dba628d82999b89dc7d7f2d1907319b2511c376942d3d0e69468d8851be014ce13b658ca09159ea72e5f0bb5854dd75c8f4e5
+  checksum: 10c0/0c59aaea2c6b45712c28186b95792ae2530f928025aa7cea7d0175f9e0532ad3feeaa85b84d23e35378182c689819baa47daeb76ee4d26d823c926421830afd4
   languageName: node
   linkType: hard
 
