@@ -5111,9 +5111,9 @@ __metadata:
   linkType: hard
 
 "emittery@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "emittery@npm:1.0.3"
-  checksum: 10c0/91605d044f3891dd1f8ab731aeb94b520488b21e707f7064dcbcf5303bac3b4e7133dfa23c343ede1fc970340bd78a9b1aed522b805bc15104606bba630dd71e
+  version: 1.1.0
+  resolution: "emittery@npm:1.1.0"
+  checksum: 10c0/645d4d7307b52c81bb2d2f9f320aa6a3c0225f53a4bfef2d337be8086df975746f7dd619f1dd7b2ffd4f2288103f28019e7b8567718677600e47507496d3af5f
   languageName: node
   linkType: hard
 
