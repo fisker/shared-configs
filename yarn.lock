@@ -1365,27 +1365,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.25.9, @babel/types@npm:^7.26.0, @babel/types@npm:^7.26.3, @babel/types@npm:^7.4.4":
-  version: 7.26.3
-  resolution: "@babel/types@npm:7.26.3"
-  dependencies:
-    "@babel/helper-string-parser": "npm:^7.25.9"
-    "@babel/helper-validator-identifier": "npm:^7.25.9"
-  checksum: 10c0/966c5242c5e55c8704bf7a7418e7be2703a0afa4d19a8480999d5a4ef13d095dd60686615fe5983cb7593b4b06ba3a7de8d6ca501c1d78bdd233a10d90be787b
-  languageName: node
-  linkType: hard
-
-"@babel/types@npm:^7.26.7":
-  version: 7.26.7
-  resolution: "@babel/types@npm:7.26.7"
-  dependencies:
-    "@babel/helper-string-parser": "npm:^7.25.9"
-    "@babel/helper-validator-identifier": "npm:^7.25.9"
-  checksum: 10c0/7810a2bca97b13c253f07a0863a628d33dbe76ee3c163367f24be93bfaf4c8c0a325f73208abaaa050a6b36059efc2950c2e4b71fb109c0f07fa62221d8473d4
-  languageName: node
-  linkType: hard
-
-"@babel/types@npm:^7.26.8":
+"@babel/types@npm:^7.25.9, @babel/types@npm:^7.26.0, @babel/types@npm:^7.26.3, @babel/types@npm:^7.26.7, @babel/types@npm:^7.26.8, @babel/types@npm:^7.4.4":
   version: 7.26.8
   resolution: "@babel/types@npm:7.26.8"
   dependencies:
