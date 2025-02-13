@@ -291,15 +291,15 @@ __metadata:
   linkType: hard
 
 "@babel/helper-replace-supers@npm:^7.25.9":
-  version: 7.25.9
-  resolution: "@babel/helper-replace-supers@npm:7.25.9"
+  version: 7.26.5
+  resolution: "@babel/helper-replace-supers@npm:7.26.5"
   dependencies:
     "@babel/helper-member-expression-to-functions": "npm:^7.25.9"
     "@babel/helper-optimise-call-expression": "npm:^7.25.9"
-    "@babel/traverse": "npm:^7.25.9"
+    "@babel/traverse": "npm:^7.26.5"
   peerDependencies:
     "@babel/core": ^7.0.0
-  checksum: 10c0/0b40d7d2925bd3ba4223b3519e2e4d2456d471ad69aa458f1c1d1783c80b522c61f8237d3a52afc9e47c7174129bbba650df06393a6787d5722f2ec7f223c3f4
+  checksum: 10c0/b19b1245caf835207aaaaac3a494f03a16069ae55e76a2e1350b5acd560e6a820026997a8160e8ebab82ae873e8208759aa008eb8422a67a775df41f0a4633d4
   languageName: node
   linkType: hard
 
@@ -1350,7 +1350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.26.8":
+"@babel/traverse@npm:^7.26.5, @babel/traverse@npm:^7.26.8":
   version: 7.26.8
   resolution: "@babel/traverse@npm:7.26.8"
   dependencies:
