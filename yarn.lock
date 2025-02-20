@@ -935,7 +935,7 @@ __metadata:
     ava: "npm:6.2.0"
     eslint-config-airbnb-base: "npm:15.0.0"
     eslint-config-prettier: "npm:10.0.1"
-    eslint-plugin-es-x: "npm:8.4.1"
+    eslint-plugin-es-x: "npm:8.5.0"
     eslint-plugin-eslint-comments: "npm:3.2.0"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-n: "npm:17.15.1"
@@ -4356,16 +4356,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:8.4.1":
-  version: 8.4.1
-  resolution: "eslint-plugin-es-x@npm:8.4.1"
+"eslint-plugin-es-x@npm:8.5.0":
+  version: 8.5.0
+  resolution: "eslint-plugin-es-x@npm:8.5.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.1.2"
     "@eslint-community/regexpp": "npm:^4.12.1"
     eslint-compat-utils: "npm:^0.6.3"
   peerDependencies:
     eslint: ">=8"
-  checksum: 10c0/11ef3fdae18614ed4d564e8567ddea49ed47c6cc82111871084c0559d69d8d8c21cdc680497f7deb1ab9c7333ed7ec68067e4f0d53183bdeba503a69c6ba172e
+  checksum: 10c0/eedf3808e2764697cd800090b3a68b11e69de7cbb9b4429d657bf8aeba9bf99b33b0c4f17a5d014ab3fac442582d967034092dde65c4a2c607b71320ea63336f
   languageName: node
   linkType: hard
 
