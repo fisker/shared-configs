@@ -55,8 +55,7 @@
     "globals": "16.0.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "1.0.2",
-    "ava": "6.2.0"
+    "@eslint/config-inspector": "1.0.2"
   },
   "peerDependencies": {
     "eslint": "*",
