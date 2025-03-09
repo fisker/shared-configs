@@ -8,7 +8,12 @@ export default [
   {
     name: 'fisker/@eslint/js/configs/recommended',
     rules: {
-      'no-unused-vars': 'warn',
+      'no-unused-vars': [
+        'warn',
+        {vars: 'all', args: 'after-used', ignoreRestSiblings: true},
+      ],
+      'default-param-last': 'error',
+      'class-methods-use-this': 'error',
     },
   },
 ]

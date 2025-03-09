@@ -33,7 +33,6 @@ export default [...fiskerEslintConfig]
 
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)

@@ -12,12 +12,13 @@ import pluginSonarjs from './plugins/sonarjs.js'
 import pluginSortClassMember from './plugins/sort-class-members.js'
 import pluginStylistic from './plugins/stylistic.js'
 import pluginUnicorn from './plugins/unicorn.js'
+import configXo from './plugins/xo.js'
 
 export default [
   // ESLint recommended
   builtinRules,
 
-  // plugins
+  // Plugins
   pluginPromise,
   pluginNode,
   pluginUnicorn,
@@ -29,6 +30,7 @@ export default [
   pluginStylistic,
 
   // Prettier
+  configXo,
   configPrettier,
 
   ignores,
@@ -64,11 +66,11 @@ export default [
       reportUnusedDisableDirectives: 'error',
     },
     rules: {
-      // should not set by `eslint-plugin-n`,
+      // Should not set by `eslint-plugin-n`,
       // and also there is a option by `eslint-config-unicorn`
       'no-process-exit': 'off',
 
-      // conflicts with `unicorn/prevent-abbreviations` auto fixing
+      // Conflicts with `unicorn/prevent-abbreviations` auto fixing
       'no-underscore-dangle': 'off',
 
       'n/no-unsupported-features/node-builtins': 'off',
