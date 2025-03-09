@@ -27,8 +27,14 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "inspect": "eslint-config-inspector --config index.js"
+  },
   "dependencies": {
     "eslint-plugin-ava": "15.0.1"
+  },
+  "devDependencies": {
+    "@eslint/config-inspector": "1.0.2"
   },
   "peerDependencies": {
     "eslint": "*"

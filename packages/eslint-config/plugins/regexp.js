@@ -1,8 +1,12 @@
 import eslintPluginRegexp from 'eslint-plugin-regexp'
 
 export default [
-  eslintPluginRegexp.configs['flat/all'],
   {
+    name: 'eslint-plugin-regexp/flat/all',
+    ...eslintPluginRegexp.configs['flat/all'],
+  },
+  {
+    name: 'fisker/eslint-plugin-regexp',
     rules: {
       // https://ota-meshi.github.io/eslint-plugin-regexp/rules/no-super-linear-move.html
       'regexp/no-super-linear-move': 'off',

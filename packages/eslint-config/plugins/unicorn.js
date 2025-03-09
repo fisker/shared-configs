@@ -3,6 +3,7 @@ import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 export default [
   eslintPluginUnicorn.configs.recommended,
   {
+    name: 'fisker/eslint-plugin-unicorn',
     rules: {
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
       'unicorn/no-process-exit': 'warn',

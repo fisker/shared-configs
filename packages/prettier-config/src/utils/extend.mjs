@@ -1,5 +1,5 @@
-import defaultConfig from '../default-config.mjs'
 import defineProperties from '../../../../shared/define-properties.mjs'
+import defaultConfig from '../default-config.mjs'
 
 function extend(options = {}) {
   const {overrides = []} = options

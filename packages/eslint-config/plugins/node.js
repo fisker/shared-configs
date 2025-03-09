@@ -3,6 +3,7 @@ import eslintPluginN from 'eslint-plugin-n'
 export default [
   eslintPluginN.configs['flat/recommended'],
   {
+    name: 'fisker/eslint-plugin-n',
     rules: {
       'n/no-unsupported-features/node-builtins': 'off',
       'n/no-unsupported-features/es-builtins': 'off',

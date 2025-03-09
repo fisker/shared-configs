@@ -28,6 +28,7 @@
     "index.js"
   ],
   "scripts": {
+    "inspect": "eslint-config-inspector --config index.js",
     "test": "run-p \"test:*\"",
     "test:js": "echo \"no test yet\""
   },
@@ -36,6 +37,7 @@
     "eslint-plugin-vue": "10.0.0"
   },
   "devDependencies": {
+    "@eslint/config-inspector": "1.0.2",
     "@fisker/eslint-config": "workspace:*"
   },
   "peerDependencies": {

@@ -1,4 +1,4 @@
-import {STYLELINT, PRETTIER} from '../commands.js'
+import {PRETTIER, STYLELINT} from '../commands.js'
 
 // TODO: htmlhint
 

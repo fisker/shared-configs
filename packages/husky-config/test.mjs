@@ -1,6 +1,6 @@
 import test from 'ava'
-import config from './src/index.mjs'
 import defaultHooks from './src/default-hooks.mjs'
+import config from './src/index.mjs'
 import toHooks from './src/to-hooks.mjs'
 
 const hooks = toHooks(defaultHooks)

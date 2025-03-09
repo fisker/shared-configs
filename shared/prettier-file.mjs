@@ -1,8 +1,8 @@
-import writePrettierFile from 'write-prettier-file'
 import prettierFormat from 'prettier-format'
+import writePrettierFile from 'write-prettier-file'
+import identity from './identity.mjs'
 import isUndefined from './is-undefined.mjs'
 import readFile from './read-file.mjs'
-import identity from './identity.mjs'
 
 function prettierFile({
   file,

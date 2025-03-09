@@ -1,7 +1,7 @@
 import {readPackage} from 'read-pkg'
 import {writePackage} from 'write-pkg'
-import * as presets from '../presets/index.mjs'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
+import * as presets from '../presets/index.mjs'
 
 async function updatePackage(cwd, data) {
   const packageJson = await readPackage({

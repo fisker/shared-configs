@@ -1,20 +1,21 @@
-import globals from 'globals'
-import eslintPluginJs from '@eslint/js'
 import babelEslintParser from '@babel/eslint-parser'
-import configAirbnb from './airbnb/index.js'
-import pluginPromise from './plugins/promise.js'
-import pluginNode from './plugins/node.js'
-import pluginUnicorn from './plugins/unicorn.js'
+import globals from 'globals'
+import ignores from './ignores/index.js'
+import builtinRules from './plugins/builtin-rules.js'
 import pluginEslintComments from './plugins/eslint-comments.js'
+import pluginNode from './plugins/node.js'
+import configPrettier from './plugins/prettier.js'
+import pluginPromise from './plugins/promise.js'
 import pluginRegexp from './plugins/regexp.js'
+import pluginSimpleImportSort from './plugins/simple-import-sort.js'
 import pluginSonarjs from './plugins/sonarjs.js'
 import pluginSortClassMember from './plugins/sort-class-members.js'
-import configPrettier from './plugins/prettier.js'
-import ignores from './ignores/index.js'
+import pluginStylistic from './plugins/stylistic.js'
+import pluginUnicorn from './plugins/unicorn.js'
 
 export default [
   // ESLint recommended
-  eslintPluginJs.configs.recommended,
+  builtinRules,
 
   // plugins
   pluginPromise,
@@ -24,9 +25,8 @@ export default [
   pluginRegexp,
   pluginSonarjs,
   pluginSortClassMember,
-
-  // airbnb
-  configAirbnb,
+  pluginSimpleImportSort,
+  pluginStylistic,
 
   // Prettier
   configPrettier,
@@ -34,6 +34,7 @@ export default [
   ignores,
 
   {
+    name: 'fisker/overrides',
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -63,29 +64,16 @@ export default [
       reportUnusedDisableDirectives: 'error',
     },
     rules: {
-      curly: ['error', 'all'],
-
-      // should not set by `eslint-plugin-node`,
+      // should not set by `eslint-plugin-n`,
       // and also there is a option by `eslint-config-unicorn`
       'no-process-exit': 'off',
 
       // conflicts with `unicorn/prevent-abbreviations` auto fixing
       'no-underscore-dangle': 'off',
 
-      quotes: [
-        'error',
-        'single',
-        {
-          avoidEscape: true,
-          allowTemplateLiterals: false,
-        },
-      ],
-
       'n/no-unsupported-features/node-builtins': 'off',
 
       'n/no-missing-import': 'off',
-
-      'unicorn/template-indent': 'error',
     },
   },
 ].flat()

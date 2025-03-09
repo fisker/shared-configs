@@ -7,4 +7,4 @@ const ignores = content
   .split('\n')
   .filter((line) => line && !line.startsWith('#'))
 
-export default [{ignores}]
+export default [{name: 'fisker/ignores', ignores}]

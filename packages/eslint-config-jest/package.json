@@ -27,8 +27,14 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "inspect": "eslint-config-inspector --config index.js"
+  },
   "dependencies": {
     "eslint-plugin-jest": "28.11.0"
+  },
+  "devDependencies": {
+    "@eslint/config-inspector": "1.0.2"
   },
   "peerDependencies": {
     "eslint": "*"

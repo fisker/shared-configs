@@ -2,8 +2,12 @@
 import eslintPluginJest from 'eslint-plugin-jest'
 
 export default [
-  eslintPluginJest.configs['flat/recommended'],
   {
+    name: 'eslint-plugin-jest/flat/recommended',
+    ...eslintPluginJest.configs['flat/recommended'],
+  },
+  {
+    name: 'fisker/eslint-plugin-jest',
     rules: {
       'jest/no-disabled-tests': 'warn',
       'jest/valid-title': 'off',

@@ -1,8 +1,7 @@
 import fiskerEslintConfig from '@fisker/eslint-config'
-import pluginVue from './plugins/vue.js'
-
 // TODO: Prefer local installed plugin
 import vueEslintParser from 'vue-eslint-parser'
+import pluginVue from './plugins/vue.js'
 
 const {languageOptions} = fiskerEslintConfig.find(
   (config) => config.languageOptions,
@@ -20,21 +19,6 @@ export default [
         ...languageOptions.parserOptions,
         parser: languageOptions.parser,
       },
-    },
-    rules: {
-      // https://github.com/prettier/eslint-config-prettier#vuehtml-self-closing
-      'vue/html-self-closing': [
-        'error',
-        {
-          html: {
-            normal: 'never',
-            void: 'any',
-            component: 'any',
-          },
-          svg: 'any',
-          math: 'any',
-        },
-      ],
     },
   },
 ]
