@@ -856,13 +856,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.21.0":
-  version: 9.21.0
-  resolution: "@eslint/js@npm:9.21.0"
-  checksum: 10c0/86c24a2668808995037e3f40c758335df2ae277c553ac0cf84381a1a8698f3099d8a22dd9c388947e6b7f93fcc1142f62406072faaa2b83c43ca79993fc01bb3
-  languageName: node
-  linkType: hard
-
 "@eslint/js@npm:9.22.0":
   version: 9.22.0
   resolution: "@eslint/js@npm:9.22.0"
@@ -936,7 +929,7 @@ __metadata:
     "@babel/core": "npm:7.26.9"
     "@babel/eslint-parser": "npm:7.26.8"
     "@eslint/compat": "npm:1.2.7"
-    "@eslint/js": "npm:9.21.0"
+    "@eslint/js": "npm:9.22.0"
     ava: "npm:6.2.0"
     eslint-config-airbnb-base: "npm:15.0.0"
     eslint-config-prettier: "npm:10.1.1"
