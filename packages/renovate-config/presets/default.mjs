@@ -3,6 +3,7 @@
 // options: https://renovatebot.com/docs/configuration-options/
 const defaultConfig = {
   description: 'Default Configuration',
+  dependencyDashboardApproval: true,
   extends: [
     ':enableRenovate',
     ':ignoreModulesAndTests',

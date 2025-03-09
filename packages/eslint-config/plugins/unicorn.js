@@ -1,7 +1,7 @@
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 
 export default [
-  eslintPluginUnicorn.configs['flat/recommended'],
+  eslintPluginUnicorn.configs.recommended,
   {
     rules: {
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md

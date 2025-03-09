@@ -1,11 +1,9 @@
 import eslintPluginPromise from 'eslint-plugin-promise'
 
 export default [
+  eslintPluginPromise.configs['flat/recommended'],
   {
-    plugins: {promise: eslintPluginPromise},
     rules: {
-      ...eslintPluginPromise.configs.recommended.rules,
-
       // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
       'promise/always-return': 'off',
 

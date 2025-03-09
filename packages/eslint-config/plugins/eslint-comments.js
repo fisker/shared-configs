@@ -1,14 +1,10 @@
-import eslintPluginEslintComments from 'eslint-plugin-eslint-comments'
+import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 
 export default [
+  eslintPluginEslintCommentsConfigs.recommended,
   {
-    plugins: {
-      'eslint-comments': eslintPluginEslintComments,
-    },
-
     rules: {
-      ...eslintPluginEslintComments.configs.recommended.rules,
-      'eslint-comments/no-unused-disable': 'warn',
+      '@eslint-community/eslint-comments/no-unused-disable': 'warn',
     },
   },
 ]

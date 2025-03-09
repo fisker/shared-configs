@@ -63,6 +63,8 @@ export default [
       reportUnusedDisableDirectives: 'error',
     },
     rules: {
+      curly: ['error', 'all'],
+
       // should not set by `eslint-plugin-node`,
       // and also there is a option by `eslint-config-unicorn`
       'no-process-exit': 'off',
