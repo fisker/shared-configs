@@ -1,5 +1,4 @@
 import eslintConfigXo from 'eslint-config-xo'
-console.log(eslintConfigXo)
 
 const xoRules = Object.fromEntries(
   Object.entries(eslintConfigXo[0].rules).filter(
@@ -14,6 +13,7 @@ export default [
       ...xoRules,
       'no-return-await': 'off',
       'no-buffer-constructor': 'off',
+      'capitalized-comments': 'off',
     },
   },
 ]
