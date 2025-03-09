@@ -1,6 +1,6 @@
 import eslintPluginSonarjs from 'eslint-plugin-sonarjs'
 
-const recommended = eslintPluginSonarjs.configs.recommended
+const {recommended} = eslintPluginSonarjs.configs
 
 const rules = Object.fromEntries(
   Object.entries(recommended.rules).filter(([, value]) => value !== 'off'),
