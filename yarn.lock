@@ -1074,7 +1074,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/eslint-config@workspace:*, @fisker/eslint-config@workspace:packages/eslint-config":
+"@fisker/eslint-config@npm:14.0.0, @fisker/eslint-config@workspace:*, @fisker/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@fisker/eslint-config@workspace:packages/eslint-config"
   dependencies:
@@ -1102,7 +1102,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/husky-config@workspace:*, @fisker/husky-config@workspace:packages/husky-config":
+"@fisker/husky-config@npm:4.1.6, @fisker/husky-config@workspace:packages/husky-config":
   version: 0.0.0-use.local
   resolution: "@fisker/husky-config@workspace:packages/husky-config"
   peerDependencies:
@@ -1110,7 +1110,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/lint-staged-config@workspace:*, @fisker/lint-staged-config@workspace:packages/lint-staged-config":
+"@fisker/lint-staged-config@npm:3.3.5, @fisker/lint-staged-config@workspace:packages/lint-staged-config":
   version: 0.0.0-use.local
   resolution: "@fisker/lint-staged-config@workspace:packages/lint-staged-config"
   peerDependencies:
@@ -1118,7 +1118,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/markdownlint-cli2-config@workspace:*, @fisker/markdownlint-cli2-config@workspace:packages/markdownlint-cli2-config":
+"@fisker/markdownlint-cli2-config@npm:0.0.3":
+  version: 0.0.3
+  resolution: "@fisker/markdownlint-cli2-config@npm:0.0.3"
+  checksum: 10c0/eef411b050a67f8d59a4d2e75f80faaf92e5bf6dc475906d87b9378003a88dc9ade6143916d7ff7a54249c02402225fc29e3d8f69c72b70ed3cee48f9327cb1a
+  languageName: node
+  linkType: hard
+
+"@fisker/markdownlint-cli2-config@workspace:packages/markdownlint-cli2-config":
   version: 0.0.0-use.local
   resolution: "@fisker/markdownlint-cli2-config@workspace:packages/markdownlint-cli2-config"
   languageName: unknown
@@ -1134,7 +1141,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/prettier-config@workspace:*, @fisker/prettier-config@workspace:packages/prettier-config":
+"@fisker/prettier-config@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@fisker/prettier-config@npm:5.1.1"
+  peerDependencies:
+    prettier: "*"
+  checksum: 10c0/8c2d6befecbc33bd0472616d51b96878c34c0ffdfdb657081d96c7a384fdccb382546bfaaa82a0d62530728328333eca24389f51593bdad5a6d01a002c1d78e5
+  languageName: node
+  linkType: hard
+
+"@fisker/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@fisker/prettier-config@workspace:packages/prettier-config"
   peerDependencies:
@@ -1155,11 +1171,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/shared-configs@workspace:."
   dependencies:
-    "@fisker/eslint-config": "workspace:*"
-    "@fisker/husky-config": "workspace:*"
-    "@fisker/lint-staged-config": "workspace:*"
-    "@fisker/markdownlint-cli2-config": "workspace:*"
-    "@fisker/prettier-config": "workspace:*"
+    "@fisker/eslint-config": "npm:14.0.0"
+    "@fisker/husky-config": "npm:4.1.6"
+    "@fisker/lint-staged-config": "npm:3.3.5"
+    "@fisker/markdownlint-cli2-config": "npm:0.0.3"
+    "@fisker/prettier-config": "npm:5.1.1"
     ava: "npm:6.2.0"
     del-cli: "npm:6.0.0"
     eslint: "npm:9.22.0"
