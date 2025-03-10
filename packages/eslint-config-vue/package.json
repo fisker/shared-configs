@@ -33,7 +33,7 @@
     "test:js": "echo \"no test yet\""
   },
   "dependencies": {
-    "@fisker/eslint-config": "^14.0.0",
+    "@fisker/eslint-config": "workspace:*",
     "eslint-plugin-vue": "10.0.0"
   },
   "devDependencies": {

@@ -25,13 +25,13 @@
     "build:docs": "yarn workspaces foreach --all run build:docs",
     "clean": "yarn workspaces foreach --all run clean",
     "dist": "lerna publish",
-    "fix": "run-p \"fix:*\"",
+    "fix": "run-p --continue-on-error \"fix:*\"",
     "fix:eslint": "yarn lint:eslint --fix",
-    "fix:markdown": "markdownlint-cli2 --fix",
+    "fix:markdown": "yarn lint:markdown --fix",
     "fix:package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
-    "fix:prettier": "yarn lint:prettier --write",
-    "lint": "run-p \"lint:*\"",
-    "lint:eslint": "eslint \"**/*.{js,jsx,mjs,cjs,vue}\"",
+    "fix:prettier": "prettier . --write",
+    "lint": "run-p --continue-on-error \"lint:*\"",
+    "lint:eslint": "eslint .",
     "lint:markdown": "markdownlint-cli2",
     "lint:package-json": "yarn run fix:package-json --check",
     "lint:prettier": "prettier . --check",
@@ -41,10 +41,10 @@
   },
   "devDependencies": {
     "@fisker/eslint-config": "workspace:*",
-    "@fisker/husky-config": "4.1.3",
-    "@fisker/lint-staged-config": "3.3.2",
+    "@fisker/husky-config": "workspace:*",
+    "@fisker/lint-staged-config": "workspace:*",
     "@fisker/markdownlint-cli2-config": "workspace:*",
-    "@fisker/prettier-config": "5.1.1",
+    "@fisker/prettier-config": "workspace:*",
     "ava": "6.2.0",
     "del-cli": "6.0.0",
     "eslint": "9.22.0",
@@ -54,16 +54,17 @@
     "lint-staged": "15.4.3",
     "markdownlint-cli2": "0.17.2",
     "mem": "10.0.0",
-    "npm-run-all": "4.1.5",
+    "npm-run-all2": "7.0.2",
     "prettier": "3.5.3",
     "prettier-format": "4.0.0",
     "rollup": "4.35.0",
     "sort-package-json": "3.0.0",
     "write-prettier-file": "3.0.3"
   },
-  "packageManager": "yarn@4.5.3",
+  "packageManager": "yarn@4.7.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "type": "module"
 }

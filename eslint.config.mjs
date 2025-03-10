@@ -1,1 +1,3 @@
-export {default} from './packages/eslint-config/index.js'
+import fiskerEslintConfig from '@fisker/eslint-config'
+
+export default [...fiskerEslintConfig]
