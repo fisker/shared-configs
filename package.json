@@ -15,6 +15,7 @@
     "url": "https://www.fiskercheung.com/"
   },
   "sideEffects": false,
+  "type": "module",
   "workspaces": {
     "packages": [
       "packages/*"
@@ -65,6 +66,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "type": "module"
+  }
 }
