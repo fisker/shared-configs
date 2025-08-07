@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "run-s \"build:docs\"",
-    "build:docs": "node ./scripts/generate-options.mjs",
+    "build:docs": "node ./scripts/generate-options.js",
     "clean": "del-cli dist",
     "test": "run-p \"test:*\"",
     "test:js": "ava"

@@ -1,4 +1,4 @@
-import defineProperties from '../../../shared/define-properties.mjs'
+import defineProperties from '../../../shared/define-properties.js'
 import defaults from './default-config.js'
 
 class Configuration {

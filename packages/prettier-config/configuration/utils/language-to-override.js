@@ -1,4 +1,4 @@
-import isUndefined from '../../../../shared/is-undefined.mjs'
+import isUndefined from '../../../../shared/is-undefined.js'
 import extensionsToGlob from './extensions-to-glob.js'
 import isGlobalConfig from './is-global-config.js'
 import SUPPORTED_OPTIONS from './supported-options.js'

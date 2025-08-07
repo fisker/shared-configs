@@ -1,9 +1,9 @@
 import path from 'node:path'
 import url from 'node:url'
 import prettier from 'prettier'
-import isUndefined from '../../../shared/is-undefined.mjs'
-import prettierFile from '../../../shared/prettier-file.mjs'
-import options from '../src/default-config.mjs'
+import isUndefined from '../../../shared/is-undefined.js'
+import prettierFile from '../../../shared/prettier-file.js'
+import options from '../src/default-config.js'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
