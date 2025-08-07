@@ -1,5 +1,5 @@
-import defineProperties from '../../../shared/define-properties.js'
 import defaults from './default-config.js'
+import defineProperties from './utils/define-properties.js'
 
 class Configuration {
   constructor(options = {}) {

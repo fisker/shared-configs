@@ -1,9 +1,9 @@
 import path from 'node:path'
 import url from 'node:url'
 import prettier from 'prettier'
-import isUndefined from '../../../shared/is-undefined.js'
-import prettierFile from '../../../shared/prettier-file.js'
-import options from '../src/default-config.js'
+import isUndefined from '../../../shared/is-undefined.mjs'
+import prettierFile from '../../../shared/prettier-file.mjs'
+import prettierConfig from '../index.js'
 
 const dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
@@ -38,7 +38,7 @@ function getRules(options) {
     }))
 }
 
-const {overrides = []} = options
+const {overrides = []} = prettierConfig
 
 const languagesRules = overrides.map(({files, options}) => ({
   type: files,
@@ -48,7 +48,7 @@ const languagesRules = overrides.map(({files, options}) => ({
 const rules = [
   {
     type: 'Global',
-    rules: getRules(options),
+    rules: getRules(prettierConfig),
   },
   ...languagesRules,
 ]

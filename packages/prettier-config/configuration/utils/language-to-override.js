@@ -1,6 +1,6 @@
-import isUndefined from '../../../../shared/is-undefined.js'
 import extensionsToGlob from './extensions-to-glob.js'
 import isGlobalConfig from './is-global-config.js'
+import isUndefined from './is-undefined.js'
 import SUPPORTED_OPTIONS from './supported-options.js'
 
 function toOverride({extensions, config}) {

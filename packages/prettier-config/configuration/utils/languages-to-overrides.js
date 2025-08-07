@@ -1,4 +1,4 @@
-import getExtensions from '../../../../shared/file-extensions.js'
+import getExtensions from './file-extensions.js'
 import languageToOverride from './language-to-override.js'
 
 function toOverrides(languages) {
