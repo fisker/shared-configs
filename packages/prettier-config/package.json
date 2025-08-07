@@ -34,7 +34,7 @@
   },
   "ava": {
     "files": [
-      "test.mjs"
+      "test.js"
     ],
     "verbose": true
   },
