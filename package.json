@@ -41,11 +41,11 @@
     "test": "yarn workspaces foreach --all run test"
   },
   "devDependencies": {
-    "@fisker/eslint-config": "14.0.0",
+    "@fisker/eslint-config": "15.0.0",
     "@fisker/husky-config": "4.1.6",
     "@fisker/lint-staged-config": "3.3.5",
     "@fisker/markdownlint-cli2-config": "0.0.3",
-    "@fisker/prettier-config": "5.1.5",
+    "@fisker/prettier-config": "5.1.7",
     "ava": "6.4.1",
     "del-cli": "6.0.0",
     "eslint": "9.32.0",
