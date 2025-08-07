@@ -1,5 +1,5 @@
 import getExtensions from '../../../../shared/file-extensions.mjs'
-import languageToOverride from './language-to-override.mjs'
+import languageToOverride from './language-to-override.js'
 
 function toOverrides(languages) {
   return Object.keys(languages).map((language) =>

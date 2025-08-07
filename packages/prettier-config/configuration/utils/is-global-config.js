@@ -1,4 +1,4 @@
-import global from '../global.mjs'
+import global from '../global.js'
 
 function isGlobalConfig(key, value) {
   const globalValue = global[key]

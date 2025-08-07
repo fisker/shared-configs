@@ -16,19 +16,19 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "type": "module",
   "exports": {
-    ".": "./dist/index.js",
+    ".": "./index.js",
     "./*": "./*"
   },
   "files": [
-    "dist"
+    "index.js",
+    "configuration"
   ],
   "scripts": {
-    "build": "run-s \"build:js\" \"build:docs\"",
+    "build": "run-s \"build:docs\"",
     "build:docs": "node ./scripts/generate-options.mjs",
-    "build:js": "rollup --config",
     "clean": "del-cli dist",
-    "dev": "rollup --config --watch",
     "test": "run-p \"test:*\"",
     "test:js": "ava"
   },
