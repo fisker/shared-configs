@@ -12,7 +12,6 @@ import pluginSonarjs from './plugins/sonarjs.js'
 import pluginSortClassMember from './plugins/sort-class-members.js'
 import pluginStylistic from './plugins/stylistic.js'
 import pluginUnicorn from './plugins/unicorn.js'
-import configXo from './plugins/xo.js'
 
 export default [
   // ESLint recommended
@@ -30,7 +29,6 @@ export default [
   pluginStylistic,
 
   // Prettier
-  configXo,
   configPrettier,
 
   ignores,
