@@ -31,10 +31,10 @@
     "inspect": "eslint-config-inspector --config index.js"
   },
   "dependencies": {
-    "eslint-plugin-jest": "28.11.0"
+    "eslint-plugin-jest": "29.0.1"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "1.0.2"
+    "@eslint/config-inspector": "1.1.0"
   },
   "peerDependencies": {
     "eslint": "*"
