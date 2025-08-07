@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   fix:
-    if: github.repository == 'fisker/@fisker/shared-configs'
+    if: github.repository == 'fisker/shared-configs'
     name: Run automated fix
     permissions: {}
     uses: fisker/shared-workflows/.github/workflows/automated-fix.yml@main
