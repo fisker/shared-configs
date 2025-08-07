@@ -1231,7 +1231,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/prettier-config@npm:5.1.7, @fisker/prettier-config@workspace:packages/prettier-config":
+"@fisker/prettier-config@npm:5.1.7":
+  version: 5.1.7
+  resolution: "@fisker/prettier-config@npm:5.1.7"
+  peerDependencies:
+    prettier: "*"
+  checksum: 10c0/7f06cf7defd76501d5ded13685d8b70d56ad430822a356e63883921cee21f47c23ce92c71f45905509a3d3f2cc526f57de8f8d258f47bba1282ffe50633b1981
+  languageName: node
+  linkType: hard
+
+"@fisker/prettier-config@workspace:packages/prettier-config":
   version: 0.0.0-use.local
   resolution: "@fisker/prettier-config@workspace:packages/prettier-config"
   peerDependencies:
