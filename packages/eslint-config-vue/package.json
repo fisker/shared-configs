@@ -34,10 +34,10 @@
   },
   "dependencies": {
     "@fisker/eslint-config": "workspace:*",
-    "eslint-plugin-vue": "10.0.0"
+    "eslint-plugin-vue": "10.4.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "1.0.2",
+    "@eslint/config-inspector": "1.1.0",
     "@fisker/eslint-config": "workspace:*"
   },
   "peerDependencies": {
