@@ -1174,7 +1174,7 @@ __metadata:
     "@eslint/compat": "npm:1.3.1"
     "@eslint/config-inspector": "npm:1.1.0"
     "@eslint/js": "npm:9.32.0"
-    "@stylistic/eslint-plugin-js": "npm:4.4.1"
+    "@stylistic/eslint-plugin": "npm:5.2.2"
     eslint-config-prettier: "npm:10.1.8"
     eslint-config-xo: "npm:0.48.0"
     eslint-plugin-es-x: "npm:9.0.0"
@@ -2269,15 +2269,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stylistic/eslint-plugin-js@npm:4.4.1":
-  version: 4.4.1
-  resolution: "@stylistic/eslint-plugin-js@npm:4.4.1"
+"@stylistic/eslint-plugin@npm:5.2.2":
+  version: 5.2.2
+  resolution: "@stylistic/eslint-plugin@npm:5.2.2"
   dependencies:
-    eslint-visitor-keys: "npm:^4.2.0"
-    espree: "npm:^10.3.0"
+    "@eslint-community/eslint-utils": "npm:^4.7.0"
+    "@typescript-eslint/types": "npm:^8.37.0"
+    eslint-visitor-keys: "npm:^4.2.1"
+    espree: "npm:^10.4.0"
+    estraverse: "npm:^5.3.0"
+    picomatch: "npm:^4.0.3"
   peerDependencies:
     eslint: ">=9.0.0"
-  checksum: 10c0/e6fbbf0695aa6b49b26407c84e70c3ebae1a8d0430abc57a2c5da5b79acbd550190e14ce5f77e2b5f6a919b00fb74fc8964f492f530e2981399a016eca893193
+  checksum: 10c0/00c75290823340d2234d29a56caad0f66117bcc9e9ad0d8b830f19cfeb522fe5e0fb4828d1bf3cc29eda68095682d0c43e6eb8c17cd282a4872f972cf605cdbd
   languageName: node
   linkType: hard
 
@@ -2419,7 +2423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:8.39.0, @typescript-eslint/types@npm:^8.39.0":
+"@typescript-eslint/types@npm:8.39.0, @typescript-eslint/types@npm:^8.37.0, @typescript-eslint/types@npm:^8.39.0":
   version: 8.39.0
   resolution: "@typescript-eslint/types@npm:8.39.0"
   checksum: 10c0/4240b01b218f3ef8a4f6343cb78cd531c12b2a134b6edd6ab67a9de4d1808790bc468f7579d5d38e507a206457d14a5e8970f6f74d29b9858633f77258f7e43b
@@ -9178,7 +9182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2":
+"picomatch@npm:^4.0.2, picomatch@npm:^4.0.3":
   version: 4.0.3
   resolution: "picomatch@npm:4.0.3"
   checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2

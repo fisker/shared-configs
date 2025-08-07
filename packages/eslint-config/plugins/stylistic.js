@@ -1,9 +1,9 @@
-import eslintPluginStylisticJs from '@stylistic/eslint-plugin-js'
+import eslintPluginStylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
-    name: 'fisker/@stylistic/eslint-plugin-js',
-    plugins: {'@stylistic/js': eslintPluginStylisticJs},
+    name: 'fisker/@stylistic/eslint-plugin',
+    plugins: {'@stylistic': eslintPluginStylistic},
     rules: {},
   },
 ]

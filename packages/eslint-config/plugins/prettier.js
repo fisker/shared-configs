@@ -20,7 +20,7 @@ export default [
 
       // https://github.com/prettier/eslint-config-prettier?tab=readme-ov-file#quotes-deprecated
       // quotes: quotesConfig,
-      '@stylistic/js/quotes': quotesConfig,
+      '@stylistic/quotes': quotesConfig,
 
       // https://github.com/prettier/eslint-config-prettier?tab=readme-ov-file#unicorntemplate-indent
       'unicorn/template-indent': 'error',
