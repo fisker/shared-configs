@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-vue",
-  "version": "12.0.1",
+  "version": "13.0.0",
   "description": "fisker's Shareable ESLint Configuration for vue project",
   "keywords": [
     "config",
