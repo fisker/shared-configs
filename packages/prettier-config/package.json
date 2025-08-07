@@ -16,6 +16,10 @@
   },
   "license": "MIT",
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./*"
+  },
   "scripts": {
     "build": "run-s \"build:js\" \"build:docs\"",
     "build:docs": "node ./scripts/generate-options.mjs",
