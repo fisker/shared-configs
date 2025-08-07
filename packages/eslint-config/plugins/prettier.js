@@ -5,7 +5,7 @@ const quotesConfig = [
   'single',
   {
     avoidEscape: true,
-    allowTemplateLiterals: false,
+    allowTemplateLiterals: 'never',
   },
 ]
 
