@@ -1,0 +1,57 @@
+{
+  "description": "Default Configuration",
+  "dependencyDashboardApproval": true,
+  "extends": [
+    ":enableRenovate",
+    ":ignoreModulesAndTests",
+    ":separateMajorReleases",
+    ":combinePatchMinorReleases",
+    ":renovatePrefix",
+    ":semanticPrefixChore",
+    ":disablePeerDependencies",
+    ":disableDigestUpdates",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":prImmediately",
+    ":prHourlyLimitNone",
+    ":disableRateLimiting",
+    ":automergeRequireAllStatusChecks",
+    ":maintainLockFilesDisabled",
+    ":ignoreUnstable",
+    ":respectLatest",
+    ":updateNotScheduled",
+    ":npm",
+    ":automergeLinters",
+    ":semanticCommits",
+    ":timezone(Asia/Shanghai)",
+    ":assignee(fisker)",
+    ":reviewer(fisker)"
+  ],
+  "ignorePresets": [],
+  "packageRules": [
+    {
+      "groupName": "GitHub Actions",
+      "matchManagers": [
+        "github-actions"
+      ]
+    },
+    {
+      "groupName": "devDependencies",
+      "matchDepTypes": [
+        "devDependencies"
+      ]
+    }
+  ],
+  "rangeStrategy": "bump",
+  "vulnerabilityAlerts": {
+    "labels": [
+      "security"
+    ]
+  },
+  "ignoreDeps": [
+    "caniuse-lite",
+    "caniuse-db",
+    "electron-to-chromium",
+    "renovate"
+  ],
+  "stabilityDays": 1
+}

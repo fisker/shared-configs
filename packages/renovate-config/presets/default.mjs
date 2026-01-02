@@ -29,8 +29,8 @@ const defaultConfig = {
     // ':doNotPinPackage',
     ':semanticCommits',
     ':timezone(Asia/Shanghai)',
-    ':automergePatch',
-    ':automergePr',
+    // ':automergePatch',
+    // ':automergePr',
     ':assignee(fisker)',
     ':reviewer(fisker)',
     // 'npm:unpublishSafe',
@@ -38,8 +38,12 @@ const defaultConfig = {
   ignorePresets: [],
   packageRules: [
     {
+      groupName: 'GitHub Actions',
+      matchManagers: ['github-actions'],
+    },
+    {
+      groupName: 'devDependencies',
       matchDepTypes: ['devDependencies'],
-      automerge: true,
     },
   ],
   rangeStrategy: 'bump',

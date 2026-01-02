@@ -1,7 +1,7 @@
 {
   "name": "@fisker/renovate-config",
   "version": "4.3.0",
-  "description": "fisker's Shareable Renovate Configuration",
+  "description": "fisker's shareable renovate configuration",
   "keywords": [
     "fisker",
     "renovate"
@@ -18,7 +18,7 @@
   "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
   "files": [],
   "scripts": {
-    "build": "yarn clean-package",
+    "build": "yarn build-package && yarn clean-package",
     "build-package": "node ./scripts/build.mjs",
     "clean-package": "node ./scripts/clean.mjs",
     "prepublish": "yarn build-package",
