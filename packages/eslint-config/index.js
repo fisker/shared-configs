@@ -74,6 +74,9 @@ export default [
       'n/no-unsupported-features/node-builtins': 'off',
 
       'n/no-missing-import': 'off',
+
+      'no-await-in-loop': 'off',
+      'no-template-curly-in-string': 'off',
     },
   },
 ].flat()
