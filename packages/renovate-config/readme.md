@@ -5,7 +5,7 @@
 ## Usage
 
 ```sh
-echo {"extends":["github>fisker/shared-configs//packages/renovate-config/default"]}> renovate.json
+echo {"extends":["github>fisker/shared-configs//packages/renovate-config/default"]}> .github/renovate.json5
 ```
 
 ```sh
