@@ -52,6 +52,5 @@
     "caniuse-db",
     "electron-to-chromium",
     "renovate"
-  ],
-  "stabilityDays": 1
+  ]
 }

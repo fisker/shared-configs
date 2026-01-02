@@ -57,7 +57,7 @@ const defaultConfig = {
     'electron-to-chromium',
     'renovate',
   ],
-  stabilityDays: 1,
+  // stabilityDays: 1,
   // schedule: ['after 5:30pm and before 5:30am'],
 }
 
