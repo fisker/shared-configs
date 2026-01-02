@@ -1,0 +1,32 @@
+{
+  "name": "@fisker/release-it-config",
+  "version": "5.2.0",
+  "description": "fisker's shareable release-it Configuration",
+  "keywords": [
+    "fisker",
+    "release-it"
+  ],
+  "homepage": "https://github.com/fisker/shared-configs#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/shared-configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisker/shared-configs.git"
+  },
+  "license": "MIT",
+  "author": "fisker Cheung <lionkay@gmail.com> (https://www.fiskercheung.com/)",
+  "type": "module",
+  "exports": "./index.cjs",
+  "files": [
+    "index.cjs",
+    "configuration"
+  ],
+  "scripts": {
+    "build": "echo \"no need build\""
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
