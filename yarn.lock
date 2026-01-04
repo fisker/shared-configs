@@ -1275,6 +1275,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@fisker/release-it-config@workspace:packages/release-it-config":
+  version: 0.0.0-use.local
+  resolution: "@fisker/release-it-config@workspace:packages/release-it-config"
+  languageName: unknown
+  linkType: soft
+
 "@fisker/renovate-config@workspace:packages/renovate-config":
   version: 0.0.0-use.local
   resolution: "@fisker/renovate-config@workspace:packages/renovate-config"
