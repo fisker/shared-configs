@@ -70,6 +70,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/eslint-parser@npm:7.28.5":
+  version: 7.28.5
+  resolution: "@babel/eslint-parser@npm:7.28.5"
+  dependencies:
+    "@nicolo-ribaudo/eslint-scope-5-internals": "npm:5.1.1-v1"
+    eslint-visitor-keys: "npm:^2.1.0"
+    semver: "npm:^6.3.1"
+  peerDependencies:
+    "@babel/core": ^7.11.0
+    eslint: ^7.5.0 || ^8.0.0 || ^9.0.0
+  checksum: 10c0/4d13f765434b6be83ab3917f06ad712dedf0d5bfa80fe54cd6cea44adac6a0d2519020ad307d66b4490e46a435874829eac6a9fd3a9cad54d7616c47d288aaed
+  languageName: node
+  linkType: hard
+
 "@babel/generator@npm:^7.28.0":
   version: 7.28.0
   resolution: "@babel/generator@npm:7.28.0"
@@ -1234,7 +1248,7 @@ __metadata:
   resolution: "@fisker/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@babel/core": "npm:7.28.0"
-    "@babel/eslint-parser": "npm:7.28.0"
+    "@babel/eslint-parser": "npm:7.28.5"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.5.0"
     "@eslint/compat": "npm:1.3.1"
     "@eslint/config-inspector": "npm:1.1.0"
