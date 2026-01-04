@@ -1352,7 +1352,7 @@ __metadata:
     "@eslint/js": "npm:9.32.0"
     "@stylistic/eslint-plugin": "npm:5.6.1"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-es-x: "npm:9.0.0"
+    eslint-plugin-es-x: "npm:9.3.0"
     eslint-plugin-n: "npm:17.23.1"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-regexp: "npm:2.10.0"
@@ -5278,6 +5278,19 @@ __metadata:
   peerDependencies:
     eslint: ">=9.29.0"
   checksum: 10c0/d5d4656b93ac8cc4fa3eec7c9df6c47998c767305068494495fea5a20de636e0236b65b0e8f7506dbc8033fd87453e35e2bc523b20c050170db240a2f0e8f0e2
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-es-x@npm:9.3.0":
+  version: 9.3.0
+  resolution: "eslint-plugin-es-x@npm:9.3.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.1.2"
+    "@eslint-community/regexpp": "npm:^4.12.1"
+    eslint-type-tracer: "npm:^0.4.0"
+  peerDependencies:
+    eslint: ">=9.29.0"
+  checksum: 10c0/1e6721609668624af0562c8b12e5f47a6aa6c7c694a31dcfe773fa7f558b99ba1b6925d6aaca6f8312474cea40a244aaaa382732ae49b112d6783203209d493e
   languageName: node
   linkType: hard
 
