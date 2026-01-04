@@ -1293,7 +1293,7 @@ __metadata:
   resolution: "@fisker/eslint-config-mocha@workspace:packages/eslint-config-mocha"
   dependencies:
     "@eslint/config-inspector": "npm:1.4.2"
-    eslint-plugin-mocha: "npm:11.1.0"
+    eslint-plugin-mocha: "npm:11.2.0"
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -5325,15 +5325,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-mocha@npm:11.1.0":
-  version: 11.1.0
-  resolution: "eslint-plugin-mocha@npm:11.1.0"
+"eslint-plugin-mocha@npm:11.2.0":
+  version: 11.2.0
+  resolution: "eslint-plugin-mocha@npm:11.2.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.1"
     globals: "npm:^15.14.0"
   peerDependencies:
     eslint: ">=9.0.0"
-  checksum: 10c0/e71fbb8782aa921274783573f1fd7c51c5f7ec465a6467642a144a728b7b53328bd77217a6ef63117fd3abf30cad052ecdac874e348d7d0f06879baf9c7c5c99
+  checksum: 10c0/bcb106933d34e107af066faeae2068e8dc13ea6aa313ef7220a80a4f556d8294e117553d00f63a0e8f19323ff382aaf3bec95ba63d176e02e1ecae62f99c6534
   languageName: node
   linkType: hard
 

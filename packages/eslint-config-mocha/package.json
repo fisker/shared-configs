@@ -31,7 +31,7 @@
     "inspect": "eslint-config-inspector --config index.js"
   },
   "dependencies": {
-    "eslint-plugin-mocha": "11.1.0"
+    "eslint-plugin-mocha": "11.2.0"
   },
   "devDependencies": {
     "@eslint/config-inspector": "1.4.2"
