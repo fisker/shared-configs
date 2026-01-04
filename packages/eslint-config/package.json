@@ -51,7 +51,7 @@
     "eslint-plugin-sonarjs": "3.0.4",
     "eslint-plugin-sort-class-members": "1.21.0",
     "eslint-plugin-unicorn": "62.0.0",
-    "globals": "16.3.0"
+    "globals": "17.0.0"
   },
   "devDependencies": {
     "@eslint/config-inspector": "1.1.0"
