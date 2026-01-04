@@ -14,8 +14,10 @@ function* iterateDirectoryUp(directory) {
 
 const hasPublishWorkflow = () => {
   for (const directory of iterateDirectoryUp(__dirname)) {
-    if (fs.existSync(path.join(directory, '.git'))) {
-      return fs.existSync(path.join(directory, '.github/workflows/publish.yml'))
+    if (fs.existsSync(path.join(directory, '.git'))) {
+      return fs.existsSync(
+        path.join(directory, '.github/workflows/publish.yml'),
+      )
     }
   }
 
@@ -40,4 +42,4 @@ const config = {
   },
 }
 
-module.export = config
+module.exports = config
