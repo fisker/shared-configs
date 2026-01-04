@@ -34,7 +34,7 @@
     "eslint-plugin-mocha": "11.1.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "1.1.0"
+    "@eslint/config-inspector": "1.4.2"
   },
   "peerDependencies": {
     "eslint": "*"
