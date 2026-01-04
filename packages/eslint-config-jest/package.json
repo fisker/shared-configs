@@ -1,6 +1,6 @@
 {
   "name": "@fisker/eslint-config-jest",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "fisker's Shareable ESLint Configuration for jest test",
   "keywords": [
     "config",
@@ -43,5 +43,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "ab1867b4b4ab3bf0a382bc61a07373c2a5c4e6ad"
+  "gitHead": "21a03bf2f96f10cd8fe7f602d9f4008ca0ee5b2d"
 }

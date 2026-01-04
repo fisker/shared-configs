@@ -1455,7 +1455,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/husky-config@npm:4.1.6, @fisker/husky-config@workspace:packages/husky-config":
+"@fisker/husky-config@npm:4.1.6":
+  version: 4.1.6
+  resolution: "@fisker/husky-config@npm:4.1.6"
+  peerDependencies:
+    husky: "*"
+  checksum: 10c0/05964ffe3c376ca95c40664096aa7bf686875034d2aff029bd4a648ca6f2db794a794ccb564e114c4d91ea3a08ac5aacfa94bd8adf6d5984a8a022fdd9d5d13f
+  languageName: node
+  linkType: hard
+
+"@fisker/husky-config@workspace:packages/husky-config":
   version: 0.0.0-use.local
   resolution: "@fisker/husky-config@workspace:packages/husky-config"
   peerDependencies:
@@ -1463,7 +1472,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fisker/lint-staged-config@npm:3.3.5, @fisker/lint-staged-config@workspace:packages/lint-staged-config":
+"@fisker/lint-staged-config@npm:3.3.5":
+  version: 3.3.5
+  resolution: "@fisker/lint-staged-config@npm:3.3.5"
+  peerDependencies:
+    prettier: "*"
+  checksum: 10c0/ad72cece0d74e151f5ba5855634edac1b4ffc7f8491813db7306d7c32731e0a3a03c428ce71838cc1171522e159c47749286cba0154812eef5dff2ab465b281d
+  languageName: node
+  linkType: hard
+
+"@fisker/lint-staged-config@workspace:packages/lint-staged-config":
   version: 0.0.0-use.local
   resolution: "@fisker/lint-staged-config@workspace:packages/lint-staged-config"
   peerDependencies:

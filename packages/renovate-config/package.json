@@ -1,6 +1,6 @@
 {
   "name": "@fisker/renovate-config",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "fisker's shareable renovate configuration",
   "keywords": [
     "fisker",
@@ -34,5 +34,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "gitHead": "21a03bf2f96f10cd8fe7f602d9f4008ca0ee5b2d"
 }
