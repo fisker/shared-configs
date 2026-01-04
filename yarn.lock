@@ -1256,7 +1256,7 @@ __metadata:
     "@stylistic/eslint-plugin": "npm:5.6.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-es-x: "npm:9.0.0"
-    eslint-plugin-n: "npm:17.21.3"
+    eslint-plugin-n: "npm:17.23.1"
     eslint-plugin-promise: "npm:7.2.1"
     eslint-plugin-regexp: "npm:2.9.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
@@ -5262,6 +5262,25 @@ __metadata:
   peerDependencies:
     eslint: ">=8.23.0"
   checksum: 10c0/3d8b279aaf477ddde06f9b63f032e22da3d3c1edda75ff509c93a871fc36bbdd7e1005403113f2bc421d970d52e2c361f69d05a2bfbad14146c16f910952a764
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-n@npm:17.23.1":
+  version: 17.23.1
+  resolution: "eslint-plugin-n@npm:17.23.1"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.5.0"
+    enhanced-resolve: "npm:^5.17.1"
+    eslint-plugin-es-x: "npm:^7.8.0"
+    get-tsconfig: "npm:^4.8.1"
+    globals: "npm:^15.11.0"
+    globrex: "npm:^0.1.2"
+    ignore: "npm:^5.3.2"
+    semver: "npm:^7.6.3"
+    ts-declaration-location: "npm:^1.0.6"
+  peerDependencies:
+    eslint: ">=8.23.0"
+  checksum: 10c0/35d23fe25d92b8aa3257a8bd003094b4042c0492ddc82e8b20728eb6546d2d5c31a08be215a7996f113de7b24a1a27377136345e95a5e2c96c44d3653be2c988
   languageName: node
   linkType: hard
 
