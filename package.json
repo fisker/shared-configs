@@ -54,7 +54,7 @@
     "npm-run-all2": "8.0.4",
     "prettier": "3.8.4",
     "prettier-format": "4.0.0",
-    "rollup": "4.59.0",
+    "rollup": "4.61.1",
     "sort-package-json": "3.7.1",
     "write-prettier-file": "3.0.3"
   },
