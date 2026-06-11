@@ -7,7 +7,7 @@ function tasks(array) {
 function toHooks(options = {}) {
   options = toCommands(options)
 
-  const keys = Object.keys(options).sort()
+  const keys = Object.keys(options).toSorted()
   const parsed = {}
 
   for (const hook of keys) {

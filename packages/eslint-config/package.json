@@ -36,6 +36,8 @@
     "verbose": true
   },
   "dependencies": {
+    "@babel/core": "8.0.0-rc.6",
+    "@babel/eslint-parser": "8.0.0-rc.6",
     "@eslint-community/eslint-plugin-eslint-comments": "4.7.2",
     "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",

@@ -1,6 +1,6 @@
 function toGlob(extensions) {
   return extensions.length > 1
-    ? `*.{${extensions.sort().join(',')}}`
+    ? `*.{${extensions.toSorted().join(',')}}`
     : `*.${extensions}`
 }
 
