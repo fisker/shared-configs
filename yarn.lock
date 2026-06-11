@@ -1469,7 +1469,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fisker/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    postcss-html: "npm:1.8.0"
+    postcss-html: "npm:1.8.1"
     stylelint-config-html: "npm:1.1.0"
     stylelint-config-recommended: "npm:17.0.0"
     stylelint-config-recommended-scss: "npm:16.0.2"
@@ -9857,15 +9857,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:1.8.0":
-  version: 1.8.0
-  resolution: "postcss-html@npm:1.8.0"
+"postcss-html@npm:1.8.1":
+  version: 1.8.1
+  resolution: "postcss-html@npm:1.8.1"
   dependencies:
     htmlparser2: "npm:^8.0.0"
     js-tokens: "npm:^9.0.0"
     postcss: "npm:^8.5.0"
     postcss-safe-parser: "npm:^6.0.0"
-  checksum: 10/563428f38c31fbada65d29d9079db8b163d339fb14d898ed807bf1f5a2488d5f6801788ba69dac47648f4f909e2ee77f971f4d71249b39ed2d1ed82b0a665ee4
+  checksum: 10/c218bb56ee5c7209ccdeeac8df07f3874d28f785aa81e58568bf60e9f5f67cd041a634b3961822a71c8db0f620cf6f8c6b8a9361362a94124dfc2ec2bd479b09
   languageName: node
   linkType: hard
 
