@@ -1349,7 +1349,7 @@ __metadata:
   dependencies:
     "@eslint/config-inspector": "npm:1.5.0"
     "@fisker/eslint-config": "workspace:*"
-    eslint-plugin-vue: "npm:10.6.2"
+    eslint-plugin-vue: "npm:10.9.2"
   peerDependencies:
     eslint: "*"
     prettier: "*"
@@ -5502,9 +5502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:10.6.2":
-  version: 10.6.2
-  resolution: "eslint-plugin-vue@npm:10.6.2"
+"eslint-plugin-vue@npm:10.9.2":
+  version: 10.9.2
+  resolution: "eslint-plugin-vue@npm:10.9.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     natural-compare: "npm:^1.4.0"
@@ -5515,14 +5515,14 @@ __metadata:
   peerDependencies:
     "@stylistic/eslint-plugin": ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     "@typescript-eslint/parser": ^7.0.0 || ^8.0.0
-    eslint: ^8.57.0 || ^9.0.0
-    vue-eslint-parser: ^10.0.0
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
+    vue-eslint-parser: ^10.3.0
   peerDependenciesMeta:
     "@stylistic/eslint-plugin":
       optional: true
     "@typescript-eslint/parser":
       optional: true
-  checksum: 10/6f9c55a9fbaf423b350bf9d3b470acabf33e5228c2489ee43e53be7095be45faed214e6f5a0f372793d2e2698f8b50c9236c229bff7fccd73b0d88f5ac277ee8
+  checksum: 10/bf7860f4e9581d7e9f029e13cb9533fab6727f83fe9671ee319568c39fb1e46faa52198ebc0f2d40bf6a295cb3064b40f28d530145dc736a3b2239f6346824ec
   languageName: node
   linkType: hard
 
