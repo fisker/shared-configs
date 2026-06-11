@@ -1398,7 +1398,7 @@ __metadata:
     eslint-plugin-es-x: "npm:9.6.0"
     eslint-plugin-n: "npm:17.23.1"
     eslint-plugin-promise: "npm:7.3.0"
-    eslint-plugin-regexp: "npm:2.10.0"
+    eslint-plugin-regexp: "npm:3.1.0"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
     eslint-plugin-sonarjs: "npm:3.0.5"
     eslint-plugin-sort-class-members: "npm:1.22.1"
@@ -5396,23 +5396,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-regexp@npm:2.10.0":
-  version: 2.10.0
-  resolution: "eslint-plugin-regexp@npm:2.10.0"
-  dependencies:
-    "@eslint-community/eslint-utils": "npm:^4.2.0"
-    "@eslint-community/regexpp": "npm:^4.11.0"
-    comment-parser: "npm:^1.4.0"
-    jsdoc-type-pratt-parser: "npm:^4.0.0"
-    refa: "npm:^0.12.1"
-    regexp-ast-analysis: "npm:^0.7.1"
-    scslre: "npm:^0.3.0"
-  peerDependencies:
-    eslint: ">=8.44.0"
-  checksum: 10/17f484f0b78a219f035c55983be12aebe0b08360bb3d236c7931e0afcdc857bbd0587bad8cd6748985ec91b2f588ea7ce3cb2ae107bcfa56e78aa54c73dc3834
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-regexp@npm:2.9.1":
   version: 2.9.1
   resolution: "eslint-plugin-regexp@npm:2.9.1"
@@ -5427,6 +5410,23 @@ __metadata:
   peerDependencies:
     eslint: ">=8.44.0"
   checksum: 10/c884b00f2d7f66317576a67ca157d9bc71c4abae259cce8261ed7ebe39fc33134a252fc47681cb3c04737b32fb796adb9bc0445b26461f21bd506f37377e22a7
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-regexp@npm:3.1.0":
+  version: 3.1.0
+  resolution: "eslint-plugin-regexp@npm:3.1.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.2.0"
+    "@eslint-community/regexpp": "npm:^4.11.0"
+    comment-parser: "npm:^1.4.0"
+    jsdoc-type-pratt-parser: "npm:^7.0.0"
+    refa: "npm:^0.12.1"
+    regexp-ast-analysis: "npm:^0.7.1"
+    scslre: "npm:^0.3.0"
+  peerDependencies:
+    eslint: ">=9.38.0"
+  checksum: 10/f16407a355c0984de39f16c45ddb99579e20490ac244f80bb73e5e494707e8bba3a80b95ebdeebdfa9b59700917cb4e77660e720085396dc124c5dd7c043a014
   languageName: node
   linkType: hard
 
@@ -7491,6 +7491,13 @@ __metadata:
   version: 4.1.0
   resolution: "jsdoc-type-pratt-parser@npm:4.1.0"
   checksum: 10/30d88f95f6cbb4a1aa6d4b0d0ae46eb1096e606235ecaf9bab7a3ed5da860516b5d1cd967182765002f292c627526db918f3e56d34637bcf810e6ef84d403f3f
+  languageName: node
+  linkType: hard
+
+"jsdoc-type-pratt-parser@npm:^7.0.0":
+  version: 7.2.0
+  resolution: "jsdoc-type-pratt-parser@npm:7.2.0"
+  checksum: 10/a09d7b1f535a77f2ebbe0a3ffb54ec72034d6f6d8de3fb498f77287d4ac97fc70540ed2689a89f2160b2b3918600e5576acfc1eaca496bfb1b9f9b27eae1c4cf
   languageName: node
   linkType: hard
 
