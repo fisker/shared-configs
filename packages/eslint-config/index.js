@@ -42,6 +42,11 @@ export default [
         ...globals.browser,
         ...globals.node,
       },
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
     },
     linterOptions: {
       reportUnusedDisableDirectives: 'error',
