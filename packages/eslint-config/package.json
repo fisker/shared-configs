@@ -48,7 +48,7 @@
     "eslint-plugin-simple-import-sort": "13.0.0",
     "eslint-plugin-sonarjs": "4.0.3",
     "eslint-plugin-sort-class-members": "1.22.1",
-    "eslint-plugin-unicorn": "62.0.0",
+    "eslint-plugin-unicorn": "65.0.1",
     "globals": "17.6.0"
   },
   "devDependencies": {
