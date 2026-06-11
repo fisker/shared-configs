@@ -29,7 +29,7 @@
   "dependencies": {
     "postcss-html": "1.8.1",
     "stylelint-config-html": "1.1.0",
-    "stylelint-config-recommended": "17.0.0",
+    "stylelint-config-recommended": "18.0.0",
     "stylelint-config-recommended-scss": "16.0.2",
     "stylelint-config-recommended-vue": "1.6.1",
     "stylelint-config-standard": "40.0.0",
