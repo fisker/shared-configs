@@ -47,7 +47,7 @@
     "eslint-plugin-regexp": "2.10.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "eslint-plugin-sonarjs": "3.0.5",
-    "eslint-plugin-sort-class-members": "1.21.0",
+    "eslint-plugin-sort-class-members": "1.22.1",
     "eslint-plugin-unicorn": "62.0.0",
     "globals": "17.6.0"
   },
