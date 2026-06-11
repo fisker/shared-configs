@@ -73,7 +73,7 @@ export default [
 
       'unicorn/relative-url-style': ['error', 'always'],
 
-      'unicorn/prefer-json-parse-buffer': 'error',
+      'unicorn/consistent-json-file-read': ['error', 'buffer'],
 
       'unicorn/switch-case-braces': ['error', 'avoid'],
 
@@ -94,6 +94,12 @@ export default [
           },
         },
       ],
+
+      'unicorn/better-dom-traversing': 'off',
+      'unicorn/consistent-compound-words': 'off',
+      'unicorn/prefer-https': 'off',
+      'unicorn/require-css-escape': 'off',
+      'unicorn/prefer-includes-over-repeated-comparisons': 'off',
     },
   },
 ]
