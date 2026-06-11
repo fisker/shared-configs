@@ -39,7 +39,7 @@
     "@babel/eslint-parser": "8.0.0-rc.6",
     "@eslint-community/eslint-plugin-eslint-comments": "4.5.0",
     "@eslint/js": "10.0.1",
-    "@stylistic/eslint-plugin": "5.6.1",
+    "@stylistic/eslint-plugin": "5.10.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-es-x": "9.3.0",
     "eslint-plugin-n": "17.23.1",
