@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises'
 import {readPackage} from 'read-pkg'
-import {writePackage} from 'write-pkg'
+import {writePackage} from 'write-package'
 import {PACKAGE_FIELD, PACKAGE_JSON_DIR} from '../constants.mjs'
 import * as presets from '../presets/index.mjs'
 
