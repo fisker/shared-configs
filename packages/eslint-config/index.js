@@ -1,4 +1,3 @@
-import babelEslintParser from '@babel/eslint-parser'
 import globals from 'globals'
 import ignores from './ignores/index.js'
 import builtinRules from './plugins/builtin-rules.js'
@@ -38,26 +37,10 @@ export default [
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-      parser: babelEslintParser,
       globals: {
         ...globals.builtin,
         ...globals.browser,
         ...globals.node,
-      },
-      parserOptions: {
-        requireConfigFile: false,
-        sourceType: 'module',
-        allowImportExportEverywhere: true,
-        ecmaFeatures: {
-          globalReturn: false,
-        },
-        babelOptions: {
-          babelrc: false,
-          configFile: false,
-          parserOpts: {
-            plugins: ['jsx'],
-          },
-        },
       },
     },
     linterOptions: {
