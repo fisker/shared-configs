@@ -12,6 +12,7 @@ export default [
       'default-case-last': 'error',
       'default-param-last': 'error',
       'grouped-accessor-pairs': ['error', 'getBeforeSet'],
+      'logical-assignment-operators': 'error',
       'no-promise-executor-return': 'error',
       'no-unused-vars': [
         'warn',
