@@ -20,8 +20,7 @@ function validateOptions({name, value}) {
     return typeof value === 'boolean'
   }
   if (type === 'choice') {
-    const choice = choices.find(({value: option}) => value === option)
-    return Boolean(choice)
+    return choices.some(({value: option}) => value === option)
   }
 }
 
@@ -31,7 +30,6 @@ function flat(array) {
       ...all,
       ...(Array.isArray(current) ? current : [current]),
     ],
-
     [],
   )
 }
