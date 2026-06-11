@@ -69,7 +69,7 @@ export default [
       // We'll enable later
       'unicorn/prefer-module': 'off',
 
-      'unicorn/prefer-export-from': ['error', {ignoreUsedVariables: true}],
+      'unicorn/prefer-export-from': ['error', {checkUsedVariables: false}],
 
       'unicorn/relative-url-style': ['error', 'always'],
 
