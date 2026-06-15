@@ -39,7 +39,7 @@ for (const file of files) {
 }
 
 // test('configs', async (t) => {
-//   const eslint = new ESLint.ESLint({
+//   const ESLint = new ESLint.ESLint({
 //     ignore: false,
 //     useEslintrc: false,
 //     overrideConfigFile: path.join(dirname, '../index.js'),

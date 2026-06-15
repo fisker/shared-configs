@@ -1,5 +1,5 @@
 const config = {
-  // effect js in html
+  // effect js in HTML
   singleQuote: true,
 }
 

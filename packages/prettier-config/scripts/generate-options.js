@@ -64,10 +64,8 @@ const readmeFile = path.join(dirname, '../readme.md')
 
 await prettierFile({
   file: readmeFile,
-  process(readme) {
-    return readme.replace(
+  process: (readme) => readme.replace(
       new RegExp(`${OPTIONS_START_MARK}.*?${OPTIONS_END_MARK}`, 'su'),
       content,
-    )
-  },
+    ),
 })
