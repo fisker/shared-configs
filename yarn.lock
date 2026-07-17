@@ -977,7 +977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.1.1, @eslint/core@npm:^1.2.1":
+"@eslint/core@npm:^1.2.1":
   version: 1.2.1
   resolution: "@eslint/core@npm:1.2.1"
   dependencies:
@@ -998,15 +998,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@eslint/json@npm:1.2.0"
+"@eslint/json@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@eslint/json@npm:2.0.1"
   dependencies:
-    "@eslint/core": "npm:^1.1.1"
-    "@eslint/plugin-kit": "npm:^0.6.1"
+    "@eslint/core": "npm:^1.2.1"
+    "@eslint/plugin-kit": "npm:^0.7.2"
     "@humanwhocodes/momoa": "npm:^3.3.10"
     natural-compare: "npm:^1.4.0"
-  checksum: 10/9528d75729f958739a2c994dd637e4aa8558840b4d0aecffd3054e8edd9246ecc165e8e84cd154c79cefe1ff063f585581f2e6d20ac66acfe488b0ae8a3fc0a1
+  checksum: 10/f6d222fbcfb0d3203a1dcb67574a797780951bd3f261d17963fe5c7c8a81338771b39cc178bd6cf27804a37f42b0bc47a11e5d067884dd7fcbc849060b43db7f
   languageName: node
   linkType: hard
 
@@ -1014,16 +1014,6 @@ __metadata:
   version: 3.0.5
   resolution: "@eslint/object-schema@npm:3.0.5"
   checksum: 10/42e9ec2551d7cafe1825f20494576c9a867dfd26e728b66620f55d954cd5c4c9c4987755d147893985b8d39b49dace31117e59e7bc9564eb411b397e579a50e7
-  languageName: node
-  linkType: hard
-
-"@eslint/plugin-kit@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@eslint/plugin-kit@npm:0.6.1"
-  dependencies:
-    "@eslint/core": "npm:^1.1.1"
-    levn: "npm:^0.4.1"
-  checksum: 10/8af22d94720b2474a992a80c5be7584baf75821386d25c34966b359fbc1e3a319989df721404c48c08b20e115683d6d0b344793dc354f5916c2d867c6c0aa04e
   languageName: node
   linkType: hard
 
@@ -1042,7 +1032,7 @@ __metadata:
   resolution: "@fisker/eslint-config-ava@workspace:packages/eslint-config-ava"
   dependencies:
     "@eslint/config-inspector": "npm:3.1.0"
-    eslint-plugin-ava: "npm:17.0.0"
+    eslint-plugin-ava: "npm:17.0.1"
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -4353,19 +4343,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ava@npm:17.0.0":
-  version: 17.0.0
-  resolution: "eslint-plugin-ava@npm:17.0.0"
+"eslint-plugin-ava@npm:17.0.1":
+  version: 17.0.1
+  resolution: "eslint-plugin-ava@npm:17.0.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.9.1"
-    "@eslint/json": "npm:^1.2.0"
+    "@eslint/json": "npm:^2.0.0"
     espree: "npm:^11.2.0"
     espurify: "npm:^3.2.0"
     micro-spelling-correcter: "npm:^1.1.1"
     resolve-from: "npm:^5.0.0"
   peerDependencies:
     eslint: ">=10"
-  checksum: 10/124efc2d175b3bb41cb1b8467daed370fb0117ee6e1463566358d8fd574b299b2b6bd03b6ac13f62ea42872c4bfeeeb192fed5f211f4bfb043b10e49992e3340
+  checksum: 10/05180d5ee2148be21eb0c1ff45653cc3fa16f6ead45406bde025b4c3174f95fa110ea999c2da7597e394e100eaa58ea215ac3aca1610742b42f52166179943f9
   languageName: node
   linkType: hard
 
