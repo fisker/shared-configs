@@ -34,7 +34,7 @@
     "eslint-plugin-jest": "29.15.2"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "3.0.4"
+    "@eslint/config-inspector": "3.1.0"
   },
   "peerDependencies": {
     "eslint": "*"
