@@ -57,17 +57,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:8.0.0-rc.6":
-  version: 8.0.0-rc.6
-  resolution: "@babel/eslint-parser@npm:8.0.0-rc.6"
+"@babel/eslint-parser@npm:8.0.1":
+  version: 8.0.1
+  resolution: "@babel/eslint-parser@npm:8.0.1"
   dependencies:
     eslint-scope: "npm:^9.1.0"
     eslint-visitor-keys: "npm:^5.0.0"
     semver: "npm:^7.7.3"
   peerDependencies:
-    "@babel/core": ^8.0.0-rc.6
+    "@babel/core": ^8.0.0
     eslint: ^9.0.0 || ^10.0.0
-  checksum: 10/13660987c16d233e2094db19d216bcdcbd02dfa58303eb7477e1fc831fadfdaf56efa0e92b7d5b173f42b27e0c2d09aed9e183d9b74a28224980b041a4607a83
+  checksum: 10/f12cd202a41ea8a671a85a6ff7e96b6291033085af7cb5e60979429d3d845bda6f4bcfdc3449f5204fff5429772e72c9458b548b5698bac46b50b28700b85fa2
   languageName: node
   linkType: hard
 
@@ -1078,7 +1078,7 @@ __metadata:
   resolution: "@fisker/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@babel/core": "npm:8.0.1"
-    "@babel/eslint-parser": "npm:8.0.0-rc.6"
+    "@babel/eslint-parser": "npm:8.0.1"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.7.2"
     "@eslint/config-inspector": "npm:3.1.0"
     "@eslint/js": "npm:10.0.1"
