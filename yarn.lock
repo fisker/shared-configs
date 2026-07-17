@@ -1123,7 +1123,7 @@ __metadata:
     "@stylistic/eslint-plugin": "npm:5.10.0"
     ava: "npm:8.0.1"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-es-x: "npm:9.6.0"
+    eslint-plugin-es-x: "npm:10.0.0"
     eslint-plugin-n: "npm:18.1.0"
     eslint-plugin-promise: "npm:7.3.0"
     eslint-plugin-regexp: "npm:3.1.0"
@@ -4558,16 +4558,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:9.6.0":
-  version: 9.6.0
-  resolution: "eslint-plugin-es-x@npm:9.6.0"
+"eslint-plugin-es-x@npm:10.0.0":
+  version: 10.0.0
+  resolution: "eslint-plugin-es-x@npm:10.0.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.1.2"
     "@eslint-community/regexpp": "npm:^4.12.1"
     eslint-type-tracer: "npm:^0.5.1"
   peerDependencies:
-    eslint: ">=9.29.0"
-  checksum: 10/c36fd401adbb83c83b5f052db7a54bd507e251b110d5865388b850e3a1b14fa146712dc2b7cdbb5583ed453b7b1d0b34df4aec22f62d411624d863c236196845
+    eslint: ">=10.6.0"
+  checksum: 10/543fa0dc7f814f91f31b7db3779a7360eac6909d816622ddcfbfdeb4b503605109eb350451fc2fa0708691dcc502db2ec197138be4bb9dec64ef3a68ad86dcea
   languageName: node
   linkType: hard
 
