@@ -25,7 +25,7 @@ export default [...fiskerEslintConfig]
 - [x] node plugin
 - [x] html plugin
 - [x] eslint-comments plugin
-- [x] ~optimize-regex plugin~ removed in favor of `unicorn/regex-shorthand`
+- [x] ~~optimize-regex plugin~~ removed in favor of `unicorn/regex-shorthand`
 - [ ] react plugin
 - [ ] webpack plugin (need evaluate)
 
