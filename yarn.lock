@@ -1086,7 +1086,7 @@ __metadata:
     ava: "npm:8.0.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-es-x: "npm:10.0.0"
-    eslint-plugin-n: "npm:18.1.0"
+    eslint-plugin-n: "npm:18.2.2"
     eslint-plugin-promise: "npm:7.3.0"
     eslint-plugin-regexp: "npm:3.1.1"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
@@ -4425,9 +4425,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:18.1.0":
-  version: 18.1.0
-  resolution: "eslint-plugin-n@npm:18.1.0"
+"eslint-plugin-n@npm:18.2.2":
+  version: 18.2.2
+  resolution: "eslint-plugin-n@npm:18.2.2"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -4446,7 +4446,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/3557362ce4935bf133e89ed901b9aa70db42d266c06d3ffe9f40d019900d9a9776ea6e226f45840371768f43e23ebe4152e7dd80b7f7de859be03039ff9ca5e3
+  checksum: 10/2fdffa782f8de914910fc3a0108dcc5a55ceede0b80324c8bf0b26de6eccd130d228388544c0bd13616d04aa1967e867ac54ea03680696ca15e9d3b8ee71f31f
   languageName: node
   linkType: hard
 
