@@ -30,6 +30,9 @@ export default [
           checkDefaultAndNamespaceImports: true,
           checkShorthandProperties: true,
           checkShorthandImports: true,
+          replacements: {
+            configuration: false,
+          },
         },
       ],
 
