@@ -1,9 +1,9 @@
 import toArray from './to-array.js'
 
 function parseCommands(languages) {
-  return Object.keys(languages)
-    .map((language) => {
-      const {extensions = language, commands = []} = languages[language]
+  return Object.entries(languages)
+    .map(([language, settings]) => {
+      const {extensions = language, commands = []} = settings
       return {
         extensions: toArray(extensions),
         commands: toArray(commands),

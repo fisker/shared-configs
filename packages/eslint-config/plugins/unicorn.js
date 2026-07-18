@@ -104,6 +104,10 @@ export default [
       'unicorn/require-css-escape': 'off',
       'unicorn/prefer-includes-over-repeated-comparisons': 'off',
       'unicorn/default-export-style': 'off',
+      'unicorn/no-unreadable-for-of-expression': 'off',
+      'unicorn/no-top-level-assignment-in-function': 'off',
+      'unicorn/no-unsafe-string-replacement': 'off',
+      'unicorn/require-array-sort-compare': 'off',
     },
   },
 ]
