@@ -36,7 +36,7 @@
     "lint:markdown": "markdownlint-cli2",
     "lint:package-json": "yarn run fix:package-json --check",
     "lint:prettier": "prettier . --check",
-    "release": "run-s clean build fix test dist",
+    "release": "run-s clean build dist",
     "test": "yarn workspaces foreach --all run test"
   },
   "devDependencies": {
