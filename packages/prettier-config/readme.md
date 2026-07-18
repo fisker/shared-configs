@@ -46,84 +46,84 @@ module.exports = require('@fisker/prettier-config').extend({
 | singleQuote               | true   | Use single quotes instead of double quotes.              |
 | trailingComma             | all    | Print trailing commas wherever possible when multi-line. |
 
-### \*.css
+### *.css
 
 | Option      | value | Description                                 |
 | :---------- | :---- | :------------------------------------------ |
 | parser      | css   | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.{gql,graphql}
+### *.{gql,graphql}
 
 | Option | value   | Description          |
 | :----- | :------ | :------------------- |
 | parser | graphql | Which parser to use. |
 
-### \*.{htm,html}
+### *.{htm,html}
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |
 | parser | html  | Which parser to use. |
 
-### \*.{cjs,js,jsx,mjs}
+### *.{cjs,js,jsx,mjs}
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |
 | parser | babel | Which parser to use. |
 
-### \*.json
+### *.json
 
 | Option      | value          | Description                                 |
 | :---------- | :------------- | :------------------------------------------ |
 | parser      | json-stringify | Which parser to use.                        |
 | singleQuote | false          | Use single quotes instead of double quotes. |
 
-### \*.json5
+### *.json5
 
 | Option      | value | Description                                 |
 | :---------- | :---- | :------------------------------------------ |
 | parser      | json5 | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.less
+### *.less
 
 | Option      | value | Description                                 |
 | :---------- | :---- | :------------------------------------------ |
 | parser      | less  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.{markdown,md}
+### *.{markdown,md}
 
 | Option | value    | Description          |
 | :----- | :------- | :------------------- |
 | parser | markdown | Which parser to use. |
 
-### \*.mdx
+### *.mdx
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |
 | parser | mdx   | Which parser to use. |
 
-### \*.scss
+### *.scss
 
 | Option      | value | Description                                 |
 | :---------- | :---- | :------------------------------------------ |
 | parser      | scss  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
-### \*.{cts,mts,ts,tsx}
+### *.{cts,mts,ts,tsx}
 
 | Option | value      | Description          |
 | :----- | :--------- | :------------------- |
 | parser | typescript | Which parser to use. |
 
-### \*.vue
+### *.vue
 
 | Option | value | Description          |
 | :----- | :---- | :------------------- |
 | parser | vue   | Which parser to use. |
 
-### \*.{yaml,yml}
+### *.{yaml,yml}
 
 | Option      | value | Description                                 |
 | :---------- | :---- | :------------------------------------------ |
