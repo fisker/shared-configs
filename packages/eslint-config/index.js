@@ -68,7 +68,7 @@ export default [
       // and also there is a option by `eslint-config-unicorn`
       'no-process-exit': 'off',
 
-      // Conflicts with `unicorn/prevent-abbreviations` auto fixing
+      // Conflicts with `unicorn/name-replacements` auto fixing
       'no-underscore-dangle': 'off',
 
       'n/no-unsupported-features/node-builtins': 'off',
