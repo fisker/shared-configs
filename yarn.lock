@@ -1164,7 +1164,6 @@ __metadata:
     eslint-plugin-promise: "npm:7.3.0"
     eslint-plugin-regexp: "npm:3.1.1"
     eslint-plugin-simple-import-sort: "npm:14.0.0"
-    eslint-plugin-sonarjs: "npm:4.2.0"
     eslint-plugin-sort-class-members: "npm:1.22.1"
     eslint-plugin-unicorn: "npm:72.0.0"
     globals: "npm:17.7.0"
@@ -4838,29 +4837,6 @@ __metadata:
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0 || ^10.0.0
   checksum: 10/e926116dddc37ede8dd62416893f6fa6523d3d3f7cec0e4345b767570ee4b502357db0f33d4bbac56d1dc11034ee6c35be2adaf174ca789642012c7862f20368
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-sonarjs@npm:4.2.0":
-  version: 4.2.0
-  resolution: "eslint-plugin-sonarjs@npm:4.2.0"
-  dependencies:
-    "@eslint-community/regexpp": "npm:^4.12.2"
-    builtin-modules: "npm:^3.3.0"
-    bytes: "npm:^3.1.2"
-    functional-red-black-tree: "npm:^1.0.1"
-    globals: "npm:^17.7.0"
-    jsx-ast-utils-x: "npm:^0.1.0"
-    lodash.merge: "npm:^4.6.2"
-    minimatch: "npm:^10.2.5"
-    scslre: "npm:^0.3.0"
-    semver: "npm:^7.8.5"
-    ts-api-utils: "npm:^2.5.0"
-    typescript: "npm:>=5 <6.1.0"
-    yaml: "npm:^2.9.0"
-  peerDependencies:
-    eslint: ^8.0.0 || ^9.0.0 || ^10.0.0
-  checksum: 10/1f68d935d9d083683d87cf1f799f62ecfe2f79d0f2627f65ca9cf59e28fab31409c6807a808ad5aee5e365cc7a3a0021b8bb71104168a87d7ab38e7cd384a731
   languageName: node
   linkType: hard
 
@@ -10717,16 +10693,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:>=5 <6.1.0":
-  version: 6.0.3
-  resolution: "typescript@npm:6.0.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/0ef2357a4cffd916b52b683a021cdab0f81eea4e9aa35f2d254581c9a5106da02224e3392e1b0ed42b7a48f80c966e5f52b8e1a27941fa0523c1705a9c2e0330
-  languageName: node
-  linkType: hard
-
 "typescript@patch:typescript@npm%3A>=3 < 6#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
@@ -10734,16 +10700,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10/696e1b017bc2635f4e0c94eb4435357701008e2f272f553d06e35b494b8ddc60aa221145e286c28ace0c89ee32827a28c2040e3a69bdc108b1a5dc8fb40b72e3
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@npm%3A>=5 <6.1.0#optional!builtin<compat/typescript>":
-  version: 6.0.3
-  resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 10/22b67a18dafedf9b1468b64ca20d9aa02ea61d449b65413d8aa6552aeb63f52ef369e86beb25b6b4c91a803d9726ee5c196f391a9b64201263263410a4223ee6
   languageName: node
   linkType: hard
 

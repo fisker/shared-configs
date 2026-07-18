@@ -8,7 +8,6 @@ import configPrettier from './plugins/prettier.js'
 import pluginPromise from './plugins/promise.js'
 import pluginRegexp from './plugins/regexp.js'
 import pluginSimpleImportSort from './plugins/simple-import-sort.js'
-import pluginSonarjs from './plugins/sonarjs.js'
 import pluginSortClassMember from './plugins/sort-class-members.js'
 import pluginStylistic from './plugins/stylistic.js'
 import pluginUnicorn from './plugins/unicorn.js'
@@ -23,7 +22,6 @@ export default [
   pluginUnicorn,
   pluginEslintComments,
   pluginRegexp,
-  pluginSonarjs,
   pluginSortClassMember,
   pluginSimpleImportSort,
   pluginStylistic,
