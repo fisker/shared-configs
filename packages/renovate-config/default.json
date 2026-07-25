@@ -23,6 +23,7 @@
     ":automergeLinters",
     ":semanticCommits",
     ":timezone(Asia/Shanghai)",
+    ":pinDevDependencies",
     ":assignee(fisker)",
     ":reviewer(fisker)"
   ],
@@ -35,9 +36,13 @@
       ]
     },
     {
-      "groupName": "devDependencies",
+      "groupName": "non-major dev-dependencies",
       "matchDepTypes": [
         "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
       ]
     }
   ],
