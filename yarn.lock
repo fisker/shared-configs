@@ -1053,7 +1053,7 @@ __metadata:
   resolution: "@fisker/eslint-config-jest@workspace:packages/eslint-config-jest"
   dependencies:
     "@eslint/config-inspector": "npm:3.1.0"
-    eslint-plugin-jest: "npm:29.15.4"
+    eslint-plugin-jest: "npm:29.16.0"
   peerDependencies:
     eslint: "*"
   languageName: unknown
@@ -4432,16 +4432,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:29.15.4":
-  version: 29.15.4
-  resolution: "eslint-plugin-jest@npm:29.15.4"
+"eslint-plugin-jest@npm:29.16.0":
+  version: 29.16.0
+  resolution: "eslint-plugin-jest@npm:29.16.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.0.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^8.0.0
     eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     jest: "*"
-    typescript: ">=4.8.4 <7.0.0"
+    typescript: ">=4.8.4 <8.0.0"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
@@ -4449,7 +4449,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/5b8e710828983fd1b1093fbe85248ebced7650ddc9d953cba8840cce89a43fd040be23848b47b26a68e2bebe9395e9acc3c64577f39a78c6b4dde0659636b764
+  checksum: 10/f57ddcfe950dde5792bee08a7dfe10e7a557c35a23a7e37f7c174e17271993b9310f180d253e3f4fbe31f205ffc1cff111131b47e24471601bef50493e4403a8
   languageName: node
   linkType: hard
 
