@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@fisker/eslint-config": "^16.1.1",
-    "eslint-plugin-vue": "10.9.2"
+    "eslint-plugin-vue": "10.10.0"
   },
   "devDependencies": {
     "@eslint/config-inspector": "3.1.0",
